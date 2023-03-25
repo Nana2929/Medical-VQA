@@ -2,12 +2,10 @@
 
 #-------------------------------------------------------------------------------
 # Name:         vqa_dataset
-# Description:  
+# Description:
 # Author:       Boliu.Kelvin, Sedigheh Eslami
 # Date:         2020/5/1
 #-------------------------------------------------------------------------------
-
-
 """
 This code is modified based on Jin-Hwa Kim's repository (Bilinear Attention Networks - https://github.com/jnhwkim/ban-vqa) by Xuan B. Nguyen
 """
@@ -19,7 +17,7 @@ import numpy as np
 from utils import utils
 import torch
 from language.language_model import WordEmbedding
-from torch.utils.data import Dataset,DataLoader
+from torch.utils.data import Dataset, DataLoader
 import itertools
 import warnings
 import h5py
@@ -28,8 +26,11 @@ import clip
 
 import argparse
 with warnings.catch_warnings():
-    warnings.filterwarnings("ignore",category=FutureWarning)
+    warnings.filterwarnings("ignore", category=FutureWarning)
 COUNTING_ONLY = False
+
+img_name_key = 'image_name'
+
 
 # Following Trott et al. (ICLR 2018)
 #   Interpretable Counting for Visual Question Answering
@@ -45,13 +46,16 @@ def is_howmany(q, a, label2ans):
     else:
         return False
 
+
 def answer_filter(answers, label2ans, max_num=10):
     for ans in answers['labels']:
         if label2ans[ans].isdigit() and max_num >= int(label2ans[ans]):
             return True
     return False
 
+
 class Dictionary(object):
+
     def __init__(self, word2idx=None, idx2word=None):
         if word2idx is None:
             word2idx = {}
@@ -76,7 +80,10 @@ class Dictionary(object):
             sentence = sentence.replace("? -open", "")
         if "? - open" in sentence:
             sentence = sentence.replace("? - open", "")
-        sentence = sentence.replace(',', '').replace('?', '').replace('\'s', ' \'s').replace('...', '').replace('x ray', 'x-ray').replace('.', '')
+        sentence = sentence.replace(',', '').replace('?', '').replace(
+            '\'s', ' \'s').replace('...',
+                                   '').replace('x ray',
+                                               'x-ray').replace('.', '')
         words = sentence.split()
         tokens = []
         if add_word:
@@ -85,7 +92,7 @@ class Dictionary(object):
         else:
             for w in words:
                 # if a word is not in dictionary, it will be replaced with the last word of dictionary.
-                tokens.append(self.word2idx.get(w, self.padding_idx-1))
+                tokens.append(self.word2idx.get(w, self.padding_idx - 1))
         return tokens
 
     def dump_to_file(self, path):
@@ -108,28 +115,32 @@ class Dictionary(object):
     def __len__(self):
         return len(self.idx2word)
 
+
 def _create_entry(img, data, answer):
-    if None!=answer:
-        answer.pop('image_name')
+    if None != answer:
+        answer.pop(img_name_key)
         answer.pop('qid')
     entry = {
-        'qid' : data['qid'],
-        'image_name'    : data['image_name'],
-        'image'       : img,
-        'question'    : data['question'],
-        'answer'      : answer,
+        'qid': data['qid'],
+        'image_name': data['image_name'],
+        'image': img,
+        'question': data['question'],
+        'answer': answer,
         'answer_text': data['answer'],
-        'answer_type' : data['answer_type'],
+        'answer_type': data['answer_type'],
         'question_type': data['question_type'],
-        'phrase_type' : data['phrase_type']}
+        'phrase_type': data['phrase_type']
+    }
     return entry
 
+
 def is_json(myjson):
-  try:
-    json_object = json.loads(myjson)
-  except ValueError:
-    return False
-  return True
+    try:
+        json_object = json.loads(myjson)
+    except ValueError:
+        return False
+    return True
+
 
 def _load_dataset(dataroot, name, img_id2val, label2ans):
     """Load entries
@@ -140,70 +151,86 @@ def _load_dataset(dataroot, name, img_id2val, label2ans):
     """
     data_path = os.path.join(dataroot, name + 'set.json')
     samples = json.load(open(data_path))
-    samples = sorted(samples, key=lambda x: x['qid'])
+    samples = sorted(samples, key=lambda x: int(x['qid']))
 
-    answer_path = os.path.join(dataroot, 'cache', '%s_openclose_target.pkl' % name)
+    answer_path = os.path.join(dataroot, 'cache',
+                               '%s_openclose_target.pkl' % name)
     answers = cPickle.load(open(answer_path, 'rb'))
-    answers = sorted(answers, key=lambda x: x['qid'])
-
+    answers = sorted(answers, key=lambda x: int(x['qid']))
     utils.assert_eq(len(samples), len(answers))
     entries = []
     for sample, answer in zip(samples, answers):
+        from pprint import pprint
+        pprint(sample)
+        pprint(answer)
         utils.assert_eq(sample['qid'], answer['qid'])
-        utils.assert_eq(sample['image_name'], answer['image_name'])
+        utils.assert_eq(sample['image_name'], answer[img_name_key])
         img_id = sample['image_name']
-        if not COUNTING_ONLY or is_howmany(sample['question'], answer, label2ans):
+        if not COUNTING_ONLY or is_howmany(sample['question'], answer,
+                                           label2ans):
             entries.append(_create_entry(img_id2val[img_id], sample, answer))
 
     return entries
 
+
 class VQARADFeatureDataset(Dataset):
+
     def __init__(self, name, cfg, dictionary, dataroot='data'):
         super(VQARADFeatureDataset, self).__init__()
         question_len = cfg.TRAIN.QUESTION.LENGTH
         self.cfg = cfg
         self.name = name
         assert name in ['train', 'test']
-        ans2label_path = os.path.join(dataroot, 'cache', 'trainval_ans2label.pkl')
-        label2ans_path = os.path.join(dataroot, 'cache', 'trainval_label2ans.pkl')
+        ans2label_path = os.path.join(dataroot, 'cache',
+                                      'trainval_ans2label.pkl')
+        label2ans_path = os.path.join(dataroot, 'cache',
+                                      'trainval_label2ans.pkl')
         self.ans2label = cPickle.load(open(ans2label_path, 'rb'))
         self.label2ans = cPickle.load(open(label2ans_path, 'rb'))
-        self.num_ans_candidates =  487 # 56 431
+        # self.num_ans_candidates =  547 # 487 56 431
 
         # close & open
-        self.label2close = cPickle.load(open(os.path.join(dataroot,'cache','close_label2ans.pkl'),'rb'))
-        self.label2open = cPickle.load(open(os.path.join(dataroot, 'cache', 'open_label2ans.pkl'), 'rb'))
+        self.label2close = cPickle.load(
+            open(os.path.join(dataroot, 'cache', 'close_label2ans.pkl'), 'rb'))
+        self.label2open = cPickle.load(
+            open(os.path.join(dataroot, 'cache', 'open_label2ans.pkl'), 'rb'))
         self.num_open_candidates = len(self.label2open)
         self.num_close_candidates = len(self.label2close)
+
+        self.num_ans_candidates = self.num_close_candidates + self.num_open_candidates
+        # print(self.num_close_candidates, self.num_open_candidates, self.num_ans_candidates)
 
         # End get the number of answer type class
         self.dictionary = dictionary
 
         # TODO: load img_id2idx
-        self.img_id2idx = json.load(open(os.path.join(dataroot, 'imgid2idx.json')))
+        self.img_id2idx = json.load(
+            open(os.path.join(dataroot, 'imgid2idx.json')))
 
-        self.entries = _load_dataset(dataroot, name, self.img_id2idx, self.label2ans)
-        
-         # load image data for MAML module
+        self.entries = _load_dataset(dataroot, name, self.img_id2idx,
+                                     self.label2ans)
+
+        # load image data for MAML module
         if self.cfg.TRAIN.VISION.MAML:
             # TODO: load images
             images_path = os.path.join(dataroot, 'images84x84.pkl')
-            print('loading MAML image data from file: '+ images_path)
+            print('loading MAML image data from file: ' + images_path)
             self.maml_images_data = cPickle.load(open(images_path, 'rb'))
         # load image data for Auto-encoder module
         if self.cfg.TRAIN.VISION.AUTOENCODER:
             # TODO: load images
             images_path = os.path.join(dataroot, 'images128x128.pkl')
-            print('loading DAE image data from file: '+ images_path)
+            print('loading DAE image data from file: ' + images_path)
             self.ae_images_data = cPickle.load(open(images_path, 'rb'))
         if self.cfg.TRAIN.VISION.CLIP:
             if self.cfg.TRAIN.VISION.CLIP_VISION_ENCODER == "RN50x4":
                 images_path = os.path.join(dataroot, 'images288x288.pkl')
             else:
+                print('loading 250x250')
                 images_path = os.path.join(dataroot, 'images250x250.pkl')
             print(f"loading CLIP image data from file: {images_path}")
             self.clip_images_data = cPickle.load(open(images_path, 'rb'))
-        
+
         # tokenization
         self.tokenize(question_len)
         self.tensorize()
@@ -218,13 +245,14 @@ class VQARADFeatureDataset(Dataset):
         This will add q_token in each entry of the dataset.
         -1 represent nil, and should be treated as padding_idx in embedding
         """
-        
+
         for entry in self.entries:
             tokens = self.dictionary.tokenize(entry['question'], False)
             tokens = tokens[:max_length]
             if len(tokens) < max_length:
                 # Note here we pad in front of the sentence
-                padding = [self.dictionary.padding_idx] * (max_length - len(tokens))
+                padding = [self.dictionary.padding_idx
+                           ] * (max_length - len(tokens))
                 tokens = tokens + padding
             utils.assert_eq(len(tokens), max_length)
             entry['q_token'] = tokens
@@ -232,18 +260,20 @@ class VQARADFeatureDataset(Dataset):
     def tensorize(self):
         if self.cfg.TRAIN.VISION.MAML:
             self.maml_images_data = torch.from_numpy(self.maml_images_data)
-            self.maml_images_data = self.maml_images_data.type('torch.FloatTensor')
+            self.maml_images_data = self.maml_images_data.type(
+                'torch.FloatTensor')
         if self.cfg.TRAIN.VISION.AUTOENCODER:
             self.ae_images_data = torch.from_numpy(self.ae_images_data)
             self.ae_images_data = self.ae_images_data.type('torch.FloatTensor')
         if self.cfg.TRAIN.VISION.CLIP:
             self.clip_images_data = torch.from_numpy(self.clip_images_data)
-            self.clip_images_data = self.clip_images_data.type('torch.FloatTensor')
+            self.clip_images_data = self.clip_images_data.type(
+                'torch.FloatTensor')
         for entry in self.entries:
             question = np.array(entry['q_token'])
             entry['q_token'] = question
             answer = entry['answer']
-            if None!=answer:
+            if None != answer:
                 labels = np.array(answer['labels'])
                 scores = np.array(answer['scores'], dtype=np.float32)
                 if len(labels):
@@ -265,24 +295,29 @@ class VQARADFeatureDataset(Dataset):
         phrase_type = entry['phrase_type']
         image_data = [0, 0, 0]
         if self.cfg.TRAIN.VISION.MAML:
-            maml_images_data = self.maml_images_data[entry['image']].reshape(84*84)
+            maml_images_data = self.maml_images_data[entry['image']].reshape(
+                84 * 84)
             image_data[0] = maml_images_data
         if self.cfg.TRAIN.VISION.AUTOENCODER:
-            ae_images_data = self.ae_images_data[entry['image']].reshape(128*128)
+            ae_images_data = self.ae_images_data[entry['image']].reshape(128 *
+                                                                         128)
             image_data[1] = ae_images_data
         if self.cfg.TRAIN.VISION.CLIP:
             if self.cfg.TRAIN.VISION.CLIP_VISION_ENCODER == "RN50x4":
-                clip_images_data = self.clip_images_data[entry['image']].reshape(3*288*288)
+                clip_images_data = self.clip_images_data[
+                    entry['image']].reshape(3 * 288 * 288)
             else:
-                clip_images_data = self.clip_images_data[entry['image']].reshape(3*250*250)
+                clip_images_data = self.clip_images_data[
+                    entry['image']].reshape(3 * 250 * 250)
             image_data[2] = clip_images_data
 
         question_data[0] = entry['q_token']
         if answer_type == 'CLOSED':
             answer_target = 0
-        else :
+        else:
             answer_target = 1
-
+        # print(self.num_ans_candidates, self.num_close_candidates,
+            #   self.num_open_candidates)
         if None!=answer:
             labels = answer['labels']
             scores = answer['scores']
@@ -401,4 +436,3 @@ if __name__=='__main__':
         image_data, question, target, answer_type, question_type, phrase_type, answer_target = row
         print(target.shape)
         break
-

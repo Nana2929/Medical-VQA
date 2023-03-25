@@ -14,7 +14,7 @@ from tqdm import tqdm
 def imageresize(img2idx_jsonpath, img_folderpath, reshape_size, out_path, channels):
     with open(img2idx_jsonpath) as f:
         img2idx = json.load(f)
-    
+
     if channels == 3:
         imgs = np.ndarray(shape=(len(img2idx), reshape_size, reshape_size, 3), dtype=float)
     else:
@@ -49,7 +49,7 @@ def imageresize(img2idx_jsonpath, img_folderpath, reshape_size, out_path, channe
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create image84x84 and image128x128 for all train, val, test images.")
     parser.add_argument("img2idx_json", type=str, help="Path to img2idx.json file")
-    parser.add_argument("allimgs_folder", type=str, help="Path to all images folder")
+    parser.add_argument("allimgs_folder", type=str, help="/home/nanaeilish/projects/mis/PubMedCLIP/QCR_PubMedCLIP/data/data_rad/images")
     parser.add_argument("size", type=int, help="Reshape size")
     parser.add_argument("out_path", type=str, help="Path to output file for reshaped images")
     parser.add_argument("channels", type=int, help="Path to output file for reshaped images")

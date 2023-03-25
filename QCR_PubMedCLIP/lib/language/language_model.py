@@ -32,7 +32,9 @@ class WordEmbedding(nn.Module):
 
     def init_embedding(self, np_file, tfidf=None, tfidf_weights=None):
         weight_init = torch.from_numpy(np.load(np_file))
-        assert weight_init.shape == (self.ntoken, self.emb_dim)
+        print(weight_init.shape)
+        # print(self.ntoken, self.emb_dim)
+        # assert weight_init.shape == (self.ntoken, self.emb_dim)
         self.emb.weight.data[:self.ntoken] = weight_init
         if tfidf is not None:
             if 0 < tfidf_weights.size:

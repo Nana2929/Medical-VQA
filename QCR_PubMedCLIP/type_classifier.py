@@ -2,27 +2,27 @@
 
 #-------------------------------------------------------------------------------
 # Name:         classify_question
-# Description:  
+# Description:
 # Author:       Boliu.Kelvin
 # Date:         2020/5/14
 #-------------------------------------------------------------------------------
 
 
-import _init_paths
+from main import _init_paths
 import torch
-from config import cfg, update_config
-from dataset import *
+from lib.config import cfg, update_config
+from lib.dataset import *
 import torch.nn as nn
 import os
 from torch.utils.data import DataLoader
-from utils.create_dictionary import Dictionary
-from language.language_model import WordEmbedding,QuestionEmbedding
+from lib.utils.create_dictionary import Dictionary
+from lib.language.language_model import WordEmbedding,QuestionEmbedding
 import argparse
 from torch.nn.init import kaiming_uniform_, xavier_uniform_
 import torch.nn.functional as F
-from utils import utils
+from lib.utils import utils
 from datetime import datetime
-from language.classify_question import classify_model
+from lib.language.classify_question import classify_model
 
 
 def parse_args():
@@ -32,7 +32,7 @@ def parse_args():
             "--cfg",
             help="decide which cfg to use",
             required=False,
-            default="/home/test.yaml",
+            default="/home/nanaeilish/projects/mis/PubMedCLIP/QCR_PubMedCLIP/configs/qcr_pubmedclipRN50_ae_rad_16batchsize_withtfidf_nondeterministic.yaml",
             type=str,
             )
     # GPU config
@@ -68,7 +68,7 @@ def evaluate(model, dataloader,logger,device):
 if __name__=='__main__':
     args = parse_args()
     update_config(cfg, args)
-    dataroot = cfg.DATASET.DATA_DIR 
+    dataroot = cfg.DATASET.DATA_DIR
     # # set GPU device
     device = torch.device("cuda:" + str(args.gpu) if args.gpu >= 0 else "cpu")
 
@@ -79,10 +79,10 @@ if __name__=='__main__':
     torch.backends.cudnn.deterministic = True
 
     d = Dictionary.load_from_file(os.path.join(dataroot, 'dictionary.pkl'))
-    train_dataset = VQASLAKEFeatureDataset('train', cfg, d, dataroot=dataroot)
+    train_dataset = VQARADFeatureDataset('train', cfg, d, dataroot=dataroot)
     train_data = DataLoader(train_dataset, batch_size=32, shuffle=True, num_workers=2, pin_memory=True, drop_last=False)
 
-    val_dataset = VQASLAKEFeatureDataset('test', cfg, d, dataroot=dataroot)
+    val_dataset = VQARADFeatureDataset('test', cfg, d, dataroot=dataroot)
     val_data = DataLoader(val_dataset, batch_size=32, shuffle=False, num_workers=2, pin_memory=True, drop_last=False)
 
     net = classify_model(d.ntoken, os.path.join(dataroot, 'glove6b_init_300d.npy'))
@@ -91,7 +91,7 @@ if __name__=='__main__':
     run_timestamp = datetime.now().strftime("%Y%b%d-%H%M%S")
     ckpt_path = os.path.join('./log', run_timestamp)
     utils.create_dir(ckpt_path)
-    model_path = os.path.join(ckpt_path, "best_model.pth")
+    model_path = os.path.join(ckpt_path, "rad_type_classifier.pth")
     # create logger
     logger = utils.Logger(os.path.join(ckpt_path, 'medVQA.log')).get_logger()
     logger.info(">>>The net is:")
@@ -101,7 +101,7 @@ if __name__=='__main__':
 
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(net.parameters(), lr=1e-4)
-    
+
     epochs = 200
     best_eval_score = 0
     best_epoch = 0
@@ -120,11 +120,11 @@ if __name__=='__main__':
             optimizer.step()
             pred = output.data.max(1)[1]
             correct = (pred==answer_target).data.cpu().sum()
-            
+
             acc += correct.item()
             number_dataset += len(answer_target)
             total_loss+= loss
-        
+
         total_loss /= len(train_data)
         acc = acc/ number_dataset * 100.
 

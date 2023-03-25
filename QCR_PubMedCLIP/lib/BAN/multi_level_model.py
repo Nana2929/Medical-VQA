@@ -7,7 +7,7 @@
 import torch
 import torch.nn as nn
 from language.language_model import WordEmbedding, QuestionEmbedding
-from classifier import SimpleClassifier
+from lib.classifier import SimpleClassifier
 from network.connect import FCNet
 from network.connect import BCNet
 from network.counting import Counter
@@ -15,7 +15,7 @@ from utils.utils import tfidf_loading
 from network.maml import SimpleCNN
 from network.auto_encoder import Auto_Encoder_Model
 from torch.nn.utils.weight_norm import weight_norm
-from language.classify_question import typeAttention 
+from language.classify_question import typeAttention
 import clip
 import os
 
@@ -94,7 +94,7 @@ def seperate(v,q,a,att, answer_target, n_unique_close):     #q: b x 12 x 1024  v
             q = q.unsqueeze(1)
     return v[indexs_open,:,:],v[indexs_close,:,:],q[indexs_open,:,:],\
             q[indexs_close,:,:],a[indexs_open, n_unique_close:],a[indexs_close,:n_unique_close],att[indexs_open,:],att[indexs_close,:], indexs_open, indexs_close
- 
+
 
 # Create BAN model
 class BAN_Model(nn.Module):
@@ -111,6 +111,8 @@ class BAN_Model(nn.Module):
         # for close att+ resnet + classify
         self.close_att = BiAttention(dataset.v_dim, cfg.TRAIN.QUESTION.HID_DIM, cfg.TRAIN.QUESTION.HID_DIM, cfg.TRAIN.ATTENTION.GLIMPSE)
         self.close_resnet = BiResNet(cfg, dataset)
+
+
         self.close_classifier = SimpleClassifier(cfg.TRAIN.QUESTION.CLS_HID_DIM, cfg.TRAIN.QUESTION.CLS_HID_DIM * 2, dataset.num_close_candidates, cfg)
 
         # for open_att + resnet + classify
@@ -121,7 +123,7 @@ class BAN_Model(nn.Module):
         self.bbn_classifier = SimpleClassifier(cfg.TRAIN.QUESTION.CLS_HID_DIM*2, cfg.TRAIN.QUESTION.CLS_HID_DIM * 3, dataset.num_ans_candidates, cfg)
         path = os.path.join(self.cfg.DATASET.DATA_DIR, "glove6b_init_300d.npy")
         self.typeatt = typeAttention(dataset.dictionary.ntoken, path)
-        
+
         # build and load pre-trained MAML model
         if cfg.TRAIN.VISION.MAML:
             weight_path = cfg.DATASET.DATA_DIR + '/' + cfg.TRAIN.VISION.MAML_PATH
@@ -147,7 +149,7 @@ class BAN_Model(nn.Module):
         # Loading the other net
         if cfg.TRAIN.VISION.OTHER_MODEL:
             pass
-        
+
     def forward(self, v, q, a, answer_target):
         """Forward
         v: [batch, num_objs, obj_dim]
@@ -179,7 +181,7 @@ class BAN_Model(nn.Module):
 
         # get type attention
         type_att = self.typeatt(q)
-        # get lextual feature    global 
+        # get lextual feature    global
         w_emb = self.w_emb(q[0])
         q_emb = self.q_emb.forward_all(w_emb) # [batch, q_len, q_dim]
 
@@ -207,7 +209,7 @@ class BAN_Model(nn.Module):
         return self.close_classifier(close_feat), self.open_classifier(open_feat)
     def bbn_classify(self, bbn_mixed_feature):
         return self.bbn_classifier(bbn_mixed_feature)
-    
+
     def forward_classify(self,v,q,a,classify, n_unique_close):
         # get visual feature
         if self.cfg.TRAIN.VISION.MAML:
@@ -233,7 +235,7 @@ class BAN_Model(nn.Module):
 
         # get type attention
         type_att = self.typeatt(q)
-        # get lextual feature    global 
+        # get lextual feature    global
         w_emb = self.w_emb(q[0])
         q_emb = self.q_emb.forward_all(w_emb) # [batch, q_len, q_dim]
         # get open & close feature

@@ -5,20 +5,20 @@
 # Description:  the entrance of procedure
 #-------------------------------------------------------------------------------
 
-import _init_paths
-from config import cfg, update_config
+from main import _init_paths
+from lib.config import cfg, update_config
 import argparse
-from dataset import *
-from utils.create_dictionary import Dictionary
+from lib.dataset import *
+from lib.utils.create_dictionary import Dictionary
 import os
 from torch.utils.data import DataLoader
-import utils
-from BAN.multi_level_model import BAN_Model
+from lib import utils
+from lib.BAN.multi_level_model import BAN_Model
 import torch
-from train import train
-from test import test
-from language.classify_question import classify_model
-from language import language_model
+from main.train import train
+from main.test import test
+from lib.language.classify_question import classify_model
+from lib.language import language_model
 
 
 def parse_args():
@@ -75,21 +75,28 @@ if __name__ == '__main__':
     # load the model
     glove_weights_path = os.path.join(data_dir, "glove6b_init_300d.npy")
     question_classify = classify_model(d.ntoken, glove_weights_path)
+    # 符合所提供的 ckpt dimension
+    # question_classify = classify_model(1178, glove_weights_path)
+    print('preparing dataset done')
     if cfg.DATASET.DATASET == "SLAKE":
         ckpt = './saved_models/type_classifier_slake.pth'
         pretrained_model = torch.load(ckpt, map_location='cuda:0')['model_state']
     else:
         ckpt = './saved_models/type_classifier.pth'
         qtype_ckpt = './saved_models/qtype_classifier.pth'
+        print(torch.cuda.get_arch_list())
+        print(torch.cuda.is_available())
         pretrained_model = torch.load(ckpt, map_location='cuda:0')
     question_classify.load_state_dict(pretrained_model)
-
+    print('loading question model done')
     # training phase
     # create VQA model and question classify model
+
     if args.test:
         model = BAN_Model(val_dataset, cfg, device)
         model_data = torch.load(cfg.TEST.MODEL_FILE)
         model.load_state_dict(model_data.get('model_state', model_data), strict=False)
+
         test(cfg, model, question_classify, val_loader, train_dataset.num_close_candidates, args.device)
     else:
         model = BAN_Model(train_dataset, cfg, device)

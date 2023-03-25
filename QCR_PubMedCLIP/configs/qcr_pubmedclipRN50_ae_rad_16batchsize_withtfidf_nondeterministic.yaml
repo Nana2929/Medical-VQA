@@ -5,18 +5,18 @@ SEED: 88
 
 DATASET:
   DATASET: "RAD"
-  DATA_DIR: "./data/data_rad"
+  DATA_DIR: "/home/nanaeilish/projects/mis/PubMedCLIP/QCR_PubMedCLIP/data/data_rad"
   DATA_TYPE: 'jpg'
 
 LOSS:
   LOSS_TYPE: 'BCELogits'
 
 TRAIN:
-  BATCH_SIZE: 16 
+  BATCH_SIZE: 16
   N_EPOCH: 200
-  NUM_WORKERS: 2 
-  RESUME: False 
-  INPUT_SNAPSHOT: "" 
+  NUM_WORKERS: 2
+  RESUME: False
+  INPUT_SNAPSHOT: ""
   OPTIMIZER:
     TYPE: 'ADAMX'
     BASE_LR: 1e-3
@@ -37,12 +37,12 @@ TRAIN:
     HID_DIM: 1024   ## Dim of joint semantic features
   VISION:
     V_DIM: 1088    ## Visual input dim : 1024 + 64
-    AUTOENCODER: True 
+    AUTOENCODER: True
     AE_PATH: "pretrained_ae.pth"
     AE_ALPHA: 0.001
     MAML: False
     CLIP: True
-    CLIP_PATH: "path/to/fine-tuned/PubMedCLIP"
+    CLIP_PATH: "/home/nanaeilish/projects/mis/PubMedCLIP/PubMedCLIP_RN50.pth"
     CLIP_VISION_ENCODER: "RN50"
     OTHER_MODEL: False
 
@@ -50,7 +50,7 @@ TRAIN:
 TRANSFORMS:
   TRAIN_TRANSFORMS: ("random_resized_crop", "random_horizontal_flip")
   TEST_TRANSFORMS: ("shorter_resize_for_crop", "center_crop")
-  
+
 TEST:
-  BATCH_SIZE: 8 
+  BATCH_SIZE: 8
   NUM_WORKERS: 4

@@ -21,8 +21,10 @@ image–question pair ($vi$, $qi$) to the natural language answer $ai$.
 It looks like there are 2 pipelines for constructing the model pipeline:
     (a) MEVF: Overcoming Data Limitation in Medical Visual Question Answering
     (b) QCR: Medical Visual Question Answering via Conditional Reasoning [paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413761?casa_token=E_IrwKfXPEMAAAAA:IC1Epmj0HbdWYzZWUfPpjbBJuMuL-iTdGbe1kVr5UQ4iVvfTgN_mgDBBEjyhqNBzRanKKlzyVQ)
-QCR (PubMedClip-RN50+AE) acheives the  best accuracy.
-Bugfixes:
+
+**QCR (PubMedClip-RN50+AE)** acheives the  best accuracy.
+
+### Bugfixes:
 1. 我不確定哪裡可以下載 `imgid2idx.json` 的檔案。已經修好（`run.sh` 內忘記執行）
 ```
 # error message that does not seem to interfere: lib/utils/run.sh
@@ -43,15 +45,15 @@ NameError: name 'intersection' is not defined
 4. 留意 cuda driver 版本問題。
 5. `QCR_PubMedCLIP/lib/utils` 資料夾下的 `run.sh` 裡面只要執行 create_resized_images 的 scripts 就好，其他的檔案用 `Awenbocc/med-vqa` 的。
 6. 可以用這個指令確認 $PWD 底下的.jpg images 數量：`find . -name "*.jpg" | wc -l`
-```
-## 2.1 Training log
-> 要訓練 200 epochs 天啊
-```
-023-03-25 15:21:19,844 INFO     [Train] Loss:0.027509 , Train_Acc:54.210182%
-2023-03-25 15:21:19,844 INFO     [Train] Loss_Open:0.002200 , Loss_Close:0.001398%
-2023-03-25 15:21:22,182 INFO     [Validate] Val_Acc:48.337029%  |  Open_ACC:11.666667%   |  Close_ACC:72.693726%
-2023-03-25 15:21:23,688 INFO     [Result] The best acc is 48.337029% at epoch 5
-```
 
+## 2.1 Training log
+
+```
+2023-03-25 15:41:21,394 INFO     [Validate] Val_Acc:67.184036%  |  Open_ACC:46.408840%   |  Close_ACC:81.111107%
+2023-03-25 15:41:22,982 INFO     [Result] The best acc is 67.184036% at epoch 22
+```
+## 2.2 Pretrained checkpoints saved at:
+
+`/home/nanaeilish/projects/mis/PubMedCLIP/QCR_PubMedCLIP/output/qcr/pubmedclipRN50_ae`
 ## 3. Exporting the prediction on `VQA-RAD`
 ## 4. Use the prediction and the data itself for data EDA

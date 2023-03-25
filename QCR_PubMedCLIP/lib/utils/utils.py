@@ -18,7 +18,7 @@ import functools
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch._six import string_classes
+# from torch import string_classes
 from torch.utils.data.dataloader import default_collate
 import logging
 from utils.create_dictionary import Dictionary
@@ -26,7 +26,10 @@ import itertools
 import _pickle as cPickle
 import json
 import pandas as pd
+from lib.language import language_model
 
+import sys
+sys.path.append('/home/nanaeilish/projects/mis/PubMedCLIP/QCR_PubMedCLIP/lib/language')
 
 EPS = 1e-7
 numpy_type_map = {

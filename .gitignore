@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# ckpt
+PubMedCLIP_RN50.pth
+PubMedCLIP_RN50x4.pth
 # Distribution / packaging
 .Python
 build/

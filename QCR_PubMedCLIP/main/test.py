@@ -2,7 +2,7 @@
 
 #-------------------------------------------------------------------------------
 # Name:         train
-# Description:  
+# Description:
 # Author:       Boliu.Kelvin, Sedigheh Eslami
 #-------------------------------------------------------------------------------
 import os
@@ -10,6 +10,7 @@ import time
 import torch
 from utils import utils
 from datetime import datetime
+from pathlib import Path
 import torch.nn as nn
 from torch.optim import lr_scheduler
 from torch.utils.tensorboard import SummaryWriter
@@ -17,9 +18,11 @@ import pandas as pd
 
 
 def compute_score_with_logits(logits, labels):
+    # batch_open_score_temp, open_logits = compute_score_with_logits(preds_open, a_open.data)
     func = torch.nn.Softmax(dim=1)
     logits = func(logits)
     logits = torch.max(logits, 1)[1].data  # argmax
+    print('compute_score_with_logits, logits shape: ', logits.shape)
     one_hots = torch.zeros(*labels.size()).to(logits.device)
     one_hots.scatter_(1, logits.view(-1, 1), 1)
     scores = (one_hots * labels)
@@ -35,14 +38,23 @@ def get_time_stamp():
     return time_stamp
 # Train phase
 def test(cfg, model, question_model, eval_loader, n_unique_close, device, s_opt=None, s_epoch=0):
-    model = model.to(device)
+    model = model.to(device) # BAN_model
     question_model = question_model.to(device)
     utils.create_dir(cfg.TEST.RESULT_DIR)
 
     # Evaluation
-    eval_score, open_score, close_score = evaluate_classifier(model,question_model, eval_loader, cfg, n_unique_close, device, cfg.TEST.RESULT_DIR)
+    eval_score, open_score, close_score = evaluate_classifier(model, question_model, eval_loader, cfg, n_unique_close, device, cfg.TEST.RESULT_DIR)
 
-        
+
+
+def load_pickle(fp: str):
+    import pickle
+    with open(fp, 'rb') as f:
+        return pickle.load(f)
+
+
+
+
 # Evaluation
 def evaluate_classifier(model,pretrained_model, dataloader, cfg, n_unique_close, device, result_dir):
     score = 0
@@ -53,10 +65,10 @@ def evaluate_classifier(model,pretrained_model, dataloader, cfg, n_unique_close,
     closed_ended = 0. #'CLOSED'
     score_close = 0.
     model.eval()
-    
-    correct_results = {"image_name": [], "question": [], "answer": [], "answer_type": [], "predicted_answer_type": []}
-    incorrect_results = {"image_name": [], "question": [], "answer": [], "answer_type": [], "predicted_answer": [], "predicted_answer_type": []}
-    
+
+    correct_results = {"image_name": [], "question": [], "answer": [], "predicted_answer":[], "answer_type": [], "predicted_answer_type": []}
+    incorrect_results = {"image_name": [], "question": [], "answer": [],"predicted_answer": [],  "answer_type": [], "predicted_answer_type": []}
+
     with torch.no_grad():
         for i,(v, q, a,answer_type, question_type, phrase_type, answer_target, image_name, question_text, answer_text) in enumerate(dataloader):
 
@@ -74,7 +86,7 @@ def evaluate_classifier(model,pretrained_model, dataloader, cfg, n_unique_close,
                 v[2] = v[2].to(device)
             if cfg.TRAIN.VISION.OTHER_MODEL:
                 v = v.to(device)
-            
+
             q[0] = q[0].to(device)
             if cfg.TRAIN.QUESTION.CLIP:
                 q[1] = q[1].to(device)
@@ -84,16 +96,25 @@ def evaluate_classifier(model,pretrained_model, dataloader, cfg, n_unique_close,
                 last_output_close, last_output_open, a_close, a_open, decoder, indexs_open, indexs_close = model.forward_classify(v, q, a, pretrained_model, n_unique_close)
             else:
                 last_output_close, last_output_open, a_close, a_open, indexs_open, indexs_close = model.forward_classify(v, q, a, pretrained_model, n_unique_close)
+            # self.close_classifier = SimpleClassifier(cfg.TRAIN.QUESTION.CLS_HID_DIM, cfg.TRAIN.QUESTION.CLS_HID_DIM * 2, dataset.num_close_candidates, cfg)
+            # self.open_classifier = SimpleClassifier(cfg.TRAIN.QUESTION.CLS_HID_DIM, cfg.TRAIN.QUESTION.CLS_HID_DIM * 2, dataset.num_open_candidates, cfg)
+            # 2023.04.05 所以他 classify 的對象是他看過的例子裡面的 answer text 嗎
+            # 所以他的詞彙量僅限於 train set 裡面的 answer text
+
 
             preds_close, preds_open = model.classify(last_output_close, last_output_open)
-            
+            print("evaluate_classifier, preds_close shape: ", preds_close.shape) # torch.Size([5, 56])
+            print("evaluate_classifier, preds_open shape: ", preds_open.shape)   # torch.Size([3, 431])
+
             batch_close_score = 0.
             batch_open_score = 0.
             if preds_close.shape[0] != 0:
+                # preds_close: prediction
+                # a_close.data: gold answers, 1-hot
                 batch_close_score_temp, close_logits = compute_score_with_logits(preds_close, a_close.data)
                 close_correct = (batch_close_score_temp == 1).nonzero(as_tuple=True)[0].tolist()
                 batch_close_score = batch_close_score_temp.sum()
-            if preds_open.shape[0] != 0: 
+            if preds_open.shape[0] != 0:
                 batch_open_score_temp, open_logits = compute_score_with_logits(preds_open, a_open.data)
                 open_correct = (batch_open_score_temp == 1).nonzero(as_tuple=True)[0].tolist()
                 batch_open_score = batch_open_score_temp.sum()
@@ -102,44 +123,68 @@ def evaluate_classifier(model,pretrained_model, dataloader, cfg, n_unique_close,
 
             size = q[0].shape[0]
             total += size  # batch number
-            
+
             open_ended += preds_open.shape[0]
             score_open += batch_open_score
 
             closed_ended += preds_close.shape[0]
             score_close += batch_close_score
-
+            # indexes_{type} is the indexes inside the batch that are {type}-ended
+            # indexes_close: [0, 1, 3, 4, 5, 7]
+            # indexes_open: [2, 6]
             assert len(indexs_close) + len(indexs_open) == len(image_name)
             assert len(close_correct) + len(open_correct) <= len(image_name)  # batch size
+
+            # PubMedCLIP/QCR_PubMedCLIP/data/data_rad/cache/close_label2ans.pkl
+            # PubMedCLIP/QCR_PubMedCLIP/data/data_rad/cache/open_label2ans.pkl
+
+            cache_root = './data/data_rad/cache'
+            close_l2a = load_pickle(Path(cache_root)/'close_label2ans.pkl')
+            open_l2a = load_pickle(Path(cache_root)/'open_label2ans.pkl')
+
+
+
+
 
             close_incorrect = [i for i in range(len(indexs_close)) if i not in close_correct]
             open_incorrect = [i for i in range(len(indexs_open)) if i not in open_correct]
             for i in close_correct:
                 ind = indexs_close[i]
+                pred_label = close_logits[i].cpu().item()
+                pred_answer = close_l2a[pred_label]
                 correct_results["image_name"].append(image_name[ind])
                 correct_results["question"].append(question_text[ind])
                 correct_results["answer"].append(answer_text[ind])
+                correct_results["predicted_answer"].append(pred_answer)
                 correct_results["predicted_answer_type"].append("CLOSED")
                 correct_results["answer_type"].append(answer_type[ind])
             for ind in close_incorrect:
+                pred_label = close_logits[ind].cpu().item()
+                pred_answer = close_l2a[pred_label]
                 incorrect_results["image_name"].append(image_name[ind])
                 incorrect_results["question"].append(question_text[ind])
                 incorrect_results["answer"].append(answer_text[ind])
-                incorrect_results["predicted_answer"].append(close_logits[ind].cpu())
+                incorrect_results["predicted_answer"].append(pred_answer)
                 incorrect_results["predicted_answer_type"].append("CLOSED")
                 incorrect_results["answer_type"].append(answer_type[ind])
             for i in open_correct:
                 ind = indexs_open[i]
+                pred_label = open_logits[i].cpu().item()
+                pred_answer = open_l2a[pred_label]
+
                 correct_results["image_name"].append(image_name[ind])
                 correct_results["question"].append(question_text[ind])
                 correct_results["answer"].append(answer_text[ind])
+                correct_results["predicted_answer"].append(pred_answer)
                 correct_results["predicted_answer_type"].append("OPEN")
                 correct_results["answer_type"].append(answer_type[ind])
             for ind in open_incorrect:
+                pred_label = open_logits[ind].cpu().item()
+                pred_answer = open_l2a[pred_label]
                 incorrect_results["image_name"].append(image_name[ind])
                 incorrect_results["question"].append(question_text[ind])
                 incorrect_results["answer"].append(answer_text[ind])
-                incorrect_results["predicted_answer"].append(open_logits[ind].cpu())
+                incorrect_results["predicted_answer"].append(pred_answer)
                 incorrect_results["predicted_answer_type"].append("OPEN")
                 incorrect_results["answer_type"].append(answer_type[ind])
 

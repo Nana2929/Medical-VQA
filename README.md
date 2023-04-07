@@ -6,12 +6,12 @@ By far (2023/03/24) the sota method for `VQA-Rad` dataset.
 Medical Domain as Much as it Does in the General Domain?](https://arxiv.org/pdf/2112.13906.pdf)
 
 Dataset for VQA-Rad, see [Awenbocc/med-vqa](https://github.com/Awenbocc/med-vqa) (by checking issue QQ).
-## 1. ⛔️ Try fine-tuning with `roco`:
+## ⛔️ 1. Try fine-tuning with `roco`:
 
 Can't find the `/train/radiologytraindata.csv` in ROCO dataset repo.
 
 
-## 2. ✅ Try training the data on `VQA-RAD`
+## ✅ 2. Try training the data on `VQA-RAD`
 
 
 According to the original paper,
@@ -81,7 +81,7 @@ Add these (or at least your configured paths) into the config file `--cfg`.
 MODEL_FILE: "PubMedCLIP/QCR_PubMedCLIP/output/qcr/pubmedclipRN50_ae/roco/VQARAD/QCR.CLIPRN50.AE.ROCO.VQARAD.16batchsize.200epoch.withTFIDF.nondeterministic/62_best.pth"
   RESULT_DIR: "PubMedCLIP/QCR_PubMedCLIP/output/qcr/pubmedclipRN50_ae/roco/VQARAD/QCR.CLIPRN50.AE.ROCO.VQARAD.16batchsize.200epoch.withTFIDF.nondeterministic/results"
 ```
-### Issue
+### Issue [solved]
 在寫成 testfile 時他的 Predicted_answer 都只寫出 closed_logits
 是 tensor 的形式，沒有轉換成文字，要自己 decode。
 [Hackmd Notes: How to get the inference data](https://hackmd.io/@NanaEilish727/pmclip)
@@ -93,10 +93,13 @@ MODEL_FILE: "PubMedCLIP/QCR_PubMedCLIP/output/qcr/pubmedclipRN50_ae/roco/VQARAD/
 [Validate] Val_Acc:71.175163%  |  Open_ACC:56.424580%   |  Close_ACC:80.882355%
 ```
 
-## 🔨4. Use the prediction and the data itself for data EDA
-
-1. Data Example。`question_type` 和 `phrase_type` 的數量。
-2. `question_type` 和 `phrase_type` level 的 EDA（類別正確與錯誤率）。
+## ✅ 4. Use the prediction and the data itself for data EDA
+[Visualization](./extra/0.1_vis.ipynb)
+1. Data Example。
+2. `question_type` 的數量。
+3. `question_type` level 的 EDA（類別正確與錯誤率）。
+4. 顯示答錯例子。
+5. 梳理 method 流程。
 
 
 ## Todo:

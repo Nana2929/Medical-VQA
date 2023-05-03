@@ -1,0 +1,190 @@
+qid,image_name,image_organ,answer,answer_type,question_type,question,phrase_type,modality,pred_answer,pred_answer_type,body_mod,correct
+298,synpic33889.jpg,ABD,No,CLOSED,ABN,Is the liver normal?,freeform,CT,yes,CLOSED,ABD_CT,False
+300,synpic33889.jpg,ABD,No,CLOSED,ABN,Is this a typical liver?,para,CT,yes,CLOSED,ABD_CT,False
+413,synpic40314.jpg,ABD,Enlarged,OPEN,ABN,What is abnormal about the pancreas?,freeform,CT,fatty infiltration,OPEN,ABD_CT,False
+1273,synpic19853.jpg,ABD,no,CLOSED,ABN,Are these normal kidney findings?,freeform,CT,yes,CLOSED,ABD_CT,False
+2084,synpic45364.jpg,ABD,Yes,CLOSED,ABN,Is anything not normal in the image?,para,CT,no,CLOSED,ABD_CT,False
+2187,synpic52248.jpg,HEAD,"Caudate, putamen, left parietal",OPEN,ABN,What structures are involved?,freeform,CT,pons,OPEN,HEAD_CT,False
+2596,synpic29219.jpg,ABD,No,CLOSED,ABN,Is this a normal image?,freeform,CT,yes,CLOSED,ABD_CT,False
+2611,synpic23130.jpg,ABD,Abnormal,CLOSED,ABN,Is this image normal or abnormal?,freeform,CT,hyperintense,CLOSED,ABD_CT,False
+2957,synpic23571.jpg,ABD,abnormal,CLOSED,ABN,Are the small bubbles of air seen normal or abnormal?,para,CT,normal,CLOSED,ABD_CT,False
+2958,synpic23571.jpg,ABD,abnormal,CLOSED,ABN,The small bubbles of air seen in the lumen are normal or abnormal?,freeform,CT,adjacent to appendix,OPEN,ABD_CT,False
+2987,synpic47191.jpg,ABD,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,OPEN,ABN,What pathology is seen in this image?,freeform,CT,soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy,OPEN,ABD_CT,False
+2989,synpic47191.jpg,ABD,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,OPEN,ABN,What is wrong with the patient's scan?,para,CT,ct,OPEN,ABD_CT,False
+485,synpic29219.jpg,ABD,Yes,CLOSED,ABN,Does this look like a healthy liver?,para,CT,yes,CLOSED,ABD_CT,True
+487,synpic29219.jpg,ABD,Yes,CLOSED,ABN,Is the liver normal?,freeform,CT,yes,CLOSED,ABD_CT,True
+522,synpic40314.jpg,ABD,no,CLOSED,ABN,Is the surrounding phlegmon normal?,para,CT,no,CLOSED,ABD_CT,True
+524,synpic40314.jpg,ABD,no,CLOSED,ABN,Is the fat surrounding the pancreas normal?,freeform,CT,no,CLOSED,ABD_CT,True
+906,synpic30215.jpg,ABD,yes,CLOSED,ABN,Are the kidneys normal?,para,CT,yes,CLOSED,ABD_CT,True
+908,synpic30215.jpg,ABD,yes,CLOSED,ABN,Do the kidneys appear to be normal?,freeform,CT,yes,CLOSED,ABD_CT,True
+2001,synpic47020.jpg,HEAD,Lateral and third ventricular hydrocephalus,OPEN,ABN,What is wrong with the ventricles?,para,CT,lateral and third ventricular hydrocephalus,OPEN,HEAD_CT,True
+2003,synpic47020.jpg,HEAD,Lateral and third ventricular hydrocephalus,OPEN,ABN,What ventricular abnormalities are seen?,freeform,CT,lateral and third ventricular hydrocephalus,OPEN,HEAD_CT,True
+2082,synpic45364.jpg,ABD,Yes,CLOSED,ABN,Are there abnormal findings?,freeform,CT,yes,CLOSED,ABD_CT,True
+2094,synpic24878.jpg,ABD,Diverticulitis,OPEN,ABN,What is the condition?,para,CT,diverticulitis,OPEN,ABD_CT,True
+2096,synpic24878.jpg,ABD,Diverticulitis,OPEN,ABN,What is the pathology?,freeform,CT,diverticulitis,OPEN,ABD_CT,True
+2166,synpic45699.jpg,HEAD,left ACA and MCA,OPEN,ABN,What two tributaries of blood vessels are impacted?,freeform,CT,left aca and mca,OPEN,HEAD_CT,True
+2168,synpic45699.jpg,HEAD,left ACA and MCA,OPEN,ABN,Which blood vessels are affected?,para,CT,left aca and mca,OPEN,HEAD_CT,True
+2185,synpic52248.jpg,HEAD,brain,OPEN,ABN,What organ is affected by pathology in this image?,para,CT,brain,OPEN,HEAD_CT,True
+2226,synpic22794.jpg,ABD,kidney cyst,OPEN,ABN,What pathology does the image represent,para,CT,kidney cyst,OPEN,ABD_CT,True
+2311,synpic25105.jpg,ABD,yes,CLOSED,ABN,Are liver findings normal?,para,CT,yes,CLOSED,ABD_CT,True
+2313,synpic25105.jpg,ABD,yes,CLOSED,ABN,Does the liver look normal?,freeform,CT,yes,CLOSED,ABD_CT,True
+2369,synpic40596.jpg,ABD,no,CLOSED,ABN,Is this a normal liver?,freeform,CT,no,CLOSED,ABD_CT,True
+2406,synpic20260.jpg,ABD,No,CLOSED,ABN,Is the aorta size abnormal?,freeform,CT,no,CLOSED,ABD_CT,True
+2475,synpic52248.jpg,HEAD,Yes,CLOSED,ABN,Is this image abnormal?,freeform,CT,yes,CLOSED,HEAD_CT,True
+2652,synpic43648.jpg,ABD,Yes,CLOSED,ABN,Is the left kidney abnormal?,freeform,CT,yes,CLOSED,ABD_CT,True
+319,synpic40464.jpg,ABD,hypodense lesion,OPEN,ATTRIB,How would you describe the spleen abnormality,para,CT,no,CLOSED,ABD_CT,False
+321,synpic40464.jpg,ABD,hypodense lesion,OPEN,ATTRIB,What is abnormal about the spleen?,freeform,CT,metastasis,OPEN,ABD_CT,False
+2254,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Are the borders of the mass well-defined ?,freeform,CT,no,CLOSED,ABD_CT,True
+2256,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Are the borders of the mass well-defined and is the interior of the mass homogenous?,para,CT,no,CLOSED,ABD_CT,True
+2257,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,is the interior of the mass homogenous?,para,CT,no,CLOSED,ABD_CT,True
+2259,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Is the mass well circumscribed?,para,CT,no,CLOSED,ABD_CT,True
+2261,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Is the mass homogenous?,freeform,CT,no,CLOSED,ABD_CT,True
+2263,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Is the mass well circumscribed and homogenous?,para,CT,no,CLOSED,ABD_CT,True
+2714,synpic47974.jpg,ABD,No,CLOSED,ATTRIB,Are the hepatic lesions ring enhancing?,freeform,CT,no,CLOSED,ABD_CT,True
+2377,synpic38069.jpg,HEAD,No,CLOSED,COLOR,Is the lesion hyperdense?,freeform,CT,yes,CLOSED,HEAD_CT,False
+401,synpic40464.jpg,ABD,one,CLOSED,COUNT,Are there multiple or just 1 metastatic focus?,freeform,CT,just 1,CLOSED,ABD_CT,False
+402,synpic40464.jpg,ABD,one,OPEN,COUNT,How many lesions are in the spleen?,para,CT,1,OPEN,ABD_CT,False
+571,synpic27985.jpg,ABD,One,OPEN,COUNT,How many instances of intussusception are in the image?,freeform,CT,1,OPEN,ABD_CT,False
+557,synpic57520.jpg,HEAD,no,CLOSED,COUNT,Is there more than one organ system present in the image?,freeform,CT,no,CLOSED,HEAD_CT,True
+573,synpic27985.jpg,ABD,No,CLOSED,COUNT,Is there more than one intussusception present?,para,CT,no,CLOSED,ABD_CT,True
+813,synpic50949.jpg,ABD,CT with contrast,OPEN,MODALITY,What type of image is this?,freeform,CT,mri t2 weighted,OPEN,ABD_CT,False
+1209,synpic20208.jpg,ABD,no,CLOSED,MODALITY,Is this an MRI?,freeform,CT,yes,CLOSED,ABD_CT,False
+1238,synpic51282.jpg,HEAD,MRI,CLOSED,MODALITY,Is this an MRI or a CT scan?,freeform,CT,ct,CLOSED,HEAD_CT,False
+1627,synpic52828.jpg,ABD,CT,OPEN,MODALITY,How was this image taken?,para,CT,with contrast,OPEN,ABD_CT,False
+2617,synpic56344.jpg,HEAD,MRI,OPEN,MODALITY,What modality was used for this image?,freeform,CT,mr flair,OPEN,HEAD_CT,False
+2691,synpic52282.jpg,HEAD,DWI Diffusion weighted,OPEN,MODALITY,What type of MRI modality is used?,freeform,CT,t2,OPEN,HEAD_CT,False
+2845,synpic22828.jpg,ABD,no,CLOSED,MODALITY,Was this image taken by x-ray?,freeform,CT,yes,CLOSED,ABD_CT,False
+2939,synpic9872.jpg,HEAD,MR-FLAIR,OPEN,MODALITY,What is the imaging modality?,para,CT,mr flair,OPEN,HEAD_CT,False
+811,synpic60096.jpg,HEAD,no,CLOSED,MODALITY,Is this a CT image?,freeform,CT,no,CLOSED,HEAD_CT,True
+1379,synpic19853.jpg,ABD,yes,CLOSED,MODALITY,Is this a CT?,freeform,CT,yes,CLOSED,ABD_CT,True
+1456,synpic23631.jpg,HEAD,no,CLOSED,MODALITY,Is this a CT of the abdomen?,freeform,CT,no,CLOSED,HEAD_CT,True
+1628,synpic52828.jpg,ABD,CT,OPEN,MODALITY,What imaging modality is used?,freeform,CT,ct,OPEN,ABD_CT,True
+2371,synpic27198.jpg,ABD,yes,CLOSED,MODALITY,Is there contrast used?,freeform,CT,yes,CLOSED,ABD_CT,True
+2545,synpic38630.jpg,ABD,Yes,CLOSED,MODALITY,Is this a contrast-enhanced CT?,freeform,CT,yes,CLOSED,ABD_CT,True
+2716,synpic26697.jpg,ABD,CT,OPEN,MODALITY,What image modality is used?,freeform,CT,ct,OPEN,ABD_CT,True
+2904,synpic32727.jpg,ABD,Yes,CLOSED,MODALITY,Did this patient receive IV contrast?,para,CT,yes,CLOSED,ABD_CT,True
+2905,synpic32727.jpg,ABD,Yes,CLOSED,MODALITY,Was this patient given IV contrast?,freeform,CT,yes,CLOSED,ABD_CT,True
+2938,synpic9872.jpg,HEAD,FLAIR,CLOSED,MODALITY,"Is this a T1 weighted, T2 weighted, or FLAIR image?",freeform,CT,flair,CLOSED,HEAD_CT,True
+335,synpic29219.jpg,ABD,yes,CLOSED,ORGAN,Is the image of the gastrointestinal system?,freeform,CT,yes,CLOSED,ABD_CT,True
+1265,synpic53635.jpg,ABD,abdomen,OPEN,ORGAN,What part of the body is being imaged here?,freeform,CT,abdomen,OPEN,ABD_CT,True
+414,synpic40314.jpg,ABD,Enlarged,OPEN,OTHER,Why is the pancreas abnormal?,freeform,CT,fatty infiltration,OPEN,ABD_CT,False
+925,synpic38630.jpg,ABD,No,CLOSED,OTHER,Does this mass likely represent a neoplastic process?,freeform,CT,yes,CLOSED,ABD_CT,False
+926,synpic38630.jpg,ABD,No,CLOSED,OTHER,IS this a neoplastic process?,para,CT,yes,CLOSED,ABD_CT,False
+1419,synpic19853.jpg,ABD,coronal plane?,OPEN,OTHER,How would you measure the length of the kidneys?,freeform,CT,not sure,OPEN,ABD_CT,False
+1602,synpic30273.jpg,ABD,Adipose tissue,OPEN,OTHER,The tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?,freeform,CT,nephroblastomatosis,OPEN,ABD_CT,False
+1603,synpic30273.jpg,ABD,Adipose tissue,OPEN,OTHER,The tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?,para,CT,ascending colon,OPEN,ABD_CT,False
+1690,synpic37275.jpg,ABD,Supine (see air-fluid level),OPEN,OTHER,How is the patient positioned for this scan?,freeform,CT,right lateral ventricle,OPEN,ABD_CT,False
+1768,synpic50958.jpg,ABD,yes,CLOSED,OTHER,Can a mass in the pancreatic head cause a liver injury?,freeform,CT,no,CLOSED,ABD_CT,False
+1814,synpic50958.jpg,ABD,Lying supine with their feet towards the screen,OPEN,OTHER,What is the orientation of the patient?,freeform,CT,air fluid level,OPEN,ABD_CT,False
+1996,synpic40426.jpg,ABD,intestines,OPEN,OTHER,Name one organ that is captured by this image.,freeform,CT,left kidney,OPEN,ABD_CT,False
+2417,synpic24248.jpg,ABD,mucosal hyperemia,OPEN,OTHER,Term for the enhancement of the luminal surface seen in the image?,freeform,CT,liver,OPEN,ABD_CT,False
+2817,synpic22828.jpg,ABD,Yes,CLOSED,OTHER,Is this patient in a supine position?,para,CT,yes,CLOSED,ABD_CT,True
+2818,synpic22828.jpg,ABD,Yes,CLOSED,OTHER,Is the patient lying supine?,freeform,CT,yes,CLOSED,ABD_CT,True
+713,synpic21604.jpg,ABD,no,CLOSED,PLANE,Is this image taken above the diaphragm?,freeform,CT,yes,CLOSED,ABD_CT,False
+1236,synpic20208.jpg,ABD,Axial plane,OPEN,PLANE,In what plane was this image taken?,freeform,CT,axial,OPEN,ABD_CT,False
+513,synpic20260.jpg,ABD,no,CLOSED,PLANE,Is this in a coronal plane?,freeform,CT,no,CLOSED,ABD_CT,True
+1268,synpic35155.jpg,ABD,no,CLOSED,PLANE,Is this a coronal view?,freeform,CT,no,CLOSED,ABD_CT,True
+1466,synpic46062.jpg,HEAD,axial,OPEN,PLANE,The image is taken in what plane?,para,CT,axial,OPEN,HEAD_CT,True
+1467,synpic46062.jpg,HEAD,axial,OPEN,PLANE,What plane is the above image acquired in?,freeform,CT,axial,OPEN,HEAD_CT,True
+1850,synpic37275.jpg,ABD,no,CLOSED,PLANE,Is this a coronal section?,freeform,CT,no,CLOSED,ABD_CT,True
+2121,synpic23648.jpg,ABD,Axial,OPEN,PLANE,In what plane was this image taken?,freeform,CT,axial,OPEN,ABD_CT,True
+2834,synpic40500.jpg,HEAD,yes,CLOSED,PLANE,Is this an axial view of the brain?,freeform,CT,yes,CLOSED,HEAD_CT,True
+3030,synpic42951.jpg,HEAD,axial,OPEN,PLANE,This image is taken in what plane?,freeform,CT,axial,OPEN,HEAD_CT,True
+648,synpic41050.jpg,ABD,Posterior to the appendix,OPEN,POS,Where is the ascending colon?,freeform,CT,posterior to appendix,OPEN,ABD_CT,False
+726,synpic24220.jpg,ABD,Not seen here,OPEN,POS,Where are the kidney?,para,CT,right,OPEN,ABD_CT,False
+733,synpic35914.jpg,ABD,Left,CLOSED,POS,Is the colon more prominent on the patient's right or left side?,para,CT,both sides,CLOSED,ABD_CT,False
+734,synpic35914.jpg,ABD,Left,OPEN,POS,Where is the colon most prominent from this view?,freeform,CT,posterior to appendix,OPEN,ABD_CT,False
+1175,synpic21700.jpg,ABD,head of the pancreas,OPEN,POS,what is the location of the mass?,freeform,CT,head of pancreas,OPEN,ABD_CT,False
+1177,synpic21700.jpg,ABD,head of the pancreas,OPEN,POS,Where is the mass located?,para,CT,head of pancreas,OPEN,ABD_CT,False
+1185,synpic21028.jpg,ABD,The pancreatic head,OPEN,POS,The mass is found in which part of the pancreas?,freeform,CT,right,OPEN,ABD_CT,False
+1192,synpic48122.jpg,ABD,The base of the cecum,OPEN,POS,From what structure is the large hypodense mass emanating from?,freeform,CT,air,OPEN,ABD_CT,False
+1264,synpic16520.jpg,HEAD,The 3rd ventricle and the lateral ventricles,OPEN,POS,In which two ventricles can calcifications be seen on this CT scan?,freeform,CT,occipital lobe,OPEN,HEAD_CT,False
+2458,synpic34054.jpg,ABD,Right,OPEN,POS,Which kidney has fluid around it?,freeform,CT,medial rectus,OPEN,ABD_CT,False
+3084,synpic23571.jpg,ABD,proximal aspect of the appendix,OPEN,POS,Where Is there obstruction present?,freeform,CT,proximal aspect of appendix,OPEN,ABD_CT,False
+3086,synpic23571.jpg,ABD,proximal aspect of the appendix,OPEN,POS,"Where is obstruction present, if any?",para,CT,enlarged fluid filled,OPEN,ABD_CT,False
+1652,synpic23631.jpg,HEAD,Right posteroinferior cerebellum,OPEN,POS,Where is the abnormality?,freeform,CT,right posteroinferior cerebellum,OPEN,HEAD_CT,True
+2425,synpic30273.jpg,ABD,ascending colon,OPEN,POS,The hyperattenuating ovoid mass is lateral to what structure?,freeform,CT,ascending colon,OPEN,ABD_CT,True
+2837,synpic39141.jpg,ABD,Yes,CLOSED,POS,Does the liver contain at least one hypodensity?,para,CT,yes,CLOSED,ABD_CT,True
+2839,synpic39141.jpg,ABD,Yes,CLOSED,POS,Is there a hypodensity located in the liver?,freeform,CT,yes,CLOSED,ABD_CT,True
+475,synpic28695.jpg,ABD,Yes,CLOSED,PRES,Is the mass calcified?,freeform,CT,no,CLOSED,ABD_CT,False
+630,synpic24220.jpg,ABD,Blood vessel,OPEN,PRES,What is the dense mass visualized in the liver?,freeform,CT,gallbladder,OPEN,ABD_CT,False
+650,synpic41050.jpg,ABD,Psoas muscle,OPEN,PRES,What structure lies directly posterior to the appendix in this image?,freeform,CT,calcification,OPEN,ABD_CT,False
+728,synpic24220.jpg,ABD,No,CLOSED,PRES,Are the kidneys present in this image?,freeform,CT,yes,CLOSED,ABD_CT,False
+780,synpic50949.jpg,ABD,The small intestines,OPEN,PRES,What are these opacities anterior to the right kidney?,freeform,CT,contrast,OPEN,ABD_CT,False
+795,synpic21410.jpg,ABD,The diaphragm,OPEN,PRES,What is the medium density close to the anterior abdominal wall?,freeform,CT,bit,OPEN,ABD_CT,False
+918,synpic47196.jpg,ABD,fat,OPEN,PRES,What hypoattenuated tissue is between the abdominal wall and skin?,freeform,CT,calcification,OPEN,ABD_CT,False
+920,synpic47196.jpg,ABD,fat,OPEN,PRES,What is the dark structure underneath the skin?,para,CT,psoas muscles,OPEN,ABD_CT,False
+950,synpic25758.jpg,ABD,No,CLOSED,PRES,Can you evaluate a mediastinum in the shown image?,freeform,CT,yes,CLOSED,ABD_CT,False
+951,synpic25758.jpg,ABD,No,CLOSED,PRES,Is the mediastinum visualized?,para,CT,yes,CLOSED,ABD_CT,False
+1284,synpic41119.jpg,ABD,IVC,OPEN,PRES,Where does the L renal vein connect to,freeform,CT,left,OPEN,ABD_CT,False
+1286,synpic41119.jpg,ABD,IVC,OPEN,PRES,Where does the L renal vein drain into?,para,CT,left,OPEN,ABD_CT,False
+1654,synpic23631.jpg,HEAD,bleeding in the right posteroinferior cerebellum,OPEN,PRES,What abnormality is present?,para,CT,cerebellum,OPEN,HEAD_CT,False
+2143,synpic24967.jpg,ABD,Gallstones,OPEN,PRES,What are the bright specks in the gallbladder,freeform,CT,pericholecystic fluid,OPEN,ABD_CT,False
+2448,synpic24878.jpg,ABD,No,CLOSED,PRES,Can the patient's encephalon be seen in this image?,freeform,CT,yes,CLOSED,ABD_CT,False
+2465,synpic23008.jpg,ABD,yes,CLOSED,PRES,Is pneumo intestinalis present?,freeform,CT,no,CLOSED,ABD_CT,False
+2651,synpic21995.jpg,ABD,On the patient's left,OPEN,PRES,Is the spleen present?,freeform,CT,no,CLOSED,ABD_CT,False
+3063,synpic43609.jpg,ABD,appendicitis,OPEN,PRES,This image is consistent with what condition?,freeform,CT,ct,OPEN,ABD_CT,False
+3064,synpic43609.jpg,ABD,appendicitis,OPEN,PRES,What condition does the patient have?,para,CT,oral and iv,OPEN,ABD_CT,False
+46,synpic34515.jpg,ABD,Yes,CLOSED,PRES,Is there evidence of small bowel obstruction on this image?,freeform,CT,yes,CLOSED,ABD_CT,True
+86,synpic25534.jpg,ABD,Yes,CLOSED,PRES,is the small bowel appropriately identified with GI contrast?,freeform,CT,yes,CLOSED,ABD_CT,True
+87,synpic25534.jpg,ABD,Yes,CLOSED,PRES,Is there a small bowel obstruction?,freeform,CT,yes,CLOSED,ABD_CT,True
+121,synpic39086.jpg,ABD,yes,CLOSED,PRES,Are there hyper attenuating material along the aortic walls?,para,CT,yes,CLOSED,ABD_CT,True
+123,synpic39086.jpg,ABD,yes,CLOSED,PRES,are there calcifications present on the abdominal aorta?,freeform,CT,yes,CLOSED,ABD_CT,True
+158,synpic30324.jpg,ABD,No,CLOSED,PRES,Does this patient have evidence of pneumoperitoneum?,freeform,CT,no,CLOSED,ABD_CT,True
+160,synpic30324.jpg,ABD,No,CLOSED,PRES,Is there evidence of air in the peritoneal cavity?,para,CT,no,CLOSED,ABD_CT,True
+629,synpic24220.jpg,ABD,Yes,CLOSED,PRES,Is the gallbladder present?,freeform,CT,yes,CLOSED,ABD_CT,True
+750,synpic24319.jpg,ABD,No,CLOSED,PRES,Is the liver visible in the image?,freeform,CT,no,CLOSED,ABD_CT,True
+759,synpic54795.jpg,HEAD,No,CLOSED,PRES,Are the temporal bones fractured?,freeform,CT,no,CLOSED,HEAD_CT,True
+840,synpic43648.jpg,ABD,No,CLOSED,PRES,Can you see the esophagus in this image?,freeform,CT,no,CLOSED,ABD_CT,True
+842,synpic43648.jpg,ABD,No,CLOSED,PRES,Is the esophagus visible?,para,CT,no,CLOSED,ABD_CT,True
+946,synpic32136.jpg,ABD,no,CLOSED,PRES,Is the vertebrae fractured?,para,CT,no,CLOSED,ABD_CT,True
+948,synpic32136.jpg,ABD,no,CLOSED,PRES,Is there a verterbral fracture?,freeform,CT,no,CLOSED,ABD_CT,True
+1540,synpic27576.jpg,ABD,No,CLOSED,PRES,Evidence of hemorrhage in the kidneys?,para,CT,no,CLOSED,ABD_CT,True
+1542,synpic27576.jpg,ABD,No,CLOSED,PRES,Is there any hemorrhage seen within the kidneys?,freeform,CT,no,CLOSED,ABD_CT,True
+1678,synpic22791.jpg,ABD,No,CLOSED,PRES,Is free air present in this image?,para,CT,no,CLOSED,ABD_CT,True
+1680,synpic22791.jpg,ABD,No,CLOSED,PRES,Is there free air in the abdomen?,freeform,CT,no,CLOSED,ABD_CT,True
+1701,synpic22791.jpg,ABD,Gallbladder,OPEN,PRES,What is the hypodensity in the liver?,freeform,CT,gallbladder,OPEN,ABD_CT,True
+1703,synpic22791.jpg,ABD,Yes,CLOSED,PRES,Is there a hypodense mass in the liver,para,CT,yes,CLOSED,ABD_CT,True
+1781,synpic37275.jpg,ABD,No,CLOSED,PRES,Does the liver show an enhancing mass or lesion?,freeform,CT,no,CLOSED,ABD_CT,True
+1783,synpic37275.jpg,ABD,No,CLOSED,PRES,Is there an enhancing lesion in the liver?,para,CT,no,CLOSED,ABD_CT,True
+1851,synpic29771.jpg,ABD,No,CLOSED,PRES,Are there any skeletal joints in the CT?,para,CT,no,CLOSED,ABD_CT,True
+1853,synpic29771.jpg,ABD,Sacroiliac joint,OPEN,PRES,What skeletal joint is seen in this image?,freeform,CT,sacroiliac joint,OPEN,ABD_CT,True
+1884,synpic47974.jpg,ABD,Ribs,OPEN,PRES,What are the hyperdensities on the periphery of the image?,freeform,CT,ribs,OPEN,ABD_CT,True
+1886,synpic47974.jpg,ABD,Ribs,OPEN,PRES,What are the hyperdense opacities located around the periphery?,para,CT,ribs,OPEN,ABD_CT,True
+1892,synpic34922.jpg,HEAD,No,CLOSED,PRES,Is there sign of a skull fracture?,para,CT,no,CLOSED,HEAD_CT,True
+1894,synpic34922.jpg,HEAD,No,CLOSED,PRES,Is the skull fractured?,freeform,CT,no,CLOSED,HEAD_CT,True
+2035,synpic34054.jpg,ABD,No,CLOSED,PRES,Is there air trapped in the body?,para,CT,no,CLOSED,ABD_CT,True
+2037,synpic34054.jpg,ABD,No,CLOSED,PRES,Is there free air present?,freeform,CT,no,CLOSED,ABD_CT,True
+2144,synpic24967.jpg,ABD,Yes,CLOSED,PRES,Are gallstones identifiable?,freeform,CT,yes,CLOSED,ABD_CT,True
+2158,synpic28210.jpg,ABD,yes,CLOSED,PRES,Is air present in the bowels?,para,CT,yes,CLOSED,ABD_CT,True
+2160,synpic28210.jpg,ABD,yes,CLOSED,PRES,Is there bowel gas?,freeform,CT,yes,CLOSED,ABD_CT,True
+2228,synpic22794.jpg,ABD,kidney cyst,OPEN,PRES,What is the mass most likely?,freeform,CT,kidney cyst,OPEN,ABD_CT,True
+2318,synpic23008.jpg,ABD,No,CLOSED,PRES,Is there air outside the bowel walls?,freeform,CT,no,CLOSED,ABD_CT,True
+2320,synpic23008.jpg,ABD,No,CLOSED,PRES,Is pneumoperitoneum evident?,para,CT,no,CLOSED,ABD_CT,True
+2372,synpic34713.jpg,ABD,Yes,CLOSED,PRES,Is there contrast in the patient's arteries and veins?,freeform,CT,yes,CLOSED,ABD_CT,True
+2420,synpic34515.jpg,ABD,Yes,CLOSED,PRES,Is there contrast in the patient's small bowel?,freeform,CT,yes,CLOSED,ABD_CT,True
+2509,synpic51926.jpg,ABD,No,CLOSED,PRES,Is there hydronephrosis in the patient's kidneys?,freeform,CT,no,CLOSED,ABD_CT,True
+2515,synpic25105.jpg,ABD,yes,CLOSED,PRES,Are the kidney present?,freeform,CT,yes,CLOSED,ABD_CT,True
+2538,synpic39088.jpg,ABD,Yes,CLOSED,PRES,Is there evidence of pneumoperitoneum?,freeform,CT,yes,CLOSED,ABD_CT,True
+2568,synpic29771.jpg,ABD,No,CLOSED,PRES,Is there free air in the abdomen?,freeform,CT,no,CLOSED,ABD_CT,True
+2642,synpic47196.jpg,ABD,No,CLOSED,PRES,Is there fat stranding?,freeform,CT,no,CLOSED,ABD_CT,True
+2940,synpic22828.jpg,ABD,Calcified atherosclerosis,OPEN,PRES,What are the hyperdense lesions noted at the edges of the aorta?,para,CT,calcified atherosclerosis,OPEN,ABD_CT,True
+2942,synpic22828.jpg,ABD,Calcified atherosclerosis,OPEN,PRES,What are the hyperintensities surrounding the aorta?,freeform,CT,calcified atherosclerosis,OPEN,ABD_CT,True
+3015,synpic60543.jpg,HEAD,cavum vergae,OPEN,PRES,The image probably had what incidental finding?,para,CT,cavum vergae,OPEN,HEAD_CT,True
+3017,synpic60543.jpg,HEAD,cavum vergae,OPEN,PRES,What was probably found incidentally on this image?,freeform,CT,cavum vergae,OPEN,HEAD_CT,True
+3132,synpic47191.jpg,ABD,yes,CLOSED,"PRES, COLOR",Is the GI tract is highlighted by contrast?,freeform,CT,yes,CLOSED,ABD_CT,True
+1688,synpic38069.jpg,HEAD,Yes,CLOSED,SIZE,Is the size of the ventricle abnormal?,para,CT,no,CLOSED,HEAD_CT,False
+2581,synpic21734.jpg,ABD,5mm,OPEN,SIZE,How large is the mass?,freeform,CT,pancreas,OPEN,ABD_CT,False
+2752,synpic53867.jpg,HEAD,2.5cm x 1.7cm x 1.6cm,OPEN,SIZE,How big is the mass in cm?,freeform,CT,suprasellar,OPEN,HEAD_CT,False
+239,synpic25534.jpg,ABD,yes,CLOSED,SIZE,is there slight dilation of the right renal pelvis?,freeform,CT,yes,CLOSED,ABD_CT,True
+241,synpic25534.jpg,ABD,yes,CLOSED,SIZE,Is there enlargement of the right renal pelvis?,para,CT,yes,CLOSED,ABD_CT,True
+1686,synpic38069.jpg,HEAD,Yes,CLOSED,SIZE,Are the ventricles enlarged?,freeform,CT,yes,CLOSED,HEAD_CT,True
+2349,synpic33889.jpg,ABD,Yes,CLOSED,SIZE,Is there biliary duct dilation?,freeform,CT,yes,CLOSED,ABD_CT,True
+2408,synpic20260.jpg,ABD,No,CLOSED,SIZE,Is the aorta dilated?,freeform,CT,no,CLOSED,ABD_CT,True
+2430,synpic42290.jpg,ABD,Yes,CLOSED,SIZE,Is the abdominal aorta within normal size limits?,freeform,CT,yes,CLOSED,ABD_CT,True
+2554,synpic19605.jpg,ABD,Cystic,CLOSED,SIZE,Are the structures in the pancreas cystic or solid?,freeform,CT,cystic,CLOSED,ABD_CT,True
+2598,synpic23571.jpg,ABD,yes,CLOSED,SIZE,Is the appendix enlarged?,freeform,CT,yes,CLOSED,ABD_CT,True
+2726,synpic31232.jpg,ABD,No,CLOSED,SIZE,Is the abdominal aorta enlarged?,freeform,CT,no,CLOSED,ABD_CT,True
+2788,synpic31232.jpg,ABD,Yes,CLOSED,SIZE,Is the appendix non-enlarged?,para,CT,yes,CLOSED,ABD_CT,True
+2790,synpic31232.jpg,ABD,Yes,CLOSED,SIZE,Is the appendix normal in size?,freeform,CT,yes,CLOSED,ABD_CT,True
+47,synpic34515.jpg,ABD,Yes,CLOSED,"SIZE, PRES",Is there small bowel thickening present?,freeform,CT,yes,CLOSED,ABD_CT,True

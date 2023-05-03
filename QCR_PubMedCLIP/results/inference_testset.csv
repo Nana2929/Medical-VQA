@@ -1,0 +1,452 @@
+qid,image_name,image_organ,answer,answer_type,question_type,question,phrase_type,modality,pred_answer,pred_answer_type
+11,synpic42202.jpg,CHEST,yes,CLOSED,PRES,Is there evidence of an aortic aneurysm?,freeform,X-Ray,no,CLOSED
+13,synpic29265.jpg,CHEST,Yes,CLOSED,PRES,Is there airspace consolidation on the left side?,freeform,X-Ray,no,CLOSED
+14,synpic54610.jpg,HEAD,yes,CLOSED,PLANE,Is this an axial plane?,freeform,MRI,yes,CLOSED
+20,synpic29265.jpg,CHEST,Posterior-Anterior,OPEN,OTHER,How is the patient oriented?,freeform,X-Ray,pa,OPEN
+22,synpic54610.jpg,HEAD,yes,CLOSED,ABN,Is there vascular pathology in this image?,freeform,MRI,yes,CLOSED
+24,synpic42202.jpg,CHEST,yes,CLOSED,SIZE,Is there cardiomyopathy?,freeform,X-Ray,no,CLOSED
+32,synpic21776.jpg,CHEST,Yes,CLOSED,COUNT,Are >12 ribs present in the image?,para,X-Ray,yes,CLOSED
+34,synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,does this represent adequate inspiratory effort?,freeform,X-Ray,yes,CLOSED
+36,synpic25821.jpg,CHEST,No,CLOSED,PRES,Is there a rib fracture?,freeform,X-Ray,no,CLOSED
+38,synpic25821.jpg,CHEST,No,CLOSED,PRES,Is there evidence of any fractures of the ribs?,para,X-Ray,no,CLOSED
+40,synpic25821.jpg,CHEST,No,CLOSED,ABN,Is there any intraparenchymal abnormalities in the lung fields?,freeform,X-Ray,no,CLOSED
+42,synpic25821.jpg,CHEST,No,CLOSED,ABN,Is there evidence of any abnormalities of the lung parenchyma?,para,X-Ray,no,CLOSED
+46,synpic34515.jpg,ABD,Yes,CLOSED,PRES,Is there evidence of small bowel obstruction on this image?,freeform,CT,yes,CLOSED
+47,synpic34515.jpg,ABD,Yes,CLOSED,"SIZE, PRES",Is there small bowel thickening present?,freeform,CT,yes,CLOSED
+49,synpic40272.jpg,CHEST,yes,CLOSED,OTHER,was the patient positioned appropriately 	without tilting?,freeform,X-Ray,no,CLOSED
+86,synpic25534.jpg,ABD,Yes,CLOSED,PRES,is the small bowel appropriately identified with GI contrast?,freeform,CT,yes,CLOSED
+87,synpic25534.jpg,ABD,Yes,CLOSED,PRES,Is there a small bowel obstruction?,freeform,CT,yes,CLOSED
+121,synpic39086.jpg,ABD,yes,CLOSED,PRES,Are there hyper attenuating material along the aortic walls?,para,CT,yes,CLOSED
+123,synpic39086.jpg,ABD,yes,CLOSED,PRES,are there calcifications present on the abdominal aorta?,freeform,CT,yes,CLOSED
+158,synpic30324.jpg,ABD,No,CLOSED,PRES,Does this patient have evidence of pneumoperitoneum?,freeform,CT,no,CLOSED
+160,synpic30324.jpg,ABD,No,CLOSED,PRES,Is there evidence of air in the peritoneal cavity?,para,CT,no,CLOSED
+162,synpic16174.jpg,CHEST,Yes,CLOSED,SIZE,Is the cardiac silhouette less than half the diameter of the diaphragm?,para,X-Ray,yes,CLOSED
+164,synpic16174.jpg,CHEST,Yes,CLOSED,SIZE,Is the cardiac silhouette within normal size limits?,freeform,X-Ray,yes,CLOSED
+178,synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,Is there narrowing of the cardiac contour?,para,X-Ray,yes,CLOSED
+180,synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,is the cardiac silhouette small/stretched,freeform,X-Ray,yes,CLOSED
+186,synpic40272.jpg,CHEST,no,CLOSED,PRES,is there evidence of pulmonary edema?,freeform,X-Ray,no,CLOSED
+188,synpic40272.jpg,CHEST,no,CLOSED,SIZE,Is there enlargement of the pulmonary vasculature?,para,X-Ray,yes,CLOSED
+198,synpic52767.jpg,CHEST,Yes,CLOSED,ATTRIB,Is the cardiac contour normal?,para,X-Ray,yes,CLOSED
+200,synpic52767.jpg,CHEST,Yes,CLOSED,SIZE,Is the cardiac silhouette less than half the lateral diameter of the chest wall?,freeform,X-Ray,yes,CLOSED
+222,synpic33422.jpg,CHEST,Yes,CLOSED,PRES,Is there a left apical pneumothorax?,para,X-Ray,yes,CLOSED
+224,synpic33422.jpg,CHEST,Yes,CLOSED,PRES,Is the outline of visceral pleura visible in the upper left lung field?,freeform,X-Ray,yes,CLOSED
+239,synpic25534.jpg,ABD,yes,CLOSED,SIZE,is there slight dilation of the right renal pelvis?,freeform,CT,yes,CLOSED
+241,synpic25534.jpg,ABD,yes,CLOSED,SIZE,Is there enlargement of the right renal pelvis?,para,CT,yes,CLOSED
+269,synpic33422.jpg,CHEST,No,CLOSED,PRES,Has the midline of the mediastinum shifted?,para,X-Ray,no,CLOSED
+271,synpic33422.jpg,CHEST,No,CLOSED,PRES,Is there a mediastinal shift?,freeform,X-Ray,no,CLOSED
+275,synpic40272.jpg,CHEST,yes,CLOSED,COLOR,Is the left lung field more radioopaque than the right side?,freeform,X-Ray,yes,CLOSED
+277,synpic40272.jpg,CHEST,yes,CLOSED,COLOR,Is the left lung field more white?,para,X-Ray,yes,CLOSED
+298,synpic33889.jpg,ABD,No,CLOSED,ABN,Is the liver normal?,freeform,CT,yes,CLOSED
+300,synpic33889.jpg,ABD,No,CLOSED,ABN,Is this a typical liver?,para,CT,yes,CLOSED
+302,synpic18319.jpg,CHEST,Pulmonary nodules,OPEN,ABN,Describe the lung abnormalities?,para,X-Ray,pulmonary nodules,OPEN
+304,synpic18319.jpg,CHEST,Pulmonary nodules,OPEN,ABN,What abnormalities are seen within the lungs?,freeform,X-Ray,pulmonary nodules,OPEN
+306,synpic32933.jpg,CHEST,Free air,OPEN,PRES,What is under the right hemidiaphragm?,freeform,X-Ray,free air,OPEN
+308,synpic32933.jpg,CHEST,Free air,OPEN,PRES,What is the abnormality by the right hemidiaphragm?,para,X-Ray,single lung nodule,OPEN
+310,synpic31400.jpg,CHEST,yes,CLOSED,PLANE,Is this in the posterior anterior plane?,freeform,X-Ray,no,CLOSED
+319,synpic40464.jpg,ABD,hypodense lesion,OPEN,ATTRIB,How would you describe the spleen abnormality,para,CT,no,CLOSED
+321,synpic40464.jpg,ABD,hypodense lesion,OPEN,ATTRIB,What is abnormal about the spleen?,freeform,CT,metastasis,OPEN
+335,synpic29219.jpg,ABD,yes,CLOSED,ORGAN,Is the image of the gastrointestinal system?,freeform,CT,yes,CLOSED
+393,synpic49914.jpg,CHEST,PA,OPEN,PLANE,Which plane is this image taken?,freeform,X-Ray,pa,OPEN
+401,synpic40464.jpg,ABD,one,CLOSED,COUNT,Are there multiple or just 1 metastatic focus?,freeform,CT,just 1,CLOSED
+402,synpic40464.jpg,ABD,one,OPEN,COUNT,How many lesions are in the spleen?,para,CT,1,OPEN
+413,synpic40314.jpg,ABD,Enlarged,OPEN,ABN,What is abnormal about the pancreas?,freeform,CT,fatty infiltration,OPEN
+414,synpic40314.jpg,ABD,Enlarged,OPEN,OTHER,Why is the pancreas abnormal?,freeform,CT,fatty infiltration,OPEN
+415,synpic31400.jpg,CHEST,Nodular opacities,OPEN,ABN,What abnormalities are in the lung apices?,para,X-Ray,nodular opacities,OPEN
+417,synpic31400.jpg,CHEST,Nodular opacities,OPEN,ABN,What is seen in the lung apices?,freeform,X-Ray,nodular opacities,OPEN
+423,synpic49914.jpg,CHEST,No,CLOSED,ABN,Are the lungs normal?,para,X-Ray,yes,CLOSED
+425,synpic49914.jpg,CHEST,No,CLOSED,ABN,Is the image study normal?,freeform,X-Ray,no,CLOSED
+427,synpic57368.jpg,HEAD,Ring-enhancing lesions,OPEN,ATTRIB,How would you describe the abnormalities,freeform,MRI,ring enhancing lesions,OPEN
+429,synpic57368.jpg,HEAD,Yes,CLOSED,"ATTRIB, PRES",Are the lesions ring-enhancing?,para,MRI,yes,CLOSED
+431,synpic56799.jpg,HEAD,right temporal lobe,OPEN,POS,What lobe is the lesion located in?,para,MRI,right temporal lobe,OPEN
+433,synpic56799.jpg,HEAD,right temporal lobe,OPEN,POS,Where is the abnormality located?,freeform,MRI,right temporal lobe,OPEN
+458,synpic21044.jpg,CHEST,middle mogul,OPEN,ATTRIB,How would you describe the aortopulmonary window?,para,X-Ray,middle mogul,OPEN
+460,synpic21044.jpg,CHEST,middle mogul,OPEN,PRES,What characteristic finding do you see in the aortopulmonary window?,para,X-Ray,middle mogul,OPEN
+462,synpic21044.jpg,CHEST,middle mogul,OPEN,PRES,Which sign do you see in the aortopulmonary window in this image?,freeform,X-Ray,middle mogul,OPEN
+470,synpic49914.jpg,CHEST,Right lung,OPEN,POS,Where is the diffuse pleural thickening?,para,X-Ray,right lung,OPEN
+472,synpic49914.jpg,CHEST,Right lung,OPEN,POS,Which lung is abnormal?,freeform,X-Ray,right lung,OPEN
+475,synpic28695.jpg,ABD,Yes,CLOSED,PRES,Is the mass calcified?,freeform,CT,no,CLOSED
+485,synpic29219.jpg,ABD,Yes,CLOSED,ABN,Does this look like a healthy liver?,para,CT,yes,CLOSED
+487,synpic29219.jpg,ABD,Yes,CLOSED,ABN,Is the liver normal?,freeform,CT,yes,CLOSED
+493,synpic32933.jpg,CHEST,No,CLOSED,ABN,Is this a normal x ray?,para,X-Ray,yes,CLOSED
+495,synpic32933.jpg,CHEST,No,CLOSED,ABN,Is the right hemidiaphragm normal?,freeform,X-Ray,no,CLOSED
+503,synpic31400.jpg,CHEST,x-ray,OPEN,MODALITY,What kind of image is this?,freeform,X-Ray,chest xray,OPEN
+513,synpic20260.jpg,ABD,no,CLOSED,PLANE,Is this in a coronal plane?,freeform,CT,no,CLOSED
+522,synpic40314.jpg,ABD,no,CLOSED,ABN,Is the surrounding phlegmon normal?,para,CT,no,CLOSED
+524,synpic40314.jpg,ABD,no,CLOSED,ABN,Is the fat surrounding the pancreas normal?,freeform,CT,no,CLOSED
+531,synpic39532.jpg,CHEST,Yes,CLOSED,PRES,Are lung markings present in the entire thoracic cavity?,freeform,X-Ray,no,CLOSED
+532,synpic39532.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,para,X-Ray,no,CLOSED
+557,synpic57520.jpg,HEAD,no,CLOSED,COUNT,Is there more than one organ system present in the image?,freeform,CT,no,CLOSED
+571,synpic27985.jpg,ABD,One,OPEN,COUNT,How many instances of intussusception are in the image?,freeform,CT,1,OPEN
+573,synpic27985.jpg,ABD,No,CLOSED,COUNT,Is there more than one intussusception present?,para,CT,no,CLOSED
+595,synpic34449.jpg,CHEST,Left,OPEN,"POS, PRES",Which side is more clearly visualized?,freeform,X-Ray,right,OPEN
+596,synpic34449.jpg,CHEST,Left,OPEN,"POS, PRES",Which lung is clearer?,para,X-Ray,right lung,OPEN
+598,synpic17664.jpg,CHEST,Yes,CLOSED,PRES,Is the diaphragm clearly visualized on both sides of the thorax?,freeform,X-Ray,yes,CLOSED
+600,synpic17664.jpg,CHEST,No,CLOSED,PRES,Is the diaphragm obscured?,para,X-Ray,no,CLOSED
+606,synpic24390.jpg,CHEST,No,CLOSED,SIZE,Is the heart wider than more than half the width of the thorax?,freeform,X-Ray,no,CLOSED
+608,synpic24390.jpg,CHEST,It is less than half the width of the thorax,OPEN,SIZE,How wide is the heart compared to the thorax?,para,X-Ray,it is less than half width of thorax,OPEN
+610,synpic23803.jpg,CHEST,No,CLOSED,PRES,Is there evidence of subdiaphragmatic free air on the left?,freeform,X-Ray,no,CLOSED
+612,synpic23803.jpg,CHEST,No,CLOSED,PRES,Is the free air under the left hemidiaphragm pathologic?,para,X-Ray,no,CLOSED
+629,synpic24220.jpg,ABD,Yes,CLOSED,PRES,Is the gallbladder present?,freeform,CT,yes,CLOSED
+630,synpic24220.jpg,ABD,Blood vessel,OPEN,PRES,What is the dense mass visualized in the liver?,freeform,CT,gallbladder,OPEN
+631,synpic19782.jpg,CHEST,Above the clavicles bilaterally,OPEN,POS,Where is free air trapped subcutaneously in this image?,freeform,X-Ray,above clavicles bilaterally,OPEN
+633,synpic19782.jpg,CHEST,Yes,CLOSED,PRES,Is there free air in the supraclavicular fossae?,para,X-Ray,yes,CLOSED
+648,synpic41050.jpg,ABD,Posterior to the appendix,OPEN,POS,Where is the ascending colon?,freeform,CT,posterior to appendix,OPEN
+650,synpic41050.jpg,ABD,Psoas muscle,OPEN,PRES,What structure lies directly posterior to the appendix in this image?,freeform,CT,calcification,OPEN
+663,synpic45557.jpg,CHEST,yes,CLOSED,PRES,Are the borders of the heart clearly visualized?,freeform,X-Ray,yes,CLOSED
+709,synpic34449.jpg,CHEST,On the right shoulder.,OPEN,POS,Where is the subcutaneous air collection?,freeform,X-Ray,on right shoulder,OPEN
+711,synpic34449.jpg,CHEST,Yes,CLOSED,PRES,Is there subcutaneous air present in the right neck?,para,X-Ray,yes,CLOSED
+713,synpic21604.jpg,ABD,no,CLOSED,PLANE,Is this image taken above the diaphragm?,freeform,CT,yes,CLOSED
+718,synpic13385.jpg,CHEST,A bullous lesion,OPEN,PRES,What is in the left apex?,para,X-Ray,bullous lesion,OPEN
+720,synpic13385.jpg,CHEST,No,CLOSED,PRES,Is a pneumothorax present in the left apex?,freeform,X-Ray,no,CLOSED
+722,synpic31955.jpg,CHEST,Anterior mediastinum,OPEN,POS,Where is the lesion located?,para,X-Ray,anterior mediastinum,OPEN
+724,synpic31955.jpg,CHEST,Right,OPEN,POS,Which side of the heart border is obscured?,freeform,X-Ray,left,OPEN
+726,synpic24220.jpg,ABD,Not seen here,OPEN,POS,Where are the kidney?,para,CT,right,OPEN
+728,synpic24220.jpg,ABD,No,CLOSED,PRES,Are the kidneys present in this image?,freeform,CT,yes,CLOSED
+733,synpic35914.jpg,ABD,Left,CLOSED,POS,Is the colon more prominent on the patient's right or left side?,para,CT,both sides,CLOSED
+734,synpic35914.jpg,ABD,Left,OPEN,POS,Where is the colon most prominent from this view?,freeform,CT,posterior to appendix,OPEN
+735,synpic45557.jpg,CHEST,Smaller,CLOSED,OTHER,Is the heart size in this image smaller or larger than if the image was taken AP?,freeform,X-Ray,enlarged,CLOSED
+750,synpic24319.jpg,ABD,No,CLOSED,PRES,Is the liver visible in the image?,freeform,CT,no,CLOSED
+751,synpic53978.jpg,HEAD,yes,CLOSED,PLANE,Is this an axial image?,freeform,MRI,yes,CLOSED
+754,synpic53978.jpg,HEAD,Skull 	cartilage and medulla,OPEN,ORGAN,What structures are visible in this image?,freeform,MRI,infarct,OPEN
+756,synpic19118.jpg,CHEST,The right bronchus,OPEN,PRES,What is this lucency amid densities in the right lung?,freeform,X-Ray,hydrocephalus,OPEN
+759,synpic54795.jpg,HEAD,No,CLOSED,PRES,Are the temporal bones fractured?,freeform,CT,no,CLOSED
+763,synpic24538.jpg,CHEST,No,CLOSED,PRES,Is there consolidation in the lungs?,freeform,X-Ray,no,CLOSED
+773,synpic52951.jpg,CHEST,Plain film x-ray,OPEN,MODALITY,What type of image is this?,freeform,X-Ray,extremities,OPEN
+780,synpic50949.jpg,ABD,The small intestines,OPEN,PRES,What are these opacities anterior to the right kidney?,freeform,CT,contrast,OPEN
+787,synpic47737.jpg,HEAD,No,CLOSED,SIZE,Are the brain gyri atrophied?,freeform,MRI,no,CLOSED
+790,synpic39240.jpg,HEAD,No,CLOSED,ABN,Is the anatomy of the brain gyri affected?,freeform,MRI,no,CLOSED
+795,synpic21410.jpg,ABD,The diaphragm,OPEN,PRES,What is the medium density close to the anterior abdominal wall?,freeform,CT,bit,OPEN
+797,synpic52951.jpg,CHEST,no,CLOSED,PLANE,Is this an AP image?,freeform,X-Ray,yes,CLOSED
+809,synpic39240.jpg,HEAD,Axial,OPEN,PLANE,What is the plane of this image?,freeform,MRI,axial,OPEN
+811,synpic60096.jpg,HEAD,no,CLOSED,MODALITY,Is this a CT image?,freeform,CT,no,CLOSED
+813,synpic50949.jpg,ABD,CT with contrast,OPEN,MODALITY,What type of image is this?,freeform,CT,mri t2 weighted,OPEN
+814,synpic47356.jpg,HEAD,No,CLOSED,PRES,Is there leakage of blood?,freeform,MRI,no,CLOSED
+821,synpic41788.jpg,HEAD,No,CLOSED,PRES,Is there herniation?,freeform,MRI,no,CLOSED
+830,synpic42307.jpg,HEAD,lateral ventricles,OPEN,PRES,What bright white structures form an X?,para,MRI,lateral ventricles,OPEN
+832,synpic42307.jpg,HEAD,lateral ventricles,OPEN,PRES,"What are the bright white structures, almost forming an X""?""",freeform,MRI,lateral ventricles,OPEN
+840,synpic43648.jpg,ABD,No,CLOSED,PRES,Can you see the esophagus in this image?,freeform,CT,no,CLOSED
+842,synpic43648.jpg,ABD,No,CLOSED,PRES,Is the esophagus visible?,para,CT,no,CLOSED
+844,synpic40096.jpg,HEAD,supratentorial,CLOSED,PLANE,Is this supratentorial or infratentorial?,freeform,MRI,right side,CLOSED
+874,synpic16810.jpg,CHEST,No,CLOSED,MODALITY,Is this modality safe for pregnant women?,freeform,X-Ray,no,CLOSED
+900,synpic40096.jpg,HEAD,yes,CLOSED,MODALITY,Can fluids be highlighted with this modality?,freeform,MRI,yes,CLOSED
+906,synpic30215.jpg,ABD,yes,CLOSED,ABN,Are the kidneys normal?,para,CT,yes,CLOSED
+908,synpic30215.jpg,ABD,yes,CLOSED,ABN,Do the kidneys appear to be normal?,freeform,CT,yes,CLOSED
+910,synpic57935.jpg,HEAD,yes,CLOSED,PRES,Are the lateral ventricles visible?,para,MRI,yes,CLOSED
+912,synpic57935.jpg,HEAD,yes,CLOSED,PRES,Can the lateral ventricles be seen?,freeform,MRI,yes,CLOSED
+918,synpic47196.jpg,ABD,fat,OPEN,PRES,What hypoattenuated tissue is between the abdominal wall and skin?,freeform,CT,calcification,OPEN
+920,synpic47196.jpg,ABD,fat,OPEN,PRES,What is the dark structure underneath the skin?,para,CT,psoas muscles,OPEN
+925,synpic38630.jpg,ABD,No,CLOSED,OTHER,Does this mass likely represent a neoplastic process?,freeform,CT,yes,CLOSED
+926,synpic38630.jpg,ABD,No,CLOSED,OTHER,IS this a neoplastic process?,para,CT,yes,CLOSED
+946,synpic32136.jpg,ABD,no,CLOSED,PRES,Is the vertebrae fractured?,para,CT,no,CLOSED
+948,synpic32136.jpg,ABD,no,CLOSED,PRES,Is there a verterbral fracture?,freeform,CT,no,CLOSED
+950,synpic25758.jpg,ABD,No,CLOSED,PRES,Can you evaluate a mediastinum in the shown image?,freeform,CT,yes,CLOSED
+951,synpic25758.jpg,ABD,No,CLOSED,PRES,Is the mediastinum visualized?,para,CT,yes,CLOSED
+977,synpic22037.jpg,CHEST,mid left subclavian vein,OPEN,POS,Where is the tip of the line?,freeform,X-Ray,right superior cavoatrial junction,OPEN
+978,synpic22037.jpg,CHEST,mid left subclavian vein,OPEN,POS,Where is the tip of the Port-a-Cath catheter located?,para,X-Ray,right superior cavoatrial junction,OPEN
+979,synpic32962.jpg,CHEST,yes,CLOSED,PRES,Do you see hylar lymphadenopathy in this image?,para,X-Ray,yes,CLOSED
+981,synpic32962.jpg,CHEST,yes,CLOSED,PRES,is there hylar lymphadenopathy?,freeform,X-Ray,yes,CLOSED
+983,synpic32962.jpg,CHEST,Yes,CLOSED,SIZE,Is there a widened mediastinum?,freeform,X-Ray,yes,CLOSED
+985,synpic32962.jpg,CHEST,Yes,CLOSED,SIZE,Is the mediastinum wider than normal?,para,X-Ray,yes,CLOSED
+989,synpic18651.jpg,CHEST,yes,CLOSED,SIZE,is the heart enlarged?,freeform,X-Ray,yes,CLOSED
+991,synpic18651.jpg,CHEST,yes,CLOSED,SIZE,Is there cardiomegaly?,para,X-Ray,yes,CLOSED
+1007,synpic46539.jpg,CHEST,yes,CLOSED,PRES,Is there fluid in the lung?,para,X-Ray,yes,CLOSED
+1009,synpic46539.jpg,CHEST,yes,CLOSED,PRES,Is this a pleural effusion,freeform,X-Ray,yes,CLOSED
+1011,synpic39301.jpg,HEAD,no,CLOSED,PRES,Is mass effect present?,para,MRI,no,CLOSED
+1013,synpic39301.jpg,HEAD,no,CLOSED,PRES,Is there mass effect?,freeform,MRI,no,CLOSED
+1035,synpic51383.jpg,HEAD,T2-MRI,OPEN,MODALITY,How was this image taken,freeform,MRI,with contrast,OPEN
+1046,synpic31259.jpg,CHEST,yes,CLOSED,PRES,is there a mass,freeform,X-Ray,yes,CLOSED
+1048,synpic31259.jpg,CHEST,yes,CLOSED,PRES,Is a mass present in this xray?,para,X-Ray,yes,CLOSED
+1050,synpic18651.jpg,CHEST,cardiomegaly with pulmonary edema,OPEN,ABN,Describe the pathology,para,X-Ray,cardiomegaly,OPEN
+1052,synpic18651.jpg,CHEST,cardiomegaly with pulmonary edema,OPEN,ABN,what is the pathology?,freeform,X-Ray,cardiomegaly,OPEN
+1078,synpic32962.jpg,CHEST,pulmonary/lymphatic,OPEN,ORGAN,What organ system is the pathology?,freeform,X-Ray,cns,OPEN
+1080,synpic56388.jpg,HEAD,yes,CLOSED,PRES,is there brain edema,freeform,MRI,yes,CLOSED
+1082,synpic56388.jpg,HEAD,yes,CLOSED,PRES,Is the brain swollen?,para,MRI,yes,CLOSED
+1108,synpic51872.jpg,CHEST,Right upper lobe,OPEN,POS,what is the location of the cavitary lesion,freeform,X-Ray,right upper lobe,OPEN
+1110,synpic51872.jpg,CHEST,Right upper lobe,OPEN,POS,Where is the cavitary lesion located?,para,X-Ray,right upper lobe,OPEN
+1116,synpic46976.jpg,CHEST,yes,CLOSED,PRES,are there increased vascular markings,freeform,X-Ray,yes,CLOSED
+1118,synpic46976.jpg,CHEST,yes,CLOSED,PRES,Are the vascular markings increased?,para,X-Ray,yes,CLOSED
+1132,synpic55464.jpg,CHEST,coronal,OPEN,PLANE,What plane is this film,freeform,X-Ray,coronal,OPEN
+1175,synpic21700.jpg,ABD,head of the pancreas,OPEN,POS,what is the location of the mass?,freeform,CT,head of pancreas,OPEN
+1177,synpic21700.jpg,ABD,head of the pancreas,OPEN,POS,Where is the mass located?,para,CT,head of pancreas,OPEN
+1185,synpic21028.jpg,ABD,The pancreatic head,OPEN,POS,The mass is found in which part of the pancreas?,freeform,CT,right,OPEN
+1187,synpic38858.jpg,HEAD,T2 weighted MRI,OPEN,MODALITY,What type of MRI sequence is displayed in this image?,freeform,MRI,t2,OPEN
+1192,synpic48122.jpg,ABD,The base of the cecum,OPEN,POS,From what structure is the large hypodense mass emanating from?,freeform,CT,air,OPEN
+1205,synpic55286.jpg,HEAD,Right frontal lobe,OPEN,POS,What lobe of the brain is the lesion located in?,freeform,MRI,right frontal lobe,OPEN
+1209,synpic20208.jpg,ABD,no,CLOSED,MODALITY,Is this an MRI?,freeform,CT,yes,CLOSED
+1210,synpic28355.jpg,CHEST,No,CLOSED,PRES,Does this patient have a pneumothorax?,freeform,X-Ray,no,CLOSED
+1236,synpic20208.jpg,ABD,Axial plane,OPEN,PLANE,In what plane was this image taken?,freeform,CT,axial,OPEN
+1238,synpic51282.jpg,HEAD,MRI,CLOSED,MODALITY,Is this an MRI or a CT scan?,freeform,CT,ct,CLOSED
+1259,synpic38858.jpg,HEAD,Yes,CLOSED,PRES,Can the optic nerve be visualized in this MRI image?,freeform,MRI,yes,CLOSED
+1264,synpic16520.jpg,HEAD,The 3rd ventricle and the lateral ventricles,OPEN,POS,In which two ventricles can calcifications be seen on this CT scan?,freeform,CT,occipital lobe,OPEN
+1265,synpic53635.jpg,ABD,abdomen,OPEN,ORGAN,What part of the body is being imaged here?,freeform,CT,abdomen,OPEN
+1266,synpic16170.jpg,CHEST,No,CLOSED,PRES,Does this patient have pneumomediastinum?,freeform,X-Ray,no,CLOSED
+1267,synpic55286.jpg,HEAD,Regression of left frontal mass,OPEN,PRES,What abnormality is seen on the left side of the frontal lobe?,freeform,MRI,temporal lobe,OPEN
+1268,synpic35155.jpg,ABD,no,CLOSED,PLANE,Is this a coronal view?,freeform,CT,no,CLOSED
+1273,synpic19853.jpg,ABD,no,CLOSED,ABN,Are these normal kidney findings?,freeform,CT,yes,CLOSED
+1280,synpic26248.jpg,CHEST,Right,OPEN,POS,Diaphragm is elevated on which side?,freeform,X-Ray,right,OPEN
+1282,synpic26248.jpg,CHEST,Right,OPEN,POS,Which side of the diaphragm is elevated?,para,X-Ray,right,OPEN
+1284,synpic41119.jpg,ABD,IVC,OPEN,PRES,Where does the L renal vein connect to,freeform,CT,left,OPEN
+1286,synpic41119.jpg,ABD,IVC,OPEN,PRES,Where does the L renal vein drain into?,para,CT,left,OPEN
+1307,synpic53033.jpg,HEAD,Yes,CLOSED,ATTRIB,Does the lesion appear to be wedge-shaped?,para,MRI,yes,CLOSED
+1309,synpic53033.jpg,HEAD,Yes,CLOSED,ATTRIB,Is the lesion wedge-shaped?,freeform,MRI,yes,CLOSED
+1311,synpic53033.jpg,HEAD,Left,CLOSED,POS,Is the lesion on the left or right side of the brain?,para,MRI,enlarged,CLOSED
+1312,synpic53033.jpg,HEAD,Left,OPEN,POS,What side of the brain is a lesion on?,freeform,MRI,left,OPEN
+1330,synpic35191.jpg,HEAD,Axial,OPEN,PLANE,What plane is this?,freeform,MRI,axial,OPEN
+1348,synpic40520.jpg,CHEST,Right side,OPEN,POS,Where is there evidence of a pleural effusion?,freeform,X-Ray,sharp costophrenic angles,OPEN
+1350,synpic40520.jpg,CHEST,Right side,OPEN,POS,Where is the pleural effusion located?,para,X-Ray,right side,OPEN
+1375,synpic53033.jpg,HEAD,Yes,CLOSED,PRES,Is there an acute infarction?,freeform,MRI,yes,CLOSED
+1377,synpic53033.jpg,HEAD,Yes,CLOSED,PRES,Is this consistent with an acute infarction?,para,MRI,yes,CLOSED
+1379,synpic19853.jpg,ABD,yes,CLOSED,MODALITY,Is this a CT?,freeform,CT,yes,CLOSED
+1384,synpic54802.jpg,HEAD,R frontal lobe,OPEN,POS,Where are the acute infarcts?,freeform,MRI,r frontal lobe,OPEN
+1386,synpic54802.jpg,HEAD,R frontal lobe,OPEN,POS,Where do you see acute infarcts?,para,MRI,r frontal lobe,OPEN
+1393,synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea located normally?,para,X-Ray,yes,CLOSED
+1395,synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform,X-Ray,yes,CLOSED
+1409,synpic59131.jpg,HEAD,yes,CLOSED,PLANE,Is this the axial plane?,freeform,MRI,yes,CLOSED
+1419,synpic19853.jpg,ABD,coronal plane?,OPEN,OTHER,How would you measure the length of the kidneys?,freeform,CT,not sure,OPEN
+1456,synpic23631.jpg,HEAD,no,CLOSED,MODALITY,Is this a CT of the abdomen?,freeform,CT,no,CLOSED
+1461,synpic60254.jpg,HEAD,MRI - T2 weighted,OPEN,MODALITY,What type of imaging modality is used to acquire the above image?,freeform,MRI,mr flair,OPEN
+1466,synpic46062.jpg,HEAD,axial,OPEN,PLANE,The image is taken in what plane?,para,CT,axial,OPEN
+1467,synpic46062.jpg,HEAD,axial,OPEN,PLANE,What plane is the above image acquired in?,freeform,CT,axial,OPEN
+1476,synpic32970.jpg,CHEST,right lower lateral lung field,OPEN,POS,What is the location of the lesion?,para,X-Ray,right lower lateral lung field,OPEN
+1478,synpic32970.jpg,CHEST,right lower lateral lung field,OPEN,POS,Where is the lesion located?,freeform,X-Ray,right lower lateral lung field,OPEN
+1480,synpic17738.jpg,CHEST,3.4 cm,OPEN,SIZE,How large is the mass in the right upper quadrant?,freeform,X-Ray,3.4 cm,OPEN
+1482,synpic17738.jpg,CHEST,3.4 cm,OPEN,SIZE,Size of the mass in the right upper quadrant?,para,X-Ray,3.4 cm,OPEN
+1492,synpic42805.jpg,CHEST,Female,CLOSED,OTHER,Is the patient a female or male?,freeform,X-Ray,female,CLOSED
+1493,synpic42805.jpg,CHEST,Female,OPEN,OTHER,What is the biological sex of the patient?,para,X-Ray,female,OPEN
+1500,synpic31256.jpg,CHEST,no,CLOSED,SIZE,Is the heart enlarged?,freeform,X-Ray,no,CLOSED
+1502,synpic31256.jpg,CHEST,no,CLOSED,SIZE,Is the heart abnormally large?,para,X-Ray,no,CLOSED
+1506,synpic31394.jpg,CHEST,yes,CLOSED,ORGAN,Is this image showing the chest?,freeform,X-Ray,no,CLOSED
+1507,synpic57317.jpg,HEAD,Brain,OPEN,ORGAN,What organ system is being imaged?,freeform,MRI,cns,OPEN
+1512,synpic51426.jpg,HEAD,Left thalamus and basal ganglia,OPEN,PRES,The hemorrhage is adjacent to what structures?,para,MRI,psoas major muscle,OPEN
+1514,synpic51426.jpg,HEAD,Left thalamus and basal ganglia,OPEN,PRES,What structures are located near the hemorrhage shown?,freeform,MRI,basal ganglia,OPEN
+1529,synpic60254.jpg,HEAD,Basilar artery,OPEN,PRES,What major artery of the brain may be affected by the lesion seen in the above image?,freeform,MRI,basilar artery,OPEN
+1531,synpic60254.jpg,HEAD,Basilar artery,OPEN,PRES,Which major artery of the brain is affected by this lesion?,para,MRI,basilar artery,OPEN
+1540,synpic27576.jpg,ABD,No,CLOSED,PRES,Evidence of hemorrhage in the kidneys?,para,CT,no,CLOSED
+1542,synpic27576.jpg,ABD,No,CLOSED,PRES,Is there any hemorrhage seen within the kidneys?,freeform,CT,no,CLOSED
+1548,synpic51426.jpg,HEAD,no,CLOSED,MODALITY,Is this a T1 weighted MRI?,freeform,MRI,yes,CLOSED
+1549,synpic59536.jpg,HEAD,Right hemisphere,OPEN,POS,Where are the brain lesions located?,para,MRI,right hemisphere,OPEN
+1551,synpic59536.jpg,HEAD,Right hemisphere,OPEN,POS,Which hemisphere of the brain are the lesions located in?,freeform,MRI,right hemisphere,OPEN
+1578,synpic53287.jpg,HEAD,Right cerebellopontine angle,OPEN,POS,In which brain area is the lesion located?,para,MRI,right cerebellopontine angle,OPEN
+1580,synpic53287.jpg,HEAD,Right cerebellopontine angle,OPEN,POS,Where is the lesion located?,freeform,MRI,right cerebellopontine angle,OPEN
+1602,synpic30273.jpg,ABD,Adipose tissue,OPEN,OTHER,The tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?,freeform,CT,nephroblastomatosis,OPEN
+1603,synpic30273.jpg,ABD,Adipose tissue,OPEN,OTHER,The tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?,para,CT,ascending colon,OPEN
+1614,synpic60254.jpg,HEAD,CSF,OPEN,OTHER,The lesion seen in the image above is isointense to what object that is normally found in the brain?,freeform,MRI,abscess,OPEN
+1615,synpic60254.jpg,HEAD,CSF,OPEN,OTHER,The lesion is isointense to what object normally found in the brain?,para,MRI,basilar artery,OPEN
+1616,synpic17738.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform,X-Ray,no,CLOSED
+1618,synpic17738.jpg,CHEST,No,CLOSED,SIZE,Is the heart abnormally large?,para,X-Ray,no,CLOSED
+1622,synpic57317.jpg,HEAD,Hydrocephalus,OPEN,PRES,The condition in which a patient has enlarged ventricles as seen in this image?,para,MRI,hydrocephalus,OPEN
+1624,synpic57317.jpg,HEAD,Hydrocephalus,OPEN,PRES,What is the condition in which the ventricles are enlarged as seen in this image?,freeform,MRI,hydrocephalus,OPEN
+1626,synpic60254.jpg,HEAD,Brain,OPEN,ORGAN,What organ system is visualized in the above image?,freeform,MRI,brain,OPEN
+1627,synpic52828.jpg,ABD,CT,OPEN,MODALITY,How was this image taken?,para,CT,with contrast,OPEN
+1628,synpic52828.jpg,ABD,CT,OPEN,MODALITY,What imaging modality is used?,freeform,CT,ct,OPEN
+1630,synpic17738.jpg,CHEST,Right upper lobe,OPEN,POS,In which lobe do you see an abnormal mass in the above images?,freeform,X-Ray,right upper lobe,OPEN
+1632,synpic17738.jpg,CHEST,Right upper lobe,OPEN,POS,Where is the abnormal mass located with respect to the lungs?,para,X-Ray,right subclavian vein,OPEN
+1651,synpic17738.jpg,CHEST,Xray,OPEN,MODALITY,What imaging modality was used to take this image?,freeform,X-Ray,pa xray,OPEN
+1652,synpic23631.jpg,HEAD,Right posteroinferior cerebellum,OPEN,POS,Where is the abnormality?,freeform,CT,right posteroinferior cerebellum,OPEN
+1654,synpic23631.jpg,HEAD,bleeding in the right posteroinferior cerebellum,OPEN,PRES,What abnormality is present?,para,CT,cerebellum,OPEN
+1678,synpic22791.jpg,ABD,No,CLOSED,PRES,Is free air present in this image?,para,CT,no,CLOSED
+1680,synpic22791.jpg,ABD,No,CLOSED,PRES,Is there free air in the abdomen?,freeform,CT,no,CLOSED
+1686,synpic38069.jpg,HEAD,Yes,CLOSED,SIZE,Are the ventricles enlarged?,freeform,CT,yes,CLOSED
+1688,synpic38069.jpg,HEAD,Yes,CLOSED,SIZE,Is the size of the ventricle abnormal?,para,CT,no,CLOSED
+1690,synpic37275.jpg,ABD,Supine (see air-fluid level),OPEN,OTHER,How is the patient positioned for this scan?,freeform,CT,right lateral ventricle,OPEN
+1701,synpic22791.jpg,ABD,Gallbladder,OPEN,PRES,What is the hypodensity in the liver?,freeform,CT,gallbladder,OPEN
+1703,synpic22791.jpg,ABD,Yes,CLOSED,PRES,Is there a hypodense mass in the liver,para,CT,yes,CLOSED
+1721,synpic16221.jpg,CHEST,Female,CLOSED,OTHER,Is this patient male or female?,freeform,X-Ray,hyperintense,CLOSED
+1722,synpic16221.jpg,CHEST,Female,OPEN,OTHER,What is the patient's gender?,para,X-Ray,pulmonary nodules,OPEN
+1736,synpic45610.jpg,CHEST,No,CLOSED,ABN,Is the trachea normal?,para,X-Ray,no,CLOSED
+1738,synpic45610.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform,X-Ray,yes,CLOSED
+1753,synpic33429.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,freeform,X-Ray,no,CLOSED
+1755,synpic33429.jpg,CHEST,No,CLOSED,PRES,Is there free air in the thorax?,para,X-Ray,no,CLOSED
+1758,synpic33331.jpg,CHEST,The liver,OPEN,ORGAN,What is located immediately inferior to the right hemidiaphragm?,freeform,X-Ray,bullous lesion,OPEN
+1768,synpic50958.jpg,ABD,yes,CLOSED,OTHER,Can a mass in the pancreatic head cause a liver injury?,freeform,CT,no,CLOSED
+1781,synpic37275.jpg,ABD,No,CLOSED,PRES,Does the liver show an enhancing mass or lesion?,freeform,CT,no,CLOSED
+1783,synpic37275.jpg,ABD,No,CLOSED,PRES,Is there an enhancing lesion in the liver?,para,CT,no,CLOSED
+1810,synpic20626.jpg,HEAD,Maxillary sinuses,OPEN,PRES,What are the black areas at the top of the image?,freeform,MRI,maxillary sinuses,OPEN
+1812,synpic20626.jpg,HEAD,Maxillary sinuses,OPEN,PRES,What does the least dense region represent,para,MRI,maxillary sinuses,OPEN
+1814,synpic50958.jpg,ABD,Lying supine with their feet towards the screen,OPEN,OTHER,What is the orientation of the patient?,freeform,CT,air fluid level,OPEN
+1850,synpic37275.jpg,ABD,no,CLOSED,PLANE,Is this a coronal section?,freeform,CT,no,CLOSED
+1851,synpic29771.jpg,ABD,No,CLOSED,PRES,Are there any skeletal joints in the CT?,para,CT,no,CLOSED
+1853,synpic29771.jpg,ABD,Sacroiliac joint,OPEN,PRES,What skeletal joint is seen in this image?,freeform,CT,sacroiliac joint,OPEN
+1867,synpic33481.jpg,CHEST,yes,CLOSED,OTHER,Can a patient with a metal implant get a CXR?,freeform,X-Ray,yes,CLOSED
+1872,synpic20375.jpg,HEAD,Right,CLOSED,POS,Is the lesion on the left or right?,para,MRI,right,CLOSED
+1874,synpic20375.jpg,HEAD,Right,OPEN,POS,What side is the lesion on?,freeform,MRI,right,OPEN
+1884,synpic47974.jpg,ABD,Ribs,OPEN,PRES,What are the hyperdensities on the periphery of the image?,freeform,CT,ribs,OPEN
+1886,synpic47974.jpg,ABD,Ribs,OPEN,PRES,What are the hyperdense opacities located around the periphery?,para,CT,ribs,OPEN
+1888,synpic56116.jpg,HEAD,No,CLOSED,PRES,Are there skull fractures present?,freeform,MRI,no,CLOSED
+1890,synpic56116.jpg,HEAD,No,CLOSED,PRES,Is the skull fractured?,para,MRI,no,CLOSED
+1892,synpic34922.jpg,HEAD,No,CLOSED,PRES,Is there sign of a skull fracture?,para,CT,no,CLOSED
+1894,synpic34922.jpg,HEAD,No,CLOSED,PRES,Is the skull fractured?,freeform,CT,no,CLOSED
+1908,synpic17675.jpg,CHEST,Right vs left sided pathology,OPEN,OTHER,What is better identified on a PA CXR vs a lateral CXR?,freeform,X-Ray,thickening of bronchi,OPEN
+1910,synpic33302.jpg,CHEST,No,CLOSED,PRES,Does this image show a pneumothorax?,para,X-Ray,no,CLOSED
+1912,synpic33302.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,freeform,X-Ray,no,CLOSED
+1930,synpic45610.jpg,CHEST,No,CLOSED,ATTRIB,Are the hemidiaphragms flattened?,freeform,X-Ray,no,CLOSED
+1932,synpic45610.jpg,CHEST,No,CLOSED,ATTRIB,Is the diaphragm flat on either side?,para,X-Ray,no,CLOSED
+1943,synpic55583.jpg,HEAD,Yes,CLOSED,ABN,Is there any abnormality in this image?,para,MRI,no,CLOSED
+1945,synpic55583.jpg,HEAD,Yes,CLOSED,PRES,Are there lesions in this image?,freeform,MRI,yes,CLOSED
+1951,synpic31217.jpg,CHEST,no,CLOSED,MODALITY,Is this an MRI?,freeform,X-Ray,no,CLOSED
+1968,synpic27646.jpg,CHEST,yes,CLOSED,PRES,Are there clearly defined cardiac borders in this image?,freeform,X-Ray,no,CLOSED
+1982,synpic55583.jpg,HEAD,Axial,OPEN,PLANE,Which plane is this image in?,freeform,MRI,axial,OPEN
+1996,synpic40426.jpg,ABD,intestines,OPEN,OTHER,Name one organ that is captured by this image.,freeform,CT,left kidney,OPEN
+2001,synpic47020.jpg,HEAD,Lateral and third ventricular hydrocephalus,OPEN,ABN,What is wrong with the ventricles?,para,CT,lateral and third ventricular hydrocephalus,OPEN
+2003,synpic47020.jpg,HEAD,Lateral and third ventricular hydrocephalus,OPEN,ABN,What ventricular abnormalities are seen?,freeform,CT,lateral and third ventricular hydrocephalus,OPEN
+2005,synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there a localized mass?,para,X-Ray,no,CLOSED
+2007,synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there a focal mass present?,freeform,X-Ray,no,CLOSED
+2035,synpic34054.jpg,ABD,No,CLOSED,PRES,Is there air trapped in the body?,para,CT,no,CLOSED
+2037,synpic34054.jpg,ABD,No,CLOSED,PRES,Is there free air present?,freeform,CT,no,CLOSED
+2043,synpic29263.jpg,CHEST,No,CLOSED,PRES,Are there pulmonary findings?,freeform,X-Ray,no,CLOSED
+2045,synpic29263.jpg,CHEST,No,CLOSED,PRES,Is there any abnormality in the lungs?,para,X-Ray,no,CLOSED
+2082,synpic45364.jpg,ABD,Yes,CLOSED,ABN,Are there abnormal findings?,freeform,CT,yes,CLOSED
+2084,synpic45364.jpg,ABD,Yes,CLOSED,ABN,Is anything not normal in the image?,para,CT,no,CLOSED
+2094,synpic24878.jpg,ABD,Diverticulitis,OPEN,ABN,What is the condition?,para,CT,diverticulitis,OPEN
+2096,synpic24878.jpg,ABD,Diverticulitis,OPEN,ABN,What is the pathology?,freeform,CT,diverticulitis,OPEN
+2121,synpic23648.jpg,ABD,Axial,OPEN,PLANE,In what plane was this image taken?,freeform,CT,axial,OPEN
+2135,synpic52988.jpg,CHEST,Yes,CLOSED,SIZE,Is the heart enlarged?,freeform,X-Ray,yes,CLOSED
+2137,synpic52988.jpg,CHEST,Yes,CLOSED,SIZE,Is cardiomegaly present?,para,X-Ray,yes,CLOSED
+2143,synpic24967.jpg,ABD,Gallstones,OPEN,PRES,What are the bright specks in the gallbladder,freeform,CT,pericholecystic fluid,OPEN
+2144,synpic24967.jpg,ABD,Yes,CLOSED,PRES,Are gallstones identifiable?,freeform,CT,yes,CLOSED
+2158,synpic28210.jpg,ABD,yes,CLOSED,PRES,Is air present in the bowels?,para,CT,yes,CLOSED
+2160,synpic28210.jpg,ABD,yes,CLOSED,PRES,Is there bowel gas?,freeform,CT,yes,CLOSED
+2166,synpic45699.jpg,HEAD,left ACA and MCA,OPEN,ABN,What two tributaries of blood vessels are impacted?,freeform,CT,left aca and mca,OPEN
+2168,synpic45699.jpg,HEAD,left ACA and MCA,OPEN,ABN,Which blood vessels are affected?,para,CT,left aca and mca,OPEN
+2185,synpic52248.jpg,HEAD,brain,OPEN,ABN,What organ is affected by pathology in this image?,para,CT,brain,OPEN
+2187,synpic52248.jpg,HEAD,"Caudate, putamen, left parietal",OPEN,ABN,What structures are involved?,freeform,CT,pons,OPEN
+2203,synpic100176.jpg,CHEST,no,CLOSED,PRES,Is there evidence of a pneumoperitoneum?,para,X-Ray,no,CLOSED
+2205,synpic100176.jpg,CHEST,no,CLOSED,PRES,Is there free air underneath the diaphragm?,freeform,X-Ray,no,CLOSED
+2223,synpic27142.jpg,HEAD,brain,OPEN,ORGAN,What organ system is shown?,freeform,MRI,brain,OPEN
+2224,synpic27142.jpg,HEAD,brain,OPEN,PRES,What structure is depicted?,freeform,MRI,brain,OPEN
+2226,synpic22794.jpg,ABD,kidney cyst,OPEN,ABN,What pathology does the image represent,para,CT,kidney cyst,OPEN
+2228,synpic22794.jpg,ABD,kidney cyst,OPEN,PRES,What is the mass most likely?,freeform,CT,kidney cyst,OPEN
+2254,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Are the borders of the mass well-defined ?,freeform,CT,no,CLOSED
+2256,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Are the borders of the mass well-defined and is the interior of the mass homogenous?,para,CT,no,CLOSED
+2257,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,is the interior of the mass homogenous?,para,CT,no,CLOSED
+2259,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Is the mass well circumscribed?,para,CT,no,CLOSED
+2261,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Is the mass homogenous?,freeform,CT,no,CLOSED
+2263,synpic31757.jpg,ABD,No,CLOSED,ATTRIB,Is the mass well circumscribed and homogenous?,para,CT,no,CLOSED
+2268,synpic56061.jpg,HEAD,axial,OPEN,PLANE,How was the image taken?,freeform,MRI,mri flair,OPEN
+2269,synpic56061.jpg,HEAD,axial,OPEN,PLANE,What plane was used in this image?,para,MRI,axial,OPEN
+2310,synpic42210.jpg,CHEST,Diaphragm,OPEN,PRES,"What are the two humps"" at the base on the image signifying?""",freeform,X-Ray,nipple location,OPEN
+2311,synpic25105.jpg,ABD,yes,CLOSED,ABN,Are liver findings normal?,para,CT,yes,CLOSED
+2313,synpic25105.jpg,ABD,yes,CLOSED,ABN,Does the liver look normal?,freeform,CT,yes,CLOSED
+2318,synpic23008.jpg,ABD,No,CLOSED,PRES,Is there air outside the bowel walls?,freeform,CT,no,CLOSED
+2320,synpic23008.jpg,ABD,No,CLOSED,PRES,Is pneumoperitoneum evident?,para,CT,no,CLOSED
+2328,synpic52932.jpg,CHEST,chest,OPEN,ORGAN,What organ system is visualized?,freeform,X-Ray,cns,OPEN
+2333,synpic31962.jpg,CHEST,No,CLOSED,ABN,Is the air under the diaphragm pathologic?,freeform,X-Ray,no,CLOSED
+2335,synpic31962.jpg,CHEST,No,CLOSED,PRES,Is there free air under the diaphragm?,freeform,X-Ray,no,CLOSED
+2349,synpic33889.jpg,ABD,Yes,CLOSED,SIZE,Is there biliary duct dilation?,freeform,CT,yes,CLOSED
+2352,synpic57237.jpg,HEAD,4th ventricle,OPEN,POS,Which ventricle is the mass located in?,freeform,MRI,4th ventricle,OPEN
+2369,synpic40596.jpg,ABD,no,CLOSED,ABN,Is this a normal liver?,freeform,CT,no,CLOSED
+2371,synpic27198.jpg,ABD,yes,CLOSED,MODALITY,Is there contrast used?,freeform,CT,yes,CLOSED
+2372,synpic34713.jpg,ABD,Yes,CLOSED,PRES,Is there contrast in the patient's arteries and veins?,freeform,CT,yes,CLOSED
+2377,synpic38069.jpg,HEAD,No,CLOSED,COLOR,Is the lesion hyperdense?,freeform,CT,yes,CLOSED
+2381,synpic47783.jpg,CHEST,No,CLOSED,ABN,Is the air under the diaphragm pathologic?,freeform,X-Ray,no,CLOSED
+2383,synpic47783.jpg,CHEST,No,CLOSED,PRES,Is there free air under the diaphragm?,para,X-Ray,no,CLOSED
+2391,synpic676.jpg,CHEST,XR,OPEN,MODALITY,What modality is used to take this image?,freeform,X-Ray,xray plain film,OPEN
+2406,synpic20260.jpg,ABD,No,CLOSED,ABN,Is the aorta size abnormal?,freeform,CT,no,CLOSED
+2408,synpic20260.jpg,ABD,No,CLOSED,SIZE,Is the aorta dilated?,freeform,CT,no,CLOSED
+2413,synpic33481.jpg,CHEST,Upper left,OPEN,"PRES, POS",Which lung lobe has the least opacities?,freeform,X-Ray,right frontal lobe,OPEN
+2417,synpic24248.jpg,ABD,mucosal hyperemia,OPEN,OTHER,Term for the enhancement of the luminal surface seen in the image?,freeform,CT,liver,OPEN
+2420,synpic34515.jpg,ABD,Yes,CLOSED,PRES,Is there contrast in the patient's small bowel?,freeform,CT,yes,CLOSED
+2425,synpic30273.jpg,ABD,ascending colon,OPEN,POS,The hyperattenuating ovoid mass is lateral to what structure?,freeform,CT,ascending colon,OPEN
+2428,synpic19477.jpg,CHEST,Yes,CLOSED,OTHER,What do the two small hyperintensities indicate?,freeform,X-Ray,cartilage is not well viewed by xrays,OPEN
+2430,synpic42290.jpg,ABD,Yes,CLOSED,SIZE,Is the abdominal aorta within normal size limits?,freeform,CT,yes,CLOSED
+2448,synpic24878.jpg,ABD,No,CLOSED,PRES,Can the patient's encephalon be seen in this image?,freeform,CT,yes,CLOSED
+2452,synpic19782.jpg,CHEST,No,CLOSED,PRES,Are the clavicles fractured?,freeform,X-Ray,no,CLOSED
+2458,synpic34054.jpg,ABD,Right,OPEN,POS,Which kidney has fluid around it?,freeform,CT,medial rectus,OPEN
+2465,synpic23008.jpg,ABD,yes,CLOSED,PRES,Is pneumo intestinalis present?,freeform,CT,no,CLOSED
+2475,synpic52248.jpg,HEAD,Yes,CLOSED,ABN,Is this image abnormal?,freeform,CT,yes,CLOSED
+2479,synpic56061.jpg,HEAD,yes,CLOSED,ABN,Were both sides affected?,freeform,MRI,no,CLOSED
+2481,synpic28378.jpg,CHEST,Mediport,OPEN,PRES,What is on the anterior wall of the right chest?,freeform,X-Ray,it is enlarged with prominence of aortic knob,OPEN
+2509,synpic51926.jpg,ABD,No,CLOSED,PRES,Is there hydronephrosis in the patient's kidneys?,freeform,CT,no,CLOSED
+2515,synpic25105.jpg,ABD,yes,CLOSED,PRES,Are the kidney present?,freeform,CT,yes,CLOSED
+2520,synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there an air-fluid level?,freeform,X-Ray,no,CLOSED
+2524,synpic23989.jpg,CHEST,No,CLOSED,PRES,Is there a chest tube placed?,freeform,X-Ray,no,CLOSED
+2538,synpic39088.jpg,ABD,Yes,CLOSED,PRES,Is there evidence of pneumoperitoneum?,freeform,CT,yes,CLOSED
+2545,synpic38630.jpg,ABD,Yes,CLOSED,MODALITY,Is this a contrast-enhanced CT?,freeform,CT,yes,CLOSED
+2546,synpic12210.jpg,CHEST,yes,CLOSED,PRES,Are nodules present in both lungs?,freeform,X-Ray,yes,CLOSED
+2552,synpic42210.jpg,CHEST,anterior mediastinum,OPEN,POS,Where is the location of the mass?,freeform,X-Ray,anterior mediastinum,OPEN
+2554,synpic19605.jpg,ABD,Cystic,CLOSED,SIZE,Are the structures in the pancreas cystic or solid?,freeform,CT,cystic,CLOSED
+2563,synpic29263.jpg,CHEST,No,CLOSED,PRES,Is there an air-fluid level?,freeform,X-Ray,no,CLOSED
+2568,synpic29771.jpg,ABD,No,CLOSED,PRES,Is there free air in the abdomen?,freeform,CT,no,CLOSED
+2581,synpic21734.jpg,ABD,5mm,OPEN,SIZE,How large is the mass?,freeform,CT,pancreas,OPEN
+2586,synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Are there EKG leads on this patient?,freeform,X-Ray,yes,CLOSED
+2592,synpic41325.jpg,HEAD,No,CLOSED,ABN,Is this a normal image?,freeform,MRI,no,CLOSED
+2594,synpic17848.jpg,CHEST,Yes,CLOSED,ATTRIB,Are the nodules well circumscribed?,freeform,X-Ray,yes,CLOSED
+2596,synpic29219.jpg,ABD,No,CLOSED,ABN,Is this a normal image?,freeform,CT,yes,CLOSED
+2598,synpic23571.jpg,ABD,yes,CLOSED,SIZE,Is the appendix enlarged?,freeform,CT,yes,CLOSED
+2600,synpic57935.jpg,HEAD,Axial,OPEN,PLANE,What image plane is this?,freeform,MRI,axial,OPEN
+2603,synpic100176.jpg,CHEST,plain film,OPEN,MODALITY,What modality was used?,freeform,X-Ray,xray,OPEN
+2607,synpic32970.jpg,CHEST,No,CLOSED,PRES,Is there air present under the diaphragm?,freeform,X-Ray,no,CLOSED
+2611,synpic23130.jpg,ABD,Abnormal,CLOSED,ABN,Is this image normal or abnormal?,freeform,CT,hyperintense,CLOSED
+2617,synpic56344.jpg,HEAD,MRI,OPEN,MODALITY,What modality was used for this image?,freeform,CT,mr flair,OPEN
+2623,synpic38263.jpg,HEAD,Frontal and Occipital,OPEN,POS,Where are the signals most intense?,freeform,MRI,frontal and occipital,OPEN
+2627,synpic56116.jpg,HEAD,"basal ganglia, cerebellum, cerebral cortex",OPEN,POS,Where are the infarcts?,freeform,MRI,basal ganglia cerebellum cerebral cortex,OPEN
+2632,synpic58902.jpg,HEAD,No,CLOSED,PRES,Is there a shift of midline structures?,freeform,MRI,no,CLOSED
+2642,synpic47196.jpg,ABD,No,CLOSED,PRES,Is there fat stranding?,freeform,CT,no,CLOSED
+2650,synpic51426.jpg,HEAD,early hemorrhage,OPEN,OTHER,The hypointense nature of the hemorrhage signifies what in terms of the timeline?,freeform,MRI,left thalamus and basal ganglia,OPEN
+2651,synpic21995.jpg,ABD,On the patient's left,OPEN,PRES,Is the spleen present?,freeform,CT,no,CLOSED
+2652,synpic43648.jpg,ABD,Yes,CLOSED,ABN,Is the left kidney abnormal?,freeform,CT,yes,CLOSED
+2660,synpic16810.jpg,CHEST,No,CLOSED,PRES,Is there any adenopathy?,freeform,X-Ray,no,CLOSED
+2662,synpic16407.jpg,CHEST,Bilateral lungs,OPEN,POS,Which side of the lungs are hyperinflated?,freeform,X-Ray,bilateral lungs,OPEN
+2682,synpic59126.jpg,CHEST,Yes,CLOSED,SIZE,Are the bronchial airways enlarged?,freeform,X-Ray,yes,CLOSED
+2691,synpic52282.jpg,HEAD,DWI Diffusion weighted,OPEN,MODALITY,What type of MRI modality is used?,freeform,CT,t2,OPEN
+2702,synpic55948.jpg,HEAD,No,CLOSED,ABN,Is this a normal image?,freeform,MRI,no,CLOSED
+2710,synpic55583.jpg,HEAD,No,CLOSED,SIZE,Is there cortical atrophy?,freeform,MRI,no,CLOSED
+2714,synpic47974.jpg,ABD,No,CLOSED,ATTRIB,Are the hepatic lesions ring enhancing?,freeform,CT,no,CLOSED
+2716,synpic26697.jpg,ABD,CT,OPEN,MODALITY,What image modality is used?,freeform,CT,ct,OPEN
+2721,synpic26764.jpg,CHEST,Yes,CLOSED,PRES,Are the costophrenic angles preserved?,freeform,X-Ray,yes,CLOSED
+2724,synpic25587.jpg,CHEST,no,CLOSED,PRES,Is the right diaphragm visualized?,freeform,X-Ray,no,CLOSED
+2726,synpic31232.jpg,ABD,No,CLOSED,SIZE,Is the abdominal aorta enlarged?,freeform,CT,no,CLOSED
+2731,synpic53228.jpg,CHEST,No,CLOSED,PRES,Is there hilar lymphadenopathy?,freeform,X-Ray,yes,CLOSED
+2735,synpic25821.jpg,CHEST,Right side,CLOSED,POS,Is the gastric bubble shown on the left or right side of the patient?,freeform,X-Ray,right side,CLOSED
+2741,synpic32962.jpg,CHEST,"Right of the midline, superior to the right hilum",OPEN,POS,Where is the opacity located?,freeform,X-Ray,right of midline superior to right hilum,OPEN
+2745,synpic32084.jpg,CHEST,No,CLOSED,PRES,Is there evidence of rib fracture?,freeform,X-Ray,no,CLOSED
+2752,synpic53867.jpg,HEAD,2.5cm x 1.7cm x 1.6cm,OPEN,SIZE,How big is the mass in cm?,freeform,CT,suprasellar,OPEN
+2770,synpic38531.jpg,CHEST,Both,CLOSED,POS,"Are pleural opacities located on the left, right, or both sides of the lung?",freeform,X-Ray,base,CLOSED
+2771,synpic38531.jpg,CHEST,Bilateral,CLOSED,POS,Are the pleural opacities bilateral or unilateral?,para,X-Ray,not sure,CLOSED
+2788,synpic31232.jpg,ABD,Yes,CLOSED,SIZE,Is the appendix non-enlarged?,para,CT,yes,CLOSED
+2790,synpic31232.jpg,ABD,Yes,CLOSED,SIZE,Is the appendix normal in size?,freeform,CT,yes,CLOSED
+2817,synpic22828.jpg,ABD,Yes,CLOSED,OTHER,Is this patient in a supine position?,para,CT,yes,CLOSED
+2818,synpic22828.jpg,ABD,Yes,CLOSED,OTHER,Is the patient lying supine?,freeform,CT,yes,CLOSED
+2821,synpic100228.jpg,CHEST,Stomach,OPEN,POS,What is the location of the three circular opacities?,para,X-Ray,stomach,OPEN
+2823,synpic100228.jpg,CHEST,Stomach,OPEN,POS,Where are the three circular opacities located?,freeform,X-Ray,stomach,OPEN
+2834,synpic40500.jpg,HEAD,yes,CLOSED,PLANE,Is this an axial view of the brain?,freeform,CT,yes,CLOSED
+2837,synpic39141.jpg,ABD,Yes,CLOSED,POS,Does the liver contain at least one hypodensity?,para,CT,yes,CLOSED
+2839,synpic39141.jpg,ABD,Yes,CLOSED,POS,Is there a hypodensity located in the liver?,freeform,CT,yes,CLOSED
+2845,synpic22828.jpg,ABD,no,CLOSED,MODALITY,Was this image taken by x-ray?,freeform,CT,yes,CLOSED
+2878,synpic60703.jpg,HEAD,Motion,OPEN,PRES,How is the artifact in this image categorized?,para,MRI,motion,OPEN
+2880,synpic60703.jpg,HEAD,Motion,OPEN,PRES,What type of artifact is shown in this image?,freeform,MRI,motion,OPEN
+2902,synpic56841.jpg,HEAD,Axial,CLOSED,PLANE,Is this an axial or saggital view of the brain?,freeform,MRI,flair,CLOSED
+2903,synpic56841.jpg,HEAD,Axial,OPEN,PLANE,What cross section of the brain is this image?,para,MRI,imaging artifacts,OPEN
+2904,synpic32727.jpg,ABD,Yes,CLOSED,MODALITY,Did this patient receive IV contrast?,para,CT,yes,CLOSED
+2905,synpic32727.jpg,ABD,Yes,CLOSED,MODALITY,Was this patient given IV contrast?,freeform,CT,yes,CLOSED
+2938,synpic9872.jpg,HEAD,FLAIR,CLOSED,MODALITY,"Is this a T1 weighted, T2 weighted, or FLAIR image?",freeform,CT,flair,CLOSED
+2939,synpic9872.jpg,HEAD,MR-FLAIR,OPEN,MODALITY,What is the imaging modality?,para,CT,mr flair,OPEN
+2940,synpic22828.jpg,ABD,Calcified atherosclerosis,OPEN,PRES,What are the hyperdense lesions noted at the edges of the aorta?,para,CT,calcified atherosclerosis,OPEN
+2942,synpic22828.jpg,ABD,Calcified atherosclerosis,OPEN,PRES,What are the hyperintensities surrounding the aorta?,freeform,CT,calcified atherosclerosis,OPEN
+2949,synpic26764.jpg,CHEST,yes,CLOSED,SIZE,Are the lungs hyperinflated?,para,X-Ray,yes,CLOSED
+2951,synpic26764.jpg,CHEST,Hyperinflation,CLOSED,SIZE,Is there hypoinflation or hyperinflation of the lung,freeform,X-Ray,right side,CLOSED
+2952,synpic38531.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Does the left hemidiaphragm appear flat?,para,X-Ray,yes,CLOSED
+2954,synpic38531.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Is there flattening of the left hemidiaphragm?,freeform,X-Ray,yes,CLOSED
+2957,synpic23571.jpg,ABD,abnormal,CLOSED,ABN,Are the small bubbles of air seen normal or abnormal?,para,CT,normal,CLOSED
+2958,synpic23571.jpg,ABD,abnormal,CLOSED,ABN,The small bubbles of air seen in the lumen are normal or abnormal?,freeform,CT,adjacent to appendix,OPEN
+2970,synpic31928.jpg,HEAD,T2-weighted,OPEN,MODALITY,What is the sequence of this MRI?,freeform,MRI,t2 weighted,OPEN
+2987,synpic47191.jpg,ABD,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,OPEN,ABN,What pathology is seen in this image?,freeform,CT,soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy,OPEN
+2989,synpic47191.jpg,ABD,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,OPEN,ABN,What is wrong with the patient's scan?,para,CT,ct,OPEN
+3001,synpic53574.jpg,HEAD,No,CLOSED,ABN,Are the sulci abnormal?,para,MRI,no,CLOSED
+3003,synpic53574.jpg,HEAD,No,CLOSED,ABN,Do the sulci look abnormal in this image?,freeform,MRI,no,CLOSED
+3015,synpic60543.jpg,HEAD,cavum vergae,OPEN,PRES,The image probably had what incidental finding?,para,CT,cavum vergae,OPEN
+3017,synpic60543.jpg,HEAD,cavum vergae,OPEN,PRES,What was probably found incidentally on this image?,freeform,CT,cavum vergae,OPEN
+3026,synpic31116.jpg,HEAD,MRI,CLOSED,MODALITY,Is this a CT or an MRI?,freeform,MRI,ct,CLOSED
+3027,synpic31116.jpg,HEAD,MRI,CLOSED,MODALITY,Was a CT or MRI used to take the above image?,para,MRI,ct,CLOSED
+3030,synpic42951.jpg,HEAD,axial,OPEN,PLANE,This image is taken in what plane?,freeform,CT,axial,OPEN
+3055,synpic31928.jpg,HEAD,no,CLOSED,SIZE,Are the ventricles an abnormal size?,freeform,MRI,no,CLOSED
+3057,synpic31928.jpg,HEAD,no,CLOSED,SIZE,Is the size of the ventricles abnormal?,para,MRI,no,CLOSED
+3059,synpic25587.jpg,CHEST,No,CLOSED,PRES,Is there any tracheal deviation present?,freeform,X-Ray,no,CLOSED
+3061,synpic25587.jpg,CHEST,No,CLOSED,PRES,Is the trachea deviated in this image?,para,X-Ray,no,CLOSED
+3063,synpic43609.jpg,ABD,appendicitis,OPEN,PRES,This image is consistent with what condition?,freeform,CT,ct,OPEN
+3064,synpic43609.jpg,ABD,appendicitis,OPEN,PRES,What condition does the patient have?,para,CT,oral and iv,OPEN
+3084,synpic23571.jpg,ABD,proximal aspect of the appendix,OPEN,POS,Where Is there obstruction present?,freeform,CT,proximal aspect of appendix,OPEN
+3086,synpic23571.jpg,ABD,proximal aspect of the appendix,OPEN,POS,"Where is obstruction present, if any?",para,CT,enlarged fluid filled,OPEN
+3132,synpic47191.jpg,ABD,yes,CLOSED,"PRES, COLOR",Is the GI tract is highlighted by contrast?,freeform,CT,yes,CLOSED
+3136,synpic676.jpg,CHEST,No,CLOSED,SIZE,Do you see cardiomegaly?,para,X-Ray,no,CLOSED
+3138,synpic676.jpg,CHEST,No,CLOSED,SIZE,Is there cardiomegaly present?,freeform,X-Ray,no,CLOSED

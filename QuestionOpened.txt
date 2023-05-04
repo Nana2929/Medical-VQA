@@ -1,396 +1,396 @@
 synpic28602.jpg 2
-['What type of imaging does this not represent?', 'ultrasound']
-['What is not pictured in this image?', 'The extremities']
+['What type of imaging does this not represent?', 'MODALITY', 'ultrasound']
+['What is not pictured in this image?', 'ORGAN', 'The extremities']
 
 ============================================================
 synpic42202.jpg 2
-['Which organ system is abnormal in this image?', 'Cardiovascular']
-['What type of image is this?', 'Chest X-ray']
+['Which organ system is abnormal in this image?', 'ORGAN', 'Cardiovascular']
+['What type of image is this?', 'MODALITY', 'Chest X-ray']
 
 ============================================================
 synpic18319.jpg 12
-['What is/are the abnormalities  near/in the lung?', 'Pulmonary nodules']
-['What is/are the abnormalities  near/in the lung?', 'Pulmonary nodules']
-['What can cause asymmetrical breasts?', 'Prior surgery']
-['Why are the breasts asymmetrical?', 'Prior surgery']
-['Where is the catheter tip located?', 'Right superior cavoatrial junction']
-['Where is/are the catheter tip located?', 'Right superior cavoatrial junction']
-['Where does the catheter tip extend into?', 'Right superior cavoatrial junction']
-['Where is/are the catheter tip located?', 'Right superior cavoatrial junction']
-['Which lung are the nodules located in?', 'Bilateral']
-['Where is/are the nodules located?', 'Bilateral']
+['What is/are the abnormalities  near/in the lung?', 'ABN', 'Pulmonary nodules']
+['What is/are the abnormalities  near/in the lung?', 'ABN', 'Pulmonary nodules']
+['What can cause asymmetrical breasts?', 'OTHER', 'Prior surgery']
+['Why are the breasts asymmetrical?', 'OTHER', 'Prior surgery']
+['Where is the catheter tip located?', 'POS', 'Right superior cavoatrial junction']
+['Where is/are the catheter tip located?', 'POS', 'Right superior cavoatrial junction']
+['Where does the catheter tip extend into?', 'POS', 'Right superior cavoatrial junction']
+['Where is/are the catheter tip located?', 'POS', 'Right superior cavoatrial junction']
+['Which lung are the nodules located in?', 'POS', 'Bilateral']
+['Where is/are the nodules located?', 'POS', 'Bilateral']
 ['Describe the lung abnormalities?', 'ABN', 'Pulmonary nodules']
 ['What abnormalities are seen within the lungs?', 'ABN', 'Pulmonary nodules']
 
 ============================================================
 synpic32933.jpg 6
-['What is/are the hypointensity near/in the R hemidiaphragm?', 'Free air']
-['What is/are the hypointensity near/in the R hemidiaphragm?', 'Free air']
-['Where is the abnormality located?', 'R hemidiaphragm']
-['Where is/are the free air located?', 'R hemidiaphragm']
+['What is/are the hypointensity near/in the R hemidiaphragm?', 'PRES', 'Free air']
+['What is/are the hypointensity near/in the R hemidiaphragm?', 'PRES', 'Free air']
+['Where is the abnormality located?', 'POS', 'R hemidiaphragm']
+['Where is/are the free air located?', 'POS', 'R hemidiaphragm']
 ['What is under the right hemidiaphragm?', 'PRES', 'Free air']
 ['What is the abnormality by the right hemidiaphragm?', 'PRES', 'Free air']
 
 ============================================================
 synpic18461.jpg 8
-['What kind of image is this?', 'Chest x-ray']
-['What organ is primarily evaluated in this image?', 'Lungs']
-['Which lung has diffuse opacification?', 'Right']
-['Where is/are the opacificaions located?', 'Right']
-['What is happening to the right heart border?', 'Partial silhouetting']
-['How would you describe the R heart??', 'Partial silhouetting']
-['How would you describe the R heart border?', 'Partial silhouetting']
-['How would you describe the R heart??', 'Partial silhouetting']
+['What kind of image is this?', 'MODALITY', 'Chest x-ray']
+['What organ is primarily evaluated in this image?', 'ORGAN', 'Lungs']
+['Which lung has diffuse opacification?', 'POS', 'Right']
+['Where is/are the opacificaions located?', 'POS', 'Right']
+['What is happening to the right heart border?', 'ATRIB', 'Partial silhouetting']
+['How would you describe the R heart??', 'ATRIB', 'Partial silhouetting']
+['How would you describe the R heart border?', 'ATTRIB', 'Partial silhouetting']
+['How would you describe the R heart??', 'ATTRIB', 'Partial silhouetting']
 
 ============================================================
 synpic31400.jpg 10
-['where is the cavitary lesion?', 'Right upper lobe']
-['Where is/are the cavitary lesion located?', 'Right upper lobe']
-['where is the abnormality?', 'Right upper lobe']
-['Where is/are the cavitary lesion located?', 'Right upper lobe']
-['Which organ system is imaged?', 'Chest']
-['What is/are the abnormalities near/in the lung apices?', 'Nodular opacities']
-['What is/are the abnormalities near/in the lung apices?', 'Nodular opacities']
+['where is the cavitary lesion?', 'POS', 'Right upper lobe']
+['Where is/are the cavitary lesion located?', 'POS', 'Right upper lobe']
+['where is the abnormality?', 'POS', 'Right upper lobe']
+['Where is/are the cavitary lesion located?', 'POS', 'Right upper lobe']
+['Which organ system is imaged?', 'ORGAN', 'Chest']
+['What is/are the abnormalities near/in the lung apices?', 'ABN', 'Nodular opacities']
+['What is/are the abnormalities near/in the lung apices?', 'ABN', 'Nodular opacities']
 ['What abnormalities are in the lung apices?', 'ABN', 'Nodular opacities']
 ['What is seen in the lung apices?', 'ABN', 'Nodular opacities']
 ['What kind of image is this?', 'MODALITY', 'x-ray']
 
 ============================================================
 synpic21044.jpg 8
-['What is abnormal about the hila?', 'Enlarged']
-['How would you describe the hila?', 'Enlarged']
-['How would you describe the aortopulmonary window?', 'middle mogul']
-['What is/are the characteristic finding near/in the aortopulmonary window?', 'middle mogul']
-['What is/are the sign near/in the aortopulmonary window?', 'middle mogul']
+['What is abnormal about the hila?', 'ATTRIB', 'Enlarged']
+['How would you describe the hila?', 'ATTRIB', 'Enlarged']
+['How would you describe the aortopulmonary window?', 'ATTRIB', 'middle mogul']
+['What is/are the characteristic finding near/in the aortopulmonary window?', 'PRES', 'middle mogul']
+['What is/are the sign near/in the aortopulmonary window?', 'PRES', 'middle mogul']
 ['How would you describe the aortopulmonary window?', 'ATTRIB', 'middle mogul']
 ['What characteristic finding do you see in the aortopulmonary window?', 'PRES', 'middle mogul']
 ['Which sign do you see in the aortopulmonary window in this image?', 'PRES', 'middle mogul']
 
 ============================================================
 synpic49914.jpg 9
-['What is happening in the right lung?', 'Volume loss']
-['What is/are abnormal right lung ?', 'Volume loss']
-['What is finding in the right lung?', 'Volume loss']
-['What is/are abnormal right lung ?', 'Volume loss']
-['Where is/are the abnormality located?', 'Right lung']
-['Where is/are the abnormality located?', 'Right lung']
+['What is happening in the right lung?', 'ABN', 'Volume loss']
+['What is/are abnormal right lung ?', 'ABN', 'Volume loss']
+['What is finding in the right lung?', 'ABN', 'Volume loss']
+['What is/are abnormal right lung ?', 'ABN', 'Volume loss']
+['Where is/are the abnormality located?', 'POS', 'Right lung']
+['Where is/are the abnormality located?', 'POS', 'Right lung']
 ['Which plane is this image taken?', 'PLANE', 'PA']
 ['Where is the diffuse pleural thickening?', 'POS', 'Right lung']
 ['Which lung is abnormal?', 'POS', 'Right lung']
 
 ============================================================
 synpic24390.jpg 4
-['How was this x-ray taken?', 'PA']
-['How wide is/are the heart compared to the thorax? -open', 'It is less than half the width of the thorax']
-['Where is the largest air collection in this image?', 'Right lung base']
+['How was this x-ray taken?', 'PLANE', 'PA']
+['How wide is/are the heart compared to the thorax? -open', 'SIZE', 'It is less than half the width of the thorax']
+['Where is the largest air collection in this image?', 'POS', 'Right lung base']
 ['How wide is the heart compared to the thorax?', 'SIZE', 'It is less than half the width of the thorax']
 
 ============================================================
 synpic23803.jpg 4
-['Which ribs are located near the abnormality seen in this image?', '4th and 5th']
-['What level is the abnormality located at?', 'T5']
-['On which side is the cardiac border more obscured?', 'Right']
-['Where is the cardiac border more obscured?', 'Right']
+['Which ribs are located near the abnormality seen in this image?', 'POS', '4th and 5th']
+['What level is the abnormality located at?', 'POS', 'T5']
+['On which side is the cardiac border more obscured?', 'POS', 'Right']
+['Where is the cardiac border more obscured?', 'POS', 'Right']
 
 ============================================================
 synpic47783.jpg 5
-['How wide is the cardiac shadow?', 'Less than half the thorax']
-['How wide is/are the cardiac shadow? -open', 'Less than half the thorax']
-['Where is the aneurysm located?', 'In the thorasic aorta']
-['Where is/are the aneurysm located?', 'In the thorasic aorta']
-['What is the most important abnormality found in this image?', 'Width of aorta']
+['How wide is the cardiac shadow?', 'SIZE', 'Less than half the thorax']
+['How wide is/are the cardiac shadow? -open', 'SIZE', 'Less than half the thorax']
+['Where is the aneurysm located?', 'POS', 'In the thorasic aorta']
+['Where is/are the aneurysm located?', 'POS', 'In the thorasic aorta']
+['What is the most important abnormality found in this image?', 'PRES', 'Width of aorta']
 
 ============================================================
 synpic45557.jpg 3
-['What lesions are present in the lungs?', 'None']
-['Where on the image is most obscured?', 'Right lung base']
-['Is the trachea midline?', 'In the midline']
+['What lesions are present in the lungs?', 'PRES', 'None']
+['Where on the image is most obscured?', 'POS', 'Right lung base']
+['Is the trachea midline?', 'PRES', 'In the midline']
 
 ============================================================
 synpic34449.jpg 7
-['Where in the image are the calcifications located?', 'High on the image']
-['What are the two major organs present in this image?', 'Heart \tlungs']
-['Where is/are the subcutaneous air collection? ', 'On the right shoulder.']
-['How was this image taken?', 'X-ray']
+['Where in the image are the calcifications located?', 'POS', 'High on the image']
+['What are the two major organs present in this image?', 'ORGAN', 'Heart \tlungs']
+['Where is/are the subcutaneous air collection? ', 'POS', 'On the right shoulder.']
+['How was this image taken?', 'MODALITY', 'X-ray']
 ['Which side is more clearly visualized?', 'POS, PRES', 'Left']
 ['Which lung is clearer?', 'POS, PRES', 'Left']
 ['Where is the subcutaneous air collection?', 'POS', 'On the right shoulder.']
 
 ============================================================
 synpic31962.jpg 4
-['Where is the aortic arch?', 'Right side']
-['Where is/are the aortic arch located?', 'Right side']
-['Which side of the image is the aortic arch visualized?', 'Right side']
-['Where is/are the aortic arch located?', 'Right side']
+['Where is the aortic arch?', 'POS', 'Right side']
+['Where is/are the aortic arch located?', 'POS', 'Right side']
+['Which side of the image is the aortic arch visualized?', 'POS', 'Right side']
+['Where is/are the aortic arch located?', 'POS', 'Right side']
 
 ============================================================
 synpic19477.jpg 8
-['Where is the lung lesion located?', 'Right lung']
-['Where is/are the lung lesion located?', 'Right lung']
-['Which lobe of the lung is the lesion located in?', 'Right upper lobe']
-['Where is/are the lung lesion located?', 'Right upper lobe']
-['At which rib is the lesion located?', '7th rib']
-['What rib is the lesion located inferior to?', '7th rib']
-['Which side of the cardiac border is more prominent?', 'Left']
-['Which cardiac border is more prominently visualized?', 'Left']
+['Where is the lung lesion located?', 'POS', 'Right lung']
+['Where is/are the lung lesion located?', 'POS', 'Right lung']
+['Which lobe of the lung is the lesion located in?', 'POS', 'Right upper lobe']
+['Where is/are the lung lesion located?', 'POS', 'Right upper lobe']
+['At which rib is the lesion located?', 'POS', '7th rib']
+['What rib is the lesion located inferior to?', 'POS', '7th rib']
+['Which side of the cardiac border is more prominent?', 'POS', 'Left']
+['Which cardiac border is more prominently visualized?', 'POS', 'Left']
 
 ============================================================
 synpic39532.jpg 6
-['How many lesions are present in the image?', 'One']
-['How many lesions are present/visualized in the image?', 'One']
-['Where is the lesion?', 'Right lower lobe']
-['Where is/are the lesion located?', 'Right lower lobe']
-['Which lung lobe is the lesion present in?', 'Right lower lobe']
-['Where is/are the lesion located?', 'Right lower lobe']
+['How many lesions are present in the image?', 'COUNT', 'One']
+['How many lesions are present/visualized in the image?', 'COUNT', 'One']
+['Where is the lesion?', 'POS', 'Right lower lobe']
+['Where is/are the lesion located?', 'POS', 'Right lower lobe']
+['Which lung lobe is the lesion present in?', 'POS', 'Right lower lobe']
+['Where is/are the lesion located?', 'POS', 'Right lower lobe']
 
 ============================================================
 synpic19782.jpg 3
-['Where is/are the free air located?', 'Above the clavicles bilaterally']
-['On which side is air under the diaphragm?', 'Right']
+['Where is/are the free air located?', 'POS', 'Above the clavicles bilaterally']
+['On which side is air under the diaphragm?', 'POS', 'Right']
 ['Where is free air trapped subcutaneously in this image?', 'POS', 'Above the clavicles bilaterally']
 
 ============================================================
 synpic13385.jpg 8
-['Which lung has more extensive infiltration?', 'Left']
-['Where is/are the most infiltrates  located?', 'Left']
-['Where are the most infiltrates located?', 'Left lung']
-['Where is/are the most infiltrates  located?', 'Left lung']
-['What is/are the that near/in the left apex?', 'A bullous lesion']
-['Is the trachea midline?', 'Midline']
-['Where is/are the trachea located?', 'Midline']
+['Which lung has more extensive infiltration?', 'POS', 'Left']
+['Where is/are the most infiltrates  located?', 'POS', 'Left']
+['Where are the most infiltrates located?', 'POS', 'Left lung']
+['Where is/are the most infiltrates  located?', 'POS', 'Left lung']
+['What is/are the that near/in the left apex?', 'PRES', 'A bullous lesion']
+['Is the trachea midline?', 'PRES', 'Midline']
+['Where is/are the trachea located?', 'PRES', 'Midline']
 ['What is in the left apex?', 'PRES', 'A bullous lesion']
 
 ============================================================
 synpic31955.jpg 7
-['Where is the lesion located?', 'Anterior mediastinum']
-['Where is/are the lesion located?', 'Anterior mediastinum']
-['What is the location of the primary lesion?', 'Right lung hilum']
-['Where is/are the lesion located?', 'Right lung hilum']
-['Where is/are the lesion located?', 'Anterior mediastinum']
+['Where is the lesion located?', 'POS', 'Anterior mediastinum']
+['Where is/are the lesion located?', 'POS', 'Anterior mediastinum']
+['What is the location of the primary lesion?', 'POS', 'Right lung hilum']
+['Where is/are the lesion located?', 'POS', 'Right lung hilum']
+['Where is/are the lesion located?', 'POS', 'Anterior mediastinum']
 ['Where is the lesion located?', 'POS', 'Anterior mediastinum']
 ['Which side of the heart border is obscured?', 'POS', 'Right']
 
 ============================================================
 synpic23053.jpg 6
-['What is the opacity near the left lung apex?', 'Pacemaker']
-['What is/are the opacity near/in the left lung apex? ', 'Pacemaker']
-['Where is the lesion?', 'In the right hilum']
-['Where is/are the lesion located?', 'In the right hilum']
-['Which lobe is the lesion located in?', 'Upper right lobe']
-['Where is/are the lesion located?', 'Upper right lobe']
+['What is the opacity near the left lung apex?', 'PRES', 'Pacemaker']
+['What is/are the opacity near/in the left lung apex? ', 'PRES', 'Pacemaker']
+['Where is the lesion?', 'POS', 'In the right hilum']
+['Where is/are the lesion located?', 'POS', 'In the right hilum']
+['Which lobe is the lesion located in?', 'POS', 'Upper right lobe']
+['Where is/are the lesion located?', 'POS', 'Upper right lobe']
 
 ============================================================
 synpic52951.jpg 3
-['In which lobe is the nodule located?', 'Left upper lobe']
-['What is the organ principally shown in this image?', 'Lung']
+['In which lobe is the nodule located?', 'POS', 'Left upper lobe']
+['What is the organ principally shown in this image?', 'ORGAN', 'Lung']
 ['What type of image is this?', 'MODALITY', 'Plain film x-ray']
 
 ============================================================
 synpic31916.jpg 3
-["What is the name of this image's plane?", 'Posteroanterior']
-['What is happening with the path of the trachea?', 'It is shifted to the right']
-['How do we call these wide undulations along the vertebral column?', 'Scoliosis']
+["What is the name of this image's plane?", 'PLANE', 'Posteroanterior']
+['What is happening with the path of the trachea?', 'ABN', 'It is shifted to the right']
+['How do we call these wide undulations along the vertebral column?', 'OTHER', 'Scoliosis']
 
 ============================================================
 synpic24538.jpg 1
-['To which side is the trachea deviated?', 'Right']
+['To which side is the trachea deviated?', 'POS', 'Right']
 
 ============================================================
 synpic28378.jpg 5
-['What is the likely sex of this patient?', 'Female']
-['What is/are the hyperintense structure near/in the right side of the chest?', 'Mediport']
-['What does tram-track"-ing indictate?"', 'Bronchiectasis']
-['What is meant by tram-track?', 'Thickening of bronchi']
+['What is the likely sex of this patient?', 'OTHER', 'Female']
+['What is/are the hyperintense structure near/in the right side of the chest?', 'PRES', 'Mediport']
+['What does tram-track"-ing indictate?"', 'OTHER', 'Bronchiectasis']
+['What is meant by tram-track?', 'OTHER', 'Thickening of bronchi']
 ['What is on the anterior wall of the right chest?', 'PRES', 'Mediport']
 
 ============================================================
 synpic33226.jpg 1
-['What can be typically visualized in this plane?', 'lungs \tbony thoracic cavit y\tmediastinum and great vessels']
+['What can be typically visualized in this plane?', 'OTHER', 'lungs \tbony thoracic cavit y\tmediastinum and great vessels']
 
 ============================================================
 synpic18651.jpg 4
-['What is abnormal in this image?', 'cardiomegaly with pulmonary edema']
-['What is abnormal in this image?', 'cardiomegaly with pulmonary edema']
+['What is abnormal in this image?', 'ABN', 'cardiomegaly with pulmonary edema']
+['What is abnormal in this image?', 'ABN', 'cardiomegaly with pulmonary edema']
 ['Describe the pathology', 'ABN', 'cardiomegaly with pulmonary edema']
 ['what is the pathology?', 'ABN', 'cardiomegaly with pulmonary edema']
 
 ============================================================
 synpic55464.jpg 3
-['what it causing the widening?', 'mass']
-['What is the widened mediastinum caused by?', 'mass']
+['what it causing the widening?', 'OTHER', 'mass']
+['What is the widened mediastinum caused by?', 'OTHER', 'mass']
 ['What plane is this film', 'PLANE', 'coronal']
 
 ============================================================
 synpic32962.jpg 4
-['What is the modality?', 'CXR']
-['Where is/are the opacity located?', 'Right of the midline, superior to the right hilum']
+['What is the modality?', 'MODALITY', 'CXR']
+['Where is/are the opacity located?', 'POS', 'Right of the midline, superior to the right hilum']
 ['What organ system is the pathology?', 'ORGAN', 'pulmonary/lymphatic']
 ['Where is the opacity located?', 'POS', 'Right of the midline, superior to the right hilum']
 
 ============================================================
 synpic23989.jpg 5
-['What plane is demonstrated?', 'Coronal']
-['What is the pathology?', 'Left Apical Pneumothorax']
-['What is abnormal in this image?', 'Left Apical Pneumothorax']
-['What pathology is shown?', 'Left Apical Pneumothorax']
-['What is abnormal in this image?', 'Left Apical Pneumothorax']
+['What plane is demonstrated?', 'PLANE', 'Coronal']
+['What is the pathology?', 'ABN', 'Left Apical Pneumothorax']
+['What is abnormal in this image?', 'ABN', 'Left Apical Pneumothorax']
+['What pathology is shown?', 'ABN', 'Left Apical Pneumothorax']
+['What is abnormal in this image?', 'ABN', 'Left Apical Pneumothorax']
 
 ============================================================
 synpic51872.jpg 4
-['Where is/are the cavitary lesion located?', 'Right upper lobe']
-['Where is/are the cavitary lesion located?', 'Right upper lobe']
+['Where is/are the cavitary lesion located?', 'POS', 'Right upper lobe']
+['Where is/are the cavitary lesion located?', 'POS', 'Right upper lobe']
 ['what is the location of the cavitary lesion', 'POS', 'Right upper lobe']
 ['Where is the cavitary lesion located?', 'POS', 'Right upper lobe']
 
 ============================================================
 synpic46976.jpg 4
-['What is the pathology in this image?', 'cardiomegaly']
-['What is/are the pathology near/in the image?', 'cardiomegaly']
-['what pathology is demonstrated?', 'cardiomegaly']
-['What is/are the pathology near/in the image?', 'cardiomegaly']
+['What is the pathology in this image?', 'ABN', 'cardiomegaly']
+['What is/are the pathology near/in the image?', 'ABN', 'cardiomegaly']
+['what pathology is demonstrated?', 'ABN', 'cardiomegaly']
+['What is/are the pathology near/in the image?', 'ABN', 'cardiomegaly']
 
 ============================================================
 synpic31259.jpg 10
-['This radiograph contains what foreign body?', 'sternotomy wires and surgical clips']
-['What is/are the foreign body near/in the lung?', 'sternotomy wires and surgical clips']
-['what is the foreign body', 'sternotomy wires and surgical clips']
-['What is/are the foreign body near/in the lung?', 'sternotomy wires and surgical clips']
-['How many masses are there?', 'one']
-['How many masses are present/visualized in the image?', 'one']
-['what is the pathology', 'left lobe mass 1.5 x 1.8 cm']
-['What is abnormal in this image?', 'left lobe mass 1.5 x 1.8 cm']
-['What is abnormal in this image?', 'left lobe mass 1.5 x 1.8 cm']
-['What is abnormal in this image?', 'left lobe mass 1.5 x 1.8 cm']
+['This radiograph contains what foreign body?', 'PRES', 'sternotomy wires and surgical clips']
+['What is/are the foreign body near/in the lung?', 'PRES', 'sternotomy wires and surgical clips']
+['what is the foreign body', 'PRES', 'sternotomy wires and surgical clips']
+['What is/are the foreign body near/in the lung?', 'PRES', 'sternotomy wires and surgical clips']
+['How many masses are there?', 'COUNT', 'one']
+['How many masses are present/visualized in the image?', 'COUNT', 'one']
+['what is the pathology', 'ABN', 'left lobe mass 1.5 x 1.8 cm']
+['What is abnormal in this image?', 'ABN', 'left lobe mass 1.5 x 1.8 cm']
+['What is abnormal in this image?', 'ABN', 'left lobe mass 1.5 x 1.8 cm']
+['What is abnormal in this image?', 'ABN', 'left lobe mass 1.5 x 1.8 cm']
 
 ============================================================
 synpic22037.jpg 7
-['what is the plane?', 'coronal']
-['What is the foreign body?', 'a catheter']
-['What is/are the foreign body near/in the subclavian vein?', 'a catheter']
-['Please identify the foreign body.', 'a catheter']
-['What is/are the foreign body near/in the subclavian vein?', 'a catheter']
+['what is the plane?', 'PLANE', 'coronal']
+['What is the foreign body?', 'PRES', 'a catheter']
+['What is/are the foreign body near/in the subclavian vein?', 'PRES', 'a catheter']
+['Please identify the foreign body.', 'PRES', 'a catheter']
+['What is/are the foreign body near/in the subclavian vein?', 'PRES', 'a catheter']
 ['Where is the tip of the line?', 'POS', 'mid left subclavian vein']
 ['Where is the tip of the Port-a-Cath catheter located?', 'POS', 'mid left subclavian vein']
 
 ============================================================
 synpic16170.jpg 1
-['Where is the lesion located?', 'Left mid lung']
+['Where is the lesion located?', 'POS', 'Left mid lung']
 
 ============================================================
 synpic33378.jpg 1
-['Which side is the pneumothorax on?', 'Right side']
+['Which side is the pneumothorax on?', 'POS', 'Right side']
 
 ============================================================
 synpic100132.jpg 2
-['Which rib is fractured?', '3rd rib']
-['What is the difference between the left and right costophrenic angles?', 'The left costophrenic angle is blunted']
+['Which rib is fractured?', 'POS', '3rd rib']
+['What is the difference between the left and right costophrenic angles?', 'OTHER', 'The left costophrenic angle is blunted']
 
 ============================================================
 synpic21042.jpg 2
-['What type of imaging modality is seen in this image?', 'X-ray plain film']
-['What is one organ system seen in this image?', 'Respiratory System']
+['What type of imaging modality is seen in this image?', 'MODALITY', 'X-ray plain film']
+['What is one organ system seen in this image?', 'ORGAN', 'Respiratory System']
 
 ============================================================
 synpic27047.jpg 1
-['What type of imaging modality is this?', 'Xray - plain film']
+['What type of imaging modality is this?', 'MODALITY', 'Xray - plain film']
 
 ============================================================
 synpic21037.jpg 1
-['Which side of the image is the thoracic mass located on?', 'Left side']
+['Which side of the image is the thoracic mass located on?', 'POS', 'Left side']
 
 ============================================================
 synpic26248.jpg 13
-['Where is/are the diaphragm elevation located?', 'Right']
-['Where is/are the diaphragm elevation located?', 'Right']
-['The air fluid level is in which location?', 'Cardiac region']
-['Where is/are the air fluid level located?', 'Cardiac region']
-['Where is there an air fluid level?', 'Cardiac region']
-['Where is/are the air fluid level located?', 'Cardiac region']
-['What are the hyperdense findings in the mediastinum?', 'Sternal wires']
-['What is/are the hyperdensities near/in the mediastinum?', 'Sternal wires']
-['What are seen as hyperdense in the mediastinum of this image?', 'Sternal wires']
-['What is/are the hyperdensities near/in the mediastinum?', 'Sternal wires']
-['Which orientation is the image acquired?', 'PA']
+['Where is/are the diaphragm elevation located?', 'POS', 'Right']
+['Where is/are the diaphragm elevation located?', 'POS', 'Right']
+['The air fluid level is in which location?', 'POS', 'Cardiac region']
+['Where is/are the air fluid level located?', 'POS', 'Cardiac region']
+['Where is there an air fluid level?', 'POS', 'Cardiac region']
+['Where is/are the air fluid level located?', 'POS', 'Cardiac region']
+['What are the hyperdense findings in the mediastinum?', 'PRES', 'Sternal wires']
+['What is/are the hyperdensities near/in the mediastinum?', 'PRES', 'Sternal wires']
+['What are seen as hyperdense in the mediastinum of this image?', 'PRES', 'Sternal wires']
+['What is/are the hyperdensities near/in the mediastinum?', 'PRES', 'Sternal wires']
+['Which orientation is the image acquired?', 'PLANE', 'PA']
 ['Diaphragm is elevated on which side?', 'POS', 'Right']
 ['Which side of the diaphragm is elevated?', 'POS', 'Right']
 
 ============================================================
 synpic17848.jpg 6
-['What type of image is this?', 'Chest xray']
-['What organ systems can be evaluated with this image?', 'Respiratory \tcardia c\tmusculoskeletal']
-['What lung are the pulmonary nodules in?', 'Bilateral lungs']
-['Where is/are the nodules located?', 'Bilateral lungs']
-['Where are the nodules located?', 'Bilateral lungs']
-['Where is/are the nodules located?', 'Bilateral lungs']
+['What type of image is this?', 'MODALITY', 'Chest xray']
+['What organ systems can be evaluated with this image?', 'ORGAN', 'Respiratory \tcardia c\tmusculoskeletal']
+['What lung are the pulmonary nodules in?', 'POS', 'Bilateral lungs']
+['Where is/are the nodules located?', 'POS', 'Bilateral lungs']
+['Where are the nodules located?', 'POS', 'Bilateral lungs']
+['Where is/are the nodules located?', 'POS', 'Bilateral lungs']
 
 ============================================================
 synpic22097.jpg 8
-['What kind of image is this?', 'chest x Ray']
-['What modality is this?', 'chest x Ray']
-['Which side is abnormal?', 'Left']
-['Where is/are the defect located?', 'Left']
-['Which lung has a defect?', 'Left']
-['Where is/are the defect located?', 'Left']
-['What does this represent?', 'hydropneumothorax']
-['What is abnormal in this image?', 'hydropneumothorax']
+['What kind of image is this?', 'MODALITY', 'chest x Ray']
+['What modality is this?', 'MODALITY', 'chest x Ray']
+['Which side is abnormal?', 'POS', 'Left']
+['Where is/are the defect located?', 'POS', 'Left']
+['Which lung has a defect?', 'POS', 'Left']
+['Where is/are the defect located?', 'POS', 'Left']
+['What does this represent?', 'ABN', 'hydropneumothorax']
+['What is abnormal in this image?', 'ABN', 'hydropneumothorax']
 
 ============================================================
 synpic40520.jpg 4
-['Where is/are the pleural effusion located?', 'Right side']
-['Where is/are the pleural effusion located?', 'Right side']
+['Where is/are the pleural effusion located?', 'POS', 'Right side']
+['Where is/are the pleural effusion located?', 'POS', 'Right side']
 ['Where is there evidence of a pleural effusion?', 'POS', 'Right side']
 ['Where is the pleural effusion located?', 'POS', 'Right side']
 
 ============================================================
 synpic17693.jpg 8
-['How is the image oriented?', 'PA']
-['What plane is this X-ray in?', 'PA']
-['What are the lesions indicative of?', 'Adenopathy']
-['What are the lesions consistent with?', 'Infection']
-['Where are the lesions located?', 'Paratracheal area']
-['Where is/are the lesions located?', 'Paratracheal area']
-['Where are the lesions?', 'Paratracheal area']
-['Where is/are the lesions located?', 'Paratracheal area']
+['How is the image oriented?', 'PLANE', 'PA']
+['What plane is this X-ray in?', 'PLANE', 'PA']
+['What are the lesions indicative of?', 'OTHER', 'Adenopathy']
+['What are the lesions consistent with?', 'OTHER', 'Infection']
+['Where are the lesions located?', 'POS', 'Paratracheal area']
+['Where is/are the lesions located?', 'POS', 'Paratracheal area']
+['Where are the lesions?', 'POS', 'Paratracheal area']
+['Where is/are the lesions located?', 'POS', 'Paratracheal area']
 
 ============================================================
 synpic16407.jpg 4
-['What type of image is this?', 'Chest X-ray']
-['What image modality is this?', 'Chest X-ray']
-['Where is/are the hyperinflated lungs located?', 'Bilateral lungs']
+['What type of image is this?', 'MODALITY', 'Chest X-ray']
+['What image modality is this?', 'MODALITY', 'Chest X-ray']
+['Where is/are the hyperinflated lungs located?', 'POS', 'Bilateral lungs']
 ['Which side of the lungs are hyperinflated?', 'POS', 'Bilateral lungs']
 
 ============================================================
 synpic18896.jpg 7
-["What is the abnormality seen above the heart on the patient's right side?", 'right sided aortic arch']
-['What is the abnormality near the heart on the right side?', 'right sided aortic arch']
-["what is the bump seen above the heart on the patient's right side?", 'right sided aortic arch']
-['What is the abnormality near the heart on the right side?', 'right sided aortic arch']
-['Imaging modality used to take this image?', 'PA Xray']
-['What imaging modality is used to acquire this picture?', 'PA Xray']
-['What does the abnormal contour of the left hilum suggest in terms of pathology?', 'double arch']
+["What is the abnormality seen above the heart on the patient's right side?", 'PRES', 'right sided aortic arch']
+['What is the abnormality near the heart on the right side?', 'PRES', 'right sided aortic arch']
+["what is the bump seen above the heart on the patient's right side?", 'PRES', 'right sided aortic arch']
+['What is the abnormality near the heart on the right side?', 'PRES', 'right sided aortic arch']
+['Imaging modality used to take this image?', 'MODALITY', 'PA Xray']
+['What imaging modality is used to acquire this picture?', 'MODALITY', 'PA Xray']
+['What does the abnormal contour of the left hilum suggest in terms of pathology?', 'OTHER', 'double arch']
 
 ============================================================
 synpic31394.jpg 4
-['In what plane is the above taken?', 'PA']
-['How would you describe the pathology seen in the above image?', 'Rounded, well-defined pulmonary nodules varying in size and pattern']
-['How would you describe the pathology in this image?', 'Rounded, well-defined pulmonary nodules varying in size and pattern']
-['What is the pathology seen in this image?', 'pulmonary nodules']
+['In what plane is the above taken?', 'PLANE', 'PA']
+['How would you describe the pathology seen in the above image?', 'ATTRIB', 'Rounded, well-defined pulmonary nodules varying in size and pattern']
+['How would you describe the pathology in this image?', 'ATTRIB', 'Rounded, well-defined pulmonary nodules varying in size and pattern']
+['What is the pathology seen in this image?', 'ABN', 'pulmonary nodules']
 
 ============================================================
 synpic32970.jpg 4
-['Where is/are the lesion  located?', 'right lower lateral lung field']
-['Where is/are the lesion  located?', 'right lower lateral lung field']
+['Where is/are the lesion  located?', 'POS', 'right lower lateral lung field']
+['Where is/are the lesion  located?', 'POS', 'right lower lateral lung field']
 ['What is the location of the lesion?', 'POS', 'right lower lateral lung field']
 ['Where is the lesion located?', 'POS', 'right lower lateral lung field']
 
 ============================================================
 synpic17738.jpg 11
-['What is the size of the mass in the right upper quadrant?', '3.4 cm']
-['What is the size of the mass in the right upper quadrant?', '3.4 cm']
-['What organ system is being imaged?', 'Chest']
-['Where is/are the abnormal mass  located?', 'Right upper lobe']
-['Where is/are the abnormal mass  located?', 'Right upper lobe']
-['The cystic findings in the bilateral apices are consistent with what pathology?', 'emphysema']
+['What is the size of the mass in the right upper quadrant?', 'SIZE', '3.4 cm']
+['What is the size of the mass in the right upper quadrant?', 'SIZE', '3.4 cm']
+['What organ system is being imaged?', 'ORGAN', 'Chest']
+['Where is/are the abnormal mass  located?', 'POS', 'Right upper lobe']
+['Where is/are the abnormal mass  located?', 'POS', 'Right upper lobe']
+['The cystic findings in the bilateral apices are consistent with what pathology?', 'OTHER', 'emphysema']
 ['How large is the mass in the right upper quadrant?', 'SIZE', '3.4 cm']
 ['Size of the mass in the right upper quadrant?', 'SIZE', '3.4 cm']
 ['In which lobe do you see an abnormal mass in the above images?', 'POS', 'Right upper lobe']
@@ -399,282 +399,282 @@ synpic17738.jpg 11
 
 ============================================================
 synpic31256.jpg 6
-['How was this image taken?', 'X-ray']
-['What imaging modality is seen?', 'X-ray']
-['The azygoesophageal recess is deviated in which direction?', 'right']
-['Where is the azygoesophageal recess deviation located?', 'right']
-['Which direction is the azygoesophageal recess deviated?', 'right']
-['Where is the azygoesophageal recess deviation located?', 'right']
+['How was this image taken?', 'MODALITY', 'X-ray']
+['What imaging modality is seen?', 'MODALITY', 'X-ray']
+['The azygoesophageal recess is deviated in which direction?', 'POS', 'right']
+['Where is the azygoesophageal recess deviation located?', 'POS', 'right']
+['Which direction is the azygoesophageal recess deviated?', 'POS', 'right']
+['Where is the azygoesophageal recess deviation located?', 'POS', 'right']
 
 ============================================================
 synpic42805.jpg 5
-['In which lobes do you see a higher density of masses?', 'Upper lobes']
-['Where is the high density of masses located?', 'Upper lobes']
-['Which lobes of the lung contain a higher density of masses?', 'Upper lobes']
-['Where is the high density of masses located?', 'Upper lobes']
+['In which lobes do you see a higher density of masses?', 'POS', 'Upper lobes']
+['Where is the high density of masses located?', 'POS', 'Upper lobes']
+['Which lobes of the lung contain a higher density of masses?', 'POS', 'Upper lobes']
+['Where is the high density of masses located?', 'POS', 'Upper lobes']
 ['What is the biological sex of the patient?', 'OTHER', 'Female']
 
 ============================================================
 synpic17145.jpg 9
-['In which side is the hemidiaphragm elevated?', 'right']
-['Where is the diaphragm elevation located?', 'right']
-['Which diaphragm is elevated?', 'right']
-['Where is the diaphragm elevation located?', 'right']
-['What type of imaging is this?', 'Xray']
-['What is the pathology seen above?', 'bilateral pleural effusion']
-['What is abnormal in this image?', 'bilateral pleural effusion']
-['What abnormality is seen in this image?', 'bilateral pleural effusion']
-['What is abnormal in this image?', 'bilateral pleural effusion']
+['In which side is the hemidiaphragm elevated?', 'POS', 'right']
+['Where is the diaphragm elevation located?', 'POS', 'right']
+['Which diaphragm is elevated?', 'POS', 'right']
+['Where is the diaphragm elevation located?', 'POS', 'right']
+['What type of imaging is this?', 'MODALITY', 'Xray']
+['What is the pathology seen above?', 'ABN', 'bilateral pleural effusion']
+['What is abnormal in this image?', 'ABN', 'bilateral pleural effusion']
+['What abnormality is seen in this image?', 'ABN', 'bilateral pleural effusion']
+['What is abnormal in this image?', 'ABN', 'bilateral pleural effusion']
 
 ============================================================
 synpic33331.jpg 3
-['Why are the chostrochondral junctions not seen on this film?', 'Cartilage is not well viewed by x rays']
-['Which side is the diaphragm more depressed?', 'Left']
+['Why are the chostrochondral junctions not seen on this film?', 'OTHER', 'Cartilage is not well viewed by x rays']
+['Which side is the diaphragm more depressed?', 'PRES, POS', 'Left']
 ['What is located immediately inferior to the right hemidiaphragm?', 'ORGAN', 'The liver']
 
 ============================================================
 synpic16221.jpg 5
-['How can you tell there is no pneumothorax present?', 'Lung markings present all the way laterally to the ribs']
-['Why is the right lung most common location for aspirations?', 'The right mainstem bronchus is more in line with the trachea than the left']
-['What does the black on an x ray indicate?', 'Air']
-['Which side is the abnormality on?', 'Right']
+['How can you tell there is no pneumothorax present?', 'OTHER', 'Lung markings present all the way laterally to the ribs']
+['Why is the right lung most common location for aspirations?', 'OTHER', 'The right mainstem bronchus is more in line with the trachea than the left']
+['What does the black on an x ray indicate?', 'OTHER', 'Air']
+['Which side is the abnormality on?', 'POS', 'Right']
 ["What is the patient's gender?", 'OTHER', 'Female']
 
 ============================================================
 synpic33302.jpg 4
-['What is the air under the left hemidiaphragm?', 'Stomach bubble']
-["What is the air under the patient's left hemidiaphragm?", 'Stomach bubble']
-['What is hyperdensity under the diaphragm on the left?', 'Stomach bubble']
-["What is the air under the patient's left hemidiaphragm?", 'Stomach bubble']
+['What is the air under the left hemidiaphragm?', 'PRES', 'Stomach bubble']
+["What is the air under the patient's left hemidiaphragm?", 'PRES', 'Stomach bubble']
+['What is hyperdensity under the diaphragm on the left?', 'PRES', 'Stomach bubble']
+["What is the air under the patient's left hemidiaphragm?", 'PRES', 'Stomach bubble']
 
 ============================================================
 synpic33481.jpg 2
-['What else do you need in order to localize lesions on a CXR?', 'Lateral film as well as PA']
+['What else do you need in order to localize lesions on a CXR?', 'OTHER', 'Lateral film as well as PA']
 ['Which lung lobe has the least opacities?', 'PRES, POS', 'Upper left']
 
 ============================================================
 synpic19232.jpg 8
-['Describe the borders of the lesion.', 'Smooth']
-['How would you describe the borders of the lesion?', 'Smooth']
-['How are the borders of the lesion?', 'Smooth']
-['How would you describe the borders of the lesion?', 'Smooth']
-['How would you describe the location of the lesion?', 'Retrocardiac']
-['Where is/are the lesion located?', 'Retrocardiac']
-['Where is the lesion located?', 'Retrocardiac']
-['Where is/are the lesion located?', 'Retrocardiac']
+['Describe the borders of the lesion.', 'ATTRIB', 'Smooth']
+['How would you describe the borders of the lesion?', 'ATTRIB', 'Smooth']
+['How are the borders of the lesion?', 'ATTRIB', 'Smooth']
+['How would you describe the borders of the lesion?', 'ATTRIB', 'Smooth']
+['How would you describe the location of the lesion?', 'POS', 'Retrocardiac']
+['Where is/are the lesion located?', 'POS', 'Retrocardiac']
+['Where is the lesion located?', 'POS', 'Retrocardiac']
+['Where is/are the lesion located?', 'POS', 'Retrocardiac']
 
 ============================================================
 synpic31217.jpg 7
-['What is the location of the abnormality?', 'Right lung']
-['Where is/are the nodules located?', 'Right lung']
-['Where is the abnormality?', 'Right lung']
-['Where is/are the nodules located?', 'Right lung']
-['Where is the nodule?', 'Below the 7th rib in the right lung.']
-['What is the abnormality?', 'Single lung nodule']
-['Which plane is this image taken in?', 'PA']
+['What is the location of the abnormality?', 'POS', 'Right lung']
+['Where is/are the nodules located?', 'POS', 'Right lung']
+['Where is the abnormality?', 'POS', 'Right lung']
+['Where is/are the nodules located?', 'POS', 'Right lung']
+['Where is the nodule?', 'ABN', 'Below the 7th rib in the right lung.']
+['What is the abnormality?', 'ABN', 'Single lung nodule']
+['Which plane is this image taken in?', 'PLANE', 'PA']
 
 ============================================================
 synpic32081.jpg 9
-['What is the location of the abnormality?', 'Right side of the trachea']
-['Where is/are the abnormality located?', 'Right side of the trachea']
-['Where is the abnormality?', 'Right side of the trachea']
-['Where is/are the abnormality located?', 'Right side of the trachea']
-['What is the gender of this patient?', 'Man']
-['What is the abnormality?', 'Right paratracheal mass lesion']
-['What is abnormal in this image?', 'Right paratracheal mass lesion']
-['What is wrong in this image?', 'Right paratracheal mass lesion']
-['What is abnormal in this image?', 'Right paratracheal mass lesion']
+['What is the location of the abnormality?', 'POS', 'Right side of the trachea']
+['Where is/are the abnormality located?', 'POS', 'Right side of the trachea']
+['Where is the abnormality?', 'POS', 'Right side of the trachea']
+['Where is/are the abnormality located?', 'POS', 'Right side of the trachea']
+['What is the gender of this patient?', 'OTHER', 'Man']
+['What is the abnormality?', 'ABN', 'Right paratracheal mass lesion']
+['What is abnormal in this image?', 'ABN', 'Right paratracheal mass lesion']
+['What is wrong in this image?', 'ABN', 'Right paratracheal mass lesion']
+['What is abnormal in this image?', 'ABN', 'Right paratracheal mass lesion']
 
 ============================================================
 synpic27646.jpg 5
-['What plane is seen?', 'PA']
-['How can the distribution in this image be described?', 'Micronodular']
-['How would you describe the distributions?', 'Micronodular']
-['What type of distributions is seen on this image?', 'Micronodular']
-['How would you describe the distributions?', 'Micronodular']
+['What plane is seen?', 'PLANE', 'PA']
+['How can the distribution in this image be described?', 'ATTRIB', 'Micronodular']
+['How would you describe the distributions?', 'ATTRIB', 'Micronodular']
+['What type of distributions is seen on this image?', 'ATTRIB', 'Micronodular']
+['How would you describe the distributions?', 'ATTRIB', 'Micronodular']
 
 ============================================================
 synpic42210.jpg 8
-['What do the two bright dots represent?', 'nipple location']
-['What are the two bright dots?', 'nipple location']
-['What are the two hyperlucent inferior dots?', 'nipple location']
-['What are the two dots?', 'nipple location']
-['What image modality is this?', 'X-ray']
-['Where is/are the mass located?', 'anterior mediastinum']
+['What do the two bright dots represent?', 'PRES', 'nipple location']
+['What are the two bright dots?', 'PRES', 'nipple location']
+['What are the two hyperlucent inferior dots?', 'PRES', 'nipple location']
+['What are the two dots?', 'PRES', 'nipple location']
+['What image modality is this?', 'MODALITY', 'X-ray']
+['Where is/are the mass located?', 'POS', 'anterior mediastinum']
 ['What are the two humps" at the base on the image signifying?"', 'PRES', 'Diaphragm']
 ['Where is the location of the mass?', 'POS', 'anterior mediastinum']
 
 ============================================================
 synpic100176.jpg 2
-['What laterality is this film?', 'PA']
+['What laterality is this film?', 'MODALITY', 'PA']
 ['What modality was used?', 'MODALITY', 'plain film']
 
 ============================================================
 synpic12210.jpg 6
-['What imaging modality was used?', 'x-ray']
-['What type of image is this?', 'x-ray']
-['What is at the base of the right lung?', 'nodules']
-['What is/are the pathology near/in the base of the lungs?', 'nodules']
-['What pathology is shown at the lung bases?', 'nodules']
-['What is/are the pathology near/in the base of the lungs?', 'nodules']
+['What imaging modality was used?', 'MODALITY', 'x-ray']
+['What type of image is this?', 'MODALITY', 'x-ray']
+['What is at the base of the right lung?', 'PRES', 'nodules']
+['What is/are the pathology near/in the base of the lungs?', 'PRES', 'nodules']
+['What pathology is shown at the lung bases?', 'PRES', 'nodules']
+['What is/are the pathology near/in the base of the lungs?', 'PRES', 'nodules']
 
 ============================================================
 synpic52988.jpg 2
-['Blunting of the costophrenic angles indicate what condition?', 'pleural effusion']
-['What does the blunting of the costophrenic angles indicate?', 'pleural effusion']
+['Blunting of the costophrenic angles indicate what condition?', 'OTHER', 'pleural effusion']
+['What does the blunting of the costophrenic angles indicate?', 'OTHER', 'pleural effusion']
 
 ============================================================
 synpic27277.jpg 5
-['Why is the left hemithorax more lucent?', 'decreased muscle bulk']
-['What organ system is shown in the above image?', 'cardiopulmonary']
-['The image shows what organ system?', 'cardiopulmonary']
-['In what position was the patient in when this image was taken?', 'Semi-upright position']
-['What position is the patient in for this image?', 'Semi-upright position']
+['Why is the left hemithorax more lucent?', 'OTHER', 'decreased muscle bulk']
+['What organ system is shown in the above image?', 'ORGAN', 'cardiopulmonary']
+['The image shows what organ system?', 'ORGAN', 'cardiopulmonary']
+['In what position was the patient in when this image was taken?', 'OTHER', 'Semi-upright position']
+['What position is the patient in for this image?', 'OTHER', 'Semi-upright position']
 
 ============================================================
 synpic29048.jpg 9
-['What part of the body does this radiograph show?', 'chest']
-['The image has an abnormality located where?', 'retrocardiac']
-['Where is the abnormality located?', 'retrocardiac']
-['Where is the abnormality located in this image?', 'retrocardiac']
-['Where is the abnormality located?', 'retrocardiac']
-['The soft-tissue density seen in this image contains what?', 'Air']
-['What is/are the filling near/in the soft-tissue density?', 'Air']
-['What is filling the soft-tissue density seen in this image?', 'Air']
-['What is/are the filling near/in the soft-tissue density?', 'Air']
+['What part of the body does this radiograph show?', 'ORGAN', 'chest']
+['The image has an abnormality located where?', 'POS', 'retrocardiac']
+['Where is the abnormality located?', 'POS', 'retrocardiac']
+['Where is the abnormality located in this image?', 'POS', 'retrocardiac']
+['Where is the abnormality located?', 'POS', 'retrocardiac']
+['The soft-tissue density seen in this image contains what?', 'PRES', 'Air']
+['What is/are the filling near/in the soft-tissue density?', 'PRES', 'Air']
+['What is filling the soft-tissue density seen in this image?', 'PRES', 'Air']
+['What is/are the filling near/in the soft-tissue density?', 'PRES', 'Air']
 
 ============================================================
 synpic21776.jpg 1
-['What organ is superimposed on the lung fields?', 'Breasts']
+['What organ is superimposed on the lung fields?', 'ORGAN', 'Breasts']
 
 ============================================================
 synpic27655.jpg 1
-['What imaging modality is used?', 'Xray']
+['What imaging modality is used?', 'MODALITY', 'Xray']
 
 ============================================================
 synpic28987.jpg 5
-['What imaging modality is used?', 'plain film xray']
-['What is wrong with the aortic area?', 'It is enlarged with prominence of the aortic knob']
-['What is/are wrong with the aorta ?', 'It is enlarged with prominence of the aortic knob']
-['What pathology is shown in the aorta?', 'It is enlarged with prominence of the aortic knob']
-['What is/are wrong with the aorta ?', 'It is enlarged with prominence of the aortic knob']
+['What imaging modality is used?', 'MODALITY', 'plain film xray']
+['What is wrong with the aortic area?', 'ABN', 'It is enlarged with prominence of the aortic knob']
+['What is/are wrong with the aorta ?', 'ABN', 'It is enlarged with prominence of the aortic knob']
+['What pathology is shown in the aorta?', 'ABN', 'It is enlarged with prominence of the aortic knob']
+['What is/are wrong with the aorta ?', 'ABN', 'It is enlarged with prominence of the aortic knob']
 
 ============================================================
 synpic100228.jpg 5
-['What plane was this chest film taken in?', 'AP']
-['Where are the three circular opacities located?', 'Stomach']
-['Where are the three circular opacities located?', 'Stomach']
+['What plane was this chest film taken in?', 'PLANE', 'AP']
+['Where are the three circular opacities located?', 'POS', 'Stomach']
+['Where are the three circular opacities located?', 'POS', 'Stomach']
 ['What is the location of the three circular opacities?', 'POS', 'Stomach']
 ['Where are the three circular opacities located?', 'POS', 'Stomach']
 
 ============================================================
 synpic32084.jpg 2
-['What type of radiograph is this?', 'Chest radiograph']
-['What was this image taken with?', 'X-ray']
+['What type of radiograph is this?', 'ORGAN', 'Chest radiograph']
+['What was this image taken with?', 'MODALITY', 'X-ray']
 
 ============================================================
 synpic41667.jpg 7
-['What structure is seen in the left hemidiaphragmatic area?', 'Sigmoid Flexture of the Colon']
-['What structure is superimposed on the left hemidiaphragm?', 'Sigmoid Flexture of the Colon']
-['What vein is the central venous catheter located in the patient?', 'Right Subclavian Vein']
-['Where is/are the central venous catheter located?', 'Right Subclavian Vein']
-['Where is the central venous catheter placed?', 'Right Subclavian Vein']
-['Where is/are the central venous catheter located?', 'Right Subclavian Vein']
-['What parts of the lung fields contain the most prominent ground glass opacities?', 'Lower lung fields']
+['What structure is seen in the left hemidiaphragmatic area?', 'PRES', 'Sigmoid Flexture of the Colon']
+['What structure is superimposed on the left hemidiaphragm?', 'PRES', 'Sigmoid Flexture of the Colon']
+['What vein is the central venous catheter located in the patient?', 'POS', 'Right Subclavian Vein']
+['Where is/are the central venous catheter located?', 'POS', 'Right Subclavian Vein']
+['Where is the central venous catheter placed?', 'POS', 'Right Subclavian Vein']
+['Where is/are the central venous catheter located?', 'POS', 'Right Subclavian Vein']
+['What parts of the lung fields contain the most prominent ground glass opacities?', 'POS', 'Lower lung fields']
 
 ============================================================
 synpic59126.jpg 5
-['Where is the gastric bubble located?', 'Underneath the right hemidiaphragm']
-['Where is the gastric bubble located?', 'Underneath the right hemidiaphragm']
-['Where is the gastric bubble placed?', 'Underneath the right hemidiaphragm']
-['Where is the gastric bubble located?', 'Underneath the right hemidiaphragm']
-['How was this film taken?', 'PA']
+['Where is the gastric bubble located?', 'POS', 'Underneath the right hemidiaphragm']
+['Where is the gastric bubble located?', 'POS', 'Underneath the right hemidiaphragm']
+['Where is the gastric bubble placed?', 'POS', 'Underneath the right hemidiaphragm']
+['Where is the gastric bubble located?', 'POS', 'Underneath the right hemidiaphragm']
+['How was this film taken?', 'PLANE', 'PA']
 
 ============================================================
 synpic33102.jpg 1
-['How was this film taken?', 'PA']
+['How was this film taken?', 'PLANE', 'PA']
 
 ============================================================
 synpic25587.jpg 10
-['On what side of the body is there pathology, and what is it?', 'right sided pleural effusion']
-['What is the pathology?', 'right sided pleural effusion']
-['What is the pathology in the image?', 'right sided pleural effusion']
-['What pathology is seen int his image? ', 'right sided pleural effusion']
-['What is the pathology in the image?', 'right sided pleural effusion']
-['What pathology is seen int his image? What side?', 'right sided pleural effusion']
-['On what side of the body is there pathology?', 'right sided pleural effusion']
-['Where is the pathology?', 'right sided pleural effusion']
-['What side is the pathology?', 'right sided pleural effusion']
-['Where is the pathology?', 'right sided pleural effusion']
+['On what side of the body is there pathology, and what is it?', 'ABN', 'right sided pleural effusion']
+['What is the pathology?', 'ABN', 'right sided pleural effusion']
+['What is the pathology in the image?', 'ABN', 'right sided pleural effusion']
+['What pathology is seen int his image? ', 'ABN', 'right sided pleural effusion']
+['What is the pathology in the image?', 'ABN', 'right sided pleural effusion']
+['What pathology is seen int his image? What side?', 'ABN, POS', 'right sided pleural effusion']
+['On what side of the body is there pathology?', 'POS', 'right sided pleural effusion']
+['Where is the pathology?', 'POS', 'right sided pleural effusion']
+['What side is the pathology?', 'POS', 'right sided pleural effusion']
+['Where is the pathology?', 'POS', 'right sided pleural effusion']
 
 ============================================================
 synpic52932.jpg 3
-['This image is concerning for what lung pathology?', 'pneumonia']
-['What lung pathology is this image concerning for?', 'pneumonia']
+['This image is concerning for what lung pathology?', 'ABN', 'pneumonia']
+['What lung pathology is this image concerning for?', 'ABN', 'pneumonia']
 ['What organ system is visualized?', 'ORGAN', 'chest']
 
 ============================================================
 synpic17664.jpg 4
-['Which lung are more markings present in?', 'Right lung']
-['Where is/are the most lung markings located?', 'Right lung']
-['Where are the most lung markings?', 'Right lung']
-['Where is/are the most lung markings located?', 'Right lung']
+['Which lung are more markings present in?', 'POS', 'Right lung']
+['Where is/are the most lung markings located?', 'POS', 'Right lung']
+['Where are the most lung markings?', 'POS', 'Right lung']
+['Where is/are the most lung markings located?', 'POS', 'Right lung']
 
 ============================================================
 synpic27402.jpg 2
-['what test or procedure might reveal the diagnosis?', 'head/neck CT']
-['What can be done to get to a diagnosis?', 'Biopsy']
+['what test or procedure might reveal the diagnosis?', 'OTHER', 'head/neck CT']
+['What can be done to get to a diagnosis?', 'OTHER', 'Biopsy']
 
 ============================================================
 synpic16810.jpg 2
-['How do you determine cardiomegaly?', 'If the heart diameter is greater than half the diameter of the thoracic cavity.']
-['How do you determine if the heart is enlarged?', 'C-T ratio']
+['How do you determine cardiomegaly?', 'OTHER', 'If the heart diameter is greater than half the diameter of the thoracic cavity.']
+['How do you determine if the heart is enlarged?', 'OTHER', 'C-T ratio']
 
 ============================================================
 synpic51774.jpg 4
-['What indicates a pleural effusion?', 'costophrenic angle blunting']
-['What is a pleural effusion', 'Fluid in the pleural space']
-['Which way is the trachea deviating in this image?', 'Left']
-['Where is/are the trachea located?', 'Left']
+['What indicates a pleural effusion?', 'OTHER', 'costophrenic angle blunting']
+['What is a pleural effusion', 'OTHER', 'Fluid in the pleural space']
+['Which way is the trachea deviating in this image?', 'POS', 'Left']
+['Where is/are the trachea located?', 'POS', 'Left']
 
 ============================================================
 synpic46539.jpg 4
-['what is the pathology?', 'hydropneumothorax']
-['What is abnormal in this image?', 'hydropneumothorax']
-['What is abnormal in this image?', 'hydropneumothorax']
-['What is abnormal in this image?', 'hydropneumothorax']
+['what is the pathology?', 'ABN', 'hydropneumothorax']
+['What is abnormal in this image?', 'ABN', 'hydropneumothorax']
+['What is abnormal in this image?', 'ABN', 'hydropneumothorax']
+['What is abnormal in this image?', 'ABN', 'hydropneumothorax']
 
 ============================================================
 synpic19114.jpg 4
-['What are the densities in both mid-lung fields?', 'pleural plaques']
-['What is/are the densities near/in the lung fields?', 'pleural plaques']
-['What do the densities in the lung fields represent?', 'pleural plaques']
-['What is/are the densities near/in the lung fields?', 'pleural plaques']
+['What are the densities in both mid-lung fields?', 'PRES', 'pleural plaques']
+['What is/are the densities near/in the lung fields?', 'PRES', 'pleural plaques']
+['What do the densities in the lung fields represent?', 'PRES', 'pleural plaques']
+['What is/are the densities near/in the lung fields?', 'PRES', 'pleural plaques']
 
 ============================================================
 synpic17675.jpg 3
-['What indicates there is no pleural effusion present?', 'Sharp costophrenic angles']
-['What sign determines the absence of a pleural effusion?', 'Sharp costophrenic angles']
+['What indicates there is no pleural effusion present?', 'PRES', 'Sharp costophrenic angles']
+['What sign determines the absence of a pleural effusion?', 'PRES', 'Sharp costophrenic angles']
 ['What is better identified on a PA CXR vs a lateral CXR?', 'OTHER', 'Right vs left sided pathology']
 
 ============================================================
 synpic26413.jpg 2
-['What indicates there is a consolidation in the right lung?', 'blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border']
-['What is the observed sign of pulmonary consolidation on the right side?', 'blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border']
+['What indicates there is a consolidation in the right lung?', 'OTHER', 'blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border']
+['What is the observed sign of pulmonary consolidation on the right side?', 'OTHER', 'blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border']
 
 ============================================================
 synpic18250.jpg 4
-['Name one abnormality in the radiograph.', 'Increased opacity in the left retrocardiac region']
-['What is abnormal in this image?', 'Increased opacity in the left retrocardiac region']
-['What is one abnormality that can be seen in the image?', 'Increased opacity in the left retrocardiac region']
-['What is abnormal in this image?', 'Increased opacity in the left retrocardiac region']
+['Name one abnormality in the radiograph.', 'ABN', 'Increased opacity in the left retrocardiac region']
+['What is abnormal in this image?', 'ABN', 'Increased opacity in the left retrocardiac region']
+['What is one abnormality that can be seen in the image?', 'ABN', 'Increased opacity in the left retrocardiac region']
+['What is abnormal in this image?', 'ABN', 'Increased opacity in the left retrocardiac region']
 
 ============================================================
 synpic53228.jpg 4
-['How many ribs are superimposed on the lung fields?', 12]
-['How many ribs are there?', 12]
-['How many ribs are present in vertical order on this chest radiograph', 12]
-['How many ribs are there?', 12]
+['How many ribs are superimposed on the lung fields?', 'COUNT', 12]
+['How many ribs are there?', 'COUNT', 12]
+['How many ribs are present in vertical order on this chest radiograph', 'COUNT', 12]
+['How many ribs are there?', 'COUNT', 12]
 
 ============================================================
 synpic29265.jpg 1

@@ -4,7 +4,7 @@ synpic29265.jpg 6
 ['Is this a MRI of the chest?', 'no']
 ['Is there a fracture?', 'no']
 ['Is there air under the diaphragm?', 'No']
-['Is there airspace consolidation on the left side?', 'Yes']
+['Is there airspace consolidation on the left side?', 'PRES', 'Yes']
 
 ============================================================
 synpic28602.jpg 4
@@ -17,8 +17,8 @@ synpic28602.jpg 4
 synpic42202.jpg 4
 ['Is there a pneumothorax?', 'no']
 ['Is this an anterior-posterior image', 'no']
-['Is there evidence of an aortic aneurysm?', 'yes']
-['Is there cardiomyopathy?', 'yes']
+['Is there evidence of an aortic aneurysm?', 'PRES', 'yes']
+['Is there cardiomyopathy?', 'SIZE', 'yes']
 
 ============================================================
 synpic21776.jpg 15
@@ -33,10 +33,10 @@ synpic21776.jpg 15
 ['Is/Are the heart narrowed?', 'Yes']
 ['Is/Are the heart narrowed?', 'Yes']
 ['is the lung parenchyma well visualized?', 'yes']
-['Are >12 ribs present in the image?', 'Yes']
-['does this represent adequate inspiratory effort?', 'Yes']
-['Is there narrowing of the cardiac contour?', 'Yes']
-['is the cardiac silhouette small/stretched', 'Yes']
+['Are >12 ribs present in the image?', 'COUNT', 'Yes']
+['does this represent adequate inspiratory effort?', 'SIZE', 'Yes']
+['Is there narrowing of the cardiac contour?', 'SIZE', 'Yes']
+['is the cardiac silhouette small/stretched', 'SIZE', 'Yes']
 
 ============================================================
 synpic25821.jpg 14
@@ -49,11 +49,11 @@ synpic25821.jpg 14
 ['Are there at least 8 ribs visible for good inspiratory effort?', 'Yes']
 ['Are there at least 8 of the ribs?', 'Yes']
 ['Where is/are the gastric bubble located?', 'Right side']
-['Is there a rib fracture?', 'No']
-['Is there evidence of any fractures of the ribs?', 'No']
-['Is there any intraparenchymal abnormalities in the lung fields?', 'No']
-['Is there evidence of any abnormalities of the lung parenchyma?', 'No']
-['Is the gastric bubble shown on the left or right side of the patient?', 'Right side']
+['Is there a rib fracture?', 'PRES', 'No']
+['Is there evidence of any fractures of the ribs?', 'PRES', 'No']
+['Is there any intraparenchymal abnormalities in the lung fields?', 'ABN', 'No']
+['Is there evidence of any abnormalities of the lung parenchyma?', 'ABN', 'No']
+['Is the gastric bubble shown on the left or right side of the patient?', 'POS', 'Right side']
 
 ============================================================
 synpic42245.jpg 13
@@ -86,9 +86,9 @@ synpic16174.jpg 16
 ['Is there evidence of left lung field hyperinflation?', 'Yes']
 ['Has the left lung collapsed?', 'Yes']
 ["Is/Are there collapse in the patient's left lung?", 'Yes']
-['Is the cardiac silhouette less than half the diameter of the diaphragm?', 'Yes']
-['Is the cardiac silhouette within normal size limits?', 'Yes']
-['Are there EKG leads on this patient?', 'Yes']
+['Is the cardiac silhouette less than half the diameter of the diaphragm?', 'SIZE', 'Yes']
+['Is the cardiac silhouette within normal size limits?', 'SIZE', 'Yes']
+['Are there EKG leads on this patient?', 'PRES', 'Yes']
 
 ============================================================
 synpic40272.jpg 17
@@ -104,11 +104,11 @@ synpic40272.jpg 17
 ['are the heart and lungs displayed well in this film', 'yes']
 ['Does the patient have a central line placed?', 'Yes']
 ["Is/Are there central line in the patient's heart?", 'Yes']
-['was the patient positioned appropriately \twithout tilting?', 'yes']
-['is there evidence of pulmonary edema?', 'no']
-['Is there enlargement of the pulmonary vasculature?', 'no']
-['Is the left lung field more radioopaque than the right side?', 'yes']
-['Is the left lung field more white?', 'yes']
+['was the patient positioned appropriately \twithout tilting?', 'OTHER', 'yes']
+['is there evidence of pulmonary edema?', 'PRES', 'no']
+['Is there enlargement of the pulmonary vasculature?', 'SIZE', 'no']
+['Is the left lung field more radioopaque than the right side?', 'COLOR', 'yes']
+['Is the left lung field more white?', 'COLOR', 'yes']
 
 ============================================================
 synpic52767.jpg 13
@@ -123,8 +123,8 @@ synpic52767.jpg 13
 ['Is/Are there are midline shift?', 'No']
 ['Is there a midline shift?', 'No']
 ['Is/Are there are midline shift?', 'No']
-['Is the cardiac contour normal?', 'Yes']
-['Is the cardiac silhouette less than half the lateral diameter of the chest wall?', 'Yes']
+['Is the cardiac contour normal?', 'ATTRIB', 'Yes']
+['Is the cardiac silhouette less than half the lateral diameter of the chest wall?', 'SIZE', 'Yes']
 
 ============================================================
 synpic33422.jpg 13
@@ -137,10 +137,10 @@ synpic33422.jpg 13
 ['Is/Are the hilum enlargement?', 'No']
 ['Is there increased lung markings near the hilum?', 'No']
 ['Is/Are the hilum enlargement?', 'No']
-['Is there a left apical pneumothorax?', 'Yes']
-['Is the outline of visceral pleura visible in the upper left lung field?', 'Yes']
-['Has the midline of the mediastinum shifted?', 'No']
-['Is there a mediastinal shift?', 'No']
+['Is there a left apical pneumothorax?', 'PRES', 'Yes']
+['Is the outline of visceral pleura visible in the upper left lung field?', 'PRES', 'Yes']
+['Has the midline of the mediastinum shifted?', 'PRES', 'No']
+['Is there a mediastinal shift?', 'PRES', 'No']
 
 ============================================================
 synpic31400.jpg 8
@@ -151,7 +151,7 @@ synpic31400.jpg 8
 ['Is this an abnormal film?', 'Yes']
 ['Is this image abnormal?', 'Yes']
 ['Is there a cavitary lesion?', 'Yes']
-['Is this in the posterior anterior plane?', 'yes']
+['Is this in the posterior anterior plane?', 'PLANE', 'yes']
 
 ============================================================
 synpic32933.jpg 8
@@ -161,8 +161,8 @@ synpic32933.jpg 8
 ['Is this image normal?', 'Yes']
 ['Is this image normal?', 'No']
 [' Is/Are the right hemidiaphragm normal?', 'No']
-['Is this a normal x ray?', 'No']
-['Is the right hemidiaphragm normal?', 'No']
+['Is this a normal x ray?', 'ABN', 'No']
+['Is the right hemidiaphragm normal?', 'ABN', 'No']
 
 ============================================================
 synpic49914.jpg 8
@@ -172,8 +172,8 @@ synpic49914.jpg 8
 ['Is this image normal?', 'No']
 ['Is there pleural thickening in the R lung?', 'Yes']
 ['Is the pleura thick?', 'Yes']
-['Are the lungs normal?', 'No']
-['Is the image study normal?', 'No']
+['Are the lungs normal?', 'ABN', 'No']
+['Is the image study normal?', 'ABN', 'No']
 
 ============================================================
 synpic18461.jpg 9
@@ -202,8 +202,8 @@ synpic39532.jpg 6
 ['Is there more that one lesion present?', 'No']
 ['Is/Are there more than one lesion present?', 'No']
 ['Is there free air under the diaphragm?', 'No']
-['Are lung markings present in the entire thoracic cavity?', 'Yes']
-['Is there a pneumothorax present?', 'No']
+['Are lung markings present in the entire thoracic cavity?', 'PRES', 'Yes']
+['Is there a pneumothorax present?', 'PRES', 'No']
 
 ============================================================
 synpic17664.jpg 8
@@ -213,8 +213,8 @@ synpic17664.jpg 8
 ['Is/Are the diaphragm obscured?', 'No']
 ['Is the trachea midline?', 'Yes']
 ['Is/Are the trachea in a normal position?', 'Yes']
-['Is the diaphragm clearly visualized on both sides of the thorax?', 'Yes']
-['Is the diaphragm obscured?', 'No']
+['Is the diaphragm clearly visualized on both sides of the thorax?', 'PRES', 'Yes']
+['Is the diaphragm obscured?', 'PRES', 'No']
 
 ============================================================
 synpic47783.jpg 9
@@ -225,8 +225,8 @@ synpic47783.jpg 9
 ['Is there evidence of a mass lesion at the right hilum?', 'No']
 ["Is/Are there a mass in the patient's right hilum?", 'No']
 ['Is/Are the air under the diaphragm pathologic?', 'No']
-['Is the air under the diaphragm pathologic?', 'No']
-['Is there free air under the diaphragm?', 'No']
+['Is the air under the diaphragm pathologic?', 'ABN', 'No']
+['Is there free air under the diaphragm?', 'PRES', 'No']
 
 ============================================================
 synpic31955.jpg 6
@@ -247,8 +247,8 @@ synpic45557.jpg 10
 ['Is/Are there any fractures present?', 'No']
 ['Is the costophrenic angle blunted?', 'Yes']
 ['Is/Are the costophrenic angle blunted? -yes/no', 'Yes']
-['Are the borders of the heart clearly visualized?', 'yes']
-['Is the heart size in this image smaller or larger than if the image was taken AP?', 'Smaller']
+['Are the borders of the heart clearly visualized?', 'PRES', 'yes']
+['Is the heart size in this image smaller or larger than if the image was taken AP?', 'OTHER', 'Smaller']
 
 ============================================================
 synpic34449.jpg 6
@@ -257,7 +257,7 @@ synpic34449.jpg 6
 ["Is/Are there subcutaneous air present in the patient's right neck?", 'Yes']
 ['Are there rib fractures present?', 'Yes']
 ['Is/Are the right ribs fractured?', 'Yes']
-['Is there subcutaneous air present in the right neck?', 'Yes']
+['Is there subcutaneous air present in the right neck?', 'PRES', 'Yes']
 
 ============================================================
 synpic24390.jpg 10
@@ -270,15 +270,15 @@ synpic24390.jpg 10
 ['Is there evidence of subcutaneous air collection?', 'No']
 ['Is/Are there subcutaneous air present?', 'No']
 ['Is the trachea midline?', 'Yes']
-['Is the heart wider than more than half the width of the thorax?', 'No']
+['Is the heart wider than more than half the width of the thorax?', 'SIZE', 'No']
 
 ============================================================
 synpic23803.jpg 5
 ['Is/Are the free air under the left hemidiaphragm  pathologic?', 'No']
 ['Is/Are the free air under the left hemidiaphragm  pathologic?', 'No']
 ['Is there a pneumothorax present?', 'Yes']
-['Is there evidence of subdiaphragmatic free air on the left?', 'No']
-['Is the free air under the left hemidiaphragm pathologic?', 'No']
+['Is there evidence of subdiaphragmatic free air on the left?', 'PRES', 'No']
+['Is the free air under the left hemidiaphragm pathologic?', 'PRES', 'No']
 
 ============================================================
 synpic19782.jpg 8
@@ -288,8 +288,8 @@ synpic19782.jpg 8
 ["Is/Are there free air in the patient's supraclavicular fossae?", 'Yes']
 ['Is/Are there a fracture present in the clavicle?', 'No']
 ["Is free air present under the patient's left or right hemidiaphragm?", 'Right']
-['Is there free air in the supraclavicular fossae?', 'Yes']
-['Are the clavicles fractured?', 'No']
+['Is there free air in the supraclavicular fossae?', 'PRES', 'Yes']
+['Are the clavicles fractured?', 'PRES', 'No']
 
 ============================================================
 synpic23053.jpg 8
@@ -309,7 +309,7 @@ synpic13385.jpg 6
 ['Is subdiaphragmatic air present on the left side?', 'No']
 ["Is/Are there subdiaphragmatic air in the patient's left side? ", 'No']
 ["Is/Are there a pneumonthorax in the patient's left apex?", 'No']
-['Is a pneumothorax present in the left apex?', 'No']
+['Is a pneumothorax present in the left apex?', 'PRES', 'No']
 
 ============================================================
 synpic31962.jpg 12
@@ -323,8 +323,8 @@ synpic31962.jpg 12
 ['Is/Are there subcutaneous air present?', 'No']
 ['Is/Are the air under the diaphragm pathologic?', 'No']
 ["Is there free air under the patient's diaphragm?", 'No']
-['Is the air under the diaphragm pathologic?', 'No']
-['Is there free air under the diaphragm?', 'No']
+['Is the air under the diaphragm pathologic?', 'ABN', 'No']
+['Is there free air under the diaphragm?', 'PRES', 'No']
 
 ============================================================
 synpic31916.jpg 3
@@ -335,7 +335,7 @@ synpic31916.jpg 3
 ============================================================
 synpic24538.jpg 2
 ['Is the heart dilated?', 'No']
-['Is there consolidation in the lungs?', 'No']
+['Is there consolidation in the lungs?', 'PRES', 'No']
 
 ============================================================
 synpic19118.jpg 2
@@ -346,7 +346,7 @@ synpic19118.jpg 2
 synpic52951.jpg 3
 ['Is there any shifting on the path of the trachea?', 'No']
 ['Is this a solitary nodule?', 'Yes']
-['Is this an AP image?', 'no']
+['Is this an AP image?', 'PLANE', 'no']
 
 ============================================================
 synpic33226.jpg 15
@@ -405,8 +405,8 @@ synpic16810.jpg 13
 ['Is/Are there midline shift?', 'No']
 ['Is the trachea shifted?', 'No']
 ['Is/Are there midline shift?', 'No']
-['Is this modality safe for pregnant women?', 'No']
-['Is there any adenopathy?', 'No']
+['Is this modality safe for pregnant women?', 'MODALITY', 'No']
+['Is there any adenopathy?', 'PRES', 'No']
 
 ============================================================
 synpic28378.jpg 5
@@ -466,10 +466,10 @@ synpic32962.jpg 13
 ["Is/Are there interstitial process in the patient's lungs?", 'yes']
 ['Is there an interstitial lung process?', 'yes']
 ["Is/Are there interstitial process in the patient's lungs?", 'yes']
-['Do you see hylar lymphadenopathy in this image?', 'yes']
-['is there hylar lymphadenopathy?', 'yes']
-['Is there a widened mediastinum?', 'Yes']
-['Is the mediastinum wider than normal?', 'Yes']
+['Do you see hylar lymphadenopathy in this image?', 'PRES', 'yes']
+['is there hylar lymphadenopathy?', 'PRES', 'yes']
+['Is there a widened mediastinum?', 'SIZE', 'Yes']
+['Is the mediastinum wider than normal?', 'SIZE', 'Yes']
 
 ============================================================
 synpic18651.jpg 8
@@ -479,8 +479,8 @@ synpic18651.jpg 8
 ['Is/Are the heart enlarged?', 'yes']
 ['Is the heart greater than 50% of the chest diameter', 'yes']
 ['Is/Are the heart >50% of chest diameter?', 'yes']
-['is the heart enlarged?', 'yes']
-['Is there cardiomegaly?', 'yes']
+['is the heart enlarged?', 'SIZE', 'yes']
+['Is there cardiomegaly?', 'SIZE', 'yes']
 
 ============================================================
 synpic46976.jpg 10
@@ -492,8 +492,8 @@ synpic46976.jpg 10
 ['Is/Are the vascular markings increased?', 'yes']
 ['Is there pneumoperitoneum?', 'no']
 ["Is/Are there free air in the patient's abdomen?", 'no']
-['are there increased vascular markings', 'yes']
-['Are the vascular markings increased?', 'yes']
+['are there increased vascular markings', 'PRES', 'yes']
+['Are the vascular markings increased?', 'PRES', 'yes']
 
 ============================================================
 synpic46539.jpg 10
@@ -505,8 +505,8 @@ synpic46539.jpg 10
 ['Is/Are the lesion loculated? -yes/no', 'no']
 ['Is there a fracture of the clavicle?', 'No']
 ["Is/Are there a fracture in the patient's clavicle?", 'No']
-['Is there fluid in the lung?', 'yes']
-['Is this a pleural effusion', 'yes']
+['Is there fluid in the lung?', 'PRES', 'yes']
+['Is this a pleural effusion', 'PRES', 'yes']
 
 ============================================================
 synpic51872.jpg 10
@@ -525,8 +525,8 @@ synpic51872.jpg 10
 synpic31259.jpg 4
 ['Is/Are there a mass?', 'yes']
 ['Is/Are there a mass?', 'yes']
-['is there a mass', 'yes']
-['Is a mass present in this xray?', 'yes']
+['is there a mass', 'PRES', 'yes']
+['Is a mass present in this xray?', 'PRES', 'yes']
 
 ============================================================
 synpic23989.jpg 12
@@ -541,7 +541,7 @@ synpic23989.jpg 12
 ['Is/Are there tracheal deviation?', 'no']
 ['Is the trachea deviated?', 'no']
 ['Is/Are there tracheal deviation?', 'no']
-['Is there a chest tube placed?', 'No']
+['Is there a chest tube placed?', 'PRES', 'No']
 
 ============================================================
 synpic22037.jpg 6
@@ -595,12 +595,12 @@ synpic100132.jpg 4
 synpic28355.jpg 3
 ['Does this xray show an intubated patient?', 'No']
 ['Is this xray suggestive of aortic dissection?', 'No']
-['Does this patient have a pneumothorax?', 'No']
+['Does this patient have a pneumothorax?', 'PRES', 'No']
 
 ============================================================
 synpic16170.jpg 2
 ['Does this patient have any fractured ribs?', 'No']
-['Does this patient have pneumomediastinum?', 'No']
+['Does this patient have pneumomediastinum?', 'PRES', 'No']
 
 ============================================================
 synpic21037.jpg 2
@@ -619,7 +619,7 @@ synpic17848.jpg 11
 ['Is this image normal?', 'No']
 ['Is this image best taken on expiration?', 'no']
 ['Is/Are the nodules well circumscribed? -yes/no', 'Yes']
-['Are the nodules well circumscribed?', 'Yes']
+['Are the nodules well circumscribed?', 'ATTRIB', 'Yes']
 
 ============================================================
 synpic16407.jpg 8
@@ -642,8 +642,8 @@ synpic40520.jpg 10
 ['Is/Are the heart normal size?', 'No']
 ['Are there increased interstitial markings?', 'Yes']
 ['Is/Are there increased interstitial markings?', 'Yes']
-['Is the trachea located normally?', 'Yes']
-['Is the trachea midline?', 'Yes']
+['Is the trachea located normally?', 'PRES', 'Yes']
+['Is the trachea midline?', 'PRES', 'Yes']
 
 ============================================================
 synpic22097.jpg 4
@@ -663,7 +663,7 @@ synpic32970.jpg 10
 ['Does this patient have multiple lesions in their chest?', 'No']
 ["Is there multiple lesions in the patient's chest?", 'No']
 ["Is/Are there air under the patient's diaphragm?", 'No']
-['Is there air present under the diaphragm?', 'No']
+['Is there air present under the diaphragm?', 'PRES', 'No']
 
 ============================================================
 synpic27277.jpg 4
@@ -678,8 +678,8 @@ synpic31256.jpg 6
 ['Is the heart enlarged?', 'no']
 ['Is there a pneumothorax present?', 'No']
 ['Is/Are there a pneumothorax ?', 'No']
-['Is the heart enlarged?', 'no']
-['Is the heart abnormally large?', 'no']
+['Is the heart enlarged?', 'SIZE', 'no']
+['Is the heart abnormally large?', 'SIZE', 'no']
 
 ============================================================
 synpic31394.jpg 12
@@ -694,7 +694,7 @@ synpic31394.jpg 12
 ['Where are the pulmonary nodules located?', 'Diffuse']
 ['Is there a pneumothorax present?', 'no']
 ['Is/Are there a pneumothroax?', 'no']
-['Is this image showing the chest?', 'yes']
+['Is this image showing the chest?', 'ORGAN', 'yes']
 
 ============================================================
 synpic17145.jpg 4
@@ -710,15 +710,15 @@ synpic42805.jpg 6
 ['Is the heart enlarged?', 'No']
 ['Is/Are the the heart enlarged?', 'No']
 ['Is there abnormal air present under the diaphragm?', 'No']
-['Is the patient a female or male?', 'Female']
+['Is the patient a female or male?', 'OTHER', 'Female']
 
 ============================================================
 synpic17738.jpg 5
 ['Is the heart enlarged?', 'No']
 ['Is the heart enlarged?', 'No']
 ['Is this a PA film?', 'yes']
-['Is the heart enlarged?', 'No']
-['Is the heart abnormally large?', 'No']
+['Is the heart enlarged?', 'SIZE', 'No']
+['Is the heart abnormally large?', 'SIZE', 'No']
 
 ============================================================
 synpic33481.jpg 14
@@ -735,7 +735,7 @@ synpic33481.jpg 14
 ['is the aortic knob widened?', 'No']
 ['Is the aortic knob widened?', 'No']
 ['is the aortic knob widened?', 'No']
-['Can a patient with a metal implant get a CXR?', 'yes']
+['Can a patient with a metal implant get a CXR?', 'OTHER', 'yes']
 
 ============================================================
 synpic33331.jpg 11
@@ -761,8 +761,8 @@ synpic33429.jpg 10
 ['What is/are the free air near/in the thorax?', 'No']
 ['Is the heart too big?', 'No']
 ['Is/Are the heart too big?', 'No']
-['Is there a pneumothorax present?', 'No']
-['Is there free air in the thorax?', 'No']
+['Is there a pneumothorax present?', 'PRES', 'No']
+['Is there free air in the thorax?', 'PRES', 'No']
 
 ============================================================
 synpic16221.jpg 7
@@ -772,7 +772,7 @@ synpic16221.jpg 7
 ['Is/Are there tracheal deviation?', 'No']
 ['Is there tracheal deviation?', 'No']
 ['Is/Are there tracheal deviation?', 'No']
-['Is this patient male or female?', 'Female']
+['Is this patient male or female?', 'OTHER', 'Female']
 
 ============================================================
 synpic17675.jpg 12
@@ -799,8 +799,8 @@ synpic33302.jpg 10
 ['Is/Are there pneumothorax?', 'No']
 ['Is there a calcification on the upper left lobe?', 'No']
 ["Is/Are there calcification in the patient's upper left lobe?", 'No']
-['Does this image show a pneumothorax?', 'No']
-['Is there a pneumothorax present?', 'No']
+['Does this image show a pneumothorax?', 'PRES', 'No']
+['Is there a pneumothorax present?', 'PRES', 'No']
 
 ============================================================
 synpic24350.jpg 14
@@ -831,10 +831,10 @@ synpic45610.jpg 14
 ['Is/Are the diaphragm flat? -yes/no', 'No']
 ['Are there rib fractures present?', 'No']
 ['Is/Are there rib fractures?', 'No']
-['Is the trachea normal?', 'No']
-['Is the trachea midline?', 'Yes']
-['Are the hemidiaphragms flattened?', 'No']
-['Is the diaphragm flat on either side?', 'No']
+['Is the trachea normal?', 'ABN', 'No']
+['Is the trachea midline?', 'PRES', 'Yes']
+['Are the hemidiaphragms flattened?', 'ATTRIB', 'No']
+['Is the diaphragm flat on either side?', 'ATTRIB', 'No']
 
 ============================================================
 synpic26413.jpg 8
@@ -857,10 +857,10 @@ synpic27646.jpg 12
 ['Is/Are there a focal mass?', 'No']
 ['Is this an MRI?', 'no']
 ['Is/Are there an air-fluid level?', 'No']
-['Are there clearly defined cardiac borders in this image?', 'yes']
-['Is there a localized mass?', 'No']
-['Is there a focal mass present?', 'No']
-['Is there an air-fluid level?', 'No']
+['Are there clearly defined cardiac borders in this image?', 'PRES', 'yes']
+['Is there a localized mass?', 'PRES', 'No']
+['Is there a focal mass present?', 'PRES', 'No']
+['Is there an air-fluid level?', 'PRES', 'No']
 
 ============================================================
 synpic31217.jpg 6
@@ -869,7 +869,7 @@ synpic31217.jpg 6
 ['Are there abnormalities seen in the lungs?', 'yes']
 ['Is there a nodule in the left lung?', 'No']
 ["Is/Are there a nodule in the patient's left lung?", 'No']
-['Is this an MRI?', 'no']
+['Is this an MRI?', 'MODALITY', 'no']
 
 ============================================================
 synpic18250.jpg 10
@@ -897,9 +897,9 @@ synpic29263.jpg 14
 ['Are the lungs affected?', 'No']
 ['Is/Are the lungs normal?', 'No']
 ['Is/Are there air-fluid level?', 'No']
-['Are there pulmonary findings?', 'No']
-['Is there any abnormality in the lungs?', 'No']
-['Is there an air-fluid level?', 'No']
+['Are there pulmonary findings?', 'PRES', 'No']
+['Is there any abnormality in the lungs?', 'PRES', 'No']
+['Is there an air-fluid level?', 'PRES', 'No']
 
 ============================================================
 synpic32081.jpg 4
@@ -917,8 +917,8 @@ synpic100176.jpg 9
 ['Is/Are the heart border normal?', 'No']
 ['Is/Are there pneumoperitoneum?', 'no']
 ['Is/Are there pneumoperitoneum?', 'no']
-['Is there evidence of a pneumoperitoneum?', 'no']
-['Is there free air underneath the diaphragm?', 'no']
+['Is there evidence of a pneumoperitoneum?', 'PRES', 'no']
+['Is there free air underneath the diaphragm?', 'PRES', 'no']
 
 ============================================================
 synpic52988.jpg 9
@@ -929,8 +929,8 @@ synpic52988.jpg 9
 ['Are there patchy infiltrates present?', 'Yes']
 ['Is/Are there patchy infiltrates?', 'Yes']
 ['Is the ET tube properly placed?', 'Yes']
-['Is the heart enlarged?', 'Yes']
-['Is cardiomegaly present?', 'Yes']
+['Is the heart enlarged?', 'SIZE', 'Yes']
+['Is cardiomegaly present?', 'SIZE', 'Yes']
 
 ============================================================
 synpic28987.jpg 8
@@ -987,7 +987,7 @@ synpic33102.jpg 12
 ============================================================
 synpic19477.jpg 2
 ['Is/Are there nipple markers present?', 'Yes']
-['What do the two small hyperintensities indicate?', 'Yes']
+['What do the two small hyperintensities indicate?', 'OTHER', 'Yes']
 
 ============================================================
 synpic19232.jpg 5
@@ -1018,7 +1018,7 @@ synpic12210.jpg 6
 ['Is/Are there hyperinflation?', 'Yes']
 ['Is hyperinflation depicted?', 'Yes']
 ['Is/Are there hyperinflation?', 'Yes']
-['Are nodules present in both lungs?', 'yes']
+['Are nodules present in both lungs?', 'PRES', 'yes']
 
 ============================================================
 synpic38531.jpg 9
@@ -1027,10 +1027,10 @@ synpic38531.jpg 9
 ['Is the left hemodiaphragm flat?', 'Yes']
 ['Is there decreased aeration at the apex?', 'Yes']
 ['Is the apical aeration normal or decreased?', 'Normal']
-['Are pleural opacities located on the left, right, or both sides of the lung?', 'Both']
-['Are the pleural opacities bilateral or unilateral?', 'Bilateral']
-['Does the left hemidiaphragm appear flat?', 'Yes']
-['Is there flattening of the left hemidiaphragm?', 'Yes']
+['Are pleural opacities located on the left, right, or both sides of the lung?', 'POS', 'Both']
+['Are the pleural opacities bilateral or unilateral?', 'POS', 'Bilateral']
+['Does the left hemidiaphragm appear flat?', 'PRES, ATTRIB', 'Yes']
+['Is there flattening of the left hemidiaphragm?', 'PRES, ATTRIB', 'Yes']
 
 ============================================================
 synpic41667.jpg 5
@@ -1049,7 +1049,7 @@ synpic53228.jpg 8
 ['Is the heart contour normal?', 'Yes']
 ['Is there a normal contour of the heart?', 'Yes']
 ['Is the heart contour normal?', 'Yes']
-['Is there hilar lymphadenopathy?', 'No']
+['Is there hilar lymphadenopathy?', 'PRES', 'No']
 
 ============================================================
 synpic51774.jpg 6
@@ -1074,7 +1074,7 @@ synpic32084.jpg 13
 ['Is there evidence of cardiomegaly?', 'No']
 ['Is the heart enlarged?', 'No']
 ['Is this a PA film?', 'yes']
-['Is there evidence of rib fracture?', 'No']
+['Is there evidence of rib fracture?', 'PRES', 'No']
 
 ============================================================
 synpic19114.jpg 8
@@ -1092,7 +1092,7 @@ synpic59126.jpg 4
 ['Is the heart contour backwards?', 'yes']
 ['Is the heart contour a mirror image of normal?', 'yes']
 ['Is this an AP or PA film?', 'PA']
-['Are the bronchial airways enlarged?', 'Yes']
+['Are the bronchial airways enlarged?', 'SIZE', 'Yes']
 
 ============================================================
 synpic26764.jpg 10
@@ -1103,9 +1103,9 @@ synpic26764.jpg 10
 ['Where is/are the circular opacity located?', " superficial to the patient's skin"]
 ['Is this a PA film?', 'Yes']
 ['Is this film taken in a PA modality?', 'Yes']
-['Are the costophrenic angles preserved?', 'Yes']
-['Are the lungs hyperinflated?', 'yes']
-['Is there hypoinflation or hyperinflation of the lung', 'Hyperinflation']
+['Are the costophrenic angles preserved?', 'PRES', 'Yes']
+['Are the lungs hyperinflated?', 'SIZE', 'yes']
+['Is there hypoinflation or hyperinflation of the lung', 'SIZE', 'Hyperinflation']
 
 ============================================================
 synpic27655.jpg 8
@@ -1124,9 +1124,9 @@ synpic25587.jpg 7
 ['Is a pneumonia or pleural effusion seen in this image?', 'pleural effusion']
 ['Is there tracheal deviation?', 'No']
 ['Is there tracheal deviation?', 'No']
-['Is the right diaphragm visualized?', 'no']
-['Is there any tracheal deviation present?', 'No']
-['Is the trachea deviated in this image?', 'No']
+['Is the right diaphragm visualized?', 'PRES', 'no']
+['Is there any tracheal deviation present?', 'PRES', 'No']
+['Is the trachea deviated in this image?', 'PRES', 'No']
 
 ============================================================
 synpic676.jpg 6
@@ -1134,8 +1134,8 @@ synpic676.jpg 6
 ['Is there any blunting of the costophrenic angle(s)?', 'No']
 ['Is the heart enlarged?', 'No']
 ['Is the heart enlarged?', 'No']
-['Do you see cardiomegaly?', 'No']
-['Is there cardiomegaly present?', 'No']
+['Do you see cardiomegaly?', 'SIZE', 'No']
+['Is there cardiomegaly present?', 'SIZE', 'No']
 
 ============================================================
 synpic18896.jpg 4

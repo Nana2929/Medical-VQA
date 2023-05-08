@@ -67,10 +67,18 @@ if __name__ == '__main__':
         raise ValueError(f"Dataset {cfg.DATASET.DATASET} is not supported!")
     drop_last = False
     drop_last_val = False
+    # TESTING
+    # image_data, question_data, answer_type, question_type, phrase_type, answer_target, entry['image_name'], entry['question'], entry['answer_text']
+
+
+
     train_loader = DataLoader(train_dataset, cfg.TRAIN.BATCH_SIZE, shuffle=True, num_workers=2,drop_last=drop_last,
             pin_memory=True)
     val_loader = DataLoader(val_dataset, cfg.TEST.BATCH_SIZE, shuffle=True, num_workers=2,drop_last=drop_last_val,
             pin_memory=True)
+    print('train loader iterating')
+    for i, row in enumerate(train_loader):
+        print(row)
 
     # load the model
     glove_weights_path = os.path.join(data_dir, "glove6b_init_300d.npy")
@@ -84,8 +92,6 @@ if __name__ == '__main__':
     else:
         ckpt = './saved_models/type_classifier.pth'
         qtype_ckpt = './saved_models/qtype_classifier.pth'
-        print(torch.cuda.get_arch_list())
-        print(torch.cuda.is_available())
         pretrained_model = torch.load(ckpt, map_location='cuda:0')
     question_classify.load_state_dict(pretrained_model)
     print('loading question model done')
@@ -93,10 +99,17 @@ if __name__ == '__main__':
     # create VQA model and question classify model
 
     if args.test:
-        model = BAN_Model(val_dataset, cfg, device)
+        # model = BAN_Model(val_dataset, cfg, device)
+        model = BAN_Model(train_dataset, cfg, device)
         model_data = torch.load(cfg.TEST.MODEL_FILE)
         model.load_state_dict(model_data.get('model_state', model_data), strict=False)
+        train_result_dir = os.path.join(cfg.TEST.RESULT_DIR, 'train')
 
+        # test(cfg, model, question_classify, train_loader, train_dataset.num_close_candidates, args.device,
+        #      overridden_dir=train_result_dir)
+        # pickle train answers
+        # result_dir is originally cfg.TEST.RESULT_DIR
+        # but here we want to save the train answers in a different directory
         test(cfg, model, question_classify, val_loader, train_dataset.num_close_candidates, args.device)
     else:
         model = BAN_Model(train_dataset, cfg, device)

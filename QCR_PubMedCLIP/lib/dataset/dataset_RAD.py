@@ -160,9 +160,6 @@ def _load_dataset(dataroot, name, img_id2val, label2ans):
     utils.assert_eq(len(samples), len(answers))
     entries = []
     for sample, answer in zip(samples, answers):
-        from pprint import pprint
-        pprint(sample)
-        pprint(answer)
         utils.assert_eq(sample['qid'], answer['qid'])
         utils.assert_eq(sample['image_name'], answer[img_name_key])
         img_id = sample['image_name']
@@ -335,13 +332,13 @@ class VQARADFeatureDataset(Dataset):
             if self.name == "test":
                 return  image_data,question_data, composed_target, answer_type, question_type, phrase_type, answer_target, entry['image_name'], entry['question'], entry['answer_text']
             else:
-                return  image_data,question_data, composed_target, answer_type, question_type, phrase_type, answer_target
+                return  image_data,question_data, composed_target, answer_type, question_type, phrase_type, answer_target, entry['image_name'], entry['question'], entry['answer_text']
 
         else:
             if self.name == "test":
                 return image_data, question_data, answer_type, question_type, phrase_type, answer_target, entry['image_name'], entry['question'], entry['answer_text']
             else:
-                return image_data, question_data, answer_type, question_type, phrase_type, answer_target
+                return image_data, question_data, answer_type, question_type, phrase_type, answer_target, entry['image_name'], entry['question'], entry['answer_text']
 
 
     def __len__(self):
@@ -430,9 +427,8 @@ if __name__=='__main__':
     dataroot = './data'
 
     d = Dictionary.load_from_file(os.path.join(dataroot,'dictionary.pkl'))
-    dataset = VQAFeatureDataset('test',args,d,dataroot)
+    dataset = VQAFeatureDataset('train',args,d,dataroot)
     train_data = DataLoader(dataset,batch_size=20,shuffle=False,num_workers=2,pin_memory=True,drop_last=False)
     for i,row in enumerate(train_data):
-        image_data, question, target, answer_type, question_type, phrase_type, answer_target = row
-        print(target.shape)
-        break
+        # image_data, question_data, answer_type, question_type, phrase_type, answer_target, entry['image_name'], entry['question'], entry['answer_text']
+        print(row)

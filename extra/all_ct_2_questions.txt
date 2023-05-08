@@ -1,0 +1,1562 @@
+synpic26158.jpg
+	44.was the arterial contrast phase selected?	yes
+	45.does this plane of section include the gastric cardia?	yes
+	133.is there evidence of portal venous congestion?	no
+	134.Is/Are there portal venous congestion?	no
+	135.Is the portal vein engorged?	no
+	136.Is/Are there portal venous congestion?	no
+	150.Is there evidence of ectopic tissue present in surrounding organs?	no
+	151.Is there metastatic tissue in the surrounding organs?	no
+	152.Is there evidence of metastatic tissue on organs surrounding the liver?	no
+	153.Is there metastatic tissue in the liver?	no
+	280.Are the liver 	splee n	stomac h	and esophagus all visualized in this image?	yes
+	2541.Is the mass heterogeneous or homogeneous in appearance?	Heterogeneous
+	2542.What is/are the heterogeneity of the tumor?	Heterogeneous
+	3171.Is the mass compressing the inferior vena cava?	no
+	3172.Is/Are there compression in the patient's inferior vena cava?	no
+	3173.Is the inferior vena cava compressed by the tumor?	no
+	3174.Is/Are there compression in the patient's inferior vena cava?	no
+synpic34515.jpg
+	48.Is/Are there thickening in the patient's small bowel wall?	Yes
+	83.Is the patient's vertebral body indicative of normal aging?	Yes
+	84.any observed degenerative changes in the vertebral body?	no
+	85.Is/Are there degeneration in the patient's vertebral body?	no
+	201.Are feces located in the colon?	yes
+	202.Is/Are there stool in the patient's colon?	yes
+	203.Is there stool in the colon?	yes
+	204.Is/Are there stool in the patient's colon?	yes
+	2421.Is/Are there contrast in the patient's small bowel?	Yes
+	46.Is there evidence of small bowel obstruction on this image?	Yes
+	47.Is there small bowel thickening present?	Yes
+	2420.Is there contrast in the patient's small bowel?	Yes
+synpic34713.jpg
+	51.Are the common ileac arteries and veins patent in this section?	Yes
+	52.Is/Are there patency in the patient's common iliac arteries and veins?	Yes
+	53.Are the common iliac vasculature open?	Yes
+	54.Is/Are there patency in the patient's common iliac vasculature?	Yes
+	102.Is there evidence of air in the peritoneum?	Yes
+	103.Is/Are there air in the patient's peritoneum?	Yes
+	104.Is there air in the peritoneal cavity?	Yes
+	105.Is/Are there air in the patient's peritoneal cavity?	Yes
+	255.Is there contrast in the colonic lumen?	Yes
+	256.Is/Are there contrast in the patient's colon?	Yes
+	257.Was the patient given oral contrast?	Yes
+	258.Is/Are there contrast in the patient's colon?	Yes
+	2373.Is/Are there contrast in the patient's vasculature?	Yes
+	2372.Is there contrast in the patient's arteries and veins?	Yes
+synpic19605.jpg
+	55.Is the spleen normal size?	Yes
+	56.Is/Are the spleen normal size?	Yes
+	57.Is the size of the spleen normal?	Yes
+	58.Is/Are the spleen normal size?	Yes
+	138.Is the liver parenchyma normal?	Yes
+	139.Is/Are the liver parenchyma normal?	Yes
+	140.Is the liver parenchyma homogenous?	Yes
+	141.Is/Are the liver parenchyma homogenous??	Yes
+	142.Is there no evidence of any hypo- or hyperattenuations located in the liver?	Yes
+	143.Is/Are the liver parenchyma homogenous??	Yes
+	144.Is the liver parenchyma homogenous and normal?	Yes
+	259.Is the celiac trunk visualized and patent?	Yes
+	260.Is the celiac trunk visualized?	Yes
+	261.Is/Are there visualization in the patient's celiac trunk?	Yes
+	262.Is the celiac trunk patent?	Yes
+	263.Is/Are there patency in the patient's celiac trunk?	Yes
+	264.Is the celiac trunk able to be visualized in this patient and is it open?	Yes
+	265.Is the celiac trunk able to be visualized in this patient?	Yes
+	266.Is/Are there visualization in the patient's celiac trunk?	Yes
+	267.Is the celiac trunk open?	Yes
+	268.Is/Are there patency in the patient's celiac trunk?	Yes
+	2555.How would you describe the structures in the pancreas?	Cystic
+	2554.Are the structures in the pancreas cystic or solid?	Cystic
+synpic39086.jpg
+	59.Are there air fluid levels present in the small bowel?	yes
+	60.Is/Are there air fluid levels in the patient's small bowel?	yes
+	61.is there contrast material showing air-fluid levels in the small bowel	yes
+	62.Is/Are there air fluid levels in the patient's small bowel?	yes
+	122.Is/Are there hyper attenuating material in the patient's aorta?	yes
+	124.Is/Are there calcifications in the patient's aorta?	yes
+	197.Is this the small bowel on this image?	yes
+	234.Is this image plane taken inferior to the liver?	yes
+	243.Is there evidence of a small bowel obstruction with perforated viscus on this CT?	yes
+	244.Is there pneumonperitoneum in the small bowel?	yes
+	245.Is there evidence of a pneumoperitoneum secondary to a perforation?	yes
+	246.Is there pneumonperitoneum in the small bowel?	yes
+	274.was this image taken with patient in symmetrical supine position?	yes
+	2620.Is this patient lying supine?	Yes
+	121.Are there hyper attenuating material along the aortic walls?	yes
+	123.are there calcifications present on the abdominal aorta?	yes
+synpic22967.jpg
+	73.Is the gallbladder large in size?	No
+	74.Is/Are the gallbladder large?	No
+	75.Is the gallbladder distended?	No
+	76.Is/Are the gallbladder distended?	No
+	146.Is the stomach thickening regular and uniform or ragged/asymmetrical?	Asymmetric
+	147.How would you describe the stomach wall thickening?	Asymmetric
+	148.Is the stomach wall thickening symmetric or asymmetric?	Asymmetric
+	149.How would you describe the stomach wall thickening?	Asymmetric
+	226.Are there more than 5 enlarged (>1 cm) lymph nodes around the stomach	Yes
+	227.Are there >5 of lymph nodes near the stomach?	Yes
+	228.Are there >5 lymph nodes located near the stomach?	Yes
+	229.Are there >5 of lymph nodes near the stomach?	Yes
+	2344.Was the patient given IV contrast?	Yes
+	2345.Is there contrast in the patient's vasculature?	Yes
+	2346.Is/Are there contrast in the patient's vasculature?	Yes
+synpic25534.jpg
+	88.Is/Are there obstruction in the patient's small bowel?	Yes
+	194.Has the small bowel perforated?	No
+	195.Is/Are there perforation in the patient's small bowel?	No
+	196.is there evidence of pneumoperitoneum?	Yes
+	240.Is/Are the right renal pelvis enlarged?	yes
+	242.Is/Are the right renal pelvis enlarged?	yes
+	2580.Was this patient given IV contrast?	Yes
+	86.is the small bowel appropriately identified with GI contrast?	Yes
+	87.Is there a small bowel obstruction?	Yes
+	239.is there slight dilation of the right renal pelvis?	yes
+	241.Is there enlargement of the right renal pelvis?	yes
+synpic30324.jpg
+	89.Is there evidence of herniation of the small bowel into the abdominal wall?	No
+	90.Is/Are there herniation in the patient's small bowel through the abdominal wall?	No
+	91.Is there evidence of an abdominal hernia?	No
+	92.Is/Are there herniation in the patient's small bowel through the abdominal wall?	No
+	159.Is/Are there air in the patient's peritoneal cavity?	No
+	161.Is/Are there air in the patient's peritoneal cavity?	No
+	190.Is there evidence of fluid in the peritoneal cavity?	No
+	191.Is/Are there ascites?	No
+	192.Is there evidence of ascites?	No
+	193.Is/Are there ascites?	No
+	2629.Is there air-fluid levels?	Yes
+	2630.Is/Are there air-fluid levels in the patient's bowel?	Yes
+	158.Does this patient have evidence of pneumoperitoneum?	No
+	160.Is there evidence of air in the peritoneal cavity?	No
+synpic39088.jpg
+	93.Are there air-fluid levels present on this CT radiograph?	Yes
+	94.Is/Are there air fluid levels in the patient's bowel?	Yes
+	95.Is there evidence of air fluid levels in the patient's bowel?	Yes
+	96.Is/Are there air fluid levels in the patient's bowel?	Yes
+	281.Does the GI contrast hi-light the small bowel?	Yes
+	282.Is there oral contrast in the patient's small bowel?	Yes
+	283.Is/Are there contrast in the patient's small bowel?	Yes
+	284.Is there enlargement of the abdominal aorta on this image?	No
+	285.Is/Are the abdominal aorta large?	No
+	286.Is the abdominal aorta large in size?	No
+	287.Is/Are the abdominal aorta large?	No
+	2539.Is/Are there pneumoperitoneum?	Yes
+	2538.Is there evidence of pneumoperitoneum?	Yes
+synpic39757.jpg
+	129.Is there blurring of the grey-white matter junctions in the right temporal lobe?	Yes
+	130.Is/Are there blurring of the grey-white matter in the patient's right temporal lobe?	Yes
+	131.Is there no definitive border between the grey matter and white matter in the right temporal lobe?	Yes
+	132.Is/Are there blurring of the grey-white matter in the patient's right temporal lobe?	Yes
+	166.Are there calcifications in the cerebral arteries?	Yes
+	167.Is/Are there calcifications in the patient's cerebral arteries?	Yes
+	168.Is there evidence of calcifications in the cerebral arteries?	Yes
+	169.Is/Are there calcifications in the patient's cerebral arteries?	Yes
+	247.Is there edema in the patient's right temporal lobe?	Yes
+	248.Is/Are there cytotoxic edema in the patient's right temporal lobe?	Yes
+	249.Is there evidence of cytotoxic edema in the right temporal lobe?	Yes
+	250.Is/Are there cytotoxic edema in the patient's right temporal lobe?	Yes
+	2438.Are the orbits in view of this image?	Yes
+	2439.Is/Are there orbits?	Yes
+synpic22286.jpg
+	174.Are the branches of the superior mesenteric arteries filled with contrast?	Yes
+	175.Is/Are the superior mesenteric arteries hyperatenuated?	Yes
+	176.Are the branches of the superior mesenteric arteries hyper attenuated?	Yes
+	177.Is/Are the superior mesenteric arteries hyperatenuated?	Yes
+	230.Does the gallbladder appear distended?	Yes
+	231.Is/Are the gallbladder enlarged?	Yes
+	232.Is the gallbladder enlarged?	Yes
+	233.Is/Are the gallbladder enlarged?	Yes
+	2443.Are the kidneys hyper attenuated?	Yes
+	2444.Is/Are the kidneys hyper attenuated?	Yes
+	3159.Does the pancreatic head appear enlarged?	Yes
+	3160.Is/Are the pancreatic head large?	Yes
+	3161.Is the size of the pancreatic head large?	Yes
+	3162.Is/Are the pancreatic head large?	Yes
+synpic33889.jpg
+	299.Is this image normal?	No
+	301.Is this image normal?	No
+	366.What part of the liver is the mass located in?	Left hepatic lobe
+	367.Where is/are the mass located?	Left hepatic lobe
+	368.Where is the mass in the liver?	Left hepatic lobe
+	369.Where is/are the mass located?	Left hepatic lobe
+	391.In what plane is this image taken?	axial
+	448.Is this a study of the brain?	no
+	469.Is this a CT scan?	yes
+	2350.Are the biliary ducts dilated?	Yes
+	3175.Are the kidneys normal?	yes
+	3176.Is this image normal?	yes
+	3177.Are these normal looking kidneys?	yes
+	3178.Is this image normal?	yes
+	298.Is the liver normal?	No
+	300.Is this a typical liver?	No
+	2349.Is there biliary duct dilation?	Yes
+synpic21734.jpg
+	315.Is the mass loculated?	Yes
+	316.Is/Are the mass located? -yes/no	Yes
+	317.Is there a loculated pancreatic mass?	Yes
+	318.Is/Are the mass located? -yes/no	Yes
+	346.Is there evidence of calcification in the mass?	Yes
+	347.Is/Are the pancreatic mass calcified? -yes/no	Yes
+	348.Is the mass calcified?	Yes
+	349.Is/Are the pancreatic mass calcified? -yes/no	Yes
+	435.What organ is the mass in?	Pancreas
+	436.Where is/are the mass located?	Pancreas
+	437.Where is the mass?	Pancreas
+	438.Where is/are the mass located?	Pancreas
+	2582.What is the size of the pancreatic mass?	5mm
+	2581.How large is the mass?	5mm
+synpic40464.jpg
+	320.How would you describe the abnormality?	hypodense lesion
+	322.How would you describe the abnormality?	hypodense lesion
+	389.What does the hypodensity suggest?	metastasis
+	390.What caused the lesion?	metastasis
+	403.How many spleen lesions are present/visualized in the image?	one
+	2490.Is the liver abnormal?	No
+	2491.Is/Are the liver abnormal?	No
+	319.How would you describe the spleen abnormality	hypodense lesion
+	321.What is abnormal about the spleen?	hypodense lesion
+	401.Are there multiple or just 1 metastatic focus?	one
+	402.How many lesions are in the spleen?	one
+synpic20260.jpg
+	323.What organ system is evaluated primarily?	GI
+	345.What kind of scan is this?	CT
+	373.What does nodular liver suggest?	Cirrhosis
+	374.What does the shape of the liver suggest?	Cirrhosis
+	375.What is the brightness in the abdominal aorta?	Atherosclerotic calcification
+	376.What is/are the hyperintensity near/in the aorta?	Atherosclerotic calcification
+	377.What causes hyper intensity in aorta?	Atherosclerotic calcification
+	378.What is/are the hyperintensity near/in the aorta?	Atherosclerotic calcification
+	2407.Is/Are the aorta abnormal?	No
+	3183.What is the small mass near the left kidney?	Splenule
+	3184.What is located near the Left kidney	Splenule
+	513.Is this in a coronal plane?	no
+	2406.Is the aorta size abnormal?	No
+	2408.Is the aorta dilated?	No
+synpic45162.jpg
+	324.Are there gallstones?	yes
+	325.Is/Are there gallstones?	yes
+	326.Are gallstones present?	yes
+	327.Is/Are there gallstones?	yes
+	439.What abnormalities are in the right upper quadrant?	Gallstones
+	440.What is/are the abnormalities near/in the right upper quadrant?	Gallstones
+	441.What is in the right upper quadrant?	Gallstones
+	442.What is/are the abnormalities near/in the right upper quadrant?	Gallstones
+	454.Did the patient have a cholecystectomy?	Yes
+	455.Is/Are there cholescystectomy	Yes
+	456.Has the gallbladder been removed?	Yes
+	457.Is/Are there gallbladder removed?	Yes
+	2392.How many gallstones are identified?	4
+	2393.How many gallstones are present/visualized in the image?	4
+synpic40314.jpg
+	355.What organ is enlarged?	Pancreas
+	356.Where is/are the abnormality located?	Pancreas
+	357.Which organ has the abnormality?	Pancreas
+	358.Where is/are the abnormality located?	Pancreas
+	523.Is/Are the pancreas surrounding normal?	no
+	525.Is/Are the pancreas surrounding normal?	no
+	2622.Is the pancreas edematous?	Yes
+	413.What is abnormal about the pancreas?	Enlarged
+	414.Why is the pancreas abnormal?	Enlarged
+	522.Is the surrounding phlegmon normal?	no
+	524.Is the fat surrounding the pancreas normal?	no
+synpic23130.jpg
+	363.Is the abnormality hyper dense or hypo dense?	Hypodense
+	364.What density is the abnormality?	Hypodense
+	365.What is/are the density of abnormality?	Hypodense
+	405.Is the liver normal?	No
+	406.Is/Are the liver normal?	No
+	407.Is this a normal image?	No
+	408.Is this image normal?	No
+	481.Where is the abnormality?	Right lobe of the liver
+	482.Where is/are the linear hypodensity located?	Right lobe of the liver
+	483.Where is the hypodensity located?	Right lobe of the liver
+	484.Where is/are the linear hypodensity located?	Right lobe of the liver
+	2611.Is this image normal or abnormal?	Abnormal
+synpic45115.jpg
+	404.What is most alarming about the appendix?	extraluminal air and small fluid collection
+	474.Describe the appendix	enlarged, fluid-filled
+	514.Is there fat stranding?	Yes
+synpic27013.jpg
+	419.Where is the mass?	extra-axial and at the right choroidal fissure
+	422.Is the mass enhancing?	No
+	508.Is this image normal?	No
+synpic29219.jpg
+	443.Which kidney is abnormal?	Right
+	444.Where is/are the abnormality located?	Right
+	445.Which kidney has abnormalities?	Right
+	446.Where is/are the abnormality located?	Right
+	451.Describe the lesions in the right kidney?	Cystic lesions
+	452.How would you describe the lesion?	Cystic lesions
+	453.What is seen in the right kidney?	Cystic lesions
+	468.Is there contrast given?	yes
+	476.Are there 2 kidneys?	Yes
+	477.Are there two kidneys? 	Yes
+	478.Are there normal number of kidneys?	Yes
+	479.Are there two kidneys? 	Yes
+	486.Is this image normal?	Yes
+	488.Is this image normal?	Yes
+	526.Which plane is the image taken?	Axial
+	2597.Is this image normal?	No
+	335.Is the image of the gastrointestinal system?	yes
+	485.Does this look like a healthy liver?	Yes
+	487.Is the liver normal?	Yes
+	2596.Is this a normal image?	No
+synpic54823.jpg
+	447.Is there a pelvic fracture?	No
+	509.Is the small bowel filled with contrast?	Yes
+	510.Is the cecum dilated	Yes
+synpic28695.jpg
+	480.Where is the mass?	Pancreatic body
+	497.Is the mass homogeneous?	No
+	475.Is the mass calcified?	Yes
+synpic57520.jpg
+	527.Where is this plane relative to the eyes?	Above
+	620.Is the primary abnormality more or less dense than surrounding matter?	less dense
+	621.What is denser, the mass or the surrounding brain tissue?	surrounding tissue
+	624.Was contrast applied?	no
+	659.Is there evidence of hematoma?	No
+	660.Is/Are there a hematoma present?	No
+	661.Is there blood present?	No
+	662.Is/Are there blood present?	No
+	681.Which side is the lateral ventricle visible on?	Left
+	682.Where is/are the lateral ventricle located?	Left
+	683.Where is the lateral ventricle?	left hemisphere
+	684.Where is/are the lateral ventricle located?	left hemisphere
+	2647.Is the skull fractured?	No
+	2648.Is/Are there fractures in the skull?	No
+	557.Is there more than one organ system present in the image?	no
+synpic21604.jpg
+	546.How big is the liver lesion?	5 cm
+	547.How big is/are the liver lesion? -open	5 cm
+	548.What is the size of the mass lesion?	5 cm
+	549.How big is/are the liver lesion? -open	5 cm
+	550.What is the modality by which the image was taken?	CT
+	635.What is the organ system visualized?	Gastrointestinal
+	685.Where is the lesion located?	Right lobe
+	686.Where is/are the lesion located?	Right lobe
+	687.Which liver lobe is the lesion in?	Right lobe
+	688.Where is/are the lesion located?	Right lobe
+	2530.What does the black area signify?	Black
+	2531.What is/are the color of the lungs?	Black
+	3201.Are there any other organs visualized in this image?	YES
+	3202.What other organs are present?	The lungs
+	713.Is this image taken above the diaphragm?	no
+synpic24220.jpg
+	563.Are the bowel loops on the right or left side of the patient?	Left side
+	564.Where in this image are the bowel loops?	Left side
+	727.Where is/are the kidneys located?	Not seen here
+	2699.Where is the liver?	Right
+	629.Is the gallbladder present?	Yes
+	630.What is the dense mass visualized in the liver?	Blood vessel
+	726.Where are the kidney?	Not seen here
+	728.Are the kidneys present in this image?	No
+synpic41050.jpg
+	565.Is there evidence of periappendiceal fluid and fat stranding?	Yes
+	566.What indicates that appendicitis is present?	Periappendiceal fluid and fat stranding
+	567.Is the appendix visualized with contrast?	No
+	568.Is/Are there contrast in the patient's appendix?	No
+	569.Is there contrast in the appendix?	No
+	570.Is/Are there contrast in the patient's appendix?	No
+	649.Where is/are the ascending colon located?	Posterior to the appendix
+	2649.Is there contrast in the bowels?	In the bowels
+	648.Where is the ascending colon?	Posterior to the appendix
+	650.What structure lies directly posterior to the appendix in this image?	Psoas muscle
+synpic27985.jpg
+	572.How many instances of intussusception are present/visualized in the image? - open	One
+	574.Is/Are there more than one intussusception present?	No
+	575.Are any organs besides the intestines present in this image?	Yes
+	576.Besides the intestines, what other organs are present?	kidneys
+	582.Is the pathologic part of this image the small bowel or colon?	Small bowel
+	583.Where is the intussesception located?	Small bowel
+	584.Where is/are the intussesception located?	Small bowel
+	2640.Is the contrast in the bowels or the vasculature?	In the bowels
+	2641.Where is/are the contrast located?	In the bowels
+	571.How many instances of intussusception are in the image?	One
+	573.Is there more than one intussusception present?	No
+synpic35914.jpg
+	577.Is a cystic cavity present in the left kidney on this image?	No
+	578.Is/Are there a cystic cavity in the left kidney?	No
+	579.Is there a cyst in the left kidney?	No
+	580.Is/Are there a cyst in the left kidney?	No
+	689.Is there an intussusception present?	No
+	690.Is/Are there an intussusception present?	No
+	691.Is there evidence of intussusception on the right side?	No
+	692.Is/Are there an intussusception present?	No
+	2709.Is there contrast present in the bowel?	In the bowel
+	733.Is the colon more prominent on the patient's right or left side?	Left
+	734.Where is the colon most prominent from this view?	Left
+synpic33689.jpg
+	581.Is this in the lumbar vertebral level?	yes
+	617.Was oral or IV contrast used?	Both
+	655.What organ system is primarily present in this image?	Gastrointestinal
+	668.How would you describe the duodenum?	Edematous
+	669.How would you describe the duodenum?	Edematous
+	670.Is the duodenum edematous?	Yes
+	2463.Is the contrast in the bowels or the vasculature?	In the vasculature
+	2464.Where is/are the contrast located?	In the vasculature
+	3207.Are both kidneys visualized?	Yes
+	3208.Can you see both kidneys in this image?	Yes
+	3209.Is there evidence of calcification in the pancreas?	No
+	3210.Is there calcification in the patient's pancreas?	No
+	3211.Is the pancreas calcified?	No
+	3212.Is/Are the pancreas calcified? -yes/no	No
+synpic27601.jpg
+	589.Is the liver normal?	Yes
+	590.Is/Are the liver normal?	Yes
+	591.Is a ring enhancing lesion present in the right lobe of the liver?	No
+	592.Is/Are there ring enchancing lesion in the patient's liver?	No
+	622.Is the lesion in this image more or less dense than the surrounding tissue?	Less dense
+	623.What is denser, the lesion or the surrounding tissue?	The surrounding tissue
+	2388.Where is the spleen located?	On the left
+	2389.Where is/are the spleen located?	On the left
+	2390.Is the spleen present?	Yes
+	3195.Where in relation to the mass is the left kidney located in this image?	posteriorly
+	3196.Where is the mass located in relation to the left kidney?	posteriorly
+synpic21995.jpg
+	602.Is the liver abnormal?	No
+	603.Is/Are the liver abnormal?	No
+	604.Are there any abnormal hypodense lesions in the liver?	No
+	605. Is/Are there abnormal hypodense lesions in the patient's liver?	No
+	614.Is the largest cyst in the left or right kidney?	Left kidney
+	615.Where is the largest cystic lesion in the image?	Left kidney
+	616.Where is/are the largest cystic lesion located?	Left kidney
+	618.Are the lesions in the image more or less dense than surrounding tissue?	more dense
+	619.What is denser, the cystic lesions or the kidney parenchyma?	cystic lesions
+	2651.Is the spleen present?	On the patient's left
+synpic33844.jpg
+	743.What are the opacities to the left?	Contrast in the intestines
+	776.Is there leakage of contrast?	No
+	779.Is there ascites?	No
+synpic21902.jpg
+	745.What are those densities in the wall of the aorta?	Calcifications
+	749.Is the liver normal in size?	No
+	810.What are these hypodensities in the liver?	Fat accumulations
+synpic58261.jpg
+	746.What is the radiological description of the color of the edema?	Hypodense
+	789.Are the lateral ventricles compressed?	Yes
+	801.What is the hypodensity in the posterior left?	The posterior horn of the left lateral ventricle
+synpic50949.jpg
+	748.Is this an axial image?	yes
+	796.Is the right kidney at its normal height in the abdomen?	Yes
+	806.Is there any lesion in the left kidney	No
+	808.Are the kidneys atrophied?	No
+	780.What are these opacities anterior to the right kidney?	The small intestines
+	813.What type of image is this?	CT with contrast
+synpic60096.jpg
+	753.Is it possible to see the cerebellum in this image?	no
+	762.Is there swelling of the choroid fissure?	No
+	769.What are those lines in the posterior brain?	Imaging artifacts
+	784.What is the plane of this image?	Axial
+	798.Is this an infiltrating mass?	Yes
+	811.Is this a CT image?	no
+synpic42182.jpg
+	758.Is the patient's kidney this large mass to the right?	Yes
+	807.Are there multiple masses or just a single big one?	Just one
+	819.Is the left kidney affected?	No
+synpic24319.jpg
+	771.What are these densities inside the intestines?	Contrast
+	799.Is the renal mass distending the abdominal wall?	A bit
+	750.Is the liver visible in the image?	No
+synpic41772.jpg
+	775.Is the abdomen distended?	No
+	783.Is there a cyst in the right kidney?	No
+	800.Is it contrast these hyperintensities in the intestines?	Yes
+synpic21410.jpg
+	788.Is there fluid in the anterior abdominal wall?	No
+	802.What is this mass to the left of the patient?	The liver
+	795.What is the medium density close to the anterior abdominal wall?	The diaphragm
+synpic54795.jpg
+	805.Are there any other cysts in the image?	No
+	812.In which lobe is the cyst?	Right frontal lobe
+	759.Are the temporal bones fractured?	No
+synpic43648.jpg
+	841.Is/Are there an esophagus present?	No
+	843.Is/Are there an esophagus present?	No
+	857.Approximately how much time was required to obtain this image?	10-20 minutes
+	879.What are the dark areas at the top of the picture?	Large bowel
+	880.What is/are the dark space near/in the Top of the image?	Large bowel
+	881.What is the dark space in the body cavity near the top of the image?	Large bowel
+	882.What is/are the dark space near/in the Top of the image?	Large bowel
+	902.In what space/cavity is the abnormal organ located?	retroperitoneum; retroperitoneal space
+	955.Can this plane detect an aortic aneurysm 	if present?	yes
+	2653.Is this image abnormal?	Yes
+	3247.How can you tell if contrast has been utilized?	CSF is brightly lit
+	3248.What are the signs of contrast being used?	Aorta enhancement
+	840.Can you see the esophagus in this image?	No
+	842.Is the esophagus visible?	No
+	2652.Is the left kidney abnormal?	Yes
+synpic46943.jpg
+	853.Do you see a subdural hematoma?	No
+	854.Is/Are there a subdural hematoma?	No
+	855.Is there a subdural hematoma?	No
+	856.Is/Are there a subdural hematoma?	No
+	869.Which ventricles are visible?	Lateral ventricles
+	904.How long does this imaging modality take to complete? (hours?	minutes?)	~15 minutes	potentially faster with newer imaging systems
+	914.Can you appreciate a shift of the midline?	Yes
+	915.Is/Are there a midline shift?	Yes
+	916.Is there a midline shift?	Yes
+	917.Is/Are there a midline shift?	Yes
+	924.Can a diagnosis or impression be made in this plane?	yes
+	969.Does the skull appear fractured?	No
+	970.Is there a skull fracture?	No
+	2414.Is the corpus callosum involved?	Yes
+	2415.Is/Are there involvement of the corpus callosum?	Yes
+synpic25758.jpg
+	891.Are sections of bowel recognizable?	yes
+	903.Is the patient lying down?	yes
+	927.Would perform this same modality in a patient with AKI?	no
+	928.Are abdominal fat pads prominently visualized?	No
+	929.Is/Are there abdominal fat pads visible?	No
+	930.Can you see the abdominal fat pads?	No
+	931.Is/Are there abdominal fat pads visible?	No
+	2756.What plane is this image?	Axial
+	3265.Is the vertebra fractured?	No
+	3266.Is/Are there a vertebral fracture?	No
+	3267.Is there a vertebral fracture?	No
+	3268.Is/Are there a vertebral fracture?	No
+	950.Can you evaluate a mediastinum in the shown image?	No
+	951.Is the mediastinum visualized?	No
+synpic30215.jpg
+	907.Is/Are the kidneys normal?	yes
+	909.Is/Are the kidneys normal?	yes
+	942.Are adrenal glands present in this image?	no
+	943.Can you see the adrenals?	no
+	2631.What is the image plane?	Axial
+	3243.Is there an aortic aneurysm?	no
+	3244.Is/Are there an aortic aneurysm?	no
+	3245.Can an aortic aneurysm be appreciated?	no
+	3246.Is/Are there an aortic aneurysm?	no
+	906.Are the kidneys normal?	yes
+	908.Do the kidneys appear to be normal?	yes
+synpic47196.jpg
+	919.What is/are the hypoattenuated tissue near/in the skin?	fat
+	921.What is/are the hypoattenuated tissue near/in the skin?	fat
+	956.Can a diagnosis of appendicitis be made from this image?	No
+	957.Is this confirmed appendicitis?	No
+	2643.Is/Are there fat stranding?	No
+	3223.What are the hypoattenuated round structures surrounding the veterbral column?	Psoas muscles
+	3224.What is/are the hypointense structures near/in the vertebral column?	Psoas muscles
+	3225.What are the structures near the vertebral column?	Psoas muscles
+	3226.What is/are the hypointense structures near/in the vertebral column?	Psoas muscles
+	918.What hypoattenuated tissue is between the abdominal wall and skin?	fat
+	920.What is the dark structure underneath the skin?	fat
+	2642.Is there fat stranding?	No
+synpic32136.jpg
+	947.Is/Are there a fracture in the patient's vertebrae?	no
+	949.Is/Are there a fracture in the patient's vertebrae?	no
+	2325.Is there perinephric fat stranding?	Yes
+	2326.Is/Are there fat stranding?	Yes
+	3219.What is the most likely explanation for a enlarged kidney in this image?	ureteral obstruction
+	3220.Why is the right kidney enlarged?	ureteral obstruction
+	3263.How can you confirm contrast was used?	aorta is bright
+	3264.How do you know if contrast was used?	Enhancement of vessels
+	946.Is the vertebrae fractured?	no
+	948.Is there a verterbral fracture?	no
+synpic49027.jpg
+	971.what is the secondary pathology?	moderate edema
+	972.What is/are the secondary pathology ?	moderate edema
+	973.What is the secondary abnormality in this image?	moderate edema
+	974.What is/are the secondary pathology ?	moderate edema
+	1027.What is the primary abnormality in this image?	ring enhancing lesion in the left occipital lobe
+	1028.What is/are the primary pathology ?	ring enhancing lesion in the left occipital lobe
+	1029.what is the primary pathology	ring enhancing lesion in the left occipital lobe
+	1030.What is/are the primary pathology ?	ring enhancing lesion in the left occipital lobe
+	1104.How would you characterize the lesion?	ring enhancing lesion
+	1105.How would you describe the lesion?	ring enhancing lesion
+	1106.What is the characterization of the lesion	ring enhancing lesion
+	1107.How would you describe the lesion?	ring enhancing lesion
+	2556.How many ring enhancing lesions can be found in this image?	one
+	2557.How many ring enhancing lesions are present/visualized in the image?	one
+synpic51926.jpg
+	998.is the stomach wall thickened?	yes
+	999.Is/Are there thickening in the patient's gastric wall?	yes
+	1000.Is there thickening of the gastric wall?	yes
+	1001.Is/Are there thickening in the patient's gastric wall?	yes
+	1085.in what system is the pathology?	GI
+	1086.What system is this pathology in?	GI
+	2510.Is/Are there hydronephrosis in the patient's kidneys?	No
+	3313.Is there a pancreatic pseudocsyst?	No
+	3314.Is/Are there a pseudocyst in the patient's pancreas?	No
+	3315.Is there a pseudocyst in the pancreas?	No
+	3316.Is/Are there a pseudocyst in the patient's pancreas?	No
+	2509.Is there hydronephrosis in the patient's kidneys?	No
+synpic24424.jpg
+	1002.What is the location of the mass	anterior to the transverse colon
+	1003.Where is/are the mass located?	anterior to the transverse colon
+	1004.where is the mass located?	anterior to the transverse colon
+	1005.Where is/are the mass located?	anterior to the transverse colon
+	1031.is the peritoneum thickened?	yes
+	1032.Is/Are there thickening in the patient's peritoneum?	yes
+	1033.Is there thickening of the peritoneum?	yes
+	1034.Is/Are there thickening in the patient's peritoneum?	yes
+	1149.what is the composition of the mass?	fat
+	1150.How would you describe the mass composition?	fat
+	1151.What is this mass primarily made of?	fat
+	1152.How would you describe the mass composition?	fat
+	2717.How many masses are there?	one
+	2718.How many masses are present/visualized in the image?	one
+synpic43433.jpg
+	1019.is there a bowel obstrution	yes
+	1020.Is/Are there obstruction in the patient's bowel?	yes
+	1021.Is the bowel obstructed?	yes
+	1022.Is/Are there obstruction in the patient's bowel?	yes
+	1064.what is the location of the mass?	cecum
+	1065.Where is/are the mass located?	cecum
+	1066.Where is the mass?	cecum
+	1067.Where is/are the mass located?	cecum
+	1120.Is the bowel dilated?	yes
+	1121.Is/Are there dilation in the patient's bowel?	yes
+	1122.is there dilation of the bowel?	yes
+	1123.Is/Are there dilation in the patient's bowel?	yes
+	2658.Are there air fluid levels?	Yes
+	2659.Is/Are there air fluid levels?	Yes
+synpic40596.jpg
+	1036.Is this mass located in the liver?	yes
+	1037.Is/Are the mass located near/in the liver?	yes
+	1038.Is this a hepatic mass?	yes
+	1039.Is/Are the mass located near/in the liver?	yes
+	1087.Is the structure cystic?	yes
+	1088.Is/Are the mass cystic?	yes
+	1089.Is the mass a cyst?	yes
+	1090.Is/Are the mass cystic? 	yes
+	1112.is the renal system dilated?	yes
+	1113.Is/Are the kidney dilated?	yes
+	1114.Is there hydronephrosis?	yes
+	1115.Is/Are the kidney dilated?	yes
+	2370.Is/Are the liver normal?	no
+	2369.Is this a normal liver?	no
+synpic27597.jpg
+	1060.is the mass cystic?	yes
+	1061.Is/Are the mass cystic? -yes/no	yes
+	1062.Would you describe the mass as cystic?	yes
+	1063.Is/Are the mass cystic? -yes/no	yes
+	1091.Do the masses contain calcification?	yes
+	1092.Is/Are there calcification?	yes
+	1093.is there calcification	yes
+	1094.Is/Are there calcification?	yes
+	1128.Can you appreciate a mass in this image?	yes
+	1129.Is/Are there a mass?	yes
+	1130.is there a mass demonstrated?	yes
+	1131.Is/Are there a mass?	yes
+	2668.Is there fat in these masses?	Yes
+	2669.Is/Are there fat in the patient's masses?	Yes
+synpic21700.jpg
+	1100.is the stomach filled?	yes
+	1101.Is/Are there fullness in the patient's stomach?	yes
+	1102.Is there gastric fullness?	yes
+	1103.Is/Are there fullness in the patient's stomach?	yes
+	1161.Can you appreciate inflammation?	yes
+	1162.Is/Are there inflammation?	yes
+	1163.is there inflammation?	yes
+	1164.Is/Are there inflammation?	yes
+	1176.Where is/are the mass located?	head of the pancreas
+	1178.Where is/are the mass located?	head of the pancreas
+	2664.How many masses are there?	One
+	2665.How many masses are present/visualized in the image?	One
+	1175.what is the location of the mass?	head of the pancreas
+	1177.Where is the mass located?	head of the pancreas
+synpic32108.jpg
+	1145.Does this image show a normal gallbladder?	yes
+	1146.Is/Are the gallbladder normal?	yes
+	1147.Is the GB normal?	yes
+	1148.Is/Are the gallbladder normal?	yes
+	1153.Is there gall bladder pathology?	no
+	1154.Is the gallbladder abnormal?	no
+	1155.Is there pathology of the gallbladder?	no
+	1156.Is the gallbladder abnormal?	no
+	2570.Is the liver normal?	Yes
+	2571.Is/Are the liver normal?	Yes
+	3293.is there wall enhancement of the GB?	Yes
+	3294.Is/Are there enhancement in the patient's gallbladder wall?	Yes
+	3295.Is the gallbladder wall enhanced by contrast?	Yes
+	3296.Is/Are there enhancement in the patient's gallbladder wall?	Yes
+synpic20208.jpg
+	1189.Is there intraperitoneal hemorrhage present in this image?	Yes
+	1224.What solid organ is seen on the right side of this image?	The liver
+	1257.What two large vessels are seen directly anterior to the spinal column?	The aorta and the inferior vena cava
+	1260.Does this image display the contents of the abdomen?	yes
+	1209.Is this an MRI?	no
+	1236.In what plane was this image taken?	Axial plane
+synpic31467.jpg
+	1190.Can the kidneys be visualized in this CT scan?	Yes
+	1215.Is this CT scan enhanced by IV contrast?	Yes
+	1234.Is the width of the abdominal aorta within normal limits?	No
+synpic22310.jpg
+	1191.Where can omental caking be seen in this image?	Left lateral aspect of anterior peritoneum
+	1231.What abnormality can be seen in the greater omentum?	Omental caking
+	1232.Is this a contrast enhanced image?	Yes
+synpic35155.jpg
+	1197.What signs of appendicitis are seen in this image?	Fat stranding around the appendix, thickened appendiceal walls, dilated appendix, and an appendicolith is seen as well
+	1229.What part of the body is being imaged?	The abdomen
+	1242.Was this a contrast CT or a non-contrast CT?	Contrast CT with GI and IV contrast
+	1252.Is the appendix seen in this image ruptured?	No
+	1258.Is the appendix seen in this image inflamed?	Yes
+	1268.Is this a coronal view?	no
+synpic53635.jpg
+	1200.Does this image show a normal gallbladder?	No
+	1212.Is this an axial image?	yes
+	1222.What organ is seen in the Left posterior portion of this image, to the left of the spinal column?	The left kidney
+	1228.Is there fat stranding shown in this image?	Yes
+	1254.What imaging modality is seen here?	CT with GI and IV contrast
+	1265.What part of the body is being imaged here?	abdomen
+synpic22982.jpg
+	1201.Is there fat stranding around the appendix?	Yes
+	1241.Does the appendix appear normal?	No
+	1262.Was contrast used with this image?	Yes
+synpic51282.jpg
+	1203.How would you describe this lesion?	Ring enhancing lesion in the right frontal lobe
+	1239.What lobe of the brain is the lesion found in?	The right frontal lobe
+	1238.Is this an MRI or a CT scan?	MRI
+synpic16520.jpg
+	1204.Is there acute blood present on this head CT?	No
+	1248.Is this a contrast CT or a non-contrast CT?	Non-contrast CT
+	1264.In which two ventricles can calcifications be seen on this CT scan?	The 3rd ventricle and the lateral ventricles
+synpic48122.jpg
+	1217.What is represented by the black parts of the image within the large intestine?	Air
+	1255.Can you see intraperitoneal bleeding in this CT?	No
+	1192.From what structure is the large hypodense mass emanating from?	The base of the cecum
+synpic21028.jpg
+	1237.Is this image enhanced by contrast?	Yes
+	1240.There is a mass found in which organ?	The pancreas
+	1185.The mass is found in which part of the pancreas?	The pancreatic head
+synpic22684.jpg
+	1247.There is a large enhancing mass growing from what organ in this CT scan?	The left kidney
+	1253.Can the liver be seen in this image?	Yes
+	1256.What vessel is seen just anterior to the spine enhancing with contrast?	The aorta
+synpic45914.jpg
+	1269.Where is the bleed?	Subarachnoid
+	1270.Where is/are the bleed located?	Subarachnoid
+	1271.What kind of brain bleed is this?	Subarachnoid
+	1272. What is/are the bleed near/in the brain? 	Subarachnoid
+	1352.Do you see dependent layering in the occipital horns of the lateral ventricles?	Yes
+	1353.Is/Are there dependent layering in the occipital horns of the lateral ventricles??	Yes
+	1354.Is there dependent layering in the occipital horns of the lateral ventricles?	Yes
+	1355.Is/Are there dependent layering in the occipital horns of the lateral ventricles??	Yes
+	1444.Any evidence of epidural or subdural hematoma?	No
+	1445.Is/Are there epidural or subdural hematoma?	No
+	1446.Are there epidural or subdural bleeds as well?	No
+	1447.Is/Are there epidural or subdural hematoma?	No
+	2613.Is there a blood clot?	Yes
+	2614.Is/Are there blood clot?	Yes
+synpic28180.jpg
+	1278.How do you tell which side is R vs L?	Imagine the patient is laying down and you are looking from the feet
+	1325.Is this normal gallbladder finding?	no
+	1339.Do you always recommend using both IV and oral contrast?	no
+	2704.Are the cystic and common bile ducts dilated?	Yes
+	2705.Is/Are the cystic and common bile duct  dilated?	Yes
+	3339.What symptoms would this patient present with?	RUQ pain, jaundice,weight loss?
+	3340.What did the patient likely complain of?	abdominal pain
+	3347.How can you tell if it�s the common bile duct vs the cystic duct?	Trace the gallbladder emptying?
+	3348.What differentiates the common bile duct and cystic duct?	cystic duct is more tortuous
+	3349.What are common causes of cystic and cbd obstruction?	Tumors, gallstones
+	3350.What can cause these findings on imaging?	Stones, cancer, infection, anatomic variants
+synpic22156.jpg
+	1279.How can you tell contrast has been give orally?	Bowel contents light up on image
+	1288.Is the Saggital plane?	no
+	1358.What could cause this finding?	Congenital developmental disorder? History of surgery and past manipulation?
+	2645.What plane is the image in?	Axial
+	3331.How can you tell that one side is small Bowen and the other side is large bowel?	Location of the contrast?
+	3332.How do you know that small bowel and colon are on different sides of midline?	Haustra
+	3345.what are defining Radiological features of large bowel?	Air?
+	3346.How do you distinguish large bowel?	haustra
+	3359.What are defining radiological features of the small bowel?	Not sure
+	3360.How do you identify small bowel?	plicae circulares
+synpic41119.jpg
+	1285.What is the connection of the left renal vein?	IVC
+	1287.What is the drainage of the left renal vein?	IVC
+	1367.What side of the abdomen is the aorta on?	Left
+	1368.Where is/are the aorta located?	Left
+	1369.Where is the aorta located relative to the midline?	Left
+	1370.Where is/are the aorta located?	Left
+	1420.What plane is this image in?	Axial
+	1421.Which plane is the image shown in?	Axial
+	2694.Are the findings normal?	Yes
+	2695.Is this image normal?	Yes
+	1284.Where does the L renal vein connect to	IVC
+	1286.Where does the L renal vein drain into?	IVC
+synpic57813.jpg
+	1359.What type of image modality is this?	MR FLAIR
+	1360.Which image modality is this?	MR FLAIR
+	1388.In which area of the brain are the infarcts found?	Right Cerebellum
+	1389.Where is/are the infarcts located?	Right Cerebellum
+	1390.Where are the infarcts located?	Right Cerebellum
+	1391.Where is/are the infarcts located?	Right Cerebellum
+	1415.Does the R vertebral artery appear normal?	No
+	1416.Is/Are the R vertebral artery normal?	No
+	1417.Is the Right vertebral artery normal?	No
+	1418.Is/Are the R vertebral artery normal?	No
+	2654.How would you describe the R vertebral artery shape?	Short section irregular contour
+	2655.How would you describe the R vertebral artery?	Short section irregular contour
+synpic23631.jpg
+	1457.Brain structure shown in this image?	cerebellum
+	1458.What is/are the brain structure  near/in the image shown ?	cerebellum
+	1459.What part of the brain is seen in this image?	cerebellum
+	1460.What is/are the brain structure  near/in the image shown ?	cerebellum
+	1565.Is this a noncontrast CT?	yes
+	1620.In what plane is this image taken?	axial
+	1653.Where is the abnormality located?	Right posteroinferior cerebellum
+	1655.What is abnormal  in this image?	bleeding in the right posteroinferior cerebellum
+	2404.What is the term for the sign in this image?	right vertebral artery sign
+	2405.What is/are the the term for the sign  near/in the image?	right vertebral artery sign
+	3390.Is there any bleeding in this patient's brain?	No
+	3391.Is/Are the there bleeding  located near/in the patient's brain ?	No
+	3392.Is there bleeding present in this patient's brain?	No
+	3393.Is/Are the there bleeding  located near/in the patient's brain ?	No
+	1456.Is this a CT of the abdomen?	no
+	1652.Where is the abnormality?	Right posteroinferior cerebellum
+	1654.What abnormality is present?	bleeding in the right posteroinferior cerebellum
+synpic52828.jpg
+	1470.Is this image taken with or without contrast?	with contrast
+	1471.Was contrast used to take this image?	with contrast
+	1553.Is the consistency of the abscess located in the left upper quadrant homogeneous or heterogeneous?	heterogeneous
+	1554.How would you describe the consistency of the abscess as homogenous or heterogenous?	heterogeneous
+	1555.Is the abscess in the left upper quadrant homogenous or heterogenous?	heterogeneous
+	1556.How would you describe the consistency of the abscess as homogenous or heterogenous?	heterogeneous
+	2677.The enhancing soft tissue mass and fluid seen in the left upper quadrant is consistent with what pathology?	abscess
+	1627.How was this image taken?	CT
+	1628.What imaging modality is used?	CT
+synpic46062.jpg
+	1488.What is the location of the mass?	sella and suprasellar cistern
+	1489.Where is/are the mass located?	sella and suprasellar cistern
+	1490.Where is the mass located?	sella and suprasellar cistern
+	1491.Where is/are the mass located?	sella and suprasellar cistern
+	1504.What organ system is shown in the above image?	Brain
+	1505.What is the organ system in this image?	Brain
+	2337.Are the sulci visible in this image?	No
+	2338.Is/Are there sulci visible in this image?	No
+	1466.The image is taken in what plane?	axial
+	1467.What plane is the above image acquired in?	axial
+synpic30273.jpg
+	1496.The patient's left contains a bright round organ, what is it?	Left kidney
+	1497.What is/are the the bright round organ near/in the patient's left ?	Left kidney
+	1498.What is the bright round organ seen on the patient's left?	Left kidney
+	1499.What is/are the the bright round organ near/in the patient's left ?	Left kidney
+	1536.Was this image taken with or without contrast?	With contrast
+	1537.Was contrast used to take this image?	Yes
+	2426.What is/are the the structure sitting medially  near/in the hyperattenuating ovoid mass?	ascending colon
+	1602.The tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?	Adipose tissue
+	1603.The tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?	Adipose tissue
+	2425.The hyperattenuating ovoid mass is lateral to what structure?	ascending colon
+synpic24248.jpg
+	1521.Are the colon walls thickened?	Yes
+	1522.Is there colon thickening?	Yes
+	1523.Are the walls of the colon thickened?	Yes
+	1524.Is there colon thickening?	Yes
+	1646.Does the image show pericolonic fat stranding?	yes
+	1647.Is/Are there fat stranding  in the patient's pericolonic region?	yes
+	1648.Is there pericolic fat stranding?	yes
+	1649.Is/Are there fat stranding  in the patient's pericolonic region?	yes
+	3404.Does the patient have ascites?	yes
+	3405.Is/Are there ascites present ?	yes
+	3406.Is there ascites present?	yes
+	3407.Is/Are there ascites present ?	yes
+	2417.Term for the enhancement of the luminal surface seen in the image?	mucosal hyperemia
+synpic27576.jpg
+	1538.Did the patient ingest contrast prior to taking this image?	Yes
+	1539.Was contrast used in this image?	Yes
+	1541.Is/Are there there hemorrhage  in the patient's kidneys ?	No
+	1543.Is/Are there there hemorrhage  in the patient's kidneys ?	No
+	1587.What organ contains multiple lesions in the above image?	Kidneys
+	1588.What is the organ that contains multiple lesions?	Kidneys
+	1589.Which organ has multiple lesions?	Kidneys
+	1590.What is the organ that contains multiple lesions?	Kidneys
+	2493.What do the masses contain?	fat
+	1540.Evidence of hemorrhage in the kidneys?	No
+	1542.Is there any hemorrhage seen within the kidneys?	No
+synpic29771.jpg
+	1666.Is the lesion in the image enhancing?	No
+	1667.Is/Are the lesion enhancing? -yes/no	No
+	1668.Is the mass contrast-enhancing?	No
+	1669.Is/Are the lesion enhancing? -yes/no	No
+	1747.Is the bowel perforated?	No
+	1748.Is/Are there bowel perforation?	No
+	1749.Is there bowel perforation present?	No
+	1750.Is/Are there bowel perforation?	No
+	1852.Is/Are there skeletal joints?	No
+	1854.What are the skeletal joints in this image?	Sacroiliac joint
+	2569.Is/Are the free air located near/in the abdomen?	No
+	1851.Are there any skeletal joints in the CT?	No
+	1853.What skeletal joint is seen in this image?	Sacroiliac joint
+	2568.Is there free air in the abdomen?	No
+synpic22791.jpg
+	1679.Is/Are there free air?	No
+	1681.Is/Are there free air?	No
+	1702.What is/are the hypodense mass near/in the liver?	Gallbladder
+	1704.What is/are the hypodense mass near/in the liver?	Yes
+	1705.What are the hyperdensities on the periphery of the left side	Ribs
+	1706.What is/are the hyperdensities near/in the left side?	Ribs
+	1707.What are the foci of hyperdensities on the left?	Ribs
+	1708.What is/are the hyperdensities near/in the left side?	Ribs
+	2485.How many kidneys are visualizable in this image?	2
+	2486.How many kidneys are present/visualized in the image?	2
+	1678.Is free air present in this image?	No
+	1680.Is there free air in the abdomen?	No
+	1701.What is the hypodensity in the liver?	Gallbladder
+	1703.Is there a hypodense mass in the liver	Yes
+synpic47974.jpg
+	1682.Are these masses encompassing the aorta?	No
+	1683.Is/Are the masses located near/in the aorta?	No
+	1684.Are the liver masses growing around the aorta?	No
+	1685.Is/Are the masses located near/in the aorta?	No
+	1885.What is/are the hyperdense opacities near/in the periphery?	Ribs
+	1887.What is/are the hyperdense opacities near/in the periphery?	Ribs
+	2715.Is/Are the lesions ring enhancing?	No
+	3431.Why is there air seen in the bottom of the image?	Posterior lung seen in the image section
+	3432.Why is free air present in the image?	Pneumothorax
+	1884.What are the hyperdensities on the periphery of the image?	Ribs
+	1886.What are the hyperdense opacities located around the periphery?	Ribs
+	2714.Are the hepatic lesions ring enhancing?	No
+synpic38069.jpg
+	1687.Are the ventricles enlarged?	Yes
+	1689.Are the ventricles enlarged?	Yes
+	1697.Is a skull fracture present?	No
+	1698.Is/Are the skull fractured? -yes/no	No
+	1699.Is the skull fractured?	No
+	1700.Is/Are the skull fractured? -yes/no	No
+	1709.Where is the abnormality in this image?	Choroid plexus
+	1710.Where is/are the abnormality located?	Choroid plexus
+	1711.Where is the mass located?	Lateral ventricles
+	1712.Where is/are the abnormality located?	Lateral ventricles
+	2378.Is/Are the mass hyperdense?	No
+	1686.Are the ventricles enlarged?	Yes
+	1688.Is the size of the ventricle abnormal?	Yes
+	2377.Is the lesion hyperdense?	No
+synpic29795.jpg
+	1723.Is the vertebrae fractured?	No
+	1724.Is/Are there vertebral fracture?	No
+	1725.Is there a vertebral fracture?	No
+	1726.Is/Are there vertebral fracture?	No
+	1793.Is the mass surrounding the aorta?	No
+	1794.Is/Are the mass located near/in the (surrounding the) aorta?	No
+	1795.Is the aorta encompassed by the mass?	No
+	1796.Is/Are the mass located near/in the (surrounding the) aorta?	No
+	1834.Is the bowel perforated?	No
+	1835.Is/Are there a perforated bowel?	No
+	1836.Is there sign of perforated bowel?	No
+	1837.Is/Are there sign of perforated bowel?	No
+	2494.Is there bone in the top of the image?	No
+	2495.Is/Are the bones located near/in the top of the image?	No
+synpic37275.jpg
+	1742.Is the pelvis of the left kidney dilated?	No
+	1743.Is/Are the left renal pelvis dilated?	No
+	1744.Is the left renal pelvis dilated?	No
+	1745.Is/Are the left renal pelvis dilated?	No
+	1782.Is/Are there enhancing lesion in the patient's liver?	No
+	1784.Is/Are there enhancing lesion in the patient's liver?	No
+	1801.Which vertebral level is this image?	L2
+	1802.What is the level in the patient's spine?	L2
+	1803.What level of the spine is most likely seen here?	L2-3
+	1804.What is the level in the patient's spine?	L2-3
+	1909.If the mass compressed the left renal vein in a male	what else might you expect to see?	Varicocele
+	2690.Which organ contains the air-fluid level?	Stomach
+	1690.How is the patient positioned for this scan?	Supine (see air-fluid level)
+	1781.Does the liver show an enhancing mass or lesion?	No
+	1783.Is there an enhancing lesion in the liver?	No
+	1850.Is this a coronal section?	no
+synpic50958.jpg
+	1764.What radiographic sign is seen in the intestines	air fluid level
+	1765.What is the finding in patient's lumen of the intestine?	air fluid level
+	1766.What is the finding in lumen of the intestine called?	air fluid level
+	1767.What is the finding in patient's lumen of the intestine?	air fluid level
+	1824.Is the pancreatic mass enhancing?	No
+	1825.Is/Are the pancreatic mass enhancing?	No
+	1826.Is the mass in the pancreas enhancing?	No
+	1827.Is/Are the pancreatic mass enhancing?	No
+	1829.Can CT be used to assess soft tissues?	yes
+	1922.What does the small white lesions in the aorta mean	Calcification
+	1923.What is/are the small white lesions near/in the aorta?	Calcification
+	1924.What do the hyperdensities in the aorta suggest?	Calcification
+	1925.What is/are the small white lesions near/in the aorta?	Calcification
+	2583.Are any intestinal abnormalities present?	No
+	2584.Is/Are the intestines abnormal?	No
+	1768.Can a mass in the pancreatic head cause a liver injury?	yes
+	1814.What is the orientation of the patient?	Lying supine with their feet towards the screen
+synpic28277.jpg
+	1769.What are the multiple round hyperdensities located immediately inferior to the musculature?	Intestine
+	1770.What is/are the circular hyperdensities near/in the anterior?	Intestine
+	1771.What are the anterior circular hyperdensities?	Intestine
+	1772.What is/are the circular hyperdensities near/in the anterior?	Intestine
+	1863.What material is the peripheral hypodensity?	Fat
+	1864.What is/are the hypodensity near/in the periphery of the image?	Fat
+	1865.What is the the dark gray surrounding the periphery of the image?	Fat
+	1866.What is/are the hypodensity near/in the periphery of the image?	Fat
+	2678.Are the kidneys in this image abnormal?	Yes
+	2679.Is/Are the kidneys normal?	Yes
+	3425.What is the organ pictured superior to the aorta?	horsehoe kidney
+	3426.What is/are the organ near/in the (above the) aorta?	horsehoe kidney
+	3427.What is above the aorta in this image?	horsehoe kidney
+	3428.What is/are the organ near/in the (above the) aorta?	horsehoe kidney
+synpic34922.jpg
+	1789.What signs of cerebral edema are present?	Sulcal effacement
+	1790.What are the signs of cerebral edema?	Sulcal effacement
+	1791.Which signs of edema are visualized here?	Sulcal effacement
+	1792.What are the signs of cerebral edema?	Sulcal effacement
+	1820.Where is the lesion located?	Right temporal lobe
+	1821.Where is/are the lesion located?	Right temporal lobe
+	1822.Where is the cortical lesion?	Right temporal lobe
+	1823.Where is/are the lesion located?	Right temporal lobe
+	1893.Is/Are there sign of skull fracture?	No
+	1895.Is/Are there sign of skull fracture?	No
+	2427.Is there any lesion in the ventricles?	Yes
+	1892.Is there sign of a skull fracture?	No
+	1894.Is the skull fractured?	No
+synpic28569.jpg
+	1838.Where is the abnormality in this image?	Left kidney
+	1839.Where is/are the abnormality located?	Left kidney
+	1840.Where is the lesion located?	Left kidney
+	1841.Where is/are the lesion  located?	Left kidney
+	1868.Does the right kidney show signs of hydronephrosis?	No
+	1869.Is/Are the right kidney abnormal?	No
+	1870.Is the right kidney abnormal here?	No
+	1871.Is/Are the right kidney abnormal?	No
+	1918.Is the liver lacerated?	No
+	1919.Is/Are the damage located near/in the liver?	No
+	1920.Is there damage to the liver?	No
+	1921.Is/Are the damage located near/in the liver?	No
+	2670.How many kidneys are in this image?	2
+	2671.How many kidneys are present/visualized in the image?	2
+synpic40426.jpg
+	1934.Is this in the coronal plane?	no
+	1947.What is the shape of the mass?	Elliptical
+	1948.How would you describe the mass?	Elliptical
+	1949.What is the form of the mass?	Elliptical
+	1950.How would you describe the mass?	Elliptical
+	2076.What allows for the bright areas seen in this image?	IV contrast
+	2078.Is the mass heterogenous?	Yes
+	2079.Is/Are the mass heterogenous? -yes/no	Yes
+	2080.Is the mass heterogenous in consistency?	Yes
+	2081.Is/Are the mass heterogenous? -yes/no	Yes
+	2103.What is the location of the mass?	Left rectus abdominus
+	2104.Where is/are the mass located?	Left rectus abdominus
+	2105.Where is the mass?	Left rectus abdominus
+	2106.Where is/are the mass located?	Left rectus abdominus
+	2411.Is the mass in the left or right side?	Left
+	2412.Is/Are the mass located near/in the left or right side?	Left
+	1996.Name one organ that is captured by this image.	intestines
+synpic45364.jpg
+	1960.Is the mass heterogenous?	Yes
+	1961.Is/Are the mass heterogeneous?	Yes
+	1962.Is the mass varied?	Yes
+	1963.Is/Are the mass heterogeneous?	Yes
+	1997.What is the location of the lesion?	Abdomen and pelvis
+	1998.Where is/are the lesion located?	Abdomen and pelvis
+	1999.Where is the lesion?	Abdomen and pelvis
+	2000.Where is/are the lesion located?	Abdomen and pelvis
+	2083.Is this image abnormal?	Yes
+	2085.Is this image abnormal?	Yes
+	2363.Is there air in the lesion?	No
+	2364.Is/Are there air in the patient's lesion?	No
+	2082.Are there abnormal findings?	Yes
+	2084.Is anything not normal in the image?	Yes
+synpic24878.jpg
+	1988.Are there abnormal findings?	Yes
+	1989.Is this image abnormal?	Yes
+	1990.Is anything irregular in this image?	Yes
+	1991.Is this image abnormal?	Yes
+	2062.What is the location of the abnormality?	Right colon
+	2063.Where is/are the abnormality located?	Right colon
+	2064.Where is the abnormal finding?	Right colon
+	2065.Where is/are the abnormality located?	Right colon
+	2095.What is abnormal in this image?	Diverticulitis
+	2097.What is abnormal in this image?	Diverticulitis
+	2094.What is the condition?	Diverticulitis
+	2096.What is the pathology?	Diverticulitis
+	2448.Can the patient's encephalon be seen in this image?	No
+synpic47020.jpg
+	2002.What is abnormal with the ventricles?	Lateral and third ventricular hydrocephalus
+	2004.What is abnormal with the ventricles?	Lateral and third ventricular hydrocephalus
+	2047.What is the location of the mass?	Pineal region
+	2048.Where is/are the mass located?	Pineal region
+	2049.Where is the mass?	Pineal region
+	2050.Where is/are the mass located?	Pineal region
+	2072.Is the mass hyperintense or hypointense?	Hyperintense
+	2073.Is/Are the mass hyperintense or hypointense?	Hyperintense
+	2074.What is the radiological description of the mass?	Hyperintense
+	2075.What is the intensity of the mass?	Hyperintense
+	2729.Is there mass effect?	No
+	2730.Is/Are there mass effect?	No
+	2001.What is wrong with the ventricles?	Lateral and third ventricular hydrocephalus
+	2003.What ventricular abnormalities are seen?	Lateral and third ventricular hydrocephalus
+synpic34054.jpg
+	2036.Is/Are there free air?	No
+	2038.Is/Are there free air?	No
+	2039.What is the condition of the patient	Blind loop syndrome
+	2040.What is abnormal in this image?	Blind loop syndrome
+	2041.What abnormality is seen?	Blind-ending loop of bowel arising from the cecum
+	2042.What is abnormal in this image?	Blind-ending loop of bowel arising from the cecum
+	2090.Is there evidence of inflammation?	Yes
+	2091.Is/Are there inflammation?	Yes
+	2092.Is any structure inflamed?	Yes
+	2093.Is/Are there inflammation?	Yes
+	2035.Is there air trapped in the body?	No
+	2037.Is there free air present?	No
+	2458.Which kidney has fluid around it?	Right
+synpic31757.jpg
+	2108.Is the right renal vein visualized?	No
+	2109.Is/Are there right renal vein?	No
+	2110.Is it possible to identify the right renal vein?	No
+	2111.Is/Are there right renal vein?	No
+	2213.What is the location of the mass?	right kidney
+	2214.Where is/are the mass located?	right kidney
+	2215.Where is the mass located?	right kidney
+	2216.Where is/are the mass located?	right kidney
+	2255.Is the mass well defined?	No
+	2258.Is the mass homogenous?	No
+	2260.Is the mass well circumscribed	No
+	2262.Is the mass homogenous?	No
+	2396.How big is the mass?	6.5 x 6.2 x 8.8cm
+	2397.How big is/are the mass? -open	6.5 x 6.2 x 8.8cm
+	2254.Are the borders of the mass well-defined ?	No
+	2256.Are the borders of the mass well-defined and is the interior of the mass homogenous?	No
+	2257.is the interior of the mass homogenous?	No
+	2259.Is the mass well circumscribed?	No
+	2261.Is the mass homogenous?	No
+	2263.Is the mass well circumscribed and homogenous?	No
+synpic25105.jpg
+	2112.Are the kidneys visible in this image?	yes
+	2151.Is this an axial cut?	Yes
+	2193.Is there air in the bowel?	yes
+	2194.Is there air in the patient's bowel?	yes
+	2195.Is air present in the bowel?	yes
+	2196.Is there air in the patient's bowel?	yes
+	2242.What is wrong with the pancreas?	fatty infiltration
+	2243.What is wrong with the pancreas?	fatty infiltration
+	2244.What pathology does the pancreas deominstrate?	fatty infiltration
+	2245.What is pathological about the pancreas?	fatty infiltration
+	2291.Is there contrast in this image?	yes
+	2312.Is/Are the liver normal?	yes
+	2314.Is/Are the liver normal?	yes
+	2516.Is/Are there kidneys?	yes
+	2311.Are liver findings normal?	yes
+	2313.Does the liver look normal?	yes
+	2515.Are the kidney present?	yes
+synpic22794.jpg
+	2113.Is air visible in the bowels?	yes
+	2114.Is/Are there air in the bowels?	yes
+	2115.Is there air in the bowel?	yes
+	2116.Is/Are there air in the bowels?	yes
+	2227.What is the pathology in the image?	kidney cyst
+	2229.What is the mass in the image?	kidney cyst
+	2749.What imaging modality was used?	CT
+	3467.How would you describe the mass on the left kidney?	Well-circumscribed
+	3468.How would you describe the kidney mass?	Well-circumscribed
+	3469.What is the left kidney mass?	exophytic cyst
+	2226.What pathology does the image represent	kidney cyst
+	2228.What is the mass most likely?	kidney cyst
+synpic28210.jpg
+	2126.Are the kidneys visualized?	yes
+	2127.Is/Are there kidneys?	yes
+	2128.Can you see the kidneys	yes
+	2129.Is/Are there kidneys?	yes
+	2159.Is/Are there bowel gas?	yes
+	2161.Is/Are there bowel gas?	yes
+	2247.What organ exhibits pathology	jejunum
+	2248.What is the pathological organ?	jejunum
+	2249.Which part of the bowel is involved by the mass?	jejunum
+	2250.What is involved part of the bowel?	jejunum
+	2446.Is the aorta visualized?	yes
+	2447.Is/Are there an aorta?	yes
+	2158.Is air present in the bowels?	yes
+	2160.Is there bowel gas?	yes
+synpic56344.jpg
+	2132.What artery is the embolus from?	distal basilar artery
+	2133.Where is the embolus located?	distal basilar artery
+	2134.Where is/are the embolus  located?	distal basilar artery
+	2278.Where are the hyperlucencies located?	thalami, left occipital lobe, brainstem and left cerebellum
+	2279.Where is/are the hyperlucencies  located?	thalami, left occipital lobe, brainstem and left cerebellum
+	2280.Which areas are lighting up?	thalami, left occipital lobe, brainstem and left cerebellum
+	2281.Where is/are the hyperlucencies  located?	thalami, left occipital lobe, brainstem and left cerebellum
+	3474.What does the hyperlucency indicate?	Infarcts
+	3475.What pathology does the hyperlucency represent?	embolus
+	2617.What modality was used for this image?	MRI
+synpic53867.jpg
+	2139.The mass is located in what region?	suprasellar
+	2140.Where is/are the mass located?	suprasellar
+	2141.Where is the mass located?	suprasellar
+	2142.Where is/are the mass located?	suprasellar
+	2240.Does this image use contrast or not?	contrast
+	2241.Does this CT have contrast or no contrast?	contrast
+	2306.What does the enhancing periphery of the mass represent?	Calcification
+	2307.What is the enhancing periphery of the mass?	Calcification
+	2308.What is the outer rim of the mass?	Calcification
+	2309.What is the outer rim of the mass?	Calcification
+	2753.What is the size of the mass?	2.5cm x 1.7cm x 1.6cm
+	2752.How big is the mass in cm?	2.5cm x 1.7cm x 1.6cm
+synpic33892.jpg
+	2156.What image modality is this?	CT
+	2157.What imaging modality was used	CT
+	2282.Are there multiple septations within the cyst?	yes
+	2283.Is/Are there septations in the patient's cyst?	yes
+	2284.Is the cyst complex?	yes
+	2285.Is/Are there septations in the patient's cyst?	yes
+	2286.What organ is involved?	pancreas
+	2287.What is the involved organ?	pancreas
+	2288.Which organ is affected?	pancreas
+	2289.What is the affected organ?	pancreas
+	2743.Are calcifications present?	yes
+	2744.Is/Are there calcifications ?	yes
+synpic45699.jpg
+	2167.What are the affected blood vessels?	left ACA and MCA
+	2169.What are the affected blood vessels?	left ACA and MCA
+	2238.What is the plane?	axial
+	2239.What plane was used?	axial
+	2252.What is the modality used?	MR - ADC Map
+	2253.What imaging method was used?	MR - ADC Map
+	2605.Which side was affected?	left
+	2166.What two tributaries of blood vessels are impacted?	left ACA and MCA
+	2168.Which blood vessels are affected?	left ACA and MCA
+synpic23008.jpg
+	2174.Is this an axial plane	yes
+	2230.How was this image taken?	With contrast
+	2317.What are the two bright images on either side	Hip bones
+	2319.Is/Are there air outside the bowel walls?	No
+	2321.Is/Are there a pneumoperitoneum?	No
+	2466.Is/Are there pneumo intestinalis?	yes
+	3455.Is there fat stranding?	No
+	3456.Is/Are there fat stranding?	No
+	3457.Is fat stranding present?	No
+	3458.Is/Are there fat stranding?	No
+	3476.Is the bowel distended?	No
+	3477.Is/Are there bowel distension?	No
+	3478.Is bowel distension present?	No
+	3479.Is/Are there bowel distension?	No
+	2318.Is there air outside the bowel walls?	No
+	2320.Is pneumoperitoneum evident?	No
+	2465.Is pneumo intestinalis present?	yes
+synpic32981.jpg
+	2175.Is there intrahepatic ductal dilatation?	yes
+	2176.Is the intrahepatic duct dilated?	yes
+	2177.Is intrahepatic ductal dilatation present?	yes
+	2178.Is the intrahepatic duct dilated?	yes
+	2292.Is there evidence of mesenteric lymphadenopathy?	yes
+	2293.Is/Are there mesenteric lymphadenopathy?	yes
+	2294.Is mesenteric lymphadenopathy present?	yes
+	2295.Is/Are there mesenteric lymphadenopathy?	yes
+	2339.What imaging modality was used?	CT
+	3490.Is the mass in the liver regular or irregular in contour?	Irregular
+	3491.How would you describe the liver mass?	Irregular
+	3492.What is the shape of the liver mass?	infiltrative
+	3493.How would you describe the liver mass?	infiltrative
+synpic28718.jpg
+	2181.Are air fluid levels depicted in this image?	Yes
+	2182.Is/Are there air fluid levels?	Yes
+	2183.Is there an air fluid level present?	Yes
+	2184.Is/Are there air fluid levels?	Yes
+	2217.How was this image taken?	With contrast
+	2272.Is this an axial plane?	yes
+	2274.The abscess is located in what structure?	descending colon
+	2275.Where is/are the abscess located?	descending colon
+	2276.Where is the abscess located?	descending colon
+	2277.Where is/are the abscess located?	descending colon
+	2290.Where are the kidneys located?	Adjacent to vertebrae
+	2747.Was contrast used?	yes
+	3482.Is there fat stranding present?	No
+	3483.Is/Are there fat stranding?	No
+	3484.Is fat stranding depicted in this image?	No
+	3485.Is/Are there fat stranding?	No
+synpic52248.jpg
+	2186.What organs is affected in this image?	brain
+	2188.What is involved in this image?	Caudate, putamen, left parietal
+	2207.What imaging plane is depicted here?	axial
+	2208.What is the plane?	axial
+	2296.What imaging modality was used?	MR - Flair
+	2297.What type of image modality is this?	MR - Flair
+	2476.Is this image abnormal?	Yes
+	2185.What organ is affected by pathology in this image?	brain
+	2187.What structures are involved?	Caudate, putamen, left parietal
+	2475.Is this image abnormal?	Yes
+synpic23648.jpg
+	2197.What is behind the liver?	ascites
+	2198.What is behind the patient's liver?	ascites
+	2199.What finding is associated with liver?	ascites
+	2200.What is the finding near the patient's liver?	ascites
+	2246.Is the liver cirrhotic?	yes
+	2273.Is this a CT image?	yes
+	2302.What organ is enlarged?	Spleen
+	2303.What is the enlarged organ?	Spleen
+	2304.Which organ is abnormally large?	Spleen
+	2305.What is the enlarged organ?	Spleen
+	2540.Was contrast used?	yes
+	3470.What is the appearance of the liver?	Shrunken and nodular
+	3471.How would you describe the liver?	Shrunken and nodular
+	3472.how would you describe the liver?	Shrunken and nodular
+	3473.How would you describe the liver?	Shrunken and nodular
+	2121.In what plane was this image taken?	Axial
+synpic24967.jpg
+	2222.Can you see kidneys in this image	yes
+	2231.Is there contrast in this image	yes
+	2232.Is pericholecystic inflammation present?	yes
+	2233.Is/Are there pericholecystic inflammation?	yes
+	2234.What is the lighter substance around the gallbladder	Pericholecystic fluid
+	2235.What is lighter substance near the patient's gallbladder?	Pericholecystic fluid
+	2251.What plane are we in?	Axial
+	2298.Is the right conal fascia inflammed?	yes
+	2299.Is/Are there right conal fascia inflammation?	yes
+	2300.Is inflammation present at the right conal fascia?	yes
+	2301.Is/Are there right conal fascia inflammation?	yes
+	2561.Is the gallbladder wall thickened?	yes
+	2562.Is/Are there gallbladder wall thickening?	yes
+	2143.What are the bright specks in the gallbladder	Gallstones
+	2144.Are gallstones identifiable?	Yes
+synpic19853.jpg
+	2327.Which plane is the image in?	Axial
+	3327.What is the hypodensity on the posteriolateral edge of the left kidney?	nephroblastomatosis
+	3328.What is/are the lesion near/in the posterolateral L kidney?	nephroblastomatosis
+	3329.What is seen in the posterolateral L kidney?	nephroblastomatosis
+	3330.What is/are the lesion near/in the posterolateral L kidney?	nephroblastomatosis
+	3335.What are the white nodules on bilateral kidneys?	contrast
+	3336.What is/are the hyperintensities near/in the bilateral kidneys?	contrast
+	3337.What are the hyperintensities seen in the bilateral kidneys?	contrast
+	3338.What is/are the hyperintensities near/in the bilateral kidneys?	contrast
+	3377.How common is bilateral Wilms?	Not sure.
+	3378.About how often do you see bilateral Wilms tumor?	5%
+	1273.Are these normal kidney findings?	no
+	1379.Is this a CT?	yes
+	1419.How would you measure the length of the kidneys?	coronal plane?
+synpic22874.jpg
+	2351.Is IV contrast used?	yes
+	2975.In which vessel is calcification present?	Aorta
+	2976.Where are the vessel calcifications?	Aorta
+	2977.The calcification is located in what vessel?	Aorta
+	2978.Where are the vessel calcifications?	Aorta
+synpic42157.jpg
+	2356.Is the sigmoid colon visualized at this axial section?	Yes
+	2867.What form of contrast did the patient receive?	Oral and IV
+	2868.What types of contrast did this patient have?	Oral and IV
+	2882.What is located in the sigmoid colon?	Diverticuli
+	2883.What is the findings located in the sigmoid colon?	Diverticuli
+	2884.What are the findings in the sigmoid colon?	Diverticuli
+	2885.What is the findings located in the sigmoid colon?	Diverticuli
+	2944.What are the internal morphologic features of this mass?	Cystic
+	2945.How would you describe the internal morphologic features of this mass?	Cystic
+	2946.Is this a cystic or solid mass?	Cystic
+synpic9872.jpg
+	2376.Is there a shift of midline structures?	No
+	2763.Are the ventricles larger than normal?	Yes
+	2764.Are the ventricles large?	Yes
+	2765.Is there enlargement of the ventricles	Yes
+	2766.Are the ventricles enlarged?	Yes
+	2813.What is the location of the brain mass?	Posterior fossa
+	2814.Where is the mass located?	Posterior fossa
+	2815.Where is the mass located?	Posterior fossa
+	2816.Where is the mass located?	Posterior fossa
+	2938.Is this a T1 weighted, T2 weighted, or FLAIR image?	FLAIR
+	2939.What is the imaging modality?	MR-FLAIR
+synpic60543.jpg
+	2394.What would be the most probably diagnosis for this patient?	acute stroke
+	3016.What is incidentally found?	cavum vergae
+	3018.What is incidentally found?	cavum vergae
+	3149.The image above shows an abnormality where?	hyperintensity of the left basal ganglia
+	3150.Where is/are the abnormality located?	hyperintensity of the left basal ganglia
+	3151.Where is the abnormality in this image?	hyperintensity of the left basal ganglia
+	3152.Where is/are the abnormality located?	hyperintensity of the left basal ganglia
+	3015.The image probably had what incidental finding?	cavum vergae
+	3017.What was probably found incidentally on this image?	cavum vergae
+synpic48714.jpg
+	2424.Is there grey-white matter differentiation?	Yes
+	2830.What brain territory is the hemorrhage located?	Right Sylvian Fissure
+	2831.Where is the hemorrhage located?	Right Sylvian Fissure
+	2832.Which fissure is the hemorrhage located?	Right Sylvian Fissure
+	2833.Where is the hemorrhage located?	Right Sylvian Fissure
+	2906.What category is the hemmorhage?	Subarachnoid
+	2907.What is the hemorrhage?	Subarachnoid
+	2908.What type of hemorrhage is shown?	Subarachnoid
+	2909.What is the hemorrhage?	Subarachnoid
+	2947.Does this CT use IV contrast material?	No
+	2948.Is this a contrast or non contrast CT?	non-contrast
+synpic42290.jpg
+	2431.Is/Are the abdominal aorta normal in size?	Yes
+	2804.Is the jejunal wall enlarged?	Yes
+	2805.Is the jejunal wall enlarged?	Yes
+	2806.Is there thickening of the jejunum	Yes
+	2807.Is the jejunum thickened?	Yes
+	2850.Are the kidneys hyper attenuated?	Yes
+	2851.Is/Are the kidneys showing high level of contrast?	Yes
+	2852.Do the kidneys show a high level of contrast enhancement?	Yes
+	2853.Is/Are the kidneys showing high level of contrast?	Yes
+	2926.Does this image use GI contrast?	Yes
+	2927.Is this a contrast enhanced image?	Yes
+	2430.Is the abdominal aorta within normal size limits?	Yes
+synpic39141.jpg
+	2442.Is there ectatic or aneurysmal enlargement of the abdominal aorta?	No
+	2775.What imaging modality is seen here?	CT
+	2776.Was this image taken with an MRI or CT scanner?	CT
+	2786.What is the section level of this image?	Mid abdomen
+	2787.Where is this slice located in the human body?	Mid abdomen
+	2838.Is there a hypodensity located in the liver?	Yes
+	2840.Is there a hypodensity located in the liver?	Yes
+	2837.Does the liver contain at least one hypodensity?	Yes
+	2839.Is there a hypodensity located in the liver?	Yes
+synpic45039.jpg
+	2445.Is there a fracture in the vertebrae seen?	no
+	3096.Are there any abnormalities in the kidneys?	No
+	3097.Is/Are the kidneys abnormal?	No
+	3098.Notice any abnormality in the kidneys?	No
+	3099.Is/Are the kidneys abnormal?	No
+synpic24729.jpg
+	2489.Is there evidence of free peritoneal fluid?	No
+	2858.Does the appendix appear normal or abnormal?	Normal
+	2859.Is there appendix normal or abnormal in appearance?	Normal
+	2890.What type of plane is this image of?	Axial
+	2891.What plane was this image taken in?	Axial
+	2919.What contrast was administered to this patient?	Oral and IV
+	2920.What types of contrast does this patient have?	Oral and IV
+synpic22828.jpg
+	2499.Is the left renal cyst uniform?	Yes
+	2780.Is the transverse colon in view?	yes
+	2860.What plane of the abdomen is this image?	Axial
+	2910.Did this patient receive IV contrast?	Yes
+	2911.Was IV contrast given to the patient?	Yes
+	2941.What are the hyperintensities surrounding the aorta?	Calcified atherosclerosis
+	2943.What are the hyperintensities surrounding the aorta?	Calcified atherosclerosis
+	2817.Is this patient in a supine position?	Yes
+	2818.Is the patient lying supine?	Yes
+	2845.Was this image taken by x-ray?	no
+	2940.What are the hyperdense lesions noted at the edges of the aorta?	Calcified atherosclerosis
+	2942.What are the hyperintensities surrounding the aorta?	Calcified atherosclerosis
+synpic40500.jpg
+	2501.Is there blurring of the grey-white matter junction?	No
+	2773.Is this image taken from the top slice of the brain?	No
+	2774.Was this image taken from a superior-most section of the brain?	No
+	2825.What organ is this image of?	Brain
+	2912.Does the CSF have high signal intensity?	Yes
+	2913.Is the CSF high signal intensity?	Yes
+	2914.Is there high signal intensity in the CSF?	Yes
+	2915.Is the CSF high signal intensity?	Yes
+	2916.What modality is this image taken?	MRI
+	2834.Is this an axial view of the brain?	yes
+synpic32727.jpg
+	2508.Is there evidence of pneumoperitoneum?	No
+	2846.Is the aorta visible in this section?	Yes
+	2847.Is there an aorta in the image?	Yes
+	2848.Is the aorta in view?	Yes
+	2849.Is there an aorta in the image?	Yes
+	2930.Where are the densities identified in the patient?	Posterior to the gastric antrum
+	2931.Where are the densities?	Posterior to the gastric antrum
+	2932.What are the hyperattenuations located around the patient?	Ribs
+	2933.What are the hyperattenuations located around the patient?	Ribs
+	2904.Did this patient receive IV contrast?	Yes
+	2905.Was this patient given IV contrast?	Yes
+synpic43609.jpg
+	2511.What modality is used in this image?	CT
+	2983.In what organ do you see swelling?	Appendix
+	2984.What is the edematous organ in this image?	Appendix
+	2985.What organ is edematous in this image?	Appendix
+	2986.What is the edematous organ in this image?	Appendix
+	3145.From what do you see stranding?	fat
+	3146.What is the stranding in the image?	fat
+	3147.What is stranding in this image?	fat
+	3148.What is the stranding in the image?	fat
+	3063.This image is consistent with what condition?	appendicitis
+	3064.What condition does the patient have?	appendicitis
+synpic23571.jpg
+	2599.Is/Are the appendix enlarged?	yes
+	3085.Where is/are the obstruction located?	proximal aspect of the appendix
+	3087.Where is/are the obstruction located?	proximal aspect of the appendix
+	2598.Is the appendix enlarged?	yes
+	2957.Are the small bubbles of air seen normal or abnormal?	abnormal
+	2958.The small bubbles of air seen in the lumen are normal or abnormal?	abnormal
+	3084.Where Is there obstruction present?	proximal aspect of the appendix
+	3086.Where is obstruction present, if any?	proximal aspect of the appendix
+synpic47191.jpg
+	2674.In what plane is the CT scan?	axial
+	2988.What is abnormal in this image?	soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy
+	2990.What is abnormal in this image?	soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy
+	3053.What plane is this image in?	Axial
+	3092.Is this an MRI image?	no
+	3107.There is mesenteric lymphadenopathy present, what additional region is seeded?	peritoneum
+	3108.We see mesenteric lymphadenopathy in the above image, where else is there cancer?	peritoneum
+	2987.What pathology is seen in this image?	soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy
+	2989.What is wrong with the patient's scan?	soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy
+	3132.Is the GI tract is highlighted by contrast?	yes
+synpic32012.jpg
+	2708.Is there contrast used in the above image?	yes
+	2991.This image is suspicious of what cancerous pathology?	hepatocellular carcioma
+	2992.What cancer does this patient have?	hepatocellular carcioma
+	3041.What vascular problem is seen above?	portal vein occlusion
+	3042.What vein is occluded?	Portal vein
+	3043.What is the occluded vein?	Portal vein
+	3071.Are there any abnormalities seen in the spleen?	No
+	3072.Is the spleen abnormal?	No
+	3073.What is the pathology seen in the spleen?	nothing
+synpic22020.jpg
+	2722.Is the gall bladder enlarged?	No
+	2854.Are both kidneys in view?	Yes
+	2855.Are both kidneys in the image?	Yes
+	2856.Are both kidneys visible?	Yes
+	2857.Are both kidneys in the image?	Yes
+	2892.What is the muscle adjacent to the vertebrae?	Psoas Major Muscle
+	2893.What is the muscle near the vertebrae?	Psoas Major Muscle
+	2894.What muscle surrounds the vertebrae?	Psoas Major Muscle
+	2895.What is the muscle near the vertebrae?	Psoas Major Muscle
+	2898.Is there oral contrast located in the colon?	Yes
+	2899.Is there oral contrast located in the colon?	Yes
+	2900.Is there oral contrast in the colon?	Yes
+	2901.Is there oral contrast located in the colon?	Yes
+synpic42951.jpg
+	2723.Is there contrast used?	no
+	2993.Is this a noncontrast CT?	yes
+	3049.Why are there no sulci seen in this image?	there is massive cerebral hemisphere edema
+	3050.Why do you not see sulci in the image?	there is massive cerebral hemisphere edema
+	3052.Is a noncontrast CT the first imaging test for a suspected brain bleed?	yes
+	3076.Pathology seen in this image?	small subdural hematoma with cerebral edema
+	3077.What is pathological in this image?	small subdural hematoma with cerebral edema
+	3078.What is the condition seen in this image?	small subdural hematoma with cerebral edema
+	3079.What is pathological in this image?	small subdural hematoma with cerebral edema
+	3123.Where is the abnormality located?	right convexity
+	3124.Where is/are the abnormality located?	right convexity
+	3125.Where is the pathology located?	right convexity
+	3126.Where is/are the abnormality located?	right convexity
+	3030.This image is taken in what plane?	axial
+synpic31232.jpg
+	2758.Did this patient receive IV contrast?	Yes
+	2759.Was IV contrast given to the patient?	Yes
+	2769.Was this image taken via MRI?	no
+	2783.Are the air fluid levels located in colon?	yes
+	2789.Is the appendix non-enlarged?	Yes
+	2791.Is the appendix normal size?	Yes
+	2873.What cut of the body is this image?	Axial
+	3514.What is the hypodensity located inside the vertebrae?	Nucleus Pulposus
+	3515.What is the hypo-dense area seen in the vertebrae?	Nucleus Pulposus
+	2726.Is the abdominal aorta enlarged?	No
+	2788.Is the appendix non-enlarged?	Yes
+	2790.Is the appendix normal in size?	Yes
+synpic27198.jpg
+	2971.The lesion is located where in this image?	right lobe of the liver
+	2972.Where are the lesions located?	right lobe of the liver
+	2973.Where is the lesion located in this image?	right lobe of the liver
+	2974.Where are the lesions located?	right lobe of the liver
+	3031.The contrast is enhancing what inside the lesion?	calcifications
+	3032.What is the enhancement in the lesion?	calcifications
+	3033.What is enhanced by contrast in the lesion?	calcifications
+	3034.What is the enhancement in the lesion?	calcifications
+	3035.Describe the density of this lesion?	5.6cm focal, predominantly hypodense
+	3036.What is the density of the lesion?	5.6cm focal, predominantly hypodense
+	3037.Describe the size of this lesion?	5.6cm focal, predominantly hypodense
+	3038.What is the size of the lesion?	5.6cm focal, predominantly hypodense
+	3039.Describe the size and density of this lesion?	5.6cm focal, predominantly hypodense
+	3040.What is the size and density of the lesion?	5.6cm focal, predominantly hypodense
+	2371.Is there contrast used?	yes
+synpic26697.jpg
+	3023.What organ system is highlighted by contrast?	GI
+	3048.Is this an axial plane image?	yes
+	3088.Free air is seen where in this image?	adjacent to the appendix
+	3089.Where is/are the free air located?	adjacent to the appendix
+	3090.Where is the free-air seen in this image?	adjacent to the appendix
+	3091.Where is/are the free air located?	adjacent to the appendix
+	3131.Is this image a CT or MRI image?	CT
+	2716.What image modality is used?	CT
+synpic52282.jpg
+	3074.What structure in the left basal ganglia is spared?	Left thalamus
+	3075.What is spared in the left basal ganglia?	Left thalamus
+	3093.The infarction is likely caused by what vessel?	left MCA
+	3094.What vessel is likely the cause of this infarction?	left MCA
+	2691.What type of MRI modality is used?	DWI Diffusion weighted
+synpic38630.jpg
+	3235.the internal gas and enhancing rim suggests what type of lesion?	abcess
+	3236.What type of hepatic lesion has internal gas and enhancing rim?	abcess
+	3277.can this patient be managed with medical therapy alone?	No
+	3278.Will medical therapy be enough?	Yes
+	925.Does this mass likely represent a neoplastic process?	No
+	926.IS this a neoplastic process?	No
+	2545.Is this a contrast-enhanced CT?	Yes

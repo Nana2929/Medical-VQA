@@ -9,7 +9,9 @@ __pycache__/
 # ckpt
 PubMedCLIP_RN50.pth
 PubMedCLIP_RN50x4.pth
-# Distribution / packaging
+cuda-repo-ubuntu2204-12-1-local_12.1.0-530.30.02-1_amd64.deb
+*.deb
+# Distribution 
 .Python
 build/
 develop-eggs/

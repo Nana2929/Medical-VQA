@@ -55,4 +55,4 @@ TEST:
   BATCH_SIZE: 8
   NUM_WORKERS: 4
   MODEL_FILE: "./output/qcr/pubmedclipRN50_ae/roco/VQARAD/QCR.CLIPRN50.AE.ROCO.VQARAD.16batchsize.200epoch.withTFIDF.nondeterministic/62_best.pth"
-  RESULT_DIR: "./output/qcr/pubmedclipRN50_ae/roco/VQARAD/QCR.CLIPRN50.AE.ROCO.VQARAD.16batchsize.200epoch.withTFIDF.nondeterministic/results"
+  RESULT_DIR: "./results"

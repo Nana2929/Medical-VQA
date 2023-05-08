@@ -1,0 +1,40 @@
+image_name,question,answer,predicted_answer,answer_type,predicted_answer_type
+synpic55583.jpg,Where is/are the lesions located?,Bilateral frontal lobes,bilateral frontal lobes,CLOSED,OPEN
+synpic31955.jpg,Where is/are the lesion located?,Right lung hilum,anterior mediastinum,OPEN,OPEN
+synpic38263.jpg,What is the cause of this finding: medical process or physical injury?,Medical process,reduced sulci,CLOSED,OPEN
+synpic56061.jpg,Where is/are the infarcts located?,Anterior surface,anterior cerebrum,OPEN,OPEN
+synpic31394.jpg,Where are the pulmonary nodules located?,Diffuse,bilateral lungs,CLOSED,OPEN
+synpic13385.jpg,Where is/are the most infiltrates  located?,Left,left lung,OPEN,OPEN
+synpic45557.jpg,Is the trachea midline?,In the midline,yes,OPEN,CLOSED
+synpic52732.jpg,Where is the lesion located?,White matter,right,CLOSED,OPEN
+synpic26764.jpg,Where is/are the circular opacity located?, superficial to the patient's skin,on top of patient,CLOSED,CLOSED
+synpic52828.jpg,Was contrast used to take this image?,with contrast,yes,OPEN,CLOSED
+synpic23053.jpg,Where is/are the lesion located?,In the right hilum,upper right lobe,OPEN,OPEN
+synpic47783.jpg,How wide is/are the cardiac shadow? -open,No,less than half thorax,CLOSED,OPEN
+synpic13385.jpg,Is the trachea midline?,Midline,yes,OPEN,CLOSED
+synpic32981.jpg,How would you describe the liver mass?,Irregular,infiltrative,CLOSED,OPEN
+synpic55583.jpg,In which lobe are the lesions?,Bilateral frontal lobes,bilateral frontal lobes,CLOSED,OPEN
+synpic51774.jpg,Where is/are the trachea located?,Left,left,CLOSED,OPEN
+synpic13385.jpg,Where is/are the trachea located?,Midline,left,OPEN,CLOSED
+synpic52732.jpg,Where is the lesion located?,White matter,right,CLOSED,OPEN
+synpic31400.jpg,Is/Are there abnormalities in the patient's lower lung?,yes,no,CLOSED,CLOSED
+synpic19477.jpg,Where is/are the lung lesion located?,Right upper lobe,right lung,OPEN,OPEN
+synpic53574.jpg,Where is/are the infarcts located?,diffuse,all 3 vascular distributions,OPEN,OPEN
+synpic31394.jpg,Where are the pulmonary nodules located?,Diffuse,bilateral lungs,CLOSED,OPEN
+synpic33889.jpg,Is this image normal?,No,yes,CLOSED,CLOSED
+synpic45610.jpg,Is/Are the trachea normal?,Yes,no,CLOSED,CLOSED
+synpic51383.jpg,Where is/are the lesion located?,Right temporal lobe,right mca,OPEN,OPEN
+synpic38069.jpg,Where is/are the abnormality located?,Lateral ventricles,choroid plexus,OPEN,OPEN
+synpic56799.jpg,Where is/are the lesion located?,Right,right temporal lobe,CLOSED,OPEN
+synpic34054.jpg,What is abnormal in this image?,Blind loop syndrome,blind ending loop of bowel arising from cecum,OPEN,OPEN
+synpic59935.jpg,Where is the infarct located?,Right PICA,left cerebellum,OPEN,OPEN
+synpic57368.jpg,Is/Are the brain normal?,Yes,no,CLOSED,CLOSED
+synpic57520.jpg,Where is/are the lateral ventricle located?,left hemisphere,left,OPEN,OPEN
+synpic32933.jpg,Is this image normal?,No,yes,CLOSED,CLOSED
+synpic37275.jpg,What is the level in the patient's spine?,L2-3,l2,OPEN,OPEN
+synpic22791.jpg,What is/are the hypodense mass near/in the liver?,Yes,gallbladder,CLOSED,OPEN
+synpic21995.jpg,"What is denser, the cystic lesions or the kidney parenchyma?",cystic lesions,surrounding tissue,OPEN,CLOSED
+synpic46720.jpg,Where is/are the abnormality located?,Right PCA,right hemisphere,OPEN,OPEN
+synpic33889.jpg,Is this image normal?,No,yes,CLOSED,CLOSED
+synpic29219.jpg,Is this image normal?,No,yes,CLOSED,CLOSED
+synpic52732.jpg,"Which is highlighted in this image, white or gray matter?",Gray matter,with contrast,CLOSED,OPEN

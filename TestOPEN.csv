@@ -1,0 +1,60 @@
+image_name,question,answer,question_type
+synpic29265.jpg,CHEST,Posterior-Anterior,OPEN,OTHER,How is the patient oriented?,freeform
+synpic18319.jpg,CHEST,Pulmonary nodules,OPEN,ABN,Describe the lung abnormalities?,para
+synpic18319.jpg,CHEST,Pulmonary nodules,OPEN,ABN,What abnormalities are seen within the lungs?,freeform
+synpic32933.jpg,CHEST,Free air,OPEN,PRES,What is under the right hemidiaphragm?,freeform
+synpic32933.jpg,CHEST,Free air,OPEN,PRES,What is the abnormality by the right hemidiaphragm?,para
+synpic49914.jpg,CHEST,PA,OPEN,PLANE,Which plane is this image taken?,freeform
+synpic31400.jpg,CHEST,Nodular opacities,OPEN,ABN,What abnormalities are in the lung apices?,para
+synpic31400.jpg,CHEST,Nodular opacities,OPEN,ABN,What is seen in the lung apices?,freeform
+synpic21044.jpg,CHEST,middle mogul,OPEN,ATTRIB,How would you describe the aortopulmonary window?,para
+synpic21044.jpg,CHEST,middle mogul,OPEN,PRES,What characteristic finding do you see in the aortopulmonary window?,para
+synpic21044.jpg,CHEST,middle mogul,OPEN,PRES,Which sign do you see in the aortopulmonary window in this image?,freeform
+synpic49914.jpg,CHEST,Right lung,OPEN,POS,Where is the diffuse pleural thickening?,para
+synpic49914.jpg,CHEST,Right lung,OPEN,POS,Which lung is abnormal?,freeform
+synpic31400.jpg,CHEST,x-ray,OPEN,MODALITY,What kind of image is this?,freeform
+synpic34449.jpg,CHEST,Left,OPEN,"POS, PRES",Which side is more clearly visualized?,freeform
+synpic34449.jpg,CHEST,Left,OPEN,"POS, PRES",Which lung is clearer?,para
+synpic24390.jpg,CHEST,It is less than half the width of the thorax,OPEN,SIZE,How wide is the heart compared to the thorax?,para
+synpic19782.jpg,CHEST,Above the clavicles bilaterally,OPEN,POS,Where is free air trapped subcutaneously in this image?,freeform
+synpic34449.jpg,CHEST,On the right shoulder.,OPEN,POS,Where is the subcutaneous air collection?,freeform
+synpic13385.jpg,CHEST,A bullous lesion,OPEN,PRES,What is in the left apex?,para
+synpic31955.jpg,CHEST,Anterior mediastinum,OPEN,POS,Where is the lesion located?,para
+synpic31955.jpg,CHEST,Right,OPEN,POS,Which side of the heart border is obscured?,freeform
+synpic19118.jpg,CHEST,The right bronchus,OPEN,PRES,What is this lucency amid densities in the right lung?,freeform
+synpic52951.jpg,CHEST,Plain film x-ray,OPEN,MODALITY,What type of image is this?,freeform
+synpic22037.jpg,CHEST,mid left subclavian vein,OPEN,POS,Where is the tip of the line?,freeform
+synpic22037.jpg,CHEST,mid left subclavian vein,OPEN,POS,Where is the tip of the Port-a-Cath catheter located?,para
+synpic18651.jpg,CHEST,cardiomegaly with pulmonary edema,OPEN,ABN,Describe the pathology,para
+synpic18651.jpg,CHEST,cardiomegaly with pulmonary edema,OPEN,ABN,what is the pathology?,freeform
+synpic32962.jpg,CHEST,pulmonary/lymphatic,OPEN,ORGAN,What organ system is the pathology?,freeform
+synpic51872.jpg,CHEST,Right upper lobe,OPEN,POS,what is the location of the cavitary lesion,freeform
+synpic51872.jpg,CHEST,Right upper lobe,OPEN,POS,Where is the cavitary lesion located?,para
+synpic55464.jpg,CHEST,coronal,OPEN,PLANE,What plane is this film,freeform
+synpic26248.jpg,CHEST,Right,OPEN,POS,Diaphragm is elevated on which side?,freeform
+synpic26248.jpg,CHEST,Right,OPEN,POS,Which side of the diaphragm is elevated?,para
+synpic40520.jpg,CHEST,Right side,OPEN,POS,Where is there evidence of a pleural effusion?,freeform
+synpic40520.jpg,CHEST,Right side,OPEN,POS,Where is the pleural effusion located?,para
+synpic32970.jpg,CHEST,right lower lateral lung field,OPEN,POS,What is the location of the lesion?,para
+synpic32970.jpg,CHEST,right lower lateral lung field,OPEN,POS,Where is the lesion located?,freeform
+synpic17738.jpg,CHEST,3.4 cm,OPEN,SIZE,How large is the mass in the right upper quadrant?,freeform
+synpic17738.jpg,CHEST,3.4 cm,OPEN,SIZE,Size of the mass in the right upper quadrant?,para
+synpic42805.jpg,CHEST,Female,OPEN,OTHER,What is the biological sex of the patient?,para
+synpic17738.jpg,CHEST,Right upper lobe,OPEN,POS,In which lobe do you see an abnormal mass in the above images?,freeform
+synpic17738.jpg,CHEST,Right upper lobe,OPEN,POS,Where is the abnormal mass located with respect to the lungs?,para
+synpic17738.jpg,CHEST,Xray,OPEN,MODALITY,What imaging modality was used to take this image?,freeform
+synpic16221.jpg,CHEST,Female,OPEN,OTHER,What is the patient's gender?,para
+synpic33331.jpg,CHEST,The liver,OPEN,ORGAN,What is located immediately inferior to the right hemidiaphragm?,freeform
+synpic17675.jpg,CHEST,Right vs left sided pathology,OPEN,OTHER,What is better identified on a PA CXR vs a lateral CXR?,freeform
+synpic42210.jpg,CHEST,Diaphragm,OPEN,PRES,"What are the two humps"" at the base on the image signifying?""",freeform
+synpic52932.jpg,CHEST,chest,OPEN,ORGAN,What organ system is visualized?,freeform
+synpic676.jpg,CHEST,XR,OPEN,MODALITY,What modality is used to take this image?,freeform
+synpic33481.jpg,CHEST,Upper left,OPEN,"PRES, POS",Which lung lobe has the least opacities?,freeform
+synpic28378.jpg,CHEST,Mediport,OPEN,PRES,What is on the anterior wall of the right chest?,freeform
+synpic42210.jpg,CHEST,anterior mediastinum,OPEN,POS,Where is the location of the mass?,freeform
+synpic100176.jpg,CHEST,plain film,OPEN,MODALITY,What modality was used?,freeform
+synpic16407.jpg,CHEST,Bilateral lungs,OPEN,POS,Which side of the lungs are hyperinflated?,freeform
+synpic32962.jpg,CHEST,"Right of the midline, superior to the right hilum",OPEN,POS,Where is the opacity located?,freeform
+synpic100228.jpg,CHEST,Stomach,OPEN,POS,What is the location of the three circular opacities?,para
+synpic100228.jpg,CHEST,Stomach,OPEN,POS,Where are the three circular opacities located?,freeform
+

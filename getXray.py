@@ -83,6 +83,7 @@ def to_dataframe(data: List[Dict]):
 #     # print(question_type.keys())
 
 # write csv file split train and test
+q_type = dict()
 if not os.path.isdir("./Xray"):
     os.mkdir("./Xray")
 for it in range(len(train_test_list)):
@@ -127,16 +128,28 @@ for it in range(len(train_test_list)):
             question_type_file.write('\n')
 
             for g in question_type:
+                if g[0] not in q_type:
+                    q_type[g[0]] = dict()
+
                 question_type_file.write(g[0]+":"+str(len(g[1]))+"\n")
                 question_type_file.write('\n')
                 name = g[1].groupby('image_name')
                 name = name[["question","answer","answer_type"]]
+
+
+                
                 for n in name:
+                    if n[0].split('.')[0] not in q_type[g[0]]:
+                        q_type[g[0]][n[0].split('.')[0]] = list()
+                    for it in n[1].itertuples():
+
+                        q_type[g[0]][n[0].split('.')[0]].append(str(it.question)+","+str(it.answer)+","+str(it.answer_type))
                     question_type_file.write(n[0].split('.')[0]+":"+str(len(n[1]))+"\n")
                     question_type_file.write('\n')
                     question_type_file.write(n[1].to_csv(index=False, header=False))
                     question_type_file.write('=====================================\n')
-                    
+                
+
                 question_type_file.write('=====================================\n')
 
 
@@ -157,6 +170,19 @@ for it in range(len(train_test_list)):
         # jsonset = jsonset[fliter]
         
         # train_test(jsonset,write)
+
+write = open("QuestionType.txt", 'w', encoding='UTF8', newline='')
+for typ in q_type:
+    total = sum([len(q_type[typ][image]) for image in q_type[typ]])
+    write.write(typ+":"+str(total)+"\n")
+    # write.write(typ+":"+str(len(q_type[typ]))+"\n")
+    for image in q_type[typ]:
+        write.write(image+":"+str(len(q_type[typ][image]))+"\n")
+        for item in q_type[typ][image]:
+            write.write(str(item)+"\n")
+        write.write("=====================================\n")
+write.close()
+
 
 
 

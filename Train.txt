@@ -1,1517 +1,1517 @@
 image_name,question,answer,answer_type,question_type
 synpic100132:6
 
-synpic100132.jpg,CHEST,yes,CLOSED,ORGAN,Does this radiograph contain parts of the cardiovascular system?,freeform
-synpic100132.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic100132.jpg,CHEST,PA,CLOSED,PLANE,Was this image taken in the AP or PA plane?,freeform
-synpic100132.jpg,CHEST,3rd rib,OPEN,POS,Which rib is fractured?,freeform
-synpic100132.jpg,CHEST,no,CLOSED,MODALITY,Is this a CT scan?,freeform
-synpic100132.jpg,CHEST,The left costophrenic angle is blunted,OPEN,OTHER,What is the difference between the left and right costophrenic angles?,freeform
+Does this radiograph contain parts of the cardiovascular system?,yes,CLOSED,ORGAN
+Is the heart enlarged?,No,CLOSED,SIZE
+Was this image taken in the AP or PA plane?,PA,CLOSED,PLANE
+Which rib is fractured?,3rd rib,OPEN,POS
+Is this a CT scan?,no,CLOSED,MODALITY
+What is the difference between the left and right costophrenic angles?,The left costophrenic angle is blunted,OPEN,OTHER
 
 =====================================
 synpic100176:8
 
-synpic100176.jpg,CHEST,PA,CLOSED,MODALITY,Is this a PA or AP film?,freeform
-synpic100176.jpg,CHEST,PA,OPEN,MODALITY,What laterality is this film?,para
-synpic100176.jpg,CHEST,No,CLOSED,ABN,Are the margins of the cardiac silhouette normal?,freeform
-synpic100176.jpg,CHEST,No,CLOSED,ABN,Is/Are the cardiac silhouette normal?,frame
-synpic100176.jpg,CHEST,No,CLOSED,ABN,Is the heart border normal?,para
-synpic100176.jpg,CHEST,No,CLOSED,ABN,Is/Are the heart border normal?,frame
-synpic100176.jpg,CHEST,no,CLOSED,PRES,Is/Are there pneumoperitoneum?,frame
-synpic100176.jpg,CHEST,no,CLOSED,PRES,Is/Are there pneumoperitoneum?,frame
+Is this a PA or AP film?,PA,CLOSED,MODALITY
+What laterality is this film?,PA,OPEN,MODALITY
+Are the margins of the cardiac silhouette normal?,No,CLOSED,ABN
+Is/Are the cardiac silhouette normal?,No,CLOSED,ABN
+Is the heart border normal?,No,CLOSED,ABN
+Is/Are the heart border normal?,No,CLOSED,ABN
+Is/Are there pneumoperitoneum?,no,CLOSED,PRES
+Is/Are there pneumoperitoneum?,no,CLOSED,PRES
 
 =====================================
 synpic100228:9
 
-synpic100228.jpg,CHEST,No,CLOSED,PRES,Is there evidence of a pleural effusion?,freeform
-synpic100228.jpg,CHEST,AP,OPEN,PLANE,What plane was this chest film taken in?,para
-synpic100228.jpg,CHEST,AP,CLOSED,PLANE,Is this an AP or PA film?,freeform
-synpic100228.jpg,CHEST,Stomach,OPEN,POS,Where are the three circular opacities located?,frame
-synpic100228.jpg,CHEST,Stomach,OPEN,POS,Where are the three circular opacities located?,frame
-synpic100228.jpg,CHEST,No,CLOSED,SIZE,Is there cardiomegaly?,para
-synpic100228.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic100228.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic100228.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
+Is there evidence of a pleural effusion?,No,CLOSED,PRES
+What plane was this chest film taken in?,AP,OPEN,PLANE
+Is this an AP or PA film?,AP,CLOSED,PLANE
+Where are the three circular opacities located?,Stomach,OPEN,POS
+Where are the three circular opacities located?,Stomach,OPEN,POS
+Is there cardiomegaly?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
 
 =====================================
 synpic12210:11
 
-synpic12210.jpg,CHEST,x-ray,OPEN,MODALITY,What imaging modality was used?,para
-synpic12210.jpg,CHEST,x-ray,OPEN,MODALITY,What type of image is this?,freeform
-synpic12210.jpg,CHEST,nodules,OPEN,PRES,What is at the base of the right lung?,freeform
-synpic12210.jpg,CHEST,nodules,OPEN,PRES,What is/are the pathology near/in the base of the lungs?,frame
-synpic12210.jpg,CHEST,nodules,OPEN,PRES,What pathology is shown at the lung bases?,para
-synpic12210.jpg,CHEST,nodules,OPEN,PRES,What is/are the pathology near/in the base of the lungs?,frame
-synpic12210.jpg,CHEST,yes,CLOSED,PRES,Is/Are the nodules located near/in the both lungs?,frame
-synpic12210.jpg,CHEST,Yes,CLOSED,SIZE,Do the lungs appear hyperinflated?,freeform
-synpic12210.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are there hyperinflation?,frame
-synpic12210.jpg,CHEST,Yes,CLOSED,SIZE,Is hyperinflation depicted?,para
-synpic12210.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are there hyperinflation?,frame
+What imaging modality was used?,x-ray,OPEN,MODALITY
+What type of image is this?,x-ray,OPEN,MODALITY
+What is at the base of the right lung?,nodules,OPEN,PRES
+What is/are the pathology near/in the base of the lungs?,nodules,OPEN,PRES
+What pathology is shown at the lung bases?,nodules,OPEN,PRES
+What is/are the pathology near/in the base of the lungs?,nodules,OPEN,PRES
+Is/Are the nodules located near/in the both lungs?,yes,CLOSED,PRES
+Do the lungs appear hyperinflated?,Yes,CLOSED,SIZE
+Is/Are there hyperinflation?,Yes,CLOSED,SIZE
+Is hyperinflation depicted?,Yes,CLOSED,SIZE
+Is/Are there hyperinflation?,Yes,CLOSED,SIZE
 
 =====================================
 synpic13385:12
 
-synpic13385.jpg,CHEST,Left,OPEN,POS,Which lung has more extensive infiltration?,freeform
-synpic13385.jpg,CHEST,Left,OPEN,POS,Where is/are the most infiltrates  located?,frame
-synpic13385.jpg,CHEST,Left lung,OPEN,POS,Where are the most infiltrates located?,para
-synpic13385.jpg,CHEST,Left lung,OPEN,POS,Where is/are the most infiltrates  located?,frame
-synpic13385.jpg,CHEST,No,CLOSED,ABN,Is the air under the left hemidiaphragm pathologic?,para
-synpic13385.jpg,CHEST,No,CLOSED,ABN,Is/Are the air under the left hemidiaphragm pathologic?,frame
-synpic13385.jpg,CHEST,No,CLOSED,PRES,Is subdiaphragmatic air present on the left side?,freeform
-synpic13385.jpg,CHEST,No,CLOSED,PRES,Is/Are there subdiaphragmatic air in the patient's left side? ,frame
-synpic13385.jpg,CHEST,A bullous lesion,OPEN,PRES,What is/are the that near/in the left apex?,frame
-synpic13385.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pneumonthorax in the patient's left apex?,frame
-synpic13385.jpg,CHEST,Midline,OPEN,PRES,Is the trachea midline?,freeform
-synpic13385.jpg,CHEST,Midline,OPEN,PRES,Where is/are the trachea located?,frame
+Which lung has more extensive infiltration?,Left,OPEN,POS
+Where is/are the most infiltrates  located?,Left,OPEN,POS
+Where are the most infiltrates located?,Left lung,OPEN,POS
+Where is/are the most infiltrates  located?,Left lung,OPEN,POS
+Is the air under the left hemidiaphragm pathologic?,No,CLOSED,ABN
+Is/Are the air under the left hemidiaphragm pathologic?,No,CLOSED,ABN
+Is subdiaphragmatic air present on the left side?,No,CLOSED,PRES
+Is/Are there subdiaphragmatic air in the patient's left side? ,No,CLOSED,PRES
+What is/are the that near/in the left apex?,A bullous lesion,OPEN,PRES
+Is/Are there a pneumonthorax in the patient's left apex?,No,CLOSED,PRES
+Is the trachea midline?,Midline,OPEN,PRES
+Where is/are the trachea located?,Midline,OPEN,PRES
 
 =====================================
 synpic15006:13
 
-synpic15006.jpg,CHEST,yes,CLOSED,SIZE,Is there cardiomegaly?,freeform
-synpic15006.jpg,CHEST,yes,CLOSED,SIZE,Is there cardiomegaly,frame
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Is there deviation in the trachea?,para
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Is there tracheal deviation?,frame
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Is there tracheal deviation?,freeform
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Is there tracheal deviation?,frame
-synpic15006.jpg,CHEST,Yes,CLOSED,SIZE,Is the heart size abnormal?,freeform
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Are there pleural effusions present?,freeform
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Is/Are there pleural effusions?,frame
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Is there presence of pleural effusions in this patient?,para
-synpic15006.jpg,CHEST,No,CLOSED,PRES,Is/Are there pleural effusions?,frame
-synpic15006.jpg,CHEST,no,CLOSED,PLANE,Is this film taken AP?,freeform
-synpic15006.jpg,CHEST,No,CLOSED,MODALITY,Is this a special kind of X-ray?,freeform
+Is there cardiomegaly?,yes,CLOSED,SIZE
+Is there cardiomegaly,yes,CLOSED,SIZE
+Is there deviation in the trachea?,No,CLOSED,PRES
+Is there tracheal deviation?,No,CLOSED,PRES
+Is there tracheal deviation?,No,CLOSED,PRES
+Is there tracheal deviation?,No,CLOSED,PRES
+Is the heart size abnormal?,Yes,CLOSED,SIZE
+Are there pleural effusions present?,No,CLOSED,PRES
+Is/Are there pleural effusions?,No,CLOSED,PRES
+Is there presence of pleural effusions in this patient?,No,CLOSED,PRES
+Is/Are there pleural effusions?,No,CLOSED,PRES
+Is this film taken AP?,no,CLOSED,PLANE
+Is this a special kind of X-ray?,No,CLOSED,MODALITY
 
 =====================================
 synpic16170:2
 
-synpic16170.jpg,CHEST,Left mid lung,OPEN,POS,Where is the lesion located?,freeform
-synpic16170.jpg,CHEST,No,CLOSED,PRES,Does this patient have any fractured ribs?,freeform
+Where is the lesion located?,Left mid lung,OPEN,POS
+Does this patient have any fractured ribs?,No,CLOSED,PRES
 
 =====================================
 synpic16174:13
 
-synpic16174.jpg,CHEST,Yes,CLOSED,ATTRIB,Is the descending aortic silhouette of normal contour?,para
-synpic16174.jpg,CHEST,Yes,CLOSED,"ATTRIB, SIZE",Is the descending aortic silhouette of normal contour and size?,freeform
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Is there tortuosity of the descending aorta?,freeform
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there tortuosity in the patient's aorta?,frame
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Is the descending aortic silhouette of normal size?,freeform
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there tortuosity in the patient's aorta?,frame
-synpic16174.jpg,CHEST,Yes,CLOSED,SIZE,Is the descending aortic silhouette of normal size?,para
-synpic16174.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart size normal?,frame
-synpic16174.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart size normal?,frame
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,What is/are the EKG leads near/in the lungs?,frame
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Is there evidence of left lung field hyperinflation?,freeform
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Has the left lung collapsed?,freeform
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there collapse in the patient's left lung?,frame
+Is the descending aortic silhouette of normal contour?,Yes,CLOSED,ATTRIB
+Is the descending aortic silhouette of normal contour and size?,Yes,CLOSED,"ATTRIB, SIZE"
+Is there tortuosity of the descending aorta?,Yes,CLOSED,PRES
+Is/Are there tortuosity in the patient's aorta?,Yes,CLOSED,PRES
+Is the descending aortic silhouette of normal size?,Yes,CLOSED,PRES
+Is/Are there tortuosity in the patient's aorta?,Yes,CLOSED,PRES
+Is the descending aortic silhouette of normal size?,Yes,CLOSED,SIZE
+Is/Are the heart size normal?,Yes,CLOSED,SIZE
+Is/Are the heart size normal?,Yes,CLOSED,SIZE
+What is/are the EKG leads near/in the lungs?,Yes,CLOSED,PRES
+Is there evidence of left lung field hyperinflation?,Yes,CLOSED,PRES
+Has the left lung collapsed?,Yes,CLOSED,PRES
+Is/Are there collapse in the patient's left lung?,Yes,CLOSED,PRES
 
 =====================================
 synpic16221:10
 
-synpic16221.jpg,CHEST,no,CLOSED,PLANE,Is this an axial image?,freeform
-synpic16221.jpg,CHEST,No,CLOSED,OTHER,Is there pneumothorax?,para
-synpic16221.jpg,CHEST,Lung markings present all the way laterally to the ribs,OPEN,OTHER,How can you tell there is no pneumothorax present?,freeform
-synpic16221.jpg,CHEST,The right mainstem bronchus is more in line with the trachea than the left,OPEN,OTHER,Why is the right lung most common location for aspirations?,freeform
-synpic16221.jpg,CHEST,No,CLOSED,PRES,Is the trachea deviated from midline?,freeform
-synpic16221.jpg,CHEST,No,CLOSED,PRES,Is/Are there tracheal deviation?,frame
-synpic16221.jpg,CHEST,No,CLOSED,PRES,Is there tracheal deviation?,para
-synpic16221.jpg,CHEST,No,CLOSED,PRES,Is/Are there tracheal deviation?,frame
-synpic16221.jpg,CHEST,Air,OPEN,OTHER,What does the black on an x ray indicate?,freeform
-synpic16221.jpg,CHEST,Right,OPEN,POS,Which side is the abnormality on?,freeform
+Is this an axial image?,no,CLOSED,PLANE
+Is there pneumothorax?,No,CLOSED,OTHER
+How can you tell there is no pneumothorax present?,Lung markings present all the way laterally to the ribs,OPEN,OTHER
+Why is the right lung most common location for aspirations?,The right mainstem bronchus is more in line with the trachea than the left,OPEN,OTHER
+Is the trachea deviated from midline?,No,CLOSED,PRES
+Is/Are there tracheal deviation?,No,CLOSED,PRES
+Is there tracheal deviation?,No,CLOSED,PRES
+Is/Are there tracheal deviation?,No,CLOSED,PRES
+What does the black on an x ray indicate?,Air,OPEN,OTHER
+Which side is the abnormality on?,Right,OPEN,POS
 
 =====================================
 synpic16407:11
 
-synpic16407.jpg,CHEST,Yes,CLOSED,SIZE,Are the pulmonary arteries enlarged?,freeform
-synpic16407.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the pulmonary arteries enlarged?,frame
-synpic16407.jpg,CHEST,Yes,CLOSED,SIZE,Do the pulmonary arteries appear enlarged?,para
-synpic16407.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the pulmonary arteries enlarged?,frame
-synpic16407.jpg,CHEST,Yes,CLOSED,PRES,Are the lungs hyperinflated?,freeform
-synpic16407.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the lungs hyperinflated?,frame
-synpic16407.jpg,CHEST,Yes,CLOSED,PRES,Do the lungs appear hyperinflated?,para
-synpic16407.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the lungs hyperinflated?,frame
-synpic16407.jpg,CHEST,Chest X-ray,OPEN,MODALITY,What type of image is this?,freeform
-synpic16407.jpg,CHEST,Chest X-ray,OPEN,MODALITY,What image modality is this?,para
-synpic16407.jpg,CHEST,Bilateral lungs,OPEN,POS,Where is/are the hyperinflated lungs located?,frame
+Are the pulmonary arteries enlarged?,Yes,CLOSED,SIZE
+Is/Are the pulmonary arteries enlarged?,Yes,CLOSED,SIZE
+Do the pulmonary arteries appear enlarged?,Yes,CLOSED,SIZE
+Is/Are the pulmonary arteries enlarged?,Yes,CLOSED,SIZE
+Are the lungs hyperinflated?,Yes,CLOSED,PRES
+Is/Are the lungs hyperinflated?,Yes,CLOSED,PRES
+Do the lungs appear hyperinflated?,Yes,CLOSED,PRES
+Is/Are the lungs hyperinflated?,Yes,CLOSED,PRES
+What type of image is this?,Chest X-ray,OPEN,MODALITY
+What image modality is this?,Chest X-ray,OPEN,MODALITY
+Where is/are the hyperinflated lungs located?,Bilateral lungs,OPEN,POS
 
 =====================================
 synpic16810:13
 
-synpic16810.jpg,CHEST,yes,CLOSED,PLANE,Is this in the PA plane?,freeform
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Do you see a pleural effusion?,freeform
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is/Are there a Pleural effusion?,frame
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is a pleural effusion present?,para
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is/Are there a Pleural effusion?,frame
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Can you evaluate the kidneys 	bladde r	or ureters in this image?,freeform
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is/Are there hilar adenopathy?,frame
-synpic16810.jpg,CHEST,If the heart diameter is greater than half the diameter of the thoracic cavity.,OPEN,OTHER,How do you determine cardiomegaly?,freeform
-synpic16810.jpg,CHEST,C-T ratio,OPEN,OTHER,How do you determine if the heart is enlarged?,freeform
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is there a midline shift?,freeform
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is/Are there midline shift?,frame
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is the trachea shifted?,para
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is/Are there midline shift?,frame
+Is this in the PA plane?,yes,CLOSED,PLANE
+Do you see a pleural effusion?,No,CLOSED,PRES
+Is/Are there a Pleural effusion?,No,CLOSED,PRES
+Is a pleural effusion present?,No,CLOSED,PRES
+Is/Are there a Pleural effusion?,No,CLOSED,PRES
+Can you evaluate the kidneys 	bladde r	or ureters in this image?,No,CLOSED,PRES
+Is/Are there hilar adenopathy?,No,CLOSED,PRES
+How do you determine cardiomegaly?,If the heart diameter is greater than half the diameter of the thoracic cavity.,OPEN,OTHER
+How do you determine if the heart is enlarged?,C-T ratio,OPEN,OTHER
+Is there a midline shift?,No,CLOSED,PRES
+Is/Are there midline shift?,No,CLOSED,PRES
+Is the trachea shifted?,No,CLOSED,PRES
+Is/Are there midline shift?,No,CLOSED,PRES
 
 =====================================
 synpic17145:13
 
-synpic17145.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax seen in the above image?,freeform
-synpic17145.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pneumothorax?,frame
-synpic17145.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,para
-synpic17145.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pneumothorax?,frame
-synpic17145.jpg,CHEST,right,OPEN,POS,In which side is the hemidiaphragm elevated?,para
-synpic17145.jpg,CHEST,right,OPEN,POS,Where is the diaphragm elevation located?,frame
-synpic17145.jpg,CHEST,right,OPEN,POS,Which diaphragm is elevated?,freeform
-synpic17145.jpg,CHEST,right,OPEN,POS,Where is the diaphragm elevation located?,frame
-synpic17145.jpg,CHEST,Xray,OPEN,MODALITY,What type of imaging is this?,freeform
-synpic17145.jpg,CHEST,bilateral pleural effusion,OPEN,ABN,What is the pathology seen above?,freeform
-synpic17145.jpg,CHEST,bilateral pleural effusion,OPEN,ABN,What is abnormal in this image?,frame
-synpic17145.jpg,CHEST,bilateral pleural effusion,OPEN,ABN,What abnormality is seen in this image?,para
-synpic17145.jpg,CHEST,bilateral pleural effusion,OPEN,ABN,What is abnormal in this image?,frame
+Is there a pneumothorax seen in the above image?,No,CLOSED,PRES
+Is/Are there a pneumothorax?,No,CLOSED,PRES
+Is there a pneumothorax present?,No,CLOSED,PRES
+Is/Are there a pneumothorax?,No,CLOSED,PRES
+In which side is the hemidiaphragm elevated?,right,OPEN,POS
+Where is the diaphragm elevation located?,right,OPEN,POS
+Which diaphragm is elevated?,right,OPEN,POS
+Where is the diaphragm elevation located?,right,OPEN,POS
+What type of imaging is this?,Xray,OPEN,MODALITY
+What is the pathology seen above?,bilateral pleural effusion,OPEN,ABN
+What is abnormal in this image?,bilateral pleural effusion,OPEN,ABN
+What abnormality is seen in this image?,bilateral pleural effusion,OPEN,ABN
+What is abnormal in this image?,bilateral pleural effusion,OPEN,ABN
 
 =====================================
 synpic17664:10
 
-synpic17664.jpg,CHEST,Yes,CLOSED,PRES,Do the lung markings extend to the periphery?,para
-synpic17664.jpg,CHEST,No,CLOSED,PRES,Is a pneumothorax present in this image?,freeform
-synpic17664.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the diaphragm visualized?,frame
-synpic17664.jpg,CHEST,No,CLOSED,PRES,Is/Are the diaphragm obscured?,frame
-synpic17664.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform
-synpic17664.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the trachea in a normal position?,frame
-synpic17664.jpg,CHEST,Right lung,OPEN,POS,Which lung are more markings present in?,freeform
-synpic17664.jpg,CHEST,Right lung,OPEN,POS,Where is/are the most lung markings located?,frame
-synpic17664.jpg,CHEST,Right lung,OPEN,POS,Where are the most lung markings?,para
-synpic17664.jpg,CHEST,Right lung,OPEN,POS,Where is/are the most lung markings located?,frame
+Do the lung markings extend to the periphery?,Yes,CLOSED,PRES
+Is a pneumothorax present in this image?,No,CLOSED,PRES
+Is/Are the diaphragm visualized?,Yes,CLOSED,PRES
+Is/Are the diaphragm obscured?,No,CLOSED,PRES
+Is the trachea midline?,Yes,CLOSED,PRES
+Is/Are the trachea in a normal position?,Yes,CLOSED,PRES
+Which lung are more markings present in?,Right lung,OPEN,POS
+Where is/are the most lung markings located?,Right lung,OPEN,POS
+Where are the most lung markings?,Right lung,OPEN,POS
+Where is/are the most lung markings located?,Right lung,OPEN,POS
 
 =====================================
 synpic17675:14
 
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is there free air under the diaphragm?,freeform
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is/Are there free air in the patient's (under the) diaphragm?,frame
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is subdiaphragmatic free air present?,para
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is/Are there free air in the patient's (under the) diaphragm?,frame
-synpic17675.jpg,CHEST,no,CLOSED,PRES,Are there cilia present at the level of alveoli?,freeform
-synpic17675.jpg,CHEST,no,CLOSED,OTHER,Can x rays be used to identify liver lesions?,freeform
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax?,para
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is a pneuomothorax present?,freeform
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Are there any fractures in this image?,freeform
-synpic17675.jpg,CHEST,No,CLOSED,PRES,Is/Are the bones fractured? -yes/no,frame
-synpic17675.jpg,CHEST,Sharp costophrenic angles,OPEN,PRES,What indicates there is no pleural effusion present?,freeform
-synpic17675.jpg,CHEST,Sharp costophrenic angles,OPEN,PRES,What sign determines the absence of a pleural effusion?,para
+Is there free air under the diaphragm?,No,CLOSED,PRES
+Is/Are there free air in the patient's (under the) diaphragm?,No,CLOSED,PRES
+Is subdiaphragmatic free air present?,No,CLOSED,PRES
+Is/Are there free air in the patient's (under the) diaphragm?,No,CLOSED,PRES
+Are there cilia present at the level of alveoli?,no,CLOSED,PRES
+Can x rays be used to identify liver lesions?,no,CLOSED,OTHER
+Is there a pneumothorax?,No,CLOSED,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Is a pneuomothorax present?,No,CLOSED,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Are there any fractures in this image?,No,CLOSED,PRES
+Is/Are the bones fractured? -yes/no,No,CLOSED,PRES
+What indicates there is no pleural effusion present?,Sharp costophrenic angles,OPEN,PRES
+What sign determines the absence of a pleural effusion?,Sharp costophrenic angles,OPEN,PRES
 
 =====================================
 synpic17693:10
 
-synpic17693.jpg,CHEST,PA,OPEN,PLANE,How is the image oriented?,para
-synpic17693.jpg,CHEST,PA,OPEN,PLANE,What plane is this X-ray in?,freeform
-synpic17693.jpg,CHEST,No,CLOSED,ABN,Is the image normal?,freeform
-synpic17693.jpg,CHEST,No,CLOSED,ABN,Is this image normal?,frame
-synpic17693.jpg,CHEST,Adenopathy,OPEN,OTHER,What are the lesions indicative of?,freeform
-synpic17693.jpg,CHEST,Infection,OPEN,OTHER,What are the lesions consistent with?,freeform
-synpic17693.jpg,CHEST,Paratracheal area,OPEN,POS,Where are the lesions located?,freeform
-synpic17693.jpg,CHEST,Paratracheal area,OPEN,POS,Where is/are the lesions located?,frame
-synpic17693.jpg,CHEST,Paratracheal area,OPEN,POS,Where are the lesions?,para
-synpic17693.jpg,CHEST,Paratracheal area,OPEN,POS,Where is/are the lesions located?,frame
+How is the image oriented?,PA,OPEN,PLANE
+What plane is this X-ray in?,PA,OPEN,PLANE
+Is the image normal?,No,CLOSED,ABN
+Is this image normal?,No,CLOSED,ABN
+What are the lesions indicative of?,Adenopathy,OPEN,OTHER
+What are the lesions consistent with?,Infection,OPEN,OTHER
+Where are the lesions located?,Paratracheal area,OPEN,POS
+Where is/are the lesions located?,Paratracheal area,OPEN,POS
+Where are the lesions?,Paratracheal area,OPEN,POS
+Where is/are the lesions located?,Paratracheal area,OPEN,POS
 
 =====================================
 synpic17738:9
 
-synpic17738.jpg,CHEST,3.4 cm,OPEN,SIZE,What is the size of the mass in the right upper quadrant?,frame
-synpic17738.jpg,CHEST,3.4 cm,OPEN,SIZE,What is the size of the mass in the right upper quadrant?,frame
-synpic17738.jpg,CHEST,Chest,OPEN,ORGAN,What organ system is being imaged?,freeform
-synpic17738.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic17738.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic17738.jpg,CHEST,yes,CLOSED,PLANE,Is this a PA film?,freeform
-synpic17738.jpg,CHEST,Right upper lobe,OPEN,POS,Where is/are the abnormal mass  located?,frame
-synpic17738.jpg,CHEST,Right upper lobe,OPEN,POS,Where is/are the abnormal mass  located?,frame
-synpic17738.jpg,CHEST,emphysema,OPEN,OTHER,The cystic findings in the bilateral apices are consistent with what pathology?,freeform
+What is the size of the mass in the right upper quadrant?,3.4 cm,OPEN,SIZE
+What is the size of the mass in the right upper quadrant?,3.4 cm,OPEN,SIZE
+What organ system is being imaged?,Chest,OPEN,ORGAN
+Is the heart enlarged?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is this a PA film?,yes,CLOSED,PLANE
+Where is/are the abnormal mass  located?,Right upper lobe,OPEN,POS
+Where is/are the abnormal mass  located?,Right upper lobe,OPEN,POS
+The cystic findings in the bilateral apices are consistent with what pathology?,emphysema,OPEN,OTHER
 
 =====================================
 synpic17848:16
 
-synpic17848.jpg,CHEST,Chest xray,OPEN,MODALITY,What type of image is this?,freeform
-synpic17848.jpg,CHEST,No,CLOSED,PRES,Is there evidence of pneumothorax?,freeform
-synpic17848.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic17848.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax?,para
-synpic17848.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic17848.jpg,CHEST,No,CLOSED,ABN,Are the findings normal?,para
-synpic17848.jpg,CHEST,No,CLOSED,ABN,Is this image normal?,frame
-synpic17848.jpg,CHEST,No,CLOSED,ABN,Is this a normal image?,freeform
-synpic17848.jpg,CHEST,No,CLOSED,ABN,Is this image normal?,frame
-synpic17848.jpg,CHEST,Respiratory 	cardia c	musculoskeletal,OPEN,ORGAN,What organ systems can be evaluated with this image?,freeform
-synpic17848.jpg,CHEST,no,CLOSED,PLANE,Is this image best taken on expiration?,freeform
-synpic17848.jpg,CHEST,Yes,CLOSED,ATTRIB,Is/Are the nodules well circumscribed? -yes/no,frame
-synpic17848.jpg,CHEST,Bilateral lungs,OPEN,POS,What lung are the pulmonary nodules in?,freeform
-synpic17848.jpg,CHEST,Bilateral lungs,OPEN,POS,Where is/are the nodules located?,frame
-synpic17848.jpg,CHEST,Bilateral lungs,OPEN,POS,Where are the nodules located?,para
-synpic17848.jpg,CHEST,Bilateral lungs,OPEN,POS,Where is/are the nodules located?,frame
+What type of image is this?,Chest xray,OPEN,MODALITY
+Is there evidence of pneumothorax?,No,CLOSED,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Is there a pneumothorax?,No,CLOSED,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Are the findings normal?,No,CLOSED,ABN
+Is this image normal?,No,CLOSED,ABN
+Is this a normal image?,No,CLOSED,ABN
+Is this image normal?,No,CLOSED,ABN
+What organ systems can be evaluated with this image?,Respiratory 	cardia c	musculoskeletal,OPEN,ORGAN
+Is this image best taken on expiration?,no,CLOSED,PLANE
+Is/Are the nodules well circumscribed? -yes/no,Yes,CLOSED,ATTRIB
+What lung are the pulmonary nodules in?,Bilateral lungs,OPEN,POS
+Where is/are the nodules located?,Bilateral lungs,OPEN,POS
+Where are the nodules located?,Bilateral lungs,OPEN,POS
+Where is/are the nodules located?,Bilateral lungs,OPEN,POS
 
 =====================================
 synpic18250:14
 
-synpic18250.jpg,CHEST,Yes,CLOSED,PRES,Are the airway walls thickened in the bases?,para
-synpic18250.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there thickening in the patient's airway walls?,frame
-synpic18250.jpg,CHEST,Yes,CLOSED,PRES,Is there increased airway wall thickening of the bilateral bases?,freeform
-synpic18250.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there thickening in the patient's airway walls?,frame
-synpic18250.jpg,CHEST,Yes,CLOSED,ABN,Are there abnormalities?,freeform
-synpic18250.jpg,CHEST,Yes,CLOSED,ABN,Is this image abnormal?,frame
-synpic18250.jpg,CHEST,Yes,CLOSED,ABN,Is anything wrong in this image?,para
-synpic18250.jpg,CHEST,Yes,CLOSED,ABN,Is this image abnormal?,frame
-synpic18250.jpg,CHEST,No,CLOSED,PRES,Is there consolidation in the lungs?,freeform
-synpic18250.jpg,CHEST,No,CLOSED,PRES,Is/Are there consolidation in the patient's lungs?,frame
-synpic18250.jpg,CHEST,Increased opacity in the left retrocardiac region,OPEN,ABN,Name one abnormality in the radiograph.,freeform
-synpic18250.jpg,CHEST,Increased opacity in the left retrocardiac region,OPEN,ABN,What is abnormal in this image?,frame
-synpic18250.jpg,CHEST,Increased opacity in the left retrocardiac region,OPEN,ABN,What is one abnormality that can be seen in the image?,para
-synpic18250.jpg,CHEST,Increased opacity in the left retrocardiac region,OPEN,ABN,What is abnormal in this image?,frame
+Are the airway walls thickened in the bases?,Yes,CLOSED,PRES
+Is/Are there thickening in the patient's airway walls?,Yes,CLOSED,PRES
+Is there increased airway wall thickening of the bilateral bases?,Yes,CLOSED,PRES
+Is/Are there thickening in the patient's airway walls?,Yes,CLOSED,PRES
+Are there abnormalities?,Yes,CLOSED,ABN
+Is this image abnormal?,Yes,CLOSED,ABN
+Is anything wrong in this image?,Yes,CLOSED,ABN
+Is this image abnormal?,Yes,CLOSED,ABN
+Is there consolidation in the lungs?,No,CLOSED,PRES
+Is/Are there consolidation in the patient's lungs?,No,CLOSED,PRES
+Name one abnormality in the radiograph.,Increased opacity in the left retrocardiac region,OPEN,ABN
+What is abnormal in this image?,Increased opacity in the left retrocardiac region,OPEN,ABN
+What is one abnormality that can be seen in the image?,Increased opacity in the left retrocardiac region,OPEN,ABN
+What is abnormal in this image?,Increased opacity in the left retrocardiac region,OPEN,ABN
 
 =====================================
 synpic18319:10
 
-synpic18319.jpg,CHEST,Pulmonary nodules,OPEN,ABN,What is/are the abnormalities  near/in the lung?,frame
-synpic18319.jpg,CHEST,Pulmonary nodules,OPEN,ABN,What is/are the abnormalities  near/in the lung?,frame
-synpic18319.jpg,CHEST,Prior surgery,OPEN,OTHER,What can cause asymmetrical breasts?,para
-synpic18319.jpg,CHEST,Prior surgery,OPEN,OTHER,Why are the breasts asymmetrical?,freeform
-synpic18319.jpg,CHEST,Right superior cavoatrial junction,OPEN,POS,Where is the catheter tip located?,freeform
-synpic18319.jpg,CHEST,Right superior cavoatrial junction,OPEN,POS,Where is/are the catheter tip located?,frame
-synpic18319.jpg,CHEST,Right superior cavoatrial junction,OPEN,POS,Where does the catheter tip extend into?,para
-synpic18319.jpg,CHEST,Right superior cavoatrial junction,OPEN,POS,Where is/are the catheter tip located?,frame
-synpic18319.jpg,CHEST,Bilateral,OPEN,POS,Which lung are the nodules located in?,freeform
-synpic18319.jpg,CHEST,Bilateral,OPEN,POS,Where is/are the nodules located?,frame
+What is/are the abnormalities  near/in the lung?,Pulmonary nodules,OPEN,ABN
+What is/are the abnormalities  near/in the lung?,Pulmonary nodules,OPEN,ABN
+What can cause asymmetrical breasts?,Prior surgery,OPEN,OTHER
+Why are the breasts asymmetrical?,Prior surgery,OPEN,OTHER
+Where is the catheter tip located?,Right superior cavoatrial junction,OPEN,POS
+Where is/are the catheter tip located?,Right superior cavoatrial junction,OPEN,POS
+Where does the catheter tip extend into?,Right superior cavoatrial junction,OPEN,POS
+Where is/are the catheter tip located?,Right superior cavoatrial junction,OPEN,POS
+Which lung are the nodules located in?,Bilateral,OPEN,POS
+Where is/are the nodules located?,Bilateral,OPEN,POS
 
 =====================================
 synpic18461:17
 
-synpic18461.jpg,CHEST,Chest x-ray,OPEN,MODALITY,What kind of image is this?,freeform
-synpic18461.jpg,CHEST,Lungs,OPEN,ORGAN,What organ is primarily evaluated in this image?,freeform
-synpic18461.jpg,CHEST,no,CLOSED,PLANE,Is this a lateral film?,freeform
-synpic18461.jpg,CHEST,No,CLOSED,ABN,Are the lungs normal?,para
-synpic18461.jpg,CHEST,No,CLOSED,ABN,Is/Are the lung normal?,frame
-synpic18461.jpg,CHEST,No,CLOSED,ABN,Is the chest x-ray normal?,freeform
-synpic18461.jpg,CHEST,No,CLOSED,ABN,Is this image normal?,frame
-synpic18461.jpg,CHEST,Right,OPEN,POS,Which lung has diffuse opacification?,freeform
-synpic18461.jpg,CHEST,Right,OPEN,POS,Where is/are the opacificaions located?,frame
-synpic18461.jpg,CHEST,Partial silhouetting,OPEN,ATRIB,What is happening to the right heart border?,freeform
-synpic18461.jpg,CHEST,Partial silhouetting,OPEN,ATRIB,How would you describe the R heart??,frame
-synpic18461.jpg,CHEST,Partial silhouetting,OPEN,ATTRIB,How would you describe the R heart border?,para
-synpic18461.jpg,CHEST,Partial silhouetting,OPEN,ATTRIB,How would you describe the R heart??,frame
-synpic18461.jpg,CHEST,no,CLOSED,ATTRIB,Is the right costophrenic angle sharp?,freeform
-synpic18461.jpg,CHEST,no,CLOSED,ATTRIB,Is/Are the R costophrenic angle sharp?,frame
-synpic18461.jpg,CHEST,no,CLOSED,PRES,Is the right costophrenic angle easily visualized?,para
-synpic18461.jpg,CHEST,no,CLOSED,PRES,Is/Are the R costophrenic angle sharp?,frame
+What kind of image is this?,Chest x-ray,OPEN,MODALITY
+What organ is primarily evaluated in this image?,Lungs,OPEN,ORGAN
+Is this a lateral film?,no,CLOSED,PLANE
+Are the lungs normal?,No,CLOSED,ABN
+Is/Are the lung normal?,No,CLOSED,ABN
+Is the chest x-ray normal?,No,CLOSED,ABN
+Is this image normal?,No,CLOSED,ABN
+Which lung has diffuse opacification?,Right,OPEN,POS
+Where is/are the opacificaions located?,Right,OPEN,POS
+What is happening to the right heart border?,Partial silhouetting,OPEN,ATRIB
+How would you describe the R heart??,Partial silhouetting,OPEN,ATRIB
+How would you describe the R heart border?,Partial silhouetting,OPEN,ATTRIB
+How would you describe the R heart??,Partial silhouetting,OPEN,ATTRIB
+Is the right costophrenic angle sharp?,no,CLOSED,ATTRIB
+Is/Are the R costophrenic angle sharp?,no,CLOSED,ATTRIB
+Is the right costophrenic angle easily visualized?,no,CLOSED,PRES
+Is/Are the R costophrenic angle sharp?,no,CLOSED,PRES
 
 =====================================
 synpic18651:8
 
-synpic18651.jpg,CHEST,yes,CLOSED,OTHER,Does this image show heart failure?,para
-synpic18651.jpg,CHEST,yes,CLOSED,OTHER,is this heart failure,freeform
-synpic18651.jpg,CHEST,yes,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic18651.jpg,CHEST,yes,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic18651.jpg,CHEST,cardiomegaly with pulmonary edema,OPEN,ABN,What is abnormal in this image?,frame
-synpic18651.jpg,CHEST,cardiomegaly with pulmonary edema,OPEN,ABN,What is abnormal in this image?,frame
-synpic18651.jpg,CHEST,yes,CLOSED,SIZE,Is the heart greater than 50% of the chest diameter,freeform
-synpic18651.jpg,CHEST,yes,CLOSED,SIZE,Is/Are the heart >50% of chest diameter?,frame
+Does this image show heart failure?,yes,CLOSED,OTHER
+is this heart failure,yes,CLOSED,OTHER
+Is/Are the heart enlarged?,yes,CLOSED,SIZE
+Is/Are the heart enlarged?,yes,CLOSED,SIZE
+What is abnormal in this image?,cardiomegaly with pulmonary edema,OPEN,ABN
+What is abnormal in this image?,cardiomegaly with pulmonary edema,OPEN,ABN
+Is the heart greater than 50% of the chest diameter,yes,CLOSED,SIZE
+Is/Are the heart >50% of chest diameter?,yes,CLOSED,SIZE
 
 =====================================
 synpic18896:11
 
-synpic18896.jpg,CHEST,right sided aortic arch,OPEN,PRES,What is the abnormality seen above the heart on the patient's right side?,para
-synpic18896.jpg,CHEST,right sided aortic arch,OPEN,PRES,What is the abnormality near the heart on the right side?,frame
-synpic18896.jpg,CHEST,right sided aortic arch,OPEN,PRES,what is the bump seen above the heart on the patient's right side?,freeform
-synpic18896.jpg,CHEST,right sided aortic arch,OPEN,PRES,What is the abnormality near the heart on the right side?,frame
-synpic18896.jpg,CHEST,PA Xray,OPEN,MODALITY,Imaging modality used to take this image?,para
-synpic18896.jpg,CHEST,PA Xray,OPEN,MODALITY,What imaging modality is used to acquire this picture?,freeform
-synpic18896.jpg,CHEST,double arch,OPEN,OTHER,What does the abnormal contour of the left hilum suggest in terms of pathology?,freeform
-synpic18896.jpg,CHEST,No,CLOSED,SIZE,Is the patient's heart enlarged?,freeform
-synpic18896.jpg,CHEST,No,CLOSED,SIZE,Is/Are the the heart enlarged ?,frame
-synpic18896.jpg,CHEST,No,CLOSED,SIZE,Does the heart look enlarged?,para
-synpic18896.jpg,CHEST,No,CLOSED,SIZE,Is/Are the the heart enlarged ?,frame
+What is the abnormality seen above the heart on the patient's right side?,right sided aortic arch,OPEN,PRES
+What is the abnormality near the heart on the right side?,right sided aortic arch,OPEN,PRES
+what is the bump seen above the heart on the patient's right side?,right sided aortic arch,OPEN,PRES
+What is the abnormality near the heart on the right side?,right sided aortic arch,OPEN,PRES
+Imaging modality used to take this image?,PA Xray,OPEN,MODALITY
+What imaging modality is used to acquire this picture?,PA Xray,OPEN,MODALITY
+What does the abnormal contour of the left hilum suggest in terms of pathology?,double arch,OPEN,OTHER
+Is the patient's heart enlarged?,No,CLOSED,SIZE
+Is/Are the the heart enlarged ?,No,CLOSED,SIZE
+Does the heart look enlarged?,No,CLOSED,SIZE
+Is/Are the the heart enlarged ?,No,CLOSED,SIZE
 
 =====================================
 synpic19114:12
 
-synpic19114.jpg,CHEST,No,CLOSED,ABN,Are the findings normal?,freeform
-synpic19114.jpg,CHEST,No,CLOSED,ABN,Is this image normal?,frame
-synpic19114.jpg,CHEST,Not sure,CLOSED,OTHER,Would you expect pleural plaques on other pleural surfaces vs just the hemithoraces?,freeform
-synpic19114.jpg,CHEST,Maybe,CLOSED,OTHER,Do you expect the patient to have plaques on other pleura as well?,freeform
-synpic19114.jpg,CHEST,pleural plaques,OPEN,PRES,What are the densities in both mid-lung fields?,freeform
-synpic19114.jpg,CHEST,pleural plaques,OPEN,PRES,What is/are the densities near/in the lung fields?,frame
-synpic19114.jpg,CHEST,pleural plaques,OPEN,PRES,What do the densities in the lung fields represent?,para
-synpic19114.jpg,CHEST,pleural plaques,OPEN,PRES,What is/are the densities near/in the lung fields?,frame
-synpic19114.jpg,CHEST,No,CLOSED,ABN,Are there any abnormalities with the shape of the aortic arch?,freeform
-synpic19114.jpg,CHEST,No,CLOSED,ABN,Is/Are the aortic arch normal?,frame
-synpic19114.jpg,CHEST,No,CLOSED,ABN,Is the aortic arch shape abnormal?,para
-synpic19114.jpg,CHEST,No,CLOSED,ABN,Is/Are the aortic arch normal?,frame
+Are the findings normal?,No,CLOSED,ABN
+Is this image normal?,No,CLOSED,ABN
+Would you expect pleural plaques on other pleural surfaces vs just the hemithoraces?,Not sure,CLOSED,OTHER
+Do you expect the patient to have plaques on other pleura as well?,Maybe,CLOSED,OTHER
+What are the densities in both mid-lung fields?,pleural plaques,OPEN,PRES
+What is/are the densities near/in the lung fields?,pleural plaques,OPEN,PRES
+What do the densities in the lung fields represent?,pleural plaques,OPEN,PRES
+What is/are the densities near/in the lung fields?,pleural plaques,OPEN,PRES
+Are there any abnormalities with the shape of the aortic arch?,No,CLOSED,ABN
+Is/Are the aortic arch normal?,No,CLOSED,ABN
+Is the aortic arch shape abnormal?,No,CLOSED,ABN
+Is/Are the aortic arch normal?,No,CLOSED,ABN
 
 =====================================
 synpic19118:2
 
-synpic19118.jpg,CHEST,No,CLOSED,PRES,Are these small opacities in the right lung calcifications?,freeform
-synpic19118.jpg,CHEST,No,CLOSED,POS,Is this a cyst in the left lung?,freeform
+Are these small opacities in the right lung calcifications?,No,CLOSED,PRES
+Is this a cyst in the left lung?,No,CLOSED,POS
 
 =====================================
 synpic19232:13
 
-synpic19232.jpg,CHEST,Smooth,OPEN,ATTRIB,Describe the borders of the lesion.,freeform
-synpic19232.jpg,CHEST,Smooth,OPEN,ATTRIB,How would you describe the borders of the lesion?,frame
-synpic19232.jpg,CHEST,Smooth,OPEN,ATTRIB,How are the borders of the lesion?,para
-synpic19232.jpg,CHEST,Smooth,OPEN,ATTRIB,How would you describe the borders of the lesion?,frame
-synpic19232.jpg,CHEST,Retrocardiac,OPEN,POS,How would you describe the location of the lesion?,freeform
-synpic19232.jpg,CHEST,Retrocardiac,OPEN,POS,Where is/are the lesion located?,frame
-synpic19232.jpg,CHEST,Retrocardiac,OPEN,POS,Where is the lesion located?,para
-synpic19232.jpg,CHEST,Retrocardiac,OPEN,POS,Where is/are the lesion located?,frame
-synpic19232.jpg,CHEST,Yes,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic19232.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic19232.jpg,CHEST,No,CLOSED,PRES,Are the lungs clear?,freeform
-synpic19232.jpg,CHEST,No,CLOSED,PRES,Is/Are the lungs clear? -yes/no,frame
-synpic19232.jpg,CHEST,Yes,CLOSED,PRES,Are there lungs free of consolidation?,para
+Describe the borders of the lesion.,Smooth,OPEN,ATTRIB
+How would you describe the borders of the lesion?,Smooth,OPEN,ATTRIB
+How are the borders of the lesion?,Smooth,OPEN,ATTRIB
+How would you describe the borders of the lesion?,Smooth,OPEN,ATTRIB
+How would you describe the location of the lesion?,Retrocardiac,OPEN,POS
+Where is/are the lesion located?,Retrocardiac,OPEN,POS
+Where is the lesion located?,Retrocardiac,OPEN,POS
+Where is/are the lesion located?,Retrocardiac,OPEN,POS
+Is the heart enlarged?,Yes,CLOSED,SIZE
+Is/Are the heart enlarged?,Yes,CLOSED,SIZE
+Are the lungs clear?,No,CLOSED,PRES
+Is/Are the lungs clear? -yes/no,No,CLOSED,PRES
+Are there lungs free of consolidation?,Yes,CLOSED,PRES
 
 =====================================
 synpic19477:9
 
-synpic19477.jpg,CHEST,Right lung,OPEN,POS,Where is the lung lesion located?,para
-synpic19477.jpg,CHEST,Right lung,OPEN,POS,Where is/are the lung lesion located?,frame
-synpic19477.jpg,CHEST,Right upper lobe,OPEN,POS,Which lobe of the lung is the lesion located in?,freeform
-synpic19477.jpg,CHEST,Right upper lobe,OPEN,POS,Where is/are the lung lesion located?,frame
-synpic19477.jpg,CHEST,7th rib,OPEN,POS,At which rib is the lesion located?,freeform
-synpic19477.jpg,CHEST,7th rib,OPEN,POS,What rib is the lesion located inferior to?,para
-synpic19477.jpg,CHEST,Left,OPEN,POS,Which side of the cardiac border is more prominent?,para
-synpic19477.jpg,CHEST,Left,OPEN,POS,Which cardiac border is more prominently visualized?,freeform
-synpic19477.jpg,CHEST,Yes,CLOSED,OTHER,Is/Are there nipple markers present?,frame
+Where is the lung lesion located?,Right lung,OPEN,POS
+Where is/are the lung lesion located?,Right lung,OPEN,POS
+Which lobe of the lung is the lesion located in?,Right upper lobe,OPEN,POS
+Where is/are the lung lesion located?,Right upper lobe,OPEN,POS
+At which rib is the lesion located?,7th rib,OPEN,POS
+What rib is the lesion located inferior to?,7th rib,OPEN,POS
+Which side of the cardiac border is more prominent?,Left,OPEN,POS
+Which cardiac border is more prominently visualized?,Left,OPEN,POS
+Is/Are there nipple markers present?,Yes,CLOSED,OTHER
 
 =====================================
 synpic19782:8
 
-synpic19782.jpg,CHEST,No,CLOSED,PRES,Are calcified lesions present in the lung fields?,para
-synpic19782.jpg,CHEST,No,CLOSED,PRES,Is there evidence of large calcified lesions in the lung fields?,freeform
-synpic19782.jpg,CHEST,No,CLOSED,PRES,Is/Are there calcified lesions in the patient's lung fields?,frame
-synpic19782.jpg,CHEST,Above the clavicles bilaterally,OPEN,POS,Where is/are the free air located?,frame
-synpic19782.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there free air in the patient's supraclavicular fossae?,frame
-synpic19782.jpg,CHEST,No,CLOSED,PRES,Is/Are there a fracture present in the clavicle?,frame
-synpic19782.jpg,CHEST,Right,OPEN,POS,On which side is air under the diaphragm?,freeform
-synpic19782.jpg,CHEST,Right,CLOSED,POS,Is free air present under the patient's left or right hemidiaphragm?,para
+Are calcified lesions present in the lung fields?,No,CLOSED,PRES
+Is there evidence of large calcified lesions in the lung fields?,No,CLOSED,PRES
+Is/Are there calcified lesions in the patient's lung fields?,No,CLOSED,PRES
+Where is/are the free air located?,Above the clavicles bilaterally,OPEN,POS
+Is/Are there free air in the patient's supraclavicular fossae?,Yes,CLOSED,PRES
+Is/Are there a fracture present in the clavicle?,No,CLOSED,PRES
+On which side is air under the diaphragm?,Right,OPEN,POS
+Is free air present under the patient's left or right hemidiaphragm?,Right,CLOSED,POS
 
 =====================================
 synpic21037:3
 
-synpic21037.jpg,CHEST,No,CLOSED,PRES,Does this patient have an endotracheal tube placed?,freeform
-synpic21037.jpg,CHEST,No,CLOSED,PRES,Does this CXR display pneumoperitoneum?,freeform
-synpic21037.jpg,CHEST,Left side,OPEN,POS,Which side of the image is the thoracic mass located on?,freeform
+Does this patient have an endotracheal tube placed?,No,CLOSED,PRES
+Does this CXR display pneumoperitoneum?,No,CLOSED,PRES
+Which side of the image is the thoracic mass located on?,Left side,OPEN,POS
 
 =====================================
 synpic21042:6
 
-synpic21042.jpg,CHEST,No,CLOSED,PRES,Is this patient intubated?,freeform
-synpic21042.jpg,CHEST,yes,CLOSED,PLANE,Is this a PA image?,freeform
-synpic21042.jpg,CHEST,No,CLOSED,PRES,Does this image show a pneumothorax?,freeform
-synpic21042.jpg,CHEST,X-ray plain film,OPEN,MODALITY,What type of imaging modality is seen in this image?,freeform
-synpic21042.jpg,CHEST,Respiratory System,OPEN,ORGAN,What is one organ system seen in this image?,freeform
-synpic21042.jpg,CHEST,No,CLOSED,PRES,Does this image show a pleural effusion?,freeform
+Is this patient intubated?,No,CLOSED,PRES
+Is this a PA image?,yes,CLOSED,PLANE
+Does this image show a pneumothorax?,No,CLOSED,PRES
+What type of imaging modality is seen in this image?,X-ray plain film,OPEN,MODALITY
+What is one organ system seen in this image?,Respiratory System,OPEN,ORGAN
+Does this image show a pleural effusion?,No,CLOSED,PRES
 
 =====================================
 synpic21044:11
 
-synpic21044.jpg,CHEST,Enlarged,OPEN,ATTRIB,What is abnormal about the hila?,freeform
-synpic21044.jpg,CHEST,Enlarged,OPEN,ATTRIB,How would you describe the hila?,frame
-synpic21044.jpg,CHEST,Enlarged,CLOSED,ATTRIB,Is the hila normal or enlarged?,para
-synpic21044.jpg,CHEST,middle mogul,OPEN,ATTRIB,How would you describe the aortopulmonary window?,frame
-synpic21044.jpg,CHEST,middle mogul,OPEN,PRES,What is/are the characteristic finding near/in the aortopulmonary window?,frame
-synpic21044.jpg,CHEST,middle mogul,OPEN,PRES,What is/are the sign near/in the aortopulmonary window?,frame
-synpic21044.jpg,CHEST,Yes,CLOSED,ABN,Is the heart abnormal?,para
-synpic21044.jpg,CHEST,Yes,CLOSED,SIZE,Does the heart appear enlarged?,freeform
-synpic21044.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart enlarged? -yes/no,frame
-synpic21044.jpg,CHEST,Yes,CLOSED,SIZE,Is there bilateral hilar enlargement?,freeform
-synpic21044.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the hila enlarged?,frame
+What is abnormal about the hila?,Enlarged,OPEN,ATTRIB
+How would you describe the hila?,Enlarged,OPEN,ATTRIB
+Is the hila normal or enlarged?,Enlarged,CLOSED,ATTRIB
+How would you describe the aortopulmonary window?,middle mogul,OPEN,ATTRIB
+What is/are the characteristic finding near/in the aortopulmonary window?,middle mogul,OPEN,PRES
+What is/are the sign near/in the aortopulmonary window?,middle mogul,OPEN,PRES
+Is the heart abnormal?,Yes,CLOSED,ABN
+Does the heart appear enlarged?,Yes,CLOSED,SIZE
+Is/Are the heart enlarged? -yes/no,Yes,CLOSED,SIZE
+Is there bilateral hilar enlargement?,Yes,CLOSED,SIZE
+Is/Are the hila enlarged?,Yes,CLOSED,SIZE
 
 =====================================
 synpic21776:12
 
-synpic21776.jpg,CHEST,Yes,CLOSED,COUNT,Are there >12 of ribs? ,frame
-synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the lungs normal size?,frame
-synpic21776.jpg,CHEST,yes,CLOSED,MODALITY,was this taken with good x ray penetration,freeform
-synpic21776.jpg,CHEST,yes,CLOSED,PLANE,was this taken in PA position?,freeform
-synpic21776.jpg,CHEST,No,CLOSED,PRES,Are lung opacities noted?,para
-synpic21776.jpg,CHEST,No,CLOSED,PRES,Is/Are there nodules in the patient's lung?,frame
-synpic21776.jpg,CHEST,No,CLOSED,PRES,is there evidence of intraparenchymal lung nodules?,freeform
-synpic21776.jpg,CHEST,No,CLOSED,PRES,Is/Are there nodules in the patient's lung?,frame
-synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart narrowed?,frame
-synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart narrowed?,frame
-synpic21776.jpg,CHEST,yes,CLOSED,PRES,is the lung parenchyma well visualized?,freeform
-synpic21776.jpg,CHEST,Breasts,OPEN,ORGAN,What organ is superimposed on the lung fields?,freeform
+Are there >12 of ribs? ,Yes,CLOSED,COUNT
+Is/Are the lungs normal size?,Yes,CLOSED,SIZE
+was this taken with good x ray penetration,yes,CLOSED,MODALITY
+was this taken in PA position?,yes,CLOSED,PLANE
+Are lung opacities noted?,No,CLOSED,PRES
+Is/Are there nodules in the patient's lung?,No,CLOSED,PRES
+is there evidence of intraparenchymal lung nodules?,No,CLOSED,PRES
+Is/Are there nodules in the patient's lung?,No,CLOSED,PRES
+Is/Are the heart narrowed?,Yes,CLOSED,SIZE
+Is/Are the heart narrowed?,Yes,CLOSED,SIZE
+is the lung parenchyma well visualized?,yes,CLOSED,PRES
+What organ is superimposed on the lung fields?,Breasts,OPEN,ORGAN
 
 =====================================
 synpic22037:11
 
-synpic22037.jpg,CHEST,no,CLOSED,MODALITY,Is this a standing CXR,freeform
-synpic22037.jpg,CHEST,yes,CLOSED,ORGAN,is the pulmonary system shown?,freeform
-synpic22037.jpg,CHEST,yes,CLOSED,OTHER,Is the chest xray underexposed?,para
-synpic22037.jpg,CHEST,yes,CLOSED,OTHER,Is this image underexposed?,freeform
-synpic22037.jpg,CHEST,coronal,OPEN,PLANE,what is the plane?,freeform
-synpic22037.jpg,CHEST,No,CLOSED,PRES,Is there a rib fracture?,freeform
-synpic22037.jpg,CHEST,No,CLOSED,PRES,Is/Are there a rib fracture?,frame
-synpic22037.jpg,CHEST,a catheter,OPEN,PRES,What is the foreign body?,freeform
-synpic22037.jpg,CHEST,a catheter,OPEN,PRES,What is/are the foreign body near/in the subclavian vein?,frame
-synpic22037.jpg,CHEST,a catheter,OPEN,PRES,Please identify the foreign body.,para
-synpic22037.jpg,CHEST,a catheter,OPEN,PRES,What is/are the foreign body near/in the subclavian vein?,frame
+Is this a standing CXR,no,CLOSED,MODALITY
+is the pulmonary system shown?,yes,CLOSED,ORGAN
+Is the chest xray underexposed?,yes,CLOSED,OTHER
+Is this image underexposed?,yes,CLOSED,OTHER
+what is the plane?,coronal,OPEN,PLANE
+Is there a rib fracture?,No,CLOSED,PRES
+Is/Are there a rib fracture?,No,CLOSED,PRES
+What is the foreign body?,a catheter,OPEN,PRES
+What is/are the foreign body near/in the subclavian vein?,a catheter,OPEN,PRES
+Please identify the foreign body.,a catheter,OPEN,PRES
+What is/are the foreign body near/in the subclavian vein?,a catheter,OPEN,PRES
 
 =====================================
 synpic22097:12
 
-synpic22097.jpg,CHEST,chest x Ray,OPEN,MODALITY,What kind of image is this?,freeform
-synpic22097.jpg,CHEST,chest x Ray,OPEN,MODALITY,What modality is this?,para
-synpic22097.jpg,CHEST,Left,OPEN,POS,Which side is abnormal?,para
-synpic22097.jpg,CHEST,Left,OPEN,POS,Where is/are the defect located?,frame
-synpic22097.jpg,CHEST,Left,OPEN,POS,Which lung has a defect?,freeform
-synpic22097.jpg,CHEST,Left,OPEN,POS,Where is/are the defect located?,frame
-synpic22097.jpg,CHEST,Yes,CLOSED,PRES,Do you see fluid in the left lung?,para
-synpic22097.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there fluid in the patient's left lung?,frame
-synpic22097.jpg,CHEST,Yes,CLOSED,PRES,Is there fluid in the left lung?,freeform
-synpic22097.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there fluid in the patient's left lung?,frame
-synpic22097.jpg,CHEST,hydropneumothorax,OPEN,ABN,What does this represent?,freeform
-synpic22097.jpg,CHEST,hydropneumothorax,OPEN,ABN,What is abnormal in this image?,frame
+What kind of image is this?,chest x Ray,OPEN,MODALITY
+What modality is this?,chest x Ray,OPEN,MODALITY
+Which side is abnormal?,Left,OPEN,POS
+Where is/are the defect located?,Left,OPEN,POS
+Which lung has a defect?,Left,OPEN,POS
+Where is/are the defect located?,Left,OPEN,POS
+Do you see fluid in the left lung?,Yes,CLOSED,PRES
+Is/Are there fluid in the patient's left lung?,Yes,CLOSED,PRES
+Is there fluid in the left lung?,Yes,CLOSED,PRES
+Is/Are there fluid in the patient's left lung?,Yes,CLOSED,PRES
+What does this represent?,hydropneumothorax,OPEN,ABN
+What is abnormal in this image?,hydropneumothorax,OPEN,ABN
 
 =====================================
 synpic23053:14
 
-synpic23053.jpg,CHEST,No,CLOSED,ABN,Is the air under the left hemidiaphragm pathologic?,para
-synpic23053.jpg,CHEST,No,CLOSED,ABN,Is/Are the air under the left hemidiaphragm pathologic?,frame
-synpic23053.jpg,CHEST,No,CLOSED,PRES,Is there free air under the left diaphragm?,freeform
-synpic23053.jpg,CHEST,No,CLOSED,PRES,Is/Are there free air in the patient's subdiaphram?,frame
-synpic23053.jpg,CHEST,No,CLOSED,ABN,Is the opacity near the left lung apex pathologic?,para
-synpic23053.jpg,CHEST,No,CLOSED,ABN,Is/Are the opacity near the left lung apex pathologic?,frame
-synpic23053.jpg,CHEST,Pacemaker,OPEN,PRES,What is the opacity near the left lung apex?,freeform
-synpic23053.jpg,CHEST,Pacemaker,OPEN,PRES,What is/are the opacity near/in the left lung apex? ,frame
-synpic23053.jpg,CHEST,In the right hilum,OPEN,POS,Where is the lesion?,para
-synpic23053.jpg,CHEST,In the right hilum,OPEN,POS,Where is/are the lesion located?,frame
-synpic23053.jpg,CHEST,Upper right lobe,OPEN,POS,Which lobe is the lesion located in?,freeform
-synpic23053.jpg,CHEST,Upper right lobe,OPEN,POS,Where is/are the lesion located?,frame
-synpic23053.jpg,CHEST,No,CLOSED,PRES,Are the ribs broken?,freeform
-synpic23053.jpg,CHEST,No,CLOSED,PRES,Is/Are there fractures present?,frame
+Is the air under the left hemidiaphragm pathologic?,No,CLOSED,ABN
+Is/Are the air under the left hemidiaphragm pathologic?,No,CLOSED,ABN
+Is there free air under the left diaphragm?,No,CLOSED,PRES
+Is/Are there free air in the patient's subdiaphram?,No,CLOSED,PRES
+Is the opacity near the left lung apex pathologic?,No,CLOSED,ABN
+Is/Are the opacity near the left lung apex pathologic?,No,CLOSED,ABN
+What is the opacity near the left lung apex?,Pacemaker,OPEN,PRES
+What is/are the opacity near/in the left lung apex? ,Pacemaker,OPEN,PRES
+Where is the lesion?,In the right hilum,OPEN,POS
+Where is/are the lesion located?,In the right hilum,OPEN,POS
+Which lobe is the lesion located in?,Upper right lobe,OPEN,POS
+Where is/are the lesion located?,Upper right lobe,OPEN,POS
+Are the ribs broken?,No,CLOSED,PRES
+Is/Are there fractures present?,No,CLOSED,PRES
 
 =====================================
 synpic23803:7
 
-synpic23803.jpg,CHEST,4th and 5th,OPEN,POS,Which ribs are located near the abnormality seen in this image?,freeform
-synpic23803.jpg,CHEST,T5,OPEN,POS,What level is the abnormality located at?,freeform
-synpic23803.jpg,CHEST,No,CLOSED,PRES,Is/Are the free air under the left hemidiaphragm  pathologic?,frame
-synpic23803.jpg,CHEST,No,CLOSED,PRES,Is/Are the free air under the left hemidiaphragm  pathologic?,frame
-synpic23803.jpg,CHEST,Right,OPEN,POS,On which side is the cardiac border more obscured?,freeform
-synpic23803.jpg,CHEST,Right,OPEN,POS,Where is the cardiac border more obscured?,para
-synpic23803.jpg,CHEST,Yes,CLOSED,PRES,Is there a pneumothorax present?,freeform
+Which ribs are located near the abnormality seen in this image?,4th and 5th,OPEN,POS
+What level is the abnormality located at?,T5,OPEN,POS
+Is/Are the free air under the left hemidiaphragm  pathologic?,No,CLOSED,PRES
+Is/Are the free air under the left hemidiaphragm  pathologic?,No,CLOSED,PRES
+On which side is the cardiac border more obscured?,Right,OPEN,POS
+Where is the cardiac border more obscured?,Right,OPEN,POS
+Is there a pneumothorax present?,Yes,CLOSED,PRES
 
 =====================================
 synpic23989:16
 
-synpic23989.jpg,CHEST,yes,CLOSED,ORGAN,does this constitute a pulmonary pathology?,freeform
-synpic23989.jpg,CHEST,yes,CLOSED,MODALITY,is this an AP CXR,freeform
-synpic23989.jpg,CHEST,Coronal,OPEN,PLANE,What plane is demonstrated?,freeform
-synpic23989.jpg,CHEST,Left Apical Pneumothorax,OPEN,ABN,What is the pathology?,para
-synpic23989.jpg,CHEST,Left Apical Pneumothorax,OPEN,ABN,What is abnormal in this image?,frame
-synpic23989.jpg,CHEST,Left Apical Pneumothorax,OPEN,ABN,What pathology is shown?,freeform
-synpic23989.jpg,CHEST,Left Apical Pneumothorax,OPEN,ABN,What is abnormal in this image?,frame
-synpic23989.jpg,CHEST,No,CLOSED,PRES,Is/Are there a chest tube?,frame
-synpic23989.jpg,CHEST,No,CLOSED,PRES,Is this a tension pneumothorax?,freeform
-synpic23989.jpg,CHEST,No,CLOSED,PRES,Is/Are there a tension pneumothorax?,frame
-synpic23989.jpg,CHEST,No,CLOSED,PRES,Does this image show a tension pneumothorax?,para
-synpic23989.jpg,CHEST,No,CLOSED,PRES,Is/Are there a tension pneumothorax?,frame
-synpic23989.jpg,CHEST,no,CLOSED,PRES,is there tracheal deviation?,freeform
-synpic23989.jpg,CHEST,no,CLOSED,PRES,Is/Are there tracheal deviation?,frame
-synpic23989.jpg,CHEST,no,CLOSED,PRES,Is the trachea deviated?,para
-synpic23989.jpg,CHEST,no,CLOSED,PRES,Is/Are there tracheal deviation?,frame
+does this constitute a pulmonary pathology?,yes,CLOSED,ORGAN
+is this an AP CXR,yes,CLOSED,MODALITY
+What plane is demonstrated?,Coronal,OPEN,PLANE
+What is the pathology?,Left Apical Pneumothorax,OPEN,ABN
+What is abnormal in this image?,Left Apical Pneumothorax,OPEN,ABN
+What pathology is shown?,Left Apical Pneumothorax,OPEN,ABN
+What is abnormal in this image?,Left Apical Pneumothorax,OPEN,ABN
+Is/Are there a chest tube?,No,CLOSED,PRES
+Is this a tension pneumothorax?,No,CLOSED,PRES
+Is/Are there a tension pneumothorax?,No,CLOSED,PRES
+Does this image show a tension pneumothorax?,No,CLOSED,PRES
+Is/Are there a tension pneumothorax?,No,CLOSED,PRES
+is there tracheal deviation?,no,CLOSED,PRES
+Is/Are there tracheal deviation?,no,CLOSED,PRES
+Is the trachea deviated?,no,CLOSED,PRES
+Is/Are there tracheal deviation?,no,CLOSED,PRES
 
 =====================================
 synpic24350:14
 
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax?,freeform
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is a pneumothorax present?,para
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic24350.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea normal?,para
-synpic24350.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the trachea normal?,frame
-synpic24350.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform
-synpic24350.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,frame
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is a pleural effusion present?,para
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is/Are there pleural effusion?,frame
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is there a pleural effusion?,freeform
-synpic24350.jpg,CHEST,No,CLOSED,PRES,Is/Are there pleural effusion?,frame
-synpic24350.jpg,CHEST,Yes,CLOSED,SIZE,Is there cardiac enlargement?,freeform
-synpic24350.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart larger than normal?,frame
+Is there a pneumothorax?,No,CLOSED,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Is a pneumothorax present?,No,CLOSED,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Is the trachea normal?,Yes,CLOSED,PRES
+Is/Are the trachea normal?,Yes,CLOSED,PRES
+Is the trachea midline?,Yes,CLOSED,PRES
+Is the trachea midline?,Yes,CLOSED,PRES
+Is a pleural effusion present?,No,CLOSED,PRES
+Is/Are there pleural effusion?,No,CLOSED,PRES
+Is there a pleural effusion?,No,CLOSED,PRES
+Is/Are there pleural effusion?,No,CLOSED,PRES
+Is there cardiac enlargement?,Yes,CLOSED,SIZE
+Is/Are the heart larger than normal?,Yes,CLOSED,SIZE
 
 =====================================
 synpic24390:12
 
-synpic24390.jpg,CHEST,PA,OPEN,PLANE,How was this x-ray taken?,freeform
-synpic24390.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart wider than more than half the width of the thorax?,frame
-synpic24390.jpg,CHEST,It is less than half the width of the thorax,OPEN,SIZE,How wide is/are the heart compared to the thorax? -open,frame
-synpic24390.jpg,CHEST,yes,CLOSED,ORGAN,Is this image of the thorax?,freeform
-synpic24390.jpg,CHEST,no,CLOSED,MODALITY,Is this image a CT scan?,freeform
-synpic24390.jpg,CHEST,Right side,CLOSED,POS,Is the largest air collection on the patient's left or the right side?,para
-synpic24390.jpg,CHEST,Right lung base,OPEN,POS,Where is the largest air collection in this image?,freeform
-synpic24390.jpg,CHEST,No,CLOSED,PRES,Is subcutaneous air present?,para
-synpic24390.jpg,CHEST,No,CLOSED,PRES,Is/Are there subcutaneous air present?,frame
-synpic24390.jpg,CHEST,No,CLOSED,PRES,Is there evidence of subcutaneous air collection?,freeform
-synpic24390.jpg,CHEST,No,CLOSED,PRES,Is/Are there subcutaneous air present?,frame
-synpic24390.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform
+How was this x-ray taken?,PA,OPEN,PLANE
+Is/Are the heart wider than more than half the width of the thorax?,No,CLOSED,SIZE
+How wide is/are the heart compared to the thorax? -open,It is less than half the width of the thorax,OPEN,SIZE
+Is this image of the thorax?,yes,CLOSED,ORGAN
+Is this image a CT scan?,no,CLOSED,MODALITY
+Is the largest air collection on the patient's left or the right side?,Right side,CLOSED,POS
+Where is the largest air collection in this image?,Right lung base,OPEN,POS
+Is subcutaneous air present?,No,CLOSED,PRES
+Is/Are there subcutaneous air present?,No,CLOSED,PRES
+Is there evidence of subcutaneous air collection?,No,CLOSED,PRES
+Is/Are there subcutaneous air present?,No,CLOSED,PRES
+Is the trachea midline?,Yes,CLOSED,PRES
 
 =====================================
 synpic24538:2
 
-synpic24538.jpg,CHEST,No,CLOSED,SIZE,Is the heart dilated?,freeform
-synpic24538.jpg,CHEST,Right,OPEN,POS,To which side is the trachea deviated?,freeform
+Is the heart dilated?,No,CLOSED,SIZE
+To which side is the trachea deviated?,Right,OPEN,POS
 
 =====================================
 synpic25587:14
 
-synpic25587.jpg,CHEST,pleural effusion,CLOSED,PRES,Is this a pneumonia vs. pleural effusion?,freeform
-synpic25587.jpg,CHEST,pleural effusion,CLOSED,PRES,Is a pneumonia or pleural effusion seen in this image?,para
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,ABN,"On what side of the body is there pathology, and what is it?",para
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,ABN,What is the pathology?,para
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,ABN,What is the pathology in the image?,frame
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,ABN,What pathology is seen int his image? ,para
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,ABN,What is the pathology in the image?,frame
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,"ABN, POS",What pathology is seen int his image? What side?,freeform
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,POS,On what side of the body is there pathology?,freeform
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,POS,Where is the pathology?,frame
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,POS,What side is the pathology?,freeform
-synpic25587.jpg,CHEST,right sided pleural effusion,OPEN,POS,Where is the pathology?,frame
-synpic25587.jpg,CHEST,No,CLOSED,PRES,Is there tracheal deviation?,frame
-synpic25587.jpg,CHEST,No,CLOSED,PRES,Is there tracheal deviation?,frame
+Is this a pneumonia vs. pleural effusion?,pleural effusion,CLOSED,PRES
+Is a pneumonia or pleural effusion seen in this image?,pleural effusion,CLOSED,PRES
+"On what side of the body is there pathology, and what is it?",right sided pleural effusion,OPEN,ABN
+What is the pathology?,right sided pleural effusion,OPEN,ABN
+What is the pathology in the image?,right sided pleural effusion,OPEN,ABN
+What pathology is seen int his image? ,right sided pleural effusion,OPEN,ABN
+What is the pathology in the image?,right sided pleural effusion,OPEN,ABN
+What pathology is seen int his image? What side?,right sided pleural effusion,OPEN,"ABN, POS"
+On what side of the body is there pathology?,right sided pleural effusion,OPEN,POS
+Where is the pathology?,right sided pleural effusion,OPEN,POS
+What side is the pathology?,right sided pleural effusion,OPEN,POS
+Where is the pathology?,right sided pleural effusion,OPEN,POS
+Is there tracheal deviation?,No,CLOSED,PRES
+Is there tracheal deviation?,No,CLOSED,PRES
 
 =====================================
 synpic25821:9
 
-synpic25821.jpg,CHEST,No,CLOSED,PRES,Is/Are there a rib fracture?,frame
-synpic25821.jpg,CHEST,No,CLOSED,PRES,Is/Are there fracturing in the patient's ribs?,frame
-synpic25821.jpg,CHEST,No,CLOSED,ABN,Is/Are the lung parenchyma abnormal?,frame
-synpic25821.jpg,CHEST,No,CLOSED,ABN,Is/Are the lung parenchyma abnormal?,frame
-synpic25821.jpg,CHEST,Yes,CLOSED,COUNT,Are there >8 ribs shown in this image?,para
-synpic25821.jpg,CHEST,Yes,CLOSED,COUNT,Are there >8 of the ribs?,frame
-synpic25821.jpg,CHEST,Yes,CLOSED,COUNT,Are there at least 8 ribs visible for good inspiratory effort?,freeform
-synpic25821.jpg,CHEST,Yes,CLOSED,COUNT,Are there at least 8 of the ribs?,frame
-synpic25821.jpg,CHEST,Right side,CLOSED,POS,Where is/are the gastric bubble located?,frame
+Is/Are there a rib fracture?,No,CLOSED,PRES
+Is/Are there fracturing in the patient's ribs?,No,CLOSED,PRES
+Is/Are the lung parenchyma abnormal?,No,CLOSED,ABN
+Is/Are the lung parenchyma abnormal?,No,CLOSED,ABN
+Are there >8 ribs shown in this image?,Yes,CLOSED,COUNT
+Are there >8 of the ribs?,Yes,CLOSED,COUNT
+Are there at least 8 ribs visible for good inspiratory effort?,Yes,CLOSED,COUNT
+Are there at least 8 of the ribs?,Yes,CLOSED,COUNT
+Where is/are the gastric bubble located?,Right side,CLOSED,POS
 
 =====================================
 synpic26248:11
 
-synpic26248.jpg,CHEST,Right,OPEN,POS,Where is/are the diaphragm elevation located?,frame
-synpic26248.jpg,CHEST,Right,OPEN,POS,Where is/are the diaphragm elevation located?,frame
-synpic26248.jpg,CHEST,Cardiac region,OPEN,POS,The air fluid level is in which location?,para
-synpic26248.jpg,CHEST,Cardiac region,OPEN,POS,Where is/are the air fluid level located?,frame
-synpic26248.jpg,CHEST,Cardiac region,OPEN,POS,Where is there an air fluid level?,freeform
-synpic26248.jpg,CHEST,Cardiac region,OPEN,POS,Where is/are the air fluid level located?,frame
-synpic26248.jpg,CHEST,Sternal wires,OPEN,PRES,What are the hyperdense findings in the mediastinum?,freeform
-synpic26248.jpg,CHEST,Sternal wires,OPEN,PRES,What is/are the hyperdensities near/in the mediastinum?,frame
-synpic26248.jpg,CHEST,Sternal wires,OPEN,PRES,What are seen as hyperdense in the mediastinum of this image?,para
-synpic26248.jpg,CHEST,Sternal wires,OPEN,PRES,What is/are the hyperdensities near/in the mediastinum?,frame
-synpic26248.jpg,CHEST,PA,OPEN,PLANE,Which orientation is the image acquired?,freeform
+Where is/are the diaphragm elevation located?,Right,OPEN,POS
+Where is/are the diaphragm elevation located?,Right,OPEN,POS
+The air fluid level is in which location?,Cardiac region,OPEN,POS
+Where is/are the air fluid level located?,Cardiac region,OPEN,POS
+Where is there an air fluid level?,Cardiac region,OPEN,POS
+Where is/are the air fluid level located?,Cardiac region,OPEN,POS
+What are the hyperdense findings in the mediastinum?,Sternal wires,OPEN,PRES
+What is/are the hyperdensities near/in the mediastinum?,Sternal wires,OPEN,PRES
+What are seen as hyperdense in the mediastinum of this image?,Sternal wires,OPEN,PRES
+What is/are the hyperdensities near/in the mediastinum?,Sternal wires,OPEN,PRES
+Which orientation is the image acquired?,PA,OPEN,PLANE
 
 =====================================
 synpic26413:10
 
-synpic26413.jpg,CHEST,No,CLOSED,PRES,Are the clavicles fractured?,freeform
-synpic26413.jpg,CHEST,No,CLOSED,PRES,Is/Are there clavicular fracture?,frame
-synpic26413.jpg,CHEST,No,CLOSED,PRES,Is a clavicular fracture present?,para
-synpic26413.jpg,CHEST,No,CLOSED,PRES,Is/Are there clavicular fracture?,frame
-synpic26413.jpg,CHEST,No,CLOSED,PRES,Is the stomach visualized here?,freeform
-synpic26413.jpg,CHEST,No,CLOSED,PRES,Is/Are there stomach visualized?,frame
-synpic26413.jpg,CHEST,Exterior,CLOSED,POS,Are the lines seen on the exterior or interior of the patient?,freeform
-synpic26413.jpg,CHEST,Outside,CLOSED,POS,Are the lines in the image inside or outside of the patient?,para
-synpic26413.jpg,CHEST,"blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border",OPEN,OTHER,What indicates there is a consolidation in the right lung?,freeform
-synpic26413.jpg,CHEST,"blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border",OPEN,OTHER,What is the observed sign of pulmonary consolidation on the right side?,para
+Are the clavicles fractured?,No,CLOSED,PRES
+Is/Are there clavicular fracture?,No,CLOSED,PRES
+Is a clavicular fracture present?,No,CLOSED,PRES
+Is/Are there clavicular fracture?,No,CLOSED,PRES
+Is the stomach visualized here?,No,CLOSED,PRES
+Is/Are there stomach visualized?,No,CLOSED,PRES
+Are the lines seen on the exterior or interior of the patient?,Exterior,CLOSED,POS
+Are the lines in the image inside or outside of the patient?,Outside,CLOSED,POS
+What indicates there is a consolidation in the right lung?,"blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border",OPEN,OTHER
+What is the observed sign of pulmonary consolidation on the right side?,"blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border",OPEN,OTHER
 
 =====================================
 synpic26764:7
 
-synpic26764.jpg,CHEST,yes,CLOSED,SIZE,Are the lungs hyperinflated?,frame
-synpic26764.jpg,CHEST,On top of the patient,CLOSED,POS,Is the circular opacity (located in the middle of this image) found on top of the patient or within the patient?,freeform
-synpic26764.jpg,CHEST,On top of the patient,CLOSED,POS,Where is/are the circular opacity located?,frame
-synpic26764.jpg,CHEST, superficial to the patient's skin,CLOSED,POS,Is the opacity located in the middle of the image inside the patient or superficial to the patient's skin?,para
-synpic26764.jpg,CHEST, superficial to the patient's skin,CLOSED,POS,Where is/are the circular opacity located?,frame
-synpic26764.jpg,CHEST,Yes,CLOSED,PLANE,Is this a PA film?,freeform
-synpic26764.jpg,CHEST,Yes,CLOSED,PLANE,Is this film taken in a PA modality?,para
+Are the lungs hyperinflated?,yes,CLOSED,SIZE
+Is the circular opacity (located in the middle of this image) found on top of the patient or within the patient?,On top of the patient,CLOSED,POS
+Where is/are the circular opacity located?,On top of the patient,CLOSED,POS
+Is the opacity located in the middle of the image inside the patient or superficial to the patient's skin?, superficial to the patient's skin,CLOSED,POS
+Where is/are the circular opacity located?, superficial to the patient's skin,CLOSED,POS
+Is this a PA film?,Yes,CLOSED,PLANE
+Is this film taken in a PA modality?,Yes,CLOSED,PLANE
 
 =====================================
 synpic27047:3
 
-synpic27047.jpg,CHEST,No,CLOSED,SIZE,Does this patient have cardiomegaly?,freeform
-synpic27047.jpg,CHEST,Xray - plain film,OPEN,MODALITY,What type of imaging modality is this?,freeform
-synpic27047.jpg,CHEST,No,CLOSED,PRES,Is there a clavicle fracture shown in this radiograph?,freeform
+Does this patient have cardiomegaly?,No,CLOSED,SIZE
+What type of imaging modality is this?,Xray - plain film,OPEN,MODALITY
+Is there a clavicle fracture shown in this radiograph?,No,CLOSED,PRES
 
 =====================================
 synpic27277:9
 
-synpic27277.jpg,CHEST,No,CLOSED,"PRES, ATTRIB",Are the patients' ribs symmetric on both sides?,freeform
-synpic27277.jpg,CHEST,No,CLOSED,"PRES, ATTRIB",Is/Are there symmtery in the patient's ribs on both sides?,frame
-synpic27277.jpg,CHEST,No,CLOSED,"PRES, ATTRIB",Is there symmetry of the patient's ribs on both sides?,para
-synpic27277.jpg,CHEST,No,CLOSED,"PRES, ATTRIB",Is/Are there symmtery in the patient's ribs on both sides?,frame
-synpic27277.jpg,CHEST,decreased muscle bulk,OPEN,OTHER,Why is the left hemithorax more lucent?,freeform
-synpic27277.jpg,CHEST,cardiopulmonary,OPEN,ORGAN,What organ system is shown in the above image?,freeform
-synpic27277.jpg,CHEST,cardiopulmonary,OPEN,ORGAN,The image shows what organ system?,para
-synpic27277.jpg,CHEST,Semi-upright position,OPEN,OTHER,In what position was the patient in when this image was taken?,freeform
-synpic27277.jpg,CHEST,Semi-upright position,OPEN,OTHER,What position is the patient in for this image?,para
+Are the patients' ribs symmetric on both sides?,No,CLOSED,"PRES, ATTRIB"
+Is/Are there symmtery in the patient's ribs on both sides?,No,CLOSED,"PRES, ATTRIB"
+Is there symmetry of the patient's ribs on both sides?,No,CLOSED,"PRES, ATTRIB"
+Is/Are there symmtery in the patient's ribs on both sides?,No,CLOSED,"PRES, ATTRIB"
+Why is the left hemithorax more lucent?,decreased muscle bulk,OPEN,OTHER
+What organ system is shown in the above image?,cardiopulmonary,OPEN,ORGAN
+The image shows what organ system?,cardiopulmonary,OPEN,ORGAN
+In what position was the patient in when this image was taken?,Semi-upright position,OPEN,OTHER
+What position is the patient in for this image?,Semi-upright position,OPEN,OTHER
 
 =====================================
 synpic27402:8
 
-synpic27402.jpg,CHEST,No,CLOSED,OTHER,Is this image sufficient for a diagnosis?,freeform
-synpic27402.jpg,CHEST,No,CLOSED,OTHER,Is the image enough to diagnose?,para
-synpic27402.jpg,CHEST,no,CLOSED,OTHER,Did this patient sustain physical damage?,para
-synpic27402.jpg,CHEST,no,CLOSED,OTHER,Do you suspect a physical injury?,freeform
-synpic27402.jpg,CHEST,No,CLOSED,ABN,IS there anything wrong with the lungs?,freeform
-synpic27402.jpg,CHEST,No,CLOSED,ABN,Is this image abnormal?,frame
-synpic27402.jpg,CHEST,head/neck CT,OPEN,OTHER,what test or procedure might reveal the diagnosis?,freeform
-synpic27402.jpg,CHEST,Biopsy,OPEN,OTHER,What can be done to get to a diagnosis?,freeform
+Is this image sufficient for a diagnosis?,No,CLOSED,OTHER
+Is the image enough to diagnose?,No,CLOSED,OTHER
+Did this patient sustain physical damage?,no,CLOSED,OTHER
+Do you suspect a physical injury?,no,CLOSED,OTHER
+IS there anything wrong with the lungs?,No,CLOSED,ABN
+Is this image abnormal?,No,CLOSED,ABN
+what test or procedure might reveal the diagnosis?,head/neck CT,OPEN,OTHER
+What can be done to get to a diagnosis?,Biopsy,OPEN,OTHER
 
 =====================================
 synpic27646:13
 
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there lymphadenopathy?,freeform
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there lymphadenopathy?,frame
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is lymphadenopathy present?,para
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there lymphadenopathy?,frame
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is/Are there a focal mass?,frame
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is/Are there a focal mass?,frame
-synpic27646.jpg,CHEST,PA,OPEN,PLANE,What plane is seen?,freeform
-synpic27646.jpg,CHEST,no,CLOSED,MODALITY,Is this an MRI?,freeform
-synpic27646.jpg,CHEST,Micronodular,OPEN,ATTRIB,How can the distribution in this image be described?,para
-synpic27646.jpg,CHEST,Micronodular,OPEN,ATTRIB,How would you describe the distributions?,frame
-synpic27646.jpg,CHEST,Micronodular,OPEN,ATTRIB,What type of distributions is seen on this image?,freeform
-synpic27646.jpg,CHEST,Micronodular,OPEN,ATTRIB,How would you describe the distributions?,frame
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is/Are there an air-fluid level?,frame
+Is there lymphadenopathy?,No,CLOSED,PRES
+Is there lymphadenopathy?,No,CLOSED,PRES
+Is lymphadenopathy present?,No,CLOSED,PRES
+Is there lymphadenopathy?,No,CLOSED,PRES
+Is/Are there a focal mass?,No,CLOSED,PRES
+Is/Are there a focal mass?,No,CLOSED,PRES
+What plane is seen?,PA,OPEN,PLANE
+Is this an MRI?,no,CLOSED,MODALITY
+How can the distribution in this image be described?,Micronodular,OPEN,ATTRIB
+How would you describe the distributions?,Micronodular,OPEN,ATTRIB
+What type of distributions is seen on this image?,Micronodular,OPEN,ATTRIB
+How would you describe the distributions?,Micronodular,OPEN,ATTRIB
+Is/Are there an air-fluid level?,No,CLOSED,PRES
 
 =====================================
 synpic27655:9
 
-synpic27655.jpg,CHEST,Xray,OPEN,MODALITY,What imaging modality is used?,freeform
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Is there any costophrenic angle blunting present?,freeform
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Is there any costophrenic angle blunting?,frame
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Is there presence of any costophrenic angle blunting?,para
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Is there any costophrenic angle blunting?,frame
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Any tracheal deviation present?,freeform
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Is/Are there tracheal deviation?,frame
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Is there any presence of tracheal deviation?,para
-synpic27655.jpg,CHEST,No,CLOSED,PRES,Is/Are there tracheal deviation?,frame
+What imaging modality is used?,Xray,OPEN,MODALITY
+Is there any costophrenic angle blunting present?,No,CLOSED,PRES
+Is there any costophrenic angle blunting?,No,CLOSED,PRES
+Is there presence of any costophrenic angle blunting?,No,CLOSED,PRES
+Is there any costophrenic angle blunting?,No,CLOSED,PRES
+Any tracheal deviation present?,No,CLOSED,PRES
+Is/Are there tracheal deviation?,No,CLOSED,PRES
+Is there any presence of tracheal deviation?,No,CLOSED,PRES
+Is/Are there tracheal deviation?,No,CLOSED,PRES
 
 =====================================
 synpic28355:2
 
-synpic28355.jpg,CHEST,No,CLOSED,PRES,Does this xray show an intubated patient?,freeform
-synpic28355.jpg,CHEST,No,CLOSED,PRES,Is this xray suggestive of aortic dissection?,freeform
+Does this xray show an intubated patient?,No,CLOSED,PRES
+Is this xray suggestive of aortic dissection?,No,CLOSED,PRES
 
 =====================================
 synpic28378:9
 
-synpic28378.jpg,CHEST,Female,CLOSED,OTHER,Is this patient male or female?,para
-synpic28378.jpg,CHEST,Female,OPEN,OTHER,What is the likely sex of this patient?,freeform
-synpic28378.jpg,CHEST,No,CLOSED,PRES,Is there a pleural effusion present?,freeform
-synpic28378.jpg,CHEST,No,CLOSED,PRES,Is/Are there pleural effusion?,frame
-synpic28378.jpg,CHEST,No,CLOSED,PRES,Is there a pleural effusion,para
-synpic28378.jpg,CHEST,No,CLOSED,PRES,Is/Are there pleural effusion?,frame
-synpic28378.jpg,CHEST,Mediport,OPEN,PRES,What is/are the hyperintense structure near/in the right side of the chest?,frame
-synpic28378.jpg,CHEST,Bronchiectasis,OPEN,OTHER,"What does tram-track""-ing indictate?""",freeform
-synpic28378.jpg,CHEST,Thickening of bronchi,OPEN,OTHER,What is meant by tram-track?,freeform
+Is this patient male or female?,Female,CLOSED,OTHER
+What is the likely sex of this patient?,Female,OPEN,OTHER
+Is there a pleural effusion present?,No,CLOSED,PRES
+Is/Are there pleural effusion?,No,CLOSED,PRES
+Is there a pleural effusion,No,CLOSED,PRES
+Is/Are there pleural effusion?,No,CLOSED,PRES
+What is/are the hyperintense structure near/in the right side of the chest?,Mediport,OPEN,PRES
+"What does tram-track""-ing indictate?""",Bronchiectasis,OPEN,OTHER
+What is meant by tram-track?,Thickening of bronchi,OPEN,OTHER
 
 =====================================
 synpic28602:6
 
-synpic28602.jpg,CHEST,ultrasound,OPEN,MODALITY,What type of imaging does this not represent?,freeform
-synpic28602.jpg,CHEST,The extremities,OPEN,ORGAN,What is not pictured in this image?,freeform
-synpic28602.jpg,CHEST,yes,CLOSED,PRES,Is the trachea midline?,freeform
-synpic28602.jpg,CHEST,No,CLOSED,PRES,Is there evidence of an aortic aneurysm?,freeform
-synpic28602.jpg,CHEST,No,CLOSED,PRES,Is there blunting of the costovertebral angles?,freeform
-synpic28602.jpg,CHEST,no,CLOSED,PLANE,Is this an anterior posterior image?,freeform
+What type of imaging does this not represent?,ultrasound,OPEN,MODALITY
+What is not pictured in this image?,The extremities,OPEN,ORGAN
+Is the trachea midline?,yes,CLOSED,PRES
+Is there evidence of an aortic aneurysm?,No,CLOSED,PRES
+Is there blunting of the costovertebral angles?,No,CLOSED,PRES
+Is this an anterior posterior image?,no,CLOSED,PLANE
 
 =====================================
 synpic28987:13
 
-synpic28987.jpg,CHEST,No,CLOSED,PRES,Is there fluid in the lungs?,freeform
-synpic28987.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic28987.jpg,CHEST,No,CLOSED,PRES,Is a pleural effusion present?,para
-synpic28987.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic28987.jpg,CHEST,yes,CLOSED,SIZE,Is cardiomegaly shown?,para
-synpic28987.jpg,CHEST,yes,CLOSED,SIZE,Is/Are there cardiomegaly?,frame
-synpic28987.jpg,CHEST,yes,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic28987.jpg,CHEST,yes,CLOSED,SIZE,Is/Are there cardiomegaly?,frame
-synpic28987.jpg,CHEST,plain film xray,OPEN,MODALITY,What imaging modality is used?,freeform
-synpic28987.jpg,CHEST,It is enlarged with prominence of the aortic knob,OPEN,ABN,What is wrong with the aortic area?,freeform
-synpic28987.jpg,CHEST,It is enlarged with prominence of the aortic knob,OPEN,ABN,What is/are wrong with the aorta ?,frame
-synpic28987.jpg,CHEST,It is enlarged with prominence of the aortic knob,OPEN,ABN,What pathology is shown in the aorta?,para
-synpic28987.jpg,CHEST,It is enlarged with prominence of the aortic knob,OPEN,ABN,What is/are wrong with the aorta ?,frame
+Is there fluid in the lungs?,No,CLOSED,PRES
+Is/Are there a pleural effusion?,No,CLOSED,PRES
+Is a pleural effusion present?,No,CLOSED,PRES
+Is/Are there a pleural effusion?,No,CLOSED,PRES
+Is cardiomegaly shown?,yes,CLOSED,SIZE
+Is/Are there cardiomegaly?,yes,CLOSED,SIZE
+Is the heart enlarged?,yes,CLOSED,SIZE
+Is/Are there cardiomegaly?,yes,CLOSED,SIZE
+What imaging modality is used?,plain film xray,OPEN,MODALITY
+What is wrong with the aortic area?,It is enlarged with prominence of the aortic knob,OPEN,ABN
+What is/are wrong with the aorta ?,It is enlarged with prominence of the aortic knob,OPEN,ABN
+What pathology is shown in the aorta?,It is enlarged with prominence of the aortic knob,OPEN,ABN
+What is/are wrong with the aorta ?,It is enlarged with prominence of the aortic knob,OPEN,ABN
 
 =====================================
 synpic29048:9
 
-synpic29048.jpg,CHEST,chest,OPEN,ORGAN,What part of the body does this radiograph show?,freeform
-synpic29048.jpg,CHEST,retrocardiac,OPEN,POS,The image has an abnormality located where?,para
-synpic29048.jpg,CHEST,retrocardiac,OPEN,POS,Where is the abnormality located?,frame
-synpic29048.jpg,CHEST,retrocardiac,OPEN,POS,Where is the abnormality located in this image?,freeform
-synpic29048.jpg,CHEST,retrocardiac,OPEN,POS,Where is the abnormality located?,frame
-synpic29048.jpg,CHEST,Air,OPEN,PRES,The soft-tissue density seen in this image contains what?,para
-synpic29048.jpg,CHEST,Air,OPEN,PRES,What is/are the filling near/in the soft-tissue density?,frame
-synpic29048.jpg,CHEST,Air,OPEN,PRES,What is filling the soft-tissue density seen in this image?,freeform
-synpic29048.jpg,CHEST,Air,OPEN,PRES,What is/are the filling near/in the soft-tissue density?,frame
+What part of the body does this radiograph show?,chest,OPEN,ORGAN
+The image has an abnormality located where?,retrocardiac,OPEN,POS
+Where is the abnormality located?,retrocardiac,OPEN,POS
+Where is the abnormality located in this image?,retrocardiac,OPEN,POS
+Where is the abnormality located?,retrocardiac,OPEN,POS
+The soft-tissue density seen in this image contains what?,Air,OPEN,PRES
+What is/are the filling near/in the soft-tissue density?,Air,OPEN,PRES
+What is filling the soft-tissue density seen in this image?,Air,OPEN,PRES
+What is/are the filling near/in the soft-tissue density?,Air,OPEN,PRES
 
 =====================================
 synpic29263:11
 
-synpic29263.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,para
-synpic29263.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic29263.jpg,CHEST,No,CLOSED,SIZE,Is there cardiomegaly?,freeform
-synpic29263.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Is/Are there abnormality in the patient's lungs?,frame
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Is/Are there abnormality in the patient's lungs?,frame
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Are there any pulmonary findings?,freeform
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Is/Are the lungs normal?,frame
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Are the lungs affected?,para
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Is/Are the lungs normal?,frame
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Is/Are there air-fluid level?,frame
+Is the heart enlarged?,No,CLOSED,SIZE
+Is/Are the heart enlarged?,No,CLOSED,SIZE
+Is there cardiomegaly?,No,CLOSED,SIZE
+Is/Are the heart enlarged?,No,CLOSED,SIZE
+Is/Are there abnormality in the patient's lungs?,No,CLOSED,PRES
+Is/Are there abnormality in the patient's lungs?,No,CLOSED,PRES
+Are there any pulmonary findings?,No,CLOSED,PRES
+Is/Are the lungs normal?,No,CLOSED,PRES
+Are the lungs affected?,No,CLOSED,PRES
+Is/Are the lungs normal?,No,CLOSED,PRES
+Is/Are there air-fluid level?,No,CLOSED,PRES
 
 =====================================
 synpic29265:5
 
-synpic29265.jpg,CHEST,No,CLOSED,ABN,Are the lungs normal appearing?,freeform
-synpic29265.jpg,CHEST,No,CLOSED,PRES,Is there evidence of a pneumothorax,freeform
-synpic29265.jpg,CHEST,no,CLOSED,MODALITY,Is this a MRI of the chest?,freeform
-synpic29265.jpg,CHEST,no,CLOSED,PRES,Is there a fracture?,freeform
-synpic29265.jpg,CHEST,No,CLOSED,PRES,Is there air under the diaphragm?,freeform
+Are the lungs normal appearing?,No,CLOSED,ABN
+Is there evidence of a pneumothorax,No,CLOSED,PRES
+Is this a MRI of the chest?,no,CLOSED,MODALITY
+Is there a fracture?,no,CLOSED,PRES
+Is there air under the diaphragm?,No,CLOSED,PRES
 
 =====================================
 synpic31217:12
 
-synpic31217.jpg,CHEST,Right lung,OPEN,POS,What is the location of the abnormality?,para
-synpic31217.jpg,CHEST,Right lung,OPEN,POS,Where is/are the nodules located?,frame
-synpic31217.jpg,CHEST,Right lung,OPEN,POS,Where is the abnormality?,freeform
-synpic31217.jpg,CHEST,Right lung,OPEN,POS,Where is/are the nodules located?,frame
-synpic31217.jpg,CHEST,No,CLOSED,ABN,Is this an image of normal physiology?,freeform
-synpic31217.jpg,CHEST,No,CLOSED,ABN,Is this patient healthy?,freeform
-synpic31217.jpg,CHEST,yes,CLOSED,ABN,Are there abnormalities seen in the lungs?,freeform
-synpic31217.jpg,CHEST,Below the 7th rib in the right lung.,OPEN,ABN,Where is the nodule?,freeform
-synpic31217.jpg,CHEST,Single lung nodule,OPEN,ABN,What is the abnormality?,freeform
-synpic31217.jpg,CHEST,PA,OPEN,PLANE,Which plane is this image taken in?,freeform
-synpic31217.jpg,CHEST,No,CLOSED,PRES,Is there a nodule in the left lung?,freeform
-synpic31217.jpg,CHEST,No,CLOSED,PRES,Is/Are there a nodule in the patient's left lung?,frame
+What is the location of the abnormality?,Right lung,OPEN,POS
+Where is/are the nodules located?,Right lung,OPEN,POS
+Where is the abnormality?,Right lung,OPEN,POS
+Where is/are the nodules located?,Right lung,OPEN,POS
+Is this an image of normal physiology?,No,CLOSED,ABN
+Is this patient healthy?,No,CLOSED,ABN
+Are there abnormalities seen in the lungs?,yes,CLOSED,ABN
+Where is the nodule?,Below the 7th rib in the right lung.,OPEN,ABN
+What is the abnormality?,Single lung nodule,OPEN,ABN
+Which plane is this image taken in?,PA,OPEN,PLANE
+Is there a nodule in the left lung?,No,CLOSED,PRES
+Is/Are there a nodule in the patient's left lung?,No,CLOSED,PRES
 
 =====================================
 synpic31248:12
 
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Is the heart size abnormal?,para
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart size abnormal?,frame
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart enlarged? ,frame
-synpic31248.jpg,CHEST,no,CLOSED,PRES,Can you appreciate a pleural effusion anywhere?,para
-synpic31248.jpg,CHEST,no,CLOSED,PRES,Is pleural effusion present?,freeform
-synpic31248.jpg,CHEST,Yes,CLOSED,PRES,Is there hilar adenopathy?,freeform
-synpic31248.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there hilar adenopathy?,frame
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Is there hyperinflation of the lung(s)?,freeform
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Is/Are there lung hyperinflation?,frame
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Are the lungs increased in size?,para
-synpic31248.jpg,CHEST,No,CLOSED,SIZE,Is/Are there lung hyperinflation?,frame
+Is the heart size abnormal?,No,CLOSED,SIZE
+Is/Are the heart size abnormal?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is/Are the heart enlarged? ,No,CLOSED,SIZE
+Can you appreciate a pleural effusion anywhere?,no,CLOSED,PRES
+Is pleural effusion present?,no,CLOSED,PRES
+Is there hilar adenopathy?,Yes,CLOSED,PRES
+Is/Are there hilar adenopathy?,Yes,CLOSED,PRES
+Is there hyperinflation of the lung(s)?,No,CLOSED,SIZE
+Is/Are there lung hyperinflation?,No,CLOSED,SIZE
+Are the lungs increased in size?,No,CLOSED,SIZE
+Is/Are there lung hyperinflation?,No,CLOSED,SIZE
 
 =====================================
 synpic31256:10
 
-synpic31256.jpg,CHEST,no,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic31256.jpg,CHEST,no,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic31256.jpg,CHEST,X-ray,OPEN,MODALITY,How was this image taken?,para
-synpic31256.jpg,CHEST,X-ray,OPEN,MODALITY,What imaging modality is seen?,freeform
-synpic31256.jpg,CHEST,right,OPEN,POS,The azygoesophageal recess is deviated in which direction?,freeform
-synpic31256.jpg,CHEST,right,OPEN,POS,Where is the azygoesophageal recess deviation located?,frame
-synpic31256.jpg,CHEST,right,OPEN,POS,Which direction is the azygoesophageal recess deviated?,para
-synpic31256.jpg,CHEST,right,OPEN,POS,Where is the azygoesophageal recess deviation located?,frame
-synpic31256.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,freeform
-synpic31256.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pneumothorax ?,frame
+Is the heart enlarged?,no,CLOSED,SIZE
+Is the heart enlarged?,no,CLOSED,SIZE
+How was this image taken?,X-ray,OPEN,MODALITY
+What imaging modality is seen?,X-ray,OPEN,MODALITY
+The azygoesophageal recess is deviated in which direction?,right,OPEN,POS
+Where is the azygoesophageal recess deviation located?,right,OPEN,POS
+Which direction is the azygoesophageal recess deviated?,right,OPEN,POS
+Where is the azygoesophageal recess deviation located?,right,OPEN,POS
+Is there a pneumothorax present?,No,CLOSED,PRES
+Is/Are there a pneumothorax ?,No,CLOSED,PRES
 
 =====================================
 synpic31259:12
 
-synpic31259.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a mass?,frame
-synpic31259.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a mass?,frame
-synpic31259.jpg,CHEST,sternotomy wires and surgical clips,OPEN,PRES,This radiograph contains what foreign body?,para
-synpic31259.jpg,CHEST,sternotomy wires and surgical clips,OPEN,PRES,What is/are the foreign body near/in the lung?,frame
-synpic31259.jpg,CHEST,sternotomy wires and surgical clips,OPEN,PRES,what is the foreign body,freeform
-synpic31259.jpg,CHEST,sternotomy wires and surgical clips,OPEN,PRES,What is/are the foreign body near/in the lung?,frame
-synpic31259.jpg,CHEST,one,OPEN,COUNT,How many masses are there?,freeform
-synpic31259.jpg,CHEST,one,OPEN,COUNT,How many masses are present/visualized in the image?,frame
-synpic31259.jpg,CHEST,left lobe mass 1.5 x 1.8 cm,OPEN,ABN,what is the pathology,freeform
-synpic31259.jpg,CHEST,left lobe mass 1.5 x 1.8 cm,OPEN,ABN,What is abnormal in this image?,frame
-synpic31259.jpg,CHEST,left lobe mass 1.5 x 1.8 cm,OPEN,ABN,What is abnormal in this image?,para
-synpic31259.jpg,CHEST,left lobe mass 1.5 x 1.8 cm,OPEN,ABN,What is abnormal in this image?,frame
+Is/Are there a mass?,yes,CLOSED,PRES
+Is/Are there a mass?,yes,CLOSED,PRES
+This radiograph contains what foreign body?,sternotomy wires and surgical clips,OPEN,PRES
+What is/are the foreign body near/in the lung?,sternotomy wires and surgical clips,OPEN,PRES
+what is the foreign body,sternotomy wires and surgical clips,OPEN,PRES
+What is/are the foreign body near/in the lung?,sternotomy wires and surgical clips,OPEN,PRES
+How many masses are there?,one,OPEN,COUNT
+How many masses are present/visualized in the image?,one,OPEN,COUNT
+what is the pathology,left lobe mass 1.5 x 1.8 cm,OPEN,ABN
+What is abnormal in this image?,left lobe mass 1.5 x 1.8 cm,OPEN,ABN
+What is abnormal in this image?,left lobe mass 1.5 x 1.8 cm,OPEN,ABN
+What is abnormal in this image?,left lobe mass 1.5 x 1.8 cm,OPEN,ABN
 
 =====================================
 synpic31394:15
 
-synpic31394.jpg,CHEST,PA,OPEN,PLANE,In what plane is the above taken?,freeform
-synpic31394.jpg,CHEST,no,CLOSED,MODALITY,Is the image an CT scan?,freeform
-synpic31394.jpg,CHEST,No,CLOSED,SIZE,Does the heart look enlarged?,para
-synpic31394.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart enlarged ?,frame
-synpic31394.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic31394.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart enlarged ?,frame
-synpic31394.jpg,CHEST,Diffuse,CLOSED,POS,Are the pulmonary nodules diffuse in the chest or lateralized to one side?,freeform
-synpic31394.jpg,CHEST,Diffuse,CLOSED,POS,Where are the pulmonary nodules located?,frame
-synpic31394.jpg,CHEST,Diffuse,CLOSED,POS,Is the location of the pulmonary nodules diffuse or lateralized to one side?,para
-synpic31394.jpg,CHEST,Diffuse,CLOSED,POS,Where are the pulmonary nodules located?,frame
-synpic31394.jpg,CHEST,no,CLOSED,PRES,Is there a pneumothorax present?,freeform
-synpic31394.jpg,CHEST,no,CLOSED,PRES,Is/Are there a pneumothroax?,frame
-synpic31394.jpg,CHEST,"Rounded, well-defined pulmonary nodules varying in size and pattern",OPEN,ATTRIB,How would you describe the pathology seen in the above image?,freeform
-synpic31394.jpg,CHEST,"Rounded, well-defined pulmonary nodules varying in size and pattern",OPEN,ATTRIB,How would you describe the pathology in this image?,frame
-synpic31394.jpg,CHEST,pulmonary nodules,OPEN,ABN,What is the pathology seen in this image?,para
+In what plane is the above taken?,PA,OPEN,PLANE
+Is the image an CT scan?,no,CLOSED,MODALITY
+Does the heart look enlarged?,No,CLOSED,SIZE
+Is/Are the heart enlarged ?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is/Are the heart enlarged ?,No,CLOSED,SIZE
+Are the pulmonary nodules diffuse in the chest or lateralized to one side?,Diffuse,CLOSED,POS
+Where are the pulmonary nodules located?,Diffuse,CLOSED,POS
+Is the location of the pulmonary nodules diffuse or lateralized to one side?,Diffuse,CLOSED,POS
+Where are the pulmonary nodules located?,Diffuse,CLOSED,POS
+Is there a pneumothorax present?,no,CLOSED,PRES
+Is/Are there a pneumothroax?,no,CLOSED,PRES
+How would you describe the pathology seen in the above image?,"Rounded, well-defined pulmonary nodules varying in size and pattern",OPEN,ATTRIB
+How would you describe the pathology in this image?,"Rounded, well-defined pulmonary nodules varying in size and pattern",OPEN,ATTRIB
+What is the pathology seen in this image?,pulmonary nodules,OPEN,ABN
 
 =====================================
 synpic31400:14
 
-synpic31400.jpg,CHEST,no,CLOSED,ABN,Any abnormal findings in the lower lung fields?,para
-synpic31400.jpg,CHEST,no,CLOSED,ABN,Is/Are there abnormalities in the patient's lower lung?,frame
-synpic31400.jpg,CHEST,yes,CLOSED,ABN,Are the lower lung fields normal?,freeform
-synpic31400.jpg,CHEST,yes,CLOSED,ABN,Is/Are there abnormalities in the patient's lower lung?,frame
-synpic31400.jpg,CHEST,Right upper lobe,OPEN,POS,where is the cavitary lesion?,freeform
-synpic31400.jpg,CHEST,Right upper lobe,OPEN,POS,Where is/are the cavitary lesion located?,frame
-synpic31400.jpg,CHEST,Right upper lobe,OPEN,POS,where is the abnormality?,para
-synpic31400.jpg,CHEST,Right upper lobe,OPEN,POS,Where is/are the cavitary lesion located?,frame
-synpic31400.jpg,CHEST,Chest,OPEN,ORGAN,Which organ system is imaged?,freeform
-synpic31400.jpg,CHEST,Nodular opacities,OPEN,ABN,What is/are the abnormalities near/in the lung apices?,frame
-synpic31400.jpg,CHEST,Nodular opacities,OPEN,ABN,What is/are the abnormalities near/in the lung apices?,frame
-synpic31400.jpg,CHEST,Yes,CLOSED,ABN,Is this an abnormal film?,freeform
-synpic31400.jpg,CHEST,Yes,CLOSED,ABN,Is this image abnormal?,frame
-synpic31400.jpg,CHEST,Yes,CLOSED,PRES,Is there a cavitary lesion?,freeform
+Any abnormal findings in the lower lung fields?,no,CLOSED,ABN
+Is/Are there abnormalities in the patient's lower lung?,no,CLOSED,ABN
+Are the lower lung fields normal?,yes,CLOSED,ABN
+Is/Are there abnormalities in the patient's lower lung?,yes,CLOSED,ABN
+where is the cavitary lesion?,Right upper lobe,OPEN,POS
+Where is/are the cavitary lesion located?,Right upper lobe,OPEN,POS
+where is the abnormality?,Right upper lobe,OPEN,POS
+Where is/are the cavitary lesion located?,Right upper lobe,OPEN,POS
+Which organ system is imaged?,Chest,OPEN,ORGAN
+What is/are the abnormalities near/in the lung apices?,Nodular opacities,OPEN,ABN
+What is/are the abnormalities near/in the lung apices?,Nodular opacities,OPEN,ABN
+Is this an abnormal film?,Yes,CLOSED,ABN
+Is this image abnormal?,Yes,CLOSED,ABN
+Is there a cavitary lesion?,Yes,CLOSED,PRES
 
 =====================================
 synpic31916:6
 
-synpic31916.jpg,CHEST,yes,CLOSED,MODALITY,Is this film properly exposed?,freeform
-synpic31916.jpg,CHEST,Posteroanterior,OPEN,PLANE,What is the name of this image's plane?,freeform
-synpic31916.jpg,CHEST,No,CLOSED,SIZE,Is the right lung normal in size?,freeform
-synpic31916.jpg,CHEST,It is shifted to the right,OPEN,ABN,What is happening with the path of the trachea?,freeform
-synpic31916.jpg,CHEST,no,CLOSED,SIZE,Is the stomach dilated?,freeform
-synpic31916.jpg,CHEST,Scoliosis,OPEN,OTHER,How do we call these wide undulations along the vertebral column?,freeform
+Is this film properly exposed?,yes,CLOSED,MODALITY
+What is the name of this image's plane?,Posteroanterior,OPEN,PLANE
+Is the right lung normal in size?,No,CLOSED,SIZE
+What is happening with the path of the trachea?,It is shifted to the right,OPEN,ABN
+Is the stomach dilated?,no,CLOSED,SIZE
+How do we call these wide undulations along the vertebral column?,Scoliosis,OPEN,OTHER
 
 =====================================
 synpic31955:11
 
-synpic31955.jpg,CHEST,No,CLOSED,PRES,Is the diaphragm obscured?,para
-synpic31955.jpg,CHEST,No,CLOSED,PRES,Is/Are the diaphragm obscured?,frame
-synpic31955.jpg,CHEST,Yes,CLOSED,PRES,Is the diaphragm clearly visualized on both sides?,freeform
-synpic31955.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the diaphragm visualized?,frame
-synpic31955.jpg,CHEST,Anterior mediastinum,OPEN,POS,Where is the lesion located?,para
-synpic31955.jpg,CHEST,Anterior mediastinum,OPEN,POS,Where is/are the lesion located?,frame
-synpic31955.jpg,CHEST,Right lung hilum,OPEN,POS,What is the location of the primary lesion?,freeform
-synpic31955.jpg,CHEST,Right lung hilum,OPEN,POS,Where is/are the lesion located?,frame
-synpic31955.jpg,CHEST,Anterior mediastinum,OPEN,POS,Where is/are the lesion located?,frame
-synpic31955.jpg,CHEST,No,CLOSED,PRES,Are the clavicles broken?,freeform
-synpic31955.jpg,CHEST,No,CLOSED,PRES,Is/Are there fractures in the patient's clavicles?,frame
+Is the diaphragm obscured?,No,CLOSED,PRES
+Is/Are the diaphragm obscured?,No,CLOSED,PRES
+Is the diaphragm clearly visualized on both sides?,Yes,CLOSED,PRES
+Is/Are the diaphragm visualized?,Yes,CLOSED,PRES
+Where is the lesion located?,Anterior mediastinum,OPEN,POS
+Where is/are the lesion located?,Anterior mediastinum,OPEN,POS
+What is the location of the primary lesion?,Right lung hilum,OPEN,POS
+Where is/are the lesion located?,Right lung hilum,OPEN,POS
+Where is/are the lesion located?,Anterior mediastinum,OPEN,POS
+Are the clavicles broken?,No,CLOSED,PRES
+Is/Are there fractures in the patient's clavicles?,No,CLOSED,PRES
 
 =====================================
 synpic31962:14
 
-synpic31962.jpg,CHEST,Right side,OPEN,POS,Where is the aortic arch?,para
-synpic31962.jpg,CHEST,Right side,OPEN,POS,Where is/are the aortic arch located?,frame
-synpic31962.jpg,CHEST,Right side,OPEN,POS,Which side of the image is the aortic arch visualized?,freeform
-synpic31962.jpg,CHEST,Right side,OPEN,POS,Where is/are the aortic arch located?,frame
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is there a fracture on the left 5th rib?,freeform
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is/Are there fracture in the patient's 5th rib?,frame
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is the left fifth rib broken?,para
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is/Are there fracture in the patient's 5th rib?,frame
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is there any inappropriate air collection in subcutaneous tissue?,freeform
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is/Are there subcutaneous air present?,frame
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is subcutaneous air present?,para
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is/Are there subcutaneous air present?,frame
-synpic31962.jpg,CHEST,No,CLOSED,ABN,Is/Are the air under the diaphragm pathologic?,frame
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is there free air under the patient's diaphragm?,frame
+Where is the aortic arch?,Right side,OPEN,POS
+Where is/are the aortic arch located?,Right side,OPEN,POS
+Which side of the image is the aortic arch visualized?,Right side,OPEN,POS
+Where is/are the aortic arch located?,Right side,OPEN,POS
+Is there a fracture on the left 5th rib?,No,CLOSED,PRES
+Is/Are there fracture in the patient's 5th rib?,No,CLOSED,PRES
+Is the left fifth rib broken?,No,CLOSED,PRES
+Is/Are there fracture in the patient's 5th rib?,No,CLOSED,PRES
+Is there any inappropriate air collection in subcutaneous tissue?,No,CLOSED,PRES
+Is/Are there subcutaneous air present?,No,CLOSED,PRES
+Is subcutaneous air present?,No,CLOSED,PRES
+Is/Are there subcutaneous air present?,No,CLOSED,PRES
+Is/Are the air under the diaphragm pathologic?,No,CLOSED,ABN
+Is there free air under the patient's diaphragm?,No,CLOSED,PRES
 
 =====================================
 synpic32081:13
 
-synpic32081.jpg,CHEST,Right side of the trachea,OPEN,POS,What is the location of the abnormality?,para
-synpic32081.jpg,CHEST,Right side of the trachea,OPEN,POS,Where is/are the abnormality located?,frame
-synpic32081.jpg,CHEST,Right side of the trachea,OPEN,POS,Where is the abnormality?,freeform
-synpic32081.jpg,CHEST,Right side of the trachea,OPEN,POS,Where is/are the abnormality located?,frame
-synpic32081.jpg,CHEST,Yes,CLOSED,ABN,Is anything wrong in the image?,para
-synpic32081.jpg,CHEST,Yes,CLOSED,ABN,Is this image normal?,frame
-synpic32081.jpg,CHEST,Yes,CLOSED,ABN,Is there an abnormality?,freeform
-synpic32081.jpg,CHEST,Yes,CLOSED,ABN,Is this image normal?,frame
-synpic32081.jpg,CHEST,Man,OPEN,OTHER,What is the gender of this patient?,freeform
-synpic32081.jpg,CHEST,Right paratracheal mass lesion,OPEN,ABN,What is the abnormality?,freeform
-synpic32081.jpg,CHEST,Right paratracheal mass lesion,OPEN,ABN,What is abnormal in this image?,frame
-synpic32081.jpg,CHEST,Right paratracheal mass lesion,OPEN,ABN,What is wrong in this image?,para
-synpic32081.jpg,CHEST,Right paratracheal mass lesion,OPEN,ABN,What is abnormal in this image?,frame
+What is the location of the abnormality?,Right side of the trachea,OPEN,POS
+Where is/are the abnormality located?,Right side of the trachea,OPEN,POS
+Where is the abnormality?,Right side of the trachea,OPEN,POS
+Where is/are the abnormality located?,Right side of the trachea,OPEN,POS
+Is anything wrong in the image?,Yes,CLOSED,ABN
+Is this image normal?,Yes,CLOSED,ABN
+Is there an abnormality?,Yes,CLOSED,ABN
+Is this image normal?,Yes,CLOSED,ABN
+What is the gender of this patient?,Man,OPEN,OTHER
+What is the abnormality?,Right paratracheal mass lesion,OPEN,ABN
+What is abnormal in this image?,Right paratracheal mass lesion,OPEN,ABN
+What is wrong in this image?,Right paratracheal mass lesion,OPEN,ABN
+What is abnormal in this image?,Right paratracheal mass lesion,OPEN,ABN
 
 =====================================
 synpic32084:14
 
-synpic32084.jpg,CHEST,No,CLOSED,PRES,Is/Are the ribs broken?,frame
-synpic32084.jpg,CHEST,Yes,CLOSED,"POS, PRES",Are there multiple circumferential opacities located throughout all lung fields?,freeform
-synpic32084.jpg,CHEST,Yes,CLOSED,"POS, PRES",Does this chest x-ray show signs of diffuse opacities in both right and left lung fields?,para
-synpic32084.jpg,CHEST,Chest radiograph,OPEN,ORGAN,What type of radiograph is this?,freeform
-synpic32084.jpg,CHEST,Yes,CLOSED,PRES,Is there right hemidiaphragm elevation?,para
-synpic32084.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there elevation of the right hemidiaphragm?,frame
-synpic32084.jpg,CHEST,Yes,CLOSED,PRES,Is the right hemidiaphragm higher than the left?,freeform
-synpic32084.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there elevation of the right hemidiaphragm?,frame
-synpic32084.jpg,CHEST,X-ray,OPEN,MODALITY,What was this image taken with?,freeform
-synpic32084.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic32084.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic32084.jpg,CHEST,No,CLOSED,SIZE,Is there evidence of cardiomegaly?,para
-synpic32084.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic32084.jpg,CHEST,yes,CLOSED,PLANE,Is this a PA film?,freeform
+Is/Are the ribs broken?,No,CLOSED,PRES
+Are there multiple circumferential opacities located throughout all lung fields?,Yes,CLOSED,"POS, PRES"
+Does this chest x-ray show signs of diffuse opacities in both right and left lung fields?,Yes,CLOSED,"POS, PRES"
+What type of radiograph is this?,Chest radiograph,OPEN,ORGAN
+Is there right hemidiaphragm elevation?,Yes,CLOSED,PRES
+Is/Are there elevation of the right hemidiaphragm?,Yes,CLOSED,PRES
+Is the right hemidiaphragm higher than the left?,Yes,CLOSED,PRES
+Is/Are there elevation of the right hemidiaphragm?,Yes,CLOSED,PRES
+What was this image taken with?,X-ray,OPEN,MODALITY
+Is the heart enlarged?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is there evidence of cardiomegaly?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is this a PA film?,yes,CLOSED,PLANE
 
 =====================================
 synpic32933:10
 
-synpic32933.jpg,CHEST,Free air,OPEN,PRES,What is/are the hypointensity near/in the R hemidiaphragm?,frame
-synpic32933.jpg,CHEST,Free air,OPEN,PRES,What is/are the hypointensity near/in the R hemidiaphragm?,frame
-synpic32933.jpg,CHEST,Yes,CLOSED,ABN,Is the left hemidiaphragm normal?,para
-synpic32933.jpg,CHEST,Yes,CLOSED,ABN,Is this image normal?,frame
-synpic32933.jpg,CHEST,Yes,CLOSED,ABN,Is the left hemidiaphragm normal?,freeform
-synpic32933.jpg,CHEST,Yes,CLOSED,ABN,Is this image normal?,frame
-synpic32933.jpg,CHEST,No,CLOSED,ABN,Is this image normal?,frame
-synpic32933.jpg,CHEST,No,CLOSED,ABN, Is/Are the right hemidiaphragm normal?,frame
-synpic32933.jpg,CHEST,R hemidiaphragm,OPEN,POS,Where is the abnormality located?,freeform
-synpic32933.jpg,CHEST,R hemidiaphragm,OPEN,POS,Where is/are the free air located?,frame
+What is/are the hypointensity near/in the R hemidiaphragm?,Free air,OPEN,PRES
+What is/are the hypointensity near/in the R hemidiaphragm?,Free air,OPEN,PRES
+Is the left hemidiaphragm normal?,Yes,CLOSED,ABN
+Is this image normal?,Yes,CLOSED,ABN
+Is the left hemidiaphragm normal?,Yes,CLOSED,ABN
+Is this image normal?,Yes,CLOSED,ABN
+Is this image normal?,No,CLOSED,ABN
+ Is/Are the right hemidiaphragm normal?,No,CLOSED,ABN
+Where is the abnormality located?,R hemidiaphragm,OPEN,POS
+Where is/are the free air located?,R hemidiaphragm,OPEN,POS
 
 =====================================
 synpic32962:11
 
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,Is/Are there hylar lymphadenopathy?,frame
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,Is/Are there hylar lymphadenopathy?,frame
-synpic32962.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are there a widened mediastinum?,frame
-synpic32962.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are there a widened mediastinum?,frame
-synpic32962.jpg,CHEST,yes,CLOSED,PLANE,Is this coronal plane?,freeform
-synpic32962.jpg,CHEST,CXR,OPEN,MODALITY,What is the modality?,freeform
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,Doe this image depict an interstitial lung process?,para
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,Is/Are there interstitial process in the patient's lungs?,frame
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,Is there an interstitial lung process?,freeform
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,Is/Are there interstitial process in the patient's lungs?,frame
-synpic32962.jpg,CHEST,"Right of the midline, superior to the right hilum",OPEN,POS,Where is/are the opacity located?,frame
+Is/Are there hylar lymphadenopathy?,yes,CLOSED,PRES
+Is/Are there hylar lymphadenopathy?,yes,CLOSED,PRES
+Is/Are there a widened mediastinum?,Yes,CLOSED,SIZE
+Is/Are there a widened mediastinum?,Yes,CLOSED,SIZE
+Is this coronal plane?,yes,CLOSED,PLANE
+What is the modality?,CXR,OPEN,MODALITY
+Doe this image depict an interstitial lung process?,yes,CLOSED,PRES
+Is/Are there interstitial process in the patient's lungs?,yes,CLOSED,PRES
+Is there an interstitial lung process?,yes,CLOSED,PRES
+Is/Are there interstitial process in the patient's lungs?,yes,CLOSED,PRES
+Where is/are the opacity located?,"Right of the midline, superior to the right hilum",OPEN,POS
 
 =====================================
 synpic32970:11
 
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Are there any bone fractures present?,para
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Is/Are there bone fractures?,frame
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Does the patient have any bone fractures?,freeform
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Is/Are there bone fractures?,frame
-synpic32970.jpg,CHEST,right lower lateral lung field,OPEN,POS,Where is/are the lesion  located?,frame
-synpic32970.jpg,CHEST,right lower lateral lung field,OPEN,POS,Where is/are the lesion  located?,frame
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Are there multiple lesions in the chest of the above patient?,freeform
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Is there multiple lesions in the patient's chest?,frame
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Does this patient have multiple lesions in their chest?,para
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Is there multiple lesions in the patient's chest?,frame
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Is/Are there air under the patient's diaphragm?,frame
+Are there any bone fractures present?,No,CLOSED,PRES
+Is/Are there bone fractures?,No,CLOSED,PRES
+Does the patient have any bone fractures?,No,CLOSED,PRES
+Is/Are there bone fractures?,No,CLOSED,PRES
+Where is/are the lesion  located?,right lower lateral lung field,OPEN,POS
+Where is/are the lesion  located?,right lower lateral lung field,OPEN,POS
+Are there multiple lesions in the chest of the above patient?,No,CLOSED,PRES
+Is there multiple lesions in the patient's chest?,No,CLOSED,PRES
+Does this patient have multiple lesions in their chest?,No,CLOSED,PRES
+Is there multiple lesions in the patient's chest?,No,CLOSED,PRES
+Is/Are there air under the patient's diaphragm?,No,CLOSED,PRES
 
 =====================================
 synpic33102:13
 
-synpic33102.jpg,CHEST,yes,CLOSED,PRES,Is there a pneumothorax?,freeform
-synpic33102.jpg,CHEST,yes,CLOSED,PRES,Is there a pneumonthorax?,frame
-synpic33102.jpg,CHEST,No,CLOSED,PRES,Do you see a pleural effusion?,para
-synpic33102.jpg,CHEST,No,CLOSED,PRES,Is there a pleural effusion?,frame
-synpic33102.jpg,CHEST,No,CLOSED,PRES,Is there a pleural effusion present?,freeform
-synpic33102.jpg,CHEST,No,CLOSED,PRES,Is there a pleural effusion?,frame
-synpic33102.jpg,CHEST,PA,OPEN,PLANE,How was this film taken?,freeform
-synpic33102.jpg,CHEST,No,CLOSED,SIZE,Do you see cardiomegaly?,para
-synpic33102.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic33102.jpg,CHEST,No,CLOSED,SIZE,Is cardiomegaly present?,freeform
-synpic33102.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic33102.jpg,CHEST,no,CLOSED,MODALITY,Is this a KUB film?,freeform
-synpic33102.jpg,CHEST,yes,CLOSED,MODALITY,Is this a plain film xray?,freeform
+Is there a pneumothorax?,yes,CLOSED,PRES
+Is there a pneumonthorax?,yes,CLOSED,PRES
+Do you see a pleural effusion?,No,CLOSED,PRES
+Is there a pleural effusion?,No,CLOSED,PRES
+Is there a pleural effusion present?,No,CLOSED,PRES
+Is there a pleural effusion?,No,CLOSED,PRES
+How was this film taken?,PA,OPEN,PLANE
+Do you see cardiomegaly?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is cardiomegaly present?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is this a KUB film?,no,CLOSED,MODALITY
+Is this a plain film xray?,yes,CLOSED,MODALITY
 
 =====================================
 synpic33226:16
 
-synpic33226.jpg,CHEST,Yes,CLOSED,SIZE,Is the heart a normal size?,freeform
-synpic33226.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart size normal?,frame
-synpic33226.jpg,CHEST,Yes,CLOSED,SIZE,Is the heart size normal?,para
-synpic33226.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart size normal?,frame
-synpic33226.jpg,CHEST,yes,CLOSED,MODALITY,Can this image highlight bone fractures (if present)?,freeform
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is a pleural effusion present?,freeform
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is there a pleural effusion?,para
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic33226.jpg,CHEST,lungs 	bony thoracic cavit y	mediastinum and great vessels,OPEN,OTHER,What can be typically visualized in this plane?,freeform
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Does the left humerus appear to be fractured?,para
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is/Are the humerus fractured?,frame
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is there a fracture of the left humerus?,freeform
-synpic33226.jpg,CHEST,no,CLOSED,ABN,Are both lungs abnormally inflated?,freeform
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is the heart clearly visible?,freeform
-synpic33226.jpg,CHEST,No,CLOSED,PRES,Is/Are there an obvious heart outline?,frame
+Is the heart a normal size?,Yes,CLOSED,SIZE
+Is/Are the heart size normal?,Yes,CLOSED,SIZE
+Is the heart size normal?,Yes,CLOSED,SIZE
+Is/Are the heart size normal?,Yes,CLOSED,SIZE
+Can this image highlight bone fractures (if present)?,yes,CLOSED,MODALITY
+Is a pleural effusion present?,No,CLOSED,PRES
+Is/Are there a pleural effusion?,No,CLOSED,PRES
+Is there a pleural effusion?,No,CLOSED,PRES
+Is/Are there a pleural effusion?,No,CLOSED,PRES
+What can be typically visualized in this plane?,lungs 	bony thoracic cavit y	mediastinum and great vessels,OPEN,OTHER
+Does the left humerus appear to be fractured?,No,CLOSED,PRES
+Is/Are the humerus fractured?,No,CLOSED,PRES
+Is there a fracture of the left humerus?,No,CLOSED,PRES
+Are both lungs abnormally inflated?,no,CLOSED,ABN
+Is the heart clearly visible?,No,CLOSED,PRES
+Is/Are there an obvious heart outline?,No,CLOSED,PRES
 
 =====================================
 synpic33302:12
 
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Are there any consolidations present in the lungs?,freeform
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Is/Are there pulmonary consolidations?,frame
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Are there any pulmonary consolidations?,para
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Is/Are there pulmonary consolidations?,frame
-synpic33302.jpg,CHEST,Stomach bubble,OPEN,PRES,What is the air under the left hemidiaphragm?,freeform
-synpic33302.jpg,CHEST,Stomach bubble,OPEN,PRES,What is the air under the patient's left hemidiaphragm?,frame
-synpic33302.jpg,CHEST,Stomach bubble,OPEN,PRES,What is hyperdensity under the diaphragm on the left?,para
-synpic33302.jpg,CHEST,Stomach bubble,OPEN,PRES,What is the air under the patient's left hemidiaphragm?,frame
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Is there a calcification on the upper left lobe?,freeform
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Is/Are there calcification in the patient's upper left lobe?,frame
+Are there any consolidations present in the lungs?,No,CLOSED,PRES
+Is/Are there pulmonary consolidations?,No,CLOSED,PRES
+Are there any pulmonary consolidations?,No,CLOSED,PRES
+Is/Are there pulmonary consolidations?,No,CLOSED,PRES
+What is the air under the left hemidiaphragm?,Stomach bubble,OPEN,PRES
+What is the air under the patient's left hemidiaphragm?,Stomach bubble,OPEN,PRES
+What is hyperdensity under the diaphragm on the left?,Stomach bubble,OPEN,PRES
+What is the air under the patient's left hemidiaphragm?,Stomach bubble,OPEN,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Is/Are there pneumothorax?,No,CLOSED,PRES
+Is there a calcification on the upper left lobe?,No,CLOSED,PRES
+Is/Are there calcification in the patient's upper left lobe?,No,CLOSED,PRES
 
 =====================================
 synpic33331:13
 
-synpic33331.jpg,CHEST,no,CLOSED,PLANE,Is this a mid-sagittal film?,freeform
-synpic33331.jpg,CHEST,Cartilage is not well viewed by x rays,OPEN,OTHER,Why are the chostrochondral junctions not seen on this film?,freeform
-synpic33331.jpg,CHEST,No,CLOSED,SIZE,Is the heart shadow abnormally large?,para
-synpic33331.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart shadow abnormally large?,frame
-synpic33331.jpg,CHEST,No,CLOSED,SIZE,Is the cardiac silhouette enlarged?,freeform
-synpic33331.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart shadow abnormally large?,frame
-synpic33331.jpg,CHEST,No,CLOSED,PRES,Are any of the ribs fractured?,para
-synpic33331.jpg,CHEST,No,CLOSED,PRES,Is/Are the ribs fractured? -yes/no,frame
-synpic33331.jpg,CHEST,No,CLOSED,PRES,Are there rib fractures present?,freeform
-synpic33331.jpg,CHEST,No,CLOSED,PRES,Is/Are the ribs fractured? -yes/no,frame
-synpic33331.jpg,CHEST,Left,OPEN,"PRES, POS",Which side is the diaphragm more depressed?,freeform
-synpic33331.jpg,CHEST,bilateral,CLOSED,POS,Is the hyperinflation unilateral or bilateral?,freeform
-synpic33331.jpg,CHEST,both sides,CLOSED,POS,Is the lung hyperinflated on one or both sides?,para
+Is this a mid-sagittal film?,no,CLOSED,PLANE
+Why are the chostrochondral junctions not seen on this film?,Cartilage is not well viewed by x rays,OPEN,OTHER
+Is the heart shadow abnormally large?,No,CLOSED,SIZE
+Is/Are the heart shadow abnormally large?,No,CLOSED,SIZE
+Is the cardiac silhouette enlarged?,No,CLOSED,SIZE
+Is/Are the heart shadow abnormally large?,No,CLOSED,SIZE
+Are any of the ribs fractured?,No,CLOSED,PRES
+Is/Are the ribs fractured? -yes/no,No,CLOSED,PRES
+Are there rib fractures present?,No,CLOSED,PRES
+Is/Are the ribs fractured? -yes/no,No,CLOSED,PRES
+Which side is the diaphragm more depressed?,Left,OPEN,"PRES, POS"
+Is the hyperinflation unilateral or bilateral?,bilateral,CLOSED,POS
+Is the lung hyperinflated on one or both sides?,both sides,CLOSED,POS
 
 =====================================
 synpic33378:3
 
-synpic33378.jpg,CHEST,Yes,CLOSED,PRES,Does this patient have a pneumothorax?,freeform
-synpic33378.jpg,CHEST,No,CLOSED,PRES,Does this patient have a pleural effusion?,freeform
-synpic33378.jpg,CHEST,Right side,OPEN,POS,Which side is the pneumothorax on?,freeform
+Does this patient have a pneumothorax?,Yes,CLOSED,PRES
+Does this patient have a pleural effusion?,No,CLOSED,PRES
+Which side is the pneumothorax on?,Right side,OPEN,POS
 
 =====================================
 synpic33422:9
 
-synpic33422.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there pneumothorax in the patient's left lung field?,frame
-synpic33422.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there pneumothorax in the patient's left lung field?,frame
-synpic33422.jpg,CHEST,No,CLOSED,PRES,Is/Are there midline shift?,frame
-synpic33422.jpg,CHEST,No,CLOSED,PRES,Is/Are there midline shift?,frame
-synpic33422.jpg,CHEST,Yes,CLOSED,PRES,Is there adequate inspiration?,freeform
-synpic33422.jpg,CHEST,No,CLOSED,SIZE,Is there evidence of hilar enlargement?,freeform
-synpic33422.jpg,CHEST,No,CLOSED,SIZE,Is/Are the hilum enlargement?,frame
-synpic33422.jpg,CHEST,No,CLOSED,SIZE,Is there increased lung markings near the hilum?,para
-synpic33422.jpg,CHEST,No,CLOSED,SIZE,Is/Are the hilum enlargement?,frame
+Is/Are there pneumothorax in the patient's left lung field?,Yes,CLOSED,PRES
+Is/Are there pneumothorax in the patient's left lung field?,Yes,CLOSED,PRES
+Is/Are there midline shift?,No,CLOSED,PRES
+Is/Are there midline shift?,No,CLOSED,PRES
+Is there adequate inspiration?,Yes,CLOSED,PRES
+Is there evidence of hilar enlargement?,No,CLOSED,SIZE
+Is/Are the hilum enlargement?,No,CLOSED,SIZE
+Is there increased lung markings near the hilum?,No,CLOSED,SIZE
+Is/Are the hilum enlargement?,No,CLOSED,SIZE
 
 =====================================
 synpic33429:8
 
-synpic33429.jpg,CHEST,No,CLOSED,PRES,Is there free air under the diaphragm?,freeform
-synpic33429.jpg,CHEST,No,CLOSED,PRES,Is/Are there air in the abdomen?,frame
-synpic33429.jpg,CHEST,No,CLOSED,PRES,Is there air in the abdominal cavity?,para
-synpic33429.jpg,CHEST,No,CLOSED,PRES,Is/Are there air in the abdomen?,frame
-synpic33429.jpg,CHEST,No,CLOSED,PRES,What is/are the free air near/in the thorax?,frame
-synpic33429.jpg,CHEST,No,CLOSED,PRES,What is/are the free air near/in the thorax?,frame
-synpic33429.jpg,CHEST,No,CLOSED,SIZE,Is the heart too big?,freeform
-synpic33429.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart too big?,frame
+Is there free air under the diaphragm?,No,CLOSED,PRES
+Is/Are there air in the abdomen?,No,CLOSED,PRES
+Is there air in the abdominal cavity?,No,CLOSED,PRES
+Is/Are there air in the abdomen?,No,CLOSED,PRES
+What is/are the free air near/in the thorax?,No,CLOSED,PRES
+What is/are the free air near/in the thorax?,No,CLOSED,PRES
+Is the heart too big?,No,CLOSED,SIZE
+Is/Are the heart too big?,No,CLOSED,SIZE
 
 =====================================
 synpic33481:14
 
-synpic33481.jpg,CHEST,No,CLOSED,POS,Are the lesions only in one lobe?,para
-synpic33481.jpg,CHEST,No,CLOSED,POS,Is/Are the lesions located near/in the one lobe?,frame
-synpic33481.jpg,CHEST,No,CLOSED,POS,Are the opacities confined to one lung lobe?,freeform
-synpic33481.jpg,CHEST,No,CLOSED,POS,Is/Are the lesions located near/in the one lobe?,frame
-synpic33481.jpg,CHEST,yes,CLOSED,OTHER,Does a blocked alveoli cause a V/Q mismatch?,freeform
-synpic33481.jpg,CHEST,Lateral film as well as PA,OPEN,OTHER,What else do you need in order to localize lesions on a CXR?,freeform
-synpic33481.jpg,CHEST,No,CLOSED,ATTRIB,Are the hemidiaphragms flattened?,freeform
-synpic33481.jpg,CHEST,No,CLOSED,ATTRIB,Is/Are the diaphragm  flattened? -yes/no,frame
-synpic33481.jpg,CHEST,No,CLOSED,ATTRIB,Is the diaphragm flattened on either side,para
-synpic33481.jpg,CHEST,No,CLOSED,ATTRIB,Is/Are the diaphragm  flattened? -yes/no,frame
-synpic33481.jpg,CHEST,No,CLOSED,SIZE,Is the aorta abnormally wide?,para
-synpic33481.jpg,CHEST,No,CLOSED,SIZE,is the aortic knob widened?,frame
-synpic33481.jpg,CHEST,No,CLOSED,SIZE,Is the aortic knob widened?,freeform
-synpic33481.jpg,CHEST,No,CLOSED,SIZE,is the aortic knob widened?,frame
+Are the lesions only in one lobe?,No,CLOSED,POS
+Is/Are the lesions located near/in the one lobe?,No,CLOSED,POS
+Are the opacities confined to one lung lobe?,No,CLOSED,POS
+Is/Are the lesions located near/in the one lobe?,No,CLOSED,POS
+Does a blocked alveoli cause a V/Q mismatch?,yes,CLOSED,OTHER
+What else do you need in order to localize lesions on a CXR?,Lateral film as well as PA,OPEN,OTHER
+Are the hemidiaphragms flattened?,No,CLOSED,ATTRIB
+Is/Are the diaphragm  flattened? -yes/no,No,CLOSED,ATTRIB
+Is the diaphragm flattened on either side,No,CLOSED,ATTRIB
+Is/Are the diaphragm  flattened? -yes/no,No,CLOSED,ATTRIB
+Is the aorta abnormally wide?,No,CLOSED,SIZE
+is the aortic knob widened?,No,CLOSED,SIZE
+Is the aortic knob widened?,No,CLOSED,SIZE
+is the aortic knob widened?,No,CLOSED,SIZE
 
 =====================================
 synpic34449:9
 
-synpic34449.jpg,CHEST,Superior,CLOSED,POS,Are the calcifications superior or inferior to the diaphragm?,para
-synpic34449.jpg,CHEST,High on the image,OPEN,POS,Where in the image are the calcifications located?,freeform
-synpic34449.jpg,CHEST,Heart 	lungs,OPEN,ORGAN,What are the two major organs present in this image?,freeform
-synpic34449.jpg,CHEST,no,CLOSED,PLANE,Is this an AP image?,freeform
-synpic34449.jpg,CHEST,On the right shoulder.,OPEN,POS,Where is/are the subcutaneous air collection? ,frame
-synpic34449.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there subcutaneous air present in the patient's right neck?,frame
-synpic34449.jpg,CHEST,X-ray,OPEN,MODALITY,How was this image taken?,freeform
-synpic34449.jpg,CHEST,Yes,CLOSED,PRES,Are there rib fractures present?,freeform
-synpic34449.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the right ribs fractured?,frame
+Are the calcifications superior or inferior to the diaphragm?,Superior,CLOSED,POS
+Where in the image are the calcifications located?,High on the image,OPEN,POS
+What are the two major organs present in this image?,Heart 	lungs,OPEN,ORGAN
+Is this an AP image?,no,CLOSED,PLANE
+Where is/are the subcutaneous air collection? ,On the right shoulder.,OPEN,POS
+Is/Are there subcutaneous air present in the patient's right neck?,Yes,CLOSED,PRES
+How was this image taken?,X-ray,OPEN,MODALITY
+Are there rib fractures present?,Yes,CLOSED,PRES
+Is/Are the right ribs fractured?,Yes,CLOSED,PRES
 
 =====================================
 synpic38531:5
 
-synpic38531.jpg,CHEST,No,CLOSED,PRES,Are there rib fractures present?,freeform
-synpic38531.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Is the left hemodiaphragm flat?,frame
-synpic38531.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Is the left hemodiaphragm flat?,frame
-synpic38531.jpg,CHEST,Yes,CLOSED,PRES,Is there decreased aeration at the apex?,freeform
-synpic38531.jpg,CHEST,Normal,CLOSED,ATTRIB,Is the apical aeration normal or decreased?,para
+Are there rib fractures present?,No,CLOSED,PRES
+Is the left hemodiaphragm flat?,Yes,CLOSED,"PRES, ATTRIB"
+Is the left hemodiaphragm flat?,Yes,CLOSED,"PRES, ATTRIB"
+Is there decreased aeration at the apex?,Yes,CLOSED,PRES
+Is the apical aeration normal or decreased?,Normal,CLOSED,ATTRIB
 
 =====================================
 synpic39532:10
 
-synpic39532.jpg,CHEST,No,CLOSED,PRES,Is/Are there a pneumothorax present?,frame
-synpic39532.jpg,CHEST,One,OPEN,COUNT,How many lesions are present in the image?,freeform
-synpic39532.jpg,CHEST,One,OPEN,COUNT,How many lesions are present/visualized in the image?,frame
-synpic39532.jpg,CHEST,No,CLOSED,COUNT,Is there more that one lesion present?,para
-synpic39532.jpg,CHEST,No,CLOSED,COUNT,Is/Are there more than one lesion present?,frame
-synpic39532.jpg,CHEST,Right lower lobe,OPEN,POS,Where is the lesion?,para
-synpic39532.jpg,CHEST,Right lower lobe,OPEN,POS,Where is/are the lesion located?,frame
-synpic39532.jpg,CHEST,Right lower lobe,OPEN,POS,Which lung lobe is the lesion present in?,freeform
-synpic39532.jpg,CHEST,Right lower lobe,OPEN,POS,Where is/are the lesion located?,frame
-synpic39532.jpg,CHEST,No,CLOSED,PRES,Is there free air under the diaphragm?,freeform
+Is/Are there a pneumothorax present?,No,CLOSED,PRES
+How many lesions are present in the image?,One,OPEN,COUNT
+How many lesions are present/visualized in the image?,One,OPEN,COUNT
+Is there more that one lesion present?,No,CLOSED,COUNT
+Is/Are there more than one lesion present?,No,CLOSED,COUNT
+Where is the lesion?,Right lower lobe,OPEN,POS
+Where is/are the lesion located?,Right lower lobe,OPEN,POS
+Which lung lobe is the lesion present in?,Right lower lobe,OPEN,POS
+Where is/are the lesion located?,Right lower lobe,OPEN,POS
+Is there free air under the diaphragm?,No,CLOSED,PRES
 
 =====================================
 synpic40272:12
 
-synpic40272.jpg,CHEST,yes,CLOSED,PLANE,was this chest x ray taken in PA format?,freeform
-synpic40272.jpg,CHEST,no,CLOSED,PRES,Is there pulmonary edema,frame
-synpic40272.jpg,CHEST,no,CLOSED,SIZE,Is/Are the pulmonary vessels enlarged?,frame
-synpic40272.jpg,CHEST,yes,CLOSED,PRES,is it difficult to delineate the left costophrenic angle?,freeform
-synpic40272.jpg,CHEST,yes,CLOSED,PRES,Is/Are there blunting in the patient's left costophrenic angle?,frame
-synpic40272.jpg,CHEST,yes,CLOSED,PRES,Is there blunting of the left costophrenic angle?,para
-synpic40272.jpg,CHEST,yes,CLOSED,PRES,Is/Are there blunting in the patient's left costophrenic angle?,frame
-synpic40272.jpg,CHEST,yes,CLOSED,COLOR,Is/Are the left lung radioopaque?,frame
-synpic40272.jpg,CHEST,yes,CLOSED,COLOR,Is/Are the left lung radioopaque?,frame
-synpic40272.jpg,CHEST,yes,CLOSED,ORGAN,are the heart and lungs displayed well in this film,freeform
-synpic40272.jpg,CHEST,Yes,CLOSED,PRES,Does the patient have a central line placed?,freeform
-synpic40272.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there central line in the patient's heart?,frame
+was this chest x ray taken in PA format?,yes,CLOSED,PLANE
+Is there pulmonary edema,no,CLOSED,PRES
+Is/Are the pulmonary vessels enlarged?,no,CLOSED,SIZE
+is it difficult to delineate the left costophrenic angle?,yes,CLOSED,PRES
+Is/Are there blunting in the patient's left costophrenic angle?,yes,CLOSED,PRES
+Is there blunting of the left costophrenic angle?,yes,CLOSED,PRES
+Is/Are there blunting in the patient's left costophrenic angle?,yes,CLOSED,PRES
+Is/Are the left lung radioopaque?,yes,CLOSED,COLOR
+Is/Are the left lung radioopaque?,yes,CLOSED,COLOR
+are the heart and lungs displayed well in this film,yes,CLOSED,ORGAN
+Does the patient have a central line placed?,Yes,CLOSED,PRES
+Is/Are there central line in the patient's heart?,Yes,CLOSED,PRES
 
 =====================================
 synpic40520:10
 
-synpic40520.jpg,CHEST,Right side,OPEN,POS,Where is/are the pleural effusion located?,frame
-synpic40520.jpg,CHEST,Right side,OPEN,POS,Where is/are the pleural effusion located?,frame
-synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the trachea located near/in the midline?,frame
-synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,frame
-synpic40520.jpg,CHEST,No,CLOSED,SIZE,Does the heart appear normal size?,para
-synpic40520.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart normal size?,frame
-synpic40520.jpg,CHEST,No,CLOSED,SIZE,Is the width of the cardiac silhouette normal?,freeform
-synpic40520.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart normal size?,frame
-synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Are there increased interstitial markings?,freeform
-synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there increased interstitial markings?,frame
+Where is/are the pleural effusion located?,Right side,OPEN,POS
+Where is/are the pleural effusion located?,Right side,OPEN,POS
+Is/Are the trachea located near/in the midline?,Yes,CLOSED,PRES
+Is the trachea midline?,Yes,CLOSED,PRES
+Does the heart appear normal size?,No,CLOSED,SIZE
+Is/Are the heart normal size?,No,CLOSED,SIZE
+Is the width of the cardiac silhouette normal?,No,CLOSED,SIZE
+Is/Are the heart normal size?,No,CLOSED,SIZE
+Are there increased interstitial markings?,Yes,CLOSED,PRES
+Is/Are there increased interstitial markings?,Yes,CLOSED,PRES
 
 =====================================
 synpic41667:12
 
-synpic41667.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform
-synpic41667.jpg,CHEST,yes,CLOSED,PRES,Can you view the colon in this image?,freeform
-synpic41667.jpg,CHEST,Sigmoid Flexture of the Colon,OPEN,PRES,What structure is seen in the left hemidiaphragmatic area?,para
-synpic41667.jpg,CHEST,Sigmoid Flexture of the Colon,OPEN,PRES,What structure is superimposed on the left hemidiaphragm?,freeform
-synpic41667.jpg,CHEST,Right Subclavian Vein,OPEN,POS,What vein is the central venous catheter located in the patient?,freeform
-synpic41667.jpg,CHEST,Right Subclavian Vein,OPEN,POS,Where is/are the central venous catheter located?,frame
-synpic41667.jpg,CHEST,Right Subclavian Vein,OPEN,POS,Where is the central venous catheter placed?,para
-synpic41667.jpg,CHEST,Right Subclavian Vein,OPEN,POS,Where is/are the central venous catheter located?,frame
-synpic41667.jpg,CHEST,yes,CLOSED,MODALITY,Is this a chest radiograph?,freeform
-synpic41667.jpg,CHEST,PA,CLOSED,PLANE,Is this an AP or PA film?,freeform
-synpic41667.jpg,CHEST,Base,CLOSED,POS,Are the ground glass opacities located more in the apex or base of the lung?,freeform
-synpic41667.jpg,CHEST,Lower lung fields,OPEN,POS,What parts of the lung fields contain the most prominent ground glass opacities?,para
+Is the trachea midline?,Yes,CLOSED,PRES
+Can you view the colon in this image?,yes,CLOSED,PRES
+What structure is seen in the left hemidiaphragmatic area?,Sigmoid Flexture of the Colon,OPEN,PRES
+What structure is superimposed on the left hemidiaphragm?,Sigmoid Flexture of the Colon,OPEN,PRES
+What vein is the central venous catheter located in the patient?,Right Subclavian Vein,OPEN,POS
+Where is/are the central venous catheter located?,Right Subclavian Vein,OPEN,POS
+Where is the central venous catheter placed?,Right Subclavian Vein,OPEN,POS
+Where is/are the central venous catheter located?,Right Subclavian Vein,OPEN,POS
+Is this a chest radiograph?,yes,CLOSED,MODALITY
+Is this an AP or PA film?,PA,CLOSED,PLANE
+Are the ground glass opacities located more in the apex or base of the lung?,Base,CLOSED,POS
+What parts of the lung fields contain the most prominent ground glass opacities?,Lower lung fields,OPEN,POS
 
 =====================================
 synpic42202:4
 
-synpic42202.jpg,CHEST,Cardiovascular,OPEN,ORGAN,Which organ system is abnormal in this image?,freeform
-synpic42202.jpg,CHEST,no,CLOSED,PRES,Is there a pneumothorax?,freeform
-synpic42202.jpg,CHEST,Chest X-ray,OPEN,MODALITY,What type of image is this?,freeform
-synpic42202.jpg,CHEST,no,CLOSED,PLANE,Is this an anterior-posterior image,freeform
+Which organ system is abnormal in this image?,Cardiovascular,OPEN,ORGAN
+Is there a pneumothorax?,no,CLOSED,PRES
+What type of image is this?,Chest X-ray,OPEN,MODALITY
+Is this an anterior-posterior image,no,CLOSED,PLANE
 
 =====================================
 synpic42210:13
 
-synpic42210.jpg,CHEST,nipple location,OPEN,PRES,What do the two bright dots represent?,para
-synpic42210.jpg,CHEST,nipple location,OPEN,PRES,What are the two bright dots?,frame
-synpic42210.jpg,CHEST,nipple location,OPEN,PRES,What are the two hyperlucent inferior dots?,freeform
-synpic42210.jpg,CHEST,nipple location,OPEN,PRES,What are the two dots?,frame
-synpic42210.jpg,CHEST,yes,CLOSED,PRES,Is the trachea deviated?,freeform
-synpic42210.jpg,CHEST,yes,CLOSED,PRES,Is/Are there tracheal deviation?,frame
-synpic42210.jpg,CHEST,yes,CLOSED,PRES,Is tracheal deviation present?,para
-synpic42210.jpg,CHEST,yes,CLOSED,PRES,Is/Are there tracheal deviation?,frame
-synpic42210.jpg,CHEST,yes,CLOSED,PLANE,Is this a PA film?,freeform
-synpic42210.jpg,CHEST,X-ray,OPEN,MODALITY,What image modality is this?,freeform
-synpic42210.jpg,CHEST,anterior mediastinum,OPEN,POS,Where is/are the mass located?,frame
-synpic42210.jpg,CHEST,Yes,CLOSED,SIZE,Is the cardiac silhouette enlarged?,freeform
-synpic42210.jpg,CHEST,Yes,CLOSED,SIZE,Is cardiomegaly present?,para
+What do the two bright dots represent?,nipple location,OPEN,PRES
+What are the two bright dots?,nipple location,OPEN,PRES
+What are the two hyperlucent inferior dots?,nipple location,OPEN,PRES
+What are the two dots?,nipple location,OPEN,PRES
+Is the trachea deviated?,yes,CLOSED,PRES
+Is/Are there tracheal deviation?,yes,CLOSED,PRES
+Is tracheal deviation present?,yes,CLOSED,PRES
+Is/Are there tracheal deviation?,yes,CLOSED,PRES
+Is this a PA film?,yes,CLOSED,PLANE
+What image modality is this?,X-ray,OPEN,MODALITY
+Where is/are the mass located?,anterior mediastinum,OPEN,POS
+Is the cardiac silhouette enlarged?,Yes,CLOSED,SIZE
+Is cardiomegaly present?,Yes,CLOSED,SIZE
 
 =====================================
 synpic42245:13
 
-synpic42245.jpg,CHEST,no,CLOSED,ATTRIB,Are the hilar soft tissue densities symmetric?,freeform
-synpic42245.jpg,CHEST,no,CLOSED,ATTRIB,Is/Are there symmetry in the patient's hilums?,frame
-synpic42245.jpg,CHEST,no,CLOSED,SIZE,Are the soft tissue densities in the left hilum equivalent in size to the soft tissue densities in the right hilum?,para
-synpic42245.jpg,CHEST,no,CLOSED,SIZE,Is/Are there equivalent size tissues densities in the patient's hilums?,frame
-synpic42245.jpg,CHEST,No,CLOSED,PRES,Are there any fractures in any of the ribs?,freeform
-synpic42245.jpg,CHEST,No,CLOSED,PRES,Is/Are there fractures in the patient's ribs?,frame
-synpic42245.jpg,CHEST,No,CLOSED,PRES,Are any of the patient's ribs fractured?,para
-synpic42245.jpg,CHEST,No,CLOSED,PRES,Is/Are there fractures in the patient's ribs?,frame
-synpic42245.jpg,CHEST,yes,CLOSED,PRES,Are the costophrenic angles sharp?,freeform
-synpic42245.jpg,CHEST,yes,CLOSED,PRES,Is/Are there no blunting in the patient's costophrenic angles?,frame
-synpic42245.jpg,CHEST,yes,CLOSED,PRES,Is there no evidence of blunting of the costophrenic angles?,para
-synpic42245.jpg,CHEST,yes,CLOSED,PRES,Is/Are there no blunting in the patient's costophrenic angles?,frame
-synpic42245.jpg,CHEST,Yes,CLOSED,ATTRIB,Is the cardiac contour normal in shape?,freeform
+Are the hilar soft tissue densities symmetric?,no,CLOSED,ATTRIB
+Is/Are there symmetry in the patient's hilums?,no,CLOSED,ATTRIB
+Are the soft tissue densities in the left hilum equivalent in size to the soft tissue densities in the right hilum?,no,CLOSED,SIZE
+Is/Are there equivalent size tissues densities in the patient's hilums?,no,CLOSED,SIZE
+Are there any fractures in any of the ribs?,No,CLOSED,PRES
+Is/Are there fractures in the patient's ribs?,No,CLOSED,PRES
+Are any of the patient's ribs fractured?,No,CLOSED,PRES
+Is/Are there fractures in the patient's ribs?,No,CLOSED,PRES
+Are the costophrenic angles sharp?,yes,CLOSED,PRES
+Is/Are there no blunting in the patient's costophrenic angles?,yes,CLOSED,PRES
+Is there no evidence of blunting of the costophrenic angles?,yes,CLOSED,PRES
+Is/Are there no blunting in the patient's costophrenic angles?,yes,CLOSED,PRES
+Is the cardiac contour normal in shape?,Yes,CLOSED,ATTRIB
 
 =====================================
 synpic42805:9
 
-synpic42805.jpg,CHEST,No,CLOSED,SIZE,Is the heart larger than normal?,para
-synpic42805.jpg,CHEST,No,CLOSED,SIZE,Is/Are the the heart enlarged?,frame
-synpic42805.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic42805.jpg,CHEST,No,CLOSED,SIZE,Is/Are the the heart enlarged?,frame
-synpic42805.jpg,CHEST,Upper lobes,OPEN,POS,In which lobes do you see a higher density of masses?,freeform
-synpic42805.jpg,CHEST,Upper lobes,OPEN,POS,Where is the high density of masses located?,frame
-synpic42805.jpg,CHEST,Upper lobes,OPEN,POS,Which lobes of the lung contain a higher density of masses?,para
-synpic42805.jpg,CHEST,Upper lobes,OPEN,POS,Where is the high density of masses located?,frame
-synpic42805.jpg,CHEST,No,CLOSED,ABN,Is there abnormal air present under the diaphragm?,freeform
+Is the heart larger than normal?,No,CLOSED,SIZE
+Is/Are the the heart enlarged?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
+Is/Are the the heart enlarged?,No,CLOSED,SIZE
+In which lobes do you see a higher density of masses?,Upper lobes,OPEN,POS
+Where is the high density of masses located?,Upper lobes,OPEN,POS
+Which lobes of the lung contain a higher density of masses?,Upper lobes,OPEN,POS
+Where is the high density of masses located?,Upper lobes,OPEN,POS
+Is there abnormal air present under the diaphragm?,No,CLOSED,ABN
 
 =====================================
 synpic44865:10
 
-synpic44865.jpg,CHEST,Solid,CLOSED,ATTRIB,Is this a solid or cystic lesion?,para
-synpic44865.jpg,CHEST,Solid,CLOSED,ATTRIB,Is the lesion a solid or cystic lesion?,freeform
-synpic44865.jpg,CHEST,no,CLOSED,PRES,Can you see all of the ribs on the left side?,para
-synpic44865.jpg,CHEST,no,CLOSED,PRES,Can the left ribs be evaluated?,freeform
-synpic44865.jpg,CHEST,no,CLOSED,PRES,Can a pleural effusion be appreciated on the right side?,para
-synpic44865.jpg,CHEST,no,CLOSED,PRES,Is/Are there a right pleural effusion?,frame
-synpic44865.jpg,CHEST,no,CLOSED,PRES,Is there a right-sided pleural effusion?,freeform
-synpic44865.jpg,CHEST,no,CLOSED,PRES,Is/Are there a right pleural effusion?,frame
-synpic44865.jpg,CHEST,Yes,CLOSED,PRES,Is there a mediastinal shift?,freeform
-synpic44865.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there a mediastinal shift?,frame
+Is this a solid or cystic lesion?,Solid,CLOSED,ATTRIB
+Is the lesion a solid or cystic lesion?,Solid,CLOSED,ATTRIB
+Can you see all of the ribs on the left side?,no,CLOSED,PRES
+Can the left ribs be evaluated?,no,CLOSED,PRES
+Can a pleural effusion be appreciated on the right side?,no,CLOSED,PRES
+Is/Are there a right pleural effusion?,no,CLOSED,PRES
+Is there a right-sided pleural effusion?,no,CLOSED,PRES
+Is/Are there a right pleural effusion?,no,CLOSED,PRES
+Is there a mediastinal shift?,Yes,CLOSED,PRES
+Is/Are there a mediastinal shift?,Yes,CLOSED,PRES
 
 =====================================
 synpic45557:11
 
-synpic45557.jpg,CHEST,No,CLOSED,PRES,Are nodular calcifications present in the lungs?,freeform
-synpic45557.jpg,CHEST,None,OPEN,PRES,What lesions are present in the lungs?,para
-synpic45557.jpg,CHEST,yes,CLOSED,MODALITY,Do bones appear lighter on this image's modality?,freeform
-synpic45557.jpg,CHEST,No,CLOSED,PRES,Are any ribs in the image fractured?,freeform
-synpic45557.jpg,CHEST,No,CLOSED,PRES,Is/Are there fracture in the patient's  ribs?,frame
-synpic45557.jpg,CHEST,No,CLOSED,PRES,Are there any fractures present?,para
-synpic45557.jpg,CHEST,No,CLOSED,PRES,Is/Are there any fractures present?,frame
-synpic45557.jpg,CHEST,Right lung base,OPEN,POS,Where on the image is most obscured?,freeform
-synpic45557.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Is the costophrenic angle blunted?,para
-synpic45557.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Is/Are the costophrenic angle blunted? -yes/no,frame
-synpic45557.jpg,CHEST,In the midline,OPEN,PRES,Is the trachea midline?,freeform
+Are nodular calcifications present in the lungs?,No,CLOSED,PRES
+What lesions are present in the lungs?,None,OPEN,PRES
+Do bones appear lighter on this image's modality?,yes,CLOSED,MODALITY
+Are any ribs in the image fractured?,No,CLOSED,PRES
+Is/Are there fracture in the patient's  ribs?,No,CLOSED,PRES
+Are there any fractures present?,No,CLOSED,PRES
+Is/Are there any fractures present?,No,CLOSED,PRES
+Where on the image is most obscured?,Right lung base,OPEN,POS
+Is the costophrenic angle blunted?,Yes,CLOSED,"PRES, ATTRIB"
+Is/Are the costophrenic angle blunted? -yes/no,Yes,CLOSED,"PRES, ATTRIB"
+Is the trachea midline?,In the midline,OPEN,PRES
 
 =====================================
 synpic45610:10
 
-synpic45610.jpg,CHEST,No,CLOSED,ABN,Is/Are the trachea normal?,frame
-synpic45610.jpg,CHEST,Yes,CLOSED,PRES,Is/Are the trachea normal?,frame
-synpic45610.jpg,CHEST,No,CLOSED,SIZE,Is the cardiac silhouette enlarged?,freeform
-synpic45610.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart size abnormal?,frame
-synpic45610.jpg,CHEST,No,CLOSED,SIZE,Is the heart size abnormal,para
-synpic45610.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart size abnormal?,frame
-synpic45610.jpg,CHEST,No,CLOSED,ATTRIB,Is/Are the diaphragm flat? -yes/no,frame
-synpic45610.jpg,CHEST,No,CLOSED,ATTRIB,Is/Are the diaphragm flat? -yes/no,frame
-synpic45610.jpg,CHEST,No,CLOSED,PRES,Are there rib fractures present?,freeform
-synpic45610.jpg,CHEST,No,CLOSED,PRES,Is/Are there rib fractures?,frame
+Is/Are the trachea normal?,No,CLOSED,ABN
+Is/Are the trachea normal?,Yes,CLOSED,PRES
+Is the cardiac silhouette enlarged?,No,CLOSED,SIZE
+Is/Are the heart size abnormal?,No,CLOSED,SIZE
+Is the heart size abnormal,No,CLOSED,SIZE
+Is/Are the heart size abnormal?,No,CLOSED,SIZE
+Is/Are the diaphragm flat? -yes/no,No,CLOSED,ATTRIB
+Is/Are the diaphragm flat? -yes/no,No,CLOSED,ATTRIB
+Are there rib fractures present?,No,CLOSED,PRES
+Is/Are there rib fractures?,No,CLOSED,PRES
 
 =====================================
 synpic46539:12
 
-synpic46539.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic46539.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic46539.jpg,CHEST,no,CLOSED,PRES,Is this lesion loculated,freeform
-synpic46539.jpg,CHEST,no,CLOSED,PRES,Is/Are the lesion loculated? -yes/no,frame
-synpic46539.jpg,CHEST,no,CLOSED,PRES,Is there loculation of this lesion?,para
-synpic46539.jpg,CHEST,no,CLOSED,PRES,Is/Are the lesion loculated? -yes/no,frame
-synpic46539.jpg,CHEST,No,CLOSED,PRES,Is there a fracture of the clavicle?,freeform
-synpic46539.jpg,CHEST,No,CLOSED,PRES,Is/Are there a fracture in the patient's clavicle?,frame
-synpic46539.jpg,CHEST,hydropneumothorax,OPEN,ABN,what is the pathology?,freeform
-synpic46539.jpg,CHEST,hydropneumothorax,OPEN,ABN,What is abnormal in this image?,frame
-synpic46539.jpg,CHEST,hydropneumothorax,OPEN,ABN,What is abnormal in this image?,para
-synpic46539.jpg,CHEST,hydropneumothorax,OPEN,ABN,What is abnormal in this image?,frame
+Is/Are there a pleural effusion?,yes,CLOSED,PRES
+Is/Are there a pleural effusion?,yes,CLOSED,PRES
+Is this lesion loculated,no,CLOSED,PRES
+Is/Are the lesion loculated? -yes/no,no,CLOSED,PRES
+Is there loculation of this lesion?,no,CLOSED,PRES
+Is/Are the lesion loculated? -yes/no,no,CLOSED,PRES
+Is there a fracture of the clavicle?,No,CLOSED,PRES
+Is/Are there a fracture in the patient's clavicle?,No,CLOSED,PRES
+what is the pathology?,hydropneumothorax,OPEN,ABN
+What is abnormal in this image?,hydropneumothorax,OPEN,ABN
+What is abnormal in this image?,hydropneumothorax,OPEN,ABN
+What is abnormal in this image?,hydropneumothorax,OPEN,ABN
 
 =====================================
 synpic46976:12
 
-synpic46976.jpg,CHEST,yes,CLOSED,SIZE,is the heart enlarged?,freeform
-synpic46976.jpg,CHEST,yes,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic46976.jpg,CHEST,yes,CLOSED,SIZE,Is there cardiomegaly?,para
-synpic46976.jpg,CHEST,yes,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic46976.jpg,CHEST,yes,CLOSED,PRES,Is/Are there increased vascular markings? ,frame
-synpic46976.jpg,CHEST,yes,CLOSED,PRES,Is/Are the vascular markings increased?,frame
-synpic46976.jpg,CHEST,cardiomegaly,OPEN,ABN,What is the pathology in this image?,para
-synpic46976.jpg,CHEST,cardiomegaly,OPEN,ABN,What is/are the pathology near/in the image?,frame
-synpic46976.jpg,CHEST,cardiomegaly,OPEN,ABN,what pathology is demonstrated?,freeform
-synpic46976.jpg,CHEST,cardiomegaly,OPEN,ABN,What is/are the pathology near/in the image?,frame
-synpic46976.jpg,CHEST,no,CLOSED,PRES,Is there pneumoperitoneum?,freeform
-synpic46976.jpg,CHEST,no,CLOSED,PRES,Is/Are there free air in the patient's abdomen?,frame
+is the heart enlarged?,yes,CLOSED,SIZE
+Is/Are the heart enlarged?,yes,CLOSED,SIZE
+Is there cardiomegaly?,yes,CLOSED,SIZE
+Is/Are the heart enlarged?,yes,CLOSED,SIZE
+Is/Are there increased vascular markings? ,yes,CLOSED,PRES
+Is/Are the vascular markings increased?,yes,CLOSED,PRES
+What is the pathology in this image?,cardiomegaly,OPEN,ABN
+What is/are the pathology near/in the image?,cardiomegaly,OPEN,ABN
+what pathology is demonstrated?,cardiomegaly,OPEN,ABN
+What is/are the pathology near/in the image?,cardiomegaly,OPEN,ABN
+Is there pneumoperitoneum?,no,CLOSED,PRES
+Is/Are there free air in the patient's abdomen?,no,CLOSED,PRES
 
 =====================================
 synpic47783:12
 
-synpic47783.jpg,CHEST,No,CLOSED,SIZE,Does the width of the heart exceed more than half of the thorax?,freeform
-synpic47783.jpg,CHEST,No,CLOSED,SIZE,How wide is/are the cardiac shadow? -open,frame
-synpic47783.jpg,CHEST,Less than half the thorax,OPEN,SIZE,How wide is the cardiac shadow?,para
-synpic47783.jpg,CHEST,Less than half the thorax,OPEN,SIZE,How wide is/are the cardiac shadow? -open,frame
-synpic47783.jpg,CHEST,In the thorasic aorta,OPEN,POS,Where is the aneurysm located?,freeform
-synpic47783.jpg,CHEST,In the thorasic aorta,OPEN,POS,Where is/are the aneurysm located?,frame
-synpic47783.jpg,CHEST,Width of aorta,OPEN,PRES,What is the most important abnormality found in this image?,freeform
-synpic47783.jpg,CHEST,No,CLOSED,PRES,Is there a mass in the right hilum?,para
-synpic47783.jpg,CHEST,No,CLOSED,PRES,Is/Are there a mass in the patient's right hilum?,frame
-synpic47783.jpg,CHEST,No,CLOSED,PRES,Is there evidence of a mass lesion at the right hilum?,freeform
-synpic47783.jpg,CHEST,No,CLOSED,PRES,Is/Are there a mass in the patient's right hilum?,frame
-synpic47783.jpg,CHEST,No,CLOSED,ABN,Is/Are the air under the diaphragm pathologic?,frame
+Does the width of the heart exceed more than half of the thorax?,No,CLOSED,SIZE
+How wide is/are the cardiac shadow? -open,No,CLOSED,SIZE
+How wide is the cardiac shadow?,Less than half the thorax,OPEN,SIZE
+How wide is/are the cardiac shadow? -open,Less than half the thorax,OPEN,SIZE
+Where is the aneurysm located?,In the thorasic aorta,OPEN,POS
+Where is/are the aneurysm located?,In the thorasic aorta,OPEN,POS
+What is the most important abnormality found in this image?,Width of aorta,OPEN,PRES
+Is there a mass in the right hilum?,No,CLOSED,PRES
+Is/Are there a mass in the patient's right hilum?,No,CLOSED,PRES
+Is there evidence of a mass lesion at the right hilum?,No,CLOSED,PRES
+Is/Are there a mass in the patient's right hilum?,No,CLOSED,PRES
+Is/Are the air under the diaphragm pathologic?,No,CLOSED,ABN
 
 =====================================
 synpic49914:12
 
-synpic49914.jpg,CHEST,yes,CLOSED,MODALITY,Is this a chest x-ray?,freeform
-synpic49914.jpg,CHEST,yes,CLOSED,ORGAN,Is this a study of the chest?,freeform
-synpic49914.jpg,CHEST,Volume loss,OPEN,ABN,What is happening in the right lung?,freeform
-synpic49914.jpg,CHEST,Volume loss,OPEN,ABN,What is/are abnormal right lung ?,frame
-synpic49914.jpg,CHEST,Volume loss,OPEN,ABN,What is finding in the right lung?,para
-synpic49914.jpg,CHEST,Volume loss,OPEN,ABN,What is/are abnormal right lung ?,frame
-synpic49914.jpg,CHEST,No,CLOSED,ABN,Is/Are the lung normal?,frame
-synpic49914.jpg,CHEST,No,CLOSED,ABN,Is this image normal?,frame
-synpic49914.jpg,CHEST,Right lung,OPEN,POS,Where is/are the abnormality located?,frame
-synpic49914.jpg,CHEST,Right lung,OPEN,POS,Where is/are the abnormality located?,frame
-synpic49914.jpg,CHEST,Yes,CLOSED,SIZE,Is there pleural thickening in the R lung?,freeform
-synpic49914.jpg,CHEST,Yes,CLOSED,SIZE,Is the pleura thick?,frame
+Is this a chest x-ray?,yes,CLOSED,MODALITY
+Is this a study of the chest?,yes,CLOSED,ORGAN
+What is happening in the right lung?,Volume loss,OPEN,ABN
+What is/are abnormal right lung ?,Volume loss,OPEN,ABN
+What is finding in the right lung?,Volume loss,OPEN,ABN
+What is/are abnormal right lung ?,Volume loss,OPEN,ABN
+Is/Are the lung normal?,No,CLOSED,ABN
+Is this image normal?,No,CLOSED,ABN
+Where is/are the abnormality located?,Right lung,OPEN,POS
+Where is/are the abnormality located?,Right lung,OPEN,POS
+Is there pleural thickening in the R lung?,Yes,CLOSED,SIZE
+Is the pleura thick?,Yes,CLOSED,SIZE
 
 =====================================
 synpic50943:10
 
-synpic50943.jpg,CHEST,no,CLOSED,PRES,Can a pulmonary mass be appreciated?,para
-synpic50943.jpg,CHEST,no,CLOSED,PRES,Is a pulmonary mass present?,freeform
-synpic50943.jpg,CHEST,Yes,CLOSED,SIZE,Is there anything abnormal about the heart size?,para
-synpic50943.jpg,CHEST,Yes,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic50943.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic50943.jpg,CHEST,no,CLOSED,PRES,Is there a right-sided pleural effusion?,freeform
-synpic50943.jpg,CHEST,no,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic50943.jpg,CHEST,no,CLOSED,PRES,Is there an effusion present on the right-side?,para
-synpic50943.jpg,CHEST,no,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic50943.jpg,CHEST,Yes,CLOSED,PRES,Is there an NG tube present?,freeform
+Can a pulmonary mass be appreciated?,no,CLOSED,PRES
+Is a pulmonary mass present?,no,CLOSED,PRES
+Is there anything abnormal about the heart size?,Yes,CLOSED,SIZE
+Is the heart enlarged?,Yes,CLOSED,SIZE
+Is/Are the heart enlarged?,Yes,CLOSED,SIZE
+Is there a right-sided pleural effusion?,no,CLOSED,PRES
+Is/Are there a pleural effusion?,no,CLOSED,PRES
+Is there an effusion present on the right-side?,no,CLOSED,PRES
+Is/Are there a pleural effusion?,no,CLOSED,PRES
+Is there an NG tube present?,Yes,CLOSED,PRES
 
 =====================================
 synpic51774:10
 
-synpic51774.jpg,CHEST,Yes,CLOSED,PRES,Is a pneumothorax present?,freeform
-synpic51774.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there a pneumothorax?,frame
-synpic51774.jpg,CHEST,No,CLOSED,POS,Is the heart displaced?,freeform
-synpic51774.jpg,CHEST,No,CLOSED,POS,Is the heart in the wrong position?,para
-synpic51774.jpg,CHEST,costophrenic angle blunting,OPEN,OTHER,What indicates a pleural effusion?,freeform
-synpic51774.jpg,CHEST,Fluid in the pleural space,OPEN,OTHER,What is a pleural effusion,freeform
-synpic51774.jpg,CHEST,Left,OPEN,POS,Which way is the trachea deviating in this image?,freeform
-synpic51774.jpg,CHEST,Left,OPEN,POS,Where is/are the trachea located?,frame
-synpic51774.jpg,CHEST,Left,CLOSED,POS,Is the trachea deviated to the right or left?,para
-synpic51774.jpg,CHEST,Left,CLOSED,POS,Where is/are the trachea located?,frame
+Is a pneumothorax present?,Yes,CLOSED,PRES
+Is/Are there a pneumothorax?,Yes,CLOSED,PRES
+Is the heart displaced?,No,CLOSED,POS
+Is the heart in the wrong position?,No,CLOSED,POS
+What indicates a pleural effusion?,costophrenic angle blunting,OPEN,OTHER
+What is a pleural effusion,Fluid in the pleural space,OPEN,OTHER
+Which way is the trachea deviating in this image?,Left,OPEN,POS
+Where is/are the trachea located?,Left,OPEN,POS
+Is the trachea deviated to the right or left?,Left,CLOSED,POS
+Where is/are the trachea located?,Left,CLOSED,POS
 
 =====================================
 synpic51872:12
 
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,Is there a lung mass?,freeform
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a lung mass?,frame
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,Is there a mass in the lung?,para
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a lung mass?,frame
-synpic51872.jpg,CHEST,Right upper lobe,OPEN,POS,Where is/are the cavitary lesion located?,frame
-synpic51872.jpg,CHEST,Right upper lobe,OPEN,POS,Where is/are the cavitary lesion located?,frame
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,Do you see a cavitary lesion in this chest xray?,para
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a cavitary lesion?,frame
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,is there a cavitary lesion?,freeform
-synpic51872.jpg,CHEST,yes,CLOSED,PRES,Is/Are there a cavitary lesion?,frame
-synpic51872.jpg,CHEST,no,CLOSED,PRES,Is this patient intubated?,freeform
-synpic51872.jpg,CHEST,no,CLOSED,PRES,Is/Are there an endotracheal tube?,frame
+Is there a lung mass?,yes,CLOSED,PRES
+Is/Are there a lung mass?,yes,CLOSED,PRES
+Is there a mass in the lung?,yes,CLOSED,PRES
+Is/Are there a lung mass?,yes,CLOSED,PRES
+Where is/are the cavitary lesion located?,Right upper lobe,OPEN,POS
+Where is/are the cavitary lesion located?,Right upper lobe,OPEN,POS
+Do you see a cavitary lesion in this chest xray?,yes,CLOSED,PRES
+Is/Are there a cavitary lesion?,yes,CLOSED,PRES
+is there a cavitary lesion?,yes,CLOSED,PRES
+Is/Are there a cavitary lesion?,yes,CLOSED,PRES
+Is this patient intubated?,no,CLOSED,PRES
+Is/Are there an endotracheal tube?,no,CLOSED,PRES
 
 =====================================
 synpic52767:11
 
-synpic52767.jpg,CHEST,Yes,CLOSED,PRES,Is there evidence of a right apical pneumothorax on this chest x-ray?,freeform
-synpic52767.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there a pneumothorax in the patient's right lung?,frame
-synpic52767.jpg,CHEST,Yes,CLOSED,PRES,Is a pneumothorax present near the right lung field?,para
-synpic52767.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there a pneumothorax in the patient's right lung?,frame
-synpic52767.jpg,CHEST,Yes,CLOSED,ATTRIB,Is/Are the cardiac contour normal?,frame
-synpic52767.jpg,CHEST,Yes,CLOSED,PRES,Are there decreased lung markings in the right upper lung field?,freeform
-synpic52767.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there pneumothorax?,frame
-synpic52767.jpg,CHEST,No,CLOSED,PRES,Is there evidence of mediastinal shift?,freeform
-synpic52767.jpg,CHEST,No,CLOSED,PRES,Is/Are there are midline shift?,frame
-synpic52767.jpg,CHEST,No,CLOSED,PRES,Is there a midline shift?,para
-synpic52767.jpg,CHEST,No,CLOSED,PRES,Is/Are there are midline shift?,frame
+Is there evidence of a right apical pneumothorax on this chest x-ray?,Yes,CLOSED,PRES
+Is/Are there a pneumothorax in the patient's right lung?,Yes,CLOSED,PRES
+Is a pneumothorax present near the right lung field?,Yes,CLOSED,PRES
+Is/Are there a pneumothorax in the patient's right lung?,Yes,CLOSED,PRES
+Is/Are the cardiac contour normal?,Yes,CLOSED,ATTRIB
+Are there decreased lung markings in the right upper lung field?,Yes,CLOSED,PRES
+Is/Are there pneumothorax?,Yes,CLOSED,PRES
+Is there evidence of mediastinal shift?,No,CLOSED,PRES
+Is/Are there are midline shift?,No,CLOSED,PRES
+Is there a midline shift?,No,CLOSED,PRES
+Is/Are there are midline shift?,No,CLOSED,PRES
 
 =====================================
 synpic52932:2
 
-synpic52932.jpg,CHEST,pneumonia,OPEN,ABN,This image is concerning for what lung pathology?,freeform
-synpic52932.jpg,CHEST,pneumonia,OPEN,ABN,What lung pathology is this image concerning for?,para
+This image is concerning for what lung pathology?,pneumonia,OPEN,ABN
+What lung pathology is this image concerning for?,pneumonia,OPEN,ABN
 
 =====================================
 synpic52951:4
 
-synpic52951.jpg,CHEST,Left upper lobe,OPEN,POS,In which lobe is the nodule located?,freeform
-synpic52951.jpg,CHEST,No,CLOSED,PRES,Is there any shifting on the path of the trachea?,freeform
-synpic52951.jpg,CHEST,Lung,OPEN,ORGAN,What is the organ principally shown in this image?,freeform
-synpic52951.jpg,CHEST,Yes,CLOSED,PRES,Is this a solitary nodule?,freeform
+In which lobe is the nodule located?,Left upper lobe,OPEN,POS
+Is there any shifting on the path of the trachea?,No,CLOSED,PRES
+What is the organ principally shown in this image?,Lung,OPEN,ORGAN
+Is this a solitary nodule?,Yes,CLOSED,PRES
 
 =====================================
 synpic52988:9
 
-synpic52988.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are there cardiomegaly ?,frame
-synpic52988.jpg,CHEST,Yes,CLOSED,SIZE,Is/Are there cardiomegaly ?,frame
-synpic52988.jpg,CHEST,Yes,CLOSED,PRES,Are patchy infiltrates depicted?,para
-synpic52988.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there patchy infiltrates?,frame
-synpic52988.jpg,CHEST,Yes,CLOSED,PRES,Are there patchy infiltrates present?,freeform
-synpic52988.jpg,CHEST,Yes,CLOSED,PRES,Is/Are there patchy infiltrates?,frame
-synpic52988.jpg,CHEST,pleural effusion,OPEN,OTHER,Blunting of the costophrenic angles indicate what condition?,para
-synpic52988.jpg,CHEST,pleural effusion,OPEN,OTHER,What does the blunting of the costophrenic angles indicate?,freeform
-synpic52988.jpg,CHEST,Yes,CLOSED,OTHER,Is the ET tube properly placed?,freeform
+Is/Are there cardiomegaly ?,Yes,CLOSED,SIZE
+Is/Are there cardiomegaly ?,Yes,CLOSED,SIZE
+Are patchy infiltrates depicted?,Yes,CLOSED,PRES
+Is/Are there patchy infiltrates?,Yes,CLOSED,PRES
+Are there patchy infiltrates present?,Yes,CLOSED,PRES
+Is/Are there patchy infiltrates?,Yes,CLOSED,PRES
+Blunting of the costophrenic angles indicate what condition?,pleural effusion,OPEN,OTHER
+What does the blunting of the costophrenic angles indicate?,pleural effusion,OPEN,OTHER
+Is the ET tube properly placed?,Yes,CLOSED,OTHER
 
 =====================================
 synpic53228:11
 
-synpic53228.jpg,CHEST,No,CLOSED,PRES,Is/Are there curly B lines?,frame
-synpic53228.jpg,CHEST,No,CLOSED,OTHER,Is this patient rotated?,freeform
-synpic53228.jpg,CHEST,No,CLOSED,OTHER,Was the patient positioned inappropriately?,para
-synpic53228.jpg,CHEST,Yes,CLOSED,ABN,Does the heart border appear normal?,para
-synpic53228.jpg,CHEST,Yes,CLOSED,ABN,Is the heart contour normal?,frame
-synpic53228.jpg,CHEST,Yes,CLOSED,ABN,Is there a normal contour of the heart?,freeform
-synpic53228.jpg,CHEST,Yes,CLOSED,ABN,Is the heart contour normal?,frame
-synpic53228.jpg,CHEST,12,OPEN,COUNT,How many ribs are superimposed on the lung fields?,freeform
-synpic53228.jpg,CHEST,12,OPEN,COUNT,How many ribs are there?,frame
-synpic53228.jpg,CHEST,12,OPEN,COUNT,How many ribs are present in vertical order on this chest radiograph,para
-synpic53228.jpg,CHEST,12,OPEN,COUNT,How many ribs are there?,frame
+Is/Are there curly B lines?,No,CLOSED,PRES
+Is this patient rotated?,No,CLOSED,OTHER
+Was the patient positioned inappropriately?,No,CLOSED,OTHER
+Does the heart border appear normal?,Yes,CLOSED,ABN
+Is the heart contour normal?,Yes,CLOSED,ABN
+Is there a normal contour of the heart?,Yes,CLOSED,ABN
+Is the heart contour normal?,Yes,CLOSED,ABN
+How many ribs are superimposed on the lung fields?,12,OPEN,COUNT
+How many ribs are there?,12,OPEN,COUNT
+How many ribs are present in vertical order on this chest radiograph,12,OPEN,COUNT
+How many ribs are there?,12,OPEN,COUNT
 
 =====================================
 synpic55464:14
 
-synpic55464.jpg,CHEST,mass,OPEN,OTHER,what it causing the widening?,freeform
-synpic55464.jpg,CHEST,mass,OPEN,OTHER,What is the widened mediastinum caused by?,para
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Is the mediastinum widened?,freeform
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Is/Are there a widened mediastinum?,frame
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Is there a widened mediastium?,para
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Is/Are there a widened mediastinum?,frame
-synpic55464.jpg,CHEST,yes,CLOSED,MODALITY,Is this a PA film?,freeform
-synpic55464.jpg,CHEST,yes,CLOSED,ORGAN,Does the pathology involve the CV system,freeform
-synpic55464.jpg,CHEST,No,CLOSED,SIZE,Is there cardiomegaly?,freeform
-synpic55464.jpg,CHEST,No,CLOSED,SIZE,Is/Are there cardiomegaly?,frame
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Are the lymph nodes enlarged,freeform
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Is/Are there hilar lymphadenopathy?,frame
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Is there hilar lymphadenopathy?,para
-synpic55464.jpg,CHEST,yes,CLOSED,SIZE,Is/Are there hilar lymphadenopathy?,frame
+what it causing the widening?,mass,OPEN,OTHER
+What is the widened mediastinum caused by?,mass,OPEN,OTHER
+Is the mediastinum widened?,yes,CLOSED,SIZE
+Is/Are there a widened mediastinum?,yes,CLOSED,SIZE
+Is there a widened mediastium?,yes,CLOSED,SIZE
+Is/Are there a widened mediastinum?,yes,CLOSED,SIZE
+Is this a PA film?,yes,CLOSED,MODALITY
+Does the pathology involve the CV system,yes,CLOSED,ORGAN
+Is there cardiomegaly?,No,CLOSED,SIZE
+Is/Are there cardiomegaly?,No,CLOSED,SIZE
+Are the lymph nodes enlarged,yes,CLOSED,SIZE
+Is/Are there hilar lymphadenopathy?,yes,CLOSED,SIZE
+Is there hilar lymphadenopathy?,yes,CLOSED,SIZE
+Is/Are there hilar lymphadenopathy?,yes,CLOSED,SIZE
 
 =====================================
 synpic59126:8
 
-synpic59126.jpg,CHEST,Underneath the right hemidiaphragm,OPEN,POS,Where is the gastric bubble located?,freeform
-synpic59126.jpg,CHEST,Underneath the right hemidiaphragm,OPEN,POS,Where is the gastric bubble located?,frame
-synpic59126.jpg,CHEST,Underneath the right hemidiaphragm,OPEN,POS,Where is the gastric bubble placed?,para
-synpic59126.jpg,CHEST,Underneath the right hemidiaphragm,OPEN,POS,Where is the gastric bubble located?,frame
-synpic59126.jpg,CHEST,yes,CLOSED,OTHER,Is the heart contour backwards?,freeform
-synpic59126.jpg,CHEST,yes,CLOSED,OTHER,Is the heart contour a mirror image of normal?,para
-synpic59126.jpg,CHEST,PA,CLOSED,PLANE,Is this an AP or PA film?,freeform
-synpic59126.jpg,CHEST,PA,OPEN,PLANE,How was this film taken?,para
+Where is the gastric bubble located?,Underneath the right hemidiaphragm,OPEN,POS
+Where is the gastric bubble located?,Underneath the right hemidiaphragm,OPEN,POS
+Where is the gastric bubble placed?,Underneath the right hemidiaphragm,OPEN,POS
+Where is the gastric bubble located?,Underneath the right hemidiaphragm,OPEN,POS
+Is the heart contour backwards?,yes,CLOSED,OTHER
+Is the heart contour a mirror image of normal?,yes,CLOSED,OTHER
+Is this an AP or PA film?,PA,CLOSED,PLANE
+How was this film taken?,PA,OPEN,PLANE
 
 =====================================
 synpic60423:12
 
-synpic60423.jpg,CHEST,no,CLOSED,PRES,Can you appreciate a pleural effusion?,para
-synpic60423.jpg,CHEST,no,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic60423.jpg,CHEST,no,CLOSED,PRES,Is a pleural effusion present?,freeform
-synpic60423.jpg,CHEST,no,CLOSED,PRES,Is/Are there a pleural effusion?,frame
-synpic60423.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic60423.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic60423.jpg,CHEST,No,CLOSED,SIZE,Is the heart size increased?,para
-synpic60423.jpg,CHEST,No,CLOSED,SIZE,Is/Are the heart enlarged?,frame
-synpic60423.jpg,CHEST,No,CLOSED,OTHER,Can you diagnose a pericardial effusion from this image?,para
-synpic60423.jpg,CHEST,No,CLOSED,OTHER,Is this image sufficient to diagnose pericardial effusion?,freeform
-synpic60423.jpg,CHEST,No,CLOSED,ABN,Anything abnormal in this image?,freeform
-synpic60423.jpg,CHEST,No,CLOSED,ABN,Is this image abnormal?,frame
+Can you appreciate a pleural effusion?,no,CLOSED,PRES
+Is/Are there a pleural effusion?,no,CLOSED,PRES
+Is a pleural effusion present?,no,CLOSED,PRES
+Is/Are there a pleural effusion?,no,CLOSED,PRES
+Is the heart enlarged?,No,CLOSED,SIZE
+Is/Are the heart enlarged?,No,CLOSED,SIZE
+Is the heart size increased?,No,CLOSED,SIZE
+Is/Are the heart enlarged?,No,CLOSED,SIZE
+Can you diagnose a pericardial effusion from this image?,No,CLOSED,OTHER
+Is this image sufficient to diagnose pericardial effusion?,No,CLOSED,OTHER
+Anything abnormal in this image?,No,CLOSED,ABN
+Is this image abnormal?,No,CLOSED,ABN
 
 =====================================
 synpic676:4
 
-synpic676.jpg,CHEST,No,CLOSED,PRES,Are the costophrenic angles blunted?,para
-synpic676.jpg,CHEST,No,CLOSED,PRES,Is there any blunting of the costophrenic angle(s)?,freeform
-synpic676.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
-synpic676.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,frame
+Are the costophrenic angles blunted?,No,CLOSED,PRES
+Is there any blunting of the costophrenic angle(s)?,No,CLOSED,PRES
+Is the heart enlarged?,No,CLOSED,SIZE
+Is the heart enlarged?,No,CLOSED,SIZE
 
 =====================================

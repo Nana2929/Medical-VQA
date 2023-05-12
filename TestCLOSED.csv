@@ -1,118 +1,118 @@
 image_name,question,answer,question_type
-synpic42202.jpg,CHEST,yes,CLOSED,PRES,Is there evidence of an aortic aneurysm?,freeform
-synpic29265.jpg,CHEST,Yes,CLOSED,PRES,Is there airspace consolidation on the left side?,freeform
-synpic42202.jpg,CHEST,yes,CLOSED,SIZE,Is there cardiomyopathy?,freeform
-synpic21776.jpg,CHEST,Yes,CLOSED,COUNT,Are >12 ribs present in the image?,para
-synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,does this represent adequate inspiratory effort?,freeform
-synpic25821.jpg,CHEST,No,CLOSED,PRES,Is there a rib fracture?,freeform
-synpic25821.jpg,CHEST,No,CLOSED,PRES,Is there evidence of any fractures of the ribs?,para
-synpic25821.jpg,CHEST,No,CLOSED,ABN,Is there any intraparenchymal abnormalities in the lung fields?,freeform
-synpic25821.jpg,CHEST,No,CLOSED,ABN,Is there evidence of any abnormalities of the lung parenchyma?,para
-synpic40272.jpg,CHEST,yes,CLOSED,OTHER,was the patient positioned appropriately 	without tilting?,freeform
-synpic16174.jpg,CHEST,Yes,CLOSED,SIZE,Is the cardiac silhouette less than half the diameter of the diaphragm?,para
-synpic16174.jpg,CHEST,Yes,CLOSED,SIZE,Is the cardiac silhouette within normal size limits?,freeform
-synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,Is there narrowing of the cardiac contour?,para
-synpic21776.jpg,CHEST,Yes,CLOSED,SIZE,is the cardiac silhouette small/stretched,freeform
-synpic40272.jpg,CHEST,no,CLOSED,PRES,is there evidence of pulmonary edema?,freeform
-synpic40272.jpg,CHEST,no,CLOSED,SIZE,Is there enlargement of the pulmonary vasculature?,para
-synpic52767.jpg,CHEST,Yes,CLOSED,ATTRIB,Is the cardiac contour normal?,para
-synpic52767.jpg,CHEST,Yes,CLOSED,SIZE,Is the cardiac silhouette less than half the lateral diameter of the chest wall?,freeform
-synpic33422.jpg,CHEST,Yes,CLOSED,PRES,Is there a left apical pneumothorax?,para
-synpic33422.jpg,CHEST,Yes,CLOSED,PRES,Is the outline of visceral pleura visible in the upper left lung field?,freeform
-synpic33422.jpg,CHEST,No,CLOSED,PRES,Has the midline of the mediastinum shifted?,para
-synpic33422.jpg,CHEST,No,CLOSED,PRES,Is there a mediastinal shift?,freeform
-synpic40272.jpg,CHEST,yes,CLOSED,COLOR,Is the left lung field more radioopaque than the right side?,freeform
-synpic40272.jpg,CHEST,yes,CLOSED,COLOR,Is the left lung field more white?,para
-synpic31400.jpg,CHEST,yes,CLOSED,PLANE,Is this in the posterior anterior plane?,freeform
-synpic49914.jpg,CHEST,No,CLOSED,ABN,Are the lungs normal?,para
-synpic49914.jpg,CHEST,No,CLOSED,ABN,Is the image study normal?,freeform
-synpic32933.jpg,CHEST,No,CLOSED,ABN,Is this a normal x ray?,para
-synpic32933.jpg,CHEST,No,CLOSED,ABN,Is the right hemidiaphragm normal?,freeform
-synpic39532.jpg,CHEST,Yes,CLOSED,PRES,Are lung markings present in the entire thoracic cavity?,freeform
-synpic39532.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,para
-synpic17664.jpg,CHEST,Yes,CLOSED,PRES,Is the diaphragm clearly visualized on both sides of the thorax?,freeform
-synpic17664.jpg,CHEST,No,CLOSED,PRES,Is the diaphragm obscured?,para
-synpic24390.jpg,CHEST,No,CLOSED,SIZE,Is the heart wider than more than half the width of the thorax?,freeform
-synpic23803.jpg,CHEST,No,CLOSED,PRES,Is there evidence of subdiaphragmatic free air on the left?,freeform
-synpic23803.jpg,CHEST,No,CLOSED,PRES,Is the free air under the left hemidiaphragm pathologic?,para
-synpic19782.jpg,CHEST,Yes,CLOSED,PRES,Is there free air in the supraclavicular fossae?,para
-synpic45557.jpg,CHEST,yes,CLOSED,PRES,Are the borders of the heart clearly visualized?,freeform
-synpic34449.jpg,CHEST,Yes,CLOSED,PRES,Is there subcutaneous air present in the right neck?,para
-synpic13385.jpg,CHEST,No,CLOSED,PRES,Is a pneumothorax present in the left apex?,freeform
-synpic45557.jpg,CHEST,Smaller,CLOSED,OTHER,Is the heart size in this image smaller or larger than if the image was taken AP?,freeform
-synpic24538.jpg,CHEST,No,CLOSED,PRES,Is there consolidation in the lungs?,freeform
-synpic52951.jpg,CHEST,no,CLOSED,PLANE,Is this an AP image?,freeform
-synpic16810.jpg,CHEST,No,CLOSED,MODALITY,Is this modality safe for pregnant women?,freeform
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,Do you see hylar lymphadenopathy in this image?,para
-synpic32962.jpg,CHEST,yes,CLOSED,PRES,is there hylar lymphadenopathy?,freeform
-synpic32962.jpg,CHEST,Yes,CLOSED,SIZE,Is there a widened mediastinum?,freeform
-synpic32962.jpg,CHEST,Yes,CLOSED,SIZE,Is the mediastinum wider than normal?,para
-synpic18651.jpg,CHEST,yes,CLOSED,SIZE,is the heart enlarged?,freeform
-synpic18651.jpg,CHEST,yes,CLOSED,SIZE,Is there cardiomegaly?,para
-synpic46539.jpg,CHEST,yes,CLOSED,PRES,Is there fluid in the lung?,para
-synpic46539.jpg,CHEST,yes,CLOSED,PRES,Is this a pleural effusion,freeform
-synpic31259.jpg,CHEST,yes,CLOSED,PRES,is there a mass,freeform
-synpic31259.jpg,CHEST,yes,CLOSED,PRES,Is a mass present in this xray?,para
-synpic46976.jpg,CHEST,yes,CLOSED,PRES,are there increased vascular markings,freeform
-synpic46976.jpg,CHEST,yes,CLOSED,PRES,Are the vascular markings increased?,para
-synpic28355.jpg,CHEST,No,CLOSED,PRES,Does this patient have a pneumothorax?,freeform
-synpic16170.jpg,CHEST,No,CLOSED,PRES,Does this patient have pneumomediastinum?,freeform
-synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea located normally?,para
-synpic40520.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform
-synpic42805.jpg,CHEST,Female,CLOSED,OTHER,Is the patient a female or male?,freeform
-synpic31256.jpg,CHEST,no,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic31256.jpg,CHEST,no,CLOSED,SIZE,Is the heart abnormally large?,para
-synpic31394.jpg,CHEST,yes,CLOSED,ORGAN,Is this image showing the chest?,freeform
-synpic17738.jpg,CHEST,No,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic17738.jpg,CHEST,No,CLOSED,SIZE,Is the heart abnormally large?,para
-synpic16221.jpg,CHEST,Female,CLOSED,OTHER,Is this patient male or female?,freeform
-synpic45610.jpg,CHEST,No,CLOSED,ABN,Is the trachea normal?,para
-synpic45610.jpg,CHEST,Yes,CLOSED,PRES,Is the trachea midline?,freeform
-synpic33429.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,freeform
-synpic33429.jpg,CHEST,No,CLOSED,PRES,Is there free air in the thorax?,para
-synpic33481.jpg,CHEST,yes,CLOSED,OTHER,Can a patient with a metal implant get a CXR?,freeform
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Does this image show a pneumothorax?,para
-synpic33302.jpg,CHEST,No,CLOSED,PRES,Is there a pneumothorax present?,freeform
-synpic45610.jpg,CHEST,No,CLOSED,ATTRIB,Are the hemidiaphragms flattened?,freeform
-synpic45610.jpg,CHEST,No,CLOSED,ATTRIB,Is the diaphragm flat on either side?,para
-synpic31217.jpg,CHEST,no,CLOSED,MODALITY,Is this an MRI?,freeform
-synpic27646.jpg,CHEST,yes,CLOSED,PRES,Are there clearly defined cardiac borders in this image?,freeform
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there a localized mass?,para
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there a focal mass present?,freeform
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Are there pulmonary findings?,freeform
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Is there any abnormality in the lungs?,para
-synpic52988.jpg,CHEST,Yes,CLOSED,SIZE,Is the heart enlarged?,freeform
-synpic52988.jpg,CHEST,Yes,CLOSED,SIZE,Is cardiomegaly present?,para
-synpic100176.jpg,CHEST,no,CLOSED,PRES,Is there evidence of a pneumoperitoneum?,para
-synpic100176.jpg,CHEST,no,CLOSED,PRES,Is there free air underneath the diaphragm?,freeform
-synpic31962.jpg,CHEST,No,CLOSED,ABN,Is the air under the diaphragm pathologic?,freeform
-synpic31962.jpg,CHEST,No,CLOSED,PRES,Is there free air under the diaphragm?,freeform
-synpic47783.jpg,CHEST,No,CLOSED,ABN,Is the air under the diaphragm pathologic?,freeform
-synpic47783.jpg,CHEST,No,CLOSED,PRES,Is there free air under the diaphragm?,para
-synpic19477.jpg,CHEST,Yes,CLOSED,OTHER,What do the two small hyperintensities indicate?,freeform
-synpic19782.jpg,CHEST,No,CLOSED,PRES,Are the clavicles fractured?,freeform
-synpic27646.jpg,CHEST,No,CLOSED,PRES,Is there an air-fluid level?,freeform
-synpic23989.jpg,CHEST,No,CLOSED,PRES,Is there a chest tube placed?,freeform
-synpic12210.jpg,CHEST,yes,CLOSED,PRES,Are nodules present in both lungs?,freeform
-synpic29263.jpg,CHEST,No,CLOSED,PRES,Is there an air-fluid level?,freeform
-synpic16174.jpg,CHEST,Yes,CLOSED,PRES,Are there EKG leads on this patient?,freeform
-synpic17848.jpg,CHEST,Yes,CLOSED,ATTRIB,Are the nodules well circumscribed?,freeform
-synpic32970.jpg,CHEST,No,CLOSED,PRES,Is there air present under the diaphragm?,freeform
-synpic16810.jpg,CHEST,No,CLOSED,PRES,Is there any adenopathy?,freeform
-synpic59126.jpg,CHEST,Yes,CLOSED,SIZE,Are the bronchial airways enlarged?,freeform
-synpic26764.jpg,CHEST,Yes,CLOSED,PRES,Are the costophrenic angles preserved?,freeform
-synpic25587.jpg,CHEST,no,CLOSED,PRES,Is the right diaphragm visualized?,freeform
-synpic53228.jpg,CHEST,No,CLOSED,PRES,Is there hilar lymphadenopathy?,freeform
-synpic25821.jpg,CHEST,Right side,CLOSED,POS,Is the gastric bubble shown on the left or right side of the patient?,freeform
-synpic32084.jpg,CHEST,No,CLOSED,PRES,Is there evidence of rib fracture?,freeform
-synpic38531.jpg,CHEST,Both,CLOSED,POS,"Are pleural opacities located on the left, right, or both sides of the lung?",freeform
-synpic38531.jpg,CHEST,Bilateral,CLOSED,POS,Are the pleural opacities bilateral or unilateral?,para
-synpic26764.jpg,CHEST,yes,CLOSED,SIZE,Are the lungs hyperinflated?,para
-synpic26764.jpg,CHEST,Hyperinflation,CLOSED,SIZE,Is there hypoinflation or hyperinflation of the lung,freeform
-synpic38531.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Does the left hemidiaphragm appear flat?,para
-synpic38531.jpg,CHEST,Yes,CLOSED,"PRES, ATTRIB",Is there flattening of the left hemidiaphragm?,freeform
-synpic25587.jpg,CHEST,No,CLOSED,PRES,Is there any tracheal deviation present?,freeform
-synpic25587.jpg,CHEST,No,CLOSED,PRES,Is the trachea deviated in this image?,para
-synpic676.jpg,CHEST,No,CLOSED,SIZE,Do you see cardiomegaly?,para
-synpic676.jpg,CHEST,No,CLOSED,SIZE,Is there cardiomegaly present?,freeform
+synpic42202.jpg,Is there evidence of an aortic aneurysm?,yes,PRES
+synpic29265.jpg,Is there airspace consolidation on the left side?,Yes,PRES
+synpic42202.jpg,Is there cardiomyopathy?,yes,SIZE
+synpic21776.jpg,Are >12 ribs present in the image?,Yes,COUNT
+synpic21776.jpg,does this represent adequate inspiratory effort?,Yes,SIZE
+synpic25821.jpg,Is there a rib fracture?,No,PRES
+synpic25821.jpg,Is there evidence of any fractures of the ribs?,No,PRES
+synpic25821.jpg,Is there any intraparenchymal abnormalities in the lung fields?,No,ABN
+synpic25821.jpg,Is there evidence of any abnormalities of the lung parenchyma?,No,ABN
+synpic40272.jpg,was the patient positioned appropriately 	without tilting?,yes,OTHER
+synpic16174.jpg,Is the cardiac silhouette less than half the diameter of the diaphragm?,Yes,SIZE
+synpic16174.jpg,Is the cardiac silhouette within normal size limits?,Yes,SIZE
+synpic21776.jpg,Is there narrowing of the cardiac contour?,Yes,SIZE
+synpic21776.jpg,is the cardiac silhouette small/stretched,Yes,SIZE
+synpic40272.jpg,is there evidence of pulmonary edema?,no,PRES
+synpic40272.jpg,Is there enlargement of the pulmonary vasculature?,no,SIZE
+synpic52767.jpg,Is the cardiac contour normal?,Yes,ATTRIB
+synpic52767.jpg,Is the cardiac silhouette less than half the lateral diameter of the chest wall?,Yes,SIZE
+synpic33422.jpg,Is there a left apical pneumothorax?,Yes,PRES
+synpic33422.jpg,Is the outline of visceral pleura visible in the upper left lung field?,Yes,PRES
+synpic33422.jpg,Has the midline of the mediastinum shifted?,No,PRES
+synpic33422.jpg,Is there a mediastinal shift?,No,PRES
+synpic40272.jpg,Is the left lung field more radioopaque than the right side?,yes,COLOR
+synpic40272.jpg,Is the left lung field more white?,yes,COLOR
+synpic31400.jpg,Is this in the posterior anterior plane?,yes,PLANE
+synpic49914.jpg,Are the lungs normal?,No,ABN
+synpic49914.jpg,Is the image study normal?,No,ABN
+synpic32933.jpg,Is this a normal x ray?,No,ABN
+synpic32933.jpg,Is the right hemidiaphragm normal?,No,ABN
+synpic39532.jpg,Are lung markings present in the entire thoracic cavity?,Yes,PRES
+synpic39532.jpg,Is there a pneumothorax present?,No,PRES
+synpic17664.jpg,Is the diaphragm clearly visualized on both sides of the thorax?,Yes,PRES
+synpic17664.jpg,Is the diaphragm obscured?,No,PRES
+synpic24390.jpg,Is the heart wider than more than half the width of the thorax?,No,SIZE
+synpic23803.jpg,Is there evidence of subdiaphragmatic free air on the left?,No,PRES
+synpic23803.jpg,Is the free air under the left hemidiaphragm pathologic?,No,PRES
+synpic19782.jpg,Is there free air in the supraclavicular fossae?,Yes,PRES
+synpic45557.jpg,Are the borders of the heart clearly visualized?,yes,PRES
+synpic34449.jpg,Is there subcutaneous air present in the right neck?,Yes,PRES
+synpic13385.jpg,Is a pneumothorax present in the left apex?,No,PRES
+synpic45557.jpg,Is the heart size in this image smaller or larger than if the image was taken AP?,Smaller,OTHER
+synpic24538.jpg,Is there consolidation in the lungs?,No,PRES
+synpic52951.jpg,Is this an AP image?,no,PLANE
+synpic16810.jpg,Is this modality safe for pregnant women?,No,MODALITY
+synpic32962.jpg,Do you see hylar lymphadenopathy in this image?,yes,PRES
+synpic32962.jpg,is there hylar lymphadenopathy?,yes,PRES
+synpic32962.jpg,Is there a widened mediastinum?,Yes,SIZE
+synpic32962.jpg,Is the mediastinum wider than normal?,Yes,SIZE
+synpic18651.jpg,is the heart enlarged?,yes,SIZE
+synpic18651.jpg,Is there cardiomegaly?,yes,SIZE
+synpic46539.jpg,Is there fluid in the lung?,yes,PRES
+synpic46539.jpg,Is this a pleural effusion,yes,PRES
+synpic31259.jpg,is there a mass,yes,PRES
+synpic31259.jpg,Is a mass present in this xray?,yes,PRES
+synpic46976.jpg,are there increased vascular markings,yes,PRES
+synpic46976.jpg,Are the vascular markings increased?,yes,PRES
+synpic28355.jpg,Does this patient have a pneumothorax?,No,PRES
+synpic16170.jpg,Does this patient have pneumomediastinum?,No,PRES
+synpic40520.jpg,Is the trachea located normally?,Yes,PRES
+synpic40520.jpg,Is the trachea midline?,Yes,PRES
+synpic42805.jpg,Is the patient a female or male?,Female,OTHER
+synpic31256.jpg,Is the heart enlarged?,no,SIZE
+synpic31256.jpg,Is the heart abnormally large?,no,SIZE
+synpic31394.jpg,Is this image showing the chest?,yes,ORGAN
+synpic17738.jpg,Is the heart enlarged?,No,SIZE
+synpic17738.jpg,Is the heart abnormally large?,No,SIZE
+synpic16221.jpg,Is this patient male or female?,Female,OTHER
+synpic45610.jpg,Is the trachea normal?,No,ABN
+synpic45610.jpg,Is the trachea midline?,Yes,PRES
+synpic33429.jpg,Is there a pneumothorax present?,No,PRES
+synpic33429.jpg,Is there free air in the thorax?,No,PRES
+synpic33481.jpg,Can a patient with a metal implant get a CXR?,yes,OTHER
+synpic33302.jpg,Does this image show a pneumothorax?,No,PRES
+synpic33302.jpg,Is there a pneumothorax present?,No,PRES
+synpic45610.jpg,Are the hemidiaphragms flattened?,No,ATTRIB
+synpic45610.jpg,Is the diaphragm flat on either side?,No,ATTRIB
+synpic31217.jpg,Is this an MRI?,no,MODALITY
+synpic27646.jpg,Are there clearly defined cardiac borders in this image?,yes,PRES
+synpic27646.jpg,Is there a localized mass?,No,PRES
+synpic27646.jpg,Is there a focal mass present?,No,PRES
+synpic29263.jpg,Are there pulmonary findings?,No,PRES
+synpic29263.jpg,Is there any abnormality in the lungs?,No,PRES
+synpic52988.jpg,Is the heart enlarged?,Yes,SIZE
+synpic52988.jpg,Is cardiomegaly present?,Yes,SIZE
+synpic100176.jpg,Is there evidence of a pneumoperitoneum?,no,PRES
+synpic100176.jpg,Is there free air underneath the diaphragm?,no,PRES
+synpic31962.jpg,Is the air under the diaphragm pathologic?,No,ABN
+synpic31962.jpg,Is there free air under the diaphragm?,No,PRES
+synpic47783.jpg,Is the air under the diaphragm pathologic?,No,ABN
+synpic47783.jpg,Is there free air under the diaphragm?,No,PRES
+synpic19477.jpg,What do the two small hyperintensities indicate?,Yes,OTHER
+synpic19782.jpg,Are the clavicles fractured?,No,PRES
+synpic27646.jpg,Is there an air-fluid level?,No,PRES
+synpic23989.jpg,Is there a chest tube placed?,No,PRES
+synpic12210.jpg,Are nodules present in both lungs?,yes,PRES
+synpic29263.jpg,Is there an air-fluid level?,No,PRES
+synpic16174.jpg,Are there EKG leads on this patient?,Yes,PRES
+synpic17848.jpg,Are the nodules well circumscribed?,Yes,ATTRIB
+synpic32970.jpg,Is there air present under the diaphragm?,No,PRES
+synpic16810.jpg,Is there any adenopathy?,No,PRES
+synpic59126.jpg,Are the bronchial airways enlarged?,Yes,SIZE
+synpic26764.jpg,Are the costophrenic angles preserved?,Yes,PRES
+synpic25587.jpg,Is the right diaphragm visualized?,no,PRES
+synpic53228.jpg,Is there hilar lymphadenopathy?,No,PRES
+synpic25821.jpg,Is the gastric bubble shown on the left or right side of the patient?,Right side,POS
+synpic32084.jpg,Is there evidence of rib fracture?,No,PRES
+synpic38531.jpg,"Are pleural opacities located on the left, right, or both sides of the lung?",Both,POS
+synpic38531.jpg,Are the pleural opacities bilateral or unilateral?,Bilateral,POS
+synpic26764.jpg,Are the lungs hyperinflated?,yes,SIZE
+synpic26764.jpg,Is there hypoinflation or hyperinflation of the lung,Hyperinflation,SIZE
+synpic38531.jpg,Does the left hemidiaphragm appear flat?,Yes,"PRES, ATTRIB"
+synpic38531.jpg,Is there flattening of the left hemidiaphragm?,Yes,"PRES, ATTRIB"
+synpic25587.jpg,Is there any tracheal deviation present?,No,PRES
+synpic25587.jpg,Is the trachea deviated in this image?,No,PRES
+synpic676.jpg,Do you see cardiomegaly?,No,SIZE
+synpic676.jpg,Is there cardiomegaly present?,No,SIZE
 

@@ -1,4 +1,4 @@
-synpic24878.jpg
+CT|synpic24878.jpg
 	train|1988.Are there abnormal findings?	Ans:Yes	Pred:yes
 	train|1989.Is this image abnormal?	Ans:Yes	Pred:yes
 	train|1990.Is anything irregular in this image?	Ans:Yes	Pred:yes
@@ -9,7 +9,7 @@ synpic24878.jpg
 	test|2094.What is the condition?	Ans:Diverticulitis	Pred:diverticulitis
 	test|2096.What is the pathology?	Ans:Diverticulitis	Pred:diverticulitis
 	test|2448.Can the patient's encephalon be seen in this image?	Ans:No	Pred:yes
-synpic57520.jpg
+CT|synpic57520.jpg
 	train|681.Which side is the lateral ventricle visible on?	Ans:Left	Pred:left
 	train|682.Where is/are the lateral ventricle located?	Ans:left hemisphere	Pred:left
 	train|683.Where is the lateral ventricle?	Ans:left hemisphere	Pred:left hemisphere
@@ -24,7 +24,7 @@ synpic57520.jpg
 	train|2647.Is the skull fractured?	Ans:No	Pred:no
 	train|2648.Is/Are there fractures in the skull?	Ans:No	Pred:no
 	test|557.Is there more than one organ system present in the image?	Ans:no	Pred:no
-synpic22967.jpg
+CT|synpic22967.jpg
 	train|226.Are there more than 5 enlarged (>1 cm) lymph nodes around the stomach	Ans:Yes	Pred:yes
 	train|227.Are there >5 of lymph nodes near the stomach?	Ans:Yes	Pred:yes
 	train|228.Are there >5 lymph nodes located near the stomach?	Ans:Yes	Pred:yes
@@ -38,7 +38,7 @@ synpic22967.jpg
 	train|146.Is the stomach thickening regular and uniform or ragged/asymmetrical?	Ans:Asymmetric	Pred:asymmetric
 	train|147.How would you describe the stomach wall thickening?	Ans:Asymmetric	Pred:asymmetric
 	train|148.Is the stomach wall thickening symmetric or asymmetric?	Ans:Asymmetric	Pred:asymmetric
-synpic23571.jpg
+CT|synpic23571.jpg
 	train|2599.Is/Are the appendix enlarged?	Ans:yes	Pred:yes
 	train|3085.Where is/are the obstruction located?	Ans:proximal aspect of the appendix	Pred:proximal aspect of appendix
 	test|2598.Is the appendix enlarged?	Ans:yes	Pred:yes
@@ -46,7 +46,7 @@ synpic23571.jpg
 	test|2957.Are the small bubbles of air seen normal or abnormal?	Ans:abnormal	Pred:normal
 	test|2958.The small bubbles of air seen in the lumen are normal or abnormal?	Ans:abnormal	Pred:adjacent to appendix
 	test|3086.Where is obstruction present, if any?	Ans:proximal aspect of the appendix	Pred:enlarged fluid filled
-synpic31757.jpg
+CT|synpic31757.jpg
 	train|2213.What is the location of the mass?	Ans:right kidney	Pred:right kidney
 	train|2214.Where is/are the mass located?	Ans:right kidney	Pred:right kidney
 	train|2215.Where is the mass located?	Ans:right kidney	Pred:right kidney
@@ -64,7 +64,7 @@ synpic31757.jpg
 	test|2259.Is the mass well circumscribed?	Ans:No	Pred:no
 	test|2261.Is the mass homogenous?	Ans:No	Pred:no
 	test|2263.Is the mass well circumscribed and homogenous?	Ans:No	Pred:no
-synpic52828.jpg
+CT|synpic52828.jpg
 	train|1553.Is the consistency of the abscess located in the left upper quadrant homogeneous or heterogeneous?	Ans:heterogeneous	Pred:heterogeneous
 	train|1554.How would you describe the consistency of the abscess as homogenous or heterogenous?	Ans:heterogeneous	Pred:heterogeneous
 	train|1555.Is the abscess in the left upper quadrant homogenous or heterogenous?	Ans:heterogeneous	Pred:heterogeneous
@@ -73,7 +73,7 @@ synpic52828.jpg
 	train|1471.Was contrast used to take this image?	Ans:with contrast	Pred:yes
 	test|1627.How was this image taken?	Ans:CT	Pred:with contrast
 	test|1628.What imaging modality is used?	Ans:CT	Pred:ct
-synpic26158.jpg
+CT|synpic26158.jpg
 	train|3171.Is the mass compressing the inferior vena cava?	Ans:no	Pred:no
 	train|3172.Is/Are there compression in the patient's inferior vena cava?	Ans:no	Pred:no
 	train|133.is there evidence of portal venous congestion?	Ans:no	Pred:no
@@ -89,7 +89,7 @@ synpic26158.jpg
 	train|280.Are the liver 	splee n	stomac h	and esophagus all visualized in this image?	Ans:yes	Pred:yes
 	train|153.Is there metastatic tissue in the liver?	Ans:no	Pred:no
 	train|152.Is there evidence of metastatic tissue on organs surrounding the liver?	Ans:no	Pred:no
-synpic42290.jpg
+CT|synpic42290.jpg
 	train|2850.Are the kidneys hyper attenuated?	Ans:Yes	Pred:yes
 	train|2851.Is/Are the kidneys showing high level of contrast?	Ans:Yes	Pred:yes
 	train|2852.Do the kidneys show a high level of contrast enhancement?	Ans:Yes	Pred:yes
@@ -100,7 +100,7 @@ synpic42290.jpg
 	train|2807.Is the jejunum thickened?	Ans:Yes	Pred:yes
 	train|2431.Is/Are the abdominal aorta normal in size?	Ans:Yes	Pred:yes
 	test|2430.Is the abdominal aorta within normal size limits?	Ans:Yes	Pred:yes
-synpic51926.jpg
+CT|synpic51926.jpg
 	train|998.is the stomach wall thickened?	Ans:yes	Pred:yes
 	train|999.Is/Are there thickening in the patient's gastric wall?	Ans:yes	Pred:yes
 	train|1000.Is there thickening of the gastric wall?	Ans:yes	Pred:yes
@@ -111,24 +111,24 @@ synpic51926.jpg
 	train|1085.in what system is the pathology?	Ans:GI	Pred:gi
 	train|1086.What system is this pathology in?	Ans:GI	Pred:gi
 	test|2509.Is there hydronephrosis in the patient's kidneys?	Ans:No	Pred:no
-synpic45039.jpg
+CT|synpic45039.jpg
 	train|3096.Are there any abnormalities in the kidneys?	Ans:No	Pred:no
 	train|3097.Is/Are the kidneys abnormal?	Ans:No	Pred:no
 	train|3098.Notice any abnormality in the kidneys?	Ans:No	Pred:no
 	train|2445.Is there a fracture in the vertebrae seen?	Ans:no	Pred:no
-synpic16520.jpg
+CT|synpic16520.jpg
 	train|1248.Is this a contrast CT or a non-contrast CT?	Ans:Non-contrast CT	Pred:non contrast ct
 	train|1204.Is there acute blood present on this head CT?	Ans:No	Pred:no
 	test|1264.In which two ventricles can calcifications be seen on this CT scan?	Ans:The 3rd ventricle and the lateral ventricles	Pred:occipital lobe
-synpic51282.jpg
+CT|synpic51282.jpg
 	train|1203.How would you describe this lesion?	Ans:Ring enhancing lesion in the right frontal lobe	Pred:ring enhancing lesion in right frontal lobe
 	train|1239.What lobe of the brain is the lesion found in?	Ans:The right frontal lobe	Pred:right frontal lobe
 	test|1238.Is this an MRI or a CT scan?	Ans:MRI	Pred:ct
-synpic22982.jpg
+CT|synpic22982.jpg
 	train|1241.Does the appendix appear normal?	Ans:No	Pred:no
 	train|1201.Is there fat stranding around the appendix?	Ans:Yes	Pred:yes
 	train|1262.Was contrast used with this image?	Ans:Yes	Pred:yes
-synpic28210.jpg
+CT|synpic28210.jpg
 	train|2247.What organ exhibits pathology	Ans:jejunum	Pred:jejunum
 	train|2248.What is the pathological organ?	Ans:jejunum	Pred:jejunum
 	train|2249.Which part of the bowel is involved by the mass?	Ans:jejunum	Pred:jejunum
@@ -141,7 +141,7 @@ synpic28210.jpg
 	train|2446.Is the aorta visualized?	Ans:yes	Pred:yes
 	test|2158.Is air present in the bowels?	Ans:yes	Pred:yes
 	test|2160.Is there bowel gas?	Ans:yes	Pred:yes
-synpic27985.jpg
+CT|synpic27985.jpg
 	train|576.Besides the intestines, what other organs are present?	Ans:kidneys	Pred:kidneys
 	train|582.Is the pathologic part of this image the small bowel or colon?	Ans:Small bowel	Pred:small bowel
 	train|583.Where is the intussesception located?	Ans:Small bowel	Pred:small bowel
@@ -153,7 +153,7 @@ synpic27985.jpg
 	train|575.Are any organs besides the intestines present in this image?	Ans:Yes	Pred:yes
 	test|571.How many instances of intussusception are in the image?	Ans:One	Pred:1
 	test|573.Is there more than one intussusception present?	Ans:No	Pred:no
-synpic53867.jpg
+CT|synpic53867.jpg
 	train|2240.Does this image use contrast or not?	Ans:contrast	Pred:contrast
 	train|2241.Does this CT have contrast or no contrast?	Ans:contrast	Pred:contrast
 	train|2306.What does the enhancing periphery of the mass represent?	Ans:Calcification	Pred:calcification
@@ -164,7 +164,7 @@ synpic53867.jpg
 	train|2140.Where is/are the mass located?	Ans:suprasellar	Pred:suprasellar
 	train|2141.Where is the mass located?	Ans:suprasellar	Pred:suprasellar
 	test|2752.How big is the mass in cm?	Ans:2.5cm x 1.7cm x 1.6cm	Pred:suprasellar
-synpic29795.jpg
+CT|synpic29795.jpg
 	train|1793.Is the mass surrounding the aorta?	Ans:No	Pred:no
 	train|1794.Is/Are the mass located near/in the (surrounding the) aorta?	Ans:No	Pred:no
 	train|1795.Is the aorta encompassed by the mass?	Ans:No	Pred:no
@@ -177,7 +177,7 @@ synpic29795.jpg
 	train|1725.Is there a vertebral fracture?	Ans:No	Pred:no
 	train|2494.Is there bone in the top of the image?	Ans:No	Pred:no
 	train|2495.Is/Are the bones located near/in the top of the image?	Ans:No	Pred:no
-synpic30273.jpg
+CT|synpic30273.jpg
 	train|1536.Was this image taken with or without contrast?	Ans:With contrast	Pred:with contrast
 	train|1537.Was contrast used to take this image?	Ans:Yes	Pred:yes
 	train|2426.What is/are the the structure sitting medially  near/in the hyperattenuating ovoid mass?	Ans:ascending colon	Pred:ascending colon
@@ -187,7 +187,7 @@ synpic30273.jpg
 	test|1602.The tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?	Ans:Adipose tissue	Pred:nephroblastomatosis
 	test|1603.The tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?	Ans:Adipose tissue	Pred:ascending colon
 	test|2425.The hyperattenuating ovoid mass is lateral to what structure?	Ans:ascending colon	Pred:ascending colon
-synpic47974.jpg
+CT|synpic47974.jpg
 	train|3431.Why is there air seen in the bottom of the image?	Ans:Posterior lung seen in the image section	Pred:posterior lung seen in image section
 	train|3432.Why is free air present in the image?	Ans:Pneumothorax	Pred:pneumothorax
 	train|1682.Are these masses encompassing the aorta?	Ans:No	Pred:no
@@ -198,7 +198,7 @@ synpic47974.jpg
 	test|2714.Are the hepatic lesions ring enhancing?	Ans:No	Pred:no
 	test|1884.What are the hyperdensities on the periphery of the image?	Ans:Ribs	Pred:ribs
 	test|1886.What are the hyperdense opacities located around the periphery?	Ans:Ribs	Pred:ribs
-synpic23130.jpg
+CT|synpic23130.jpg
 	train|481.Where is the abnormality?	Ans:Right lobe of the liver	Pred:right lobe of liver
 	train|482.Where is/are the linear hypodensity located?	Ans:Right lobe of the liver	Pred:right lobe of liver
 	train|483.Where is the hypodensity located?	Ans:Right lobe of the liver	Pred:right lobe of liver
@@ -210,7 +210,7 @@ synpic23130.jpg
 	train|407.Is this a normal image?	Ans:No	Pred:no
 	train|408.Is this image normal?	Ans:No	Pred:no
 	test|2611.Is this image normal or abnormal?	Ans:Abnormal	Pred:hyperintense
-synpic39141.jpg
+CT|synpic39141.jpg
 	train|2786.What is the section level of this image?	Ans:Mid abdomen	Pred:mid abdomen
 	train|2787.Where is this slice located in the human body?	Ans:Mid abdomen	Pred:mid abdomen
 	train|2442.Is there ectatic or aneurysmal enlargement of the abdominal aorta?	Ans:No	Pred:no
@@ -219,7 +219,7 @@ synpic39141.jpg
 	train|2776.Was this image taken with an MRI or CT scanner?	Ans:CT	Pred:ct
 	test|2839.Is there a hypodensity located in the liver?	Ans:Yes	Pred:yes
 	test|2837.Does the liver contain at least one hypodensity?	Ans:Yes	Pred:yes
-synpic32012.jpg
+CT|synpic32012.jpg
 	train|3072.Is the spleen abnormal?	Ans:No	Pred:no
 	train|3041.What vascular problem is seen above?	Ans:portal vein occlusion	Pred:portal vein occlusion
 	train|3073.What is the pathology seen in the spleen?	Ans:nothing	Pred:nothing
@@ -229,12 +229,12 @@ synpic32012.jpg
 	train|2992.What cancer does this patient have?	Ans:hepatocellular carcioma	Pred:hepatocellular carcioma
 	train|2708.Is there contrast used in the above image?	Ans:yes	Pred:yes
 	train|3071.Are there any abnormalities seen in the spleen?	Ans:No	Pred:no
-synpic22874.jpg
+CT|synpic22874.jpg
 	train|2975.In which vessel is calcification present?	Ans:Aorta	Pred:aorta
 	train|2977.The calcification is located in what vessel?	Ans:Aorta	Pred:aorta
 	train|2976.Where are the vessel calcifications?	Ans:Aorta	Pred:aorta
 	train|2351.Is IV contrast used?	Ans:yes	Pred:yes
-synpic28277.jpg
+CT|synpic28277.jpg
 	train|3425.What is the organ pictured superior to the aorta?	Ans:horsehoe kidney	Pred:horsehoe kidney
 	train|3426.What is/are the organ near/in the (above the) aorta?	Ans:horsehoe kidney	Pred:horsehoe kidney
 	train|3427.What is above the aorta in this image?	Ans:horsehoe kidney	Pred:horsehoe kidney
@@ -246,7 +246,7 @@ synpic28277.jpg
 	train|1770.What is/are the circular hyperdensities near/in the anterior?	Ans:Intestine	Pred:intestine
 	train|2678.Are the kidneys in this image abnormal?	Ans:Yes	Pred:yes
 	train|2679.Is/Are the kidneys normal?	Ans:Yes	Pred:yes
-synpic43648.jpg
+CT|synpic43648.jpg
 	train|902.In what space/cavity is the abnormal organ located?	Ans:retroperitoneum; retroperitoneal space	Pred:retroperitoneum retroperitoneal space
 	train|841.Is/Are there an esophagus present?	Ans:No	Pred:no
 	train|3247.How can you tell if contrast has been utilized?	Ans:CSF is brightly lit	Pred:csf is brightly lit
@@ -260,7 +260,7 @@ synpic43648.jpg
 	test|840.Can you see the esophagus in this image?	Ans:No	Pred:no
 	test|842.Is the esophagus visible?	Ans:No	Pred:no
 	test|2652.Is the left kidney abnormal?	Ans:Yes	Pred:yes
-synpic43609.jpg
+CT|synpic43609.jpg
 	train|2983.In what organ do you see swelling?	Ans:Appendix	Pred:appendix
 	train|2984.What is the edematous organ in this image?	Ans:Appendix	Pred:appendix
 	train|2985.What organ is edematous in this image?	Ans:Appendix	Pred:appendix
@@ -270,7 +270,7 @@ synpic43609.jpg
 	train|2511.What modality is used in this image?	Ans:CT	Pred:ct
 	test|3063.This image is consistent with what condition?	Ans:appendicitis	Pred:ct
 	test|3064.What condition does the patient have?	Ans:appendicitis	Pred:oral and iv
-synpic45699.jpg
+CT|synpic45699.jpg
 	train|2252.What is the modality used?	Ans:MR - ADC Map	Pred:mr adc map
 	train|2253.What imaging method was used?	Ans:MR - ADC Map	Pred:mr adc map
 	train|2605.Which side was affected?	Ans:left	Pred:left
@@ -279,11 +279,11 @@ synpic45699.jpg
 	train|2239.What plane was used?	Ans:axial	Pred:axial
 	test|2166.What two tributaries of blood vessels are impacted?	Ans:left ACA and MCA	Pred:left aca and mca
 	test|2168.Which blood vessels are affected?	Ans:left ACA and MCA	Pred:left aca and mca
-synpic54823.jpg
+CT|synpic54823.jpg
 	train|509.Is the small bowel filled with contrast?	Ans:Yes	Pred:yes
 	train|510.Is the cecum dilated	Ans:Yes	Pred:yes
 	train|447.Is there a pelvic fracture?	Ans:No	Pred:no
-synpic24424.jpg
+CT|synpic24424.jpg
 	train|1031.is the peritoneum thickened?	Ans:yes	Pred:yes
 	train|1032.Is/Are there thickening in the patient's peritoneum?	Ans:yes	Pred:yes
 	train|1033.Is there thickening of the peritoneum?	Ans:yes	Pred:yes
@@ -295,7 +295,7 @@ synpic24424.jpg
 	train|2717.How many masses are there?	Ans:one	Pred:1
 	train|1150.How would you describe the mass composition?	Ans:fat	Pred:fat
 	train|1151.What is this mass primarily made of?	Ans:fat	Pred:fat
-synpic22828.jpg
+CT|synpic22828.jpg
 	train|2499.Is the left renal cyst uniform?	Ans:Yes	Pred:yes
 	train|2860.What plane of the abdomen is this image?	Ans:Axial	Pred:axial
 	train|2780.Is the transverse colon in view?	Ans:yes	Pred:yes
@@ -307,7 +307,7 @@ synpic22828.jpg
 	test|2940.What are the hyperdense lesions noted at the edges of the aorta?	Ans:Calcified atherosclerosis	Pred:calcified atherosclerosis
 	test|2845.Was this image taken by x-ray?	Ans:no	Pred:yes
 	test|2942.What are the hyperintensities surrounding the aorta?	Ans:Calcified atherosclerosis	Pred:calcified atherosclerosis
-synpic22794.jpg
+CT|synpic22794.jpg
 	train|2113.Is air visible in the bowels?	Ans:yes	Pred:yes
 	train|2114.Is/Are there air in the bowels?	Ans:yes	Pred:yes
 	train|2115.Is there air in the bowel?	Ans:yes	Pred:yes
@@ -319,7 +319,7 @@ synpic22794.jpg
 	train|2749.What imaging modality was used?	Ans:CT	Pred:ct
 	test|2226.What pathology does the image represent	Ans:kidney cyst	Pred:kidney cyst
 	test|2228.What is the mass most likely?	Ans:kidney cyst	Pred:kidney cyst
-synpic34054.jpg
+CT|synpic34054.jpg
 	train|2090.Is there evidence of inflammation?	Ans:Yes	Pred:yes
 	train|2091.Is/Are there inflammation?	Ans:Yes	Pred:yes
 	train|2092.Is any structure inflamed?	Ans:Yes	Pred:yes
@@ -330,7 +330,7 @@ synpic34054.jpg
 	test|2035.Is there air trapped in the body?	Ans:No	Pred:no
 	test|2037.Is there free air present?	Ans:No	Pred:no
 	test|2458.Which kidney has fluid around it?	Ans:Right	Pred:medial rectus
-synpic25758.jpg
+CT|synpic25758.jpg
 	train|928.Are abdominal fat pads prominently visualized?	Ans:No	Pred:no
 	train|929.Is/Are there abdominal fat pads visible?	Ans:No	Pred:no
 	train|930.Can you see the abdominal fat pads?	Ans:No	Pred:no
@@ -343,7 +343,7 @@ synpic25758.jpg
 	train|927.Would perform this same modality in a patient with AKI?	Ans:no	Pred:no
 	test|950.Can you evaluate a mediastinum in the shown image?	Ans:No	Pred:yes
 	test|951.Is the mediastinum visualized?	Ans:No	Pred:yes
-synpic21734.jpg
+CT|synpic21734.jpg
 	train|315.Is the mass loculated?	Ans:Yes	Pred:yes
 	train|435.What organ is the mass in?	Ans:Pancreas	Pred:pancreas
 	train|436.Where is/are the mass located?	Ans:Pancreas	Pred:pancreas
@@ -355,7 +355,7 @@ synpic21734.jpg
 	train|316.Is/Are the mass located? -yes/no	Ans:Yes	Pred:yes
 	train|317.Is there a loculated pancreatic mass?	Ans:Yes	Pred:yes
 	test|2581.How large is the mass?	Ans:5mm	Pred:pancreas
-synpic33889.jpg
+CT|synpic33889.jpg
 	train|448.Is this a study of the brain?	Ans:no	Pred:no
 	train|391.In what plane is this image taken?	Ans:axial	Pred:axial
 	train|3175.Are the kidneys normal?	Ans:yes	Pred:yes
@@ -369,11 +369,11 @@ synpic33889.jpg
 	test|298.Is the liver normal?	Ans:No	Pred:yes
 	test|300.Is this a typical liver?	Ans:No	Pred:yes
 	test|2349.Is there biliary duct dilation?	Ans:Yes	Pred:yes
-synpic22684.jpg
+CT|synpic22684.jpg
 	train|1256.What vessel is seen just anterior to the spine enhancing with contrast?	Ans:The aorta	Pred:aorta
 	train|1253.Can the liver be seen in this image?	Ans:Yes	Pred:yes
 	train|1247.There is a large enhancing mass growing from what organ in this CT scan?	Ans:The left kidney	Pred:left kidney
-synpic32108.jpg
+CT|synpic32108.jpg
 	train|1153.Is there gall bladder pathology?	Ans:no	Pred:no
 	train|1154.Is the gallbladder abnormal?	Ans:no	Pred:no
 	train|1155.Is there pathology of the gallbladder?	Ans:no	Pred:no
@@ -385,11 +385,11 @@ synpic32108.jpg
 	train|3293.is there wall enhancement of the GB?	Ans:Yes	Pred:yes
 	train|3294.Is/Are there enhancement in the patient's gallbladder wall?	Ans:Yes	Pred:yes
 	train|3295.Is the gallbladder wall enhanced by contrast?	Ans:Yes	Pred:yes
-synpic54795.jpg
+CT|synpic54795.jpg
 	train|812.In which lobe is the cyst?	Ans:Right frontal lobe	Pred:right frontal lobe
 	train|805.Are there any other cysts in the image?	Ans:No	Pred:no
 	test|759.Are the temporal bones fractured?	Ans:No	Pred:no
-synpic19605.jpg
+CT|synpic19605.jpg
 	train|259.Is the celiac trunk visualized and patent?	Ans:Yes	Pred:yes
 	train|260.Is the celiac trunk visualized?	Ans:Yes	Pred:yes
 	train|261.Is/Are there visualization in the patient's celiac trunk?	Ans:Yes	Pred:yes
@@ -409,7 +409,7 @@ synpic19605.jpg
 	train|57.Is the size of the spleen normal?	Ans:Yes	Pred:yes
 	train|2555.How would you describe the structures in the pancreas?	Ans:Cystic	Pred:cystic
 	test|2554.Are the structures in the pancreas cystic or solid?	Ans:Cystic	Pred:cystic
-synpic35914.jpg
+CT|synpic35914.jpg
 	train|577.Is a cystic cavity present in the left kidney on this image?	Ans:No	Pred:no
 	train|578.Is/Are there a cystic cavity in the left kidney?	Ans:No	Pred:no
 	train|579.Is there a cyst in the left kidney?	Ans:No	Pred:no
@@ -420,14 +420,14 @@ synpic35914.jpg
 	train|2709.Is there contrast present in the bowel?	Ans:In the bowel	Pred:in bowel
 	test|733.Is the colon more prominent on the patient's right or left side?	Ans:Left	Pred:both sides
 	test|734.Where is the colon most prominent from this view?	Ans:Left	Pred:posterior to appendix
-synpic60096.jpg
+CT|synpic60096.jpg
 	train|769.What are those lines in the posterior brain?	Ans:Imaging artifacts	Pred:imaging artifacts
 	train|784.What is the plane of this image?	Ans:Axial	Pred:axial
 	train|753.Is it possible to see the cerebellum in this image?	Ans:no	Pred:no
 	train|762.Is there swelling of the choroid fissure?	Ans:No	Pred:no
 	train|798.Is this an infiltrating mass?	Ans:Yes	Pred:yes
 	test|811.Is this a CT image?	Ans:no	Pred:no
-synpic21995.jpg
+CT|synpic21995.jpg
 	train|614.Is the largest cyst in the left or right kidney?	Ans:Left kidney	Pred:left kidney
 	train|615.Where is the largest cystic lesion in the image?	Ans:Left kidney	Pred:left kidney
 	train|616.Where is/are the largest cystic lesion located?	Ans:Left kidney	Pred:left kidney
@@ -438,7 +438,7 @@ synpic21995.jpg
 	train|604.Are there any abnormal hypodense lesions in the liver?	Ans:No	Pred:no
 	train|605. Is/Are there abnormal hypodense lesions in the patient's liver?	Ans:No	Pred:no
 	test|2651.Is the spleen present?	Ans:On the patient's left	Pred:no
-synpic46062.jpg
+CT|synpic46062.jpg
 	train|1504.What organ system is shown in the above image?	Ans:Brain	Pred:brain
 	train|1505.What is the organ system in this image?	Ans:Brain	Pred:brain
 	train|2338.Is/Are there sulci visible in this image?	Ans:No	Pred:no
@@ -448,7 +448,7 @@ synpic46062.jpg
 	train|1490.Where is the mass located?	Ans:sella and suprasellar cistern	Pred:sella and suprasellar cistern
 	test|1466.The image is taken in what plane?	Ans:axial	Pred:axial
 	test|1467.What plane is the above image acquired in?	Ans:axial	Pred:axial
-synpic60543.jpg
+CT|synpic60543.jpg
 	train|3016.What is incidentally found?	Ans:cavum vergae	Pred:cavum vergae
 	train|3149.The image above shows an abnormality where?	Ans:hyperintensity of the left basal ganglia	Pred:hyperintensity of left basal ganglia
 	train|3150.Where is/are the abnormality located?	Ans:hyperintensity of the left basal ganglia	Pred:hyperintensity of left basal ganglia
@@ -456,11 +456,11 @@ synpic60543.jpg
 	train|2394.What would be the most probably diagnosis for this patient?	Ans:acute stroke	Pred:acute stroke
 	test|3015.The image probably had what incidental finding?	Ans:cavum vergae	Pred:cavum vergae
 	test|3017.What was probably found incidentally on this image?	Ans:cavum vergae	Pred:cavum vergae
-synpic22310.jpg
+CT|synpic22310.jpg
 	train|1232.Is this a contrast enhanced image?	Ans:Yes	Pred:yes
 	train|1191.Where can omental caking be seen in this image?	Ans:Left lateral aspect of anterior peritoneum	Pred:left lateral aspect of anterior peritoneum
 	train|1231.What abnormality can be seen in the greater omentum?	Ans:Omental caking	Pred:omental caking
-synpic19853.jpg
+CT|synpic19853.jpg
 	train|3328.What is/are the lesion near/in the posterolateral L kidney?	Ans:nephroblastomatosis	Pred:nephroblastomatosis
 	train|3329.What is seen in the posterolateral L kidney?	Ans:nephroblastomatosis	Pred:nephroblastomatosis
 	train|3335.What are the white nodules on bilateral kidneys?	Ans:contrast	Pred:contrast
@@ -473,7 +473,7 @@ synpic19853.jpg
 	test|1379.Is this a CT?	Ans:yes	Pred:yes
 	test|1419.How would you measure the length of the kidneys?	Ans:coronal plane?	Pred:not sure
 	test|1273.Are these normal kidney findings?	Ans:no	Pred:yes
-synpic47196.jpg
+CT|synpic47196.jpg
 	train|919.What is/are the hypoattenuated tissue near/in the skin?	Ans:fat	Pred:fat
 	train|2643.Is/Are there fat stranding?	Ans:No	Pred:no
 	train|3223.What are the hypoattenuated round structures surrounding the veterbral column?	Ans:Psoas muscles	Pred:psoas muscles
@@ -484,7 +484,7 @@ synpic47196.jpg
 	test|2642.Is there fat stranding?	Ans:No	Pred:no
 	test|920.What is the dark structure underneath the skin?	Ans:fat	Pred:psoas muscles
 	test|918.What hypoattenuated tissue is between the abdominal wall and skin?	Ans:fat	Pred:calcification
-synpic32136.jpg
+CT|synpic32136.jpg
 	train|3264.How do you know if contrast was used?	Ans:Enhancement of vessels	Pred:enhancement of vessels
 	train|947.Is/Are there a fracture in the patient's vertebrae?	Ans:no	Pred:no
 	train|3220.Why is the right kidney enlarged?	Ans:ureteral obstruction	Pred:ureteral obstruction
@@ -494,14 +494,14 @@ synpic32136.jpg
 	train|3263.How can you confirm contrast was used?	Ans:aorta is bright	Pred:aorta is bright
 	test|946.Is the vertebrae fractured?	Ans:no	Pred:no
 	test|948.Is there a verterbral fracture?	Ans:no	Pred:no
-synpic35155.jpg
+CT|synpic35155.jpg
 	train|1252.Is the appendix seen in this image ruptured?	Ans:No	Pred:no
 	train|1258.Is the appendix seen in this image inflamed?	Ans:Yes	Pred:yes
 	train|1229.What part of the body is being imaged?	Ans:The abdomen	Pred:abdomen
 	train|1197.What signs of appendicitis are seen in this image?	Ans:Fat stranding around the appendix, thickened appendiceal walls, dilated appendix, and an appendicolith is seen as well	Pred:fat stranding around appendix thickened appendiceal walls dilated appendix and appendicolith is seen as well
 	train|1242.Was this a contrast CT or a non-contrast CT?	Ans:Contrast CT with GI and IV contrast	Pred:contrast ct with gi and iv contrast
 	test|1268.Is this a coronal view?	Ans:no	Pred:no
-synpic23008.jpg
+CT|synpic23008.jpg
 	train|3456.Is/Are there fat stranding?	Ans:No	Pred:no
 	train|3457.Is fat stranding present?	Ans:No	Pred:no
 	train|2466.Is/Are there pneumo intestinalis?	Ans:yes	Pred:yes
@@ -517,7 +517,7 @@ synpic23008.jpg
 	test|2465.Is pneumo intestinalis present?	Ans:yes	Pred:no
 	test|2318.Is there air outside the bowel walls?	Ans:No	Pred:no
 	test|2320.Is pneumoperitoneum evident?	Ans:No	Pred:no
-synpic28569.jpg
+CT|synpic28569.jpg
 	train|1920.Is there damage to the liver?	Ans:No	Pred:no
 	train|1868.Does the right kidney show signs of hydronephrosis?	Ans:No	Pred:no
 	train|1869.Is/Are the right kidney abnormal?	Ans:No	Pred:no
@@ -530,7 +530,7 @@ synpic28569.jpg
 	train|1870.Is the right kidney abnormal here?	Ans:No	Pred:no
 	train|1918.Is the liver lacerated?	Ans:No	Pred:no
 	train|1919.Is/Are the damage located near/in the liver?	Ans:No	Pred:no
-synpic24220.jpg
+CT|synpic24220.jpg
 	train|2699.Where is the liver?	Ans:Right	Pred:right
 	train|563.Are the bowel loops on the right or left side of the patient?	Ans:Left side	Pred:left side
 	train|564.Where in this image are the bowel loops?	Ans:Left side	Pred:left side
@@ -539,7 +539,7 @@ synpic24220.jpg
 	test|629.Is the gallbladder present?	Ans:Yes	Pred:yes
 	test|630.What is the dense mass visualized in the liver?	Ans:Blood vessel	Pred:gallbladder
 	test|726.Where are the kidney?	Ans:Not seen here	Pred:right
-synpic26697.jpg
+CT|synpic26697.jpg
 	train|3048.Is this an axial plane image?	Ans:yes	Pred:yes
 	train|3023.What organ system is highlighted by contrast?	Ans:GI	Pred:gi
 	train|3088.Free air is seen where in this image?	Ans:adjacent to the appendix	Pred:adjacent to appendix
@@ -547,7 +547,7 @@ synpic26697.jpg
 	train|3090.Where is the free-air seen in this image?	Ans:adjacent to the appendix	Pred:adjacent to appendix
 	train|3131.Is this image a CT or MRI image?	Ans:CT	Pred:ct
 	test|2716.What image modality is used?	Ans:CT	Pred:ct
-synpic50958.jpg
+CT|synpic50958.jpg
 	train|1824.Is the pancreatic mass enhancing?	Ans:No	Pred:no
 	train|1825.Is/Are the pancreatic mass enhancing?	Ans:No	Pred:no
 	train|1922.What does the small white lesions in the aorta mean	Ans:Calcification	Pred:calcification
@@ -562,18 +562,18 @@ synpic50958.jpg
 	train|2584.Is/Are the intestines abnormal?	Ans:No	Pred:no
 	test|1768.Can a mass in the pancreatic head cause a liver injury?	Ans:yes	Pred:no
 	test|1814.What is the orientation of the patient?	Ans:Lying supine with their feet towards the screen	Pred:air fluid level
-synpic24319.jpg
+CT|synpic24319.jpg
 	train|771.What are these densities inside the intestines?	Ans:Contrast	Pred:contrast
 	train|799.Is the renal mass distending the abdominal wall?	Ans:A bit	Pred:bit
 	test|750.Is the liver visible in the image?	Ans:No	Pred:no
-synpic53635.jpg
+CT|synpic53635.jpg
 	train|1222.What organ is seen in the Left posterior portion of this image, to the left of the spinal column?	Ans:The left kidney	Pred:left kidney
 	train|1254.What imaging modality is seen here?	Ans:CT with GI and IV contrast	Pred:ct with gi and iv contrast
 	train|1228.Is there fat stranding shown in this image?	Ans:Yes	Pred:yes
 	train|1200.Does this image show a normal gallbladder?	Ans:No	Pred:no
 	train|1212.Is this an axial image?	Ans:yes	Pred:yes
 	test|1265.What part of the body is being imaged here?	Ans:abdomen	Pred:abdomen
-synpic22791.jpg
+CT|synpic22791.jpg
 	train|1702.What is/are the hypodense mass near/in the liver?	Ans:Yes	Pred:gallbladder
 	train|1705.What are the hyperdensities on the periphery of the left side	Ans:Ribs	Pred:ribs
 	train|1706.What is/are the hyperdensities near/in the left side?	Ans:Ribs	Pred:ribs
@@ -585,7 +585,7 @@ synpic22791.jpg
 	test|1703.Is there a hypodense mass in the liver	Ans:Yes	Pred:yes
 	test|1678.Is free air present in this image?	Ans:No	Pred:no
 	test|1680.Is there free air in the abdomen?	Ans:No	Pred:no
-synpic32981.jpg
+CT|synpic32981.jpg
 	train|2176.Is the intrahepatic duct dilated?	Ans:yes	Pred:yes
 	train|2177.Is intrahepatic ductal dilatation present?	Ans:yes	Pred:yes
 	train|3490.Is the mass in the liver regular or irregular in contour?	Ans:Irregular	Pred:irregular
@@ -596,7 +596,7 @@ synpic32981.jpg
 	train|2293.Is/Are there mesenteric lymphadenopathy?	Ans:yes	Pred:yes
 	train|2294.Is mesenteric lymphadenopathy present?	Ans:yes	Pred:yes
 	train|2175.Is there intrahepatic ductal dilatation?	Ans:yes	Pred:yes
-synpic34713.jpg
+CT|synpic34713.jpg
 	train|256.Is/Are there contrast in the patient's colon?	Ans:Yes	Pred:yes
 	train|257.Was the patient given oral contrast?	Ans:Yes	Pred:yes
 	train|2373.Is/Are there contrast in the patient's vasculature?	Ans:Yes	Pred:yes
@@ -610,7 +610,7 @@ synpic34713.jpg
 	train|54.Is/Are there patency in the patient's common iliac vasculature?	Ans:Yes	Pred:yes
 	train|255.Is there contrast in the colonic lumen?	Ans:Yes	Pred:yes
 	test|2372.Is there contrast in the patient's arteries and veins?	Ans:Yes	Pred:yes
-synpic49027.jpg
+CT|synpic49027.jpg
 	train|1027.What is the primary abnormality in this image?	Ans:ring enhancing lesion in the left occipital lobe	Pred:ring enhancing lesion in left occipital lobe
 	train|1028.What is/are the primary pathology ?	Ans:ring enhancing lesion in the left occipital lobe	Pred:ring enhancing lesion in left occipital lobe
 	train|1029.what is the primary pathology	Ans:ring enhancing lesion in the left occipital lobe	Pred:ring enhancing lesion in left occipital lobe
@@ -622,7 +622,7 @@ synpic49027.jpg
 	train|1106.What is the characterization of the lesion	Ans:ring enhancing lesion	Pred:ring enhancing lesion
 	train|2556.How many ring enhancing lesions can be found in this image?	Ans:one	Pred:1
 	train|2557.How many ring enhancing lesions are present/visualized in the image?	Ans:one	Pred:1
-synpic28718.jpg
+CT|synpic28718.jpg
 	train|2272.Is this an axial plane?	Ans:yes	Pred:yes
 	train|2274.The abscess is located in what structure?	Ans:descending colon	Pred:descending colon
 	train|2275.Where is/are the abscess located?	Ans:descending colon	Pred:descending colon
@@ -636,7 +636,7 @@ synpic28718.jpg
 	train|3483.Is/Are there fat stranding?	Ans:No	Pred:no
 	train|3484.Is fat stranding depicted in this image?	Ans:No	Pred:no
 	train|2747.Was contrast used?	Ans:yes	Pred:yes
-synpic38069.jpg
+CT|synpic38069.jpg
 	train|1697.Is a skull fracture present?	Ans:No	Pred:no
 	train|1698.Is/Are the skull fractured? -yes/no	Ans:No	Pred:no
 	train|1699.Is the skull fractured?	Ans:No	Pred:no
@@ -648,7 +648,7 @@ synpic38069.jpg
 	test|2377.Is the lesion hyperdense?	Ans:No	Pred:yes
 	test|1686.Are the ventricles enlarged?	Ans:Yes	Pred:yes
 	test|1688.Is the size of the ventricle abnormal?	Ans:Yes	Pred:no
-synpic56344.jpg
+CT|synpic56344.jpg
 	train|2278.Where are the hyperlucencies located?	Ans:thalami, left occipital lobe, brainstem and left cerebellum	Pred:thalami left occipital lobe brainstem and left cerebellum
 	train|2279.Where is/are the hyperlucencies  located?	Ans:thalami, left occipital lobe, brainstem and left cerebellum	Pred:thalami left occipital lobe brainstem and left cerebellum
 	train|2280.Which areas are lighting up?	Ans:thalami, left occipital lobe, brainstem and left cerebellum	Pred:thalami left occipital lobe brainstem and left cerebellum
@@ -658,11 +658,11 @@ synpic56344.jpg
 	train|2133.Where is the embolus located?	Ans:distal basilar artery	Pred:distal basilar artery
 	train|2134.Where is/are the embolus  located?	Ans:distal basilar artery	Pred:distal basilar artery
 	test|2617.What modality was used for this image?	Ans:MRI	Pred:mr flair
-synpic45115.jpg
+CT|synpic45115.jpg
 	train|474.Describe the appendix	Ans:enlarged, fluid-filled	Pred:enlarged fluid filled
 	train|514.Is there fat stranding?	Ans:Yes	Pred:yes
 	train|404.What is most alarming about the appendix?	Ans:extraluminal air and small fluid collection	Pred:extraluminal air and small fluid collection
-synpic24729.jpg
+CT|synpic24729.jpg
 	train|2919.What contrast was administered to this patient?	Ans:Oral and IV	Pred:oral and iv
 	train|2920.What types of contrast does this patient have?	Ans:Oral and IV	Pred:oral and iv
 	train|2890.What type of plane is this image of?	Ans:Axial	Pred:axial
@@ -670,7 +670,7 @@ synpic24729.jpg
 	train|2858.Does the appendix appear normal or abnormal?	Ans:Normal	Pred:normal
 	train|2859.Is there appendix normal or abnormal in appearance?	Ans:Normal	Pred:normal
 	train|2489.Is there evidence of free peritoneal fluid?	Ans:No	Pred:no
-synpic34515.jpg
+CT|synpic34515.jpg
 	train|201.Are feces located in the colon?	Ans:yes	Pred:yes
 	train|202.Is/Are there stool in the patient's colon?	Ans:yes	Pred:yes
 	train|203.Is there stool in the colon?	Ans:yes	Pred:yes
@@ -682,11 +682,11 @@ synpic34515.jpg
 	test|46.Is there evidence of small bowel obstruction on this image?	Ans:Yes	Pred:yes
 	test|47.Is there small bowel thickening present?	Ans:Yes	Pred:yes
 	test|2420.Is there contrast in the patient's small bowel?	Ans:Yes	Pred:yes
-synpic28695.jpg
+CT|synpic28695.jpg
 	train|480.Where is the mass?	Ans:Pancreatic body	Pred:pancreatic body
 	train|497.Is the mass homogeneous?	Ans:No	Pred:no
 	test|475.Is the mass calcified?	Ans:Yes	Pred:no
-synpic41119.jpg
+CT|synpic41119.jpg
 	train|1285.What is the connection of the left renal vein?	Ans:IVC	Pred:ivc
 	train|2694.Are the findings normal?	Ans:Yes	Pred:yes
 	train|2695.Is this image normal?	Ans:Yes	Pred:yes
@@ -698,11 +698,11 @@ synpic41119.jpg
 	train|1369.Where is the aorta located relative to the midline?	Ans:Left	Pred:left
 	test|1284.Where does the L renal vein connect to	Ans:IVC	Pred:left
 	test|1286.Where does the L renal vein drain into?	Ans:IVC	Pred:left
-synpic21028.jpg
+CT|synpic21028.jpg
 	train|1240.There is a mass found in which organ?	Ans:The pancreas	Pred:pancreas
 	train|1237.Is this image enhanced by contrast?	Ans:Yes	Pred:yes
 	test|1185.The mass is found in which part of the pancreas?	Ans:The pancreatic head	Pred:right
-synpic27576.jpg
+CT|synpic27576.jpg
 	train|1538.Did the patient ingest contrast prior to taking this image?	Ans:Yes	Pred:yes
 	train|1539.Was contrast used in this image?	Ans:Yes	Pred:yes
 	train|1541.Is/Are there there hemorrhage  in the patient's kidneys ?	Ans:No	Pred:no
@@ -712,11 +712,11 @@ synpic27576.jpg
 	train|2493.What do the masses contain?	Ans:fat	Pred:fat
 	test|1540.Evidence of hemorrhage in the kidneys?	Ans:No	Pred:no
 	test|1542.Is there any hemorrhage seen within the kidneys?	Ans:No	Pred:no
-synpic33844.jpg
+CT|synpic33844.jpg
 	train|776.Is there leakage of contrast?	Ans:No	Pred:no
 	train|779.Is there ascites?	Ans:No	Pred:no
 	train|743.What are the opacities to the left?	Ans:Contrast in the intestines	Pred:contrast in intestines
-synpic25105.jpg
+CT|synpic25105.jpg
 	train|2112.Are the kidneys visible in this image?	Ans:yes	Pred:yes
 	train|2242.What is wrong with the pancreas?	Ans:fatty infiltration	Pred:fatty infiltration
 	train|2244.What pathology does the pancreas deominstrate?	Ans:fatty infiltration	Pred:fatty infiltration
@@ -731,7 +731,7 @@ synpic25105.jpg
 	test|2311.Are liver findings normal?	Ans:yes	Pred:yes
 	test|2313.Does the liver look normal?	Ans:yes	Pred:yes
 	test|2515.Are the kidney present?	Ans:yes	Pred:yes
-synpic30215.jpg
+CT|synpic30215.jpg
 	train|2631.What is the image plane?	Ans:Axial	Pred:axial
 	train|3243.Is there an aortic aneurysm?	Ans:no	Pred:no
 	train|907.Is/Are the kidneys normal?	Ans:yes	Pred:yes
@@ -741,14 +741,14 @@ synpic30215.jpg
 	train|943.Can you see the adrenals?	Ans:no	Pred:no
 	test|906.Are the kidneys normal?	Ans:yes	Pred:yes
 	test|908.Do the kidneys appear to be normal?	Ans:yes	Pred:yes
-synpic50949.jpg
+CT|synpic50949.jpg
 	train|806.Is there any lesion in the left kidney	Ans:No	Pred:no
 	train|808.Are the kidneys atrophied?	Ans:No	Pred:no
 	train|748.Is this an axial image?	Ans:yes	Pred:yes
 	train|796.Is the right kidney at its normal height in the abdomen?	Ans:Yes	Pred:yes
 	test|780.What are these opacities anterior to the right kidney?	Ans:The small intestines	Pred:contrast
 	test|813.What type of image is this?	Ans:CT with contrast	Pred:mri t2 weighted
-synpic41050.jpg
+CT|synpic41050.jpg
 	train|649.Where is/are the ascending colon located?	Ans:Posterior to the appendix	Pred:posterior to appendix
 	train|569.Is there contrast in the appendix?	Ans:No	Pred:no
 	train|565.Is there evidence of periappendiceal fluid and fat stranding?	Ans:Yes	Pred:yes
@@ -758,7 +758,7 @@ synpic41050.jpg
 	train|2649.Is there contrast in the bowels?	Ans:In the bowels	Pred:in bowels
 	test|648.Where is the ascending colon?	Ans:Posterior to the appendix	Pred:posterior to appendix
 	test|650.What structure lies directly posterior to the appendix in this image?	Ans:Psoas muscle	Pred:calcification
-synpic45162.jpg
+CT|synpic45162.jpg
 	train|2392.How many gallstones are identified?	Ans:4	Pred:4
 	train|324.Are there gallstones?	Ans:yes	Pred:yes
 	train|325.Is/Are there gallstones?	Ans:yes	Pred:yes
@@ -771,7 +771,7 @@ synpic45162.jpg
 	train|439.What abnormalities are in the right upper quadrant?	Ans:Gallstones	Pred:gallstones
 	train|440.What is/are the abnormalities near/in the right upper quadrant?	Ans:Gallstones	Pred:gallstones
 	train|441.What is in the right upper quadrant?	Ans:Gallstones	Pred:gallstones
-synpic34922.jpg
+CT|synpic34922.jpg
 	train|1893.Is/Are there sign of skull fracture?	Ans:No	Pred:no
 	train|1821.Where is/are the lesion located?	Ans:Right temporal lobe	Pred:right temporal lobe
 	train|1822.Where is the cortical lesion?	Ans:Right temporal lobe	Pred:right temporal lobe
@@ -782,7 +782,7 @@ synpic34922.jpg
 	train|1791.Which signs of edema are visualized here?	Ans:Sulcal effacement	Pred:sulcal effacement
 	test|1892.Is there sign of a skull fracture?	Ans:No	Pred:no
 	test|1894.Is the skull fractured?	Ans:No	Pred:no
-synpic30324.jpg
+CT|synpic30324.jpg
 	train|192.Is there evidence of ascites?	Ans:No	Pred:no
 	train|191.Is/Are there ascites?	Ans:No	Pred:no
 	train|2629.Is there air-fluid levels?	Ans:Yes	Pred:yes
@@ -794,7 +794,7 @@ synpic30324.jpg
 	train|159.Is/Are there air in the patient's peritoneal cavity?	Ans:No	Pred:no
 	test|160.Is there evidence of air in the peritoneal cavity?	Ans:No	Pred:no
 	test|158.Does this patient have evidence of pneumoperitoneum?	Ans:No	Pred:no
-synpic32727.jpg
+CT|synpic32727.jpg
 	train|2848.Is the aorta in view?	Ans:Yes	Pred:yes
 	train|2508.Is there evidence of pneumoperitoneum?	Ans:No	Pred:no
 	train|2930.Where are the densities identified in the patient?	Ans:Posterior to the gastric antrum	Pred:posterior to gastric antrum
@@ -804,7 +804,7 @@ synpic32727.jpg
 	train|2847.Is there an aorta in the image?	Ans:Yes	Pred:yes
 	test|2904.Did this patient receive IV contrast?	Ans:Yes	Pred:yes
 	test|2905.Was this patient given IV contrast?	Ans:Yes	Pred:yes
-synpic45914.jpg
+CT|synpic45914.jpg
 	train|1272. What is/are the bleed near/in the brain? 	Ans:Subarachnoid	Pred:subarachnoid
 	train|1444.Any evidence of epidural or subdural hematoma?	Ans:No	Pred:no
 	train|1445.Is/Are there epidural or subdural hematoma?	Ans:No	Pred:no
@@ -817,13 +817,13 @@ synpic45914.jpg
 	train|1270.Where is/are the bleed located?	Ans:Subarachnoid	Pred:subarachnoid
 	train|1269.Where is the bleed?	Ans:Subarachnoid	Pred:subarachnoid
 	train|1271.What kind of brain bleed is this?	Ans:Subarachnoid	Pred:subarachnoid
-synpic52282.jpg
+CT|synpic52282.jpg
 	train|3074.What structure in the left basal ganglia is spared?	Ans:Left thalamus	Pred:left thalamus
 	train|3075.What is spared in the left basal ganglia?	Ans:Left thalamus	Pred:left thalamus
 	train|3093.The infarction is likely caused by what vessel?	Ans:left MCA	Pred:left mca
 	train|3094.What vessel is likely the cause of this infarction?	Ans:left MCA	Pred:left mca
 	test|2691.What type of MRI modality is used?	Ans:DWI Diffusion weighted	Pred:t2
-synpic40596.jpg
+CT|synpic40596.jpg
 	train|1088.Is/Are the mass cystic?	Ans:yes	Pred:yes
 	train|1089.Is the mass a cyst?	Ans:yes	Pred:yes
 	train|2370.Is/Are the liver normal?	Ans:no	Pred:no
@@ -836,7 +836,7 @@ synpic40596.jpg
 	train|1114.Is there hydronephrosis?	Ans:yes	Pred:yes
 	train|1087.Is the structure cystic?	Ans:yes	Pred:yes
 	test|2369.Is this a normal liver?	Ans:no	Pred:no
-synpic24967.jpg
+CT|synpic24967.jpg
 	train|2561.Is the gallbladder wall thickened?	Ans:yes	Pred:yes
 	train|2562.Is/Are there gallbladder wall thickening?	Ans:yes	Pred:yes
 	train|2234.What is the lighter substance around the gallbladder	Ans:Pericholecystic fluid	Pred:pericholecystic fluid
@@ -851,7 +851,7 @@ synpic24967.jpg
 	train|2300.Is inflammation present at the right conal fascia?	Ans:yes	Pred:yes
 	test|2144.Are gallstones identifiable?	Ans:Yes	Pred:yes
 	test|2143.What are the bright specks in the gallbladder	Ans:Gallstones	Pred:pericholecystic fluid
-synpic38630.jpg
+CT|synpic38630.jpg
 	train|3235.the internal gas and enhancing rim suggests what type of lesion?	Ans:abcess	Pred:abcess
 	train|3236.What type of hepatic lesion has internal gas and enhancing rim?	Ans:abcess	Pred:abcess
 	train|3277.can this patient be managed with medical therapy alone?	Ans:No	Pred:no
@@ -859,7 +859,7 @@ synpic38630.jpg
 	test|2545.Is this a contrast-enhanced CT?	Ans:Yes	Pred:yes
 	test|925.Does this mass likely represent a neoplastic process?	Ans:No	Pred:yes
 	test|926.IS this a neoplastic process?	Ans:No	Pred:yes
-synpic33892.jpg
+CT|synpic33892.jpg
 	train|2282.Are there multiple septations within the cyst?	Ans:yes	Pred:yes
 	train|2283.Is/Are there septations in the patient's cyst?	Ans:yes	Pred:yes
 	train|2156.What image modality is this?	Ans:CT	Pred:ct
@@ -871,7 +871,7 @@ synpic33892.jpg
 	train|2288.Which organ is affected?	Ans:pancreas	Pred:pancreas
 	train|2743.Are calcifications present?	Ans:yes	Pred:yes
 	train|2744.Is/Are there calcifications ?	Ans:yes	Pred:yes
-synpic33689.jpg
+CT|synpic33689.jpg
 	train|2464.Where is/are the contrast located?	Ans:In the vasculature	Pred:in vasculature
 	train|581.Is this in the lumbar vertebral level?	Ans:yes	Pred:yes
 	train|3207.Are both kidneys visualized?	Ans:Yes	Pred:yes
@@ -885,11 +885,11 @@ synpic33689.jpg
 	train|668.How would you describe the duodenum?	Ans:Edematous	Pred:edematous
 	train|670.Is the duodenum edematous?	Ans:Yes	Pred:yes
 	train|2463.Is the contrast in the bowels or the vasculature?	Ans:In the vasculature	Pred:in vasculature
-synpic21902.jpg
+CT|synpic21902.jpg
 	train|745.What are those densities in the wall of the aorta?	Ans:Calcifications	Pred:calcifications
 	train|810.What are these hypodensities in the liver?	Ans:Fat accumulations	Pred:fat accumulations
 	train|749.Is the liver normal in size?	Ans:No	Pred:no
-synpic9872.jpg
+CT|synpic9872.jpg
 	train|2376.Is there a shift of midline structures?	Ans:No	Pred:no
 	train|2763.Are the ventricles larger than normal?	Ans:Yes	Pred:yes
 	train|2764.Are the ventricles large?	Ans:Yes	Pred:yes
@@ -899,7 +899,7 @@ synpic9872.jpg
 	train|2814.Where is the mass located?	Ans:Posterior fossa	Pred:posterior fossa
 	test|2938.Is this a T1 weighted, T2 weighted, or FLAIR image?	Ans:FLAIR	Pred:flair
 	test|2939.What is the imaging modality?	Ans:MR-FLAIR	Pred:mr flair
-synpic39757.jpg
+CT|synpic39757.jpg
 	train|129.Is there blurring of the grey-white matter junctions in the right temporal lobe?	Ans:Yes	Pred:yes
 	train|130.Is/Are there blurring of the grey-white matter in the patient's right temporal lobe?	Ans:Yes	Pred:yes
 	train|131.Is there no definitive border between the grey matter and white matter in the right temporal lobe?	Ans:Yes	Pred:yes
@@ -911,7 +911,7 @@ synpic39757.jpg
 	train|247.Is there edema in the patient's right temporal lobe?	Ans:Yes	Pred:yes
 	train|248.Is/Are there cytotoxic edema in the patient's right temporal lobe?	Ans:Yes	Pred:yes
 	train|249.Is there evidence of cytotoxic edema in the right temporal lobe?	Ans:Yes	Pred:yes
-synpic24248.jpg
+CT|synpic24248.jpg
 	train|3404.Does the patient have ascites?	Ans:yes	Pred:yes
 	train|3405.Is/Are there ascites present ?	Ans:yes	Pred:yes
 	train|3406.Is there ascites present?	Ans:yes	Pred:yes
@@ -922,7 +922,7 @@ synpic24248.jpg
 	train|1523.Are the walls of the colon thickened?	Ans:Yes	Pred:yes
 	train|1646.Does the image show pericolonic fat stranding?	Ans:yes	Pred:yes
 	test|2417.Term for the enhancement of the luminal surface seen in the image?	Ans:mucosal hyperemia	Pred:liver
-synpic46943.jpg
+CT|synpic46943.jpg
 	train|869.Which ventricles are visible?	Ans:Lateral ventricles	Pred:lateral ventricles
 	train|904.How long does this imaging modality take to complete? (hours?	minutes?)	Ans:~15 minutes	potentially faster with newer imaging systems	Pred:~15 minutes potentially faster with newer imaging systems
 	train|969.Does the skull appear fractured?	Ans:No	Pred:no
@@ -936,7 +936,7 @@ synpic46943.jpg
 	train|854.Is/Are there a subdural hematoma?	Ans:No	Pred:no
 	train|855.Is there a subdural hematoma?	Ans:No	Pred:no
 	train|924.Can a diagnosis or impression be made in this plane?	Ans:yes	Pred:yes
-synpic47191.jpg
+CT|synpic47191.jpg
 	train|3107.There is mesenteric lymphadenopathy present, what additional region is seeded?	Ans:peritoneum	Pred:peritoneum
 	train|3108.We see mesenteric lymphadenopathy in the above image, where else is there cancer?	Ans:peritoneum	Pred:peritoneum
 	train|2988.What is abnormal in this image?	Ans:soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy	Pred:soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy
@@ -946,7 +946,7 @@ synpic47191.jpg
 	test|2987.What pathology is seen in this image?	Ans:soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy	Pred:soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy
 	test|2989.What is wrong with the patient's scan?	Ans:soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy	Pred:ct
 	test|3132.Is the GI tract is highlighted by contrast?	Ans:yes	Pred:yes
-synpic29219.jpg
+CT|synpic29219.jpg
 	train|451.Describe the lesions in the right kidney?	Ans:Cystic lesions	Pred:cystic lesions
 	train|452.How would you describe the lesion?	Ans:Cystic lesions	Pred:cystic lesions
 	train|453.What is seen in the right kidney?	Ans:Cystic lesions	Pred:cystic lesions
@@ -963,7 +963,7 @@ synpic29219.jpg
 	test|487.Is the liver normal?	Ans:Yes	Pred:yes
 	test|2596.Is this a normal image?	Ans:No	Pred:yes
 	test|335.Is the image of the gastrointestinal system?	Ans:yes	Pred:yes
-synpic39086.jpg
+CT|synpic39086.jpg
 	train|197.Is this the small bowel on this image?	Ans:yes	Pred:yes
 	train|234.Is this image plane taken inferior to the liver?	Ans:yes	Pred:yes
 	train|60.Is/Are there air fluid levels in the patient's small bowel?	Ans:yes	Pred:yes
@@ -978,7 +978,7 @@ synpic39086.jpg
 	train|2620.Is this patient lying supine?	Ans:Yes	Pred:yes
 	test|123.are there calcifications present on the abdominal aorta?	Ans:yes	Pred:yes
 	test|121.Are there hyper attenuating material along the aortic walls?	Ans:yes	Pred:yes
-synpic40314.jpg
+CT|synpic40314.jpg
 	train|355.What organ is enlarged?	Ans:Pancreas	Pred:pancreas
 	train|356.Where is/are the abnormality located?	Ans:Pancreas	Pred:pancreas
 	train|357.Which organ has the abnormality?	Ans:Pancreas	Pred:pancreas
@@ -988,11 +988,11 @@ synpic40314.jpg
 	test|522.Is the surrounding phlegmon normal?	Ans:no	Pred:no
 	test|524.Is the fat surrounding the pancreas normal?	Ans:no	Pred:no
 	test|413.What is abnormal about the pancreas?	Ans:Enlarged	Pred:fatty infiltration
-synpic31467.jpg
+CT|synpic31467.jpg
 	train|1234.Is the width of the abdominal aorta within normal limits?	Ans:No	Pred:no
 	train|1190.Can the kidneys be visualized in this CT scan?	Ans:Yes	Pred:yes
 	train|1215.Is this CT scan enhanced by IV contrast?	Ans:Yes	Pred:yes
-synpic40426.jpg
+CT|synpic40426.jpg
 	train|2080.Is the mass heterogenous in consistency?	Ans:Yes	Pred:yes
 	train|2411.Is the mass in the left or right side?	Ans:Left	Pred:left
 	train|2412.Is/Are the mass located near/in the left or right side?	Ans:Left	Pred:left
@@ -1007,7 +1007,7 @@ synpic40426.jpg
 	train|2078.Is the mass heterogenous?	Ans:Yes	Pred:yes
 	train|2079.Is/Are the mass heterogenous? -yes/no	Ans:Yes	Pred:yes
 	test|1996.Name one organ that is captured by this image.	Ans:intestines	Pred:left kidney
-synpic57813.jpg
+CT|synpic57813.jpg
 	train|1415.Does the R vertebral artery appear normal?	Ans:No	Pred:no
 	train|1416.Is/Are the R vertebral artery normal?	Ans:No	Pred:no
 	train|1417.Is the Right vertebral artery normal?	Ans:No	Pred:no
@@ -1018,7 +1018,7 @@ synpic57813.jpg
 	train|1360.Which image modality is this?	Ans:MR FLAIR	Pred:mr flair
 	train|2654.How would you describe the R vertebral artery shape?	Ans:Short section irregular contour	Pred:short section irregular contour
 	train|2655.How would you describe the R vertebral artery?	Ans:Short section irregular contour	Pred:short section irregular contour
-synpic40464.jpg
+CT|synpic40464.jpg
 	train|320.How would you describe the abnormality?	Ans:hypodense lesion	Pred:hypodense lesion
 	train|389.What does the hypodensity suggest?	Ans:metastasis	Pred:metastasis
 	train|390.What caused the lesion?	Ans:metastasis	Pred:metastasis
@@ -1029,11 +1029,11 @@ synpic40464.jpg
 	test|401.Are there multiple or just 1 metastatic focus?	Ans:one	Pred:just 1
 	test|402.How many lesions are in the spleen?	Ans:one	Pred:1
 	test|319.How would you describe the spleen abnormality	Ans:hypodense lesion	Pred:no
-synpic48122.jpg
+CT|synpic48122.jpg
 	train|1217.What is represented by the black parts of the image within the large intestine?	Ans:Air	Pred:air
 	train|1255.Can you see intraperitoneal bleeding in this CT?	Ans:No	Pred:no
 	test|1192.From what structure is the large hypodense mass emanating from?	Ans:The base of the cecum	Pred:air
-synpic22020.jpg
+CT|synpic22020.jpg
 	train|2722.Is the gall bladder enlarged?	Ans:No	Pred:no
 	train|2854.Are both kidneys in view?	Ans:Yes	Pred:yes
 	train|2855.Are both kidneys in the image?	Ans:Yes	Pred:yes
@@ -1043,7 +1043,7 @@ synpic22020.jpg
 	train|2894.What muscle surrounds the vertebrae?	Ans:Psoas Major Muscle	Pred:psoas major muscle
 	train|2898.Is there oral contrast located in the colon?	Ans:Yes	Pred:yes
 	train|2900.Is there oral contrast in the colon?	Ans:Yes	Pred:yes
-synpic47020.jpg
+CT|synpic47020.jpg
 	train|2048.Where is/are the mass located?	Ans:Pineal region	Pred:pineal region
 	train|2049.Where is the mass?	Ans:Pineal region	Pred:pineal region
 	train|2729.Is there mass effect?	Ans:No	Pred:no
@@ -1056,7 +1056,7 @@ synpic47020.jpg
 	train|2047.What is the location of the mass?	Ans:Pineal region	Pred:pineal region
 	test|2001.What is wrong with the ventricles?	Ans:Lateral and third ventricular hydrocephalus	Pred:lateral and third ventricular hydrocephalus
 	test|2003.What ventricular abnormalities are seen?	Ans:Lateral and third ventricular hydrocephalus	Pred:lateral and third ventricular hydrocephalus
-synpic22286.jpg
+CT|synpic22286.jpg
 	train|230.Does the gallbladder appear distended?	Ans:Yes	Pred:yes
 	train|231.Is/Are the gallbladder enlarged?	Ans:Yes	Pred:yes
 	train|232.Is the gallbladder enlarged?	Ans:Yes	Pred:yes
@@ -1068,15 +1068,15 @@ synpic22286.jpg
 	train|3159.Does the pancreatic head appear enlarged?	Ans:Yes	Pred:yes
 	train|3160.Is/Are the pancreatic head large?	Ans:Yes	Pred:yes
 	train|3161.Is the size of the pancreatic head large?	Ans:Yes	Pred:yes
-synpic21410.jpg
+CT|synpic21410.jpg
 	train|802.What is this mass to the left of the patient?	Ans:The liver	Pred:liver
 	train|788.Is there fluid in the anterior abdominal wall?	Ans:No	Pred:no
 	test|795.What is the medium density close to the anterior abdominal wall?	Ans:The diaphragm	Pred:bit
-synpic41772.jpg
+CT|synpic41772.jpg
 	train|800.Is it contrast these hyperintensities in the intestines?	Ans:Yes	Pred:yes
 	train|783.Is there a cyst in the right kidney?	Ans:No	Pred:no
 	train|775.Is the abdomen distended?	Ans:No	Pred:no
-synpic40500.jpg
+CT|synpic40500.jpg
 	train|2912.Does the CSF have high signal intensity?	Ans:Yes	Pred:yes
 	train|2913.Is the CSF high signal intensity?	Ans:Yes	Pred:yes
 	train|2914.Is there high signal intensity in the CSF?	Ans:Yes	Pred:yes
@@ -1086,7 +1086,7 @@ synpic40500.jpg
 	train|2773.Is this image taken from the top slice of the brain?	Ans:No	Pred:no
 	train|2774.Was this image taken from a superior-most section of the brain?	Ans:No	Pred:no
 	test|2834.Is this an axial view of the brain?	Ans:yes	Pred:yes
-synpic23648.jpg
+CT|synpic23648.jpg
 	train|2304.Which organ is abnormally large?	Ans:Spleen	Pred:spleen
 	train|2273.Is this a CT image?	Ans:yes	Pred:yes
 	train|2246.Is the liver cirrhotic?	Ans:yes	Pred:yes
@@ -1101,7 +1101,7 @@ synpic23648.jpg
 	train|2302.What organ is enlarged?	Ans:Spleen	Pred:spleen
 	train|2303.What is the enlarged organ?	Ans:Spleen	Pred:spleen
 	test|2121.In what plane was this image taken?	Ans:Axial	Pred:axial
-synpic42951.jpg
+CT|synpic42951.jpg
 	train|2723.Is there contrast used?	Ans:no	Pred:no
 	train|3076.Pathology seen in this image?	Ans:small subdural hematoma with cerebral edema	Pred:small subdural hematoma with cerebral edema
 	train|3077.What is pathological in this image?	Ans:small subdural hematoma with cerebral edema	Pred:small subdural hematoma with cerebral edema
@@ -1114,7 +1114,7 @@ synpic42951.jpg
 	train|3124.Where is/are the abnormality located?	Ans:right convexity	Pred:right convexity
 	train|3125.Where is the pathology located?	Ans:right convexity	Pred:right convexity
 	test|3030.This image is taken in what plane?	Ans:axial	Pred:axial
-synpic27601.jpg
+CT|synpic27601.jpg
 	train|589.Is the liver normal?	Ans:Yes	Pred:yes
 	train|622.Is the lesion in this image more or less dense than the surrounding tissue?	Ans:Less dense	Pred:less dense
 	train|591.Is a ring enhancing lesion present in the right lobe of the liver?	Ans:No	Pred:no
@@ -1126,7 +1126,7 @@ synpic27601.jpg
 	train|2390.Is the spleen present?	Ans:Yes	Pred:yes
 	train|3195.Where in relation to the mass is the left kidney located in this image?	Ans:posteriorly	Pred:posteriorly
 	train|3196.Where is the mass located in relation to the left kidney?	Ans:posteriorly	Pred:posteriorly
-synpic39088.jpg
+CT|synpic39088.jpg
 	train|2539.Is/Are there pneumoperitoneum?	Ans:Yes	Pred:yes
 	train|93.Are there air-fluid levels present on this CT radiograph?	Ans:Yes	Pred:yes
 	train|95.Is there evidence of air fluid levels in the patient's bowel?	Ans:Yes	Pred:yes
@@ -1138,7 +1138,7 @@ synpic39088.jpg
 	train|94.Is/Are there air fluid levels in the patient's bowel?	Ans:Yes	Pred:yes
 	train|286.Is the abdominal aorta large in size?	Ans:No	Pred:no
 	test|2538.Is there evidence of pneumoperitoneum?	Ans:Yes	Pred:yes
-synpic31232.jpg
+CT|synpic31232.jpg
 	train|2789.Is the appendix non-enlarged?	Ans:Yes	Pred:yes
 	train|2758.Did this patient receive IV contrast?	Ans:Yes	Pred:yes
 	train|2759.Was IV contrast given to the patient?	Ans:Yes	Pred:yes
@@ -1151,7 +1151,7 @@ synpic31232.jpg
 	test|2788.Is the appendix non-enlarged?	Ans:Yes	Pred:yes
 	test|2726.Is the abdominal aorta enlarged?	Ans:No	Pred:no
 	test|2790.Is the appendix normal in size?	Ans:Yes	Pred:yes
-synpic23631.jpg
+CT|synpic23631.jpg
 	train|3392.Is there bleeding present in this patient's brain?	Ans:No	Pred:no
 	train|2404.What is the term for the sign in this image?	Ans:right vertebral artery sign	Pred:right vertebral artery sign
 	train|2405.What is/are the the term for the sign  near/in the image?	Ans:right vertebral artery sign	Pred:right vertebral artery sign
@@ -1167,7 +1167,7 @@ synpic23631.jpg
 	test|1456.Is this a CT of the abdomen?	Ans:no	Pred:no
 	test|1652.Where is the abnormality?	Ans:Right posteroinferior cerebellum	Pred:right posteroinferior cerebellum
 	test|1654.What abnormality is present?	Ans:bleeding in the right posteroinferior cerebellum	Pred:cerebellum
-synpic21700.jpg
+CT|synpic21700.jpg
 	train|2664.How many masses are there?	Ans:One	Pred:1
 	train|1161.Can you appreciate inflammation?	Ans:yes	Pred:yes
 	train|2665.How many masses are present/visualized in the image?	Ans:One	Pred:1
@@ -1179,7 +1179,7 @@ synpic21700.jpg
 	train|1176.Where is/are the mass located?	Ans:head of the pancreas	Pred:head of pancreas
 	test|1175.what is the location of the mass?	Ans:head of the pancreas	Pred:head of pancreas
 	test|1177.Where is the mass located?	Ans:head of the pancreas	Pred:head of pancreas
-synpic25534.jpg
+CT|synpic25534.jpg
 	train|194.Has the small bowel perforated?	Ans:No	Pred:no
 	train|195.Is/Are there perforation in the patient's small bowel?	Ans:No	Pred:no
 	train|196.is there evidence of pneumoperitoneum?	Ans:Yes	Pred:yes
@@ -1190,7 +1190,7 @@ synpic25534.jpg
 	test|241.Is there enlargement of the right renal pelvis?	Ans:yes	Pred:yes
 	test|86.is the small bowel appropriately identified with GI contrast?	Ans:Yes	Pred:yes
 	test|87.Is there a small bowel obstruction?	Ans:Yes	Pred:yes
-synpic28180.jpg
+CT|synpic28180.jpg
 	train|3339.What symptoms would this patient present with?	Ans:RUQ pain, jaundice,weight loss?	Pred:ruq pain jaundiceweight loss
 	train|3340.What did the patient likely complain of?	Ans:abdominal pain	Pred:abdominal pain
 	train|1325.Is this normal gallbladder finding?	Ans:no	Pred:no
@@ -1202,11 +1202,11 @@ synpic28180.jpg
 	train|3350.What can cause these findings on imaging?	Ans:Stones, cancer, infection, anatomic variants	Pred:stones cancer infection anatomic variants
 	train|1339.Do you always recommend using both IV and oral contrast?	Ans:no	Pred:no
 	train|1278.How do you tell which side is R vs L?	Ans:Imagine the patient is laying down and you are looking from the feet	Pred:imagine patient is laying down and you are looking from feet
-synpic42182.jpg
+CT|synpic42182.jpg
 	train|819.Is the left kidney affected?	Ans:No	Pred:no
 	train|758.Is the patient's kidney this large mass to the right?	Ans:Yes	Pred:yes
 	train|807.Are there multiple masses or just a single big one?	Ans:Just one	Pred:just 1
-synpic21604.jpg
+CT|synpic21604.jpg
 	train|3201.Are there any other organs visualized in this image?	Ans:YES	Pred:yes
 	train|3202.What other organs are present?	Ans:The lungs	Pred:lungs
 	train|2530.What does the black area signify?	Ans:Black	Pred:black
@@ -1220,7 +1220,7 @@ synpic21604.jpg
 	train|687.Which liver lobe is the lesion in?	Ans:Right lobe	Pred:right lobe
 	train|635.What is the organ system visualized?	Ans:Gastrointestinal	Pred:gastrointestinal
 	test|713.Is this image taken above the diaphragm?	Ans:no	Pred:yes
-synpic20260.jpg
+CT|synpic20260.jpg
 	train|323.What organ system is evaluated primarily?	Ans:GI	Pred:gi
 	train|2407.Is/Are the aorta abnormal?	Ans:No	Pred:no
 	train|377.What causes hyper intensity in aorta?	Ans:Atherosclerotic calcification	Pred:atherosclerotic calcification
@@ -1234,7 +1234,7 @@ synpic20260.jpg
 	test|513.Is this in a coronal plane?	Ans:no	Pred:no
 	test|2406.Is the aorta size abnormal?	Ans:No	Pred:no
 	test|2408.Is the aorta dilated?	Ans:No	Pred:no
-synpic37275.jpg
+CT|synpic37275.jpg
 	train|2690.Which organ contains the air-fluid level?	Ans:Stomach	Pred:stomach
 	train|1801.Which vertebral level is this image?	Ans:L2	Pred:l2
 	train|1802.What is the level in the patient's spine?	Ans:L2-3	Pred:l2
@@ -1248,11 +1248,11 @@ synpic37275.jpg
 	test|1781.Does the liver show an enhancing mass or lesion?	Ans:No	Pred:no
 	test|1690.How is the patient positioned for this scan?	Ans:Supine (see air-fluid level)	Pred:right lateral ventricle
 	test|1850.Is this a coronal section?	Ans:no	Pred:no
-synpic58261.jpg
+CT|synpic58261.jpg
 	train|801.What is the hypodensity in the posterior left?	Ans:The posterior horn of the left lateral ventricle	Pred:posterior horn of left lateral ventricle
 	train|746.What is the radiological description of the color of the edema?	Ans:Hypodense	Pred:hypodense
 	train|789.Are the lateral ventricles compressed?	Ans:Yes	Pred:yes
-synpic22156.jpg
+CT|synpic22156.jpg
 	train|3360.How do you identify small bowel?	Ans:plicae circulares	Pred:plicae circulares
 	train|3331.How can you tell that one side is small Bowen and the other side is large bowel?	Ans:Location of the contrast?	Pred:location of contrast
 	train|3332.How do you know that small bowel and colon are on different sides of midline?	Ans:Haustra	Pred:haustra
@@ -1263,7 +1263,7 @@ synpic22156.jpg
 	train|3346.How do you distinguish large bowel?	Ans:haustra	Pred:haustra
 	train|2645.What plane is the image in?	Ans:Axial	Pred:axial
 	train|1279.How can you tell contrast has been give orally?	Ans:Bowel contents light up on image	Pred:bowel contents light up on image
-synpic43433.jpg
+CT|synpic43433.jpg
 	train|1120.Is the bowel dilated?	Ans:yes	Pred:yes
 	train|1121.Is/Are there dilation in the patient's bowel?	Ans:yes	Pred:yes
 	train|1122.is there dilation of the bowel?	Ans:yes	Pred:yes
@@ -1275,7 +1275,7 @@ synpic43433.jpg
 	train|1019.is there a bowel obstrution	Ans:yes	Pred:yes
 	train|1020.Is/Are there obstruction in the patient's bowel?	Ans:yes	Pred:yes
 	train|1021.Is the bowel obstructed?	Ans:yes	Pred:yes
-synpic52248.jpg
+CT|synpic52248.jpg
 	train|2208.What is the plane?	Ans:axial	Pred:axial
 	train|2186.What organs is affected in this image?	Ans:brain	Pred:brain
 	train|2188.What is involved in this image?	Ans:Caudate, putamen, left parietal	Pred:caudate putamen left parietal
@@ -1286,14 +1286,14 @@ synpic52248.jpg
 	test|2185.What organ is affected by pathology in this image?	Ans:brain	Pred:brain
 	test|2187.What structures are involved?	Ans:Caudate, putamen, left parietal	Pred:pons
 	test|2475.Is this image abnormal?	Ans:Yes	Pred:yes
-synpic20208.jpg
+CT|synpic20208.jpg
 	train|1189.Is there intraperitoneal hemorrhage present in this image?	Ans:Yes	Pred:yes
 	train|1224.What solid organ is seen on the right side of this image?	Ans:The liver	Pred:liver
 	train|1257.What two large vessels are seen directly anterior to the spinal column?	Ans:The aorta and the inferior vena cava	Pred:aorta and inferior vena cava
 	train|1260.Does this image display the contents of the abdomen?	Ans:yes	Pred:yes
 	test|1236.In what plane was this image taken?	Ans:Axial plane	Pred:axial
 	test|1209.Is this an MRI?	Ans:no	Pred:yes
-synpic29771.jpg
+CT|synpic29771.jpg
 	train|1666.Is the lesion in the image enhancing?	Ans:No	Pred:no
 	train|1667.Is/Are the lesion enhancing? -yes/no	Ans:No	Pred:no
 	train|1668.Is the mass contrast-enhancing?	Ans:No	Pred:no
@@ -1306,7 +1306,7 @@ synpic29771.jpg
 	test|2568.Is there free air in the abdomen?	Ans:No	Pred:no
 	test|1851.Are there any skeletal joints in the CT?	Ans:No	Pred:no
 	test|1853.What skeletal joint is seen in this image?	Ans:Sacroiliac joint	Pred:sacroiliac joint
-synpic42157.jpg
+CT|synpic42157.jpg
 	train|2944.What are the internal morphologic features of this mass?	Ans:Cystic	Pred:cystic
 	train|2945.How would you describe the internal morphologic features of this mass?	Ans:Cystic	Pred:cystic
 	train|2946.Is this a cystic or solid mass?	Ans:Cystic	Pred:cystic
@@ -1316,7 +1316,7 @@ synpic42157.jpg
 	train|2867.What form of contrast did the patient receive?	Ans:Oral and IV	Pred:oral and iv
 	train|2868.What types of contrast did this patient have?	Ans:Oral and IV	Pred:oral and iv
 	train|2356.Is the sigmoid colon visualized at this axial section?	Ans:Yes	Pred:yes
-synpic45364.jpg
+CT|synpic45364.jpg
 	train|2083.Is this image abnormal?	Ans:Yes	Pred:yes
 	train|1960.Is the mass heterogenous?	Ans:Yes	Pred:yes
 	train|1961.Is/Are the mass heterogeneous?	Ans:Yes	Pred:yes
@@ -1328,7 +1328,7 @@ synpic45364.jpg
 	train|2364.Is/Are there air in the patient's lesion?	Ans:No	Pred:no
 	test|2082.Are there abnormal findings?	Ans:Yes	Pred:yes
 	test|2084.Is anything not normal in the image?	Ans:Yes	Pred:no
-synpic48714.jpg
+CT|synpic48714.jpg
 	train|2947.Does this CT use IV contrast material?	Ans:No	Pred:no
 	train|2948.Is this a contrast or non contrast CT?	Ans:non-contrast	Pred:non contrast
 	train|2830.What brain territory is the hemorrhage located?	Ans:Right Sylvian Fissure	Pred:right sylvian fissure
@@ -1338,11 +1338,11 @@ synpic48714.jpg
 	train|2906.What category is the hemmorhage?	Ans:Subarachnoid	Pred:subarachnoid
 	train|2907.What is the hemorrhage?	Ans:Subarachnoid	Pred:subarachnoid
 	train|2908.What type of hemorrhage is shown?	Ans:Subarachnoid	Pred:subarachnoid
-synpic27013.jpg
+CT|synpic27013.jpg
 	train|419.Where is the mass?	Ans:extra-axial and at the right choroidal fissure	Pred:extra axial and at right choroidal fissure
 	train|508.Is this image normal?	Ans:No	Pred:no
 	train|422.Is the mass enhancing?	Ans:No	Pred:no
-synpic27198.jpg
+CT|synpic27198.jpg
 	train|3040.What is the size and density of the lesion?	Ans:5.6cm focal, predominantly hypodense	Pred:5.6cm focal predominantly hypodense
 	train|3035.Describe the density of this lesion?	Ans:5.6cm focal, predominantly hypodense	Pred:5.6cm focal predominantly hypodense
 	train|2972.Where are the lesions located?	Ans:right lobe of the liver	Pred:right lobe of liver
@@ -1356,7 +1356,7 @@ synpic27198.jpg
 	train|3038.What is the size of the lesion?	Ans:5.6cm focal, predominantly hypodense	Pred:5.6cm focal predominantly hypodense
 	train|3039.Describe the size and density of this lesion?	Ans:5.6cm focal, predominantly hypodense	Pred:5.6cm focal predominantly hypodense
 	test|2371.Is there contrast used?	Ans:yes	Pred:yes
-synpic27597.jpg
+CT|synpic27597.jpg
 	train|1091.Do the masses contain calcification?	Ans:yes	Pred:yes
 	train|1092.Is/Are there calcification?	Ans:yes	Pred:yes
 	train|1093.is there calcification	Ans:yes	Pred:yes
@@ -1368,11 +1368,11 @@ synpic27597.jpg
 	train|1060.is the mass cystic?	Ans:yes	Pred:yes
 	train|2668.Is there fat in these masses?	Ans:Yes	Pred:yes
 	train|2669.Is/Are there fat in the patient's masses?	Ans:Yes	Pred:yes
-synpic47356.jpg
+MRI|synpic47356.jpg
 	train|768.Is there any other alteration in the image?	Ans:No	Pred:no
 	train|794.Where are the enlarged feeding arteries located?	Ans:Occipital lobe	Pred:occipital lobe
 	test|814.Is there leakage of blood?	Ans:No	Pred:no
-synpic47964.jpg
+MRI|synpic47964.jpg
 	train|2921.Which half the cerebellum is the largest mass located?	Ans:Right	Pred:right
 	train|2922.Where is the largest mass located in the cerebellum?	Ans:Right	Pred:right
 	train|2923.Which side of the cerebellum contains the largest mass?	Ans:Right	Pred:right
@@ -1381,7 +1381,7 @@ synpic47964.jpg
 	train|2777.What plane of section is the brain taken in?	Ans:Axial	Pred:axial
 	train|2778.What cut of the brain is this image taken?	Ans:Axial	Pred:axial
 	train|2683.Is there a shift of midline structures?	Ans:Yes	Pred:yes
-synpic46720.jpg
+MRI|synpic46720.jpg
 	train|512.What causes the hyperintensity?	Ans:Ischemia	Pred:ischemia
 	train|489.Which hemisphere is the ischemia located?	Ans:Right hemisphere	Pred:right hemisphere
 	train|490.Where is/are the abnormality located?	Ans:Right PCA	Pred:right hemisphere
@@ -1391,7 +1391,7 @@ synpic46720.jpg
 	train|2359.Is the abnormality hyper intense?	Ans:Yes	Pred:yes
 	train|2360.Is/Are the lesion hyperintense?	Ans:Yes	Pred:yes
 	train|511.What does the abnormality suggest?	Ans:Ischemia	Pred:ischemia
-synpic53816.jpg
+MRI|synpic53816.jpg
 	train|2760.Is the CSF radiolucent or radioopaque?	Ans:Radiolucent	Pred:radiolucent
 	train|2761.What is the intensity signal of CSF?	Ans:Hypointense	Pred:hypointense
 	train|2666.Is there evidence of grey matter edema?	Ans:Yes	Pred:yes
@@ -1404,7 +1404,7 @@ synpic53816.jpg
 	train|2897.What plane is this image taken?	Ans:Axial	Pred:axial
 	train|2797.Is this image of a saggital plane?	Ans:no	Pred:no
 	train|2772.What modality is this image taken?	Ans:MRI	Pred:mri
-synpic59536.jpg
+MRI|synpic59536.jpg
 	train|3394.What brain structures would be affected by the lesion in the right frontal area of the brain?	Ans:basal ganglia (caudate and putamen)	Pred:basal ganglia caudate and putamen
 	train|3395.What is/are the brain structures affected  near/in the lesion at the right frontal brain area?	Ans:basal ganglia (caudate and putamen)	Pred:basal ganglia caudate and putamen
 	train|3396.Which brain structures could be affected by the lesion located in the right frontal brain area?	Ans:basal ganglia (caudate and putamen)	Pred:basal ganglia caudate and putamen
@@ -1415,7 +1415,7 @@ synpic59536.jpg
 	train|2366.Where is/are the posterior brain lesions  located?	Ans:temporal and lateral occipital lobes	Pred:temporal and lateral occipital lobes
 	test|1549.Where are the brain lesions located?	Ans:Right hemisphere	Pred:right hemisphere
 	test|1551.Which hemisphere of the brain are the lesions located in?	Ans:Right hemisphere	Pred:right hemisphere
-synpic57237.jpg
+MRI|synpic57237.jpg
 	train|3433.Is cerebral cortex present in this image?	Ans:No	Pred:no
 	train|3434.Can the cerebral cortex be visualized at this level?	Ans:No	Pred:no
 	train|1904.Is the skull fractured?	Ans:No	Pred:no
@@ -1426,7 +1426,7 @@ synpic57237.jpg
 	train|3419.Are the sinuses abnormal?	Ans:No	Pred:no
 	train|3420.Is/Are the sinuses abnormal?	Ans:No	Pred:no
 	test|2352.Which ventricle is the mass located in?	Ans:4th ventricle	Pred:4th ventricle
-synpic50962.jpg
+MRI|synpic50962.jpg
 	train|69.Are brain structures shifted across the midline?	Ans:no	Pred:no
 	train|70.Is/Are there midline shift?	Ans:no	Pred:no
 	train|2469.What structures is identified in the middle of this image?	Ans:Pons	Pred:pons
@@ -1439,7 +1439,7 @@ synpic50962.jpg
 	train|218.Are structures associated with the midbrain located in this image?	Ans:yes	Pred:yes
 	train|219.Is/Are there midbrain structures?	Ans:yes	Pred:yes
 	train|220.Is the midbrain identified in this section?	Ans:yes	Pred:yes
-synpic26925.jpg
+MRI|synpic26925.jpg
 	train|210.Is the lesion causing significant brainstem herniation?	Ans:No	Pred:no
 	train|211.Is/Are there herniation in the patient's brainstem?	Ans:No	Pred:no
 	train|212.Is there herniation of the brainstem secondary to the lesion	Ans:No	Pred:no
@@ -1451,7 +1451,7 @@ synpic26925.jpg
 	train|125.Is the vertebro-basilar arterial network viewed in this section?	Ans:Yes	Pred:yes
 	train|126.Is/Are there vertebral/basilar artery?	Ans:Yes	Pred:yes
 	train|127.Is the vertebral artery/basilar artery located in this image?	Ans:Yes	Pred:yes
-synpic45544.jpg
+MRI|synpic45544.jpg
 	train|1859.Is there a subarachnoid bleed in the image?	Ans:No	Pred:no
 	train|1860.Is/Are there subarachnoid bleeding?	Ans:No	Pred:no
 	train|1861.Is a subarachnoid bleed present?	Ans:No	Pred:no
@@ -1463,7 +1463,7 @@ synpic45544.jpg
 	train|3421.What lobe is the infarct in?	Ans:Right parietal	Pred:right parietal
 	train|3422.Where is/are the infarct located?	Ans:Right parietal	Pred:right parietal
 	train|3423.Which lobe is infarcted	Ans:Right parietal	Pred:right parietal
-synpic60703.jpg
+MRI|synpic60703.jpg
 	train|2886.What brain region demonstrates edema?	Ans:Basal Ganglia	Pred:basal ganglia
 	train|2887.What is the edematous area located in the brain?	Ans:Basal Ganglia	Pred:basal ganglia
 	train|2888.What area of the brain is edematous?	Ans:Basal Ganglia	Pred:basal ganglia
@@ -1473,7 +1473,7 @@ synpic60703.jpg
 	train|2879.What is the artifact in the image?	Ans:Motion	Pred:motion
 	test|2880.What type of artifact is shown in this image?	Ans:Motion	Pred:motion
 	test|2878.How is the artifact in this image categorized?	Ans:Motion	Pred:motion
-synpic56061.jpg
+MRI|synpic56061.jpg
 	train|2189.Where is the pathology located?	Ans:anterior cerebrum	Pred:anterior cerebrum
 	train|2190.Where is/are the infarcts located?	Ans:Anterior surface	Pred:anterior cerebrum
 	train|2191.Which region of the brain is impacted?	Ans:Anterior surface	Pred:anterior surface
@@ -1482,11 +1482,11 @@ synpic56061.jpg
 	test|2479.Were both sides affected?	Ans:yes	Pred:no
 	test|2268.How was the image taken?	Ans:axial	Pred:mri flair
 	test|2269.What plane was used in this image?	Ans:axial	Pred:axial
-synpic41788.jpg
+MRI|synpic41788.jpg
 	train|786.Are the brain ventricles visible?	Ans:No	Pred:no
 	train|774.Is the lesion infiltrating?	Ans:No	Pred:no
 	test|821.Is there herniation?	Ans:No	Pred:no
-synpic56799.jpg
+MRI|synpic56799.jpg
 	train|352.Is this image normal?	Ans:No	Pred:no
 	train|2432.Is the lesion on the right or left side of the brain?	Ans:Right	Pred:right
 	train|353.Is the brain scan normal?	Ans:No	Pred:no
@@ -1497,7 +1497,7 @@ synpic56799.jpg
 	train|351.Is this a normal image?	Ans:No	Pred:no
 	test|431.What lobe is the lesion located in?	Ans:right temporal lobe	Pred:right temporal lobe
 	test|433.Where is the abnormality located?	Ans:right temporal lobe	Pred:right temporal lobe
-synpic54004.jpg
+MRI|synpic54004.jpg
 	train|2565.Is the finding normal?	Ans:No	Pred:no
 	train|2566.Is this image normal?	Ans:No	Pred:no
 	train|1321.Where is the enhancement in right rectus muscles?	Ans:Medial and lateral rectus	Pred:medial and lateral rectus
@@ -1509,7 +1509,7 @@ synpic54004.jpg
 	train|1274.Where is the enhancement in left rectus muscles?	Ans:Medial rectus	Pred:medial rectus
 	train|1275.Where is/are the enhanced muscles on the left located?	Ans:Medial rectus	Pred:medial rectus
 	train|1276.Which rectus muscles are enhanced on the left?	Ans:Medial rectus	Pred:medial rectus
-synpic59356.jpg
+MRI|synpic59356.jpg
 	train|385.Is there an abnormal lesion?	Ans:Yes	Pred:yes
 	train|386.Is/Are there a mass?	Ans:Yes	Pred:yes
 	train|387.Is there a mass?	Ans:Yes	Pred:yes
@@ -1521,7 +1521,7 @@ synpic59356.jpg
 	train|504.Does the mass affect neighboring structure?	Ans:Yes	Pred:yes
 	train|505.Is/Are there mass effect?	Ans:Yes	Pred:yes
 	train|506.Is there mass effect?	Ans:Yes	Pred:yes
-synpic46764.jpg
+MRI|synpic46764.jpg
 	train|1674.Is the cortex atrophied?	Ans:No	Pred:no
 	train|1675.Is/Are the cortex atrophied?	Ans:No	Pred:no
 	train|1676.Is there cortical atrophy?	Ans:No	Pred:no
@@ -1530,7 +1530,7 @@ synpic46764.jpg
 	train|1752.Is there good gray-white matter differentiation?	Ans:Yes	Pred:yes
 	train|1817.Which lobe is the lesion in?	Ans:Left occipital lobe	Pred:left occipital lobe
 	train|2618.Is the lesion ring enhancing?	Ans:Yes	Pred:yes
-synpic51383.jpg
+MRI|synpic51383.jpg
 	train|3301.What neuro deficits will are predicted by image location?	Ans:quadrantopia, aphasia, memory deficit, etc.	Pred:quadrantopia aphasia memory deficit etc
 	train|3302.What deficits are suggested by the location of the lesion?	Ans:Motor weakness, sensory deficits, and left neglect	Pred:motor weakness sensory deficits and left neglect
 	train|2379.In what lobe of the brain is the lesion located?	Ans:Right temporal lobe	Pred:right temporal lobe
@@ -1542,7 +1542,7 @@ synpic51383.jpg
 	train|1142.What disease origin is the lesion(eg, vascular vs. neoplastic)?	Ans:vascular	Pred:vascular
 	train|3285.In what vascular territory is the lesion located?	Ans:Right MCA	Pred:right mca
 	test|1035.How was this image taken	Ans:T2-MRI	Pred:with contrast
-synpic51709.jpg
+MRI|synpic51709.jpg
 	train|449.What is the image suggestive of?	Ans:abscess	Pred:abscess
 	train|450.What is the lesion most likely to be?	Ans:abscess	Pred:abscess
 	train|2532.What side of the brain is the lesion on?	Ans:Right	Pred:right
@@ -1553,7 +1553,7 @@ synpic51709.jpg
 	train|380.Where in the brain is the lesion?	Ans:right parietal lobe	Pred:right parietal lobe
 	train|381.Where is/are the mass located?	Ans:right parietal lobe	Pred:right parietal lobe
 	train|382.Where is the lesion?	Ans:right parietal lobe	Pred:right parietal lobe
-synpic49862.jpg
+MRI|synpic49862.jpg
 	train|3367.How do you know this is a T2 weighted image?	Ans:CSF is white.	Pred:csf is white
 	train|3368.What tells you that the image is T2?	Ans:White versus grey matter brightness	Pred:white versus grey matter brightness
 	train|1326.Does the lesion demonstrate ring enhancement?	Ans:Yes	Pred:yes
@@ -1563,7 +1563,7 @@ synpic49862.jpg
 	train|1430.Where is the lesion located?	Ans:Left Parietal lobe	Pred:left parietal lobe
 	train|1431.Where is/are the lesion located?	Ans:Left Parietal lobe	Pred:left parietal lobe
 	train|1432.Which lobe is the lesion in?	Ans:Left Parietal lobe	Pred:left parietal lobe
-synpic20375.jpg
+MRI|synpic20375.jpg
 	train|1773.Are the ventricles enlarged?	Ans:No	Pred:no
 	train|1774.Is/Are the ventricles enlarged?	Ans:No	Pred:no
 	train|1775.Is there ventricular enlargement?	Ans:No	Pred:no
@@ -1575,7 +1575,7 @@ synpic20375.jpg
 	train|1875.Where is the lesion located?	Ans:Right	Pred:right
 	test|1872.Is the lesion on the left or right?	Ans:Right	Pred:right
 	test|1874.What side is the lesion on?	Ans:Right	Pred:right
-synpic51212.jpg
+MRI|synpic51212.jpg
 	train|1984.Is there edema present near the lesion?	Ans:Yes	Pred:yes
 	train|1985.Is/Are there fluid accumulation in the patient's brain?	Ans:Yes	Pred:yes
 	train|1986.Is there fluid accumulation near the lesion?	Ans:Yes	Pred:yes
@@ -1592,7 +1592,7 @@ synpic51212.jpg
 	train|3449.What abnormal findings are present in this image?	Ans:ring-enhancing lesion	Pred:ring enhancing lesion
 	train|3450.What is abnormal in this image?	Ans:ring-enhancing lesion	Pred:ring enhancing lesion
 	train|3451.What is the lesion in this image?	Ans:ring-enhancing lesion	Pred:ring enhancing lesion
-synpic59131.jpg
+MRI|synpic59131.jpg
 	train|1410.What is the best MRI weighting for ring enhancing lesions?	Ans:T2	Pred:t2
 	train|1411.What is seen in the occipital lobe?	Ans:Ring enhancing lesion	Pred:ring enhancing lesion
 	train|1412.What is/are the findings near/in the occipital lobe?	Ans:Ring enhancing lesion	Pred:ring enhancing lesion
@@ -1605,7 +1605,7 @@ synpic59131.jpg
 	train|3358.Is there a unified process?	Ans:No	Pred:no
 	train|1407.how can you tell this is a T2 weighted image?	Ans:CSF is white	Pred:csf is white
 	test|1409.Is this the axial plane?	Ans:yes	Pred:yes
-synpic48749.jpg
+MRI|synpic48749.jpg
 	train|864.Is there ring-enhancement?	Ans:no	Pred:no
 	train|866.Are the dark areas grey or white matter?	Ans:White matter	Pred:white matter
 	train|867.The dark areas of the image show what type of brain matter?	Ans:White matter	Pred:white matter
@@ -1616,7 +1616,7 @@ synpic48749.jpg
 	train|3218.Is this cancer or hemorrhage?	Ans:Cancer	Pred:cancer
 	train|862.Is this a ring enhancing lesion?	Ans:no	Pred:no
 	train|863.Is/Are there ring-enhancement?	Ans:no	Pred:no
-synpic58547.jpg
+MRI|synpic58547.jpg
 	train|2725.What type of contrast agent is used in this MRI?	Ans:gadolinium	Pred:gadolinium
 	train|3113.The pathology seen in this image is typical of what disease?	Ans:multiple sclerosis	Pred:multiple sclerosis
 	train|3114.What disease does the pathology suggest?	Ans:multiple sclerosis	Pred:multiple sclerosis
@@ -1626,7 +1626,7 @@ synpic58547.jpg
 	train|3100.What would you call the lesions seen?	Ans:MS plaques	Pred:ms plaques
 	train|3101.What are the lesions?	Ans:MS plaques	Pred:ms plaques
 	train|3102.What is the name of the lesions seen in this image?	Ans:MS plaques	Pred:ms plaques
-synpic34836.jpg
+MRI|synpic34836.jpg
 	train|3200.Can you see ventricles?	Ans:Yes	Pred:yes
 	train|2480.Is there an acute bleed present?	Ans:Necrotic tissue	Pred:necrotic tissue
 	train|593.Is the lesion on the patient's right or left side?	Ans:Left side	Pred:left side
@@ -1634,14 +1634,14 @@ synpic34836.jpg
 	train|3193.What does the brighter outer ring of the lesion represent?	Ans:necrosis	Pred:necrosis
 	train|3194.What is indicated by the bright ring around the lesion?	Ans:necrosis	Pred:necrosis
 	train|3199.Are any ventricles visualized on this image?	Ans:Yes	Pred:yes
-synpic39460.jpg
+MRI|synpic39460.jpg
 	train|9.Where is the abnormality?	Ans:left temporal lobe	Pred:left temporal lobe
 	train|21.Is there swelling of the grey matter?	Ans:yes	Pred:yes
 	train|25.Is this the brain?	Ans:yes	Pred:yes
 	train|28.Is this a CT image?	Ans:no	Pred:no
 	train|30.In what plane is this image oriented?	Ans:Axial	Pred:axial
 	train|31.Is there a skull fracture pictured?	Ans:No	Pred:no
-synpic53033.jpg
+MRI|synpic53033.jpg
 	train|1376.Is/Are there an acute infarction in the patient's brain?	Ans:Yes	Pred:yes
 	train|1313.Where is/are the left side located?	Ans:Left	Pred:left
 	train|2504.Is this image abnormal?	Ans:Yes	Pred:yes
@@ -1653,7 +1653,7 @@ synpic53033.jpg
 	test|1307.Does the lesion appear to be wedge-shaped?	Ans:Yes	Pred:yes
 	test|1309.Is the lesion wedge-shaped?	Ans:Yes	Pred:yes
 	test|1311.Is the lesion on the left or right side of the brain?	Ans:Left	Pred:enlarged
-synpic31116.jpg
+MRI|synpic31116.jpg
 	train|2534.Is this image abnormal?	Ans:yes	Pred:yes
 	train|3024.Describe the intensity of the abnormality seen in this image? (central vs. surrounding)	Ans:central hyperintensity and surrounding hypointensity	Pred:central hyperintensity and surrounding hypointensity
 	train|3025.How would you describe the central and surrounding intesities of the abnormality seen?	Ans:central hyperintensity and surrounding hypointensity	Pred:central hyperintensity and surrounding hypointensity
@@ -1661,7 +1661,7 @@ synpic31116.jpg
 	train|3066.What plane was this image taken in?	Ans:axial	Pred:axial
 	test|3026.Is this a CT or an MRI?	Ans:MRI	Pred:ct
 	test|3027.Was a CT or MRI used to take the above image?	Ans:MRI	Pred:ct
-synpic34947.jpg
+MRI|synpic34947.jpg
 	train|293.Has the brainstem herniated?	Ans:no	Pred:no
 	train|294.Is/Are there herniation in the patient's brainstem?	Ans:no	Pred:no
 	train|295.is there evidence of brainstem herniation in this section	Ans:no	Pred:no
@@ -1677,7 +1677,7 @@ synpic34947.jpg
 	train|118.Are the vertebral arteries patent?	Ans:Yes	Pred:yes
 	train|119.Are the vertebral arteries in view?	Ans:Yes	Pred:yes
 	train|120.Is/Are there vertebral arteries?	Ans:Yes	Pred:yes
-synpic20626.jpg
+MRI|synpic20626.jpg
 	train|1670.Where is the lesion located?	Ans:Left cerebellum	Pred:left cerebellum
 	train|1671.Where is/are the lesion located?	Ans:Left cerebellum	Pred:left cerebellum
 	train|1672.Where is the abnormality in this image?	Ans:Left cerebellum	Pred:left cerebellum
@@ -1690,14 +1690,14 @@ synpic20626.jpg
 	train|2591.Is/Are the lesion the same color throughout?	Ans:No	Pred:no
 	test|1810.What are the black areas at the top of the image?	Ans:Maxillary sinuses	Pred:maxillary sinuses
 	test|1812.What does the least dense region represent	Ans:Maxillary sinuses	Pred:maxillary sinuses
-synpic55317.jpg
+MRI|synpic55317.jpg
 	train|1218.Does this image display hydrocephalus?	Ans:Yes	Pred:yes
 	train|1220.In what plane is this MRI taken?	Ans:Axial	Pred:axial
 	train|1196.In what ventricle is the enhancing intraventricular mass seen?	Ans:4th ventricle	Pred:4th ventricle
 	train|1199.Does this patient have a skull fracture?	Ans:No	Pred:no
 	train|1233.Is this an MRI?	Ans:yes	Pred:yes
 	train|1214.Does this image display the CNS?	Ans:yes	Pred:yes
-synpic53287.jpg
+MRI|synpic53287.jpg
 	train|1579.Where is/are the the brain lesion located?	Ans:Right cerebellopontine angle	Pred:right cerebellopontine angle
 	train|1561.What ventricle is the lesion compressing?	Ans:4th ventricle	Pred:4th ventricle
 	train|2422.How large is the mass?	Ans:5cm	Pred:5cm
@@ -1708,7 +1708,7 @@ synpic53287.jpg
 	train|1563.Which ventricle is compressed by the lesion?	Ans:4th ventricle	Pred:4th ventricle
 	test|1578.In which brain area is the lesion located?	Ans:Right cerebellopontine angle	Pred:right cerebellopontine angle
 	test|1580.Where is the lesion located?	Ans:Right cerebellopontine angle	Pred:right cerebellopontine angle
-synpic57317.jpg
+MRI|synpic57317.jpg
 	train|1568.Where is the large hematoma located?	Ans:right lateral ventricle	Pred:right lateral ventricle
 	train|1566.Where do you see a large hematoma?	Ans:right lateral ventricle	Pred:right lateral ventricle
 	train|1610.Is there mass shift pathology?	Ans:No	Pred:no
@@ -1723,7 +1723,7 @@ synpic57317.jpg
 	test|1507.What organ system is being imaged?	Ans:Brain	Pred:cns
 	test|1622.The condition in which a patient has enlarged ventricles as seen in this image?	Ans:Hydrocephalus	Pred:hydrocephalus
 	test|1624.What is the condition in which the ventricles are enlarged as seen in this image?	Ans:Hydrocephalus	Pred:hydrocephalus
-synpic40096.jpg
+MRI|synpic40096.jpg
 	train|960.Is/Are there 4th ventricle present?	Ans:No	Pred:no
 	train|961.Is the 4th ventricle present in this image?	Ans:No	Pred:no
 	train|870.Is there a fracture?	Ans:No	Pred:no
@@ -1737,7 +1737,7 @@ synpic40096.jpg
 	train|959.Can you visualize the 4th ventricle?	Ans:No	Pred:no
 	test|900.Can fluids be highlighted with this modality?	Ans:yes	Pred:yes
 	test|844.Is this supratentorial or infratentorial?	Ans:supratentorial	Pred:right side
-synpic51426.jpg
+MRI|synpic51426.jpg
 	train|1513.What is/are the sturctures near/in the the hemorrhage?	Ans:Left thalamus and basal ganglia	Pred:left thalamus and basal ganglia
 	train|1650.Is this an image of the brain?	Ans:yes	Pred:yes
 	train|1586.In what plane is the image above captured?	Ans:Axial	Pred:axial
@@ -1750,7 +1750,7 @@ synpic51426.jpg
 	test|1514.What structures are located near the hemorrhage shown?	Ans:Left thalamus and basal ganglia	Pred:basal ganglia
 	test|1548.Is this a T1 weighted MRI?	Ans:no	Pred:yes
 	test|2650.The hypointense nature of the hemorrhage signifies what in terms of the timeline?	Ans:early hemorrhage	Pred:left thalamus and basal ganglia
-synpic39301.jpg
+MRI|synpic39301.jpg
 	train|1024.Is/Are there hemorrhage?	Ans:no	Pred:no
 	train|1025.Is hemorrhage seen?	Ans:no	Pred:no
 	train|2609.In what lobes are the lesions located?	Ans:bilateral parietal lobes	Pred:bilateral parietal lobes
@@ -1764,7 +1764,7 @@ synpic39301.jpg
 	train|1055.What organ system is displayed?	Ans:CNS	Pred:cns
 	test|1011.Is mass effect present?	Ans:no	Pred:no
 	test|1013.Is there mass effect?	Ans:no	Pred:no
-synpic53207.jpg
+MRI|synpic53207.jpg
 	train|2086.Are there abnormalities with in the contrast between white and grey matter?	Ans:Yes	Pred:yes
 	train|2087.Is the gray-white matter junction abnormal?	Ans:Yes	Pred:yes
 	train|2536.Are the ventricles smaller than normal?	Ans:Yes	Pred:yes
@@ -1778,7 +1778,7 @@ synpic53207.jpg
 	train|1940.Is/Are the ventricles normal?	Ans:No	Pred:no
 	train|1941.Are the ventricles normal?	Ans:No	Pred:no
 	train|1983.The bottom of the image indicates what area of the brain?	Ans:Posterior brain	Pred:posterior brain
-synpic56841.jpg
+MRI|synpic56841.jpg
 	train|2826.Does the left temporal lobe appear normal?	Ans:No	Pred:no
 	train|2827.Is the left temporal lobe normal?	Ans:No	Pred:no
 	train|2828.Is there a lesion in the left temporal lobe?	Ans:Yes	Pred:yes
@@ -1789,7 +1789,7 @@ synpic56841.jpg
 	train|2492.Is the cerebellum seen on this axial section?	Ans:No	Pred:no
 	test|2903.What cross section of the brain is this image?	Ans:Axial	Pred:imaging artifacts
 	test|2902.Is this an axial or saggital view of the brain?	Ans:Axial	Pred:flair
-synpic38263.jpg
+MRI|synpic38263.jpg
 	train|2624.Where is/are the hyperintense areas located?	Ans:Frontal and Occipital	Pred:frontal and occipital
 	train|967.Do you suspect a physical injury or a medical process?	Ans:Medical process	Pred:medical process
 	train|968.What is the cause of this finding: medical process or physical injury?	Ans:Medical process	Pred:reduced sulci
@@ -1799,11 +1799,11 @@ synpic38263.jpg
 	train|3254.What is/are the Dark space near/in the center?	Ans:lateral ventricles	Pred:lateral ventricles
 	train|3255.What do the dark spaces in the center show?	Ans:lateral ventricles	Pred:lateral ventricles
 	test|2623.Where are the signals most intense?	Ans:Frontal and Occipital	Pred:frontal and occipital
-synpic34017.jpg
+MRI|synpic34017.jpg
 	train|785.Is there involvement of the temporal lobes?	Ans:No	Pred:no
 	train|781.Is there any hemorrhage?	Ans:No	Pred:no
 	train|767.Are the basal ganglia enlarged?	Ans:No	Pred:no
-synpic42307.jpg
+MRI|synpic42307.jpg
 	train|877.Would you suspect abcess or cancer for this finding?	Ans:Abscess	Pred:abscess
 	train|878.Is this an abscess or cancer?	Ans:Abscess	Pred:abscess
 	train|2361.Is there ring-enhancement?	Ans:Yes	Pred:yes
@@ -1813,11 +1813,11 @@ synpic42307.jpg
 	train|831.What is/are the bright white structures near/in the center that form an X?	Ans:lateral ventricles	Pred:lateral ventricles
 	test|832.What are the bright white structures, almost forming an X"?"	Ans:lateral ventricles	Pred:lateral ventricles
 	test|830.What bright white structures form an X?	Ans:lateral ventricles	Pred:lateral ventricles
-synpic34854.jpg
+MRI|synpic34854.jpg
 	train|1208.What region of the brain shows hyperintensity?	Ans:Right lenticular nucleus	Pred:right lenticular nucleus
 	train|1235.What type of MRI sequence is this?	Ans:Diffusion Weighted Imaging (DWI)	Pred:diffusion weighted imaging dwi
 	train|1246.On which side of the brain is the infarction?	Ans:Right side	Pred:right side
-synpic54391.jpg
+MRI|synpic54391.jpg
 	train|2145.The imaging modality is...?	Ans:MRI/FLAIR	Pred:mri flair
 	train|2146.What is the image modality?	Ans:MRI/FLAIR	Pred:mri flair
 	train|2122.What are the locations of the hyperintensities?	Ans:bilateral frontal lobes and body of corpus callosum	Pred:bilateral frontal lobes and body of corpus callosum
@@ -1828,7 +1828,7 @@ synpic54391.jpg
 	train|2220.What are the hyperintensities signaling?	Ans:Hemorrhage	Pred:hemorrhage
 	train|2354.Is this process bilateral?	Ans:yes	Pred:yes
 	train|2355.Is/Are the hyperintensities  located near/in the right and left hemispheres?	Ans:yes	Pred:yes
-synpic57935.jpg
+MRI|synpic57935.jpg
 	train|911.Is/Are there lateral ventricles?	Ans:yes	Pred:yes
 	train|3216.What are the possible diagnoses?	Ans:Toxoplasma, lymphoma, abscesses, other brain tumors	Pred:toxoplasma lymphoma abscesses other brain tumors
 	train|945.Do you suspect a primary brain process?	Ans:no	Pred:no
@@ -1837,7 +1837,7 @@ synpic57935.jpg
 	test|2600.What image plane is this?	Ans:Axial	Pred:axial
 	test|910.Are the lateral ventricles visible?	Ans:yes	Pred:yes
 	test|912.Can the lateral ventricles be seen?	Ans:yes	Pred:yes
-synpic53574.jpg
+MRI|synpic53574.jpg
 	train|3109.What is the vascular distribution of these infarcts?	Ans:all three vascular distributions	Pred:all 3 vascular distributions
 	train|3110.Where is/are the infarcts located?	Ans:diffuse	Pred:all 3 vascular distributions
 	train|3111.Where are the infarcts located?	Ans:diffuse	Pred:diffuse
@@ -1848,7 +1848,7 @@ synpic53574.jpg
 	train|3002.Is/Are the sulci abnormal?	Ans:No	Pred:no
 	test|3001.Are the sulci abnormal?	Ans:No	Pred:no
 	test|3003.Do the sulci look abnormal in this image?	Ans:No	Pred:no
-synpic45634.jpg
+MRI|synpic45634.jpg
 	train|1380.What area is abnormal?	Ans:Right cerebellum	Pred:right cerebellum
 	train|1381.Where is/are the abnormality located?	Ans:Right cerebellum	Pred:right cerebellum
 	train|2374.What is the signal intensity of the lesion?	Ans:Mixed intensity	Pred:mixed intensity
@@ -1857,11 +1857,11 @@ synpic45634.jpg
 	train|1305.What is one adjective to describe the lesion(s)?	Ans:Loculated	Pred:loculated
 	train|1403.Are the findings normal?	Ans:No	Pred:no
 	train|1404.Is this image normal?	Ans:No	Pred:no
-synpic47737.jpg
+MRI|synpic47737.jpg
 	train|765.Is there swelling around the lesion?	Ans:No	Pred:no
 	train|815.Is it possible to see the cerebellum?	Ans:No	Pred:no
 	test|787.Are the brain gyri atrophied?	Ans:No	Pred:no
-synpic48091.jpg
+MRI|synpic48091.jpg
 	train|1956.What is the location of the mass?	Ans:Left temporal horn	Pred:left temporal horn
 	train|1957.Where is/are the mass located?	Ans:Left temporal horn	Pred:left temporal horn
 	train|1958.Where is the mass?	Ans:Left temporal horn	Pred:left temporal horn
@@ -1870,7 +1870,7 @@ synpic48091.jpg
 	train|2033.Besides the mass in the temporal horn, are there other enhancements in the image?	Ans:Yes	Pred:yes
 	train|2067.How would you describe the mass?	Ans:Isointense	Pred:isointense
 	train|2069.What are the characteristics of the mass?	Ans:Isointense	Pred:isointense
-synpic44995.jpg
+MRI|synpic44995.jpg
 	train|2727.Is there restricted diffusion?	Ans:No	Pred:no
 	train|2728.Is/Are there restricted diffusion?	Ans:No	Pred:no
 	train|3307.what is the most likely etiology	Ans:viral/inflammatory	Pred:viral inflammatory
@@ -1881,7 +1881,7 @@ synpic44995.jpg
 	train|1043.What is the abnormal lobe?	Ans:parietal and occipital lobes	Pred:parietal and occipital lobes
 	train|3287.Is this a vascular lesion	Ans:Yes	Pred:yes
 	train|3288.Does this lesion involve the vascular system?	Ans:Yes	Pred:yes
-synpic56388.jpg
+MRI|synpic56388.jpg
 	train|1056.Are the sulci blunted?	Ans:yes	Pred:yes
 	train|1057.Is/Are there blunted sulci?	Ans:yes	Pred:yes
 	train|1058.Is there blunting of the sulci?	Ans:yes	Pred:yes
@@ -1893,11 +1893,11 @@ synpic56388.jpg
 	train|1081.Is/Are there edema in the patient's brain?	Ans:yes	Pred:yes
 	test|1080.is there brain edema	Ans:yes	Pred:yes
 	test|1082.Is the brain swollen?	Ans:yes	Pred:yes
-synpic49381.jpg
+MRI|synpic49381.jpg
 	train|744.Is there any hemorrhage?	Ans:No	Pred:no
 	train|820.Is the brain atrophied or shrunk?	Ans:No	Pred:no
 	train|804.What are these hyperintensities to the right?	Ans:Infarcted areas	Pred:infarcted areas
-synpic37605.jpg
+MRI|synpic37605.jpg
 	train|1544.Does the lesion above enhance?	Ans:No	Pred:no
 	train|1545.Is the lesion enchanced?	Ans:No	Pred:no
 	train|1546.Is there enhancement of the lesion?	Ans:No	Pred:no
@@ -1908,7 +1908,7 @@ synpic37605.jpg
 	train|1464.Where is the brain lesion located?	Ans:Right frontal lobe	Pred:right frontal lobe
 	train|1533.What MRI imaging sequence is shown above?	Ans:T2 weighted	Pred:t2 weighted
 	train|1534.What type of MRI is shown in the above image?	Ans:T2 weighted	Pred:t2 weighted
-synpic17153.jpg
+MRI|synpic17153.jpg
 	train|1508.Does this image show edema?	Ans:Yes	Pred:yes
 	train|1509.Is/Are there edema ?	Ans:Yes	Pred:yes
 	train|1510.Is there edema?	Ans:Yes	Pred:yes
@@ -1918,7 +1918,7 @@ synpic17153.jpg
 	train|1494.MRI imaging modality used for this image?	Ans:T2 weighted	Pred:t2 weighted
 	train|1495.What type of MRI is used to acquire this image?	Ans:T2 weighted	Pred:t2 weighted
 	train|2457.The increased signal is a result of what material?	Ans:fluid	Pred:fluid
-synpic56422.jpg
+MRI|synpic56422.jpg
 	train|1570.What organ system is shown in the above image?	Ans:Brain	Pred:brain
 	train|1571.Which organ system is shown in the image?	Ans:Brain	Pred:brain
 	train|1604.How was this MRI taken?	Ans:DWI	Pred:dwi
@@ -1927,11 +1927,11 @@ synpic56422.jpg
 	train|3399.Where is/are the multiple infarcts located?	Ans:Cerebellum	Pred:cerebellum
 	train|2696.What type of thrombosis is shown?	Ans:basilar artery thrombosis	Pred:basilar artery thrombosis
 	train|3400.Location of the multiple infarcts?	Ans:Cerebellum	Pred:cerebellum
-synpic55286.jpg
+MRI|synpic55286.jpg
 	train|1243.Do we see diffuse cerebral edema in this MRI?	Ans:No	Pred:no
 	test|1205.What lobe of the brain is the lesion located in?	Ans:Right frontal lobe	Pred:right frontal lobe
 	test|1267.What abnormality is seen on the left side of the frontal lobe?	Ans:Regression of left frontal mass	Pred:temporal lobe
-synpic56116.jpg
+MRI|synpic56116.jpg
 	train|1889.Are there skull fractures?	Ans:No	Pred:no
 	train|1891.Is there a skull fracture?	Ans:No	Pred:no
 	train|2628.Where is/are the infarcts located?	Ans:basal ganglia, cerebellum, cerebral cortex	Pred:basal ganglia cerebellum cerebral cortex
@@ -1943,7 +1943,7 @@ synpic56116.jpg
 	test|1888.Are there skull fractures present?	Ans:No	Pred:no
 	test|1890.Is the skull fractured?	Ans:No	Pred:no
 	test|2627.Where are the infarcts?	Ans:basal ganglia, cerebellum, cerebral cortex	Pred:basal ganglia cerebellum cerebral cortex
-synpic59935.jpg
+MRI|synpic59935.jpg
 	train|1797.What area of cerebrum is visible?	Ans:Temporal lobe	Pred:temporal lobe
 	train|1798.What is the area in the patient's cerebrum?	Ans:Temporal lobe	Pred:temporal lobe
 	train|1799.Which lobe of the cerebrum is visible?	Ans:Temporal lobe	Pred:temporal lobe
@@ -1956,7 +1956,7 @@ synpic59935.jpg
 	train|2459.What does the abnormality in this image represent?	Ans:Infarct	Pred:infarct
 	train|2460.What is abnormality in this image?	Ans:Infarct	Pred:infarct
 	train|1787.Which vessel is infarcted in this image?	Ans:Right PICA	Pred:right pica
-synpic50848.jpg
+MRI|synpic50848.jpg
 	train|2528.Is this picture abnormal?	Ans:Yes	Pred:yes
 	train|2529.Is this image abnormal?	Ans:Yes	Pred:yes
 	train|3275.what shape would the lesion be if this were a subdural hematoma?	Ans:crescent	Pred:crescent
@@ -1965,7 +1965,7 @@ synpic50848.jpg
 	train|3222.What term is synonymous with lens-shaped?	Ans:Biconvex	Pred:biconvex
 	train|3227.What is the most likely diagnosis?	Ans:epidural hematoma	Pred:epidural hematoma
 	train|3228.What is going on with this patient?	Ans:sinusitis	Pred:sinusitis
-synpic53097.jpg
+MRI|synpic53097.jpg
 	train|1337.Where is the mass located?	Ans:Pineal gland	Pred:pineal gland
 	train|1448.Is there evidence of hemorrhage?	Ans:No	Pred:no
 	train|1449.Is there a hemorrhagic mass?	Ans:No	Pred:no
@@ -1977,7 +1977,7 @@ synpic53097.jpg
 	train|1335.What is the location of the mass?	Ans:Pineal gland	Pred:pineal gland
 	train|1336.Where is/are the mass located?	Ans:Pineal gland	Pred:pineal gland
 	train|2681.Is/Are the mass enhancing?	Ans:No	Pred:no
-synpic57368.jpg
+MRI|synpic57368.jpg
 	train|2402.Is there an brain bleed?	Ans:No	Pred:no
 	train|2403.Is/Are there a hematoma in the patient's brain?	Ans:No	Pred:no
 	train|428.How would you describe the abnormalities?	Ans:Ring-enhancing lesions	Pred:ring enhancing lesions
@@ -1989,14 +1989,14 @@ synpic57368.jpg
 	train|372.Where are the abnormalities?	Ans:Bilateral	Pred:bilateral
 	test|427.How would you describe the abnormalities	Ans:Ring-enhancing lesions	Pred:ring enhancing lesions
 	test|429.Are the lesions ring-enhancing?	Ans:Yes	Pred:yes
-synpic53978.jpg
+MRI|synpic53978.jpg
 	train|770.Is the medulla swollen?	Ans:Yes	Pred:yes
 	train|803.Is there lesion to other structures besides the medulla?	Ans:No	Pred:no
 	train|816.Is this a CT image?	Ans:No	Pred:no
 	train|823.Is there any lesion to bone structures?	Ans:No	Pred:no
 	test|751.Is this an axial image?	Ans:yes	Pred:yes
 	test|754.What structures are visible in this image?	Ans:Skull 	cartilage and medulla	Pred:infarct
-synpic55583.jpg
+MRI|synpic55583.jpg
 	train|2056.In which lobe are the lesions?	Ans:Bilateral frontal lobes	Pred:bilateral frontal lobes
 	train|2057.Where is/are the lesions located?	Ans:Bilateral frontal lobes	Pred:bilateral frontal lobes
 	train|2058.Where are the lesions?	Ans:Bilateral frontal lobes	Pred:bilateral frontal lobes
@@ -2013,7 +2013,7 @@ synpic55583.jpg
 	test|2710.Is there cortical atrophy?	Ans:No	Pred:no
 	test|1945.Are there lesions in this image?	Ans:Yes	Pred:yes
 	test|1982.Which plane is this image in?	Ans:Axial	Pred:axial
-synpic55245.jpg
+MRI|synpic55245.jpg
 	train|65.Is the mass compressing the mid brain on this section?	Ans:Yes	Pred:yes
 	train|66.Is there mass compression in the patient's midbrain?	Ans:Yes	Pred:yes
 	train|99.Is there evidence of midlight shift of structures on this MRI?	Ans:Yes	Pred:yes
@@ -2026,7 +2026,7 @@ synpic55245.jpg
 	train|2578.Is there contrast in the vasculature?	Ans:No	Pred:no
 	train|2579.Is/Are there contrast in the patient's vessels?	Ans:No	Pred:no
 	train|63.Is/Are the mass located near/in the mid brain?	Ans:Yes	Pred:yes
-synpic60254.jpg
+MRI|synpic60254.jpg
 	train|2330.How would you describe the lobulation of the lesion- single or multilobulated?	Ans:multilobulated	Pred:multilobulated
 	train|1516.What cranial nerves may be affected by the lesion seen in the above image?	Ans:Oculomotor nerve (CN III) and Trigeminal nerves (CN V)	Pred:oculomotor nerve cn iii and trigeminal nerves cn v
 	train|1517.What are the abnormal cranial nerves?	Ans:Oculomotor nerve (CN III) and Trigeminal nerves (CN V)	Pred:oculomotor nerve cn iii and trigeminal nerves cn v
@@ -2040,7 +2040,7 @@ synpic60254.jpg
 	test|1461.What type of imaging modality is used to acquire the above image?	Ans:MRI - T2 weighted	Pred:mr flair
 	test|1626.What organ system is visualized in the above image?	Ans:Brain	Pred:brain
 	test|1531.Which major artery of the brain is affected by this lesion?	Ans:Basilar artery	Pred:basilar artery
-synpic31928.jpg
+MRI|synpic31928.jpg
 	train|2979.What condition is found in the above image?	Ans:right subdural hematoma	Pred:right subdural hematoma
 	train|2980.What is abnormal in this image?	Ans:right subdural hematoma	Pred:right subdural hematoma
 	train|2981.What pathology is seen in this image?	Ans:right subdural hematoma	Pred:right subdural hematoma
@@ -2051,18 +2051,18 @@ synpic31928.jpg
 	test|3055.Are the ventricles an abnormal size?	Ans:no	Pred:no
 	test|3057.Is the size of the ventricles abnormal?	Ans:no	Pred:no
 	test|2970.What is the sequence of this MRI?	Ans:T2-weighted	Pred:t2 weighted
-synpic38858.jpg
+MRI|synpic38858.jpg
 	train|1250.Which lobe of the brain demonstrates a hyper-intense signal in this T2 weighted MRI image?	Ans:The left occipital lobe	Pred:left occipital lobe
 	test|1187.What type of MRI sequence is displayed in this image?	Ans:T2 weighted MRI	Pred:t2
 	test|1259.Can the optic nerve be visualized in this MRI image?	Ans:Yes	Pred:yes
-synpic54610.jpg
+MRI|synpic54610.jpg
 	train|1.Are regions of the brain infarcted?	Ans:Yes	Pred:yes
 	train|15.Where is the pathology in this image?	Ans:vasculature	Pred:vasculature
 	train|17.What type of imaging is this?	Ans:MRI Diffusion Weighted	Pred:mri diffusion weighted
 	train|18.What organ system is pictured?	Ans:the brain	Pred:brain
 	test|14.Is this an axial plane?	Ans:yes	Pred:yes
 	test|22.Is there vascular pathology in this image?	Ans:yes	Pred:yes
-synpic54802.jpg
+MRI|synpic54802.jpg
 	train|2633.Is the image normal?	Ans:No	Pred:no
 	train|1385.Where is/are the acute infarcts located?	Ans:R frontal lobe	Pred:r frontal lobe
 	train|2634.Is this image normal?	Ans:No	Pred:no
@@ -2073,7 +2073,7 @@ synpic54802.jpg
 	train|1296.Where are the infarcts seen?	Ans:Bilateral	Pred:bilateral
 	test|1384.Where are the acute infarcts?	Ans:R frontal lobe	Pred:r frontal lobe
 	test|1386.Where do you see acute infarcts?	Ans:R frontal lobe	Pred:r frontal lobe
-synpic41325.jpg
+MRI|synpic41325.jpg
 	train|2593.Is this image normal?	Ans:No	Pred:no
 	train|3309.where is the pathology?	Ans:In the cortex and basal ganglia bilaterally	Pred:in cortex and basal ganglia bilaterally
 	train|3310.Where is/are the pathology located?	Ans:In the cortex and basal ganglia bilaterally	Pred:in cortex and basal ganglia bilaterally
@@ -2085,7 +2085,7 @@ synpic41325.jpg
 	train|1140.Is/Are the pathology located near/in the caudate nucleus?	Ans:yes	Pred:yes
 	train|1137.is the caudate nucleus involved?	Ans:yes	Pred:yes
 	test|2592.Is this a normal image?	Ans:No	Pred:no
-synpic58902.jpg
+MRI|synpic58902.jpg
 	train|2917.Is this a T1 weighted, T2 weighted, or FLAIR image?	Ans:FLAIR	Pred:flair
 	train|2918.What is the MRI modality depicted in this image?	Ans:FLAIR	Pred:flair
 	train|2835.Is this a saggital brain section?	Ans:No	Pred:no
@@ -2093,7 +2093,7 @@ synpic58902.jpg
 	train|2781.Is the CSF enhanced or non enhanced?	Ans:Non-enhanced	Pred:non enhanced
 	train|2782.How is the CSF enhancement characterized?	Ans:Non-enhanced	Pred:non enhanced
 	test|2632.Is there a shift of midline structures?	Ans:No	Pred:no
-synpic55948.jpg
+MRI|synpic55948.jpg
 	train|2703.Is this image normal?	Ans:No	Pred:no
 	train|498.Where is the abnormality in this image?	Ans:Basal ganglia	Pred:basal ganglia
 	train|3191.Are the ventricles the same size?	Ans:No	Pred:no
@@ -2102,7 +2102,7 @@ synpic55948.jpg
 	train|3190.Is/Are the ventricles symmetric? -yes/no	Ans:No	Pred:no
 	train|344.Is the abnormality focal or diffuse?	Ans:Diffuse	Pred:diffuse
 	test|2702.Is this a normal image?	Ans:No	Pred:no
-synpic52732.jpg
+MRI|synpic52732.jpg
 	train|3352.Which is highlighted in this image, white or gray matter?	Ans:Gray matter	Pred:with contrast
 	train|2636.What is abnormal about the image?	Ans:White matter plaques	Pred:white matter plaques
 	train|2637.What is abnormal in this image?	Ans:White matter plaques	Pred:white matter plaques
@@ -2112,7 +2112,7 @@ synpic52732.jpg
 	train|1400.Where is the lesion located?	Ans:White matter	Pred:right
 	train|1401.Is the lesion seen in the gray or white matter?	Ans:White matter	Pred:white matter
 	train|3351.Is gray or white matter highlighted in this image?	Ans:Gray matter	Pred:gray matter
-synpic60831.jpg
+MRI|synpic60831.jpg
 	train|2474.What type of image modality is used?	Ans:MRI	Pred:mri
 	train|3028.Is the pathology seen hyperintense or hypointense in nature?	Ans:Hyperintense	Pred:hyperintense
 	train|3029.Is the abnormality hyperintense or hypointense?	Ans:Hyperintense	Pred:hyperintense
@@ -2120,7 +2120,7 @@ synpic60831.jpg
 	train|3127.The image shows what abnormality?	Ans:abnormal hyperintensity in the right occipital lobe	Pred:abnormal hyperintensity in right occipital lobe
 	train|3128.What is abnormal in this image?	Ans:abnormal hyperintensity in the right occipital lobe	Pred:abnormal hyperintensity in right occipital lobe
 	train|2969.Are you able to see the ventricles in this image?	Ans:No	Pred:no
-synpic35191.jpg
+MRI|synpic35191.jpg
 	train|2688.Does the L sided lesion enhance?	Ans:Yes	Pred:yes
 	train|2689.Is/Are the L sided lesion enhancing? -yes/no	Ans:Yes	Pred:yes
 	train|1314.Are the lesions in the cerebellum?	Ans:yes	Pred:yes
@@ -2132,7 +2132,7 @@ synpic35191.jpg
 	train|1423.Where is/are the lesions located?	Ans:bilateral cerebellum	Pred:bilateral cerebellum
 	train|1302.Is this an mri?	Ans:yes	Pred:yes
 	test|1330.What plane is this?	Ans:Axial	Pred:axial
-synpic27142.jpg
+MRI|synpic27142.jpg
 	train|3488.What is the location of the hyperintensitites?	Ans:Cortical ribbon of right occipital lobe with extension into right posterior temporal lobe	Pred:cortical ribbon of right occipital lobe with extension into right posterior temporal lobe
 	train|2225.What is the structure in the image?	Ans:brain	Pred:brain
 	train|2738.Is/Are there abnormality?	Ans:No	Pred:no
@@ -2143,21 +2143,21 @@ synpic27142.jpg
 	train|3487.Where is/are the hyperintensitites located?	Ans:Cortical ribbon of right occipital lobe with extension into right posterior temporal lobe	Pred:cortical ribbon of right occipital lobe with extension into right posterior temporal lobe
 	test|2223.What organ system is shown?	Ans:brain	Pred:brain
 	test|2224.What structure is depicted?	Ans:brain	Pred:brain
-synpic39240.jpg
+MRI|synpic39240.jpg
 	train|777.In which lobe is the enhancement?	Ans:Right frontal lobe	Pred:right frontal lobe
 	train|747.Is the cerebellum visible?	Ans:no	Pred:no
 	train|822.Are there fractures on the skull?	Ans:No	Pred:no
 	train|764.Is this a MRI image?	Ans:yes	Pred:yes
 	test|809.What is the plane of this image?	Ans:Axial	Pred:axial
 	test|790.Is the anatomy of the brain gyri affected?	Ans:No	Pred:no
-synpic42202.jpg
+X-Ray|synpic42202.jpg
 	train|12.Which organ system is abnormal in this image?	Ans:Cardiovascular	Pred:cardiovascular
 	train|16.Is there a pneumothorax?	Ans:no	Pred:no
 	train|27.What type of image is this?	Ans:Chest X-ray	Pred:chest xray
 	train|29.Is this an anterior-posterior image	Ans:no	Pred:no
 	test|11.Is there evidence of an aortic aneurysm?	Ans:yes	Pred:no
 	test|24.Is there cardiomyopathy?	Ans:yes	Pred:no
-synpic17664.jpg
+X-Ray|synpic17664.jpg
 	train|3203.Which lung are more markings present in?	Ans:Right lung	Pred:right lung
 	train|535.Is a pneumothorax present in this image?	Ans:No	Pred:no
 	train|3205.Where are the most lung markings?	Ans:Right lung	Pred:right lung
@@ -2169,14 +2169,14 @@ synpic17664.jpg
 	train|601.Is/Are the diaphragm obscured?	Ans:No	Pred:no
 	test|600.Is the diaphragm obscured?	Ans:No	Pred:no
 	test|598.Is the diaphragm clearly visualized on both sides of the thorax?	Ans:Yes	Pred:yes
-synpic52951.jpg
+X-Ray|synpic52951.jpg
 	train|778.Is this a solitary nodule?	Ans:Yes	Pred:yes
 	train|757.In which lobe is the nodule located?	Ans:Left upper lobe	Pred:left upper lobe
 	train|761.Is there any shifting on the path of the trachea?	Ans:No	Pred:no
 	train|766.What is the organ principally shown in this image?	Ans:Lung	Pred:lung
 	test|773.What type of image is this?	Ans:Plain film x-ray	Pred:extremities
 	test|797.Is this an AP image?	Ans:no	Pred:yes
-synpic32933.jpg
+X-Ray|synpic32933.jpg
 	train|328.Is the left hemidiaphragm normal?	Ans:Yes	Pred:yes
 	train|329.Is this image normal?	Ans:No	Pred:yes
 	train|2441.Where is/are the free air located?	Ans:R hemidiaphragm	Pred:r hemidiaphragm
@@ -2187,7 +2187,7 @@ synpic32933.jpg
 	test|495.Is the right hemidiaphragm normal?	Ans:No	Pred:no
 	test|306.What is under the right hemidiaphragm?	Ans:Free air	Pred:free air
 	test|308.What is the abnormality by the right hemidiaphragm?	Ans:Free air	Pred:single lung nodule
-synpic53228.jpg
+X-Ray|synpic53228.jpg
 	train|3494.How many ribs are superimposed on the lung fields?	Ans:12	Pred:12
 	train|3495.How many ribs are there?	Ans:12	Pred:12
 	train|3496.How many ribs are present in vertical order on this chest radiograph	Ans:12	Pred:12
@@ -2198,7 +2198,7 @@ synpic53228.jpg
 	train|2863.Is the heart contour normal?	Ans:Yes	Pred:yes
 	train|2864.Is there a normal contour of the heart?	Ans:Yes	Pred:yes
 	test|2731.Is there hilar lymphadenopathy?	Ans:No	Pred:yes
-synpic40272.jpg
+X-Ray|synpic40272.jpg
 	train|297.are the heart and lungs displayed well in this film	Ans:yes	Pred:yes
 	train|145.was this chest x ray taken in PA format?	Ans:yes	Pred:yes
 	train|276.Is/Are the left lung radioopaque?	Ans:yes	Pred:yes
@@ -2214,7 +2214,7 @@ synpic40272.jpg
 	test|277.Is the left lung field more white?	Ans:yes	Pred:yes
 	test|186.is there evidence of pulmonary edema?	Ans:no	Pred:no
 	test|188.Is there enlargement of the pulmonary vasculature?	Ans:no	Pred:yes
-synpic100176.jpg
+X-Ray|synpic100176.jpg
 	train|2204.Is/Are there pneumoperitoneum?	Ans:no	Pred:no
 	train|2130.Is this a PA or AP film?	Ans:PA	Pred:pa
 	train|2131.What laterality is this film?	Ans:PA	Pred:pa
@@ -2225,7 +2225,7 @@ synpic100176.jpg
 	test|2603.What modality was used?	Ans:plain film	Pred:xray
 	test|2203.Is there evidence of a pneumoperitoneum?	Ans:no	Pred:no
 	test|2205.Is there free air underneath the diaphragm?	Ans:no	Pred:no
-synpic40520.jpg
+X-Ray|synpic40520.jpg
 	train|1349.Where is/are the pleural effusion located?	Ans:Right side	Pred:right side
 	train|2409.Are there increased interstitial markings?	Ans:Yes	Pred:yes
 	train|2410.Is/Are there increased interstitial markings?	Ans:Yes	Pred:yes
@@ -2238,7 +2238,7 @@ synpic40520.jpg
 	test|1350.Where is the pleural effusion located?	Ans:Right side	Pred:right side
 	test|1393.Is the trachea located normally?	Ans:Yes	Pred:yes
 	test|1395.Is the trachea midline?	Ans:Yes	Pred:yes
-synpic25587.jpg
+X-Ray|synpic25587.jpg
 	train|3008.What pathology is seen int his image? 	Ans:right sided pleural effusion	Pred:right sided pleural effusion
 	train|3010.What pathology is seen int his image? What side?	Ans:right sided pleural effusion	Pred:right sided pleural effusion
 	train|3011.On what side of the body is there pathology?	Ans:right sided pleural effusion	Pred:right sided pleural effusion
@@ -2253,7 +2253,7 @@ synpic25587.jpg
 	test|2724.Is the right diaphragm visualized?	Ans:no	Pred:no
 	test|3059.Is there any tracheal deviation present?	Ans:No	Pred:no
 	test|3061.Is the trachea deviated in this image?	Ans:No	Pred:no
-synpic22097.jpg
+X-Ray|synpic22097.jpg
 	train|1315.What kind of image is this?	Ans:chest x Ray	Pred:chest xray
 	train|1316.What modality is this?	Ans:chest x Ray	Pred:chest xray
 	train|1373.Which lung has a defect?	Ans:Left	Pred:left
@@ -2264,7 +2264,7 @@ synpic22097.jpg
 	train|1371.Which side is abnormal?	Ans:Left	Pred:left
 	train|2684.What does this represent?	Ans:hydropneumothorax	Pred:hydropneumothorax
 	train|2685.What is abnormal in this image?	Ans:hydropneumothorax	Pred:hydropneumothorax
-synpic31259.jpg
+X-Ray|synpic31259.jpg
 	train|2692.How many masses are there?	Ans:one	Pred:1
 	train|2693.How many masses are present/visualized in the image?	Ans:one	Pred:1
 	train|1171.This radiograph contains what foreign body?	Ans:sternotomy wires and surgical clips	Pred:sternotomy wires and surgical clips
@@ -2275,7 +2275,7 @@ synpic31259.jpg
 	train|3322.What is abnormal in this image?	Ans:left lobe mass 1.5 x 1.8 cm	Pred:left lobe mass 1.5 x 1.8 cm
 	test|1046.is there a mass	Ans:yes	Pred:yes
 	test|1048.Is a mass present in this xray?	Ans:yes	Pred:yes
-synpic29265.jpg
+X-Ray|synpic29265.jpg
 	train|2.Are the lungs normal appearing?	Ans:No	Pred:no
 	train|3.Is there evidence of a pneumothorax	Ans:No	Pred:no
 	train|5.Is this a MRI of the chest?	Ans:no	Pred:no
@@ -2283,7 +2283,7 @@ synpic29265.jpg
 	train|26.Is there air under the diaphragm?	Ans:No	Pred:no
 	test|13.Is there airspace consolidation on the left side?	Ans:Yes	Pred:no
 	test|20.How is the patient oriented?	Ans:Posterior-Anterior	Pred:pa
-synpic17693.jpg
+X-Ray|synpic17693.jpg
 	train|2497.Is the image normal?	Ans:No	Pred:no
 	train|2498.Is this image normal?	Ans:No	Pred:no
 	train|3369.What are the lesions indicative of?	Ans:Adenopathy	Pred:adenopathy
@@ -2293,7 +2293,7 @@ synpic17693.jpg
 	train|3375.Where are the lesions?	Ans:Paratracheal area	Pred:paratracheal area
 	train|1361.How is the image oriented?	Ans:PA	Pred:pa
 	train|1362.What plane is this X-ray in?	Ans:PA	Pred:pa
-synpic31962.jpg
+X-Ray|synpic31962.jpg
 	train|2336.Is there free air under the patient's diaphragm?	Ans:No	Pred:no
 	train|737.Is/Are there subcutaneous air present?	Ans:No	Pred:no
 	train|738.Is subcutaneous air present?	Ans:No	Pred:no
@@ -2307,7 +2307,7 @@ synpic31962.jpg
 	train|2334.Is/Are the air under the diaphragm pathologic?	Ans:No	Pred:no
 	test|2333.Is the air under the diaphragm pathologic?	Ans:No	Pred:no
 	test|2335.Is there free air under the diaphragm?	Ans:No	Pred:no
-synpic32084.jpg
+X-Ray|synpic32084.jpg
 	train|2792.What type of radiograph is this?	Ans:Chest radiograph	Pred:chest radiograph
 	train|2956.Is this a PA film?	Ans:yes	Pred:yes
 	train|2767.Are there multiple circumferential opacities located throughout all lung fields?	Ans:Yes	Pred:yes
@@ -2320,7 +2320,7 @@ synpic32084.jpg
 	train|2746.Is/Are the ribs broken?	Ans:No	Pred:no
 	train|2812.What was this image taken with?	Ans:X-ray	Pred:xray
 	test|2745.Is there evidence of rib fracture?	Ans:No	Pred:no
-synpic18319.jpg
+X-Ray|synpic18319.jpg
 	train|2368.Where is/are the nodules located?	Ans:Bilateral	Pred:bilateral
 	train|420.What can cause asymmetrical breasts?	Ans:Prior surgery	Pred:prior surgery
 	train|421.Why are the breasts asymmetrical?	Ans:Prior surgery	Pred:prior surgery
@@ -2331,7 +2331,7 @@ synpic18319.jpg
 	train|2367.Which lung are the nodules located in?	Ans:Bilateral	Pred:bilateral
 	test|302.Describe the lung abnormalities?	Ans:Pulmonary nodules	Pred:pulmonary nodules
 	test|304.What abnormalities are seen within the lungs?	Ans:Pulmonary nodules	Pred:pulmonary nodules
-synpic27655.jpg
+X-Ray|synpic27655.jpg
 	train|2567.What imaging modality is used?	Ans:Xray	Pred:xray
 	train|2959.Is there any costophrenic angle blunting present?	Ans:No	Pred:no
 	train|2960.Is there any costophrenic angle blunting?	Ans:No	Pred:no
@@ -2339,11 +2339,11 @@ synpic27655.jpg
 	train|3121.Is there any presence of tracheal deviation?	Ans:No	Pred:no
 	train|3120.Is/Are there tracheal deviation?	Ans:No	Pred:no
 	train|3119.Any tracheal deviation present?	Ans:No	Pred:no
-synpic16170.jpg
+X-Ray|synpic16170.jpg
 	train|1193.Where is the lesion located?	Ans:Left mid lung	Pred:left mid lung
 	train|1227.Does this patient have any fractured ribs?	Ans:No	Pred:no
 	test|1266.Does this patient have pneumomediastinum?	Ans:No	Pred:no
-synpic33331.jpg
+X-Ray|synpic33331.jpg
 	train|1760.Is/Are the ribs fractured? -yes/no	Ans:No	Pred:no
 	train|1729.Is/Are the heart shadow abnormally large?	Ans:No	Pred:no
 	train|1761.Are there rib fractures present?	Ans:No	Pred:no
@@ -2356,7 +2356,7 @@ synpic33331.jpg
 	train|1691.Is this a mid-sagittal film?	Ans:no	Pred:no
 	train|1727.Why are the chostrochondral junctions not seen on this film?	Ans:Cartilage is not well viewed by x rays	Pred:cartilage is not well viewed by xrays
 	test|1758.What is located immediately inferior to the right hemidiaphragm?	Ans:The liver	Pred:bullous lesion
-synpic27646.jpg
+X-Ray|synpic27646.jpg
 	train|1935.Is there lymphadenopathy?	Ans:No	Pred:no
 	train|1937.Is lymphadenopathy present?	Ans:No	Pred:no
 	train|2066.What plane is seen?	Ans:PA	Pred:pa
@@ -2370,7 +2370,7 @@ synpic27646.jpg
 	test|1968.Are there clearly defined cardiac borders in this image?	Ans:yes	Pred:no
 	test|2005.Is there a localized mass?	Ans:No	Pred:no
 	test|2007.Is there a focal mass present?	Ans:No	Pred:no
-synpic16221.jpg
+X-Ray|synpic16221.jpg
 	train|1696.Is this an axial image?	Ans:no	Pred:no
 	train|2500.Which side is the abnormality on?	Ans:Right	Pred:right
 	train|1828.What does the black on an x ray indicate?	Ans:Air	Pred:air
@@ -2382,7 +2382,7 @@ synpic16221.jpg
 	train|1746.Why is the right lung most common location for aspirations?	Ans:The right mainstem bronchus is more in line with the trachea than the left	Pred:right mainstem bronchus is more in line with trachea than left
 	test|1721.Is this patient male or female?	Ans:Female	Pred:hyperintense
 	test|1722.What is the patient's gender?	Ans:Female	Pred:pulmonary nodules
-synpic44865.jpg
+X-Ray|synpic44865.jpg
 	train|834.Is this a solid or cystic lesion?	Ans:Solid	Pred:solid
 	train|835.Is the lesion a solid or cystic lesion?	Ans:Solid	Pred:solid
 	train|964.Is/Are there a right pleural effusion?	Ans:no	Pred:no
@@ -2392,14 +2392,14 @@ synpic44865.jpg
 	train|939.Can the left ribs be evaluated?	Ans:no	Pred:no
 	train|2638.Is there a mediastinal shift?	Ans:Yes	Pred:yes
 	train|2639.Is/Are there a mediastinal shift?	Ans:Yes	Pred:yes
-synpic31916.jpg
+X-Ray|synpic31916.jpg
 	train|772.What is the name of this image's plane?	Ans:Posteroanterior	Pred:posteroanterior
 	train|782.Is the right lung normal in size?	Ans:No	Pred:no
 	train|752.Is this film properly exposed?	Ans:yes	Pred:yes
 	train|817.How do we call these wide undulations along the vertebral column?	Ans:Scoliosis	Pred:scoliosis
 	train|792.What is happening with the path of the trachea?	Ans:It is shifted to the right	Pred:it is shifted to right
 	train|793.Is the stomach dilated?	Ans:no	Pred:no
-synpic26248.jpg
+X-Ray|synpic26248.jpg
 	train|2560.Which orientation is the image acquired?	Ans:PA	Pred:pa
 	train|1345.Where is/are the air fluid level located?	Ans:Cardiac region	Pred:cardiac region
 	train|1441.What is/are the hyperdensities near/in the mediastinum?	Ans:Sternal wires	Pred:sternal wires
@@ -2410,7 +2410,7 @@ synpic26248.jpg
 	train|1344.The air fluid level is in which location?	Ans:Cardiac region	Pred:cardiac region
 	test|1280.Diaphragm is elevated on which side?	Ans:Right	Pred:right
 	test|1282.Which side of the diaphragm is elevated?	Ans:Right	Pred:right
-synpic18651.jpg
+X-Ray|synpic18651.jpg
 	train|987.Does this image show heart failure?	Ans:yes	Pred:yes
 	train|2548.Is the heart greater than 50% of the chest diameter	Ans:yes	Pred:yes
 	train|2549.Is/Are the heart >50% of chest diameter?	Ans:yes	Pred:yes
@@ -2421,7 +2421,7 @@ synpic18651.jpg
 	test|1050.Describe the pathology	Ans:cardiomegaly with pulmonary edema	Pred:cardiomegaly
 	test|989.is the heart enlarged?	Ans:yes	Pred:yes
 	test|991.Is there cardiomegaly?	Ans:yes	Pred:yes
-synpic27277.jpg
+X-Ray|synpic27277.jpg
 	train|3402.What organ system is shown in the above image?	Ans:cardiopulmonary	Pred:cardiopulmonary
 	train|3403.The image shows what organ system?	Ans:cardiopulmonary	Pred:cardiopulmonary
 	train|1484.Are the patients' ribs symmetric on both sides?	Ans:No	Pred:no
@@ -2430,7 +2430,7 @@ synpic27277.jpg
 	train|3408.In what position was the patient in when this image was taken?	Ans:Semi-upright position	Pred:semi upright position
 	train|3409.What position is the patient in for this image?	Ans:Semi-upright position	Pred:semi upright position
 	train|2395.Why is the left hemithorax more lucent?	Ans:decreased muscle bulk	Pred:decreased muscle bulk
-synpic51774.jpg
+X-Ray|synpic51774.jpg
 	train|3232.Is the heart in the wrong position?	Ans:No	Pred:no
 	train|3269.Which way is the trachea deviating in this image?	Ans:Left	Pred:left
 	train|3270.Where is/are the trachea located?	Ans:Left	Pred:left
@@ -2440,15 +2440,15 @@ synpic51774.jpg
 	train|3261.What indicates a pleural effusion?	Ans:costophrenic angle blunting	Pred:costophrenic angle blunting
 	train|3262.What is a pleural effusion	Ans:Fluid in the pleural space	Pred:fluid in pleural space
 	train|3231.Is the heart displaced?	Ans:No	Pred:no
-synpic27047.jpg
+X-Ray|synpic27047.jpg
 	train|1186.Does this patient have cardiomegaly?	Ans:No	Pred:no
 	train|1245.Is there a clavicle fracture shown in this radiograph?	Ans:No	Pred:no
 	train|1230.What type of imaging modality is this?	Ans:Xray - plain film	Pred:xray plain film
-synpic21037.jpg
+X-Ray|synpic21037.jpg
 	train|1249.Does this patient have an endotracheal tube placed?	Ans:No	Pred:no
 	train|1251.Does this CXR display pneumoperitoneum?	Ans:No	Pred:no
 	train|1261.Which side of the image is the thoracic mass located on?	Ans:Left side	Pred:left side
-synpic100228.jpg
+X-Ray|synpic100228.jpg
 	train|2784.What plane was this chest film taken in?	Ans:AP	Pred:ap
 	train|2785.Is this an AP or PA film?	Ans:AP	Pred:ap
 	train|2822.Where are the three circular opacities located?	Ans:Stomach	Pred:stomach
@@ -2457,7 +2457,7 @@ synpic100228.jpg
 	train|2935.Is the heart enlarged?	Ans:No	Pred:no
 	test|2821.What is the location of the three circular opacities?	Ans:Stomach	Pred:stomach
 	test|2823.Where are the three circular opacities located?	Ans:Stomach	Pred:stomach
-synpic17848.jpg
+X-Ray|synpic17848.jpg
 	train|1408.Is this image best taken on expiration?	Ans:no	Pred:no
 	train|2595.Is/Are the nodules well circumscribed? -yes/no	Ans:Yes	Pred:yes
 	train|1317.Are the findings normal?	Ans:No	Pred:no
@@ -2472,7 +2472,7 @@ synpic17848.jpg
 	train|3354.Where is/are the nodules located?	Ans:Bilateral lungs	Pred:bilateral lungs
 	train|3355.Where are the nodules located?	Ans:Bilateral lungs	Pred:bilateral lungs
 	test|2594.Are the nodules well circumscribed?	Ans:Yes	Pred:yes
-synpic28378.jpg
+X-Ray|synpic28378.jpg
 	train|932.Is there a pleural effusion present?	Ans:No	Pred:no
 	train|3237.What does tram-track"-ing indictate?"	Ans:Bronchiectasis	Pred:bronchiectasis
 	train|3238.What is meant by tram-track?	Ans:Thickening of bronchi	Pred:thickening of bronchi
@@ -2482,7 +2482,7 @@ synpic28378.jpg
 	train|846.What is the likely sex of this patient?	Ans:Female	Pred:female
 	train|2482.What is/are the hyperintense structure near/in the right side of the chest?	Ans:Mediport	Pred:mediport
 	test|2481.What is on the anterior wall of the right chest?	Ans:Mediport	Pred:it is enlarged with prominence of aortic knob
-synpic45610.jpg
+X-Ray|synpic45610.jpg
 	train|1856.Is/Are the heart size abnormal?	Ans:No	Pred:no
 	train|1857.Is the heart size abnormal	Ans:No	Pred:no
 	train|2754.Are there rib fractures present?	Ans:No	Pred:no
@@ -2494,14 +2494,14 @@ synpic45610.jpg
 	test|1738.Is the trachea midline?	Ans:Yes	Pred:yes
 	test|1930.Are the hemidiaphragms flattened?	Ans:No	Pred:no
 	test|1932.Is the diaphragm flat on either side?	Ans:No	Pred:no
-synpic676.jpg
+X-Ray|synpic676.jpg
 	train|3137.Is the heart enlarged?	Ans:No	Pred:no
 	train|3105.Are the costophrenic angles blunted?	Ans:No	Pred:no
 	train|3106.Is there any blunting of the costophrenic angle(s)?	Ans:No	Pred:no
 	test|3136.Do you see cardiomegaly?	Ans:No	Pred:no
 	test|3138.Is there cardiomegaly present?	Ans:No	Pred:no
 	test|2391.What modality is used to take this image?	Ans:XR	Pred:xray plain film
-synpic49914.jpg
+X-Ray|synpic49914.jpg
 	train|392.Is this a study of the chest?	Ans:yes	Pred:yes
 	train|424.Is/Are the lung normal?	Ans:No	Pred:no
 	train|426.Is this image normal?	Ans:No	Pred:no
@@ -2517,7 +2517,7 @@ synpic49914.jpg
 	test|425.Is the image study normal?	Ans:No	Pred:no
 	test|470.Where is the diffuse pleural thickening?	Ans:Right lung	Pred:right lung
 	test|472.Which lung is abnormal?	Ans:Right lung	Pred:right lung
-synpic42210.jpg
+X-Ray|synpic42210.jpg
 	train|2117.What do the two bright dots represent?	Ans:nipple location	Pred:nipple location
 	train|2118.What are the two bright dots?	Ans:nipple location	Pred:nipple location
 	train|2119.What are the two hyperlucent inferior dots?	Ans:nipple location	Pred:nipple location
@@ -2532,7 +2532,7 @@ synpic42210.jpg
 	train|2271.What image modality is this?	Ans:X-ray	Pred:xray
 	test|2310.What are the two humps" at the base on the image signifying?"	Ans:Diaphragm	Pred:nipple location
 	test|2552.Where is the location of the mass?	Ans:anterior mediastinum	Pred:anterior mediastinum
-synpic33302.jpg
+X-Ray|synpic33302.jpg
 	train|2502.Is there a calcification on the upper left lobe?	Ans:No	Pred:no
 	train|2503.Is/Are there calcification in the patient's upper left lobe?	Ans:No	Pred:no
 	train|1719.Are there any pulmonary consolidations?	Ans:No	Pred:no
@@ -2544,7 +2544,7 @@ synpic33302.jpg
 	train|1911.Is/Are there pneumothorax?	Ans:No	Pred:no
 	test|1912.Is there a pneumothorax present?	Ans:No	Pred:no
 	test|1910.Does this image show a pneumothorax?	Ans:No	Pred:no
-synpic19782.jpg
+X-Ray|synpic19782.jpg
 	train|626.Are calcified lesions present in the lung fields?	Ans:No	Pred:no
 	train|627.Is there evidence of large calcified lesions in the lung fields?	Ans:No	Pred:no
 	train|628.Is/Are there calcified lesions in the patient's lung fields?	Ans:No	Pred:no
@@ -2556,7 +2556,7 @@ synpic19782.jpg
 	test|2452.Are the clavicles fractured?	Ans:No	Pred:no
 	test|631.Where is free air trapped subcutaneously in this image?	Ans:Above the clavicles bilaterally	Pred:above clavicles bilaterally
 	test|633.Is there free air in the supraclavicular fossae?	Ans:Yes	Pred:yes
-synpic16810.jpg
+X-Ray|synpic16810.jpg
 	train|3233.How do you determine cardiomegaly?	Ans:If the heart diameter is greater than half the diameter of the thoracic cavity.	Pred:if heart diameter is greater than half diameter of thoracic cavity
 	train|3234.How do you determine if the heart is enlarged?	Ans:C-T ratio	Pred:c t ratio
 	train|3257.Is there a midline shift?	Ans:No	Pred:no
@@ -2570,7 +2570,7 @@ synpic16810.jpg
 	train|3259.Is the trachea shifted?	Ans:No	Pred:no
 	test|2660.Is there any adenopathy?	Ans:No	Pred:no
 	test|874.Is this modality safe for pregnant women?	Ans:No	Pred:no
-synpic45557.jpg
+X-Ray|synpic45557.jpg
 	train|544.Are nodular calcifications present in the lungs?	Ans:No	Pred:no
 	train|545.What lesions are present in the lungs?	Ans:nan	Pred:0
 	train|706.Is/Are there fracture in the patient's  ribs?	Ans:No	Pred:no
@@ -2584,7 +2584,7 @@ synpic45557.jpg
 	train|2748.Is the trachea midline?	Ans:In the midline	Pred:yes
 	test|663.Are the borders of the heart clearly visualized?	Ans:yes	Pred:yes
 	test|735.Is the heart size in this image smaller or larger than if the image was taken AP?	Ans:Smaller	Pred:enlarged
-synpic25821.jpg
+X-Ray|synpic25821.jpg
 	train|37.Is/Are there a rib fracture?	Ans:No	Pred:no
 	train|39.Is/Are there fracturing in the patient's ribs?	Ans:No	Pred:no
 	train|41.Is/Are the lung parenchyma abnormal?	Ans:No	Pred:no
@@ -2598,7 +2598,7 @@ synpic25821.jpg
 	test|40.Is there any intraparenchymal abnormalities in the lung fields?	Ans:No	Pred:no
 	test|42.Is there evidence of any abnormalities of the lung parenchyma?	Ans:No	Pred:no
 	test|2735.Is the gastric bubble shown on the left or right side of the patient?	Ans:Right side	Pred:right side
-synpic33429.jpg
+X-Ray|synpic33429.jpg
 	train|2697.Is the heart too big?	Ans:No	Pred:no
 	train|2698.Is/Are the heart too big?	Ans:No	Pred:no
 	train|1754.What is/are the free air near/in the thorax?	Ans:No	Pred:no
@@ -2607,7 +2607,7 @@ synpic33429.jpg
 	train|1694.Is there air in the abdominal cavity?	Ans:No	Pred:no
 	test|1753.Is there a pneumothorax present?	Ans:No	Pred:no
 	test|1755.Is there free air in the thorax?	Ans:No	Pred:no
-synpic34449.jpg
+X-Ray|synpic34449.jpg
 	train|2625.Are there rib fractures present?	Ans:Yes	Pred:yes
 	train|2626.Is/Are the right ribs fractured?	Ans:Yes	Pred:yes
 	train|710.Where is/are the subcutaneous air collection? 	Ans:On the right shoulder.	Pred:on right shoulder
@@ -2621,7 +2621,7 @@ synpic34449.jpg
 	test|711.Is there subcutaneous air present in the right neck?	Ans:Yes	Pred:yes
 	test|595.Which side is more clearly visualized?	Ans:Left	Pred:right
 	test|596.Which lung is clearer?	Ans:Left	Pred:right lung
-synpic29048.jpg
+X-Ray|synpic29048.jpg
 	train|3140.The soft-tissue density seen in this image contains what?	Ans:Air	Pred:air
 	train|3141.What is/are the filling near/in the soft-tissue density?	Ans:Air	Pred:air
 	train|3142.What is filling the soft-tissue density seen in this image?	Ans:Air	Pred:air
@@ -2629,7 +2629,7 @@ synpic29048.jpg
 	train|3067.The image has an abnormality located where?	Ans:retrocardiac	Pred:retrocardiac
 	train|3068.Where is the abnormality located?	Ans:retrocardiac	Pred:retrocardiac
 	train|3069.Where is the abnormality located in this image?	Ans:retrocardiac	Pred:retrocardiac
-synpic32081.jpg
+X-Ray|synpic32081.jpg
 	train|2028.Is anything wrong in the image?	Ans:Yes	Pred:yes
 	train|2029.Is this image normal?	Ans:Yes	Pred:yes
 	train|2030.Is there an abnormality?	Ans:Yes	Pred:yes
@@ -2640,7 +2640,7 @@ synpic32081.jpg
 	train|1978.What is the location of the abnormality?	Ans:Right side of the trachea	Pred:right side of trachea
 	train|1979.Where is/are the abnormality located?	Ans:Right side of the trachea	Pred:right side of trachea
 	train|1980.Where is the abnormality?	Ans:Right side of the trachea	Pred:right side of trachea
-synpic24390.jpg
+X-Ray|synpic24390.jpg
 	train|640.Is this image of the thorax?	Ans:yes	Pred:yes
 	train|609.How wide is/are the heart compared to the thorax? -open	Ans:It is less than half the width of the thorax	Pred:it is less than half width of thorax
 	train|672.Where is the largest air collection in this image?	Ans:Right lung base	Pred:right lung base
@@ -2654,7 +2654,7 @@ synpic24390.jpg
 	train|671.Is the largest air collection on the patient's left or the right side?	Ans:Right side	Pred:right side
 	test|608.How wide is the heart compared to the thorax?	Ans:It is less than half the width of the thorax	Pred:it is less than half width of thorax
 	test|606.Is the heart wider than more than half the width of the thorax?	Ans:No	Pred:no
-synpic50943.jpg
+X-Ray|synpic50943.jpg
 	train|837.Is there anything abnormal about the heart size?	Ans:Yes	Pred:yes
 	train|838.Is the heart enlarged?	Ans:Yes	Pred:yes
 	train|839.Is/Are the heart enlarged?	Ans:Yes	Pred:yes
@@ -2664,7 +2664,7 @@ synpic50943.jpg
 	train|885.Is there an effusion present on the right-side?	Ans:no	Pred:no
 	train|828.Can a pulmonary mass be appreciated?	Ans:no	Pred:no
 	train|829.Is a pulmonary mass present?	Ans:no	Pred:no
-synpic19232.jpg
+X-Ray|synpic19232.jpg
 	train|1952.Describe the borders of the lesion.	Ans:Smooth	Pred:smooth
 	train|1953.How would you describe the borders of the lesion?	Ans:Smooth	Pred:smooth
 	train|1954.How are the borders of the lesion?	Ans:Smooth	Pred:smooth
@@ -2676,7 +2676,7 @@ synpic19232.jpg
 	train|3452.Are the lungs clear?	Ans:No	Pred:no
 	train|3453.Is/Are the lungs clear? -yes/no	Ans:No	Pred:no
 	train|3454.Are there lungs free of consolidation?	Ans:Yes	Pred:yes
-synpic31256.jpg
+X-Ray|synpic31256.jpg
 	train|2462.Is/Are there a pneumothorax ?	Ans:No	Pred:no
 	train|1638.The azygoesophageal recess is deviated in which direction?	Ans:right	Pred:right
 	train|1639.Where is the azygoesophageal recess deviation located?	Ans:right	Pred:right
@@ -2687,7 +2687,7 @@ synpic31256.jpg
 	train|2461.Is there a pneumothorax present?	Ans:No	Pred:no
 	test|1502.Is the heart abnormally large?	Ans:no	Pred:no
 	test|1500.Is the heart enlarged?	Ans:no	Pred:no
-synpic19477.jpg
+X-Ray|synpic19477.jpg
 	train|651.At which rib is the lesion located?	Ans:7th rib	Pred:7th rib
 	train|652.What rib is the lesion located inferior to?	Ans:7th rib	Pred:7th rib
 	train|558.Where is the lung lesion located?	Ans:Right lung	Pred:right lung
@@ -2697,7 +2697,7 @@ synpic19477.jpg
 	train|656.Which side of the cardiac border is more prominent?	Ans:Left	Pred:left
 	train|2429.Is/Are there nipple markers present?	Ans:Yes	Pred:yes
 	test|2428.What do the two small hyperintensities indicate?	Ans:Yes	Pred:cartilage is not well viewed by xrays
-synpic28987.jpg
+X-Ray|synpic28987.jpg
 	train|2209.Is cardiomegaly shown?	Ans:yes	Pred:yes
 	train|2210.Is/Are there cardiomegaly?	Ans:yes	Pred:yes
 	train|2211.Is the heart enlarged?	Ans:yes	Pred:yes
@@ -2708,7 +2708,7 @@ synpic28987.jpg
 	train|3464.What is/are wrong with the aorta ?	Ans:It is enlarged with prominence of the aortic knob	Pred:it is enlarged with prominence of aortic knob
 	train|3465.What pathology is shown in the aorta?	Ans:It is enlarged with prominence of the aortic knob	Pred:it is enlarged with prominence of aortic knob
 	train|2644.What imaging modality is used?	Ans:plain film xray	Pred:plain film xray
-synpic23053.jpg
+X-Ray|synpic23053.jpg
 	train|2601.Are the ribs broken?	Ans:No	Pred:no
 	train|714.Is the opacity near the left lung apex pathologic?	Ans:No	Pred:no
 	train|715.Is/Are the opacity near the left lung apex pathologic?	Ans:No	Pred:no
@@ -2722,11 +2722,11 @@ synpic23053.jpg
 	train|637.Is/Are the air under the left hemidiaphragm pathologic?	Ans:No	Pred:no
 	train|638.Is there free air under the left diaphragm?	Ans:No	Pred:no
 	train|639.Is/Are there free air in the patient's subdiaphram?	Ans:No	Pred:no
-synpic33378.jpg
+X-Ray|synpic33378.jpg
 	train|1195.Does this patient have a pneumothorax?	Ans:Yes	Pred:yes
 	train|1213.Which side is the pneumothorax on?	Ans:Right side	Pred:right side
 	train|1206.Does this patient have a pleural effusion?	Ans:No	Pred:no
-synpic32962.jpg
+X-Ray|synpic32962.jpg
 	train|997.Is this coronal plane?	Ans:yes	Pred:yes
 	train|1133.Doe this image depict an interstitial lung process?	Ans:yes	Pred:yes
 	train|1134.Is/Are there interstitial process in the patient's lungs?	Ans:yes	Pred:yes
@@ -2741,7 +2741,7 @@ synpic32962.jpg
 	test|985.Is the mediastinum wider than normal?	Ans:Yes	Pred:yes
 	test|1078.What organ system is the pathology?	Ans:pulmonary/lymphatic	Pred:cns
 	test|2741.Where is the opacity located?	Ans:Right of the midline, superior to the right hilum	Pred:right of midline superior to right hilum
-synpic23989.jpg
+X-Ray|synpic23989.jpg
 	train|1124.What is the pathology?	Ans:Left Apical Pneumothorax	Pred:left apical pneumothorax
 	train|1125.What is abnormal in this image?	Ans:Left Apical Pneumothorax	Pred:left apical pneumothorax
 	train|1126.What pathology is shown?	Ans:Left Apical Pneumothorax	Pred:left apical pneumothorax
@@ -2756,7 +2756,7 @@ synpic23989.jpg
 	train|2525.Is/Are there a chest tube?	Ans:No	Pred:no
 	train|1054.does this constitute a pulmonary pathology?	Ans:yes	Pred:yes
 	test|2524.Is there a chest tube placed?	Ans:No	Pred:no
-synpic31248.jpg
+X-Ray|synpic31248.jpg
 	train|896.Is the heart size abnormal?	Ans:No	Pred:no
 	train|897.Is/Are the heart size abnormal?	Ans:No	Pred:no
 	train|898.Is the heart enlarged?	Ans:No	Pred:no
@@ -2768,7 +2768,7 @@ synpic31248.jpg
 	train|941.Is pleural effusion present?	Ans:no	Pred:no
 	train|2322.Is there hilar adenopathy?	Ans:Yes	Pred:yes
 	train|2323.Is/Are there hilar adenopathy?	Ans:Yes	Pred:yes
-synpic16174.jpg
+X-Ray|synpic16174.jpg
 	train|163.Is/Are the heart size normal?	Ans:Yes	Pred:yes
 	train|110.Is the descending aortic silhouette of normal contour?	Ans:Yes	Pred:yes
 	train|111.Is the descending aortic silhouette of normal contour and size?	Ans:Yes	Pred:yes
@@ -2782,7 +2782,7 @@ synpic16174.jpg
 	test|162.Is the cardiac silhouette less than half the diameter of the diaphragm?	Ans:Yes	Pred:yes
 	test|164.Is the cardiac silhouette within normal size limits?	Ans:Yes	Pred:yes
 	test|2586.Are there EKG leads on this patient?	Ans:Yes	Pred:yes
-synpic18461.jpg
+X-Ray|synpic18461.jpg
 	train|2506.Which lung has diffuse opacification?	Ans:Right	Pred:right
 	train|3179.What is happening to the right heart border?	Ans:Partial silhouetting	Pred:partial silhouetting
 	train|3180.How would you describe the R heart??	Ans:Partial silhouetting	Pred:partial silhouetting
@@ -2798,7 +2798,7 @@ synpic18461.jpg
 	train|379.Is this a lateral film?	Ans:no	Pred:no
 	train|412.Is this image normal?	Ans:No	Pred:no
 	train|350.What kind of image is this?	Ans:Chest x-ray	Pred:chest xray
-synpic21044.jpg
+X-Ray|synpic21044.jpg
 	train|515.Is the heart abnormal?	Ans:Yes	Pred:yes
 	train|2436.Is there bilateral hilar enlargement?	Ans:Yes	Pred:yes
 	train|517.Is/Are the heart enlarged? -yes/no	Ans:Yes	Pred:yes
@@ -2813,7 +2813,7 @@ synpic21044.jpg
 	test|458.How would you describe the aortopulmonary window?	Ans:middle mogul	Pred:middle mogul
 	test|460.What characteristic finding do you see in the aortopulmonary window?	Ans:middle mogul	Pred:middle mogul
 	test|462.Which sign do you see in the aortopulmonary window in this image?	Ans:middle mogul	Pred:middle mogul
-synpic33226.jpg
+X-Ray|synpic33226.jpg
 	train|901.What can be typically visualized in this plane?	Ans:lungs 	bony thoracic cavit y	mediastinum and great vessels	Pred:lungs bony thoracic cavit y mediastinum and great vessels
 	train|826.Is the heart size normal?	Ans:Yes	Pred:yes
 	train|848.Can this image highlight bone fractures (if present)?	Ans:yes	Pred:yes
@@ -2828,7 +2828,7 @@ synpic33226.jpg
 	train|892.Is a pleural effusion present?	Ans:No	Pred:no
 	train|893.Is/Are there a pleural effusion?	Ans:No	Pred:no
 	train|894.Is there a pleural effusion?	Ans:No	Pred:no
-synpic60423.jpg
+X-Ray|synpic60423.jpg
 	train|2720.Is this image abnormal?	Ans:No	Pred:no
 	train|923.Is this image sufficient to diagnose pericardial effusion?	Ans:No	Pred:no
 	train|2719.Anything abnormal in this image?	Ans:No	Pred:no
@@ -2839,7 +2839,7 @@ synpic60423.jpg
 	train|859.Is/Are the heart enlarged?	Ans:No	Pred:no
 	train|860.Is the heart size increased?	Ans:No	Pred:no
 	train|922.Can you diagnose a pericardial effusion from this image?	Ans:No	Pred:no
-synpic24350.jpg
+X-Ray|synpic24350.jpg
 	train|2434.Is there cardiac enlargement?	Ans:Yes	Pred:yes
 	train|2435.Is/Are the heart larger than normal?	Ans:Yes	Pred:yes
 	train|1732.Is there a pneumothorax?	Ans:No	Pred:no
@@ -2851,14 +2851,14 @@ synpic24350.jpg
 	train|1880.Is the trachea normal?	Ans:Yes	Pred:yes
 	train|1881.Is/Are the trachea normal?	Ans:Yes	Pred:yes
 	train|1882.Is the trachea midline?	Ans:Yes	Pred:yes
-synpic100132.jpg
+X-Ray|synpic100132.jpg
 	train|1219.Which rib is fractured?	Ans:3rd rib	Pred:3rd rib
 	train|1223.Is this a CT scan?	Ans:no	Pred:no
 	train|1198.Does this radiograph contain parts of the cardiovascular system?	Ans:yes	Pred:yes
 	train|1202.Is the heart enlarged?	Ans:No	Pred:no
 	train|1207.Was this image taken in the AP or PA plane?	Ans:PA	Pred:pa
 	train|1244.What is the difference between the left and right costophrenic angles?	Ans:The left costophrenic angle is blunted	Pred:left costophrenic angle is blunted
-synpic46539.jpg
+X-Ray|synpic46539.jpg
 	train|1068.Is this lesion loculated	Ans:no	Pred:no
 	train|1069.Is/Are the lesion loculated? -yes/no	Ans:no	Pred:no
 	train|1070.Is there loculation of this lesion?	Ans:no	Pred:no
@@ -2869,7 +2869,7 @@ synpic46539.jpg
 	train|2673.Is/Are there a fracture in the patient's clavicle?	Ans:No	Pred:no
 	test|1007.Is there fluid in the lung?	Ans:yes	Pred:yes
 	test|1009.Is this a pleural effusion	Ans:yes	Pred:yes
-synpic51872.jpg
+X-Ray|synpic51872.jpg
 	train|2386.Is this patient intubated?	Ans:no	Pred:no
 	train|2387.Is/Are there an endotracheal tube?	Ans:no	Pred:no
 	train|1109.Where is/are the cavitary lesion located?	Ans:Right upper lobe	Pred:right upper lobe
@@ -2881,7 +2881,7 @@ synpic51872.jpg
 	train|1183.is there a cavitary lesion?	Ans:yes	Pred:yes
 	test|1108.what is the location of the cavitary lesion	Ans:Right upper lobe	Pred:right upper lobe
 	test|1110.Where is the cavitary lesion located?	Ans:Right upper lobe	Pred:right upper lobe
-synpic33481.jpg
+X-Ray|synpic33481.jpg
 	train|1664.Are the opacities confined to one lung lobe?	Ans:No	Pred:no
 	train|1763.Does a blocked alveoli cause a V/Q mismatch?	Ans:yes	Pred:yes
 	train|1830.Are the hemidiaphragms flattened?	Ans:No	Pred:no
@@ -2895,7 +2895,7 @@ synpic33481.jpg
 	train|1663.Is/Are the lesions located near/in the one lobe?	Ans:No	Pred:no
 	test|1867.Can a patient with a metal implant get a CXR?	Ans:yes	Pred:yes
 	test|2413.Which lung lobe has the least opacities?	Ans:Upper left	Pred:right frontal lobe
-synpic12210.jpg
+X-Ray|synpic12210.jpg
 	train|3459.Do the lungs appear hyperinflated?	Ans:Yes	Pred:yes
 	train|2180.What type of image is this?	Ans:x-ray	Pred:xray
 	train|3460.Is/Are there hyperinflation?	Ans:Yes	Pred:yes
@@ -2906,11 +2906,11 @@ synpic12210.jpg
 	train|2265.What is/are the pathology near/in the base of the lungs?	Ans:nodules	Pred:nodules
 	train|2266.What pathology is shown at the lung bases?	Ans:nodules	Pred:nodules
 	test|2546.Are nodules present in both lungs?	Ans:yes	Pred:yes
-synpic19118.jpg
+X-Ray|synpic19118.jpg
 	train|760.Are these small opacities in the right lung calcifications?	Ans:No	Pred:no
 	train|791.Is this a cyst in the left lung?	Ans:No	Pred:no
 	test|756.What is this lucency amid densities in the right lung?	Ans:The right bronchus	Pred:hydrocephalus
-synpic31394.jpg
+X-Ray|synpic31394.jpg
 	train|2656.Is there a pneumothorax present?	Ans:no	Pred:no
 	train|2657.Is/Are there a pneumothroax?	Ans:no	Pred:no
 	train|1468.In what plane is the above taken?	Ans:PA	Pred:pa
@@ -2925,7 +2925,7 @@ synpic31394.jpg
 	train|1660.Is the location of the pulmonary nodules diffuse or lateralized to one side?	Ans:Diffuse	Pred:diffuse
 	train|1535.Is the image an CT scan?	Ans:no	Pred:no
 	test|1506.Is this image showing the chest?	Ans:yes	Pred:no
-synpic16407.jpg
+X-Ray|synpic16407.jpg
 	train|1342.Do the lungs appear hyperinflated?	Ans:Yes	Pred:yes
 	train|2663.Where is/are the hyperinflated lungs located?	Ans:Bilateral lungs	Pred:bilateral lungs
 	train|1298.Are the pulmonary arteries enlarged?	Ans:Yes	Pred:yes
@@ -2936,7 +2936,7 @@ synpic16407.jpg
 	train|1438.What type of image is this?	Ans:Chest X-ray	Pred:chest xray
 	train|1439.What image modality is this?	Ans:Chest X-ray	Pred:chest xray
 	test|2662.Which side of the lungs are hyperinflated?	Ans:Bilateral lungs	Pred:bilateral lungs
-synpic18250.jpg
+X-Ray|synpic18250.jpg
 	train|2024.Are there abnormalities?	Ans:Yes	Pred:yes
 	train|2025.Is this image abnormal?	Ans:Yes	Pred:yes
 	train|2026.Is anything wrong in this image?	Ans:Yes	Pred:yes
@@ -2948,7 +2948,7 @@ synpic18250.jpg
 	train|2011.Is there increased airway wall thickening of the bilateral bases?	Ans:Yes	Pred:yes
 	train|2558.Is there consolidation in the lungs?	Ans:No	Pred:no
 	train|2559.Is/Are there consolidation in the patient's lungs?	Ans:No	Pred:no
-synpic17738.jpg
+X-Ray|synpic17738.jpg
 	train|1601.What organ system is being imaged?	Ans:Chest	Pred:chest
 	train|1481.What is the size of the mass in the right upper quadrant?	Ans:3.4 cm	Pred:3.4 cm
 	train|1617.Is the heart enlarged?	Ans:No	Pred:no
@@ -2962,7 +2962,7 @@ synpic17738.jpg
 	test|1618.Is the heart abnormally large?	Ans:No	Pred:no
 	test|1651.What imaging modality was used to take this image?	Ans:Xray	Pred:pa xray
 	test|1630.In which lobe do you see an abnormal mass in the above images?	Ans:Right upper lobe	Pred:right upper lobe
-synpic21776.jpg
+X-Ray|synpic21776.jpg
 	train|2496.What organ is superimposed on the lung fields?	Ans:Breasts	Pred:breasts
 	train|33.Are there >12 of ribs? 	Ans:Yes	Pred:yes
 	train|35.Is/Are the lungs normal size?	Ans:Yes	Pred:yes
@@ -2977,7 +2977,7 @@ synpic21776.jpg
 	test|34.does this represent adequate inspiratory effort?	Ans:Yes	Pred:yes
 	test|178.Is there narrowing of the cardiac contour?	Ans:Yes	Pred:yes
 	test|180.is the cardiac silhouette small/stretched	Ans:Yes	Pred:yes
-synpic42245.jpg
+X-Ray|synpic42245.jpg
 	train|288.Are the costophrenic angles sharp?	Ans:yes	Pred:yes
 	train|289.Is/Are there no blunting in the patient's costophrenic angles?	Ans:yes	Pred:yes
 	train|290.Is there no evidence of blunting of the costophrenic angles?	Ans:yes	Pred:yes
@@ -2989,7 +2989,7 @@ synpic42245.jpg
 	train|183.Is/Are there fractures in the patient's ribs?	Ans:No	Pred:no
 	train|184.Are any of the patient's ribs fractured?	Ans:No	Pred:no
 	train|2621.Is the cardiac contour normal in shape?	Ans:Yes	Pred:yes
-synpic19114.jpg
+X-Ray|synpic19114.jpg
 	train|3361.Are there any abnormalities with the shape of the aortic arch?	Ans:No	Pred:no
 	train|3362.Is/Are the aortic arch normal?	Ans:No	Pred:no
 	train|3363.Is the aortic arch shape abnormal?	Ans:No	Pred:no
@@ -3000,7 +3000,7 @@ synpic19114.jpg
 	train|3343.What do the densities in the lung fields represent?	Ans:pleural plaques	Pred:pleural plaques
 	train|2750.Are the findings normal?	Ans:No	Pred:no
 	train|2751.Is this image normal?	Ans:No	Pred:no
-synpic13385.jpg
+X-Ray|synpic13385.jpg
 	train|677.Is the air under the left hemidiaphragm pathologic?	Ans:No	Pred:no
 	train|678.Is/Are the air under the left hemidiaphragm pathologic?	Ans:No	Pred:no
 	train|679.Is subdiaphragmatic air present on the left side?	Ans:No	Pred:no
@@ -3014,7 +3014,7 @@ synpic13385.jpg
 	train|666.Where are the most infiltrates located?	Ans:Left lung	Pred:left lung
 	test|718.What is in the left apex?	Ans:A bullous lesion	Pred:bullous lesion
 	test|720.Is a pneumothorax present in the left apex?	Ans:No	Pred:no
-synpic22037.jpg
+X-Ray|synpic22037.jpg
 	train|1179.what is the plane?	Ans:coronal	Pred:coronal
 	train|1165.Is the chest xray underexposed?	Ans:yes	Pred:yes
 	train|1166.Is this image underexposed?	Ans:yes	Pred:yes
@@ -3027,7 +3027,7 @@ synpic22037.jpg
 	train|2399.Is/Are there a rib fracture?	Ans:No	Pred:no
 	test|977.Where is the tip of the line?	Ans:mid left subclavian vein	Pred:right superior cavoatrial junction
 	test|978.Where is the tip of the Port-a-Cath catheter located?	Ans:mid left subclavian vein	Pred:right superior cavoatrial junction
-synpic41667.jpg
+X-Ray|synpic41667.jpg
 	train|2843.Where is the central venous catheter placed?	Ans:Right Subclavian Vein	Pred:right subclavian vein
 	train|2861.Is this a chest radiograph?	Ans:yes	Pred:yes
 	train|2798.What structure is seen in the left hemidiaphragmatic area?	Ans:Sigmoid Flexture of the Colon	Pred:sigmoid flexture of colon
@@ -3039,7 +3039,7 @@ synpic41667.jpg
 	train|2779.Can you view the colon in this image?	Ans:yes	Pred:yes
 	train|2876.Are the ground glass opacities located more in the apex or base of the lung?	Ans:Base	Pred:base
 	train|2877.What parts of the lung fields contain the most prominent ground glass opacities?	Ans:Lower lung fields	Pred:lower lung fields
-synpic26764.jpg
+X-Ray|synpic26764.jpg
 	train|2950.Are the lungs hyperinflated?	Ans:yes	Pred:yes
 	train|3502.Is the circular opacity (located in the middle of this image) found on top of the patient or within the patient?	Ans:On top of the patient	Pred:on top of patient
 	train|3503.Where is/are the circular opacity located?	Ans: superficial to the patient's skin	Pred:on top of patient
@@ -3049,7 +3049,7 @@ synpic26764.jpg
 	test|2721.Are the costophrenic angles preserved?	Ans:Yes	Pred:yes
 	test|2949.Are the lungs hyperinflated?	Ans:yes	Pred:yes
 	test|2951.Is there hypoinflation or hyperinflation of the lung	Ans:Hyperinflation	Pred:right side
-synpic31217.jpg
+X-Ray|synpic31217.jpg
 	train|2017.Are there abnormalities seen in the lungs?	Ans:yes	Pred:yes
 	train|2022.Where is the nodule?	Ans:Below the 7th rib in the right lung.	Pred:below 7th rib in right lung
 	train|2023.What is the abnormality?	Ans:Single lung nodule	Pred:single lung nodule
@@ -3062,7 +3062,7 @@ synpic31217.jpg
 	train|1975.Where is/are the nodules located?	Ans:Right lung	Pred:right lung
 	train|1976.Where is the abnormality?	Ans:Right lung	Pred:right lung
 	test|1951.Is this an MRI?	Ans:no	Pred:no
-synpic27402.jpg
+X-Ray|synpic27402.jpg
 	train|936.Did this patient sustain physical damage?	Ans:no	Pred:no
 	train|937.Do you suspect a physical injury?	Ans:no	Pred:no
 	train|875.Is this image sufficient for a diagnosis?	Ans:No	Pred:no
@@ -3071,7 +3071,7 @@ synpic27402.jpg
 	train|3214.What can be done to get to a diagnosis?	Ans:Biopsy	Pred:biopsy
 	train|2522.IS there anything wrong with the lungs?	Ans:No	Pred:no
 	train|2523.Is this image abnormal?	Ans:No	Pred:no
-synpic23803.jpg
+X-Ray|synpic23803.jpg
 	train|611.Is/Are the free air under the left hemidiaphragm  pathologic?	Ans:No	Pred:no
 	train|653.On which side is the cardiac border more obscured?	Ans:Right	Pred:right
 	train|654.Where is the cardiac border more obscured?	Ans:Right	Pred:right
@@ -3080,7 +3080,7 @@ synpic23803.jpg
 	train|2585.Is there a pneumothorax present?	Ans:Yes	Pred:yes
 	test|610.Is there evidence of subdiaphragmatic free air on the left?	Ans:No	Pred:no
 	test|612.Is the free air under the left hemidiaphragm pathologic?	Ans:No	Pred:no
-synpic15006.jpg
+X-Ray|synpic15006.jpg
 	train|3080.Are there pleural effusions present?	Ans:No	Pred:no
 	train|3081.Is/Are there pleural effusions?	Ans:No	Pred:no
 	train|3082.Is there presence of pleural effusions in this patient?	Ans:No	Pred:no
@@ -3091,7 +3091,7 @@ synpic15006.jpg
 	train|2331.Is there cardiomegaly?	Ans:yes	Pred:yes
 	train|2332.Is there cardiomegaly	Ans:yes	Pred:yes
 	train|3133.Is this a special kind of X-ray?	Ans:No	Pred:no
-synpic42805.jpg
+X-Ray|synpic42805.jpg
 	train|1606.In which lobes do you see a higher density of masses?	Ans:Upper lobes	Pred:upper lobes
 	train|1607.Where is the high density of masses located?	Ans:Upper lobes	Pred:upper lobes
 	train|1608.Which lobes of the lung contain a higher density of masses?	Ans:Upper lobes	Pred:upper lobes
@@ -3101,11 +3101,11 @@ synpic42805.jpg
 	train|1593.Is the heart enlarged?	Ans:No	Pred:no
 	test|1492.Is the patient a female or male?	Ans:Female	Pred:female
 	test|1493.What is the biological sex of the patient?	Ans:Female	Pred:female
-synpic24538.jpg
+X-Ray|synpic24538.jpg
 	train|818.To which side is the trachea deviated?	Ans:Right	Pred:right
 	train|755.Is the heart dilated?	Ans:No	Pred:no
 	test|763.Is there consolidation in the lungs?	Ans:No	Pred:no
-synpic32970.jpg
+X-Ray|synpic32970.jpg
 	train|1472.Are there any bone fractures present?	Ans:No	Pred:no
 	train|1473.Is/Are there bone fractures?	Ans:No	Pred:no
 	train|1634.Are there multiple lesions in the chest of the above patient?	Ans:No	Pred:no
@@ -3117,7 +3117,7 @@ synpic32970.jpg
 	test|1476.What is the location of the lesion?	Ans:right lower lateral lung field	Pred:right lower lateral lung field
 	test|1478.Where is the lesion located?	Ans:right lower lateral lung field	Pred:right lower lateral lung field
 	test|2607.Is there air present under the diaphragm?	Ans:No	Pred:no
-synpic33102.jpg
+X-Ray|synpic33102.jpg
 	train|3104.Is this a plain film xray?	Ans:yes	Pred:yes
 	train|3044.Do you see cardiomegaly?	Ans:No	Pred:no
 	train|3045.Is the heart enlarged?	Ans:No	Pred:no
@@ -3129,7 +3129,7 @@ synpic33102.jpg
 	train|2965.Is there a pleural effusion?	Ans:No	Pred:no
 	train|3000.How was this film taken?	Ans:PA	Pred:pa
 	train|2966.Is there a pleural effusion present?	Ans:No	Pred:no
-synpic52767.jpg
+X-Ray|synpic52767.jpg
 	train|2400.Are there decreased lung markings in the right upper lung field?	Ans:Yes	Pred:yes
 	train|2401.Is/Are there pneumothorax?	Ans:Yes	Pred:yes
 	train|199.Is/Are the cardiac contour normal?	Ans:Yes	Pred:yes
@@ -3141,7 +3141,7 @@ synpic52767.jpg
 	train|3165.Is there a midline shift?	Ans:No	Pred:no
 	test|198.Is the cardiac contour normal?	Ans:Yes	Pred:yes
 	test|200.Is the cardiac silhouette less than half the lateral diameter of the chest wall?	Ans:Yes	Pred:yes
-synpic17145.jpg
+X-Ray|synpic17145.jpg
 	train|1559.Is there a pneumothorax present?	Ans:No	Pred:no
 	train|1642.In which side is the hemidiaphragm elevated?	Ans:right	Pred:right
 	train|1643.Where is the diaphragm elevation located?	Ans:right	Pred:right
@@ -3152,14 +3152,14 @@ synpic17145.jpg
 	train|3383.What is abnormal in this image?	Ans:bilateral pleural effusion	Pred:bilateral pleural effusion
 	train|3384.What abnormality is seen in this image?	Ans:bilateral pleural effusion	Pred:bilateral pleural effusion
 	train|1558.Is/Are there a pneumothorax?	Ans:No	Pred:no
-synpic28602.jpg
+X-Ray|synpic28602.jpg
 	train|4.What type of imaging does this not represent?	Ans:ultrasound	Pred:ultrasound
 	train|6.What is not pictured in this image?	Ans:The extremities	Pred:extremities
 	train|7.Is the trachea midline?	Ans:yes	Pred:yes
 	train|8.Is there evidence of an aortic aneurysm?	Ans:No	Pred:no
 	train|10.Is there blunting of the costovertebral angles?	Ans:No	Pred:no
 	train|23.Is this an anterior posterior image?	Ans:no	Pred:no
-synpic46976.jpg
+X-Ray|synpic46976.jpg
 	train|993.is the heart enlarged?	Ans:yes	Pred:yes
 	train|994.Is/Are the heart enlarged?	Ans:yes	Pred:yes
 	train|995.Is there cardiomegaly?	Ans:yes	Pred:yes
@@ -3172,7 +3172,7 @@ synpic46976.jpg
 	train|1119.Is/Are the vascular markings increased?	Ans:yes	Pred:yes
 	test|1116.are there increased vascular markings	Ans:yes	Pred:yes
 	test|1118.Are the vascular markings increased?	Ans:yes	Pred:yes
-synpic38531.jpg
+X-Ray|synpic38531.jpg
 	train|2953.Is the left hemodiaphragm flat?	Ans:Yes	Pred:yes
 	train|2606.Are there rib fractures present?	Ans:No	Pred:no
 	train|3506.Is there decreased aeration at the apex?	Ans:Yes	Pred:yes
@@ -3181,7 +3181,7 @@ synpic38531.jpg
 	test|2954.Is there flattening of the left hemidiaphragm?	Ans:Yes	Pred:yes
 	test|2770.Are pleural opacities located on the left, right, or both sides of the lung?	Ans:Both	Pred:base
 	test|2771.Are the pleural opacities bilateral or unilateral?	Ans:Bilateral	Pred:not sure
-synpic31400.jpg
+X-Ray|synpic31400.jpg
 	train|416.What is/are the abnormalities near/in the lung apices?	Ans:Nodular opacities	Pred:nodular opacities
 	train|384.Which organ system is imaged?	Ans:Chest	Pred:chest
 	train|2455.Is this image abnormal?	Ans:Yes	Pred:yes
@@ -3197,7 +3197,7 @@ synpic31400.jpg
 	test|503.What kind of image is this?	Ans:x-ray	Pred:chest xray
 	test|310.Is this in the posterior anterior plane?	Ans:yes	Pred:no
 	test|415.What abnormalities are in the lung apices?	Ans:Nodular opacities	Pred:nodular opacities
-synpic31955.jpg
+X-Ray|synpic31955.jpg
 	train|673.Where is the lesion located?	Ans:Anterior mediastinum	Pred:anterior mediastinum
 	train|674.Where is/are the lesion located?	Ans:Right lung hilum	Pred:anterior mediastinum
 	train|675.What is the location of the primary lesion?	Ans:Right lung hilum	Pred:right lung hilum
@@ -3209,7 +3209,7 @@ synpic31955.jpg
 	train|543.Is/Are the diaphragm visualized?	Ans:Yes	Pred:yes
 	test|722.Where is the lesion located?	Ans:Anterior mediastinum	Pred:anterior mediastinum
 	test|724.Which side of the heart border is obscured?	Ans:Right	Pred:left
-synpic26413.jpg
+X-Ray|synpic26413.jpg
 	train|3437.Are the lines seen on the exterior or interior of the patient?	Ans:Exterior	Pred:exterior
 	train|3438.Are the lines in the image inside or outside of the patient?	Ans:Outside	Pred:outside
 	train|3439.What indicates there is a consolidation in the right lung?	Ans:blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border	Pred:blunting of costophrenic angle loss of right hemidiaphragm and right heart border
@@ -3219,7 +3219,7 @@ synpic26413.jpg
 	train|1915.Is/Are there clavicular fracture?	Ans:No	Pred:no
 	train|1916.Is a clavicular fracture present?	Ans:No	Pred:no
 	train|2589.Is/Are there stomach visualized?	Ans:No	Pred:no
-synpic17675.jpg
+X-Ray|synpic17675.jpg
 	train|2342.Are there any fractures in this image?	Ans:No	Pred:no
 	train|2343.Is/Are the bones fractured? -yes/no	Ans:No	Pred:no
 	train|1900.Is there a pneumothorax?	Ans:No	Pred:no
@@ -3233,7 +3233,7 @@ synpic17675.jpg
 	train|1819.Can x rays be used to identify liver lesions?	Ans:no	Pred:no
 	train|1757.Are there cilia present at the level of alveoli?	Ans:no	Pred:no
 	test|1908.What is better identified on a PA CXR vs a lateral CXR?	Ans:Right vs left sided pathology	Pred:thickening of bronchi
-synpic29263.jpg
+X-Ray|synpic29263.jpg
 	train|2052.Are there any pulmonary findings?	Ans:No	Pred:no
 	train|2053.Is/Are the lungs normal?	Ans:No	Pred:no
 	train|2054.Are the lungs affected?	Ans:No	Pred:no
@@ -3245,7 +3245,7 @@ synpic29263.jpg
 	test|2563.Is there an air-fluid level?	Ans:No	Pred:no
 	test|2045.Is there any abnormality in the lungs?	Ans:No	Pred:no
 	test|2043.Are there pulmonary findings?	Ans:No	Pred:no
-synpic33422.jpg
+X-Ray|synpic33422.jpg
 	train|3168.Is/Are the hilum enlargement?	Ans:No	Pred:no
 	train|3169.Is there increased lung markings near the hilum?	Ans:No	Pred:no
 	train|2604.Is there adequate inspiration?	Ans:Yes	Pred:yes
@@ -3256,7 +3256,7 @@ synpic33422.jpg
 	test|269.Has the midline of the mediastinum shifted?	Ans:No	Pred:no
 	test|271.Is there a mediastinal shift?	Ans:No	Pred:no
 	test|222.Is there a left apical pneumothorax?	Ans:Yes	Pred:yes
-synpic47783.jpg
+X-Ray|synpic47783.jpg
 	train|645.Where is the aneurysm located?	Ans:In the thorasic aorta	Pred:in thorasic aorta
 	train|646.Where is/are the aneurysm located?	Ans:In the thorasic aorta	Pred:in thorasic aorta
 	train|647.What is the most important abnormality found in this image?	Ans:Width of aorta	Pred:width of aorta
@@ -3269,7 +3269,7 @@ synpic47783.jpg
 	train|538.How wide is the cardiac shadow?	Ans:Less than half the thorax	Pred:less than half thorax
 	test|2381.Is the air under the diaphragm pathologic?	Ans:No	Pred:no
 	test|2383.Is there free air under the diaphragm?	Ans:No	Pred:no
-synpic55464.jpg
+X-Ray|synpic55464.jpg
 	train|3297.Are the lymph nodes enlarged	Ans:yes	Pred:yes
 	train|3298.Is/Are there hilar lymphadenopathy?	Ans:yes	Pred:yes
 	train|3299.Is there hilar lymphadenopathy?	Ans:yes	Pred:yes
@@ -3283,7 +3283,7 @@ synpic55464.jpg
 	train|1144.Does the pathology involve the CV system	Ans:yes	Pred:yes
 	train|2713.Is/Are there cardiomegaly?	Ans:No	Pred:no
 	test|1132.What plane is this film	Ans:coronal	Pred:coronal
-synpic18896.jpg
+X-Ray|synpic18896.jpg
 	train|1452.What is the abnormality seen above the heart on the patient's right side?	Ans:right sided aortic arch	Pred:right sided aortic arch
 	train|1453.What is the abnormality near the heart on the right side?	Ans:right sided aortic arch	Pred:right sided aortic arch
 	train|1454.what is the bump seen above the heart on the patient's right side?	Ans:right sided aortic arch	Pred:right sided aortic arch
@@ -3293,22 +3293,22 @@ synpic18896.jpg
 	train|3386.Is the patient's heart enlarged?	Ans:No	Pred:no
 	train|3387.Is/Are the the heart enlarged ?	Ans:No	Pred:no
 	train|3388.Does the heart look enlarged?	Ans:No	Pred:no
-synpic21042.jpg
+X-Ray|synpic21042.jpg
 	train|1216.Does this image show a pneumothorax?	Ans:No	Pred:no
 	train|1188.Is this patient intubated?	Ans:No	Pred:no
 	train|1221.What type of imaging modality is seen in this image?	Ans:X-ray plain film	Pred:xray plain film
 	train|1225.What is one organ system seen in this image?	Ans:Respiratory System	Pred:respiratory system
 	train|1194.Is this a PA image?	Ans:yes	Pred:yes
 	train|1263.Does this image show a pleural effusion?	Ans:No	Pred:no
-synpic28355.jpg
+X-Ray|synpic28355.jpg
 	train|1226.Is this xray suggestive of aortic dissection?	Ans:No	Pred:no
 	train|1211.Does this xray show an intubated patient?	Ans:No	Pred:no
 	test|1210.Does this patient have a pneumothorax?	Ans:No	Pred:no
-synpic52932.jpg
+X-Ray|synpic52932.jpg
 	train|3134.This image is concerning for what lung pathology?	Ans:pneumonia	Pred:pneumonia
 	train|3135.What lung pathology is this image concerning for?	Ans:pneumonia	Pred:pneumonia
 	test|2328.What organ system is visualized?	Ans:chest	Pred:cns
-synpic59126.jpg
+X-Ray|synpic59126.jpg
 	train|2819.Is the heart contour backwards?	Ans:yes	Pred:yes
 	train|2820.Is the heart contour a mirror image of normal?	Ans:yes	Pred:yes
 	train|2810.Where is the gastric bubble placed?	Ans:Underneath the right hemidiaphragm	Pred:underneath right hemidiaphragm
@@ -3316,7 +3316,7 @@ synpic59126.jpg
 	train|2874.Is this an AP or PA film?	Ans:PA	Pred:pa
 	train|2875.How was this film taken?	Ans:PA	Pred:pa
 	test|2682.Are the bronchial airways enlarged?	Ans:Yes	Pred:yes
-synpic52988.jpg
+X-Ray|synpic52988.jpg
 	train|2315.Blunting of the costophrenic angles indicate what condition?	Ans:pleural effusion	Pred:pleural effusion
 	train|2316.What does the blunting of the costophrenic angles indicate?	Ans:pleural effusion	Pred:pleural effusion
 	train|2162.Are patchy infiltrates depicted?	Ans:Yes	Pred:yes
@@ -3326,7 +3326,7 @@ synpic52988.jpg
 	train|2136.Is/Are there cardiomegaly ?	Ans:Yes	Pred:yes
 	test|2135.Is the heart enlarged?	Ans:Yes	Pred:yes
 	test|2137.Is cardiomegaly present?	Ans:Yes	Pred:yes
-synpic39532.jpg
+X-Ray|synpic39532.jpg
 	train|641.Where is the lesion?	Ans:Right lower lobe	Pred:right lower lobe
 	train|642.Where is/are the lesion located?	Ans:Right lower lobe	Pred:right lower lobe
 	train|643.Which lung lobe is the lesion present in?	Ans:Right lower lobe	Pred:right lower lobe

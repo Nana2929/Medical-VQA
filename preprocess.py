@@ -8,7 +8,7 @@ INPUT = "./Xray/"
 OUTPUT_REMVE_WORD = PATH + "Xray_remove/"
 OUTPUT_REMOVE_MASK = PATH + "Xray_remove_mask/"
 
-kernal = np.ones((3,3),np.uint8)
+kernal = np.ones((5,5),np.uint8)
 guass = 5
 
 save_img = True
@@ -22,58 +22,19 @@ def new_folder(path):
     if not os.path.isdir(path):
         os.mkdir(path)
 
-
-def SSR(img, size):
-    res = img
-
-    L_blur = cv2.GaussianBlur(res, (size, size), 0)
-    log_R = np.log(res + 0.001) - np.log(L_blur + 0.001)
-
-    minvalue, maxvalue, minloc, maxloc = cv2.minMaxLoc(log_R)
-    log_R = (log_R - minvalue) * 255.0 / (maxvalue - minvalue)
-
-    dst = cv2.convertScaleAbs(log_R)
-    dst = cv2.add(img, dst)
-    return dst
-
-def MSR(img, scales):
-    number = len(scales)
-    res = img
-
-    h, w = img.shape[:2]
-    dst_R = np.zeros((h, w), dtype=np.float32)
-    log_R = np.zeros((h, w), dtype=np.float32)
-
-    for i in range(number):
-        L_blur = cv2.GaussianBlur(res, (scales[i], scales[i]), 0)
-        log_R += np.log(res + 0.001) - np.log(L_blur + 0.001)
-
-    log_R = log_R / number
-    cv2.normalize(log_R, dst_R, 0, 255, cv2.NORM_MINMAX)
-    dst_R = cv2.convertScaleAbs(dst_R)
-    dst = cv2.add(img, dst_R)
-
-    return dst
-
-def replaceZeroes(data):
-    min_nonzero = min(data[np.nonzero(data)])
-    data[data == 0] = min_nonzero
-    return data
-
 def removeWords(img,save_mask=True,output_mask_path=None,save_img=True,output_path=None):
-        # read image
+
+    # read image
     img = cv2.imread(INPUT + image)
 
-    # inhance image
-    b_gray, g_gray, r_gray = cv2.split(img)
-    b_gray = SSR(b_gray, guass)
-    g_gray = SSR(g_gray, guass)
-    r_gray = SSR(r_gray, guass)
-    result = cv2.merge([b_gray, g_gray, r_gray])
+    # gray
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
+    #normalize
+    gray = cv2.normalize(gray, None, 0, 255, cv2.NORM_MINMAX)
 
     # CANNY
-    canny_img = cv2.Canny(img, 120,300)
+    canny_img = cv2.Canny(img,230,250)
 
     # dilation
     dilate_img = cv2.dilate(canny_img, kernal, iterations=1)
@@ -96,14 +57,25 @@ if __name__ == '__main__':
     for image in filelist:
         # .png or .jpg
         if image.endswith('.png') or image.endswith('.jpg'):
-
             if remove_word:
                 removeWords(image,save_mask,OUTPUT_REMOVE_MASK,save_img,OUTPUT_REMVE_WORD)
-            
-            img = cv2.imread(OUTPUT_REMVE_WORD+image)
 
-            # normalize
-            normal_
+            # read image
+            img = cv2.imread(OUTPUT_REMVE_WORD + image)
+
+            # guass
+            blur = cv2.GaussianBlur(img, (guass, guass), 0)
+
+            # save
+            if save_img:
+                new_folder("Xray_preprocessed/")
+                cv2.imwrite("Xray_preprocessed/" + image, blur)
+
+            
+
+
+
+
 
 
 

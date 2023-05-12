@@ -7,9 +7,12 @@ PATH = "./preprocess/"
 INPUT = "./Xray/"
 OUTPUT_REMVE_WORD = PATH + "Xray_remove/"
 OUTPUT_REMOVE_MASK = PATH + "Xray_remove_mask/"
+OUTPUT_PREPROCESSED = "./Xray_preprocessed/"
 
 kernal = np.ones((5,5),np.uint8)
 guass = 5
+canny_min = 230
+canny_max = 250
 
 save_img = True
 save_mask = True
@@ -34,7 +37,7 @@ def removeWords(img,save_mask=True,output_mask_path=None,save_img=True,output_pa
     gray = cv2.normalize(gray, None, 0, 255, cv2.NORM_MINMAX)
 
     # CANNY
-    canny_img = cv2.Canny(img,230,250)
+    canny_img = cv2.Canny(img,canny_min,canny_max)
 
     # dilation
     dilate_img = cv2.dilate(canny_img, kernal, iterations=1)
@@ -68,8 +71,8 @@ if __name__ == '__main__':
 
             # save
             if save_img:
-                new_folder("Xray_preprocessed/")
-                cv2.imwrite("Xray_preprocessed/" + image, blur)
+                new_folder(OUTPUT_PREPROCESSED)
+                cv2.imwrite(OUTPUT_PREPROCESSED + image, blur)
 
             
 

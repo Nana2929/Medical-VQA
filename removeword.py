@@ -13,6 +13,9 @@ guass = 5
 canny_min = 230
 canny_max = 250
 
+save_mask  = True
+save_img = True
+
 
 def new_folder(path):
     if not os.path.isdir(path):
@@ -52,4 +55,4 @@ if __name__ == '__main__':
     for image in filelist:
         # .png or .jpg
         if image.endswith('.png') or image.endswith('.jpg'):
-            removeWords(image,INPUT,True,OUTPUT_REMOVE_MASK,True,OUTPUT_REMVE_WORD)
+            removeWords(image,INPUT,save_mask,OUTPUT_REMOVE_MASK,save_img,OUTPUT_REMVE_WORD)

@@ -3,6 +3,9 @@ import pathlib
 import numpy as np
 import os
 from  removeword import *
+import matplotlib.pyplot as plt
+
+
 
 PATH = "./preprocess/"
 INPUT = "./Xray/"
@@ -35,20 +38,26 @@ for image in filelist:
         # normalize
         img = cv2.normalize(img, None, 0, 255, cv2.NORM_MINMAX)
 
-        # histogram equalization
+        # hist
+        his = cv2.calcHist([img], [0], None, [256], [0, 256])
+        # cv2.imshow("hist", his)
+        # plt.plot(his)
+        # plt.show()
+
+
 
         # save
         if save_img:
-            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(4,4))
+            clahe = cv2.createCLAHE(clipLimit=0.5, tileGridSize=(16,16))
             imgs = clahe.apply(img)
-            new_folder("./Xray_preprocessed_2_44/")
-            cv2.imwrite("./Xray_preprocessed_2_44/" + image, imgs)
+            new_folder("./Xray_preprocessed_05/")
+            cv2.imwrite("./Xray_preprocessed_05/" + image, imgs)
 
         if save_img:
-            clahe = cv2.createCLAHE(clipLimit=1.0, tileGridSize=(8,8))
+            clahe = cv2.createCLAHE(clipLimit=1.0, tileGridSize=(16,16))
             imgs = clahe.apply(img)
-            new_folder("./Xray_preprocessed_1/")
-            cv2.imwrite("./Xray_preprocessed_1/" + image, imgs)
+            new_folder("./Xray_preprocessed_1_16/")
+            cv2.imwrite("./Xray_preprocessed_1_16/" + image, imgs)
 
 
         img = cv2.equalizeHist(img)

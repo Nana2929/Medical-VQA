@@ -14,13 +14,13 @@ _DEFAULT_PIPELINE_STEPS = {
     'HEAD_CT': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
-        (adjust_tilt, 'HEAD'),
-        (fcm_norm, _FCM_NORM_VALUE)
+        (adjust_tilt, 'HEAD')
     ],
     'HEAD_MRI': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
-        (adjust_tilt, 'HEAD')
+        (adjust_tilt, 'HEAD'),
+        (fcm_norm, _FCM_NORM_VALUE)
     ],
     'ABD': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),

@@ -18,10 +18,11 @@ _DEFAULT_PIPELINE_STEPS = {
     'ABD': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['ABD']),
+        # (adjust_tilt, 'ABD')
     ],
     'CHEST': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
-        (adjust_tilt, 'CHEST')
+        # (adjust_tilt, 'CHEST')
     ]
 }
 

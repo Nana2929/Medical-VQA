@@ -6,7 +6,7 @@ import pandas as pd
 import cv2
 import matplotlib.pyplot as plt
 
-import preprocess as pp
+import preprocessing as pp
 
 DATA_dir = Path('./data/')
 IMAGES_DIR = Path(DATA_dir / 'images/')

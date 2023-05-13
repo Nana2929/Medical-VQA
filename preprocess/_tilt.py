@@ -118,6 +118,6 @@ def adjust_tilt(img, type):
     else:
         raise ValueError('Invalid type')
 
-    img = adjuster.excute(img)
+    corrected_img = adjuster.excute(img)
 
-    return img
+    return corrected_img

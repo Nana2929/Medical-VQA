@@ -29,8 +29,19 @@ for image in filelist:
         # read image
         img = cv2.imread(OUTPUT_REMVE_WORD + image)
 
+        # gray
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+        # normalize
+        img = cv2.normalize(img, None, 0, 255, cv2.NORM_MINMAX)
+
+        # histogram equalization
+        img = cv2.equalizeHist(img)
+
         # guass
         blur = cv2.GaussianBlur(img, (guass, guass), 0)
+
+
 
         # save
         if save_img:

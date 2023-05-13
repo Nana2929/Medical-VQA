@@ -10,7 +10,12 @@ from ._correction import adjust_tilt
 
 
 _DEFAULT_PIPELINE_STEPS = {
-    'HEAD': [
+    'HEAD_CT': [
+        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
+        (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
+        (adjust_tilt, 'HEAD')
+    ],
+    'HEAD_MRI': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
         (adjust_tilt, 'HEAD')

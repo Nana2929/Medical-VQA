@@ -15,7 +15,7 @@ IMAGES_DIR = Path(DATA_dir / 'images/')
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-t', '--target', type=str, default='HEAD')
+    parser.add_argument('-t', '--target', type=str, default='HEAD_CT')
     parser.add_argument('--trainset', type=str, default='trainset.json')
     parser.add_argument('--testset', type=str, default='testset.json')
     parser.add_argument('-o',
@@ -66,8 +66,11 @@ def main():
     trainset = pd.read_json(DATA_dir / args.trainset)
     testset = pd.read_json(DATA_dir / args.testset)
 
-    trainset = trainset[trainset['image_organ'] == target]
-    testset = testset[testset['image_organ'] == target]
+    # trainset = trainset[trainset['image_organ'] == target]
+    # testset = testset[testset['image_organ'] == target]
+    # TODO: 要能區分 HEAD_CT, HEAD_MRI (目前先都視為 HEAD)
+    trainset = trainset[trainset['image_organ'] in target]
+    testset = testset[testset['image_organ'] in target]
 
     train_img_set = [load_image(i, trainset) for i in range(len(trainset))]
     # test_img_set = [load_image(i, testset) for i in range(len(testset))]

@@ -36,8 +36,22 @@ for image in filelist:
         img = cv2.normalize(img, None, 0, 255, cv2.NORM_MINMAX)
 
         # histogram equalization
-        img = cv2.equalizeHist(img)
 
+        # save
+        if save_img:
+            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(4,4))
+            imgs = clahe.apply(img)
+            new_folder("./Xray_preprocessed_2_44/")
+            cv2.imwrite("./Xray_preprocessed_2_44/" + image, imgs)
+
+        if save_img:
+            clahe = cv2.createCLAHE(clipLimit=1.0, tileGridSize=(8,8))
+            imgs = clahe.apply(img)
+            new_folder("./Xray_preprocessed_1/")
+            cv2.imwrite("./Xray_preprocessed_1/" + image, imgs)
+
+
+        img = cv2.equalizeHist(img)
         # guass
         blur = cv2.GaussianBlur(img, (guass, guass), 0)
 

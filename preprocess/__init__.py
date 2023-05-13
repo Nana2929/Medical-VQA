@@ -2,21 +2,25 @@ import cv2
 import numpy as np
 from pathlib import Path
 
-from .config import _DEFAULT_HU_TRANSFORM_PARAMS
+from .config import _DEFAULT_HU_TRANSFORM_PARAMS, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, _CANNY_MIN, _CANNY_MAX
+from ._remove import remove_text
 from ._transform import hu_transform
 from ._tilt import adjust_tilt
 
 
 _DEFAULT_PIPELINE_STEPS = {
     'HEAD': [
+        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
         (adjust_tilt, 'HEAD')
     ],
     'ABD': [
+        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['ABD']),
         (adjust_tilt, 'ABD')
     ],
     'CHEST': [
+        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (adjust_tilt, 'CHEST')
     ]
 }

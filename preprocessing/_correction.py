@@ -1,5 +1,4 @@
 import abc
-import math
 import cv2
 
 
@@ -22,23 +21,13 @@ class HeadTiltAdjuster(TiltAdjuster):
         c = max(contours, key=cv2.contourArea)
 
         (x, y), (a, b), angle = cv2.fitEllipse(c)
-        # cv2.ellipse(img, ((x,y), (a,b), angle), color=(0, 255, 0), thickness=2)
-
-        rmajor = max(a, b) / 2
 
         if angle > 90:
             angle -= 90
         else:
             angle += 96
 
-        # xtop = x + math.cos(math.radians(angle)) * rmajor
-        # ytop = y + math.sin(math.radians(angle)) * rmajor
-        # xbot = x + math.cos(math.radians(angle + 180)) * rmajor
-        # ybot = y + math.sin(math.radians(angle + 180)) * rmajor
-        # cv2.line(img, (int(xtop),int(ytop)), (int(xbot),int(ybot)), (0, 255, 0), 3)
-
-        M = cv2.getRotationMatrix2D((x, y), angle - 90,
-                                    1)  # transformation matrix
+        M = cv2.getRotationMatrix2D((x, y), angle - 90, 1)
         corrected_img = cv2.warpAffine(img, M, (img.shape[1], img.shape[0]),
                                        cv2.INTER_CUBIC)
 
@@ -53,23 +42,13 @@ class ChestTiltAdjuster(TiltAdjuster):
         c = max(contours, key=cv2.contourArea)
 
         (x, y), (a, b), angle = cv2.fitEllipse(c)
-        # cv2.ellipse(img, ((x,y), (a,b), angle), color=(0, 255, 0), thickness=2)
-
-        rmajor = max(a, b) / 2
 
         if angle > 90:
             angle -= 90
         else:
             angle += 96
 
-        # xtop = x + math.cos(math.radians(angle)) * rmajor
-        # ytop = y + math.sin(math.radians(angle)) * rmajor
-        # xbot = x + math.cos(math.radians(angle + 180)) * rmajor
-        # ybot = y + math.sin(math.radians(angle + 180)) * rmajor
-        # cv2.line(img, (int(xtop),int(ytop)), (int(xbot),int(ybot)), (0, 255, 0), 3)
-
-        M = cv2.getRotationMatrix2D((x, y), angle - 90,
-                                    1)  # transformation matrix
+        M = cv2.getRotationMatrix2D((x, y), angle - 90, 1)
         corrected_img = cv2.warpAffine(img, M, (img.shape[1], img.shape[0]),
                                        cv2.INTER_CUBIC)
 
@@ -84,23 +63,13 @@ class AbdTiltAdjuster(TiltAdjuster):
         c = max(contours, key=cv2.contourArea)
 
         (x, y), (a, b), angle = cv2.fitEllipse(c)
-        # cv2.ellipse(img, ((x,y), (a,b), angle), color=(0, 255, 0), thickness=2)
-
-        rmajor = max(a, b) / 2
 
         if angle > 90:
             angle -= 90
         else:
             angle += 96
 
-        # xtop = x + math.cos(math.radians(angle)) * rmajor
-        # ytop = y + math.sin(math.radians(angle)) * rmajor
-        # xbot = x + math.cos(math.radians(angle + 180)) * rmajor
-        # ybot = y + math.sin(math.radians(angle + 180)) * rmajor
-        # cv2.line(img, (int(xtop),int(ytop)), (int(xbot),int(ybot)), (0, 255, 0), 3)
-
-        M = cv2.getRotationMatrix2D((x, y), angle - 90,
-                                    1)  # transformation matrix
+        M = cv2.getRotationMatrix2D((x, y), angle - 90, 1)
         corrected_img = cv2.warpAffine(img, M, (img.shape[1], img.shape[0]),
                                        cv2.INTER_CUBIC)
 

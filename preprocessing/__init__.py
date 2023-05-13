@@ -3,17 +3,19 @@ import cv2
 import numpy as np
 from pathlib import Path
 
-from .config import _DEFAULT_HU_TRANSFORM_PARAMS, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, _CANNY_MIN, _CANNY_MAX
+from .config import _DEFAULT_HU_TRANSFORM_PARAMS, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, _CANNY_MIN, _CANNY_MAX, _FCM_NORM_VALUE
 from ._removing import remove_text
 from ._transformation import hu_transform
 from ._correction import adjust_tilt
+from ._head_mri_preproc import fcm_norm
 
 
 _DEFAULT_PIPELINE_STEPS = {
     'HEAD_CT': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
         (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
-        (adjust_tilt, 'HEAD')
+        (adjust_tilt, 'HEAD'),
+        (fcm_norm, _FCM_NORM_VALUE)
     ],
     'HEAD_MRI': [
         (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),

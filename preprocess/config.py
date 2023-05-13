@@ -26,10 +26,13 @@ import numpy as np
 WW (window width) = (CT下限值 - CT上限值)
 WL (window level) = (CT下限值 + CT上限值) / 2
 
-HEAD CT 判讀： 通常有腦部，骨盆 http://www.tma.org.tw/ftproot/2022/20220217_14_11_54.pdf
-ABD CT 判讀： 通常有胃，肝，脾臟，小腸，大腸，膀胱，骨盆 http://www.shensc.tw/2018/11/ct.html
+HEAD CT 判讀： 通常有腦白質、灰質、脊髓液、凝固的血塊、骨頭 http://www.tma.org.tw/ftproot/2022/20220217_14_11_54.pdf
+ABD CT 判讀： 通常有胃、肝、脾臟、小腸、大腸、膀胱、骨盆 http://www.shensc.tw/2018/11/ct.html
 """
-_DEFAULT_HU_TRANSFORM_PARAMS = {'HEAD': (16, 72), 'ABD': (45, 48)}
+_DEFAULT_HU_TRANSFORM_PARAMS = {
+    'HEAD': (16, 72),
+    'ABD': (45, 48)
+}
 
 _MORPHOLOGY_KERNEL = np.ones((5, 5), np.uint8)
 _GAUSS_VALUE = 5

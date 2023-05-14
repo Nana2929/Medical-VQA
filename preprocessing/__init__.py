@@ -3,32 +3,43 @@ import cv2
 import numpy as np
 from pathlib import Path
 
-from .config import _DEFAULT_HU_TRANSFORM_PARAMS, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, _CANNY_MIN, _CANNY_MAX, _FCM_NORM_VALUE
-from ._removing import remove_text
+from .config import (_DEFAULT_HU_TRANSFORM_PARAMS, _MORPHOLOGY_KERNEL,
+                     _GAUSS_VALUE, _CANNY_MIN, _CANNY_MAX, _FCM_NORM_VALUE,
+                     _TO_APPLY_ABD_FILTERS, _CT_NOISE_FUNCS)
+
+from ._text_removing import remove_text
 from ._transformation import hu_transform
 from ._correction import adjust_tilt
 from ._head_mri_preproc import fcm_norm
-
+from ._xray_preproc import norm, equal_hist, create_clahe, gauss_blur
+from ._ct_preproc import wiener_filter, median_filter
 
 _DEFAULT_PIPELINE_STEPS = {
-    'HEAD_CT': [
-        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
-        (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
-        (adjust_tilt, 'HEAD')
-    ],
+    'HEAD_CT':
+    [(remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
+     (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
+     (adjust_tilt, 'HEAD')],
     'HEAD_MRI': [
-        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
-        (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
+        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN,
+                                                         _CANNY_MAX)),
+        # (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['HEAD']),
         (adjust_tilt, 'HEAD'),
-        (fcm_norm, _FCM_NORM_VALUE)
+        (fcm_norm, _FCM_NORM_VALUE),
     ],
-    'ABD': [
-        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
-        (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['ABD']),
+    'ABD_CT': [
+        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN,
+                                                         _CANNY_MAX)),
+        # (hu_transform, *_DEFAULT_HU_TRANSFORM_PARAMS['ABD']),
+        (median_filter, ),
+        # (wiener_filter, ),
         # (adjust_tilt, 'ABD')
     ],
-    'CHEST': [
-        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN, _CANNY_MAX)),
+    'CHEST_X-Ray': [
+        (remove_text, _MORPHOLOGY_KERNEL, _GAUSS_VALUE, (_CANNY_MIN,
+                                                         _CANNY_MAX)),
+        (norm, ),
+        (create_clahe, 1, 16),
+        (gauss_blur, ),
         # (adjust_tilt, 'CHEST')
     ]
 }

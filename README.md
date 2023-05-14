@@ -6,6 +6,42 @@ By far (2023/03/24) the sota method for `VQA-Rad` dataset.
 Medical Domain as Much as it Does in the General Domain?](https://arxiv.org/pdf/2112.13906.pdf)
 
 Dataset for VQA-Rad, see [Awenbocc/med-vqa](https://github.com/Awenbocc/med-vqa) (by checking issue QQ).
+
+## 各種 Visual Encoders 試用
+
+- Consistent Configs:
+  - QCR
+  - pubmedclip
+### Visual Encoders: RN50, RN50x4, ViT
+- RN50
+  ```
+  Sat, 25 Mar 2023 16:26:49 INFO -------[Epoch]:62-------
+  Sat, 25 Mar 2023 16:26:49 INFO [Train] Loss:0.000482 , Train_Acc:99.053528%
+  Sat, 25 Mar 2023 16:26:49 INFO [Train] Loss_Open:0.000029 , Loss_Close:0.000031%
+  Sat, 25 Mar 2023 16:26:52 INFO [Validate] Val_Acc:71.618622%  |  Open_ACC:57.222225%   |  Close_ACC:81.180809%
+  Sat, 25 Mar 2023 16:26:53 INFO [Result] The best acc is 71.618622% at epoch 62
+  ```
+- RN50x4
+  - 先進入 lib/utils/run.sh，然後執行這行做 resize:`python ./create_resized_images.py ../../data/data_rad/imgid2idx.json $IMAGEPATH 288 ../../data/data_rad/images288x288.pkl 3`
+  - 進入 `configs/qcr_pubmedclipRN50x4_rad_16batchsize_withtfidf_nondeterministic.yaml`，將 PubMedClip 的 checkpoint path 填入 `CLIP_PATH`。
+  - 執行 `python main.py --cfg configs/qcr_pubmedclipRN50x4_rad_16batchsize_withtfidf_nondeterministic.yaml`
+  - 如果遇到 `new(): invalid datatype` 請修改 `dataset_RAD.py`（當初是在 inference trainset 時發現對`dataset_RAD.py`改動會有的錯誤）
+  - 最高分數，沒錯，就是和 RN50 一樣的 71.618622%。
+  ```
+  Sat, 13 May 2023 00:30:28 INFO -------[Epoch]:61-------
+  Sat, 13 May 2023 00:30:28 INFO [Train] Loss:0.000502 , Train_Acc:99.151436%
+  Sat, 13 May 2023 00:30:28 INFO [Train] Loss_Open:0.000032 , Loss_Close:0.000031%
+  Sat, 13 May 2023 00:30:32 INFO [Validate] Val_Acc:71.618622%  |  Open_ACC:58.563538%   |  Close_ACC:80.370369%
+  Sat, 13 May 2023 00:30:34 INFO [Result] The best acc is 71.618622% at epoch 61
+  ```
+- ViT
+  ```
+  Sun, 14 May 2023 04:09:36 INFO -------[Epoch]:178-------
+  Sun, 14 May 2023 04:09:36 INFO [Train] Loss:0.001017 , Train_Acc:99.053528%
+  Sun, 14 May 2023 04:09:36 INFO [Train] Loss_Open:0.000017 , Loss_Close:0.000095%
+  Sun, 14 May 2023 04:09:37 INFO [Validate] Val_Acc:71.175163%  |  Open_ACC:59.444447%   |  Close_ACC:78.966789%
+  Sun, 14 May 2023 04:09:39 INFO [Result] The best acc is 71.175163% at epoch 178
+  ```
 ## ⛔️ 1. Try fine-tuning with `roco`:
 
 Can't find the `/train/radiologytraindata.csv` in ROCO dataset repo.
@@ -52,14 +88,11 @@ NameError: name 'intersection' is not defined
 
 Dataset for VQA-Rad, see [Awenbocc/med-vqa](https://github.com/Awenbocc/med-vqa) (by checking issue QQ).
 ```
-2023-03-25 15:41:21,394 INFO     [Validate] Val_Acc:67.184036%  |  Open_ACC:46.408840%   |  Close_ACC:81.111107%
-2023-03-25 15:41:22,982 INFO     [Result] The best acc is 67.184036% at epoch 22
-
-2023-03-25 18:58:54,497 INFO     -------[Epoch]:199-------
-2023-03-25 18:58:54,497 INFO     [Train] Loss:0.000347 , Train_Acc:99.184074%
-2023-03-25 18:58:54,497 INFO     [Train] Loss_Open:0.000015 , Loss_Close:0.000026%
-2023-03-25 18:58:56,648 INFO     [Validate] Val_Acc:69.844788%  |  Open_ACC:55.801105%   |  Close_ACC:79.259254%
-2023-03-25 18:58:56,649 INFO     [Result] The best acc is 71.618622% at epoch 62 # paper: 72.1%
+Sat, 25 Mar 2023 16:26:49 INFO -------[Epoch]:62-------
+Sat, 25 Mar 2023 16:26:49 INFO [Train] Loss:0.000482 , Train_Acc:99.053528%
+Sat, 25 Mar 2023 16:26:49 INFO [Train] Loss_Open:0.000029 , Loss_Close:0.000031%
+Sat, 25 Mar 2023 16:26:52 INFO [Validate] Val_Acc:71.618622%  |  Open_ACC:57.222225%   |  Close_ACC:81.180809%
+Sat, 25 Mar 2023 16:26:53 INFO [Result] The best acc is 71.618622% at epoch 62
 ```
 Train Acc 大概在 25 epochs 時就幾乎達到最高峰。
 Closed 的 VAcc 很不穩定，有個 2 ~ 3 % 之間的劇烈下跌。

@@ -5,7 +5,6 @@ from skfuzzy import cmeans
 
 
 def _remove_noise(img):
-    img = img[:, :, 0]
     mask = img <= 20
     selem = morphology.disk(2)
     segmentation = morphology.dilation(mask, selem)
@@ -80,5 +79,6 @@ def fcm_norm(img, norm_value):
     wm_mean = clean_img[white_matter_mask == 1].mean()
     
     normalized_img = (clean_img / wm_mean) * norm_value
+    normalized_img *= 255
     
     return normalized_img

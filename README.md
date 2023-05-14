@@ -28,7 +28,7 @@ python main.py
 
     _DEFAULT_PIPELINE_STEPS = {
         'HEAD_CT': [
-            (test_a)
+            (test_a, )
         ],
         ...
     }

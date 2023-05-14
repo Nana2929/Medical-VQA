@@ -131,8 +131,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
+# checkpoints
+*.pth
 # Outputs
+output_images/
 output/
 outputs/
 slurm*

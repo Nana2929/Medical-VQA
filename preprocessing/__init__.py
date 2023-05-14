@@ -45,7 +45,19 @@ _DEFAULT_PIPELINE_STEPS = {
 }
 
 
-def pipeline(imgset, type,  steps=None, out_dir=None):
+def pipeline(imgset, type: str, steps=None, out_dir=None):
+    """image preprocessing pipeline (not question-specific)
+    Parameters
+    ----------
+    imgset : _type_
+        the image set to be processed
+    type : str
+        target_modality (in the form: {mod}_{organ})
+    steps : List[Tuple], optional
+        preprocessing steps (functions) to be executed, by default None
+    out_dir : str, optional
+       output directory of the preprocessed images, by default None
+    """
     results = []
     steps = steps or _DEFAULT_PIPELINE_STEPS[type]
 
@@ -57,12 +69,20 @@ def pipeline(imgset, type,  steps=None, out_dir=None):
     for img_name, img in imgset:
         result = img.copy()
 
-        print(img_name, '\r\n')
+        # print(img_name, '\r\n')
+
         for i, step in enumerate(steps):
             method, *args = step
-            print(method.__name__, '\r\n')
-            result = method(np.uint8(result), *args)
-
+            # print(method.__name__, '\r\n')
+            if (type == 'ABD_CT' and method.__name__ in _CT_NOISE_FUNCS
+                ) and img_name not in _TO_APPLY_ABD_FILTERS:
+                # print(f'\tSkipped preprocessing less-noisy ABD_CT {img_name}')
+                ...
+            else:
+                try:
+                    result = method(np.uint8(result), *args)
+                except Exception as e:
+                    print(f'\tSkipped. Failed at {method.__name__} with {e}: the contour has no enough (5) points.')
             if out_dir:
                 out_path = f'{out_dir_path}/{i+1}_{method.__name__}'
                 Path(out_path).mkdir(parents=True, exist_ok=True)
@@ -70,7 +90,11 @@ def pipeline(imgset, type,  steps=None, out_dir=None):
                 cv2.imwrite(f'{out_path}/{img_name}', result)
 
         results.append(result)
-        print('=' * 30)
+        # print('=' * 30)
+        # final writeout
+        if out_dir:
+            Path(f'{out_dir_path}/final').mkdir(parents=True, exist_ok=True)
+            cv2.imwrite(f'{out_dir_path}/final/{img_name}', result)
 
     return results
 

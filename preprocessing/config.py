@@ -35,7 +35,24 @@ _DEFAULT_HU_TRANSFORM_PARAMS = {
     'HEAD': (48, 68),
     'ABD': (70, 104)
 }
-
+# define the low-quality images
+# see preprocess branch: image-inspection/measure_ct_noise.py
+# Q4 images
+_CT_NOISE_FUNCS = [
+    'median_filter',
+    'wiener_filter',
+]
+_TO_APPLY_ABD_FILTERS = [
+    'synpic23631.jpg', 'synpic41050.jpg', 'synpic32136.jpg', 'synpic22791.jpg',
+    'synpic19605.jpg', 'synpic26697.jpg', 'synpic21902.jpg', 'synpic42157.jpg',
+    'synpic16520.jpg', 'synpic40596.jpg', 'synpic48714.jpg', 'synpic46943.jpg',
+    'synpic33889.jpg', 'synpic23571.jpg', 'synpic23008.jpg', 'synpic28180.jpg',
+    'synpic42951.jpg', 'synpic33844.jpg', 'synpic54823.jpg', 'synpic38630.jpg',
+    'synpic26158.jpg', 'synpic22684.jpg', 'synpic22982.jpg', 'synpic22020.jpg',
+    'synpic58261.jpg', 'synpic45914.jpg', 'synpic34922.jpg', 'synpic28695.jpg',
+    'synpic43433.jpg', 'synpic21028.jpg', 'synpic29219.jpg', 'synpic24967.jpg',
+    'synpic24220.jpg'
+]
 _MORPHOLOGY_KERNEL = np.ones((5, 5), np.uint8)
 _GAUSS_VALUE = 5
 _CANNY_MIN = 230

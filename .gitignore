@@ -5,8 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
-
+# env 
+*.env
 # ckpt
+PubMedCLIP_ViT32.pth
 PubMedCLIP_RN50.pth
 PubMedCLIP_RN50x4.pth
 cuda-repo-ubuntu2204-12-1-local_12.1.0-530.30.02-1_amd64.deb
@@ -134,6 +136,7 @@ dmypy.json
 
 # Outputs
 output/
+output_images/
 outputs/
 slurm*
 data/

@@ -2,7 +2,7 @@
 
 #-------------------------------------------------------------------------------
 # Name:         classify_question
-# Description:  
+# Description:
 # Author:       Boliu.Kelvin
 # Date:         2020/5/14
 #-------------------------------------------------------------------------------
@@ -65,7 +65,7 @@ class QuestionAttention(nn.Module):
         concated = torch.mul(torch.tanh(self.tanh_gate(concated)), torch.sigmoid(self.sigmoid_gate(concated)))  #b*12*1024 / or b*77*512 if clip
         a = self.attn(concated) # #b*12*1  / or b*77*1 if clip
         attn = F.softmax(a.squeeze(), 1) #b*12 / or b*77 if clip
-
+        # torch.bmm(): Performs a batch matrix-matrix product of matrices stored in input and mat2.
         ques_attn = torch.bmm(attn.unsqueeze(1), question).squeeze() #b*1024 / or b*512 if clip
 
         return ques_attn
@@ -80,13 +80,13 @@ class typeAttention(nn.Module):
         self.q_final = QuestionAttention(1024)
         self.f_fc1 = linear(1024, 2048)
         self.f_fc2 = linear(2048, 1024)
-        self.f_fc3 = linear(1024, 1024)
+        self.f_fc3 = linear(1024, 1024) # why 1024 not num_qtype 
 
     def forward(self, question):
         question = question[0]
         w_emb = self.w_emb(question)
         q_emb = self.q_emb.forward_all(w_emb)  # [batch, q_len, q_dim]
-        q_final = self.q_final(w_emb, q_emb)  # b, 1024
+        q_final = self.q_final(w_emb, q_emb)   # b, 1024
 
         x_f = self.f_fc1(q_final)
         x_f = F.relu(x_f)

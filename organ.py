@@ -11,12 +11,17 @@
 import spacy
 from spacy import displacy
 from scispacy.abbreviation import AbbreviationDetector
-from scispacy.linking import EntityLinker
+
+
 import nltk 
+from nltk.stem import WordNetLemmatizer
+nltk.download('wordnet')  # 依 WordNet 字典將各詞還原成原形
+nltk.download('punkt')  # 斷詞用
 
 from typing import Union, List, Dict 
 import pandas as pd
 import numpy as np
+# nltk.download('punkt')
 
 testset_path = "data/testset.json"
 trainset_path = "data/trainset.json"
@@ -24,6 +29,7 @@ trainset_path = "data/trainset.json"
 # # Load the model
 nlp = spacy.load("en_ner_bionlp13cg_md")
 nlp.add_pipe("abbreviation_detector")
+
 def to_dataframe(data: List[Dict]):
     # data: List of dicts 
     # to data frame
@@ -41,15 +47,24 @@ def get_organ(organdict,json_path):
         trainset = to_dataframe(trainset)
 
     for item in trainset.iloc:
-        doc = nlp(str(item['question']) + str(item['answer']))
+
+        doc = nlp(str(item['question']) +' '+ str(item['answer']))
         for ent in doc.ents:
             if ent.label_ == 'ORGAN':
-                if ent.text not in organdict:
-                    organdict[ent.text] = list()
-                if ent.text not in dic:
-                    dic[ent.text] = list()
-                organdict[ent.text].append(int(item['qid']))
-                dic[ent.text].append(int(item['qid']))
+                txt = nltk.word_tokenize(ent.text)
+                # lower
+                txt = [w.lower() for w in txt]
+                lemmatizer = WordNetLemmatizer()    
+                txt = [lemmatizer.lemmatize(w) for w in txt]
+                sentence = ' '.join(txt)
+
+
+                if sentence not in organdict:
+                    organdict[sentence] = list()
+                if sentence not in dic:
+                    dic[sentence] = list()
+                organdict[sentence].append(int(item['qid']))
+                dic[sentence].append(int(item['qid']))
     return dic , organdict
 
 def write_json(dic, json_path):

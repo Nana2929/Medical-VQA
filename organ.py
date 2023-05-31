@@ -1,27 +1,26 @@
 # python ==3.8
 # pip install -U spacy
-# python -m spacy download en_core_web_sm
 # pip install scispacy
-# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_md-0.5.1.tar.gz
-# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_ner_jnlpba_md-0.5.1.tar.gz
-# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_ner_craft_md-0.5.1.tar.gz
-# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_ner_bc5cdr_md-0.5.1.tar.gz
+
 # pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_ner_bionlp13cg_md-0.5.1.tar.gz
-# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_lg-0.5.1.tar.gz
 import spacy
 from spacy import displacy
 from scispacy.abbreviation import AbbreviationDetector
 
-
+# pip install nltk
 import nltk 
 from nltk.stem import WordNetLemmatizer
 nltk.download('wordnet')  # 依 WordNet 字典將各詞還原成原形
 nltk.download('punkt')  # 斷詞用
 
+
 from typing import Union, List, Dict 
 import pandas as pd
 import numpy as np
+import os
 # nltk.download('punkt')
+if os.path.exists('Type') == False:
+    os.mkdir('Type')
 
 testset_path = "data/testset.json"
 trainset_path = "data/trainset.json"
@@ -38,34 +37,33 @@ def to_dataframe(data: List[Dict]):
 
 import json
 
-def get_organ(organdict,json_path):
+def get_organ(json_path):
     dic = dict()
 
     with open(json_path, 'r') as f:
         trainset = json.load(f)
-
         trainset = to_dataframe(trainset)
 
     for item in trainset.iloc:
-
         doc = nlp(str(item['question']) +' '+ str(item['answer']))
         for ent in doc.ents:
-            if ent.label_ == 'ORGAN':
-                txt = nltk.word_tokenize(ent.text)
-                # lower
-                txt = [w.lower() for w in txt]
-                lemmatizer = WordNetLemmatizer()    
-                txt = [lemmatizer.lemmatize(w) for w in txt]
-                sentence = ' '.join(txt)
+            txt = nltk.word_tokenize(ent.text)
 
+            # lower
+            txt = [w.lower() for w in txt]
+            lemmatizer = WordNetLemmatizer()  
 
-                if sentence not in organdict:
-                    organdict[sentence] = list()
-                if sentence not in dic:
-                    dic[sentence] = list()
-                organdict[sentence].append(int(item['qid']))
-                dic[sentence].append(int(item['qid']))
-    return dic , organdict
+            # lemmatize  
+            txt = [lemmatizer.lemmatize(w) for w in txt]
+            sentence = ' '.join(txt)
+            label = str(ent.label_)
+            if label not in dic:
+                dic[label] = dict()
+            if sentence not in dic[label]:
+                dic[label][sentence] = dict()
+            
+            dic[label][sentence][int(str(item['qid']))] = [str(item['image_name']),str(item['image_organ'])]
+    return dic 
 
 def write_json(dic, json_path):
     json_data = json.dumps(dic)
@@ -73,20 +71,30 @@ def write_json(dic, json_path):
         outfile.write(json_data)
 
 organdict = dict()
-traindic , organdict = get_organ(organdict,trainset_path)
-testdic,organdict = get_organ(organdict,testset_path)
-write_json(organdict, "organdict.json")
-write_json(traindic, "traindic.json")
-write_json(testdic, "testdic.json")
+traindic  = get_organ(trainset_path)
+testdic = get_organ(testset_path)
+organdict.update(traindic)
+organdict.update(testdic)
+
+write_json(organdict, "./Type/all.json")
+write_json(traindic, "./Type/train.json")
+write_json(testdic, "./Type/test.json")
 
 print(organdict.keys())
 print(len(organdict.keys()))
+for key in organdict.keys():
+    print(key, len(organdict[key].keys()))
 
 print(traindic.keys())
 print(len(traindic.keys()))
-print(testdic.keys())
+for key in traindic.keys():
+    print(key, len(traindic[key].keys()))
 
+print(testdic.keys())
 print(len(testdic.keys()))
+for key in testdic.keys():
+    print(key, len(testdic[key].keys()))
+
 
 
 

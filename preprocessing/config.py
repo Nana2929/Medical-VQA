@@ -31,10 +31,7 @@ CT上限值 = WL + (WW / 2)
 HEAD CT 判讀： 通常有腦白質、灰質、脊髓液、凝固的血塊、骨頭 http://www.tma.org.tw/ftproot/2022/20220217_14_11_54.pdf
 ABD CT 判讀： 通常有胃、肝、脾臟、小腸、大腸、膀胱、骨盆 http://www.shensc.tw/2018/11/ct.html
 """
-_DEFAULT_HU_TRANSFORM_PARAMS = {
-    'HEAD': (48, 68),
-    'ABD': (70, 104)
-}
+_DEFAULT_HU_TRANSFORM_PARAMS = {'HEAD': (48, 68), 'ABD': (70, 104)}
 # define the low-quality images
 # see preprocess branch: image-inspection/measure_ct_noise.py
 # Q4 images
@@ -42,32 +39,47 @@ _CT_NOISE_FUNCS = [
     'median_filter',
     'wiener_filter',
 ]
-_TO_APPLY_ABD_FILTERS =['synpic24878.jpg',
- 'synpic43648.jpg',
- 'synpic19605.jpg',
- 'synpic34515.jpg',
- 'synpic33689.jpg',
- 'synpic22310.jpg',
- 'synpic47191.jpg',
- 'synpic50949.jpg',
- 'synpic42290.jpg',
- 'synpic30324.jpg',
- 'synpic22286.jpg',
- 'synpic42182.jpg',
- 'synpic23571.jpg',
- 'synpic29771.jpg',
- 'synpic23008.jpg',
- 'synpic28210.jpg',
- 'synpic54823.jpg',
- 'synpic52828.jpg',
- 'synpic38630.jpg',
- 'synpic31232.jpg',
- 'synpic34054.jpg',
- 'synpic22156.jpg',
- 'synpic43433.jpg',
- 'synpic45115.jpg',
- 'synpic28569.jpg',
- 'synpic24967.jpg']
+_TO_APPLY_ABD_FILTERS = [
+    'synpic24878.jpg', 'synpic43648.jpg', 'synpic19605.jpg', 'synpic34515.jpg',
+    'synpic33689.jpg', 'synpic22310.jpg', 'synpic47191.jpg', 'synpic50949.jpg',
+    'synpic42290.jpg', 'synpic30324.jpg', 'synpic22286.jpg', 'synpic42182.jpg',
+    'synpic23571.jpg', 'synpic29771.jpg', 'synpic23008.jpg', 'synpic28210.jpg',
+    'synpic54823.jpg', 'synpic52828.jpg', 'synpic38630.jpg', 'synpic31232.jpg',
+    'synpic34054.jpg', 'synpic22156.jpg', 'synpic43433.jpg', 'synpic45115.jpg',
+    'synpic28569.jpg', 'synpic24967.jpg'
+]
+_SKIP_TILT_CORRECTION = [
+    # HEAD MRI
+    'synpic26925.jpg',
+    'synpic37605.jpg',
+    'synpic40096.jpg',
+    'synpic47356.jpg',
+    'synpic46764.jpg',
+    'synpic47191.jpg',
+    'synpic50848.jpg',
+    'synpic54004.jpg',
+    'synpic53287.jpg',
+    'synpic59935.jpg',
+    'synpic20626.jpg',
+    'synpic31928.jpg',
+    'synpic34836.jpg',
+    'synpic38858.jpg',
+    'synpic46720.jpg',
+    'synpic49381.jpg',
+    'synpic56422.jpg',
+    'synpic34854.jpg',
+    'synpic34947.jpg',
+    'synpic39460.jpg',
+    'synpic44995.jpg',
+    'synpic51709.jpg',
+    'synpic55583.jpg',
+    'synpic56061.jpg',
+    'synpic57935.jpg',
+    # HEAD CT
+    'synpic57813.jpg',
+    'synpic23631.jpg',
+    'synpic40500.jpg'
+]
 
 _MORPHOLOGY_KERNEL = np.ones((5, 5), np.uint8)
 _GAUSS_VALUE = 5

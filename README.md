@@ -5,8 +5,8 @@ By far (2023/03/24) the sota method for `VQA-Rad` dataset.
 [Arxiv paper: Does CLIP Benefit Visual Question Answering in the
 Medical Domain as Much as it Does in the General Domain?](https://arxiv.org/pdf/2112.13906.pdf)
 
-Dataset for VQA-Rad, see [Awenbocc/med-vqa](https://github.com/Awenbocc/med-vqa) (by checking issue QQ).
-
+- Dataset for VQA-Rad, see [Awenbocc/med-vqa](https://github.com/Awenbocc/med-vqa) (by checking issue QQ).
+- [data_rad download point](https://drive.google.com/file/d/1MhEA6xwS5LRqNQI1Agha3eoIbtIPpEUA/view?usp=share_link)
 ## 各種 Visual Encoders 試用
 
 - Consistent Configs:

@@ -18,6 +18,10 @@ from typing import Union, List, Dict
 import pandas as pd
 import numpy as np
 import os
+
+# #pip install pickle4
+# import pickle4 as pickle
+
 # nltk.download('punkt')
 if os.path.exists('Type') == False:
     os.mkdir('Type')
@@ -66,10 +70,13 @@ def get_organ(json_path):
     return dic 
 
 def write_json(dic, json_path):
-    json_data = json.dumps(dic)
+    json_data = json.dumps(dic, indent=4)
     with open(json_path, "w") as outfile:
         outfile.write(json_data)
 
+def write_pickle(dic, pickle_path):
+    with open(pickle_path, 'wb') as handle:
+        pickle.dump(dic, handle, protocol=pickle.HIGHEST_PROTOCOL)
 organdict = dict()
 traindic  = get_organ(trainset_path)
 testdic = get_organ(testset_path)
@@ -79,6 +86,9 @@ organdict.update(testdic)
 write_json(organdict, "./Type/all.json")
 write_json(traindic, "./Type/train.json")
 write_json(testdic, "./Type/test.json")
+
+
+
 
 print(organdict.keys())
 print(len(organdict.keys()))

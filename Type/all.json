@@ -1,1 +1,2072 @@
-{"MULTI_TISSUE_STRUCTURE": {"aortic aneurysm": {"11": ["synpic42202.jpg", "CHEST"]}, "airspace": {"13": ["synpic29265.jpg", "CHEST"]}, "vascular": {"22": ["synpic54610.jpg", "HEAD"], "1116": ["synpic46976.jpg", "CHEST"], "1118": ["synpic46976.jpg", "CHEST"]}, "rib fracture": {"36": ["synpic25821.jpg", "CHEST"]}, "lung parenchyma": {"42": ["synpic25821.jpg", "CHEST"]}, "aortic wall": {"121": ["synpic39086.jpg", "ABD"]}, "abdominal aorta": {"123": ["synpic39086.jpg", "ABD"], "2430": ["synpic42290.jpg", "ABD"], "2726": ["synpic31232.jpg", "ABD"]}, "peritoneal": {"160": ["synpic30324.jpg", "ABD"]}, "pulmonary edema": {"186": ["synpic40272.jpg", "CHEST"], "1050": ["synpic18651.jpg", "CHEST"], "1052": ["synpic18651.jpg", "CHEST"]}, "pulmonary vasculature": {"188": ["synpic40272.jpg", "CHEST"]}, "chest wall": {"200": ["synpic52767.jpg", "CHEST"]}, "visceral pleura": {"224": ["synpic33422.jpg", "CHEST"]}, "posterior anterior": {"310": ["synpic31400.jpg", "CHEST"]}, "hypodense": {"319": ["synpic40464.jpg", "ABD"]}, "aortopulmonary": {"458": ["synpic21044.jpg", "CHEST"], "460": ["synpic21044.jpg", "CHEST"], "462": ["synpic21044.jpg", "CHEST"]}, "thoracic": {"531": ["synpic39532.jpg", "CHEST"]}, "left hemidiaphragm": {"612": ["synpic23803.jpg", "CHEST"], "2952": ["synpic38531.jpg", "CHEST"], "2954": ["synpic38531.jpg", "CHEST"]}, "blood vessel": {"630": ["synpic24220.jpg", "ABD"], "2166": ["synpic45699.jpg", "HEAD"], "2168": ["synpic45699.jpg", "HEAD"]}, "clavicle": {"631": ["synpic19782.jpg", "CHEST"], "2452": ["synpic19782.jpg", "CHEST"]}, "supraclavicular fossa": {"633": ["synpic19782.jpg", "CHEST"]}, "posterior": {"650": ["synpic41050.jpg", "ABD"]}, "subcutaneous": {"709": ["synpic34449.jpg", "CHEST"]}, "left apex": {"718": ["synpic13385.jpg", "CHEST"], "720": ["synpic13385.jpg", "CHEST"]}, "anterior mediastinum": {"722": ["synpic31955.jpg", "CHEST"], "2552": ["synpic42210.jpg", "CHEST"]}, "heart border": {"724": ["synpic31955.jpg", "CHEST"]}, "brain gyrus": {"787": ["synpic47737.jpg", "HEAD"], "790": ["synpic39240.jpg", "HEAD"]}, "anterior abdominal": {"795": ["synpic21410.jpg", "ABD"]}, "lateral ventricle": {"830": ["synpic42307.jpg", "HEAD"], "832": ["synpic42307.jpg", "HEAD"], "910": ["synpic57935.jpg", "HEAD"], "912": ["synpic57935.jpg", "HEAD"], "1264": ["synpic16520.jpg", "HEAD"]}, "abdominal wall": {"918": ["synpic47196.jpg", "ABD"]}, "vertebra": {"946": ["synpic32136.jpg", "ABD"]}, "verterbral fracture": {"948": ["synpic32136.jpg", "ABD"]}, "left subclavian vein": {"977": ["synpic22037.jpg", "CHEST"], "978": ["synpic22037.jpg", "CHEST"]}, "port-a-cath catheter": {"978": ["synpic22037.jpg", "CHEST"]}, "brain edema": {"1080": ["synpic56388.jpg", "HEAD"]}, "brain swollen": {"1082": ["synpic56388.jpg", "HEAD"]}, "optic nerve": {"1259": ["synpic38858.jpg", "HEAD"]}, "ventricle": {"1264": ["synpic16520.jpg", "HEAD"], "1622": ["synpic57317.jpg", "HEAD"], "1624": ["synpic57317.jpg", "HEAD"], "1686": ["synpic38069.jpg", "HEAD"], "1688": ["synpic38069.jpg", "HEAD"], "2001": ["synpic47020.jpg", "HEAD"], "2352": ["synpic57237.jpg", "HEAD"], "3055": ["synpic31928.jpg", "HEAD"], "3057": ["synpic31928.jpg", "HEAD"]}, "frontal lobe": {"1267": ["synpic55286.jpg", "HEAD"]}, "left frontal": {"1267": ["synpic55286.jpg", "HEAD"]}, "left thalamus": {"1512": ["synpic51426.jpg", "HEAD"], "1514": ["synpic51426.jpg", "HEAD"]}, "artery": {"1531": ["synpic60254.jpg", "HEAD"], "2372": ["synpic34713.jpg", "ABD"]}, "brain area": {"1578": ["synpic53287.jpg", "HEAD"]}, "posteroinferior cerebellum": {"1652": ["synpic23631.jpg", "HEAD"]}, "skeletal joint": {"1851": ["synpic29771.jpg", "ABD"]}, "skull fractured": {"1890": ["synpic56116.jpg", "HEAD"], "1894": ["synpic34922.jpg", "HEAD"]}, "skull fracture": {"1892": ["synpic34922.jpg", "HEAD"]}, "hemidiaphragms": {"1930": ["synpic45610.jpg", "CHEST"]}, "ventricular": {"2001": ["synpic47020.jpg", "HEAD"], "2003": ["synpic47020.jpg", "HEAD"]}, "left parietal": {"2187": ["synpic52248.jpg", "HEAD"]}, "bowel wall": {"2318": ["synpic23008.jpg", "ABD"]}, "biliary duct": {"2349": ["synpic33889.jpg", "ABD"]}, "vein": {"2372": ["synpic34713.jpg", "ABD"]}, "anterior wall": {"2481": ["synpic28378.jpg", "CHEST"]}, "appendix enlarged": {"2598": ["synpic23571.jpg", "ABD"]}, "frontal": {"2623": ["synpic38263.jpg", "HEAD"]}, "midline structure": {"2632": ["synpic58902.jpg", "HEAD"]}, "hilar": {"2731": ["synpic53228.jpg", "CHEST"]}, "midline": {"2741": ["synpic32962.jpg", "CHEST"]}, "pleural opacity": {"2771": ["synpic38531.jpg", "CHEST"]}, "appendix normal": {"2790": ["synpic31232.jpg", "ABD"]}, "mesenteric": {"2987": ["synpic47191.jpg", "ABD"], "2989": ["synpic47191.jpg", "ABD"]}, "cavum vergae": {"3015": ["synpic60543.jpg", "HEAD"], "3017": ["synpic60543.jpg", "HEAD"]}, "tracheal": {"3059": ["synpic25587.jpg", "CHEST"]}, "trachea": {"3061": ["synpic25587.jpg", "CHEST"]}}, "ORGAN": {"lung": {"40": ["synpic25821.jpg", "CHEST"], "224": ["synpic33422.jpg", "CHEST"], "302": ["synpic18319.jpg", "CHEST"], "304": ["synpic18319.jpg", "CHEST"], "415": ["synpic31400.jpg", "CHEST"], "417": ["synpic31400.jpg", "CHEST"], "423": ["synpic49914.jpg", "CHEST"], "470": ["synpic49914.jpg", "CHEST"], "472": ["synpic49914.jpg", "CHEST"], "531": ["synpic39532.jpg", "CHEST"], "596": ["synpic34449.jpg", "CHEST"], "763": ["synpic24538.jpg", "CHEST"], "1007": ["synpic46539.jpg", "CHEST"], "1632": ["synpic17738.jpg", "CHEST"], "2045": ["synpic29263.jpg", "CHEST"], "2413": ["synpic33481.jpg", "CHEST"], "2546": ["synpic12210.jpg", "CHEST"], "2662": ["synpic16407.jpg", "CHEST"], "2770": ["synpic38531.jpg", "CHEST"], "2949": ["synpic26764.jpg", "CHEST"], "2951": ["synpic26764.jpg", "CHEST"]}, "small bowel": {"46": ["synpic34515.jpg", "ABD"]}, "bowel": {"47": ["synpic34515.jpg", "ABD"], "86": ["synpic25534.jpg", "ABD"], "87": ["synpic25534.jpg", "ABD"], "2158": ["synpic28210.jpg", "ABD"], "2160": ["synpic28210.jpg", "ABD"]}, "cardiac": {"178": ["synpic21776.jpg", "CHEST"]}, "mediastinum": {"269": ["synpic33422.jpg", "CHEST"], "950": ["synpic25758.jpg", "ABD"], "951": ["synpic25758.jpg", "ABD"], "985": ["synpic32962.jpg", "CHEST"]}, "liver": {"298": ["synpic33889.jpg", "ABD"], "300": ["synpic33889.jpg", "ABD"], "485": ["synpic29219.jpg", "ABD"], "487": ["synpic29219.jpg", "ABD"], "630": ["synpic24220.jpg", "ABD"], "750": ["synpic24319.jpg", "ABD"], "1701": ["synpic22791.jpg", "ABD"], "1703": ["synpic22791.jpg", "ABD"], "1758": ["synpic33331.jpg", "CHEST"], "1768": ["synpic50958.jpg", "ABD"], "1781": ["synpic37275.jpg", "ABD"], "1783": ["synpic37275.jpg", "ABD"], "2311": ["synpic25105.jpg", "ABD"], "2313": ["synpic25105.jpg", "ABD"], "2369": ["synpic40596.jpg", "ABD"], "2837": ["synpic39141.jpg", "ABD"], "2839": ["synpic39141.jpg", "ABD"]}, "spleen": {"319": ["synpic40464.jpg", "ABD"], "321": ["synpic40464.jpg", "ABD"], "402": ["synpic40464.jpg", "ABD"], "2651": ["synpic21995.jpg", "ABD"]}, "pancreas": {"413": ["synpic40314.jpg", "ABD"], "414": ["synpic40314.jpg", "ABD"], "524": ["synpic40314.jpg", "ABD"], "1175": ["synpic21700.jpg", "ABD"], "1177": ["synpic21700.jpg", "ABD"], "1185": ["synpic21028.jpg", "ABD"]}, "pleural": {"470": ["synpic49914.jpg", "CHEST"], "1348": ["synpic40520.jpg", "CHEST"], "1350": ["synpic40520.jpg", "CHEST"], "2770": ["synpic38531.jpg", "CHEST"]}, "hemidiaphragm": {"495": ["synpic32933.jpg", "CHEST"]}, "organ": {"557": ["synpic57520.jpg", "HEAD"], "1078": ["synpic32962.jpg", "CHEST"], "1507": ["synpic57317.jpg", "HEAD"], "1626": ["synpic60254.jpg", "HEAD"], "1996": ["synpic40426.jpg", "ABD"], "2185": ["synpic52248.jpg", "HEAD"], "2223": ["synpic27142.jpg", "HEAD"], "2328": ["synpic52932.jpg", "CHEST"]}, "diaphragm": {"598": ["synpic17664.jpg", "CHEST"], "600": ["synpic17664.jpg", "CHEST"], "795": ["synpic21410.jpg", "ABD"], "1282": ["synpic26248.jpg", "CHEST"], "1932": ["synpic45610.jpg", "CHEST"], "2333": ["synpic31962.jpg", "CHEST"], "2381": ["synpic47783.jpg", "CHEST"]}, "heart": {"606": ["synpic24390.jpg", "CHEST"], "608": ["synpic24390.jpg", "CHEST"], "663": ["synpic45557.jpg", "CHEST"], "735": ["synpic45557.jpg", "CHEST"], "989": ["synpic18651.jpg", "CHEST"], "1500": ["synpic31256.jpg", "CHEST"], "1502": ["synpic31256.jpg", "CHEST"], "1616": ["synpic17738.jpg", "CHEST"], "1618": ["synpic17738.jpg", "CHEST"], "2135": ["synpic52988.jpg", "CHEST"]}, "thorax": {"608": ["synpic24390.jpg", "CHEST"]}, "gallbladder": {"629": ["synpic24220.jpg", "ABD"]}, "kidney": {"726": ["synpic24220.jpg", "ABD"], "728": ["synpic24220.jpg", "ABD"], "906": ["synpic30215.jpg", "ABD"], "908": ["synpic30215.jpg", "ABD"], "1273": ["synpic19853.jpg", "ABD"], "1419": ["synpic19853.jpg", "ABD"], "1540": ["synpic27576.jpg", "ABD"], "1542": ["synpic27576.jpg", "ABD"], "2458": ["synpic34054.jpg", "ABD"], "2509": ["synpic51926.jpg", "ABD"], "2515": ["synpic25105.jpg", "ABD"]}, "bone": {"759": ["synpic54795.jpg", "HEAD"]}, "esophagus": {"840": ["synpic43648.jpg", "ABD"], "842": ["synpic43648.jpg", "ABD"]}, "skin": {"918": ["synpic47196.jpg", "ABD"], "920": ["synpic47196.jpg", "ABD"]}, "hylar lymphadenopathy": {"979": ["synpic32962.jpg", "CHEST"]}, "cecum": {"1192": ["synpic48122.jpg", "ABD"]}, "brain": {"1205": ["synpic55286.jpg", "HEAD"], "1311": ["synpic53033.jpg", "HEAD"], "1312": ["synpic53033.jpg", "HEAD"], "1507": ["synpic57317.jpg", "HEAD"], "1529": ["synpic60254.jpg", "HEAD"], "1531": ["synpic60254.jpg", "HEAD"], "1551": ["synpic59536.jpg", "HEAD"], "1614": ["synpic60254.jpg", "HEAD"], "1615": ["synpic60254.jpg", "HEAD"], "1626": ["synpic60254.jpg", "HEAD"], "2185": ["synpic52248.jpg", "HEAD"], "2223": ["synpic27142.jpg", "HEAD"], "2224": ["synpic27142.jpg", "HEAD"], "2834": ["synpic40500.jpg", "HEAD"], "2902": ["synpic56841.jpg", "HEAD"], "2903": ["synpic56841.jpg", "HEAD"]}, "ventricle": {"1264": ["synpic16520.jpg", "HEAD"]}, "intestine": {"1996": ["synpic40426.jpg", "ABD"]}, "pulmonary": {"2043": ["synpic29263.jpg", "CHEST"]}, "cardiomegaly": {"2137": ["synpic52988.jpg", "CHEST"]}, "colon": {"2425": ["synpic30273.jpg", "ABD"]}, "encephalon": {"2448": ["synpic24878.jpg", "ABD"]}, "pancreas cystic": {"2554": ["synpic19605.jpg", "ABD"]}, "gastric": {"2735": ["synpic25821.jpg", "CHEST"]}, "rib": {"2745": ["synpic32084.jpg", "CHEST"]}, "ileum": {"2987": ["synpic47191.jpg", "ABD"], "2989": ["synpic47191.jpg", "ABD"]}}, "TISSUE": {"cardiac silhouette le": {"162": ["synpic16174.jpg", "CHEST"], "200": ["synpic52767.jpg", "CHEST"]}, "cardiac silhouette within normal size": {"164": ["synpic16174.jpg", "CHEST"]}, "cardiac silhouette small/stretched yes": {"180": ["synpic21776.jpg", "CHEST"]}, "cardiac contour normal": {"198": ["synpic52767.jpg", "CHEST"]}, "lateral": {"200": ["synpic52767.jpg", "CHEST"], "1908": ["synpic17675.jpg", "CHEST"], "2001": ["synpic47020.jpg", "HEAD"], "2003": ["synpic47020.jpg", "HEAD"], "2425": ["synpic30273.jpg", "ABD"]}, "midline": {"269": ["synpic33422.jpg", "CHEST"]}, "fat": {"524": ["synpic40314.jpg", "ABD"], "918": ["synpic47196.jpg", "ABD"], "920": ["synpic47196.jpg", "ABD"]}, "left": {"595": ["synpic34449.jpg", "CHEST"], "596": ["synpic34449.jpg", "CHEST"], "733": ["synpic35914.jpg", "ABD"], "734": ["synpic35914.jpg", "ABD"], "1311": ["synpic53033.jpg", "HEAD"], "1312": ["synpic53033.jpg", "HEAD"]}, "psoas muscle": {"650": ["synpic41050.jpg", "ABD"]}, "cartilage": {"754": ["synpic53978.jpg", "HEAD"]}, "medulla": {"754": ["synpic53978.jpg", "HEAD"]}, "cavitary lesion": {"1110": ["synpic51872.jpg", "CHEST"]}, "body": {"1265": ["synpic53635.jpg", "ABD"]}, "renal vein": {"1284": ["synpic41119.jpg", "ABD"]}, "renal vein drain": {"1286": ["synpic41119.jpg", "ABD"]}, "trachea midline": {"1395": ["synpic40520.jpg", "CHEST"], "1738": ["synpic45610.jpg", "CHEST"]}, "tissue": {"1602": ["synpic30273.jpg", "ABD"], "1603": ["synpic30273.jpg", "ABD"]}, "adipose tissue": {"1602": ["synpic30273.jpg", "ABD"], "1603": ["synpic30273.jpg", "ABD"]}, "trachea normal": {"1736": ["synpic45610.jpg", "CHEST"]}, "skeletal joint": {"1853": ["synpic29771.jpg", "ABD"]}, "cardiac border": {"1968": ["synpic27646.jpg", "CHEST"]}, "gallbladder gallstone": {"2143": ["synpic24967.jpg", "ABD"]}, "aorta": {"2406": ["synpic20260.jpg", "ABD"], "2408": ["synpic20260.jpg", "ABD"], "2940": ["synpic22828.jpg", "ABD"], "2942": ["synpic22828.jpg", "ABD"]}, "mucosal": {"2417": ["synpic24248.jpg", "ABD"]}, "tube": {"2524": ["synpic23989.jpg", "CHEST"]}, "fat stranding": {"2642": ["synpic47196.jpg", "ABD"]}, "bronchial airway": {"2682": ["synpic59126.jpg", "CHEST"]}, "cortical": {"2710": ["synpic55583.jpg", "HEAD"]}, "soft tissue": {"2987": ["synpic47191.jpg", "ABD"], "2989": ["synpic47191.jpg", "ABD"]}}, "ORGANISM_SUBDIVISION": {"bullous": {"718": ["synpic13385.jpg", "CHEST"]}, "skull": {"754": ["synpic53978.jpg", "HEAD"]}, "pleural": {"1009": ["synpic46539.jpg", "CHEST"]}, "left": {"1908": ["synpic17675.jpg", "CHEST"], "2770": ["synpic38531.jpg", "CHEST"]}, "cerebellum": {"2627": ["synpic56116.jpg", "HEAD"]}}, "PATHOLOGICAL_FORMATION": {"intraparenchymal": {"40": ["synpic25821.jpg", "CHEST"]}, "left lung": {"275": ["synpic40272.jpg", "CHEST"], "277": ["synpic40272.jpg", "CHEST"]}, "hypodense": {"321": ["synpic40464.jpg", "ABD"], "1703": ["synpic22791.jpg", "ABD"]}, "gastrointestinal system": {"335": ["synpic29219.jpg", "ABD"]}, "nodular opacity": {"415": ["synpic31400.jpg", "CHEST"], "417": ["synpic31400.jpg", "CHEST"]}, "lesion": {"429": ["synpic57368.jpg", "HEAD"]}, "lobe": {"431": ["synpic56799.jpg", "HEAD"], "433": ["synpic56799.jpg", "HEAD"], "1630": ["synpic17738.jpg", "CHEST"]}, "subdiaphragmatic": {"610": ["synpic23803.jpg", "CHEST"]}, "hylar lymphadenopathy": {"981": ["synpic32962.jpg", "CHEST"]}, "mediastinum": {"983": ["synpic32962.jpg", "CHEST"]}, "cardiomegaly": {"1050": ["synpic18651.jpg", "CHEST"], "1052": ["synpic18651.jpg", "CHEST"], "3138": ["synpic676.jpg", "CHEST"]}, "cavitary lesion": {"1108": ["synpic51872.jpg", "CHEST"]}, "abdomen": {"1265": ["synpic53635.jpg", "ABD"], "1456": ["synpic23631.jpg", "HEAD"], "1680": ["synpic22791.jpg", "ABD"], "2568": ["synpic29771.jpg", "ABD"]}, "isointense": {"1614": ["synpic60254.jpg", "HEAD"], "1615": ["synpic60254.jpg", "HEAD"]}, "maxillary sinus": {"1810": ["synpic20626.jpg", "HEAD"], "1812": ["synpic20626.jpg", "HEAD"]}, "sacroiliac joint": {"1853": ["synpic29771.jpg", "ABD"]}, "hyperdense opacity": {"1886": ["synpic47974.jpg", "ABD"]}, "skull fracture": {"1888": ["synpic56116.jpg", "HEAD"]}, "gallstone": {"2144": ["synpic24967.jpg", "ABD"]}, "caudate": {"2187": ["synpic52248.jpg", "HEAD"]}, "hypointense": {"2650": ["synpic51426.jpg", "HEAD"]}, "left kidney": {"2652": ["synpic43648.jpg", "ABD"]}, "appendix non-enlarged": {"2788": ["synpic31232.jpg", "ABD"]}, "gi tract": {"3132": ["synpic47191.jpg", "ABD"]}}, "ORGANISM": {"patient": {"20": ["synpic29265.jpg", "CHEST"], "49": ["synpic40272.jpg", "CHEST"], "158": ["synpic30324.jpg", "ABD"], "733": ["synpic35914.jpg", "ABD"], "1210": ["synpic28355.jpg", "CHEST"], "1266": ["synpic16170.jpg", "CHEST"], "1492": ["synpic42805.jpg", "CHEST"], "1493": ["synpic42805.jpg", "CHEST"], "1603": ["synpic30273.jpg", "ABD"], "1622": ["synpic57317.jpg", "HEAD"], "1690": ["synpic37275.jpg", "ABD"], "1721": ["synpic16221.jpg", "CHEST"], "1722": ["synpic16221.jpg", "CHEST"], "1814": ["synpic50958.jpg", "ABD"], "1867": ["synpic33481.jpg", "CHEST"], "2372": ["synpic34713.jpg", "ABD"], "2420": ["synpic34515.jpg", "ABD"], "2448": ["synpic24878.jpg", "ABD"], "2509": ["synpic51926.jpg", "ABD"], "2586": ["synpic16174.jpg", "CHEST"], "2651": ["synpic21995.jpg", "ABD"], "2735": ["synpic25821.jpg", "CHEST"], "2817": ["synpic22828.jpg", "ABD"], "2818": ["synpic22828.jpg", "ABD"], "2904": ["synpic32727.jpg", "ABD"], "2905": ["synpic32727.jpg", "ABD"], "2989": ["synpic47191.jpg", "ABD"], "3064": ["synpic43609.jpg", "ABD"]}}, "CANCER": {"gi": {"86": ["synpic25534.jpg", "ABD"]}, "pulmonary nodule": {"302": ["synpic18319.jpg", "CHEST"], "304": ["synpic18319.jpg", "CHEST"]}, "lesion": {"402": ["synpic40464.jpg", "ABD"], "1945": ["synpic55583.jpg", "HEAD"]}, "ring-enhancing lesion": {"427": ["synpic57368.jpg", "HEAD"]}, "thorax": {"606": ["synpic24390.jpg", "CHEST"], "608": ["synpic24390.jpg", "CHEST"], "1755": ["synpic33429.jpg", "CHEST"]}, "colon": {"648": ["synpic41050.jpg", "ABD"], "733": ["synpic35914.jpg", "ABD"], "734": ["synpic35914.jpg", "ABD"], "1602": ["synpic30273.jpg", "ABD"]}, "pancreatic head": {"1185": ["synpic21028.jpg", "ABD"]}, "brain lesion": {"1549": ["synpic59536.jpg", "HEAD"]}, "pancreatic head cause": {"1768": ["synpic50958.jpg", "ABD"]}, "body": {"2035": ["synpic34054.jpg", "ABD"]}, "kidney cyst": {"2226": ["synpic22794.jpg", "ABD"], "2228": ["synpic22794.jpg", "ABD"]}, "nodule": {"2546": ["synpic12210.jpg", "CHEST"], "2594": ["synpic17848.jpg", "CHEST"]}, "cerebral cortex": {"2627": ["synpic56116.jpg", "HEAD"]}, "hepatic lesion": {"2714": ["synpic47974.jpg", "ABD"]}, "hyperdense lesion": {"2940": ["synpic22828.jpg", "ABD"]}, "sulcus": {"3001": ["synpic53574.jpg", "HEAD"], "3003": ["synpic53574.jpg", "HEAD"]}}, "GENE_OR_GENE_PRODUCT": {"pa": {"393": ["synpic49914.jpg", "CHEST"], "1908": ["synpic17675.jpg", "CHEST"]}, "ap": {"797": ["synpic52951.jpg", "CHEST"]}}, "CELL": {"line": {"977": ["synpic22037.jpg", "CHEST"]}, "t2": {"1187": ["synpic38858.jpg", "HEAD"], "2938": ["synpic9872.jpg", "HEAD"]}, "left": {"2413": ["synpic33481.jpg", "CHEST"], "2651": ["synpic21995.jpg", "ABD"]}}, "IMMATERIAL_ANATOMICAL_ENTITY": {"left": {"13": ["synpic29265.jpg", "CHEST"], "1267": ["synpic55286.jpg", "HEAD"]}, "basilar artery": {"1529": ["synpic60254.jpg", "HEAD"], "1531": ["synpic60254.jpg", "HEAD"]}, "circular": {"2821": ["synpic100228.jpg", "CHEST"], "2823": ["synpic100228.jpg", "CHEST"]}, "lumen": {"2958": ["synpic23571.jpg", "ABD"]}}, "SIMPLE_CHEMICAL": {"free": {"306": ["synpic32933.jpg", "CHEST"], "308": ["synpic32933.jpg", "CHEST"]}, "mca": {"2166": ["synpic45699.jpg", "HEAD"], "2168": ["synpic45699.jpg", "HEAD"]}, "putamen": {"2187": ["synpic52248.jpg", "HEAD"]}}, "CELLULAR_COMPONENT": {"left apical": {"222": ["synpic33422.jpg", "CHEST"]}, "axial plane": {"1236": ["synpic20208.jpg", "ABD"]}, "basal ganglion": {"1512": ["synpic51426.jpg", "HEAD"], "1514": ["synpic51426.jpg", "HEAD"], "2627": ["synpic56116.jpg", "HEAD"]}, "periphery": {"1884": ["synpic47974.jpg", "ABD"]}, "focal mass": {"2007": ["synpic27646.jpg", "CHEST"]}, "luminal surface": {"2417": ["synpic24248.jpg", "ABD"]}}, "ORGANISM_SUBSTANCE": {"blood": {"814": ["synpic47356.jpg", "HEAD"]}, "left aca": {"2168": ["synpic45699.jpg", "HEAD"]}}, "ANATOMICAL_SYSTEM": {"cns": {"1055": ["synpic39301.jpg", "HEAD"], "1073": ["synpic51383.jpg", "HEAD"], "1214": ["synpic55317.jpg", "HEAD"], "2963": ["synpic31928.jpg", "HEAD"]}, "peripheral": {"1863": ["synpic28277.jpg", "ABD"]}}}
+{
+    "MULTI_TISSUE_STRUCTURE": {
+        "aortic aneurysm": {
+            "11": [
+                "synpic42202.jpg",
+                "CHEST"
+            ]
+        },
+        "airspace": {
+            "13": [
+                "synpic29265.jpg",
+                "CHEST"
+            ]
+        },
+        "vascular": {
+            "22": [
+                "synpic54610.jpg",
+                "HEAD"
+            ],
+            "1116": [
+                "synpic46976.jpg",
+                "CHEST"
+            ],
+            "1118": [
+                "synpic46976.jpg",
+                "CHEST"
+            ]
+        },
+        "rib fracture": {
+            "36": [
+                "synpic25821.jpg",
+                "CHEST"
+            ]
+        },
+        "lung parenchyma": {
+            "42": [
+                "synpic25821.jpg",
+                "CHEST"
+            ]
+        },
+        "aortic wall": {
+            "121": [
+                "synpic39086.jpg",
+                "ABD"
+            ]
+        },
+        "abdominal aorta": {
+            "123": [
+                "synpic39086.jpg",
+                "ABD"
+            ],
+            "2430": [
+                "synpic42290.jpg",
+                "ABD"
+            ],
+            "2726": [
+                "synpic31232.jpg",
+                "ABD"
+            ]
+        },
+        "peritoneal": {
+            "160": [
+                "synpic30324.jpg",
+                "ABD"
+            ]
+        },
+        "pulmonary edema": {
+            "186": [
+                "synpic40272.jpg",
+                "CHEST"
+            ],
+            "1050": [
+                "synpic18651.jpg",
+                "CHEST"
+            ],
+            "1052": [
+                "synpic18651.jpg",
+                "CHEST"
+            ]
+        },
+        "pulmonary vasculature": {
+            "188": [
+                "synpic40272.jpg",
+                "CHEST"
+            ]
+        },
+        "chest wall": {
+            "200": [
+                "synpic52767.jpg",
+                "CHEST"
+            ]
+        },
+        "visceral pleura": {
+            "224": [
+                "synpic33422.jpg",
+                "CHEST"
+            ]
+        },
+        "posterior anterior": {
+            "310": [
+                "synpic31400.jpg",
+                "CHEST"
+            ]
+        },
+        "hypodense": {
+            "319": [
+                "synpic40464.jpg",
+                "ABD"
+            ]
+        },
+        "aortopulmonary": {
+            "458": [
+                "synpic21044.jpg",
+                "CHEST"
+            ],
+            "460": [
+                "synpic21044.jpg",
+                "CHEST"
+            ],
+            "462": [
+                "synpic21044.jpg",
+                "CHEST"
+            ]
+        },
+        "thoracic": {
+            "531": [
+                "synpic39532.jpg",
+                "CHEST"
+            ]
+        },
+        "left hemidiaphragm": {
+            "612": [
+                "synpic23803.jpg",
+                "CHEST"
+            ],
+            "2952": [
+                "synpic38531.jpg",
+                "CHEST"
+            ],
+            "2954": [
+                "synpic38531.jpg",
+                "CHEST"
+            ]
+        },
+        "blood vessel": {
+            "630": [
+                "synpic24220.jpg",
+                "ABD"
+            ],
+            "2166": [
+                "synpic45699.jpg",
+                "HEAD"
+            ],
+            "2168": [
+                "synpic45699.jpg",
+                "HEAD"
+            ]
+        },
+        "clavicle": {
+            "631": [
+                "synpic19782.jpg",
+                "CHEST"
+            ],
+            "2452": [
+                "synpic19782.jpg",
+                "CHEST"
+            ]
+        },
+        "supraclavicular fossa": {
+            "633": [
+                "synpic19782.jpg",
+                "CHEST"
+            ]
+        },
+        "posterior": {
+            "650": [
+                "synpic41050.jpg",
+                "ABD"
+            ]
+        },
+        "subcutaneous": {
+            "709": [
+                "synpic34449.jpg",
+                "CHEST"
+            ]
+        },
+        "left apex": {
+            "718": [
+                "synpic13385.jpg",
+                "CHEST"
+            ],
+            "720": [
+                "synpic13385.jpg",
+                "CHEST"
+            ]
+        },
+        "anterior mediastinum": {
+            "722": [
+                "synpic31955.jpg",
+                "CHEST"
+            ],
+            "2552": [
+                "synpic42210.jpg",
+                "CHEST"
+            ]
+        },
+        "heart border": {
+            "724": [
+                "synpic31955.jpg",
+                "CHEST"
+            ]
+        },
+        "brain gyrus": {
+            "787": [
+                "synpic47737.jpg",
+                "HEAD"
+            ],
+            "790": [
+                "synpic39240.jpg",
+                "HEAD"
+            ]
+        },
+        "anterior abdominal": {
+            "795": [
+                "synpic21410.jpg",
+                "ABD"
+            ]
+        },
+        "lateral ventricle": {
+            "830": [
+                "synpic42307.jpg",
+                "HEAD"
+            ],
+            "832": [
+                "synpic42307.jpg",
+                "HEAD"
+            ],
+            "910": [
+                "synpic57935.jpg",
+                "HEAD"
+            ],
+            "912": [
+                "synpic57935.jpg",
+                "HEAD"
+            ],
+            "1264": [
+                "synpic16520.jpg",
+                "HEAD"
+            ]
+        },
+        "abdominal wall": {
+            "918": [
+                "synpic47196.jpg",
+                "ABD"
+            ]
+        },
+        "vertebra": {
+            "946": [
+                "synpic32136.jpg",
+                "ABD"
+            ]
+        },
+        "verterbral fracture": {
+            "948": [
+                "synpic32136.jpg",
+                "ABD"
+            ]
+        },
+        "left subclavian vein": {
+            "977": [
+                "synpic22037.jpg",
+                "CHEST"
+            ],
+            "978": [
+                "synpic22037.jpg",
+                "CHEST"
+            ]
+        },
+        "port-a-cath catheter": {
+            "978": [
+                "synpic22037.jpg",
+                "CHEST"
+            ]
+        },
+        "brain edema": {
+            "1080": [
+                "synpic56388.jpg",
+                "HEAD"
+            ]
+        },
+        "brain swollen": {
+            "1082": [
+                "synpic56388.jpg",
+                "HEAD"
+            ]
+        },
+        "optic nerve": {
+            "1259": [
+                "synpic38858.jpg",
+                "HEAD"
+            ]
+        },
+        "ventricle": {
+            "1264": [
+                "synpic16520.jpg",
+                "HEAD"
+            ],
+            "1622": [
+                "synpic57317.jpg",
+                "HEAD"
+            ],
+            "1624": [
+                "synpic57317.jpg",
+                "HEAD"
+            ],
+            "1686": [
+                "synpic38069.jpg",
+                "HEAD"
+            ],
+            "1688": [
+                "synpic38069.jpg",
+                "HEAD"
+            ],
+            "2001": [
+                "synpic47020.jpg",
+                "HEAD"
+            ],
+            "2352": [
+                "synpic57237.jpg",
+                "HEAD"
+            ],
+            "3055": [
+                "synpic31928.jpg",
+                "HEAD"
+            ],
+            "3057": [
+                "synpic31928.jpg",
+                "HEAD"
+            ]
+        },
+        "frontal lobe": {
+            "1267": [
+                "synpic55286.jpg",
+                "HEAD"
+            ]
+        },
+        "left frontal": {
+            "1267": [
+                "synpic55286.jpg",
+                "HEAD"
+            ]
+        },
+        "left thalamus": {
+            "1512": [
+                "synpic51426.jpg",
+                "HEAD"
+            ],
+            "1514": [
+                "synpic51426.jpg",
+                "HEAD"
+            ]
+        },
+        "artery": {
+            "1531": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "2372": [
+                "synpic34713.jpg",
+                "ABD"
+            ]
+        },
+        "brain area": {
+            "1578": [
+                "synpic53287.jpg",
+                "HEAD"
+            ]
+        },
+        "posteroinferior cerebellum": {
+            "1652": [
+                "synpic23631.jpg",
+                "HEAD"
+            ]
+        },
+        "skeletal joint": {
+            "1851": [
+                "synpic29771.jpg",
+                "ABD"
+            ]
+        },
+        "skull fractured": {
+            "1890": [
+                "synpic56116.jpg",
+                "HEAD"
+            ],
+            "1894": [
+                "synpic34922.jpg",
+                "HEAD"
+            ]
+        },
+        "skull fracture": {
+            "1892": [
+                "synpic34922.jpg",
+                "HEAD"
+            ]
+        },
+        "hemidiaphragms": {
+            "1930": [
+                "synpic45610.jpg",
+                "CHEST"
+            ]
+        },
+        "ventricular": {
+            "2001": [
+                "synpic47020.jpg",
+                "HEAD"
+            ],
+            "2003": [
+                "synpic47020.jpg",
+                "HEAD"
+            ]
+        },
+        "left parietal": {
+            "2187": [
+                "synpic52248.jpg",
+                "HEAD"
+            ]
+        },
+        "bowel wall": {
+            "2318": [
+                "synpic23008.jpg",
+                "ABD"
+            ]
+        },
+        "biliary duct": {
+            "2349": [
+                "synpic33889.jpg",
+                "ABD"
+            ]
+        },
+        "vein": {
+            "2372": [
+                "synpic34713.jpg",
+                "ABD"
+            ]
+        },
+        "anterior wall": {
+            "2481": [
+                "synpic28378.jpg",
+                "CHEST"
+            ]
+        },
+        "appendix enlarged": {
+            "2598": [
+                "synpic23571.jpg",
+                "ABD"
+            ]
+        },
+        "frontal": {
+            "2623": [
+                "synpic38263.jpg",
+                "HEAD"
+            ]
+        },
+        "midline structure": {
+            "2632": [
+                "synpic58902.jpg",
+                "HEAD"
+            ]
+        },
+        "hilar": {
+            "2731": [
+                "synpic53228.jpg",
+                "CHEST"
+            ]
+        },
+        "midline": {
+            "2741": [
+                "synpic32962.jpg",
+                "CHEST"
+            ]
+        },
+        "pleural opacity": {
+            "2771": [
+                "synpic38531.jpg",
+                "CHEST"
+            ]
+        },
+        "appendix normal": {
+            "2790": [
+                "synpic31232.jpg",
+                "ABD"
+            ]
+        },
+        "mesenteric": {
+            "2987": [
+                "synpic47191.jpg",
+                "ABD"
+            ],
+            "2989": [
+                "synpic47191.jpg",
+                "ABD"
+            ]
+        },
+        "cavum vergae": {
+            "3015": [
+                "synpic60543.jpg",
+                "HEAD"
+            ],
+            "3017": [
+                "synpic60543.jpg",
+                "HEAD"
+            ]
+        },
+        "tracheal": {
+            "3059": [
+                "synpic25587.jpg",
+                "CHEST"
+            ]
+        },
+        "trachea": {
+            "3061": [
+                "synpic25587.jpg",
+                "CHEST"
+            ]
+        }
+    },
+    "ORGAN": {
+        "lung": {
+            "40": [
+                "synpic25821.jpg",
+                "CHEST"
+            ],
+            "224": [
+                "synpic33422.jpg",
+                "CHEST"
+            ],
+            "302": [
+                "synpic18319.jpg",
+                "CHEST"
+            ],
+            "304": [
+                "synpic18319.jpg",
+                "CHEST"
+            ],
+            "415": [
+                "synpic31400.jpg",
+                "CHEST"
+            ],
+            "417": [
+                "synpic31400.jpg",
+                "CHEST"
+            ],
+            "423": [
+                "synpic49914.jpg",
+                "CHEST"
+            ],
+            "470": [
+                "synpic49914.jpg",
+                "CHEST"
+            ],
+            "472": [
+                "synpic49914.jpg",
+                "CHEST"
+            ],
+            "531": [
+                "synpic39532.jpg",
+                "CHEST"
+            ],
+            "596": [
+                "synpic34449.jpg",
+                "CHEST"
+            ],
+            "763": [
+                "synpic24538.jpg",
+                "CHEST"
+            ],
+            "1007": [
+                "synpic46539.jpg",
+                "CHEST"
+            ],
+            "1632": [
+                "synpic17738.jpg",
+                "CHEST"
+            ],
+            "2045": [
+                "synpic29263.jpg",
+                "CHEST"
+            ],
+            "2413": [
+                "synpic33481.jpg",
+                "CHEST"
+            ],
+            "2546": [
+                "synpic12210.jpg",
+                "CHEST"
+            ],
+            "2662": [
+                "synpic16407.jpg",
+                "CHEST"
+            ],
+            "2770": [
+                "synpic38531.jpg",
+                "CHEST"
+            ],
+            "2949": [
+                "synpic26764.jpg",
+                "CHEST"
+            ],
+            "2951": [
+                "synpic26764.jpg",
+                "CHEST"
+            ]
+        },
+        "small bowel": {
+            "46": [
+                "synpic34515.jpg",
+                "ABD"
+            ]
+        },
+        "bowel": {
+            "47": [
+                "synpic34515.jpg",
+                "ABD"
+            ],
+            "86": [
+                "synpic25534.jpg",
+                "ABD"
+            ],
+            "87": [
+                "synpic25534.jpg",
+                "ABD"
+            ],
+            "2158": [
+                "synpic28210.jpg",
+                "ABD"
+            ],
+            "2160": [
+                "synpic28210.jpg",
+                "ABD"
+            ]
+        },
+        "cardiac": {
+            "178": [
+                "synpic21776.jpg",
+                "CHEST"
+            ]
+        },
+        "mediastinum": {
+            "269": [
+                "synpic33422.jpg",
+                "CHEST"
+            ],
+            "950": [
+                "synpic25758.jpg",
+                "ABD"
+            ],
+            "951": [
+                "synpic25758.jpg",
+                "ABD"
+            ],
+            "985": [
+                "synpic32962.jpg",
+                "CHEST"
+            ]
+        },
+        "liver": {
+            "298": [
+                "synpic33889.jpg",
+                "ABD"
+            ],
+            "300": [
+                "synpic33889.jpg",
+                "ABD"
+            ],
+            "485": [
+                "synpic29219.jpg",
+                "ABD"
+            ],
+            "487": [
+                "synpic29219.jpg",
+                "ABD"
+            ],
+            "630": [
+                "synpic24220.jpg",
+                "ABD"
+            ],
+            "750": [
+                "synpic24319.jpg",
+                "ABD"
+            ],
+            "1701": [
+                "synpic22791.jpg",
+                "ABD"
+            ],
+            "1703": [
+                "synpic22791.jpg",
+                "ABD"
+            ],
+            "1758": [
+                "synpic33331.jpg",
+                "CHEST"
+            ],
+            "1768": [
+                "synpic50958.jpg",
+                "ABD"
+            ],
+            "1781": [
+                "synpic37275.jpg",
+                "ABD"
+            ],
+            "1783": [
+                "synpic37275.jpg",
+                "ABD"
+            ],
+            "2311": [
+                "synpic25105.jpg",
+                "ABD"
+            ],
+            "2313": [
+                "synpic25105.jpg",
+                "ABD"
+            ],
+            "2369": [
+                "synpic40596.jpg",
+                "ABD"
+            ],
+            "2837": [
+                "synpic39141.jpg",
+                "ABD"
+            ],
+            "2839": [
+                "synpic39141.jpg",
+                "ABD"
+            ]
+        },
+        "spleen": {
+            "319": [
+                "synpic40464.jpg",
+                "ABD"
+            ],
+            "321": [
+                "synpic40464.jpg",
+                "ABD"
+            ],
+            "402": [
+                "synpic40464.jpg",
+                "ABD"
+            ],
+            "2651": [
+                "synpic21995.jpg",
+                "ABD"
+            ]
+        },
+        "pancreas": {
+            "413": [
+                "synpic40314.jpg",
+                "ABD"
+            ],
+            "414": [
+                "synpic40314.jpg",
+                "ABD"
+            ],
+            "524": [
+                "synpic40314.jpg",
+                "ABD"
+            ],
+            "1175": [
+                "synpic21700.jpg",
+                "ABD"
+            ],
+            "1177": [
+                "synpic21700.jpg",
+                "ABD"
+            ],
+            "1185": [
+                "synpic21028.jpg",
+                "ABD"
+            ]
+        },
+        "pleural": {
+            "470": [
+                "synpic49914.jpg",
+                "CHEST"
+            ],
+            "1348": [
+                "synpic40520.jpg",
+                "CHEST"
+            ],
+            "1350": [
+                "synpic40520.jpg",
+                "CHEST"
+            ],
+            "2770": [
+                "synpic38531.jpg",
+                "CHEST"
+            ]
+        },
+        "hemidiaphragm": {
+            "495": [
+                "synpic32933.jpg",
+                "CHEST"
+            ]
+        },
+        "organ": {
+            "557": [
+                "synpic57520.jpg",
+                "HEAD"
+            ],
+            "1078": [
+                "synpic32962.jpg",
+                "CHEST"
+            ],
+            "1507": [
+                "synpic57317.jpg",
+                "HEAD"
+            ],
+            "1626": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "1996": [
+                "synpic40426.jpg",
+                "ABD"
+            ],
+            "2185": [
+                "synpic52248.jpg",
+                "HEAD"
+            ],
+            "2223": [
+                "synpic27142.jpg",
+                "HEAD"
+            ],
+            "2328": [
+                "synpic52932.jpg",
+                "CHEST"
+            ]
+        },
+        "diaphragm": {
+            "598": [
+                "synpic17664.jpg",
+                "CHEST"
+            ],
+            "600": [
+                "synpic17664.jpg",
+                "CHEST"
+            ],
+            "795": [
+                "synpic21410.jpg",
+                "ABD"
+            ],
+            "1282": [
+                "synpic26248.jpg",
+                "CHEST"
+            ],
+            "1932": [
+                "synpic45610.jpg",
+                "CHEST"
+            ],
+            "2333": [
+                "synpic31962.jpg",
+                "CHEST"
+            ],
+            "2381": [
+                "synpic47783.jpg",
+                "CHEST"
+            ]
+        },
+        "heart": {
+            "606": [
+                "synpic24390.jpg",
+                "CHEST"
+            ],
+            "608": [
+                "synpic24390.jpg",
+                "CHEST"
+            ],
+            "663": [
+                "synpic45557.jpg",
+                "CHEST"
+            ],
+            "735": [
+                "synpic45557.jpg",
+                "CHEST"
+            ],
+            "989": [
+                "synpic18651.jpg",
+                "CHEST"
+            ],
+            "1500": [
+                "synpic31256.jpg",
+                "CHEST"
+            ],
+            "1502": [
+                "synpic31256.jpg",
+                "CHEST"
+            ],
+            "1616": [
+                "synpic17738.jpg",
+                "CHEST"
+            ],
+            "1618": [
+                "synpic17738.jpg",
+                "CHEST"
+            ],
+            "2135": [
+                "synpic52988.jpg",
+                "CHEST"
+            ]
+        },
+        "thorax": {
+            "608": [
+                "synpic24390.jpg",
+                "CHEST"
+            ]
+        },
+        "gallbladder": {
+            "629": [
+                "synpic24220.jpg",
+                "ABD"
+            ]
+        },
+        "kidney": {
+            "726": [
+                "synpic24220.jpg",
+                "ABD"
+            ],
+            "728": [
+                "synpic24220.jpg",
+                "ABD"
+            ],
+            "906": [
+                "synpic30215.jpg",
+                "ABD"
+            ],
+            "908": [
+                "synpic30215.jpg",
+                "ABD"
+            ],
+            "1273": [
+                "synpic19853.jpg",
+                "ABD"
+            ],
+            "1419": [
+                "synpic19853.jpg",
+                "ABD"
+            ],
+            "1540": [
+                "synpic27576.jpg",
+                "ABD"
+            ],
+            "1542": [
+                "synpic27576.jpg",
+                "ABD"
+            ],
+            "2458": [
+                "synpic34054.jpg",
+                "ABD"
+            ],
+            "2509": [
+                "synpic51926.jpg",
+                "ABD"
+            ],
+            "2515": [
+                "synpic25105.jpg",
+                "ABD"
+            ]
+        },
+        "bone": {
+            "759": [
+                "synpic54795.jpg",
+                "HEAD"
+            ]
+        },
+        "esophagus": {
+            "840": [
+                "synpic43648.jpg",
+                "ABD"
+            ],
+            "842": [
+                "synpic43648.jpg",
+                "ABD"
+            ]
+        },
+        "skin": {
+            "918": [
+                "synpic47196.jpg",
+                "ABD"
+            ],
+            "920": [
+                "synpic47196.jpg",
+                "ABD"
+            ]
+        },
+        "hylar lymphadenopathy": {
+            "979": [
+                "synpic32962.jpg",
+                "CHEST"
+            ]
+        },
+        "cecum": {
+            "1192": [
+                "synpic48122.jpg",
+                "ABD"
+            ]
+        },
+        "brain": {
+            "1205": [
+                "synpic55286.jpg",
+                "HEAD"
+            ],
+            "1311": [
+                "synpic53033.jpg",
+                "HEAD"
+            ],
+            "1312": [
+                "synpic53033.jpg",
+                "HEAD"
+            ],
+            "1507": [
+                "synpic57317.jpg",
+                "HEAD"
+            ],
+            "1529": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "1531": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "1551": [
+                "synpic59536.jpg",
+                "HEAD"
+            ],
+            "1614": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "1615": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "1626": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "2185": [
+                "synpic52248.jpg",
+                "HEAD"
+            ],
+            "2223": [
+                "synpic27142.jpg",
+                "HEAD"
+            ],
+            "2224": [
+                "synpic27142.jpg",
+                "HEAD"
+            ],
+            "2834": [
+                "synpic40500.jpg",
+                "HEAD"
+            ],
+            "2902": [
+                "synpic56841.jpg",
+                "HEAD"
+            ],
+            "2903": [
+                "synpic56841.jpg",
+                "HEAD"
+            ]
+        },
+        "ventricle": {
+            "1264": [
+                "synpic16520.jpg",
+                "HEAD"
+            ]
+        },
+        "intestine": {
+            "1996": [
+                "synpic40426.jpg",
+                "ABD"
+            ]
+        },
+        "pulmonary": {
+            "2043": [
+                "synpic29263.jpg",
+                "CHEST"
+            ]
+        },
+        "cardiomegaly": {
+            "2137": [
+                "synpic52988.jpg",
+                "CHEST"
+            ]
+        },
+        "colon": {
+            "2425": [
+                "synpic30273.jpg",
+                "ABD"
+            ]
+        },
+        "encephalon": {
+            "2448": [
+                "synpic24878.jpg",
+                "ABD"
+            ]
+        },
+        "pancreas cystic": {
+            "2554": [
+                "synpic19605.jpg",
+                "ABD"
+            ]
+        },
+        "gastric": {
+            "2735": [
+                "synpic25821.jpg",
+                "CHEST"
+            ]
+        },
+        "rib": {
+            "2745": [
+                "synpic32084.jpg",
+                "CHEST"
+            ]
+        },
+        "ileum": {
+            "2987": [
+                "synpic47191.jpg",
+                "ABD"
+            ],
+            "2989": [
+                "synpic47191.jpg",
+                "ABD"
+            ]
+        }
+    },
+    "TISSUE": {
+        "cardiac silhouette le": {
+            "162": [
+                "synpic16174.jpg",
+                "CHEST"
+            ],
+            "200": [
+                "synpic52767.jpg",
+                "CHEST"
+            ]
+        },
+        "cardiac silhouette within normal size": {
+            "164": [
+                "synpic16174.jpg",
+                "CHEST"
+            ]
+        },
+        "cardiac silhouette small/stretched yes": {
+            "180": [
+                "synpic21776.jpg",
+                "CHEST"
+            ]
+        },
+        "cardiac contour normal": {
+            "198": [
+                "synpic52767.jpg",
+                "CHEST"
+            ]
+        },
+        "lateral": {
+            "200": [
+                "synpic52767.jpg",
+                "CHEST"
+            ],
+            "1908": [
+                "synpic17675.jpg",
+                "CHEST"
+            ],
+            "2001": [
+                "synpic47020.jpg",
+                "HEAD"
+            ],
+            "2003": [
+                "synpic47020.jpg",
+                "HEAD"
+            ],
+            "2425": [
+                "synpic30273.jpg",
+                "ABD"
+            ]
+        },
+        "midline": {
+            "269": [
+                "synpic33422.jpg",
+                "CHEST"
+            ]
+        },
+        "fat": {
+            "524": [
+                "synpic40314.jpg",
+                "ABD"
+            ],
+            "918": [
+                "synpic47196.jpg",
+                "ABD"
+            ],
+            "920": [
+                "synpic47196.jpg",
+                "ABD"
+            ]
+        },
+        "left": {
+            "595": [
+                "synpic34449.jpg",
+                "CHEST"
+            ],
+            "596": [
+                "synpic34449.jpg",
+                "CHEST"
+            ],
+            "733": [
+                "synpic35914.jpg",
+                "ABD"
+            ],
+            "734": [
+                "synpic35914.jpg",
+                "ABD"
+            ],
+            "1311": [
+                "synpic53033.jpg",
+                "HEAD"
+            ],
+            "1312": [
+                "synpic53033.jpg",
+                "HEAD"
+            ]
+        },
+        "psoas muscle": {
+            "650": [
+                "synpic41050.jpg",
+                "ABD"
+            ]
+        },
+        "cartilage": {
+            "754": [
+                "synpic53978.jpg",
+                "HEAD"
+            ]
+        },
+        "medulla": {
+            "754": [
+                "synpic53978.jpg",
+                "HEAD"
+            ]
+        },
+        "cavitary lesion": {
+            "1110": [
+                "synpic51872.jpg",
+                "CHEST"
+            ]
+        },
+        "body": {
+            "1265": [
+                "synpic53635.jpg",
+                "ABD"
+            ]
+        },
+        "renal vein": {
+            "1284": [
+                "synpic41119.jpg",
+                "ABD"
+            ]
+        },
+        "renal vein drain": {
+            "1286": [
+                "synpic41119.jpg",
+                "ABD"
+            ]
+        },
+        "trachea midline": {
+            "1395": [
+                "synpic40520.jpg",
+                "CHEST"
+            ],
+            "1738": [
+                "synpic45610.jpg",
+                "CHEST"
+            ]
+        },
+        "tissue": {
+            "1602": [
+                "synpic30273.jpg",
+                "ABD"
+            ],
+            "1603": [
+                "synpic30273.jpg",
+                "ABD"
+            ]
+        },
+        "adipose tissue": {
+            "1602": [
+                "synpic30273.jpg",
+                "ABD"
+            ],
+            "1603": [
+                "synpic30273.jpg",
+                "ABD"
+            ]
+        },
+        "trachea normal": {
+            "1736": [
+                "synpic45610.jpg",
+                "CHEST"
+            ]
+        },
+        "skeletal joint": {
+            "1853": [
+                "synpic29771.jpg",
+                "ABD"
+            ]
+        },
+        "cardiac border": {
+            "1968": [
+                "synpic27646.jpg",
+                "CHEST"
+            ]
+        },
+        "gallbladder gallstone": {
+            "2143": [
+                "synpic24967.jpg",
+                "ABD"
+            ]
+        },
+        "aorta": {
+            "2406": [
+                "synpic20260.jpg",
+                "ABD"
+            ],
+            "2408": [
+                "synpic20260.jpg",
+                "ABD"
+            ],
+            "2940": [
+                "synpic22828.jpg",
+                "ABD"
+            ],
+            "2942": [
+                "synpic22828.jpg",
+                "ABD"
+            ]
+        },
+        "mucosal": {
+            "2417": [
+                "synpic24248.jpg",
+                "ABD"
+            ]
+        },
+        "tube": {
+            "2524": [
+                "synpic23989.jpg",
+                "CHEST"
+            ]
+        },
+        "fat stranding": {
+            "2642": [
+                "synpic47196.jpg",
+                "ABD"
+            ]
+        },
+        "bronchial airway": {
+            "2682": [
+                "synpic59126.jpg",
+                "CHEST"
+            ]
+        },
+        "cortical": {
+            "2710": [
+                "synpic55583.jpg",
+                "HEAD"
+            ]
+        },
+        "soft tissue": {
+            "2987": [
+                "synpic47191.jpg",
+                "ABD"
+            ],
+            "2989": [
+                "synpic47191.jpg",
+                "ABD"
+            ]
+        }
+    },
+    "ORGANISM_SUBDIVISION": {
+        "bullous": {
+            "718": [
+                "synpic13385.jpg",
+                "CHEST"
+            ]
+        },
+        "skull": {
+            "754": [
+                "synpic53978.jpg",
+                "HEAD"
+            ]
+        },
+        "pleural": {
+            "1009": [
+                "synpic46539.jpg",
+                "CHEST"
+            ]
+        },
+        "left": {
+            "1908": [
+                "synpic17675.jpg",
+                "CHEST"
+            ],
+            "2770": [
+                "synpic38531.jpg",
+                "CHEST"
+            ]
+        },
+        "cerebellum": {
+            "2627": [
+                "synpic56116.jpg",
+                "HEAD"
+            ]
+        }
+    },
+    "PATHOLOGICAL_FORMATION": {
+        "intraparenchymal": {
+            "40": [
+                "synpic25821.jpg",
+                "CHEST"
+            ]
+        },
+        "left lung": {
+            "275": [
+                "synpic40272.jpg",
+                "CHEST"
+            ],
+            "277": [
+                "synpic40272.jpg",
+                "CHEST"
+            ]
+        },
+        "hypodense": {
+            "321": [
+                "synpic40464.jpg",
+                "ABD"
+            ],
+            "1703": [
+                "synpic22791.jpg",
+                "ABD"
+            ]
+        },
+        "gastrointestinal system": {
+            "335": [
+                "synpic29219.jpg",
+                "ABD"
+            ]
+        },
+        "nodular opacity": {
+            "415": [
+                "synpic31400.jpg",
+                "CHEST"
+            ],
+            "417": [
+                "synpic31400.jpg",
+                "CHEST"
+            ]
+        },
+        "lesion": {
+            "429": [
+                "synpic57368.jpg",
+                "HEAD"
+            ]
+        },
+        "lobe": {
+            "431": [
+                "synpic56799.jpg",
+                "HEAD"
+            ],
+            "433": [
+                "synpic56799.jpg",
+                "HEAD"
+            ],
+            "1630": [
+                "synpic17738.jpg",
+                "CHEST"
+            ]
+        },
+        "subdiaphragmatic": {
+            "610": [
+                "synpic23803.jpg",
+                "CHEST"
+            ]
+        },
+        "hylar lymphadenopathy": {
+            "981": [
+                "synpic32962.jpg",
+                "CHEST"
+            ]
+        },
+        "mediastinum": {
+            "983": [
+                "synpic32962.jpg",
+                "CHEST"
+            ]
+        },
+        "cardiomegaly": {
+            "1050": [
+                "synpic18651.jpg",
+                "CHEST"
+            ],
+            "1052": [
+                "synpic18651.jpg",
+                "CHEST"
+            ],
+            "3138": [
+                "synpic676.jpg",
+                "CHEST"
+            ]
+        },
+        "cavitary lesion": {
+            "1108": [
+                "synpic51872.jpg",
+                "CHEST"
+            ]
+        },
+        "abdomen": {
+            "1265": [
+                "synpic53635.jpg",
+                "ABD"
+            ],
+            "1456": [
+                "synpic23631.jpg",
+                "HEAD"
+            ],
+            "1680": [
+                "synpic22791.jpg",
+                "ABD"
+            ],
+            "2568": [
+                "synpic29771.jpg",
+                "ABD"
+            ]
+        },
+        "isointense": {
+            "1614": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "1615": [
+                "synpic60254.jpg",
+                "HEAD"
+            ]
+        },
+        "maxillary sinus": {
+            "1810": [
+                "synpic20626.jpg",
+                "HEAD"
+            ],
+            "1812": [
+                "synpic20626.jpg",
+                "HEAD"
+            ]
+        },
+        "sacroiliac joint": {
+            "1853": [
+                "synpic29771.jpg",
+                "ABD"
+            ]
+        },
+        "hyperdense opacity": {
+            "1886": [
+                "synpic47974.jpg",
+                "ABD"
+            ]
+        },
+        "skull fracture": {
+            "1888": [
+                "synpic56116.jpg",
+                "HEAD"
+            ]
+        },
+        "gallstone": {
+            "2144": [
+                "synpic24967.jpg",
+                "ABD"
+            ]
+        },
+        "caudate": {
+            "2187": [
+                "synpic52248.jpg",
+                "HEAD"
+            ]
+        },
+        "hypointense": {
+            "2650": [
+                "synpic51426.jpg",
+                "HEAD"
+            ]
+        },
+        "left kidney": {
+            "2652": [
+                "synpic43648.jpg",
+                "ABD"
+            ]
+        },
+        "appendix non-enlarged": {
+            "2788": [
+                "synpic31232.jpg",
+                "ABD"
+            ]
+        },
+        "gi tract": {
+            "3132": [
+                "synpic47191.jpg",
+                "ABD"
+            ]
+        }
+    },
+    "ORGANISM": {
+        "patient": {
+            "20": [
+                "synpic29265.jpg",
+                "CHEST"
+            ],
+            "49": [
+                "synpic40272.jpg",
+                "CHEST"
+            ],
+            "158": [
+                "synpic30324.jpg",
+                "ABD"
+            ],
+            "733": [
+                "synpic35914.jpg",
+                "ABD"
+            ],
+            "1210": [
+                "synpic28355.jpg",
+                "CHEST"
+            ],
+            "1266": [
+                "synpic16170.jpg",
+                "CHEST"
+            ],
+            "1492": [
+                "synpic42805.jpg",
+                "CHEST"
+            ],
+            "1493": [
+                "synpic42805.jpg",
+                "CHEST"
+            ],
+            "1603": [
+                "synpic30273.jpg",
+                "ABD"
+            ],
+            "1622": [
+                "synpic57317.jpg",
+                "HEAD"
+            ],
+            "1690": [
+                "synpic37275.jpg",
+                "ABD"
+            ],
+            "1721": [
+                "synpic16221.jpg",
+                "CHEST"
+            ],
+            "1722": [
+                "synpic16221.jpg",
+                "CHEST"
+            ],
+            "1814": [
+                "synpic50958.jpg",
+                "ABD"
+            ],
+            "1867": [
+                "synpic33481.jpg",
+                "CHEST"
+            ],
+            "2372": [
+                "synpic34713.jpg",
+                "ABD"
+            ],
+            "2420": [
+                "synpic34515.jpg",
+                "ABD"
+            ],
+            "2448": [
+                "synpic24878.jpg",
+                "ABD"
+            ],
+            "2509": [
+                "synpic51926.jpg",
+                "ABD"
+            ],
+            "2586": [
+                "synpic16174.jpg",
+                "CHEST"
+            ],
+            "2651": [
+                "synpic21995.jpg",
+                "ABD"
+            ],
+            "2735": [
+                "synpic25821.jpg",
+                "CHEST"
+            ],
+            "2817": [
+                "synpic22828.jpg",
+                "ABD"
+            ],
+            "2818": [
+                "synpic22828.jpg",
+                "ABD"
+            ],
+            "2904": [
+                "synpic32727.jpg",
+                "ABD"
+            ],
+            "2905": [
+                "synpic32727.jpg",
+                "ABD"
+            ],
+            "2989": [
+                "synpic47191.jpg",
+                "ABD"
+            ],
+            "3064": [
+                "synpic43609.jpg",
+                "ABD"
+            ]
+        }
+    },
+    "CANCER": {
+        "gi": {
+            "86": [
+                "synpic25534.jpg",
+                "ABD"
+            ]
+        },
+        "pulmonary nodule": {
+            "302": [
+                "synpic18319.jpg",
+                "CHEST"
+            ],
+            "304": [
+                "synpic18319.jpg",
+                "CHEST"
+            ]
+        },
+        "lesion": {
+            "402": [
+                "synpic40464.jpg",
+                "ABD"
+            ],
+            "1945": [
+                "synpic55583.jpg",
+                "HEAD"
+            ]
+        },
+        "ring-enhancing lesion": {
+            "427": [
+                "synpic57368.jpg",
+                "HEAD"
+            ]
+        },
+        "thorax": {
+            "606": [
+                "synpic24390.jpg",
+                "CHEST"
+            ],
+            "608": [
+                "synpic24390.jpg",
+                "CHEST"
+            ],
+            "1755": [
+                "synpic33429.jpg",
+                "CHEST"
+            ]
+        },
+        "colon": {
+            "648": [
+                "synpic41050.jpg",
+                "ABD"
+            ],
+            "733": [
+                "synpic35914.jpg",
+                "ABD"
+            ],
+            "734": [
+                "synpic35914.jpg",
+                "ABD"
+            ],
+            "1602": [
+                "synpic30273.jpg",
+                "ABD"
+            ]
+        },
+        "pancreatic head": {
+            "1185": [
+                "synpic21028.jpg",
+                "ABD"
+            ]
+        },
+        "brain lesion": {
+            "1549": [
+                "synpic59536.jpg",
+                "HEAD"
+            ]
+        },
+        "pancreatic head cause": {
+            "1768": [
+                "synpic50958.jpg",
+                "ABD"
+            ]
+        },
+        "body": {
+            "2035": [
+                "synpic34054.jpg",
+                "ABD"
+            ]
+        },
+        "kidney cyst": {
+            "2226": [
+                "synpic22794.jpg",
+                "ABD"
+            ],
+            "2228": [
+                "synpic22794.jpg",
+                "ABD"
+            ]
+        },
+        "nodule": {
+            "2546": [
+                "synpic12210.jpg",
+                "CHEST"
+            ],
+            "2594": [
+                "synpic17848.jpg",
+                "CHEST"
+            ]
+        },
+        "cerebral cortex": {
+            "2627": [
+                "synpic56116.jpg",
+                "HEAD"
+            ]
+        },
+        "hepatic lesion": {
+            "2714": [
+                "synpic47974.jpg",
+                "ABD"
+            ]
+        },
+        "hyperdense lesion": {
+            "2940": [
+                "synpic22828.jpg",
+                "ABD"
+            ]
+        },
+        "sulcus": {
+            "3001": [
+                "synpic53574.jpg",
+                "HEAD"
+            ],
+            "3003": [
+                "synpic53574.jpg",
+                "HEAD"
+            ]
+        }
+    },
+    "GENE_OR_GENE_PRODUCT": {
+        "pa": {
+            "393": [
+                "synpic49914.jpg",
+                "CHEST"
+            ],
+            "1908": [
+                "synpic17675.jpg",
+                "CHEST"
+            ]
+        },
+        "ap": {
+            "797": [
+                "synpic52951.jpg",
+                "CHEST"
+            ]
+        }
+    },
+    "CELL": {
+        "line": {
+            "977": [
+                "synpic22037.jpg",
+                "CHEST"
+            ]
+        },
+        "t2": {
+            "1187": [
+                "synpic38858.jpg",
+                "HEAD"
+            ],
+            "2938": [
+                "synpic9872.jpg",
+                "HEAD"
+            ]
+        },
+        "left": {
+            "2413": [
+                "synpic33481.jpg",
+                "CHEST"
+            ],
+            "2651": [
+                "synpic21995.jpg",
+                "ABD"
+            ]
+        }
+    },
+    "IMMATERIAL_ANATOMICAL_ENTITY": {
+        "left": {
+            "13": [
+                "synpic29265.jpg",
+                "CHEST"
+            ],
+            "1267": [
+                "synpic55286.jpg",
+                "HEAD"
+            ]
+        },
+        "basilar artery": {
+            "1529": [
+                "synpic60254.jpg",
+                "HEAD"
+            ],
+            "1531": [
+                "synpic60254.jpg",
+                "HEAD"
+            ]
+        },
+        "circular": {
+            "2821": [
+                "synpic100228.jpg",
+                "CHEST"
+            ],
+            "2823": [
+                "synpic100228.jpg",
+                "CHEST"
+            ]
+        },
+        "lumen": {
+            "2958": [
+                "synpic23571.jpg",
+                "ABD"
+            ]
+        }
+    },
+    "SIMPLE_CHEMICAL": {
+        "free": {
+            "306": [
+                "synpic32933.jpg",
+                "CHEST"
+            ],
+            "308": [
+                "synpic32933.jpg",
+                "CHEST"
+            ]
+        },
+        "mca": {
+            "2166": [
+                "synpic45699.jpg",
+                "HEAD"
+            ],
+            "2168": [
+                "synpic45699.jpg",
+                "HEAD"
+            ]
+        },
+        "putamen": {
+            "2187": [
+                "synpic52248.jpg",
+                "HEAD"
+            ]
+        }
+    },
+    "CELLULAR_COMPONENT": {
+        "left apical": {
+            "222": [
+                "synpic33422.jpg",
+                "CHEST"
+            ]
+        },
+        "axial plane": {
+            "1236": [
+                "synpic20208.jpg",
+                "ABD"
+            ]
+        },
+        "basal ganglion": {
+            "1512": [
+                "synpic51426.jpg",
+                "HEAD"
+            ],
+            "1514": [
+                "synpic51426.jpg",
+                "HEAD"
+            ],
+            "2627": [
+                "synpic56116.jpg",
+                "HEAD"
+            ]
+        },
+        "periphery": {
+            "1884": [
+                "synpic47974.jpg",
+                "ABD"
+            ]
+        },
+        "focal mass": {
+            "2007": [
+                "synpic27646.jpg",
+                "CHEST"
+            ]
+        },
+        "luminal surface": {
+            "2417": [
+                "synpic24248.jpg",
+                "ABD"
+            ]
+        }
+    },
+    "ORGANISM_SUBSTANCE": {
+        "blood": {
+            "814": [
+                "synpic47356.jpg",
+                "HEAD"
+            ]
+        },
+        "left aca": {
+            "2168": [
+                "synpic45699.jpg",
+                "HEAD"
+            ]
+        }
+    },
+    "ANATOMICAL_SYSTEM": {
+        "cns": {
+            "1055": [
+                "synpic39301.jpg",
+                "HEAD"
+            ],
+            "1073": [
+                "synpic51383.jpg",
+                "HEAD"
+            ],
+            "1214": [
+                "synpic55317.jpg",
+                "HEAD"
+            ],
+            "2963": [
+                "synpic31928.jpg",
+                "HEAD"
+            ]
+        },
+        "peripheral": {
+            "1863": [
+                "synpic28277.jpg",
+                "ABD"
+            ]
+        }
+    }
+}

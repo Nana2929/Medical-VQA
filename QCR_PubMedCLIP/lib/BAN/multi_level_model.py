@@ -24,7 +24,7 @@ import os
 class BiAttention(nn.Module):
     def __init__(self, x_dim, y_dim, z_dim, glimpse, dropout=[.2,.5]):  #128, 1024, 1024,2
         super(BiAttention, self).__init__()
-
+        # glimpse: # of attention heads 
         self.glimpse = glimpse
         self.logits = weight_norm(BCNet(x_dim, y_dim, z_dim, glimpse, dropout=dropout, k=3),
             name='h_mat', dim=None)

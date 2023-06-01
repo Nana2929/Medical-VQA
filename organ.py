@@ -61,12 +61,10 @@ def get_organ(json_path):
             txt = [lemmatizer.lemmatize(w) for w in txt]
             sentence = ' '.join(txt)
             label = str(ent.label_)
-            if label not in dic:
-                dic[label] = dict()
-            if sentence not in dic[label]:
-                dic[label][sentence] = dict()
-            
-            dic[label][sentence][int(str(item['qid']))] = [str(item['image_name']),str(item['image_organ'])]
+            if int(str(item['qid'])) not in dic:
+                dic[int(str(item['qid']))] = list()
+            dic[int(str(item['qid']))].append(sentence)
+               
     return dic 
 
 def write_json(dic, json_path):
@@ -90,20 +88,6 @@ write_json(testdic, "./Type/test.json")
 
 
 
-print(organdict.keys())
-print(len(organdict.keys()))
-for key in organdict.keys():
-    print(key, len(organdict[key].keys()))
-
-print(traindic.keys())
-print(len(traindic.keys()))
-for key in traindic.keys():
-    print(key, len(traindic[key].keys()))
-
-print(testdic.keys())
-print(len(testdic.keys()))
-for key in testdic.keys():
-    print(key, len(testdic[key].keys()))
 
 
 

@@ -1,2072 +1,8112 @@
 {
-    "MULTI_TISSUE_STRUCTURE": {
-        "aortic aneurysm": {
-            "11": [
-                "synpic42202.jpg",
-                "CHEST"
-            ]
-        },
-        "airspace": {
-            "13": [
-                "synpic29265.jpg",
-                "CHEST"
-            ]
-        },
-        "vascular": {
-            "22": [
-                "synpic54610.jpg",
-                "HEAD"
-            ],
-            "1116": [
-                "synpic46976.jpg",
-                "CHEST"
-            ],
-            "1118": [
-                "synpic46976.jpg",
-                "CHEST"
-            ]
-        },
-        "rib fracture": {
-            "36": [
-                "synpic25821.jpg",
-                "CHEST"
-            ]
-        },
-        "lung parenchyma": {
-            "42": [
-                "synpic25821.jpg",
-                "CHEST"
-            ]
-        },
-        "aortic wall": {
-            "121": [
-                "synpic39086.jpg",
-                "ABD"
-            ]
-        },
-        "abdominal aorta": {
-            "123": [
-                "synpic39086.jpg",
-                "ABD"
-            ],
-            "2430": [
-                "synpic42290.jpg",
-                "ABD"
-            ],
-            "2726": [
-                "synpic31232.jpg",
-                "ABD"
-            ]
-        },
-        "peritoneal": {
-            "160": [
-                "synpic30324.jpg",
-                "ABD"
-            ]
-        },
-        "pulmonary edema": {
-            "186": [
-                "synpic40272.jpg",
-                "CHEST"
-            ],
-            "1050": [
-                "synpic18651.jpg",
-                "CHEST"
-            ],
-            "1052": [
-                "synpic18651.jpg",
-                "CHEST"
-            ]
-        },
-        "pulmonary vasculature": {
-            "188": [
-                "synpic40272.jpg",
-                "CHEST"
-            ]
-        },
-        "chest wall": {
-            "200": [
-                "synpic52767.jpg",
-                "CHEST"
-            ]
-        },
-        "visceral pleura": {
-            "224": [
-                "synpic33422.jpg",
-                "CHEST"
-            ]
-        },
-        "posterior anterior": {
-            "310": [
-                "synpic31400.jpg",
-                "CHEST"
-            ]
-        },
-        "hypodense": {
-            "319": [
-                "synpic40464.jpg",
-                "ABD"
-            ]
-        },
-        "aortopulmonary": {
-            "458": [
-                "synpic21044.jpg",
-                "CHEST"
-            ],
-            "460": [
-                "synpic21044.jpg",
-                "CHEST"
-            ],
-            "462": [
-                "synpic21044.jpg",
-                "CHEST"
-            ]
-        },
-        "thoracic": {
-            "531": [
-                "synpic39532.jpg",
-                "CHEST"
-            ]
-        },
-        "left hemidiaphragm": {
-            "612": [
-                "synpic23803.jpg",
-                "CHEST"
-            ],
-            "2952": [
-                "synpic38531.jpg",
-                "CHEST"
-            ],
-            "2954": [
-                "synpic38531.jpg",
-                "CHEST"
-            ]
-        },
-        "blood vessel": {
-            "630": [
-                "synpic24220.jpg",
-                "ABD"
-            ],
-            "2166": [
-                "synpic45699.jpg",
-                "HEAD"
-            ],
-            "2168": [
-                "synpic45699.jpg",
-                "HEAD"
-            ]
-        },
-        "clavicle": {
-            "631": [
-                "synpic19782.jpg",
-                "CHEST"
-            ],
-            "2452": [
-                "synpic19782.jpg",
-                "CHEST"
-            ]
-        },
-        "supraclavicular fossa": {
-            "633": [
-                "synpic19782.jpg",
-                "CHEST"
-            ]
-        },
-        "posterior": {
-            "650": [
-                "synpic41050.jpg",
-                "ABD"
-            ]
-        },
-        "subcutaneous": {
-            "709": [
-                "synpic34449.jpg",
-                "CHEST"
-            ]
-        },
-        "left apex": {
-            "718": [
-                "synpic13385.jpg",
-                "CHEST"
-            ],
-            "720": [
-                "synpic13385.jpg",
-                "CHEST"
-            ]
-        },
-        "anterior mediastinum": {
-            "722": [
-                "synpic31955.jpg",
-                "CHEST"
-            ],
-            "2552": [
-                "synpic42210.jpg",
-                "CHEST"
-            ]
-        },
-        "heart border": {
-            "724": [
-                "synpic31955.jpg",
-                "CHEST"
-            ]
-        },
-        "brain gyrus": {
-            "787": [
-                "synpic47737.jpg",
-                "HEAD"
-            ],
-            "790": [
-                "synpic39240.jpg",
-                "HEAD"
-            ]
-        },
-        "anterior abdominal": {
-            "795": [
-                "synpic21410.jpg",
-                "ABD"
-            ]
-        },
-        "lateral ventricle": {
-            "830": [
-                "synpic42307.jpg",
-                "HEAD"
-            ],
-            "832": [
-                "synpic42307.jpg",
-                "HEAD"
-            ],
-            "910": [
-                "synpic57935.jpg",
-                "HEAD"
-            ],
-            "912": [
-                "synpic57935.jpg",
-                "HEAD"
-            ],
-            "1264": [
-                "synpic16520.jpg",
-                "HEAD"
-            ]
-        },
-        "abdominal wall": {
-            "918": [
-                "synpic47196.jpg",
-                "ABD"
-            ]
-        },
-        "vertebra": {
-            "946": [
-                "synpic32136.jpg",
-                "ABD"
-            ]
-        },
-        "verterbral fracture": {
-            "948": [
-                "synpic32136.jpg",
-                "ABD"
-            ]
-        },
-        "left subclavian vein": {
-            "977": [
-                "synpic22037.jpg",
-                "CHEST"
-            ],
-            "978": [
-                "synpic22037.jpg",
-                "CHEST"
-            ]
-        },
-        "port-a-cath catheter": {
-            "978": [
-                "synpic22037.jpg",
-                "CHEST"
-            ]
-        },
-        "brain edema": {
-            "1080": [
-                "synpic56388.jpg",
-                "HEAD"
-            ]
-        },
-        "brain swollen": {
-            "1082": [
-                "synpic56388.jpg",
-                "HEAD"
-            ]
-        },
-        "optic nerve": {
-            "1259": [
-                "synpic38858.jpg",
-                "HEAD"
-            ]
-        },
-        "ventricle": {
-            "1264": [
-                "synpic16520.jpg",
-                "HEAD"
-            ],
-            "1622": [
-                "synpic57317.jpg",
-                "HEAD"
-            ],
-            "1624": [
-                "synpic57317.jpg",
-                "HEAD"
-            ],
-            "1686": [
-                "synpic38069.jpg",
-                "HEAD"
-            ],
-            "1688": [
-                "synpic38069.jpg",
-                "HEAD"
-            ],
-            "2001": [
-                "synpic47020.jpg",
-                "HEAD"
-            ],
-            "2352": [
-                "synpic57237.jpg",
-                "HEAD"
-            ],
-            "3055": [
-                "synpic31928.jpg",
-                "HEAD"
-            ],
-            "3057": [
-                "synpic31928.jpg",
-                "HEAD"
-            ]
-        },
-        "frontal lobe": {
-            "1267": [
-                "synpic55286.jpg",
-                "HEAD"
-            ]
-        },
-        "left frontal": {
-            "1267": [
-                "synpic55286.jpg",
-                "HEAD"
-            ]
-        },
-        "left thalamus": {
-            "1512": [
-                "synpic51426.jpg",
-                "HEAD"
-            ],
-            "1514": [
-                "synpic51426.jpg",
-                "HEAD"
-            ]
-        },
-        "artery": {
-            "1531": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "2372": [
-                "synpic34713.jpg",
-                "ABD"
-            ]
-        },
-        "brain area": {
-            "1578": [
-                "synpic53287.jpg",
-                "HEAD"
-            ]
-        },
-        "posteroinferior cerebellum": {
-            "1652": [
-                "synpic23631.jpg",
-                "HEAD"
-            ]
-        },
-        "skeletal joint": {
-            "1851": [
-                "synpic29771.jpg",
-                "ABD"
-            ]
-        },
-        "skull fractured": {
-            "1890": [
-                "synpic56116.jpg",
-                "HEAD"
-            ],
-            "1894": [
-                "synpic34922.jpg",
-                "HEAD"
-            ]
-        },
-        "skull fracture": {
-            "1892": [
-                "synpic34922.jpg",
-                "HEAD"
-            ]
-        },
-        "hemidiaphragms": {
-            "1930": [
-                "synpic45610.jpg",
-                "CHEST"
-            ]
-        },
-        "ventricular": {
-            "2001": [
-                "synpic47020.jpg",
-                "HEAD"
-            ],
-            "2003": [
-                "synpic47020.jpg",
-                "HEAD"
-            ]
-        },
-        "left parietal": {
-            "2187": [
-                "synpic52248.jpg",
-                "HEAD"
-            ]
-        },
-        "bowel wall": {
-            "2318": [
-                "synpic23008.jpg",
-                "ABD"
-            ]
-        },
-        "biliary duct": {
-            "2349": [
-                "synpic33889.jpg",
-                "ABD"
-            ]
-        },
-        "vein": {
-            "2372": [
-                "synpic34713.jpg",
-                "ABD"
-            ]
-        },
-        "anterior wall": {
-            "2481": [
-                "synpic28378.jpg",
-                "CHEST"
-            ]
-        },
-        "appendix enlarged": {
-            "2598": [
-                "synpic23571.jpg",
-                "ABD"
-            ]
-        },
-        "frontal": {
-            "2623": [
-                "synpic38263.jpg",
-                "HEAD"
-            ]
-        },
-        "midline structure": {
-            "2632": [
-                "synpic58902.jpg",
-                "HEAD"
-            ]
-        },
-        "hilar": {
-            "2731": [
-                "synpic53228.jpg",
-                "CHEST"
-            ]
-        },
-        "midline": {
-            "2741": [
-                "synpic32962.jpg",
-                "CHEST"
-            ]
-        },
-        "pleural opacity": {
-            "2771": [
-                "synpic38531.jpg",
-                "CHEST"
-            ]
-        },
-        "appendix normal": {
-            "2790": [
-                "synpic31232.jpg",
-                "ABD"
-            ]
-        },
-        "mesenteric": {
-            "2987": [
-                "synpic47191.jpg",
-                "ABD"
-            ],
-            "2989": [
-                "synpic47191.jpg",
-                "ABD"
-            ]
-        },
-        "cavum vergae": {
-            "3015": [
-                "synpic60543.jpg",
-                "HEAD"
-            ],
-            "3017": [
-                "synpic60543.jpg",
-                "HEAD"
-            ]
-        },
-        "tracheal": {
-            "3059": [
-                "synpic25587.jpg",
-                "CHEST"
-            ]
-        },
-        "trachea": {
-            "3061": [
-                "synpic25587.jpg",
-                "CHEST"
-            ]
-        }
-    },
-    "ORGAN": {
-        "lung": {
-            "40": [
-                "synpic25821.jpg",
-                "CHEST"
-            ],
-            "224": [
-                "synpic33422.jpg",
-                "CHEST"
-            ],
-            "302": [
-                "synpic18319.jpg",
-                "CHEST"
-            ],
-            "304": [
-                "synpic18319.jpg",
-                "CHEST"
-            ],
-            "415": [
-                "synpic31400.jpg",
-                "CHEST"
-            ],
-            "417": [
-                "synpic31400.jpg",
-                "CHEST"
-            ],
-            "423": [
-                "synpic49914.jpg",
-                "CHEST"
-            ],
-            "470": [
-                "synpic49914.jpg",
-                "CHEST"
-            ],
-            "472": [
-                "synpic49914.jpg",
-                "CHEST"
-            ],
-            "531": [
-                "synpic39532.jpg",
-                "CHEST"
-            ],
-            "596": [
-                "synpic34449.jpg",
-                "CHEST"
-            ],
-            "763": [
-                "synpic24538.jpg",
-                "CHEST"
-            ],
-            "1007": [
-                "synpic46539.jpg",
-                "CHEST"
-            ],
-            "1632": [
-                "synpic17738.jpg",
-                "CHEST"
-            ],
-            "2045": [
-                "synpic29263.jpg",
-                "CHEST"
-            ],
-            "2413": [
-                "synpic33481.jpg",
-                "CHEST"
-            ],
-            "2546": [
-                "synpic12210.jpg",
-                "CHEST"
-            ],
-            "2662": [
-                "synpic16407.jpg",
-                "CHEST"
-            ],
-            "2770": [
-                "synpic38531.jpg",
-                "CHEST"
-            ],
-            "2949": [
-                "synpic26764.jpg",
-                "CHEST"
-            ],
-            "2951": [
-                "synpic26764.jpg",
-                "CHEST"
-            ]
-        },
-        "small bowel": {
-            "46": [
-                "synpic34515.jpg",
-                "ABD"
-            ]
-        },
-        "bowel": {
-            "47": [
-                "synpic34515.jpg",
-                "ABD"
-            ],
-            "86": [
-                "synpic25534.jpg",
-                "ABD"
-            ],
-            "87": [
-                "synpic25534.jpg",
-                "ABD"
-            ],
-            "2158": [
-                "synpic28210.jpg",
-                "ABD"
-            ],
-            "2160": [
-                "synpic28210.jpg",
-                "ABD"
-            ]
-        },
-        "cardiac": {
-            "178": [
-                "synpic21776.jpg",
-                "CHEST"
-            ]
-        },
-        "mediastinum": {
-            "269": [
-                "synpic33422.jpg",
-                "CHEST"
-            ],
-            "950": [
-                "synpic25758.jpg",
-                "ABD"
-            ],
-            "951": [
-                "synpic25758.jpg",
-                "ABD"
-            ],
-            "985": [
-                "synpic32962.jpg",
-                "CHEST"
-            ]
-        },
-        "liver": {
-            "298": [
-                "synpic33889.jpg",
-                "ABD"
-            ],
-            "300": [
-                "synpic33889.jpg",
-                "ABD"
-            ],
-            "485": [
-                "synpic29219.jpg",
-                "ABD"
-            ],
-            "487": [
-                "synpic29219.jpg",
-                "ABD"
-            ],
-            "630": [
-                "synpic24220.jpg",
-                "ABD"
-            ],
-            "750": [
-                "synpic24319.jpg",
-                "ABD"
-            ],
-            "1701": [
-                "synpic22791.jpg",
-                "ABD"
-            ],
-            "1703": [
-                "synpic22791.jpg",
-                "ABD"
-            ],
-            "1758": [
-                "synpic33331.jpg",
-                "CHEST"
-            ],
-            "1768": [
-                "synpic50958.jpg",
-                "ABD"
-            ],
-            "1781": [
-                "synpic37275.jpg",
-                "ABD"
-            ],
-            "1783": [
-                "synpic37275.jpg",
-                "ABD"
-            ],
-            "2311": [
-                "synpic25105.jpg",
-                "ABD"
-            ],
-            "2313": [
-                "synpic25105.jpg",
-                "ABD"
-            ],
-            "2369": [
-                "synpic40596.jpg",
-                "ABD"
-            ],
-            "2837": [
-                "synpic39141.jpg",
-                "ABD"
-            ],
-            "2839": [
-                "synpic39141.jpg",
-                "ABD"
-            ]
-        },
-        "spleen": {
-            "319": [
-                "synpic40464.jpg",
-                "ABD"
-            ],
-            "321": [
-                "synpic40464.jpg",
-                "ABD"
-            ],
-            "402": [
-                "synpic40464.jpg",
-                "ABD"
-            ],
-            "2651": [
-                "synpic21995.jpg",
-                "ABD"
-            ]
-        },
-        "pancreas": {
-            "413": [
-                "synpic40314.jpg",
-                "ABD"
-            ],
-            "414": [
-                "synpic40314.jpg",
-                "ABD"
-            ],
-            "524": [
-                "synpic40314.jpg",
-                "ABD"
-            ],
-            "1175": [
-                "synpic21700.jpg",
-                "ABD"
-            ],
-            "1177": [
-                "synpic21700.jpg",
-                "ABD"
-            ],
-            "1185": [
-                "synpic21028.jpg",
-                "ABD"
-            ]
-        },
-        "pleural": {
-            "470": [
-                "synpic49914.jpg",
-                "CHEST"
-            ],
-            "1348": [
-                "synpic40520.jpg",
-                "CHEST"
-            ],
-            "1350": [
-                "synpic40520.jpg",
-                "CHEST"
-            ],
-            "2770": [
-                "synpic38531.jpg",
-                "CHEST"
-            ]
-        },
-        "hemidiaphragm": {
-            "495": [
-                "synpic32933.jpg",
-                "CHEST"
-            ]
-        },
-        "organ": {
-            "557": [
-                "synpic57520.jpg",
-                "HEAD"
-            ],
-            "1078": [
-                "synpic32962.jpg",
-                "CHEST"
-            ],
-            "1507": [
-                "synpic57317.jpg",
-                "HEAD"
-            ],
-            "1626": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "1996": [
-                "synpic40426.jpg",
-                "ABD"
-            ],
-            "2185": [
-                "synpic52248.jpg",
-                "HEAD"
-            ],
-            "2223": [
-                "synpic27142.jpg",
-                "HEAD"
-            ],
-            "2328": [
-                "synpic52932.jpg",
-                "CHEST"
-            ]
-        },
-        "diaphragm": {
-            "598": [
-                "synpic17664.jpg",
-                "CHEST"
-            ],
-            "600": [
-                "synpic17664.jpg",
-                "CHEST"
-            ],
-            "795": [
-                "synpic21410.jpg",
-                "ABD"
-            ],
-            "1282": [
-                "synpic26248.jpg",
-                "CHEST"
-            ],
-            "1932": [
-                "synpic45610.jpg",
-                "CHEST"
-            ],
-            "2333": [
-                "synpic31962.jpg",
-                "CHEST"
-            ],
-            "2381": [
-                "synpic47783.jpg",
-                "CHEST"
-            ]
-        },
-        "heart": {
-            "606": [
-                "synpic24390.jpg",
-                "CHEST"
-            ],
-            "608": [
-                "synpic24390.jpg",
-                "CHEST"
-            ],
-            "663": [
-                "synpic45557.jpg",
-                "CHEST"
-            ],
-            "735": [
-                "synpic45557.jpg",
-                "CHEST"
-            ],
-            "989": [
-                "synpic18651.jpg",
-                "CHEST"
-            ],
-            "1500": [
-                "synpic31256.jpg",
-                "CHEST"
-            ],
-            "1502": [
-                "synpic31256.jpg",
-                "CHEST"
-            ],
-            "1616": [
-                "synpic17738.jpg",
-                "CHEST"
-            ],
-            "1618": [
-                "synpic17738.jpg",
-                "CHEST"
-            ],
-            "2135": [
-                "synpic52988.jpg",
-                "CHEST"
-            ]
-        },
-        "thorax": {
-            "608": [
-                "synpic24390.jpg",
-                "CHEST"
-            ]
-        },
-        "gallbladder": {
-            "629": [
-                "synpic24220.jpg",
-                "ABD"
-            ]
-        },
-        "kidney": {
-            "726": [
-                "synpic24220.jpg",
-                "ABD"
-            ],
-            "728": [
-                "synpic24220.jpg",
-                "ABD"
-            ],
-            "906": [
-                "synpic30215.jpg",
-                "ABD"
-            ],
-            "908": [
-                "synpic30215.jpg",
-                "ABD"
-            ],
-            "1273": [
-                "synpic19853.jpg",
-                "ABD"
-            ],
-            "1419": [
-                "synpic19853.jpg",
-                "ABD"
-            ],
-            "1540": [
-                "synpic27576.jpg",
-                "ABD"
-            ],
-            "1542": [
-                "synpic27576.jpg",
-                "ABD"
-            ],
-            "2458": [
-                "synpic34054.jpg",
-                "ABD"
-            ],
-            "2509": [
-                "synpic51926.jpg",
-                "ABD"
-            ],
-            "2515": [
-                "synpic25105.jpg",
-                "ABD"
-            ]
-        },
-        "bone": {
-            "759": [
-                "synpic54795.jpg",
-                "HEAD"
-            ]
-        },
-        "esophagus": {
-            "840": [
-                "synpic43648.jpg",
-                "ABD"
-            ],
-            "842": [
-                "synpic43648.jpg",
-                "ABD"
-            ]
-        },
-        "skin": {
-            "918": [
-                "synpic47196.jpg",
-                "ABD"
-            ],
-            "920": [
-                "synpic47196.jpg",
-                "ABD"
-            ]
-        },
-        "hylar lymphadenopathy": {
-            "979": [
-                "synpic32962.jpg",
-                "CHEST"
-            ]
-        },
-        "cecum": {
-            "1192": [
-                "synpic48122.jpg",
-                "ABD"
-            ]
-        },
-        "brain": {
-            "1205": [
-                "synpic55286.jpg",
-                "HEAD"
-            ],
-            "1311": [
-                "synpic53033.jpg",
-                "HEAD"
-            ],
-            "1312": [
-                "synpic53033.jpg",
-                "HEAD"
-            ],
-            "1507": [
-                "synpic57317.jpg",
-                "HEAD"
-            ],
-            "1529": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "1531": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "1551": [
-                "synpic59536.jpg",
-                "HEAD"
-            ],
-            "1614": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "1615": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "1626": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "2185": [
-                "synpic52248.jpg",
-                "HEAD"
-            ],
-            "2223": [
-                "synpic27142.jpg",
-                "HEAD"
-            ],
-            "2224": [
-                "synpic27142.jpg",
-                "HEAD"
-            ],
-            "2834": [
-                "synpic40500.jpg",
-                "HEAD"
-            ],
-            "2902": [
-                "synpic56841.jpg",
-                "HEAD"
-            ],
-            "2903": [
-                "synpic56841.jpg",
-                "HEAD"
-            ]
-        },
-        "ventricle": {
-            "1264": [
-                "synpic16520.jpg",
-                "HEAD"
-            ]
-        },
-        "intestine": {
-            "1996": [
-                "synpic40426.jpg",
-                "ABD"
-            ]
-        },
-        "pulmonary": {
-            "2043": [
-                "synpic29263.jpg",
-                "CHEST"
-            ]
-        },
-        "cardiomegaly": {
-            "2137": [
-                "synpic52988.jpg",
-                "CHEST"
-            ]
-        },
-        "colon": {
-            "2425": [
-                "synpic30273.jpg",
-                "ABD"
-            ]
-        },
-        "encephalon": {
-            "2448": [
-                "synpic24878.jpg",
-                "ABD"
-            ]
-        },
-        "pancreas cystic": {
-            "2554": [
-                "synpic19605.jpg",
-                "ABD"
-            ]
-        },
-        "gastric": {
-            "2735": [
-                "synpic25821.jpg",
-                "CHEST"
-            ]
-        },
-        "rib": {
-            "2745": [
-                "synpic32084.jpg",
-                "CHEST"
-            ]
-        },
-        "ileum": {
-            "2987": [
-                "synpic47191.jpg",
-                "ABD"
-            ],
-            "2989": [
-                "synpic47191.jpg",
-                "ABD"
-            ]
-        }
-    },
-    "TISSUE": {
-        "cardiac silhouette le": {
-            "162": [
-                "synpic16174.jpg",
-                "CHEST"
-            ],
-            "200": [
-                "synpic52767.jpg",
-                "CHEST"
-            ]
-        },
-        "cardiac silhouette within normal size": {
-            "164": [
-                "synpic16174.jpg",
-                "CHEST"
-            ]
-        },
-        "cardiac silhouette small/stretched yes": {
-            "180": [
-                "synpic21776.jpg",
-                "CHEST"
-            ]
-        },
-        "cardiac contour normal": {
-            "198": [
-                "synpic52767.jpg",
-                "CHEST"
-            ]
-        },
-        "lateral": {
-            "200": [
-                "synpic52767.jpg",
-                "CHEST"
-            ],
-            "1908": [
-                "synpic17675.jpg",
-                "CHEST"
-            ],
-            "2001": [
-                "synpic47020.jpg",
-                "HEAD"
-            ],
-            "2003": [
-                "synpic47020.jpg",
-                "HEAD"
-            ],
-            "2425": [
-                "synpic30273.jpg",
-                "ABD"
-            ]
-        },
-        "midline": {
-            "269": [
-                "synpic33422.jpg",
-                "CHEST"
-            ]
-        },
-        "fat": {
-            "524": [
-                "synpic40314.jpg",
-                "ABD"
-            ],
-            "918": [
-                "synpic47196.jpg",
-                "ABD"
-            ],
-            "920": [
-                "synpic47196.jpg",
-                "ABD"
-            ]
-        },
-        "left": {
-            "595": [
-                "synpic34449.jpg",
-                "CHEST"
-            ],
-            "596": [
-                "synpic34449.jpg",
-                "CHEST"
-            ],
-            "733": [
-                "synpic35914.jpg",
-                "ABD"
-            ],
-            "734": [
-                "synpic35914.jpg",
-                "ABD"
-            ],
-            "1311": [
-                "synpic53033.jpg",
-                "HEAD"
-            ],
-            "1312": [
-                "synpic53033.jpg",
-                "HEAD"
-            ]
-        },
-        "psoas muscle": {
-            "650": [
-                "synpic41050.jpg",
-                "ABD"
-            ]
-        },
-        "cartilage": {
-            "754": [
-                "synpic53978.jpg",
-                "HEAD"
-            ]
-        },
-        "medulla": {
-            "754": [
-                "synpic53978.jpg",
-                "HEAD"
-            ]
-        },
-        "cavitary lesion": {
-            "1110": [
-                "synpic51872.jpg",
-                "CHEST"
-            ]
-        },
-        "body": {
-            "1265": [
-                "synpic53635.jpg",
-                "ABD"
-            ]
-        },
-        "renal vein": {
-            "1284": [
-                "synpic41119.jpg",
-                "ABD"
-            ]
-        },
-        "renal vein drain": {
-            "1286": [
-                "synpic41119.jpg",
-                "ABD"
-            ]
-        },
-        "trachea midline": {
-            "1395": [
-                "synpic40520.jpg",
-                "CHEST"
-            ],
-            "1738": [
-                "synpic45610.jpg",
-                "CHEST"
-            ]
-        },
-        "tissue": {
-            "1602": [
-                "synpic30273.jpg",
-                "ABD"
-            ],
-            "1603": [
-                "synpic30273.jpg",
-                "ABD"
-            ]
-        },
-        "adipose tissue": {
-            "1602": [
-                "synpic30273.jpg",
-                "ABD"
-            ],
-            "1603": [
-                "synpic30273.jpg",
-                "ABD"
-            ]
-        },
-        "trachea normal": {
-            "1736": [
-                "synpic45610.jpg",
-                "CHEST"
-            ]
-        },
-        "skeletal joint": {
-            "1853": [
-                "synpic29771.jpg",
-                "ABD"
-            ]
-        },
-        "cardiac border": {
-            "1968": [
-                "synpic27646.jpg",
-                "CHEST"
-            ]
-        },
-        "gallbladder gallstone": {
-            "2143": [
-                "synpic24967.jpg",
-                "ABD"
-            ]
-        },
-        "aorta": {
-            "2406": [
-                "synpic20260.jpg",
-                "ABD"
-            ],
-            "2408": [
-                "synpic20260.jpg",
-                "ABD"
-            ],
-            "2940": [
-                "synpic22828.jpg",
-                "ABD"
-            ],
-            "2942": [
-                "synpic22828.jpg",
-                "ABD"
-            ]
-        },
-        "mucosal": {
-            "2417": [
-                "synpic24248.jpg",
-                "ABD"
-            ]
-        },
-        "tube": {
-            "2524": [
-                "synpic23989.jpg",
-                "CHEST"
-            ]
-        },
-        "fat stranding": {
-            "2642": [
-                "synpic47196.jpg",
-                "ABD"
-            ]
-        },
-        "bronchial airway": {
-            "2682": [
-                "synpic59126.jpg",
-                "CHEST"
-            ]
-        },
-        "cortical": {
-            "2710": [
-                "synpic55583.jpg",
-                "HEAD"
-            ]
-        },
-        "soft tissue": {
-            "2987": [
-                "synpic47191.jpg",
-                "ABD"
-            ],
-            "2989": [
-                "synpic47191.jpg",
-                "ABD"
-            ]
-        }
-    },
-    "ORGANISM_SUBDIVISION": {
-        "bullous": {
-            "718": [
-                "synpic13385.jpg",
-                "CHEST"
-            ]
-        },
-        "skull": {
-            "754": [
-                "synpic53978.jpg",
-                "HEAD"
-            ]
-        },
-        "pleural": {
-            "1009": [
-                "synpic46539.jpg",
-                "CHEST"
-            ]
-        },
-        "left": {
-            "1908": [
-                "synpic17675.jpg",
-                "CHEST"
-            ],
-            "2770": [
-                "synpic38531.jpg",
-                "CHEST"
-            ]
-        },
-        "cerebellum": {
-            "2627": [
-                "synpic56116.jpg",
-                "HEAD"
-            ]
-        }
-    },
-    "PATHOLOGICAL_FORMATION": {
-        "intraparenchymal": {
-            "40": [
-                "synpic25821.jpg",
-                "CHEST"
-            ]
-        },
-        "left lung": {
-            "275": [
-                "synpic40272.jpg",
-                "CHEST"
-            ],
-            "277": [
-                "synpic40272.jpg",
-                "CHEST"
-            ]
-        },
-        "hypodense": {
-            "321": [
-                "synpic40464.jpg",
-                "ABD"
-            ],
-            "1703": [
-                "synpic22791.jpg",
-                "ABD"
-            ]
-        },
-        "gastrointestinal system": {
-            "335": [
-                "synpic29219.jpg",
-                "ABD"
-            ]
-        },
-        "nodular opacity": {
-            "415": [
-                "synpic31400.jpg",
-                "CHEST"
-            ],
-            "417": [
-                "synpic31400.jpg",
-                "CHEST"
-            ]
-        },
-        "lesion": {
-            "429": [
-                "synpic57368.jpg",
-                "HEAD"
-            ]
-        },
-        "lobe": {
-            "431": [
-                "synpic56799.jpg",
-                "HEAD"
-            ],
-            "433": [
-                "synpic56799.jpg",
-                "HEAD"
-            ],
-            "1630": [
-                "synpic17738.jpg",
-                "CHEST"
-            ]
-        },
-        "subdiaphragmatic": {
-            "610": [
-                "synpic23803.jpg",
-                "CHEST"
-            ]
-        },
-        "hylar lymphadenopathy": {
-            "981": [
-                "synpic32962.jpg",
-                "CHEST"
-            ]
-        },
-        "mediastinum": {
-            "983": [
-                "synpic32962.jpg",
-                "CHEST"
-            ]
-        },
-        "cardiomegaly": {
-            "1050": [
-                "synpic18651.jpg",
-                "CHEST"
-            ],
-            "1052": [
-                "synpic18651.jpg",
-                "CHEST"
-            ],
-            "3138": [
-                "synpic676.jpg",
-                "CHEST"
-            ]
-        },
-        "cavitary lesion": {
-            "1108": [
-                "synpic51872.jpg",
-                "CHEST"
-            ]
-        },
-        "abdomen": {
-            "1265": [
-                "synpic53635.jpg",
-                "ABD"
-            ],
-            "1456": [
-                "synpic23631.jpg",
-                "HEAD"
-            ],
-            "1680": [
-                "synpic22791.jpg",
-                "ABD"
-            ],
-            "2568": [
-                "synpic29771.jpg",
-                "ABD"
-            ]
-        },
-        "isointense": {
-            "1614": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "1615": [
-                "synpic60254.jpg",
-                "HEAD"
-            ]
-        },
-        "maxillary sinus": {
-            "1810": [
-                "synpic20626.jpg",
-                "HEAD"
-            ],
-            "1812": [
-                "synpic20626.jpg",
-                "HEAD"
-            ]
-        },
-        "sacroiliac joint": {
-            "1853": [
-                "synpic29771.jpg",
-                "ABD"
-            ]
-        },
-        "hyperdense opacity": {
-            "1886": [
-                "synpic47974.jpg",
-                "ABD"
-            ]
-        },
-        "skull fracture": {
-            "1888": [
-                "synpic56116.jpg",
-                "HEAD"
-            ]
-        },
-        "gallstone": {
-            "2144": [
-                "synpic24967.jpg",
-                "ABD"
-            ]
-        },
-        "caudate": {
-            "2187": [
-                "synpic52248.jpg",
-                "HEAD"
-            ]
-        },
-        "hypointense": {
-            "2650": [
-                "synpic51426.jpg",
-                "HEAD"
-            ]
-        },
-        "left kidney": {
-            "2652": [
-                "synpic43648.jpg",
-                "ABD"
-            ]
-        },
-        "appendix non-enlarged": {
-            "2788": [
-                "synpic31232.jpg",
-                "ABD"
-            ]
-        },
-        "gi tract": {
-            "3132": [
-                "synpic47191.jpg",
-                "ABD"
-            ]
-        }
-    },
-    "ORGANISM": {
-        "patient": {
-            "20": [
-                "synpic29265.jpg",
-                "CHEST"
-            ],
-            "49": [
-                "synpic40272.jpg",
-                "CHEST"
-            ],
-            "158": [
-                "synpic30324.jpg",
-                "ABD"
-            ],
-            "733": [
-                "synpic35914.jpg",
-                "ABD"
-            ],
-            "1210": [
-                "synpic28355.jpg",
-                "CHEST"
-            ],
-            "1266": [
-                "synpic16170.jpg",
-                "CHEST"
-            ],
-            "1492": [
-                "synpic42805.jpg",
-                "CHEST"
-            ],
-            "1493": [
-                "synpic42805.jpg",
-                "CHEST"
-            ],
-            "1603": [
-                "synpic30273.jpg",
-                "ABD"
-            ],
-            "1622": [
-                "synpic57317.jpg",
-                "HEAD"
-            ],
-            "1690": [
-                "synpic37275.jpg",
-                "ABD"
-            ],
-            "1721": [
-                "synpic16221.jpg",
-                "CHEST"
-            ],
-            "1722": [
-                "synpic16221.jpg",
-                "CHEST"
-            ],
-            "1814": [
-                "synpic50958.jpg",
-                "ABD"
-            ],
-            "1867": [
-                "synpic33481.jpg",
-                "CHEST"
-            ],
-            "2372": [
-                "synpic34713.jpg",
-                "ABD"
-            ],
-            "2420": [
-                "synpic34515.jpg",
-                "ABD"
-            ],
-            "2448": [
-                "synpic24878.jpg",
-                "ABD"
-            ],
-            "2509": [
-                "synpic51926.jpg",
-                "ABD"
-            ],
-            "2586": [
-                "synpic16174.jpg",
-                "CHEST"
-            ],
-            "2651": [
-                "synpic21995.jpg",
-                "ABD"
-            ],
-            "2735": [
-                "synpic25821.jpg",
-                "CHEST"
-            ],
-            "2817": [
-                "synpic22828.jpg",
-                "ABD"
-            ],
-            "2818": [
-                "synpic22828.jpg",
-                "ABD"
-            ],
-            "2904": [
-                "synpic32727.jpg",
-                "ABD"
-            ],
-            "2905": [
-                "synpic32727.jpg",
-                "ABD"
-            ],
-            "2989": [
-                "synpic47191.jpg",
-                "ABD"
-            ],
-            "3064": [
-                "synpic43609.jpg",
-                "ABD"
-            ]
-        }
-    },
-    "CANCER": {
-        "gi": {
-            "86": [
-                "synpic25534.jpg",
-                "ABD"
-            ]
-        },
-        "pulmonary nodule": {
-            "302": [
-                "synpic18319.jpg",
-                "CHEST"
-            ],
-            "304": [
-                "synpic18319.jpg",
-                "CHEST"
-            ]
-        },
-        "lesion": {
-            "402": [
-                "synpic40464.jpg",
-                "ABD"
-            ],
-            "1945": [
-                "synpic55583.jpg",
-                "HEAD"
-            ]
-        },
-        "ring-enhancing lesion": {
-            "427": [
-                "synpic57368.jpg",
-                "HEAD"
-            ]
-        },
-        "thorax": {
-            "606": [
-                "synpic24390.jpg",
-                "CHEST"
-            ],
-            "608": [
-                "synpic24390.jpg",
-                "CHEST"
-            ],
-            "1755": [
-                "synpic33429.jpg",
-                "CHEST"
-            ]
-        },
-        "colon": {
-            "648": [
-                "synpic41050.jpg",
-                "ABD"
-            ],
-            "733": [
-                "synpic35914.jpg",
-                "ABD"
-            ],
-            "734": [
-                "synpic35914.jpg",
-                "ABD"
-            ],
-            "1602": [
-                "synpic30273.jpg",
-                "ABD"
-            ]
-        },
-        "pancreatic head": {
-            "1185": [
-                "synpic21028.jpg",
-                "ABD"
-            ]
-        },
-        "brain lesion": {
-            "1549": [
-                "synpic59536.jpg",
-                "HEAD"
-            ]
-        },
-        "pancreatic head cause": {
-            "1768": [
-                "synpic50958.jpg",
-                "ABD"
-            ]
-        },
-        "body": {
-            "2035": [
-                "synpic34054.jpg",
-                "ABD"
-            ]
-        },
-        "kidney cyst": {
-            "2226": [
-                "synpic22794.jpg",
-                "ABD"
-            ],
-            "2228": [
-                "synpic22794.jpg",
-                "ABD"
-            ]
-        },
-        "nodule": {
-            "2546": [
-                "synpic12210.jpg",
-                "CHEST"
-            ],
-            "2594": [
-                "synpic17848.jpg",
-                "CHEST"
-            ]
-        },
-        "cerebral cortex": {
-            "2627": [
-                "synpic56116.jpg",
-                "HEAD"
-            ]
-        },
-        "hepatic lesion": {
-            "2714": [
-                "synpic47974.jpg",
-                "ABD"
-            ]
-        },
-        "hyperdense lesion": {
-            "2940": [
-                "synpic22828.jpg",
-                "ABD"
-            ]
-        },
-        "sulcus": {
-            "3001": [
-                "synpic53574.jpg",
-                "HEAD"
-            ],
-            "3003": [
-                "synpic53574.jpg",
-                "HEAD"
-            ]
-        }
-    },
-    "GENE_OR_GENE_PRODUCT": {
-        "pa": {
-            "393": [
-                "synpic49914.jpg",
-                "CHEST"
-            ],
-            "1908": [
-                "synpic17675.jpg",
-                "CHEST"
-            ]
-        },
-        "ap": {
-            "797": [
-                "synpic52951.jpg",
-                "CHEST"
-            ]
-        }
-    },
-    "CELL": {
-        "line": {
-            "977": [
-                "synpic22037.jpg",
-                "CHEST"
-            ]
-        },
-        "t2": {
-            "1187": [
-                "synpic38858.jpg",
-                "HEAD"
-            ],
-            "2938": [
-                "synpic9872.jpg",
-                "HEAD"
-            ]
-        },
-        "left": {
-            "2413": [
-                "synpic33481.jpg",
-                "CHEST"
-            ],
-            "2651": [
-                "synpic21995.jpg",
-                "ABD"
-            ]
-        }
-    },
-    "IMMATERIAL_ANATOMICAL_ENTITY": {
-        "left": {
-            "13": [
-                "synpic29265.jpg",
-                "CHEST"
-            ],
-            "1267": [
-                "synpic55286.jpg",
-                "HEAD"
-            ]
-        },
-        "basilar artery": {
-            "1529": [
-                "synpic60254.jpg",
-                "HEAD"
-            ],
-            "1531": [
-                "synpic60254.jpg",
-                "HEAD"
-            ]
-        },
-        "circular": {
-            "2821": [
-                "synpic100228.jpg",
-                "CHEST"
-            ],
-            "2823": [
-                "synpic100228.jpg",
-                "CHEST"
-            ]
-        },
-        "lumen": {
-            "2958": [
-                "synpic23571.jpg",
-                "ABD"
-            ]
-        }
-    },
-    "SIMPLE_CHEMICAL": {
-        "free": {
-            "306": [
-                "synpic32933.jpg",
-                "CHEST"
-            ],
-            "308": [
-                "synpic32933.jpg",
-                "CHEST"
-            ]
-        },
-        "mca": {
-            "2166": [
-                "synpic45699.jpg",
-                "HEAD"
-            ],
-            "2168": [
-                "synpic45699.jpg",
-                "HEAD"
-            ]
-        },
-        "putamen": {
-            "2187": [
-                "synpic52248.jpg",
-                "HEAD"
-            ]
-        }
-    },
-    "CELLULAR_COMPONENT": {
-        "left apical": {
-            "222": [
-                "synpic33422.jpg",
-                "CHEST"
-            ]
-        },
-        "axial plane": {
-            "1236": [
-                "synpic20208.jpg",
-                "ABD"
-            ]
-        },
-        "basal ganglion": {
-            "1512": [
-                "synpic51426.jpg",
-                "HEAD"
-            ],
-            "1514": [
-                "synpic51426.jpg",
-                "HEAD"
-            ],
-            "2627": [
-                "synpic56116.jpg",
-                "HEAD"
-            ]
-        },
-        "periphery": {
-            "1884": [
-                "synpic47974.jpg",
-                "ABD"
-            ]
-        },
-        "focal mass": {
-            "2007": [
-                "synpic27646.jpg",
-                "CHEST"
-            ]
-        },
-        "luminal surface": {
-            "2417": [
-                "synpic24248.jpg",
-                "ABD"
-            ]
-        }
-    },
-    "ORGANISM_SUBSTANCE": {
-        "blood": {
-            "814": [
-                "synpic47356.jpg",
-                "HEAD"
-            ]
-        },
-        "left aca": {
-            "2168": [
-                "synpic45699.jpg",
-                "HEAD"
-            ]
-        }
-    },
-    "ANATOMICAL_SYSTEM": {
-        "cns": {
-            "1055": [
-                "synpic39301.jpg",
-                "HEAD"
-            ],
-            "1073": [
-                "synpic51383.jpg",
-                "HEAD"
-            ],
-            "1214": [
-                "synpic55317.jpg",
-                "HEAD"
-            ],
-            "2963": [
-                "synpic31928.jpg",
-                "HEAD"
-            ]
-        },
-        "peripheral": {
-            "1863": [
-                "synpic28277.jpg",
-                "ABD"
-            ]
-        }
-    }
+    "1": [
+        "brain infarcted"
+    ],
+    "2": [
+        "lung"
+    ],
+    "6": [
+        "extremity"
+    ],
+    "7": [
+        "trachea midline"
+    ],
+    "8": [
+        "aortic aneurysm"
+    ],
+    "9": [
+        "left",
+        "lobe"
+    ],
+    "10": [
+        "costovertebral angle"
+    ],
+    "12": [
+        "organ"
+    ],
+    "15": [
+        "vasculature"
+    ],
+    "18": [
+        "organ",
+        "brain"
+    ],
+    "23": [
+        "anterior posterior"
+    ],
+    "25": [
+        "brain"
+    ],
+    "27": [
+        "chest"
+    ],
+    "29": [
+        "anterior-posterior"
+    ],
+    "31": [
+        "skull fracture"
+    ],
+    "33": [
+        "rib"
+    ],
+    "35": [
+        "lung"
+    ],
+    "37": [
+        "rib fracture"
+    ],
+    "39": [
+        "patient"
+    ],
+    "41": [
+        "lung parenchyma"
+    ],
+    "43": [
+        "lung parenchyma"
+    ],
+    "44": [
+        "arterial"
+    ],
+    "45": [
+        "gastric cardia"
+    ],
+    "48": [
+        "patient",
+        "bowel wall"
+    ],
+    "51": [
+        "ileac artery",
+        "vein"
+    ],
+    "52": [
+        "patient",
+        "iliac artery",
+        "vein"
+    ],
+    "53": [
+        "iliac vasculature"
+    ],
+    "54": [
+        "patient",
+        "iliac vasculature"
+    ],
+    "55": [
+        "spleen"
+    ],
+    "56": [
+        "spleen"
+    ],
+    "57": [
+        "spleen"
+    ],
+    "58": [
+        "spleen"
+    ],
+    "60": [
+        "patient"
+    ],
+    "61": [
+        "bowel"
+    ],
+    "62": [
+        "patient"
+    ],
+    "63": [
+        "brain"
+    ],
+    "64": [
+        "brain"
+    ],
+    "65": [
+        "brain"
+    ],
+    "66": [
+        "patient",
+        "midbrain"
+    ],
+    "67": [
+        "midbrain structure"
+    ],
+    "68": [
+        "patient",
+        "midbrain"
+    ],
+    "69": [
+        "brain structure",
+        "midline"
+    ],
+    "70": [
+        "midline"
+    ],
+    "71": [
+        "cerebral parenchyma"
+    ],
+    "72": [
+        "midline"
+    ],
+    "73": [
+        "gallbladder"
+    ],
+    "74": [
+        "gallbladder"
+    ],
+    "75": [
+        "gallbladder"
+    ],
+    "76": [
+        "gallbladder"
+    ],
+    "81": [
+        "cerebellum"
+    ],
+    "83": [
+        "patient"
+    ],
+    "84": [
+        "vertebral body"
+    ],
+    "85": [
+        "patient",
+        "vertebral body"
+    ],
+    "88": [
+        "patient"
+    ],
+    "89": [
+        "bowel",
+        "abdominal wall"
+    ],
+    "90": [
+        "patient",
+        "abdominal wall"
+    ],
+    "91": [
+        "abdominal"
+    ],
+    "92": [
+        "patient",
+        "abdominal wall"
+    ],
+    "93": [
+        "ct"
+    ],
+    "94": [
+        "patient",
+        "bowel"
+    ],
+    "95": [
+        "patient",
+        "bowel"
+    ],
+    "96": [
+        "patient",
+        "bowel"
+    ],
+    "97": [
+        "brain structure",
+        "midline",
+        "brain"
+    ],
+    "98": [
+        "midline"
+    ],
+    "100": [
+        "midline"
+    ],
+    "101": [
+        "pa"
+    ],
+    "102": [
+        "peritoneum"
+    ],
+    "103": [
+        "patient",
+        "peritoneum"
+    ],
+    "104": [
+        "peritoneal"
+    ],
+    "105": [
+        "patient",
+        "peritoneal"
+    ],
+    "106": [
+        "hilar soft tissue"
+    ],
+    "107": [
+        "patient",
+        "hilum"
+    ],
+    "108": [
+        "soft tissue",
+        "left hilum",
+        "soft tissue"
+    ],
+    "109": [
+        "tissue",
+        "patient",
+        "hilum"
+    ],
+    "112": [
+        "aorta"
+    ],
+    "113": [
+        "patient",
+        "aorta"
+    ],
+    "115": [
+        "patient",
+        "aorta"
+    ],
+    "117": [
+        "vertebral artery"
+    ],
+    "118": [
+        "vertebral artery"
+    ],
+    "119": [
+        "vertebral artery"
+    ],
+    "120": [
+        "vertebral artery"
+    ],
+    "122": [
+        "patient",
+        "aorta"
+    ],
+    "124": [
+        "patient",
+        "aorta"
+    ],
+    "125": [
+        "vertebro-basilar arterial"
+    ],
+    "126": [
+        "vertebral/basilar artery"
+    ],
+    "127": [
+        "vertebral artery/basilar artery"
+    ],
+    "128": [
+        "vertebral/basilar artery"
+    ],
+    "129": [
+        "grey-white matter junction"
+    ],
+    "130": [
+        "grey-white matter in",
+        "patient"
+    ],
+    "132": [
+        "grey-white matter in",
+        "patient"
+    ],
+    "133": [
+        "portal venous"
+    ],
+    "134": [
+        "portal venous"
+    ],
+    "135": [
+        "portal vein"
+    ],
+    "136": [
+        "portal venous"
+    ],
+    "138": [
+        "liver parenchyma"
+    ],
+    "139": [
+        "liver parenchyma"
+    ],
+    "140": [
+        "liver parenchyma"
+    ],
+    "141": [
+        "liver parenchyma"
+    ],
+    "142": [
+        "liver"
+    ],
+    "143": [
+        "liver parenchyma"
+    ],
+    "144": [
+        "liver parenchyma"
+    ],
+    "145": [
+        "pa"
+    ],
+    "146": [
+        "stomach"
+    ],
+    "147": [
+        "stomach wall"
+    ],
+    "148": [
+        "stomach wall"
+    ],
+    "149": [
+        "stomach wall"
+    ],
+    "150": [
+        "tissue",
+        "organ"
+    ],
+    "151": [
+        "metastatic tissue",
+        "organ"
+    ],
+    "152": [
+        "metastatic tissue",
+        "organ",
+        "liver"
+    ],
+    "153": [
+        "metastatic tissue",
+        "liver"
+    ],
+    "154": [
+        "lung"
+    ],
+    "155": [
+        "nodule",
+        "patient",
+        "lung"
+    ],
+    "156": [
+        "intraparenchymal lung"
+    ],
+    "157": [
+        "nodule",
+        "patient",
+        "lung"
+    ],
+    "159": [
+        "patient",
+        "peritoneal"
+    ],
+    "161": [
+        "patient",
+        "peritoneal"
+    ],
+    "163": [
+        "heart"
+    ],
+    "165": [
+        "heart"
+    ],
+    "166": [
+        "cerebral artery"
+    ],
+    "167": [
+        "patient",
+        "cerebral artery"
+    ],
+    "168": [
+        "cerebral artery"
+    ],
+    "169": [
+        "patient",
+        "cerebral artery"
+    ],
+    "171": [
+        "patient"
+    ],
+    "172": [
+        "lung"
+    ],
+    "173": [
+        "patient"
+    ],
+    "174": [
+        "mesenteric artery"
+    ],
+    "175": [
+        "mesenteric artery"
+    ],
+    "176": [
+        "mesenteric artery"
+    ],
+    "177": [
+        "mesenteric artery"
+    ],
+    "179": [
+        "heart"
+    ],
+    "181": [
+        "heart"
+    ],
+    "183": [
+        "patient"
+    ],
+    "184": [
+        "patient",
+        "rib"
+    ],
+    "185": [
+        "patient"
+    ],
+    "187": [
+        "pulmonary edema"
+    ],
+    "189": [
+        "pulmonary vessel"
+    ],
+    "190": [
+        "peritoneal"
+    ],
+    "194": [
+        "bowel"
+    ],
+    "195": [
+        "patient"
+    ],
+    "199": [
+        "cardiac contour normal ?"
+    ],
+    "201": [
+        "colon"
+    ],
+    "202": [
+        "stool",
+        "patient",
+        "colon"
+    ],
+    "203": [
+        "stool",
+        "colon"
+    ],
+    "204": [
+        "stool",
+        "patient",
+        "colon"
+    ],
+    "205": [
+        "left",
+        "cerebral artery"
+    ],
+    "206": [
+        "cerebral artery"
+    ],
+    "207": [
+        "left"
+    ],
+    "208": [
+        "cerebral artery"
+    ],
+    "209": [
+        "t2"
+    ],
+    "210": [
+        "brainstem"
+    ],
+    "211": [
+        "patient",
+        "brainstem"
+    ],
+    "212": [
+        "brainstem"
+    ],
+    "213": [
+        "patient",
+        "brainstem"
+    ],
+    "214": [
+        "left"
+    ],
+    "215": [
+        "patient",
+        "left"
+    ],
+    "216": [
+        "left"
+    ],
+    "217": [
+        "patient",
+        "left"
+    ],
+    "218": [
+        "midbrain"
+    ],
+    "219": [
+        "midbrain structure"
+    ],
+    "220": [
+        "midbrain"
+    ],
+    "221": [
+        "midbrain structure"
+    ],
+    "223": [
+        "patient",
+        "lung"
+    ],
+    "225": [
+        "patient",
+        "lung"
+    ],
+    "226": [
+        "lymph node",
+        "stomach"
+    ],
+    "227": [
+        "lymph node",
+        "stomach"
+    ],
+    "228": [
+        "lymph node",
+        "stomach"
+    ],
+    "229": [
+        "lymph node",
+        "stomach"
+    ],
+    "230": [
+        "gallbladder"
+    ],
+    "231": [
+        "gallbladder"
+    ],
+    "232": [
+        "gallbladder"
+    ],
+    "233": [
+        "gallbladder"
+    ],
+    "234": [
+        "liver"
+    ],
+    "235": [
+        "midline structure"
+    ],
+    "236": [
+        "midline"
+    ],
+    "238": [
+        "midline"
+    ],
+    "243": [
+        "bowel"
+    ],
+    "247": [
+        "edema",
+        "patient"
+    ],
+    "248": [
+        "edema",
+        "patient"
+    ],
+    "249": [
+        "edema"
+    ],
+    "250": [
+        "edema",
+        "patient"
+    ],
+    "251": [
+        "smooth"
+    ],
+    "255": [
+        "colonic lumen"
+    ],
+    "256": [
+        "patient",
+        "colon"
+    ],
+    "257": [
+        "patient",
+        "oral"
+    ],
+    "258": [
+        "patient",
+        "colon"
+    ],
+    "259": [
+        "celiac trunk"
+    ],
+    "260": [
+        "celiac trunk"
+    ],
+    "261": [
+        "patient",
+        "celiac trunk"
+    ],
+    "262": [
+        "celiac trunk"
+    ],
+    "263": [
+        "patient",
+        "celiac trunk"
+    ],
+    "264": [
+        "celiac trunk",
+        "patient"
+    ],
+    "265": [
+        "celiac trunk",
+        "patient"
+    ],
+    "266": [
+        "patient",
+        "celiac trunk"
+    ],
+    "267": [
+        "celiac trunk"
+    ],
+    "268": [
+        "patient",
+        "celiac trunk"
+    ],
+    "270": [
+        "midline"
+    ],
+    "272": [
+        "midline"
+    ],
+    "274": [
+        "patient"
+    ],
+    "276": [
+        "left lung"
+    ],
+    "278": [
+        "left lung"
+    ],
+    "279": [
+        "left"
+    ],
+    "280": [
+        "liver",
+        "stomac",
+        "esophagus"
+    ],
+    "281": [
+        "gi contrast hi-light the small bowel"
+    ],
+    "282": [
+        "oral",
+        "patient"
+    ],
+    "283": [
+        "patient"
+    ],
+    "284": [
+        "abdominal aorta"
+    ],
+    "285": [
+        "abdominal aorta"
+    ],
+    "286": [
+        "abdominal aorta"
+    ],
+    "287": [
+        "abdominal aorta"
+    ],
+    "289": [
+        "patient"
+    ],
+    "291": [
+        "patient"
+    ],
+    "292": [
+        "lung parenchyma"
+    ],
+    "293": [
+        "brainstem"
+    ],
+    "294": [
+        "patient",
+        "brainstem"
+    ],
+    "295": [
+        "brainstem"
+    ],
+    "296": [
+        "patient",
+        "brainstem"
+    ],
+    "297": [
+        "heart",
+        "lung"
+    ],
+    "303": [
+        "lung",
+        "pulmonary nodule"
+    ],
+    "305": [
+        "lung",
+        "pulmonary nodule"
+    ],
+    "307": [
+        "free"
+    ],
+    "309": [
+        "free"
+    ],
+    "311": [
+        "lung"
+    ],
+    "312": [
+        "patient",
+        "lung"
+    ],
+    "313": [
+        "lung"
+    ],
+    "314": [
+        "patient",
+        "lung"
+    ],
+    "317": [
+        "loculated pancreatic"
+    ],
+    "320": [
+        "hypodense"
+    ],
+    "322": [
+        "hypodense"
+    ],
+    "323": [
+        "organ"
+    ],
+    "326": [
+        "gallstone"
+    ],
+    "328": [
+        "left hemidiaphragm"
+    ],
+    "330": [
+        "left hemidiaphragm"
+    ],
+    "337": [
+        "brain"
+    ],
+    "338": [
+        "brain"
+    ],
+    "339": [
+        "brain"
+    ],
+    "340": [
+        "brain tissue"
+    ],
+    "341": [
+        "brain"
+    ],
+    "344": [
+        "focal"
+    ],
+    "347": [
+        "pancreatic"
+    ],
+    "349": [
+        "pancreatic"
+    ],
+    "353": [
+        "brain"
+    ],
+    "355": [
+        "organ",
+        "pancreas"
+    ],
+    "356": [
+        "pancreas"
+    ],
+    "357": [
+        "organ",
+        "pancreas"
+    ],
+    "358": [
+        "pancreas"
+    ],
+    "359": [
+        "cavitary"
+    ],
+    "360": [
+        "cavitary lesion"
+    ],
+    "362": [
+        "cavitary lesion"
+    ],
+    "366": [
+        "liver",
+        "left hepatic lobe"
+    ],
+    "367": [
+        "left hepatic lobe"
+    ],
+    "368": [
+        "liver",
+        "left hepatic lobe"
+    ],
+    "369": [
+        "left hepatic lobe"
+    ],
+    "370": [
+        "organ"
+    ],
+    "373": [
+        "nodular liver"
+    ],
+    "374": [
+        "liver"
+    ],
+    "375": [
+        "abdominal aorta",
+        "atherosclerotic"
+    ],
+    "376": [
+        "aorta",
+        "atherosclerotic"
+    ],
+    "377": [
+        "aorta",
+        "atherosclerotic"
+    ],
+    "378": [
+        "aorta",
+        "atherosclerotic"
+    ],
+    "379": [
+        "lateral"
+    ],
+    "380": [
+        "brain"
+    ],
+    "384": [
+        "organ"
+    ],
+    "396": [
+        "hilum"
+    ],
+    "403": [
+        "spleen lesion"
+    ],
+    "404": [
+        "extraluminal"
+    ],
+    "405": [
+        "liver"
+    ],
+    "406": [
+        "liver"
+    ],
+    "409": [
+        "lung"
+    ],
+    "410": [
+        "lung"
+    ],
+    "416": [
+        "lung",
+        "nodular opacity"
+    ],
+    "418": [
+        "lung",
+        "nodular opacity"
+    ],
+    "419": [
+        "extra-axial",
+        "choroidal"
+    ],
+    "420": [
+        "breast"
+    ],
+    "421": [
+        "breast"
+    ],
+    "424": [
+        "lung"
+    ],
+    "428": [
+        "ring-enhancing lesion"
+    ],
+    "430": [
+        "lesion"
+    ],
+    "432": [
+        "lobe"
+    ],
+    "434": [
+        "lobe"
+    ],
+    "435": [
+        "organ",
+        "pancreas"
+    ],
+    "436": [
+        "pancreas"
+    ],
+    "437": [
+        "pancreas"
+    ],
+    "438": [
+        "pancreas"
+    ],
+    "443": [
+        "kidney"
+    ],
+    "445": [
+        "kidney"
+    ],
+    "447": [
+        "pelvic fracture"
+    ],
+    "448": [
+        "brain"
+    ],
+    "451": [
+        "cystic lesion"
+    ],
+    "452": [
+        "cystic lesion"
+    ],
+    "453": [
+        "cystic lesion"
+    ],
+    "454": [
+        "patient"
+    ],
+    "456": [
+        "gallbladder"
+    ],
+    "457": [
+        "gallbladder"
+    ],
+    "459": [
+        "aortopulmonary"
+    ],
+    "461": [
+        "aortopulmonary"
+    ],
+    "463": [
+        "aortopulmonary"
+    ],
+    "471": [
+        "lung"
+    ],
+    "473": [
+        "lung"
+    ],
+    "474": [
+        "appendix enlarged"
+    ],
+    "477": [
+        "kidney"
+    ],
+    "478": [
+        "kidney"
+    ],
+    "479": [
+        "kidney"
+    ],
+    "480": [
+        "pancreatic body"
+    ],
+    "481": [
+        "liver"
+    ],
+    "482": [
+        "liver"
+    ],
+    "483": [
+        "liver"
+    ],
+    "484": [
+        "liver"
+    ],
+    "496": [
+        "hemidiaphragm"
+    ],
+    "498": [
+        "basal ganglion"
+    ],
+    "509": [
+        "small bowel"
+    ],
+    "510": [
+        "cecum"
+    ],
+    "514": [
+        "fat stranding"
+    ],
+    "515": [
+        "heart"
+    ],
+    "516": [
+        "heart"
+    ],
+    "517": [
+        "heart"
+    ],
+    "518": [
+        "suprasellar cistern"
+    ],
+    "519": [
+        "suprasellar cistern"
+    ],
+    "520": [
+        "suprasellar cistern"
+    ],
+    "521": [
+        "suprasellar cistern"
+    ],
+    "523": [
+        "pancreas"
+    ],
+    "525": [
+        "pancreas"
+    ],
+    "527": [
+        "eye"
+    ],
+    "528": [
+        "pa"
+    ],
+    "529": [
+        "rib"
+    ],
+    "534": [
+        "lung"
+    ],
+    "536": [
+        "heart",
+        "thorax"
+    ],
+    "537": [
+        "cardiac"
+    ],
+    "538": [
+        "cardiac",
+        "thorax"
+    ],
+    "539": [
+        "cardiac",
+        "thorax"
+    ],
+    "540": [
+        "diaphragm"
+    ],
+    "541": [
+        "diaphragm"
+    ],
+    "542": [
+        "diaphragm"
+    ],
+    "543": [
+        "diaphragm"
+    ],
+    "544": [
+        "nodular calcification",
+        "lung"
+    ],
+    "545": [
+        "lung"
+    ],
+    "546": [
+        "liver"
+    ],
+    "547": [
+        "liver"
+    ],
+    "549": [
+        "liver"
+    ],
+    "553": [
+        "aortic arch"
+    ],
+    "554": [
+        "aortic arch"
+    ],
+    "555": [
+        "aortic arch"
+    ],
+    "556": [
+        "aortic arch"
+    ],
+    "558": [
+        "lung",
+        "lung"
+    ],
+    "559": [
+        "lung",
+        "lung"
+    ],
+    "560": [
+        "lung"
+    ],
+    "561": [
+        "lung"
+    ],
+    "562": [
+        "bone"
+    ],
+    "563": [
+        "bowel",
+        "patient",
+        "left"
+    ],
+    "564": [
+        "bowel",
+        "left"
+    ],
+    "565": [
+        "periappendiceal fluid",
+        "fat stranding"
+    ],
+    "566": [
+        "periappendiceal fluid",
+        "fat stranding"
+    ],
+    "568": [
+        "patient"
+    ],
+    "570": [
+        "patient"
+    ],
+    "575": [
+        "organ",
+        "intestine"
+    ],
+    "576": [
+        "intestine",
+        "organ",
+        "kidney"
+    ],
+    "577": [
+        "cystic cavity",
+        "kidney"
+    ],
+    "578": [
+        "cystic cavity",
+        "left kidney"
+    ],
+    "579": [
+        "left kidney"
+    ],
+    "580": [
+        "left kidney"
+    ],
+    "581": [
+        "lumbar vertebral"
+    ],
+    "582": [
+        "colon",
+        "bowel"
+    ],
+    "583": [
+        "bowel"
+    ],
+    "584": [
+        "bowel"
+    ],
+    "585": [
+        "lesion"
+    ],
+    "586": [
+        "lesion"
+    ],
+    "589": [
+        "liver"
+    ],
+    "590": [
+        "liver"
+    ],
+    "591": [
+        "liver"
+    ],
+    "592": [
+        "patient",
+        "liver"
+    ],
+    "593": [
+        "patient",
+        "left"
+    ],
+    "594": [
+        "left",
+        "lobe"
+    ],
+    "597": [
+        "organ",
+        "heart",
+        "lung"
+    ],
+    "599": [
+        "diaphragm"
+    ],
+    "601": [
+        "diaphragm"
+    ],
+    "602": [
+        "liver"
+    ],
+    "603": [
+        "liver"
+    ],
+    "604": [
+        "hypodense lesion",
+        "liver"
+    ],
+    "605": [
+        "hypodense lesion",
+        "patient",
+        "liver"
+    ],
+    "607": [
+        "heart",
+        "thorax"
+    ],
+    "609": [
+        "heart",
+        "thorax"
+    ],
+    "611": [
+        "left hemidiaphragm"
+    ],
+    "613": [
+        "left hemidiaphragm"
+    ],
+    "614": [
+        "left kidney"
+    ],
+    "615": [
+        "cystic lesion",
+        "left kidney"
+    ],
+    "616": [
+        "cystic lesion",
+        "left kidney"
+    ],
+    "618": [
+        "lesion",
+        "tissue"
+    ],
+    "619": [
+        "cystic lesion",
+        "kidney parenchyma",
+        "cystic lesion"
+    ],
+    "621": [
+        "brain tissue",
+        "tissue"
+    ],
+    "622": [
+        "tissue"
+    ],
+    "623": [
+        "tissue",
+        "tissue"
+    ],
+    "625": [
+        "ap"
+    ],
+    "626": [
+        "calcified lesion",
+        "lung"
+    ],
+    "627": [
+        "calcified lesion",
+        "lung"
+    ],
+    "628": [
+        "calcified lesion",
+        "patient",
+        "lung"
+    ],
+    "632": [
+        "clavicle"
+    ],
+    "634": [
+        "patient",
+        "supraclavicular fossa"
+    ],
+    "635": [
+        "organ"
+    ],
+    "636": [
+        "left hemidiaphragm"
+    ],
+    "637": [
+        "left hemidiaphragm"
+    ],
+    "638": [
+        "left diaphragm"
+    ],
+    "639": [
+        "patient"
+    ],
+    "640": [
+        "thorax"
+    ],
+    "643": [
+        "lung"
+    ],
+    "645": [
+        "aneurysm",
+        "thorasic aorta"
+    ],
+    "646": [
+        "aneurysm",
+        "thorasic aorta"
+    ],
+    "647": [
+        "aorta"
+    ],
+    "649": [
+        "colon"
+    ],
+    "653": [
+        "cardiac border more"
+    ],
+    "654": [
+        "cardiac border"
+    ],
+    "655": [
+        "organ"
+    ],
+    "656": [
+        "cardiac border",
+        "left"
+    ],
+    "657": [
+        "cardiac border",
+        "left"
+    ],
+    "659": [
+        "hematoma"
+    ],
+    "660": [
+        "hematoma"
+    ],
+    "661": [
+        "blood"
+    ],
+    "662": [
+        "blood"
+    ],
+    "664": [
+        "lung",
+        "left"
+    ],
+    "665": [
+        "left"
+    ],
+    "666": [
+        "left lung"
+    ],
+    "667": [
+        "left lung"
+    ],
+    "668": [
+        "duodenum"
+    ],
+    "669": [
+        "duodenum"
+    ],
+    "670": [
+        "duodenum edematous"
+    ],
+    "671": [
+        "patient"
+    ],
+    "672": [
+        "lung"
+    ],
+    "673": [
+        "anterior mediastinum"
+    ],
+    "674": [
+        "anterior mediastinum"
+    ],
+    "675": [
+        "lung hilum"
+    ],
+    "676": [
+        "lung hilum"
+    ],
+    "677": [
+        "left hemidiaphragm"
+    ],
+    "678": [
+        "left hemidiaphragm"
+    ],
+    "679": [
+        "subdiaphragmatic",
+        "left"
+    ],
+    "680": [
+        "subdiaphragmatic air",
+        "patient",
+        "left"
+    ],
+    "681": [
+        "lateral ventricle",
+        "left"
+    ],
+    "682": [
+        "lateral ventricle",
+        "left"
+    ],
+    "683": [
+        "lateral ventricle",
+        "left hemisphere"
+    ],
+    "684": [
+        "lateral ventricle",
+        "left hemisphere"
+    ],
+    "687": [
+        "liver"
+    ],
+    "694": [
+        "patient"
+    ],
+    "696": [
+        "patient"
+    ],
+    "697": [
+        "left 5th"
+    ],
+    "698": [
+        "patient"
+    ],
+    "699": [
+        "left"
+    ],
+    "700": [
+        "patient"
+    ],
+    "702": [
+        "subcutaneous"
+    ],
+    "703": [
+        "subcutaneous"
+    ],
+    "704": [
+        "subcutaneous"
+    ],
+    "705": [
+        "rib"
+    ],
+    "706": [
+        "patient"
+    ],
+    "710": [
+        "subcutaneous"
+    ],
+    "712": [
+        "patient"
+    ],
+    "714": [
+        "lung"
+    ],
+    "715": [
+        "lung"
+    ],
+    "716": [
+        "lung"
+    ],
+    "717": [
+        "lung"
+    ],
+    "719": [
+        "left apex",
+        "bullous"
+    ],
+    "721": [
+        "patient",
+        "left apex"
+    ],
+    "723": [
+        "anterior mediastinum"
+    ],
+    "727": [
+        "kidney"
+    ],
+    "731": [
+        "lobe"
+    ],
+    "736": [
+        "subcutaneous tissue"
+    ],
+    "737": [
+        "subcutaneous"
+    ],
+    "739": [
+        "subcutaneous"
+    ],
+    "740": [
+        "lung"
+    ],
+    "743": [
+        "intestine"
+    ],
+    "745": [
+        "wall",
+        "aorta"
+    ],
+    "746": [
+        "edema"
+    ],
+    "747": [
+        "cerebellum"
+    ],
+    "749": [
+        "liver"
+    ],
+    "753": [
+        "see",
+        "cerebellum"
+    ],
+    "755": [
+        "heart"
+    ],
+    "757": [
+        "lobe",
+        "nodule",
+        "left"
+    ],
+    "758": [
+        "patient",
+        "kidney"
+    ],
+    "760": [
+        "lung"
+    ],
+    "762": [
+        "choroid"
+    ],
+    "766": [
+        "organ",
+        "lung"
+    ],
+    "767": [
+        "basal ganglion"
+    ],
+    "769": [
+        "line",
+        "posterior brain"
+    ],
+    "770": [
+        "medulla swollen"
+    ],
+    "771": [
+        "intestine"
+    ],
+    "775": [
+        "abdomen distended"
+    ],
+    "777": [
+        "lobe"
+    ],
+    "778": [
+        "solitary nodule"
+    ],
+    "782": [
+        "lung"
+    ],
+    "786": [
+        "brain ventricle"
+    ],
+    "788": [
+        "anterior abdominal"
+    ],
+    "789": [
+        "lateral ventricle"
+    ],
+    "791": [
+        "left lung"
+    ],
+    "793": [
+        "stomach"
+    ],
+    "794": [
+        "artery"
+    ],
+    "796": [
+        "kidney",
+        "abdomen"
+    ],
+    "799": [
+        "renal mass distending the",
+        "abdominal wall"
+    ],
+    "800": [
+        "intestine"
+    ],
+    "801": [
+        "posterior left",
+        "posterior horn",
+        "left lateral ventricle"
+    ],
+    "802": [
+        "left",
+        "patient",
+        "liver"
+    ],
+    "803": [
+        "medulla"
+    ],
+    "806": [
+        "kidney"
+    ],
+    "808": [
+        "kidney"
+    ],
+    "810": [
+        "liver",
+        "fat"
+    ],
+    "812": [
+        "lobe"
+    ],
+    "815": [
+        "see",
+        "cerebellum"
+    ],
+    "817": [
+        "undulation",
+        "vertebral column"
+    ],
+    "818": [
+        "trachea"
+    ],
+    "819": [
+        "left kidney"
+    ],
+    "820": [
+        "brain"
+    ],
+    "822": [
+        "skull"
+    ],
+    "823": [
+        "bone"
+    ],
+    "824": [
+        "heart"
+    ],
+    "825": [
+        "heart"
+    ],
+    "826": [
+        "heart"
+    ],
+    "827": [
+        "heart"
+    ],
+    "828": [
+        "pulmonary"
+    ],
+    "829": [
+        "pulmonary"
+    ],
+    "831": [
+        "lateral ventricle"
+    ],
+    "833": [
+        "lateral ventricle"
+    ],
+    "834": [
+        "solid",
+        "cystic"
+    ],
+    "835": [
+        "solid",
+        "cystic"
+    ],
+    "836": [
+        "pa"
+    ],
+    "837": [
+        "heart"
+    ],
+    "838": [
+        "heart"
+    ],
+    "839": [
+        "heart"
+    ],
+    "841": [
+        "esophagus"
+    ],
+    "843": [
+        "esophagus"
+    ],
+    "845": [
+        "patient"
+    ],
+    "846": [
+        "patient"
+    ],
+    "847": [
+        "cerebellum"
+    ],
+    "848": [
+        "bone"
+    ],
+    "849": [
+        "pleural"
+    ],
+    "850": [
+        "pleural"
+    ],
+    "851": [
+        "pleural"
+    ],
+    "852": [
+        "pleural"
+    ],
+    "853": [
+        "subdural hematoma"
+    ],
+    "854": [
+        "subdural hematoma"
+    ],
+    "855": [
+        "subdural hematoma"
+    ],
+    "856": [
+        "subdural hematoma"
+    ],
+    "858": [
+        "heart"
+    ],
+    "859": [
+        "heart"
+    ],
+    "860": [
+        "heart"
+    ],
+    "861": [
+        "heart"
+    ],
+    "867": [
+        "brain"
+    ],
+    "868": [
+        "brain"
+    ],
+    "869": [
+        "ventricle",
+        "lateral ventricle"
+    ],
+    "877": [
+        "cancer"
+    ],
+    "878": [
+        "cancer"
+    ],
+    "879": [
+        "bowel"
+    ],
+    "880": [
+        "bowel"
+    ],
+    "881": [
+        "body",
+        "bowel"
+    ],
+    "882": [
+        "bowel"
+    ],
+    "883": [
+        "pleural"
+    ],
+    "884": [
+        "pleural"
+    ],
+    "886": [
+        "pleural"
+    ],
+    "887": [
+        "pleural"
+    ],
+    "888": [
+        "pleural"
+    ],
+    "889": [
+        "pleural"
+    ],
+    "890": [
+        "pleural"
+    ],
+    "891": [
+        "bowel"
+    ],
+    "892": [
+        "pleural"
+    ],
+    "893": [
+        "pleural"
+    ],
+    "894": [
+        "pleural"
+    ],
+    "895": [
+        "pleural"
+    ],
+    "896": [
+        "heart"
+    ],
+    "897": [
+        "heart"
+    ],
+    "898": [
+        "heart"
+    ],
+    "899": [
+        "heart"
+    ],
+    "901": [
+        "lung",
+        "mediastinum",
+        "vessel"
+    ],
+    "902": [
+        "organ",
+        "retroperitoneum",
+        "retroperitoneal"
+    ],
+    "903": [
+        "patient"
+    ],
+    "905": [
+        "kidney",
+        "ureter"
+    ],
+    "907": [
+        "kidney"
+    ],
+    "909": [
+        "kidney"
+    ],
+    "911": [
+        "lateral ventricle"
+    ],
+    "913": [
+        "lateral ventricle"
+    ],
+    "919": [
+        "hypoattenuated tissue",
+        "skin",
+        "fat"
+    ],
+    "921": [
+        "hypoattenuated tissue",
+        "skin",
+        "fat"
+    ],
+    "927": [
+        "patient"
+    ],
+    "928": [
+        "abdominal fat pad"
+    ],
+    "929": [
+        "abdominal fat pad"
+    ],
+    "930": [
+        "abdominal fat pad"
+    ],
+    "931": [
+        "abdominal fat pad"
+    ],
+    "932": [
+        "pleural"
+    ],
+    "933": [
+        "pleural"
+    ],
+    "934": [
+        "pleural"
+    ],
+    "935": [
+        "pleural"
+    ],
+    "936": [
+        "patient"
+    ],
+    "938": [
+        "rib",
+        "left"
+    ],
+    "939": [
+        "left rib"
+    ],
+    "940": [
+        "pleural"
+    ],
+    "941": [
+        "pleural"
+    ],
+    "942": [
+        "adrenal gland"
+    ],
+    "944": [
+        "brain"
+    ],
+    "945": [
+        "brain"
+    ],
+    "947": [
+        "patient"
+    ],
+    "949": [
+        "patient"
+    ],
+    "952": [
+        "left humerus"
+    ],
+    "953": [
+        "humerus"
+    ],
+    "954": [
+        "left humerus"
+    ],
+    "955": [
+        "aortic aneurysm"
+    ],
+    "958": [
+        "lung"
+    ],
+    "959": [
+        "ventricle"
+    ],
+    "960": [
+        "ventricle"
+    ],
+    "961": [
+        "ventricle"
+    ],
+    "962": [
+        "ventricle"
+    ],
+    "963": [
+        "pleural"
+    ],
+    "965": [
+        "pleural"
+    ],
+    "969": [
+        "skull"
+    ],
+    "970": [
+        "skull fracture"
+    ],
+    "971": [
+        "edema"
+    ],
+    "972": [
+        "edema"
+    ],
+    "973": [
+        "edema"
+    ],
+    "974": [
+        "edema"
+    ],
+    "976": [
+        "brain"
+    ],
+    "980": [
+        "hylar lymphadenopathy"
+    ],
+    "982": [
+        "hylar lymphadenopathy"
+    ],
+    "984": [
+        "mediastinum"
+    ],
+    "986": [
+        "mediastinum"
+    ],
+    "987": [
+        "heart"
+    ],
+    "988": [
+        "heart"
+    ],
+    "990": [
+        "heart"
+    ],
+    "992": [
+        "heart"
+    ],
+    "993": [
+        "heart"
+    ],
+    "994": [
+        "heart"
+    ],
+    "996": [
+        "heart"
+    ],
+    "998": [
+        "stomach wall"
+    ],
+    "999": [
+        "patient",
+        "gastric wall"
+    ],
+    "1000": [
+        "gastric wall"
+    ],
+    "1001": [
+        "patient",
+        "gastric wall"
+    ],
+    "1002": [
+        "colon"
+    ],
+    "1003": [
+        "anterior",
+        "colon"
+    ],
+    "1004": [
+        "anterior",
+        "colon"
+    ],
+    "1005": [
+        "anterior",
+        "colon"
+    ],
+    "1008": [
+        "pleural"
+    ],
+    "1010": [
+        "pleural"
+    ],
+    "1015": [
+        "lung"
+    ],
+    "1016": [
+        "lung"
+    ],
+    "1017": [
+        "lung"
+    ],
+    "1018": [
+        "lung"
+    ],
+    "1019": [
+        "bowel"
+    ],
+    "1020": [
+        "patient",
+        "bowel"
+    ],
+    "1021": [
+        "bowel"
+    ],
+    "1022": [
+        "patient",
+        "bowel"
+    ],
+    "1027": [
+        "left occipital"
+    ],
+    "1028": [
+        "left occipital"
+    ],
+    "1029": [
+        "left occipital"
+    ],
+    "1030": [
+        "left occipital"
+    ],
+    "1031": [
+        "peritoneum"
+    ],
+    "1032": [
+        "patient",
+        "peritoneum"
+    ],
+    "1033": [
+        "peritoneum"
+    ],
+    "1034": [
+        "patient",
+        "peritoneum"
+    ],
+    "1036": [
+        "liver"
+    ],
+    "1037": [
+        "liver"
+    ],
+    "1038": [
+        "hepatic"
+    ],
+    "1039": [
+        "liver"
+    ],
+    "1040": [
+        "lobe",
+        "brain",
+        "parietal",
+        "occipital lobe"
+    ],
+    "1041": [
+        "parietal",
+        "occipital lobe"
+    ],
+    "1042": [
+        "lobe",
+        "occipital lobe"
+    ],
+    "1043": [
+        "lobe",
+        "parietal",
+        "occipital lobe"
+    ],
+    "1051": [
+        "cardiomegaly",
+        "pulmonary edema"
+    ],
+    "1053": [
+        "cardiomegaly",
+        "pulmonary edema"
+    ],
+    "1054": [
+        "pulmonary"
+    ],
+    "1055": [
+        "organ",
+        "cns"
+    ],
+    "1056": [
+        "sulcus"
+    ],
+    "1062": [
+        "cystic"
+    ],
+    "1064": [
+        "cecum"
+    ],
+    "1065": [
+        "cecum"
+    ],
+    "1066": [
+        "cecum"
+    ],
+    "1067": [
+        "cecum"
+    ],
+    "1068": [
+        "loculated"
+    ],
+    "1070": [
+        "loculation"
+    ],
+    "1073": [
+        "organ",
+        "cns"
+    ],
+    "1075": [
+        "mediastinum"
+    ],
+    "1081": [
+        "edema",
+        "patient",
+        "brain"
+    ],
+    "1083": [
+        "edema",
+        "patient",
+        "brain"
+    ],
+    "1084": [
+        "pulmonary"
+    ],
+    "1090": [
+        "cystic"
+    ],
+    "1095": [
+        "mediastinum"
+    ],
+    "1096": [
+        "mediastinum"
+    ],
+    "1097": [
+        "mediastium"
+    ],
+    "1098": [
+        "mediastinum"
+    ],
+    "1100": [
+        "stomach"
+    ],
+    "1101": [
+        "patient",
+        "stomach"
+    ],
+    "1102": [
+        "gastric"
+    ],
+    "1103": [
+        "patient",
+        "stomach"
+    ],
+    "1109": [
+        "cavitary lesion"
+    ],
+    "1111": [
+        "cavitary lesion"
+    ],
+    "1112": [
+        "renal system"
+    ],
+    "1113": [
+        "kidney"
+    ],
+    "1115": [
+        "kidney"
+    ],
+    "1117": [
+        "vascular"
+    ],
+    "1119": [
+        "vascular"
+    ],
+    "1120": [
+        "bowel"
+    ],
+    "1121": [
+        "patient",
+        "bowel"
+    ],
+    "1122": [
+        "bowel"
+    ],
+    "1123": [
+        "patient",
+        "bowel"
+    ],
+    "1124": [
+        "left"
+    ],
+    "1125": [
+        "left"
+    ],
+    "1126": [
+        "left"
+    ],
+    "1127": [
+        "left"
+    ],
+    "1133": [
+        "lung"
+    ],
+    "1134": [
+        "patient",
+        "lung"
+    ],
+    "1135": [
+        "lung"
+    ],
+    "1136": [
+        "patient",
+        "lung"
+    ],
+    "1137": [
+        "caudate nucleus"
+    ],
+    "1138": [
+        "caudate nucleus"
+    ],
+    "1139": [
+        "caudate nucleus"
+    ],
+    "1140": [
+        "caudate nucleus"
+    ],
+    "1141": [
+        "vascular"
+    ],
+    "1142": [
+        "lesion ( eg",
+        "vascular",
+        "vascular"
+    ],
+    "1143": [
+        "pa"
+    ],
+    "1145": [
+        "gallbladder"
+    ],
+    "1146": [
+        "gallbladder"
+    ],
+    "1148": [
+        "gallbladder"
+    ],
+    "1149": [
+        "fat"
+    ],
+    "1150": [
+        "fat"
+    ],
+    "1151": [
+        "fat"
+    ],
+    "1152": [
+        "fat"
+    ],
+    "1153": [
+        "gall bladder pathology"
+    ],
+    "1154": [
+        "gallbladder"
+    ],
+    "1155": [
+        "gallbladder"
+    ],
+    "1156": [
+        "gallbladder"
+    ],
+    "1172": [
+        "lung"
+    ],
+    "1173": [
+        "body"
+    ],
+    "1174": [
+        "lung"
+    ],
+    "1176": [
+        "pancreas"
+    ],
+    "1178": [
+        "pancreas"
+    ],
+    "1180": [
+        "flair mri"
+    ],
+    "1182": [
+        "cavitary lesion"
+    ],
+    "1183": [
+        "cavitary lesion"
+    ],
+    "1184": [
+        "cavitary lesion"
+    ],
+    "1186": [
+        "patient"
+    ],
+    "1188": [
+        "patient"
+    ],
+    "1189": [
+        "intraperitoneal"
+    ],
+    "1190": [
+        "kidney"
+    ],
+    "1191": [
+        "omental",
+        "left lateral",
+        "anterior peritoneum"
+    ],
+    "1193": [
+        "left",
+        "lung"
+    ],
+    "1194": [
+        "pa"
+    ],
+    "1195": [
+        "patient"
+    ],
+    "1196": [
+        "ventricle",
+        "intraventricular",
+        "ventricle"
+    ],
+    "1197": [
+        "appendicitis",
+        "fat stranding around the appendix , thickened appendiceal wall , dilated appendix",
+        "appendicolith"
+    ],
+    "1198": [
+        "cardiovascular system"
+    ],
+    "1199": [
+        "patient",
+        "skull fracture"
+    ],
+    "1200": [
+        "gallbladder"
+    ],
+    "1201": [
+        "fat stranding"
+    ],
+    "1202": [
+        "heart"
+    ],
+    "1204": [
+        "blood",
+        "head ct"
+    ],
+    "1206": [
+        "patient",
+        "pleural"
+    ],
+    "1207": [
+        "pa",
+        "pa"
+    ],
+    "1208": [
+        "brain"
+    ],
+    "1211": [
+        "patient"
+    ],
+    "1214": [
+        "cns"
+    ],
+    "1222": [
+        "organ",
+        "left posterior",
+        "spinal column",
+        "left kidney"
+    ],
+    "1224": [
+        "solid organ",
+        "liver"
+    ],
+    "1225": [
+        "organ",
+        "respiratory system"
+    ],
+    "1226": [
+        "aortic"
+    ],
+    "1227": [
+        "patient"
+    ],
+    "1228": [
+        "fat stranding"
+    ],
+    "1229": [
+        "body",
+        "abdomen"
+    ],
+    "1231": [
+        "omentum",
+        "omental"
+    ],
+    "1234": [
+        "abdominal aorta"
+    ],
+    "1239": [
+        "brain"
+    ],
+    "1240": [
+        "organ",
+        "pancreas"
+    ],
+    "1242": [
+        "gi and iv contrast"
+    ],
+    "1243": [
+        "edema"
+    ],
+    "1244": [
+        "left",
+        "left costophrenic"
+    ],
+    "1245": [
+        "clavicle fracture"
+    ],
+    "1246": [
+        "brain"
+    ],
+    "1247": [
+        "organ",
+        "left kidney"
+    ],
+    "1249": [
+        "patient",
+        "endotracheal tube"
+    ],
+    "1250": [
+        "brain",
+        "hyper-intense signal",
+        "t2",
+        "left occipital"
+    ],
+    "1253": [
+        "liver"
+    ],
+    "1256": [
+        "vessel",
+        "anterior",
+        "aorta"
+    ],
+    "1257": [
+        "vessel",
+        "anterior",
+        "spinal column",
+        "aorta",
+        "inferior vena"
+    ],
+    "1260": [
+        "abdomen"
+    ],
+    "1261": [
+        "thoracic",
+        "left"
+    ],
+    "1263": [
+        "pleural"
+    ],
+    "1270": [
+        "bleed"
+    ],
+    "1271": [
+        "brain bleed"
+    ],
+    "1272": [
+        "bleed",
+        "brain"
+    ],
+    "1274": [
+        "left"
+    ],
+    "1275": [
+        "muscle",
+        "left"
+    ],
+    "1276": [
+        "muscle",
+        "medial"
+    ],
+    "1277": [
+        "muscle",
+        "left"
+    ],
+    "1278": [
+        "patient"
+    ],
+    "1279": [
+        "bowel content"
+    ],
+    "1285": [
+        "left renal vein"
+    ],
+    "1287": [
+        "left renal vein"
+    ],
+    "1294": [
+        "infarct"
+    ],
+    "1295": [
+        "infarct"
+    ],
+    "1296": [
+        "infarct"
+    ],
+    "1297": [
+        "infarct"
+    ],
+    "1298": [
+        "pulmonary artery"
+    ],
+    "1299": [
+        "pulmonary artery"
+    ],
+    "1300": [
+        "pulmonary artery"
+    ],
+    "1301": [
+        "pulmonary artery"
+    ],
+    "1313": [
+        "left",
+        "left"
+    ],
+    "1314": [
+        "lesion",
+        "cerebellum"
+    ],
+    "1321": [
+        "lateral"
+    ],
+    "1322": [
+        "muscle",
+        "lateral"
+    ],
+    "1323": [
+        "muscle",
+        "lateral"
+    ],
+    "1324": [
+        "muscle",
+        "lateral"
+    ],
+    "1325": [
+        "gallbladder"
+    ],
+    "1335": [
+        "pineal gland"
+    ],
+    "1336": [
+        "pineal gland"
+    ],
+    "1337": [
+        "pineal gland"
+    ],
+    "1338": [
+        "pineal gland"
+    ],
+    "1339": [
+        "oral"
+    ],
+    "1340": [
+        "lung"
+    ],
+    "1341": [
+        "lung"
+    ],
+    "1342": [
+        "lung"
+    ],
+    "1343": [
+        "lung"
+    ],
+    "1344": [
+        "cardiac"
+    ],
+    "1345": [
+        "cardiac region"
+    ],
+    "1346": [
+        "cardiac region"
+    ],
+    "1347": [
+        "cardiac region"
+    ],
+    "1349": [
+        "pleural"
+    ],
+    "1351": [
+        "pleural"
+    ],
+    "1352": [
+        "occipital horn",
+        "lateral ventricle"
+    ],
+    "1353": [
+        "occipital horn",
+        "lateral ventricle"
+    ],
+    "1354": [
+        "occipital horn",
+        "lateral ventricle"
+    ],
+    "1355": [
+        "occipital horn",
+        "lateral ventricle"
+    ],
+    "1361": [
+        "pa"
+    ],
+    "1362": [
+        "pa"
+    ],
+    "1363": [
+        "muscle"
+    ],
+    "1364": [
+        "muscle",
+        "-yes/no"
+    ],
+    "1365": [
+        "muscle"
+    ],
+    "1366": [
+        "muscle",
+        "-yes/no"
+    ],
+    "1367": [
+        "abdomen",
+        "aorta",
+        "left"
+    ],
+    "1368": [
+        "aorta",
+        "left"
+    ],
+    "1369": [
+        "aorta",
+        "midline",
+        "left"
+    ],
+    "1370": [
+        "aorta",
+        "left"
+    ],
+    "1371": [
+        "left"
+    ],
+    "1372": [
+        "left"
+    ],
+    "1373": [
+        "lung",
+        "left"
+    ],
+    "1374": [
+        "left"
+    ],
+    "1376": [
+        "patient",
+        "brain"
+    ],
+    "1378": [
+        "patient",
+        "brain"
+    ],
+    "1380": [
+        "cerebellum"
+    ],
+    "1381": [
+        "cerebellum"
+    ],
+    "1382": [
+        "cerebellum"
+    ],
+    "1383": [
+        "cerebellum"
+    ],
+    "1385": [
+        "infarct"
+    ],
+    "1387": [
+        "infarct"
+    ],
+    "1388": [
+        "brain",
+        "infarct"
+    ],
+    "1389": [
+        "infarct"
+    ],
+    "1390": [
+        "infarct"
+    ],
+    "1391": [
+        "infarct"
+    ],
+    "1392": [
+        "organ",
+        "respiratory",
+        "cardia c"
+    ],
+    "1396": [
+        "trachea midline"
+    ],
+    "1407": [
+        "t2",
+        "csf"
+    ],
+    "1410": [
+        "t2"
+    ],
+    "1411": [
+        "occipital lobe"
+    ],
+    "1412": [
+        "occipital lobe"
+    ],
+    "1413": [
+        "occipital lobe"
+    ],
+    "1414": [
+        "occipital lobe"
+    ],
+    "1416": [
+        "r vertebral artery"
+    ],
+    "1417": [
+        "right vertebral artery normal"
+    ],
+    "1418": [
+        "r vertebral artery"
+    ],
+    "1422": [
+        "lesion"
+    ],
+    "1423": [
+        "lesion"
+    ],
+    "1424": [
+        "lesion"
+    ],
+    "1425": [
+        "lesion"
+    ],
+    "1426": [
+        "left lung"
+    ],
+    "1427": [
+        "patient"
+    ],
+    "1428": [
+        "left lung"
+    ],
+    "1429": [
+        "patient"
+    ],
+    "1430": [
+        "left parietal"
+    ],
+    "1431": [
+        "left parietal"
+    ],
+    "1432": [
+        "lobe",
+        "left parietal"
+    ],
+    "1433": [
+        "left parietal"
+    ],
+    "1434": [
+        "heart"
+    ],
+    "1435": [
+        "heart"
+    ],
+    "1436": [
+        "cardiac silhouette normal"
+    ],
+    "1437": [
+        "heart"
+    ],
+    "1438": [
+        "chest"
+    ],
+    "1439": [
+        "chest"
+    ],
+    "1440": [
+        "mediastinum"
+    ],
+    "1441": [
+        "mediastinum"
+    ],
+    "1442": [
+        "mediastinum"
+    ],
+    "1443": [
+        "mediastinum"
+    ],
+    "1444": [
+        "epidural"
+    ],
+    "1445": [
+        "epidural"
+    ],
+    "1446": [
+        "epidural"
+    ],
+    "1447": [
+        "epidural"
+    ],
+    "1452": [
+        "heart",
+        "patient",
+        "aortic arch"
+    ],
+    "1453": [
+        "heart",
+        "aortic arch"
+    ],
+    "1454": [
+        "heart",
+        "patient",
+        "aortic arch"
+    ],
+    "1455": [
+        "heart",
+        "aortic arch"
+    ],
+    "1457": [
+        "brain",
+        "cerebellum"
+    ],
+    "1458": [
+        "brain",
+        "cerebellum"
+    ],
+    "1459": [
+        "brain",
+        "cerebellum"
+    ],
+    "1460": [
+        "brain",
+        "cerebellum"
+    ],
+    "1462": [
+        "brain"
+    ],
+    "1463": [
+        "brain"
+    ],
+    "1464": [
+        "brain"
+    ],
+    "1465": [
+        "brain"
+    ],
+    "1468": [
+        "pa"
+    ],
+    "1472": [
+        "bone"
+    ],
+    "1473": [
+        "bone"
+    ],
+    "1474": [
+        "patient",
+        "bone"
+    ],
+    "1475": [
+        "bone"
+    ],
+    "1484": [
+        "patient",
+        "rib"
+    ],
+    "1485": [
+        "patient",
+        "rib"
+    ],
+    "1486": [
+        "patient",
+        "rib"
+    ],
+    "1487": [
+        "patient",
+        "rib"
+    ],
+    "1488": [
+        "sella",
+        "suprasellar cistern"
+    ],
+    "1489": [
+        "sella",
+        "suprasellar cistern"
+    ],
+    "1490": [
+        "sella",
+        "suprasellar cistern"
+    ],
+    "1491": [
+        "sella",
+        "suprasellar cistern"
+    ],
+    "1494": [
+        "t2"
+    ],
+    "1495": [
+        "t2"
+    ],
+    "1496": [
+        "patient",
+        "left",
+        "organ",
+        "left kidney"
+    ],
+    "1497": [
+        "organ",
+        "patient",
+        "left",
+        "left kidney"
+    ],
+    "1498": [
+        "organ",
+        "patient",
+        "left",
+        "left kidney"
+    ],
+    "1499": [
+        "organ",
+        "patient",
+        "left",
+        "left kidney"
+    ],
+    "1501": [
+        "heart"
+    ],
+    "1503": [
+        "heart"
+    ],
+    "1504": [
+        "organ",
+        "brain"
+    ],
+    "1505": [
+        "organ",
+        "brain"
+    ],
+    "1509": [
+        "edema"
+    ],
+    "1510": [
+        "edema"
+    ],
+    "1511": [
+        "edema"
+    ],
+    "1513": [
+        "left thalamus",
+        "basal ganglion"
+    ],
+    "1515": [
+        "left thalamus",
+        "basal ganglion"
+    ],
+    "1516": [
+        "cranial nerve",
+        "cn iii",
+        "trigeminal nerve",
+        "cn v"
+    ],
+    "1517": [
+        "cranial nerve",
+        "cn iii",
+        "trigeminal nerve",
+        "cn v"
+    ],
+    "1518": [
+        "cranial nerve",
+        "oculomotor nerve (",
+        "cn iii",
+        "trigeminal nerve",
+        "cn v"
+    ],
+    "1519": [
+        "cranial nerve",
+        "cn iii",
+        "trigeminal nerve",
+        "cn v"
+    ],
+    "1521": [
+        "colon wall"
+    ],
+    "1522": [
+        "colon"
+    ],
+    "1523": [
+        "wall",
+        "colon"
+    ],
+    "1524": [
+        "colon"
+    ],
+    "1525": [
+        "t2"
+    ],
+    "1526": [
+        "t2"
+    ],
+    "1527": [
+        "pa"
+    ],
+    "1528": [
+        "pa"
+    ],
+    "1530": [
+        "artery",
+        "basilar artery"
+    ],
+    "1532": [
+        "artery",
+        "basilar artery"
+    ],
+    "1533": [
+        "t2"
+    ],
+    "1534": [
+        "t2"
+    ],
+    "1538": [
+        "patient"
+    ],
+    "1541": [
+        "patient",
+        "kidney"
+    ],
+    "1543": [
+        "patient",
+        "kidney"
+    ],
+    "1550": [
+        "brain lesion"
+    ],
+    "1552": [
+        "brain lesion"
+    ],
+    "1553": [
+        "left"
+    ],
+    "1555": [
+        "left"
+    ],
+    "1561": [
+        "ventricle",
+        "ventricle"
+    ],
+    "1562": [
+        "ventricle",
+        "ventricle"
+    ],
+    "1563": [
+        "ventricle",
+        "ventricle"
+    ],
+    "1564": [
+        "ventricle",
+        "ventricle"
+    ],
+    "1566": [
+        "lateral ventricle"
+    ],
+    "1567": [
+        "hematoma",
+        "lateral ventricle"
+    ],
+    "1568": [
+        "hematoma",
+        "lateral ventricle"
+    ],
+    "1569": [
+        "hematoma",
+        "lateral ventricle"
+    ],
+    "1570": [
+        "organ",
+        "brain"
+    ],
+    "1571": [
+        "organ",
+        "brain"
+    ],
+    "1575": [
+        "midline"
+    ],
+    "1576": [
+        "midline"
+    ],
+    "1577": [
+        "midline"
+    ],
+    "1579": [
+        "brain"
+    ],
+    "1581": [
+        "brain"
+    ],
+    "1582": [
+        "heart"
+    ],
+    "1583": [
+        "heart"
+    ],
+    "1584": [
+        "heart"
+    ],
+    "1585": [
+        "heart"
+    ],
+    "1587": [
+        "organ",
+        "kidney"
+    ],
+    "1588": [
+        "organ"
+    ],
+    "1589": [
+        "organ"
+    ],
+    "1590": [
+        "organ"
+    ],
+    "1591": [
+        "heart"
+    ],
+    "1592": [
+        "heart"
+    ],
+    "1593": [
+        "heart"
+    ],
+    "1594": [
+        "heart"
+    ],
+    "1598": [
+        "midline"
+    ],
+    "1599": [
+        "midline"
+    ],
+    "1600": [
+        "midline"
+    ],
+    "1601": [
+        "organ"
+    ],
+    "1606": [
+        "lobe"
+    ],
+    "1607": [
+        "mass",
+        "lobe"
+    ],
+    "1608": [
+        "lobe",
+        "lung",
+        "lobe"
+    ],
+    "1609": [
+        "mass",
+        "lobe"
+    ],
+    "1617": [
+        "heart"
+    ],
+    "1619": [
+        "heart"
+    ],
+    "1623": [
+        "ventricle"
+    ],
+    "1625": [
+        "ventricle"
+    ],
+    "1629": [
+        "pa"
+    ],
+    "1634": [
+        "patient"
+    ],
+    "1635": [
+        "patient"
+    ],
+    "1636": [
+        "patient"
+    ],
+    "1637": [
+        "patient"
+    ],
+    "1642": [
+        "hemidiaphragm"
+    ],
+    "1646": [
+        "pericolonic fat stranding"
+    ],
+    "1647": [
+        "fat stranding",
+        "patient",
+        "pericolonic"
+    ],
+    "1648": [
+        "pericolic fat stranding"
+    ],
+    "1649": [
+        "fat stranding",
+        "patient",
+        "pericolonic"
+    ],
+    "1650": [
+        "brain"
+    ],
+    "1653": [
+        "posteroinferior cerebellum"
+    ],
+    "1658": [
+        "pulmonary nodule"
+    ],
+    "1659": [
+        "pulmonary nodule"
+    ],
+    "1660": [
+        "pulmonary nodule"
+    ],
+    "1661": [
+        "pulmonary nodule"
+    ],
+    "1663": [
+        "lobe"
+    ],
+    "1664": [
+        "lung"
+    ],
+    "1665": [
+        "lobe"
+    ],
+    "1670": [
+        "left cerebellum"
+    ],
+    "1671": [
+        "left cerebellum"
+    ],
+    "1672": [
+        "left cerebellum"
+    ],
+    "1673": [
+        "left cerebellum"
+    ],
+    "1674": [
+        "cortex"
+    ],
+    "1675": [
+        "cortex"
+    ],
+    "1676": [
+        "cortical"
+    ],
+    "1677": [
+        "cortex"
+    ],
+    "1682": [
+        "aorta"
+    ],
+    "1683": [
+        "aorta"
+    ],
+    "1684": [
+        "liver",
+        "aorta"
+    ],
+    "1685": [
+        "aorta"
+    ],
+    "1687": [
+        "ventricle"
+    ],
+    "1689": [
+        "ventricle"
+    ],
+    "1693": [
+        "abdomen"
+    ],
+    "1694": [
+        "abdominal"
+    ],
+    "1695": [
+        "abdomen"
+    ],
+    "1697": [
+        "skull fracture"
+    ],
+    "1698": [
+        "skull fractured"
+    ],
+    "1699": [
+        "skull fractured"
+    ],
+    "1700": [
+        "skull fractured"
+    ],
+    "1702": [
+        "hypodense mass",
+        "liver"
+    ],
+    "1704": [
+        "hypodense mass",
+        "liver"
+    ],
+    "1705": [
+        "periphery",
+        "left"
+    ],
+    "1706": [
+        "left"
+    ],
+    "1707": [
+        "focus"
+    ],
+    "1708": [
+        "left"
+    ],
+    "1709": [
+        "choroid plexus"
+    ],
+    "1710": [
+        "choroid plexus"
+    ],
+    "1711": [
+        "lateral ventricle"
+    ],
+    "1712": [
+        "lateral ventricle"
+    ],
+    "1714": [
+        "patient"
+    ],
+    "1715": [
+        "subdiaphragmatic"
+    ],
+    "1716": [
+        "patient"
+    ],
+    "1717": [
+        "lung"
+    ],
+    "1718": [
+        "pulmonary"
+    ],
+    "1719": [
+        "pulmonary"
+    ],
+    "1720": [
+        "pulmonary"
+    ],
+    "1723": [
+        "vertebra"
+    ],
+    "1724": [
+        "vertebral"
+    ],
+    "1725": [
+        "vertebral fracture"
+    ],
+    "1726": [
+        "vertebral"
+    ],
+    "1727": [
+        "chostrochondral junction",
+        "cartilage"
+    ],
+    "1728": [
+        "heart"
+    ],
+    "1729": [
+        "heart"
+    ],
+    "1730": [
+        "cardiac silhouette enlarged"
+    ],
+    "1731": [
+        "heart"
+    ],
+    "1737": [
+        "trachea normal"
+    ],
+    "1739": [
+        "trachea normal"
+    ],
+    "1741": [
+        "lung"
+    ],
+    "1742": [
+        "pelvis",
+        "kidney"
+    ],
+    "1743": [
+        "left renal"
+    ],
+    "1744": [
+        "left renal"
+    ],
+    "1745": [
+        "left renal"
+    ],
+    "1746": [
+        "lung",
+        "line",
+        "trachea",
+        "left"
+    ],
+    "1747": [
+        "bowel"
+    ],
+    "1748": [
+        "bowel"
+    ],
+    "1749": [
+        "bowel"
+    ],
+    "1750": [
+        "bowel"
+    ],
+    "1754": [
+        "thorax"
+    ],
+    "1756": [
+        "thorax"
+    ],
+    "1757": [
+        "alveolus"
+    ],
+    "1759": [
+        "rib"
+    ],
+    "1760": [
+        "rib"
+    ],
+    "1762": [
+        "rib"
+    ],
+    "1763": [
+        "alveolus"
+    ],
+    "1764": [
+        "intestine"
+    ],
+    "1765": [
+        "patient",
+        "lumen",
+        "intestine"
+    ],
+    "1766": [
+        "lumen",
+        "intestine"
+    ],
+    "1767": [
+        "patient",
+        "lumen",
+        "intestine"
+    ],
+    "1769": [
+        "musculature",
+        "intestine"
+    ],
+    "1770": [
+        "circular hyperdensities",
+        "anterior",
+        "intestine"
+    ],
+    "1771": [
+        "anterior circular hyperdensities",
+        "intestine"
+    ],
+    "1772": [
+        "circular hyperdensities",
+        "anterior",
+        "intestine"
+    ],
+    "1773": [
+        "ventricle"
+    ],
+    "1774": [
+        "ventricle"
+    ],
+    "1775": [
+        "ventricular"
+    ],
+    "1776": [
+        "ventricle"
+    ],
+    "1777": [
+        "left hemidiaphragm"
+    ],
+    "1778": [
+        "patient"
+    ],
+    "1779": [
+        "diaphragm",
+        "left",
+        "stomach"
+    ],
+    "1780": [
+        "patient"
+    ],
+    "1782": [
+        "patient",
+        "liver"
+    ],
+    "1784": [
+        "patient",
+        "liver"
+    ],
+    "1785": [
+        "left cerebellum"
+    ],
+    "1786": [
+        "left cerebellum"
+    ],
+    "1787": [
+        "vessel"
+    ],
+    "1789": [
+        "cerebral edema",
+        "sulcal"
+    ],
+    "1790": [
+        "cerebral edema",
+        "sulcal"
+    ],
+    "1791": [
+        "edema",
+        "sulcal"
+    ],
+    "1792": [
+        "cerebral edema",
+        "sulcal"
+    ],
+    "1793": [
+        "aorta"
+    ],
+    "1795": [
+        "aorta"
+    ],
+    "1797": [
+        "cerebrum",
+        "lobe"
+    ],
+    "1798": [
+        "patient",
+        "cerebrum"
+    ],
+    "1799": [
+        "cerebrum",
+        "lobe"
+    ],
+    "1800": [
+        "lobe",
+        "patient",
+        "cerebrum"
+    ],
+    "1802": [
+        "patient"
+    ],
+    "1803": [
+        "l2-3"
+    ],
+    "1804": [
+        "patient",
+        "l2-3"
+    ],
+    "1805": [
+        "lateral",
+        "pa"
+    ],
+    "1806": [
+        "midline"
+    ],
+    "1807": [
+        "tracheal"
+    ],
+    "1808": [
+        "tracheal"
+    ],
+    "1809": [
+        "tracheal"
+    ],
+    "1811": [
+        "maxillary sinus"
+    ],
+    "1813": [
+        "maxillary sinus"
+    ],
+    "1815": [
+        "left occipital"
+    ],
+    "1816": [
+        "left occipital"
+    ],
+    "1817": [
+        "lobe",
+        "left occipital"
+    ],
+    "1818": [
+        "left occipital"
+    ],
+    "1819": [
+        "liver"
+    ],
+    "1822": [
+        "cortical"
+    ],
+    "1824": [
+        "pancreatic"
+    ],
+    "1825": [
+        "pancreatic"
+    ],
+    "1826": [
+        "pancreas"
+    ],
+    "1827": [
+        "pancreatic"
+    ],
+    "1829": [
+        "soft tissue"
+    ],
+    "1830": [
+        "hemidiaphragms"
+    ],
+    "1831": [
+        "diaphragm"
+    ],
+    "1832": [
+        "diaphragm"
+    ],
+    "1833": [
+        "diaphragm"
+    ],
+    "1834": [
+        "bowel"
+    ],
+    "1835": [
+        "bowel"
+    ],
+    "1836": [
+        "bowel"
+    ],
+    "1837": [
+        "bowel"
+    ],
+    "1838": [
+        "left kidney"
+    ],
+    "1839": [
+        "left kidney"
+    ],
+    "1840": [
+        "left kidney"
+    ],
+    "1841": [
+        "left kidney"
+    ],
+    "1844": [
+        "skull fracture"
+    ],
+    "1846": [
+        "skull fracture"
+    ],
+    "1847": [
+        "skull fractured"
+    ],
+    "1848": [
+        "skull fractured"
+    ],
+    "1849": [
+        "skull fractured"
+    ],
+    "1852": [
+        "skeletal joint"
+    ],
+    "1854": [
+        "skeletal joint",
+        "sacroiliac joint"
+    ],
+    "1855": [
+        "cardiac silhouette enlarged"
+    ],
+    "1856": [
+        "heart"
+    ],
+    "1857": [
+        "heart"
+    ],
+    "1858": [
+        "heart"
+    ],
+    "1859": [
+        "subarachnoid bleed"
+    ],
+    "1860": [
+        "subarachnoid"
+    ],
+    "1862": [
+        "subarachnoid"
+    ],
+    "1863": [
+        "peripheral"
+    ],
+    "1864": [
+        "fat"
+    ],
+    "1865": [
+        "fat"
+    ],
+    "1866": [
+        "fat"
+    ],
+    "1868": [
+        "kidney"
+    ],
+    "1869": [
+        "kidney"
+    ],
+    "1870": [
+        "kidney"
+    ],
+    "1871": [
+        "kidney"
+    ],
+    "1873": [
+        "lesion"
+    ],
+    "1876": [
+        "aorta"
+    ],
+    "1877": [
+        "aortic knob"
+    ],
+    "1878": [
+        "aortic knob"
+    ],
+    "1879": [
+        "aortic knob"
+    ],
+    "1880": [
+        "trachea normal"
+    ],
+    "1881": [
+        "trachea normal"
+    ],
+    "1882": [
+        "trachea midline"
+    ],
+    "1883": [
+        "trachea midline"
+    ],
+    "1885": [
+        "hyperdense opacity"
+    ],
+    "1887": [
+        "hyperdense opacity"
+    ],
+    "1889": [
+        "skull fracture"
+    ],
+    "1891": [
+        "skull fracture"
+    ],
+    "1893": [
+        "skull fracture"
+    ],
+    "1895": [
+        "skull fracture"
+    ],
+    "1896": [
+        "cortex"
+    ],
+    "1897": [
+        "cortex"
+    ],
+    "1898": [
+        "cortical"
+    ],
+    "1899": [
+        "cortex"
+    ],
+    "1904": [
+        "skull fractured"
+    ],
+    "1905": [
+        "skull fractured"
+    ],
+    "1906": [
+        "skull fracture"
+    ],
+    "1907": [
+        "skull fractured"
+    ],
+    "1909": [
+        "renal vein"
+    ],
+    "1914": [
+        "clavicle"
+    ],
+    "1915": [
+        "clavicular"
+    ],
+    "1916": [
+        "clavicular"
+    ],
+    "1917": [
+        "clavicular"
+    ],
+    "1918": [
+        "liver"
+    ],
+    "1919": [
+        "liver"
+    ],
+    "1920": [
+        "liver"
+    ],
+    "1921": [
+        "liver"
+    ],
+    "1922": [
+        "aorta"
+    ],
+    "1923": [
+        "aorta"
+    ],
+    "1924": [
+        "aorta"
+    ],
+    "1925": [
+        "aorta"
+    ],
+    "1926": [
+        "pleural"
+    ],
+    "1927": [
+        "pleural"
+    ],
+    "1928": [
+        "pleural"
+    ],
+    "1929": [
+        "pleural"
+    ],
+    "1931": [
+        "diaphragm"
+    ],
+    "1933": [
+        "diaphragm"
+    ],
+    "1939": [
+        "ventricle"
+    ],
+    "1940": [
+        "ventricle"
+    ],
+    "1941": [
+        "ventricle"
+    ],
+    "1942": [
+        "ventricle"
+    ],
+    "1952": [
+        "smooth"
+    ],
+    "1953": [
+        "smooth"
+    ],
+    "1954": [
+        "smooth"
+    ],
+    "1955": [
+        "smooth"
+    ],
+    "1956": [
+        "left"
+    ],
+    "1957": [
+        "left"
+    ],
+    "1958": [
+        "left"
+    ],
+    "1959": [
+        "left"
+    ],
+    "1969": [
+        "organ",
+        "brain"
+    ],
+    "1974": [
+        "lung"
+    ],
+    "1975": [
+        "nodule",
+        "lung"
+    ],
+    "1976": [
+        "lung"
+    ],
+    "1977": [
+        "nodule",
+        "lung"
+    ],
+    "1983": [
+        "brain",
+        "brain"
+    ],
+    "1984": [
+        "edema"
+    ],
+    "1985": [
+        "patient",
+        "brain"
+    ],
+    "1987": [
+        "patient",
+        "brain"
+    ],
+    "1992": [
+        "brain"
+    ],
+    "1993": [
+        "brain"
+    ],
+    "1995": [
+        "patient"
+    ],
+    "1997": [
+        "abdomen",
+        "pelvis"
+    ],
+    "1998": [
+        "abdomen",
+        "pelvis"
+    ],
+    "1999": [
+        "abdomen",
+        "pelvis"
+    ],
+    "2000": [
+        "abdomen",
+        "pelvis"
+    ],
+    "2002": [
+        "ventricle",
+        "lateral",
+        "ventricular"
+    ],
+    "2004": [
+        "ventricle",
+        "lateral",
+        "ventricular"
+    ],
+    "2006": [
+        "focal mass"
+    ],
+    "2008": [
+        "focal mass"
+    ],
+    "2009": [
+        "airway wall thickened"
+    ],
+    "2010": [
+        "patient",
+        "airway wall"
+    ],
+    "2011": [
+        "airway wall"
+    ],
+    "2012": [
+        "patient",
+        "airway wall"
+    ],
+    "2013": [
+        "heart"
+    ],
+    "2014": [
+        "heart"
+    ],
+    "2016": [
+        "heart"
+    ],
+    "2017": [
+        "lung"
+    ],
+    "2018": [
+        "retrocardiac"
+    ],
+    "2019": [
+        "retrocardiac"
+    ],
+    "2020": [
+        "retrocardiac"
+    ],
+    "2021": [
+        "retrocardiac"
+    ],
+    "2023": [
+        "lung"
+    ],
+    "2039": [
+        "patient"
+    ],
+    "2041": [
+        "blind-ending",
+        "bowel",
+        "cecum"
+    ],
+    "2042": [
+        "blind-ending",
+        "bowel",
+        "cecum"
+    ],
+    "2044": [
+        "patient",
+        "lung"
+    ],
+    "2046": [
+        "patient",
+        "lung"
+    ],
+    "2047": [
+        "pineal"
+    ],
+    "2048": [
+        "pineal"
+    ],
+    "2049": [
+        "pineal"
+    ],
+    "2050": [
+        "pineal"
+    ],
+    "2052": [
+        "pulmonary"
+    ],
+    "2053": [
+        "lung"
+    ],
+    "2054": [
+        "lung"
+    ],
+    "2055": [
+        "lung"
+    ],
+    "2056": [
+        "lobe",
+        "frontal lobe"
+    ],
+    "2057": [
+        "lesion",
+        "frontal lobe"
+    ],
+    "2058": [
+        "frontal lobe"
+    ],
+    "2059": [
+        "lesion",
+        "frontal lobe"
+    ],
+    "2061": [
+        "gyral"
+    ],
+    "2062": [
+        "colon"
+    ],
+    "2063": [
+        "colon"
+    ],
+    "2064": [
+        "colon"
+    ],
+    "2065": [
+        "colon"
+    ],
+    "2066": [
+        "pa"
+    ],
+    "2071": [
+        "pa"
+    ],
+    "2087": [
+        "gray-white matter junction"
+    ],
+    "2088": [
+        "gray-white matter junction"
+    ],
+    "2089": [
+        "gray-white matter junction"
+    ],
+    "2103": [
+        "left rectus abdominus"
+    ],
+    "2104": [
+        "left rectus abdominus"
+    ],
+    "2105": [
+        "left rectus abdominus"
+    ],
+    "2106": [
+        "left rectus abdominus"
+    ],
+    "2108": [
+        "renal vein"
+    ],
+    "2109": [
+        "renal vein"
+    ],
+    "2110": [
+        "renal vein"
+    ],
+    "2111": [
+        "renal vein"
+    ],
+    "2112": [
+        "kidney"
+    ],
+    "2113": [
+        "bowel"
+    ],
+    "2114": [
+        "bowel"
+    ],
+    "2115": [
+        "bowel"
+    ],
+    "2116": [
+        "bowel"
+    ],
+    "2117": [
+        "nipple"
+    ],
+    "2118": [
+        "nipple"
+    ],
+    "2119": [
+        "nipple"
+    ],
+    "2120": [
+        "nipple"
+    ],
+    "2122": [
+        "body",
+        "corpus callosum"
+    ],
+    "2123": [
+        "hyperintensities",
+        "body",
+        "corpus callosum"
+    ],
+    "2124": [
+        "body",
+        "corpus callosum"
+    ],
+    "2125": [
+        "hyperintensities",
+        "body",
+        "corpus callosum"
+    ],
+    "2126": [
+        "kidney"
+    ],
+    "2127": [
+        "kidney"
+    ],
+    "2128": [
+        "kidney"
+    ],
+    "2129": [
+        "kidney"
+    ],
+    "2130": [
+        "pa",
+        "ap",
+        "pa"
+    ],
+    "2131": [
+        "pa"
+    ],
+    "2132": [
+        "basilar artery"
+    ],
+    "2133": [
+        "basilar artery"
+    ],
+    "2134": [
+        "embolus",
+        "basilar artery"
+    ],
+    "2136": [
+        "cardiomegaly"
+    ],
+    "2138": [
+        "cardiomegaly"
+    ],
+    "2139": [
+        "suprasellar"
+    ],
+    "2140": [
+        "suprasellar"
+    ],
+    "2141": [
+        "suprasellar"
+    ],
+    "2142": [
+        "suprasellar"
+    ],
+    "2147": [
+        "lung"
+    ],
+    "2148": [
+        "pleural"
+    ],
+    "2149": [
+        "pleural"
+    ],
+    "2150": [
+        "pleural"
+    ],
+    "2152": [
+        "trachea"
+    ],
+    "2153": [
+        "tracheal"
+    ],
+    "2154": [
+        "tracheal"
+    ],
+    "2155": [
+        "tracheal"
+    ],
+    "2159": [
+        "bowel"
+    ],
+    "2161": [
+        "bowel"
+    ],
+    "2167": [
+        "blood vessel",
+        "left aca",
+        "mca"
+    ],
+    "2169": [
+        "blood vessel",
+        "left aca",
+        "mca"
+    ],
+    "2170": [
+        "cardiac silhouette normal"
+    ],
+    "2171": [
+        "cardiac silhouette normal"
+    ],
+    "2172": [
+        "heart border"
+    ],
+    "2173": [
+        "heart border"
+    ],
+    "2175": [
+        "intrahepatic ductal"
+    ],
+    "2176": [
+        "intrahepatic duct"
+    ],
+    "2177": [
+        "intrahepatic ductal"
+    ],
+    "2178": [
+        "intrahepatic duct"
+    ],
+    "2186": [
+        "organ",
+        "brain"
+    ],
+    "2188": [
+        "caudate",
+        "putamen",
+        "left parietal"
+    ],
+    "2189": [
+        "anterior cerebrum"
+    ],
+    "2190": [
+        "infarct",
+        "anterior cerebrum"
+    ],
+    "2191": [
+        "brain",
+        "anterior surface"
+    ],
+    "2192": [
+        "infarct",
+        "anterior surface"
+    ],
+    "2193": [
+        "bowel"
+    ],
+    "2194": [
+        "patient",
+        "bowel"
+    ],
+    "2195": [
+        "bowel"
+    ],
+    "2196": [
+        "patient",
+        "bowel"
+    ],
+    "2197": [
+        "liver"
+    ],
+    "2198": [
+        "patient",
+        "liver"
+    ],
+    "2199": [
+        "liver"
+    ],
+    "2200": [
+        "patient",
+        "liver"
+    ],
+    "2209": [
+        "cardiomegaly"
+    ],
+    "2211": [
+        "heart"
+    ],
+    "2222": [
+        "kidney"
+    ],
+    "2225": [
+        "brain"
+    ],
+    "2227": [
+        "kidney cyst"
+    ],
+    "2229": [
+        "kidney cyst"
+    ],
+    "2232": [
+        "pericholecystic"
+    ],
+    "2233": [
+        "pericholecystic"
+    ],
+    "2234": [
+        "gallbladder pericholecystic fluid"
+    ],
+    "2235": [
+        "patient",
+        "gallbladder",
+        "pericholecystic fluid"
+    ],
+    "2241": [
+        "ct"
+    ],
+    "2242": [
+        "pancreas",
+        "fatty"
+    ],
+    "2243": [
+        "pancreas",
+        "fatty"
+    ],
+    "2244": [
+        "pancreas",
+        "fatty infiltration"
+    ],
+    "2245": [
+        "pancreas",
+        "fatty"
+    ],
+    "2246": [
+        "liver"
+    ],
+    "2247": [
+        "organ"
+    ],
+    "2248": [
+        "organ",
+        "jejunum"
+    ],
+    "2249": [
+        "bowel",
+        "jejunum"
+    ],
+    "2250": [
+        "bowel",
+        "jejunum"
+    ],
+    "2265": [
+        "lung"
+    ],
+    "2266": [
+        "lung"
+    ],
+    "2267": [
+        "lung"
+    ],
+    "2270": [
+        "pa"
+    ],
+    "2274": [
+        "colon"
+    ],
+    "2275": [
+        "colon"
+    ],
+    "2276": [
+        "colon"
+    ],
+    "2277": [
+        "colon"
+    ],
+    "2278": [
+        "thalamus",
+        "left",
+        "brainstem",
+        "left cerebellum"
+    ],
+    "2279": [
+        "thalamus",
+        "left",
+        "brainstem",
+        "left cerebellum"
+    ],
+    "2280": [
+        "thalamus",
+        "left",
+        "brainstem",
+        "left cerebellum"
+    ],
+    "2281": [
+        "thalamus",
+        "left",
+        "brainstem",
+        "left cerebellum"
+    ],
+    "2282": [
+        "septation"
+    ],
+    "2283": [
+        "septation",
+        "patient"
+    ],
+    "2284": [
+        "cyst complex"
+    ],
+    "2285": [
+        "septation",
+        "patient"
+    ],
+    "2286": [
+        "organ",
+        "pancreas"
+    ],
+    "2287": [
+        "organ",
+        "pancreas"
+    ],
+    "2288": [
+        "organ",
+        "pancreas"
+    ],
+    "2289": [
+        "organ",
+        "pancreas"
+    ],
+    "2290": [
+        "kidney"
+    ],
+    "2292": [
+        "mesenteric"
+    ],
+    "2293": [
+        "mesenteric"
+    ],
+    "2294": [
+        "mesenteric"
+    ],
+    "2295": [
+        "mesenteric"
+    ],
+    "2299": [
+        "conal fascia"
+    ],
+    "2300": [
+        "conal fascia"
+    ],
+    "2301": [
+        "conal fascia"
+    ],
+    "2302": [
+        "organ",
+        "spleen"
+    ],
+    "2303": [
+        "organ",
+        "spleen"
+    ],
+    "2304": [
+        "organ",
+        "spleen"
+    ],
+    "2305": [
+        "organ",
+        "spleen"
+    ],
+    "2312": [
+        "liver"
+    ],
+    "2314": [
+        "liver"
+    ],
+    "2315": [
+        "pleural"
+    ],
+    "2316": [
+        "pleural"
+    ],
+    "2317": [
+        "bone"
+    ],
+    "2319": [
+        "bowel wall"
+    ],
+    "2322": [
+        "hilar"
+    ],
+    "2323": [
+        "hilar"
+    ],
+    "2324": [
+        "tube"
+    ],
+    "2325": [
+        "perinephric fat stranding"
+    ],
+    "2326": [
+        "fat stranding"
+    ],
+    "2332": [
+        "cardiomegaly"
+    ],
+    "2334": [
+        "diaphragm"
+    ],
+    "2336": [
+        "patient"
+    ],
+    "2337": [
+        "sulcus"
+    ],
+    "2338": [
+        "sulcus"
+    ],
+    "2340": [
+        "trachea midline"
+    ],
+    "2341": [
+        "trachea"
+    ],
+    "2343": [
+        "bone"
+    ],
+    "2344": [
+        "patient"
+    ],
+    "2345": [
+        "patient",
+        "vasculature"
+    ],
+    "2346": [
+        "patient",
+        "vasculature"
+    ],
+    "2347": [
+        "pleural"
+    ],
+    "2348": [
+        "pleura thick"
+    ],
+    "2350": [
+        "biliary duct"
+    ],
+    "2353": [
+        "ventricle"
+    ],
+    "2355": [
+        "hyperintensities",
+        "left hemisphere"
+    ],
+    "2356": [
+        "sigmoid colon"
+    ],
+    "2364": [
+        "patient"
+    ],
+    "2365": [
+        "posterior brain",
+        "lateral occipital"
+    ],
+    "2366": [
+        "posterior brain",
+        "lateral occipital"
+    ],
+    "2367": [
+        "lung",
+        "nodule"
+    ],
+    "2368": [
+        "nodule"
+    ],
+    "2370": [
+        "liver"
+    ],
+    "2373": [
+        "patient",
+        "vasculature"
+    ],
+    "2376": [
+        "midline structure"
+    ],
+    "2379": [
+        "lobe",
+        "brain"
+    ],
+    "2382": [
+        "diaphragm"
+    ],
+    "2384": [
+        "cerebellar infarct"
+    ],
+    "2385": [
+        "infarct"
+    ],
+    "2386": [
+        "patient"
+    ],
+    "2387": [
+        "endotracheal tube"
+    ],
+    "2388": [
+        "spleen"
+    ],
+    "2389": [
+        "spleen"
+    ],
+    "2390": [
+        "spleen"
+    ],
+    "2392": [
+        "gallstone"
+    ],
+    "2393": [
+        "gallstone"
+    ],
+    "2394": [
+        "patient"
+    ],
+    "2395": [
+        "left hemithorax",
+        "muscle"
+    ],
+    "2398": [
+        "rib fracture"
+    ],
+    "2399": [
+        "rib fracture"
+    ],
+    "2400": [
+        "lung",
+        "lung"
+    ],
+    "2402": [
+        "brain bleed"
+    ],
+    "2403": [
+        "hematoma",
+        "patient",
+        "brain"
+    ],
+    "2407": [
+        "aorta"
+    ],
+    "2411": [
+        "left"
+    ],
+    "2412": [
+        "left"
+    ],
+    "2414": [
+        "corpus callosum"
+    ],
+    "2415": [
+        "corpus callosum"
+    ],
+    "2416": [
+        "diaphragm",
+        "left"
+    ],
+    "2419": [
+        "patient",
+        "abdomen"
+    ],
+    "2421": [
+        "patient"
+    ],
+    "2424": [
+        "grey-white matter"
+    ],
+    "2426": [
+        "colon"
+    ],
+    "2427": [
+        "ventricle"
+    ],
+    "2429": [
+        "nipple"
+    ],
+    "2431": [
+        "abdominal aorta"
+    ],
+    "2432": [
+        "brain"
+    ],
+    "2434": [
+        "cardiac enlargement ? yes"
+    ],
+    "2435": [
+        "heart"
+    ],
+    "2436": [
+        "hilar"
+    ],
+    "2437": [
+        "hilum"
+    ],
+    "2442": [
+        "abdominal aorta"
+    ],
+    "2443": [
+        "kidney"
+    ],
+    "2444": [
+        "kidney"
+    ],
+    "2445": [
+        "vertebra"
+    ],
+    "2446": [
+        "aorta"
+    ],
+    "2447": [
+        "aorta"
+    ],
+    "2451": [
+        "body"
+    ],
+    "2456": [
+        "cavitary lesion"
+    ],
+    "2463": [
+        "bowel",
+        "vasculature",
+        "vasculature"
+    ],
+    "2464": [
+        "vasculature"
+    ],
+    "2467": [
+        "heart"
+    ],
+    "2468": [
+        "heart"
+    ],
+    "2470": [
+        "brain"
+    ],
+    "2471": [
+        "brain"
+    ],
+    "2472": [
+        "patient",
+        "brain"
+    ],
+    "2473": [
+        "pleural"
+    ],
+    "2480": [
+        "necrotic tissue"
+    ],
+    "2484": [
+        "lateral ventricle"
+    ],
+    "2485": [
+        "kidney"
+    ],
+    "2486": [
+        "kidney"
+    ],
+    "2487": [
+        "trachea midline",
+        "midline"
+    ],
+    "2488": [
+        "trachea",
+        "midline"
+    ],
+    "2489": [
+        "peritoneal fluid"
+    ],
+    "2490": [
+        "liver"
+    ],
+    "2491": [
+        "liver"
+    ],
+    "2492": [
+        "cerebellum"
+    ],
+    "2493": [
+        "fat"
+    ],
+    "2494": [
+        "bone"
+    ],
+    "2495": [
+        "bone"
+    ],
+    "2496": [
+        "organ",
+        "lung"
+    ],
+    "2499": [
+        "left renal"
+    ],
+    "2501": [
+        "grey-white matter junction"
+    ],
+    "2503": [
+        "patient"
+    ],
+    "2506": [
+        "lung"
+    ],
+    "2510": [
+        "patient",
+        "kidney"
+    ],
+    "2514": [
+        "left hilum"
+    ],
+    "2516": [
+        "kidney"
+    ],
+    "2517": [
+        "clavicle broken"
+    ],
+    "2518": [
+        "patient"
+    ],
+    "2519": [
+        "cystic",
+        "bilateral apex",
+        "emphysema"
+    ],
+    "2522": [
+        "lung"
+    ],
+    "2525": [
+        "tube"
+    ],
+    "2526": [
+        "sulcus"
+    ],
+    "2527": [
+        "sulcus"
+    ],
+    "2531": [
+        "lung"
+    ],
+    "2532": [
+        "brain"
+    ],
+    "2536": [
+        "ventricle"
+    ],
+    "2537": [
+        "ventricle"
+    ],
+    "2542": [
+        "tumor"
+    ],
+    "2543": [
+        "skull"
+    ],
+    "2544": [
+        "patient"
+    ],
+    "2547": [
+        "nodule located near/in the both lung"
+    ],
+    "2548": [
+        "heart"
+    ],
+    "2549": [
+        "heart",
+        "chest"
+    ],
+    "2551": [
+        "brain"
+    ],
+    "2553": [
+        "anterior mediastinum"
+    ],
+    "2555": [
+        "pancreas"
+    ],
+    "2558": [
+        "lung"
+    ],
+    "2559": [
+        "patient",
+        "lung"
+    ],
+    "2560": [
+        "pa"
+    ],
+    "2561": [
+        "gallbladder wall"
+    ],
+    "2562": [
+        "gallbladder wall"
+    ],
+    "2569": [
+        "abdomen"
+    ],
+    "2570": [
+        "liver"
+    ],
+    "2571": [
+        "liver"
+    ],
+    "2574": [
+        "left lung"
+    ],
+    "2575": [
+        "patient",
+        "lung"
+    ],
+    "2578": [
+        "vasculature"
+    ],
+    "2579": [
+        "patient",
+        "vessel"
+    ],
+    "2580": [
+        "patient"
+    ],
+    "2582": [
+        "pancreatic"
+    ],
+    "2583": [
+        "intestinal"
+    ],
+    "2584": [
+        "intestine"
+    ],
+    "2587": [
+        "lung"
+    ],
+    "2588": [
+        "stomach"
+    ],
+    "2589": [
+        "stomach"
+    ],
+    "2595": [
+        "nodule"
+    ],
+    "2599": [
+        "appendix enlarged"
+    ],
+    "2601": [
+        "rib"
+    ],
+    "2605": [
+        "left"
+    ],
+    "2608": [
+        "patient"
+    ],
+    "2609": [
+        "lobe",
+        "lesion"
+    ],
+    "2610": [
+        "lesion"
+    ],
+    "2612": [
+        "tube"
+    ],
+    "2613": [
+        "blood clot"
+    ],
+    "2614": [
+        "blood clot"
+    ],
+    "2616": [
+        "trachea midline"
+    ],
+    "2620": [
+        "patient"
+    ],
+    "2621": [
+        "cardiac contour"
+    ],
+    "2622": [
+        "pancreas edematous"
+    ],
+    "2624": [
+        "frontal"
+    ],
+    "2628": [
+        "infarct",
+        "basal ganglion",
+        "cerebellum",
+        "cerebral cortex"
+    ],
+    "2630": [
+        "patient",
+        "bowel"
+    ],
+    "2640": [
+        "bowel",
+        "vasculature",
+        "bowel"
+    ],
+    "2641": [
+        "bowel"
+    ],
+    "2643": [
+        "fat stranding"
+    ],
+    "2647": [
+        "skull fractured"
+    ],
+    "2648": [
+        "skull"
+    ],
+    "2649": [
+        "bowel",
+        "bowel"
+    ],
+    "2654": [
+        "r vertebral"
+    ],
+    "2655": [
+        "r vertebral"
+    ],
+    "2661": [
+        "hilar"
+    ],
+    "2663": [
+        "lung",
+        "lung"
+    ],
+    "2664": [
+        "mass"
+    ],
+    "2667": [
+        "t2"
+    ],
+    "2668": [
+        "fat"
+    ],
+    "2669": [
+        "fat",
+        "patient"
+    ],
+    "2670": [
+        "kidney"
+    ],
+    "2671": [
+        "kidney"
+    ],
+    "2673": [
+        "patient"
+    ],
+    "2677": [
+        "soft tissue",
+        "left"
+    ],
+    "2678": [
+        "kidney"
+    ],
+    "2679": [
+        "kidney"
+    ],
+    "2683": [
+        "midline structure"
+    ],
+    "2686": [
+        "patient"
+    ],
+    "2687": [
+        "patient",
+        "heart"
+    ],
+    "2689": [
+        "l sided"
+    ],
+    "2690": [
+        "organ"
+    ],
+    "2692": [
+        "mass"
+    ],
+    "2696": [
+        "basilar artery"
+    ],
+    "2697": [
+        "heart"
+    ],
+    "2698": [
+        "heart"
+    ],
+    "2699": [
+        "liver"
+    ],
+    "2700": [
+        "ventricle",
+        "blood"
+    ],
+    "2701": [
+        "blood",
+        "patient",
+        "ventricle"
+    ],
+    "2704": [
+        "cystic",
+        "bile duct"
+    ],
+    "2705": [
+        "cystic",
+        "bile duct"
+    ],
+    "2706": [
+        "cerebellum"
+    ],
+    "2707": [
+        "cerebellum"
+    ],
+    "2709": [
+        "bowel",
+        "bowel"
+    ],
+    "2711": [
+        "cortical"
+    ],
+    "2715": [
+        "lesion"
+    ],
+    "2717": [
+        "mass"
+    ],
+    "2722": [
+        "gall bladder"
+    ],
+    "2725": [
+        "gadolinium"
+    ],
+    "2732": [
+        "curly b line"
+    ],
+    "2736": [
+        "gastric"
+    ],
+    "2739": [
+        "heart"
+    ],
+    "2740": [
+        "heart"
+    ],
+    "2742": [
+        "midline"
+    ],
+    "2746": [
+        "rib"
+    ],
+    "2748": [
+        "trachea midline",
+        "midline"
+    ],
+    "2755": [
+        "rib fracture"
+    ],
+    "2757": [
+        "trachea midline"
+    ],
+    "2758": [
+        "patient"
+    ],
+    "2759": [
+        "patient"
+    ],
+    "2763": [
+        "ventricle"
+    ],
+    "2764": [
+        "ventricle"
+    ],
+    "2765": [
+        "ventricle"
+    ],
+    "2766": [
+        "ventricle"
+    ],
+    "2767": [
+        "circumferential opacity",
+        "lung"
+    ],
+    "2768": [
+        "left lung"
+    ],
+    "2773": [
+        "slice",
+        "brain"
+    ],
+    "2774": [
+        "brain"
+    ],
+    "2777": [
+        "brain"
+    ],
+    "2778": [
+        "brain"
+    ],
+    "2779": [
+        "colon"
+    ],
+    "2780": [
+        "colon"
+    ],
+    "2781": [
+        "csf"
+    ],
+    "2783": [
+        "colon"
+    ],
+    "2785": [
+        "pa"
+    ],
+    "2786": [
+        "abdomen"
+    ],
+    "2787": [
+        "slice",
+        "human body",
+        "abdomen"
+    ],
+    "2789": [
+        "appendix non-enlarged"
+    ],
+    "2791": [
+        "appendix normal"
+    ],
+    "2793": [
+        "patient"
+    ],
+    "2794": [
+        "patient"
+    ],
+    "2795": [
+        "t2"
+    ],
+    "2798": [
+        "left",
+        "sigmoid",
+        "colon"
+    ],
+    "2799": [
+        "left hemidiaphragm",
+        "sigmoid",
+        "colon"
+    ],
+    "2800": [
+        "hemidiaphragm"
+    ],
+    "2802": [
+        "hemidiaphragm"
+    ],
+    "2804": [
+        "jejunal wall"
+    ],
+    "2805": [
+        "jejunal wall"
+    ],
+    "2806": [
+        "jejunum yes"
+    ],
+    "2807": [
+        "jejunum"
+    ],
+    "2808": [
+        "gastric"
+    ],
+    "2809": [
+        "gastric"
+    ],
+    "2810": [
+        "gastric"
+    ],
+    "2811": [
+        "gastric"
+    ],
+    "2813": [
+        "brain"
+    ],
+    "2819": [
+        "heart"
+    ],
+    "2820": [
+        "heart"
+    ],
+    "2822": [
+        "circular"
+    ],
+    "2824": [
+        "circular"
+    ],
+    "2825": [
+        "organ",
+        "brain"
+    ],
+    "2826": [
+        "left",
+        "lobe"
+    ],
+    "2827": [
+        "left",
+        "lobe normal"
+    ],
+    "2828": [
+        "left"
+    ],
+    "2829": [
+        "left"
+    ],
+    "2830": [
+        "brain"
+    ],
+    "2835": [
+        "brain"
+    ],
+    "2836": [
+        "brain"
+    ],
+    "2838": [
+        "liver"
+    ],
+    "2840": [
+        "liver"
+    ],
+    "2841": [
+        "patient",
+        "subclavian vein"
+    ],
+    "2842": [
+        "subclavian vein"
+    ],
+    "2843": [
+        "subclavian vein"
+    ],
+    "2844": [
+        "subclavian vein"
+    ],
+    "2846": [
+        "aorta"
+    ],
+    "2847": [
+        "aorta"
+    ],
+    "2848": [
+        "aorta"
+    ],
+    "2849": [
+        "aorta"
+    ],
+    "2850": [
+        "kidney"
+    ],
+    "2851": [
+        "kidney"
+    ],
+    "2852": [
+        "kidney"
+    ],
+    "2853": [
+        "kidney"
+    ],
+    "2854": [
+        "kidney"
+    ],
+    "2855": [
+        "kidney"
+    ],
+    "2856": [
+        "kidney"
+    ],
+    "2857": [
+        "kidney"
+    ],
+    "2859": [
+        "appendix normal"
+    ],
+    "2860": [
+        "abdomen"
+    ],
+    "2862": [
+        "heart border"
+    ],
+    "2863": [
+        "heart"
+    ],
+    "2864": [
+        "heart"
+    ],
+    "2865": [
+        "heart"
+    ],
+    "2866": [
+        "pa",
+        "pa"
+    ],
+    "2867": [
+        "patient",
+        "oral"
+    ],
+    "2868": [
+        "patient",
+        "oral"
+    ],
+    "2869": [
+        "heart"
+    ],
+    "2870": [
+        "heart"
+    ],
+    "2872": [
+        "heart"
+    ],
+    "2873": [
+        "body"
+    ],
+    "2874": [
+        "pa",
+        "pa"
+    ],
+    "2875": [
+        "pa"
+    ],
+    "2876": [
+        "lung"
+    ],
+    "2877": [
+        "lung",
+        "lung"
+    ],
+    "2882": [
+        "sigmoid colon"
+    ],
+    "2883": [
+        "sigmoid colon"
+    ],
+    "2884": [
+        "sigmoid colon"
+    ],
+    "2885": [
+        "sigmoid colon"
+    ],
+    "2886": [
+        "brain",
+        "edema"
+    ],
+    "2887": [
+        "edematous area",
+        "brain",
+        "basal"
+    ],
+    "2888": [
+        "brain"
+    ],
+    "2889": [
+        "edematous area",
+        "brain",
+        "basal"
+    ],
+    "2892": [
+        "muscle",
+        "vertebra",
+        "psoas major",
+        "muscle"
+    ],
+    "2893": [
+        "muscle",
+        "vertebra",
+        "psoas major",
+        "muscle"
+    ],
+    "2894": [
+        "muscle",
+        "psoas major",
+        "muscle"
+    ],
+    "2895": [
+        "muscle",
+        "vertebra",
+        "psoas major",
+        "muscle"
+    ],
+    "2898": [
+        "oral",
+        "colon"
+    ],
+    "2899": [
+        "oral",
+        "colon"
+    ],
+    "2900": [
+        "oral",
+        "colon"
+    ],
+    "2901": [
+        "oral",
+        "colon"
+    ],
+    "2910": [
+        "patient"
+    ],
+    "2911": [
+        "patient"
+    ],
+    "2912": [
+        "csf"
+    ],
+    "2917": [
+        "t2"
+    ],
+    "2919": [
+        "patient",
+        "oral"
+    ],
+    "2920": [
+        "patient",
+        "oral"
+    ],
+    "2921": [
+        "cerebellum"
+    ],
+    "2922": [
+        "cerebellum"
+    ],
+    "2923": [
+        "cerebellum"
+    ],
+    "2924": [
+        "cerebellum"
+    ],
+    "2925": [
+        "organ",
+        "brain"
+    ],
+    "2926": [
+        "gi"
+    ],
+    "2930": [
+        "patient",
+        "gastric antrum"
+    ],
+    "2931": [
+        "gastric antrum"
+    ],
+    "2932": [
+        "patient"
+    ],
+    "2933": [
+        "patient"
+    ],
+    "2935": [
+        "heart"
+    ],
+    "2936": [
+        "heart"
+    ],
+    "2937": [
+        "heart"
+    ],
+    "2941": [
+        "aorta"
+    ],
+    "2943": [
+        "aorta"
+    ],
+    "2946": [
+        "cystic",
+        "solid"
+    ],
+    "2950": [
+        "lung"
+    ],
+    "2953": [
+        "left hemodiaphragm"
+    ],
+    "2955": [
+        "left hemodiaphragm"
+    ],
+    "2956": [
+        "pa"
+    ],
+    "2963": [
+        "cns",
+        "brain"
+    ],
+    "2964": [
+        "pleural"
+    ],
+    "2965": [
+        "pleural"
+    ],
+    "2966": [
+        "pleural"
+    ],
+    "2967": [
+        "pleural"
+    ],
+    "2968": [
+        "ventricle"
+    ],
+    "2969": [
+        "see",
+        "ventricle"
+    ],
+    "2971": [
+        "liver"
+    ],
+    "2972": [
+        "lesion",
+        "liver"
+    ],
+    "2973": [
+        "liver"
+    ],
+    "2974": [
+        "lesion",
+        "liver"
+    ],
+    "2975": [
+        "vessel"
+    ],
+    "2976": [
+        "vessel"
+    ],
+    "2977": [
+        "vessel"
+    ],
+    "2978": [
+        "vessel"
+    ],
+    "2983": [
+        "organ"
+    ],
+    "2984": [
+        "edematous organ"
+    ],
+    "2985": [
+        "organ"
+    ],
+    "2986": [
+        "edematous organ"
+    ],
+    "2988": [
+        "soft tissue",
+        "ileum",
+        "mesenteric"
+    ],
+    "2990": [
+        "soft tissue",
+        "ileum",
+        "mesenteric"
+    ],
+    "2991": [
+        "cancerous",
+        "hepatocellular carcioma"
+    ],
+    "2992": [
+        "cancer",
+        "patient",
+        "hepatocellular carcioma"
+    ],
+    "2994": [
+        "infarct"
+    ],
+    "2995": [
+        "infarct"
+    ],
+    "2996": [
+        "infarct",
+        "punctate"
+    ],
+    "2997": [
+        "infarct"
+    ],
+    "2998": [
+        "pleural",
+        "pleural"
+    ],
+    "2999": [
+        "pleural",
+        "pleural"
+    ],
+    "3000": [
+        "pa"
+    ],
+    "3002": [
+        "sulcus"
+    ],
+    "3004": [
+        "sulcus"
+    ],
+    "3005": [
+        "body",
+        "pleural"
+    ],
+    "3006": [
+        "pleural"
+    ],
+    "3008": [
+        "pleural"
+    ],
+    "3011": [
+        "body",
+        "pleural"
+    ],
+    "3012": [
+        "pleural"
+    ],
+    "3013": [
+        "pleural"
+    ],
+    "3014": [
+        "pleural"
+    ],
+    "3016": [
+        "cavum vergae"
+    ],
+    "3018": [
+        "cavum vergae"
+    ],
+    "3020": [
+        "tracheal"
+    ],
+    "3021": [
+        "tracheal"
+    ],
+    "3022": [
+        "tracheal"
+    ],
+    "3023": [
+        "organ"
+    ],
+    "3041": [
+        "vascular",
+        "portal vein"
+    ],
+    "3042": [
+        "portal vein"
+    ],
+    "3043": [
+        "vein",
+        "portal vein"
+    ],
+    "3045": [
+        "heart"
+    ],
+    "3046": [
+        "cardiomegaly"
+    ],
+    "3047": [
+        "heart"
+    ],
+    "3049": [
+        "sulcus"
+    ],
+    "3051": [
+        "kub"
+    ],
+    "3052": [
+        "brain bleed"
+    ],
+    "3054": [
+        "heart"
+    ],
+    "3056": [
+        "ventricle"
+    ],
+    "3058": [
+        "ventricle"
+    ],
+    "3060": [
+        "tracheal"
+    ],
+    "3062": [
+        "tracheal"
+    ],
+    "3067": [
+        "retrocardiac"
+    ],
+    "3068": [
+        "retrocardiac"
+    ],
+    "3069": [
+        "retrocardiac"
+    ],
+    "3070": [
+        "retrocardiac"
+    ],
+    "3071": [
+        "spleen"
+    ],
+    "3072": [
+        "spleen"
+    ],
+    "3073": [
+        "spleen"
+    ],
+    "3074": [
+        "left basal ganglion",
+        "left thalamus"
+    ],
+    "3075": [
+        "left basal ganglion",
+        "left thalamus"
+    ],
+    "3076": [
+        "cerebral edema"
+    ],
+    "3077": [
+        "cerebral edema"
+    ],
+    "3078": [
+        "cerebral edema"
+    ],
+    "3079": [
+        "cerebral edema"
+    ],
+    "3080": [
+        "pleural effusion"
+    ],
+    "3081": [
+        "pleural effusion"
+    ],
+    "3082": [
+        "pleural effusion",
+        "patient"
+    ],
+    "3083": [
+        "pleural effusion"
+    ],
+    "3093": [
+        "vessel",
+        "left mca"
+    ],
+    "3094": [
+        "vessel",
+        "left mca"
+    ],
+    "3096": [
+        "kidney"
+    ],
+    "3097": [
+        "kidney"
+    ],
+    "3098": [
+        "kidney"
+    ],
+    "3099": [
+        "kidney"
+    ],
+    "3100": [
+        "lesion"
+    ],
+    "3107": [
+        "mesenteric",
+        "peritoneum"
+    ],
+    "3108": [
+        "mesenteric lymphadenopathy",
+        "cancer",
+        "peritoneum"
+    ],
+    "3109": [
+        "vascular",
+        "vascular"
+    ],
+    "3110": [
+        "infarct",
+        "vascular"
+    ],
+    "3111": [
+        "infarct"
+    ],
+    "3112": [
+        "infarct"
+    ],
+    "3115": [
+        "brain",
+        "lesion",
+        "cerebrum",
+        "lateral ventricle"
+    ],
+    "3116": [
+        "lesion",
+        "cerebrum",
+        "lateral ventricle"
+    ],
+    "3117": [
+        "cerebrum",
+        "lateral ventricle"
+    ],
+    "3118": [
+        "lesion",
+        "cerebrum",
+        "lateral ventricle"
+    ],
+    "3119": [
+        "tracheal"
+    ],
+    "3120": [
+        "tracheal"
+    ],
+    "3121": [
+        "tracheal"
+    ],
+    "3122": [
+        "tracheal"
+    ],
+    "3134": [
+        "lung"
+    ],
+    "3135": [
+        "lung"
+    ],
+    "3137": [
+        "heart"
+    ],
+    "3139": [
+        "heart"
+    ],
+    "3140": [
+        "soft-tissue"
+    ],
+    "3141": [
+        "soft-tissue"
+    ],
+    "3142": [
+        "soft-tissue"
+    ],
+    "3143": [
+        "soft-tissue"
+    ],
+    "3145": [
+        "fat"
+    ],
+    "3146": [
+        "stranding",
+        "fat"
+    ],
+    "3147": [
+        "fat"
+    ],
+    "3148": [
+        "stranding",
+        "fat"
+    ],
+    "3149": [
+        "left basal ganglion"
+    ],
+    "3150": [
+        "left basal ganglion"
+    ],
+    "3151": [
+        "left basal ganglion"
+    ],
+    "3152": [
+        "left basal ganglion"
+    ],
+    "3153": [
+        "left lung"
+    ],
+    "3154": [
+        "lung"
+    ],
+    "3155": [
+        "patient"
+    ],
+    "3156": [
+        "grey/white matter border well"
+    ],
+    "3157": [
+        "grey-white matter junction"
+    ],
+    "3158": [
+        "patient",
+        "grey-white"
+    ],
+    "3159": [
+        "pancreatic head"
+    ],
+    "3160": [
+        "pancreatic head large"
+    ],
+    "3161": [
+        "pancreatic head large"
+    ],
+    "3162": [
+        "pancreatic head large"
+    ],
+    "3164": [
+        "midline"
+    ],
+    "3166": [
+        "midline"
+    ],
+    "3167": [
+        "hilar"
+    ],
+    "3168": [
+        "hilum"
+    ],
+    "3169": [
+        "lung",
+        "hilum"
+    ],
+    "3170": [
+        "hilum"
+    ],
+    "3171": [
+        "inferior vena"
+    ],
+    "3172": [
+        "patient",
+        "vena cava"
+    ],
+    "3173": [
+        "inferior vena",
+        "tumor"
+    ],
+    "3174": [
+        "patient",
+        "vena cava"
+    ],
+    "3175": [
+        "kidney"
+    ],
+    "3177": [
+        "kidney"
+    ],
+    "3179": [
+        "heart"
+    ],
+    "3180": [
+        "heart"
+    ],
+    "3181": [
+        "heart"
+    ],
+    "3182": [
+        "heart"
+    ],
+    "3183": [
+        "kidney"
+    ],
+    "3184": [
+        "left kidney"
+    ],
+    "3189": [
+        "ventricle"
+    ],
+    "3190": [
+        "ventricle"
+    ],
+    "3191": [
+        "ventricle"
+    ],
+    "3192": [
+        "ventricle"
+    ],
+    "3195": [
+        "kidney"
+    ],
+    "3196": [
+        "left kidney"
+    ],
+    "3198": [
+        "patient"
+    ],
+    "3199": [
+        "ventricle"
+    ],
+    "3201": [
+        "organ"
+    ],
+    "3202": [
+        "organ",
+        "lung"
+    ],
+    "3203": [
+        "lung",
+        "lung"
+    ],
+    "3204": [
+        "lung",
+        "lung"
+    ],
+    "3205": [
+        "lung",
+        "lung"
+    ],
+    "3206": [
+        "lung",
+        "lung"
+    ],
+    "3207": [
+        "kidney"
+    ],
+    "3208": [
+        "kidney"
+    ],
+    "3209": [
+        "pancreas"
+    ],
+    "3210": [
+        "patient",
+        "pancreas"
+    ],
+    "3211": [
+        "pancreas"
+    ],
+    "3212": [
+        "pancreas"
+    ],
+    "3213": [
+        "head/neck ct"
+    ],
+    "3216": [
+        "toxoplasma",
+        "lymphoma",
+        "brain tumor"
+    ],
+    "3217": [
+        "cancer"
+    ],
+    "3218": [
+        "cancer"
+    ],
+    "3219": [
+        "kidney",
+        "ureteral"
+    ],
+    "3220": [
+        "kidney",
+        "ureteral"
+    ],
+    "3221": [
+        "lentiform"
+    ],
+    "3223": [
+        "psoas muscle"
+    ],
+    "3224": [
+        "hypointense structure",
+        "vertebral column",
+        "psoas muscle"
+    ],
+    "3225": [
+        "vertebral column",
+        "psoas muscle"
+    ],
+    "3226": [
+        "hypointense structure",
+        "vertebral column",
+        "psoas muscle"
+    ],
+    "3227": [
+        "epidural hematoma"
+    ],
+    "3228": [
+        "patient"
+    ],
+    "3231": [
+        "heart"
+    ],
+    "3232": [
+        "heart"
+    ],
+    "3233": [
+        "heart",
+        "thoracic cavity"
+    ],
+    "3234": [
+        "heart",
+        "c-t ratio"
+    ],
+    "3236": [
+        "hepatic lesion"
+    ],
+    "3238": [
+        "bronchus"
+    ],
+    "3240": [
+        "lung"
+    ],
+    "3241": [
+        "lung"
+    ],
+    "3242": [
+        "lung"
+    ],
+    "3243": [
+        "aortic aneurysm"
+    ],
+    "3244": [
+        "aortic aneurysm"
+    ],
+    "3246": [
+        "aortic aneurysm"
+    ],
+    "3247": [
+        "csf"
+    ],
+    "3248": [
+        "aorta"
+    ],
+    "3253": [
+        "lateral ventricle"
+    ],
+    "3254": [
+        "lateral ventricle"
+    ],
+    "3255": [
+        "lateral ventricle"
+    ],
+    "3256": [
+        "lateral ventricle"
+    ],
+    "3258": [
+        "midline"
+    ],
+    "3260": [
+        "midline"
+    ],
+    "3261": [
+        "pleural"
+    ],
+    "3262": [
+        "pleural",
+        "pleural"
+    ],
+    "3263": [
+        "aorta"
+    ],
+    "3265": [
+        "vertebra"
+    ],
+    "3266": [
+        "vertebral fracture"
+    ],
+    "3267": [
+        "vertebral fracture"
+    ],
+    "3268": [
+        "vertebral fracture"
+    ],
+    "3269": [
+        "left"
+    ],
+    "3270": [
+        "trachea",
+        "left"
+    ],
+    "3271": [
+        "trachea",
+        "left",
+        "left"
+    ],
+    "3272": [
+        "trachea",
+        "left"
+    ],
+    "3273": [
+        "vascular"
+    ],
+    "3274": [
+        "vascular"
+    ],
+    "3275": [
+        "subdural hematoma"
+    ],
+    "3276": [
+        "subdural hematoma"
+    ],
+    "3277": [
+        "patient"
+    ],
+    "3283": [
+        "vascular"
+    ],
+    "3285": [
+        "vascular"
+    ],
+    "3287": [
+        "vascular"
+    ],
+    "3288": [
+        "vascular"
+    ],
+    "3290": [
+        "subclavian vein"
+    ],
+    "3292": [
+        "subclavian vein"
+    ],
+    "3293": [
+        "wall"
+    ],
+    "3294": [
+        "patient",
+        "gallbladder wall"
+    ],
+    "3295": [
+        "gallbladder wall"
+    ],
+    "3296": [
+        "patient",
+        "gallbladder wall"
+    ],
+    "3297": [
+        "lymph node"
+    ],
+    "3298": [
+        "hilar"
+    ],
+    "3299": [
+        "hilar"
+    ],
+    "3300": [
+        "hilar"
+    ],
+    "3302": [
+        "left"
+    ],
+    "3309": [
+        "cortex",
+        "basal ganglion"
+    ],
+    "3310": [
+        "cortex",
+        "basal ganglion"
+    ],
+    "3311": [
+        "cortex",
+        "basal ganglion"
+    ],
+    "3312": [
+        "cortex",
+        "basal ganglion"
+    ],
+    "3313": [
+        "pancreatic"
+    ],
+    "3314": [
+        "patient",
+        "pancreas"
+    ],
+    "3315": [
+        "pancreas"
+    ],
+    "3316": [
+        "patient",
+        "pancreas"
+    ],
+    "3317": [
+        "tracheal"
+    ],
+    "3318": [
+        "tracheal"
+    ],
+    "3319": [
+        "trachea"
+    ],
+    "3320": [
+        "tracheal"
+    ],
+    "3322": [
+        "left lobe"
+    ],
+    "3323": [
+        "left lobe"
+    ],
+    "3324": [
+        "left lobe"
+    ],
+    "3325": [
+        "optic chiasm"
+    ],
+    "3326": [
+        "pituitary fossa"
+    ],
+    "3327": [
+        "posteriolateral edge",
+        "left kidney"
+    ],
+    "3328": [
+        "posterolateral l"
+    ],
+    "3329": [
+        "posterolateral l"
+    ],
+    "3330": [
+        "posterolateral l"
+    ],
+    "3331": [
+        "bowel"
+    ],
+    "3332": [
+        "colon"
+    ],
+    "3333": [
+        "pleural plaque",
+        "pleural"
+    ],
+    "3334": [
+        "patient",
+        "plaque",
+        "pleura"
+    ],
+    "3335": [
+        "nodule"
+    ],
+    "3336": [
+        "bilateral kidney"
+    ],
+    "3337": [
+        "bilateral kidney"
+    ],
+    "3338": [
+        "bilateral kidney"
+    ],
+    "3339": [
+        "patient",
+        "ruq"
+    ],
+    "3340": [
+        "patient",
+        "abdominal"
+    ],
+    "3341": [
+        "mid-lung",
+        "pleural plaque"
+    ],
+    "3342": [
+        "lung",
+        "pleural plaque"
+    ],
+    "3343": [
+        "lung",
+        "pleural plaque"
+    ],
+    "3344": [
+        "lung",
+        "pleural plaque"
+    ],
+    "3345": [
+        "bowel"
+    ],
+    "3346": [
+        "bowel",
+        "haustra"
+    ],
+    "3347": [
+        "bile duct",
+        "cystic duct",
+        "gallbladder"
+    ],
+    "3348": [
+        "bile duct",
+        "cystic duct",
+        "cystic duct"
+    ],
+    "3349": [
+        "cystic",
+        "tumor",
+        "gallstone"
+    ],
+    "3350": [
+        "stone",
+        "cancer"
+    ],
+    "3353": [
+        "lung",
+        "pulmonary nodule",
+        "lung"
+    ],
+    "3354": [
+        "nodule",
+        "lung"
+    ],
+    "3355": [
+        "nodule",
+        "lung"
+    ],
+    "3356": [
+        "nodule",
+        "lung"
+    ],
+    "3360": [
+        "plica circulares"
+    ],
+    "3361": [
+        "aortic arch"
+    ],
+    "3362": [
+        "aortic arch"
+    ],
+    "3363": [
+        "aortic arch"
+    ],
+    "3364": [
+        "aortic arch"
+    ],
+    "3367": [
+        "t2"
+    ],
+    "3368": [
+        "t2"
+    ],
+    "3373": [
+        "lesion",
+        "paratracheal area"
+    ],
+    "3374": [
+        "lesion",
+        "paratracheal area"
+    ],
+    "3375": [
+        "paratracheal area"
+    ],
+    "3376": [
+        "lesion",
+        "paratracheal area"
+    ],
+    "3377": [
+        "bilateral"
+    ],
+    "3379": [
+        "pulmonary nodule"
+    ],
+    "3380": [
+        "pulmonary nodule"
+    ],
+    "3381": [
+        "pulmonary nodule"
+    ],
+    "3386": [
+        "patient",
+        "heart"
+    ],
+    "3387": [
+        "heart"
+    ],
+    "3388": [
+        "heart"
+    ],
+    "3389": [
+        "heart"
+    ],
+    "3390": [
+        "patient",
+        "brain"
+    ],
+    "3391": [
+        "patient",
+        "brain"
+    ],
+    "3392": [
+        "patient",
+        "brain"
+    ],
+    "3393": [
+        "patient",
+        "brain"
+    ],
+    "3394": [
+        "brain structure",
+        "brain",
+        "basal ganglion",
+        "caudate",
+        "putamen"
+    ],
+    "3395": [
+        "brain structure",
+        "basal ganglion",
+        "caudate",
+        "putamen"
+    ],
+    "3396": [
+        "brain structure",
+        "basal ganglion",
+        "caudate",
+        "putamen"
+    ],
+    "3397": [
+        "brain structure",
+        "basal ganglion",
+        "caudate",
+        "putamen"
+    ],
+    "3398": [
+        "infarct"
+    ],
+    "3399": [
+        "infarct"
+    ],
+    "3401": [
+        "infarct"
+    ],
+    "3402": [
+        "organ"
+    ],
+    "3403": [
+        "organ"
+    ],
+    "3404": [
+        "patient"
+    ],
+    "3406": [
+        "ascites"
+    ],
+    "3408": [
+        "patient"
+    ],
+    "3409": [
+        "patient"
+    ],
+    "3410": [
+        "gray-white"
+    ],
+    "3412": [
+        "pleural"
+    ],
+    "3413": [
+        "pleural"
+    ],
+    "3414": [
+        "occipital lobe"
+    ],
+    "3415": [
+        "occipital lobe"
+    ],
+    "3416": [
+        "occipital lobe"
+    ],
+    "3417": [
+        "occipital lobe"
+    ],
+    "3419": [
+        "sinus"
+    ],
+    "3420": [
+        "sinus"
+    ],
+    "3423": [
+        "lobe"
+    ],
+    "3425": [
+        "organ",
+        "aorta",
+        "horsehoe kidney"
+    ],
+    "3426": [
+        "organ",
+        "horsehoe kidney"
+    ],
+    "3427": [
+        "aorta",
+        "horsehoe kidney"
+    ],
+    "3428": [
+        "organ",
+        "horsehoe kidney"
+    ],
+    "3429": [
+        "cortex"
+    ],
+    "3430": [
+        "cerebral cortex"
+    ],
+    "3431": [
+        "lung"
+    ],
+    "3433": [
+        "cerebral cortex"
+    ],
+    "3434": [
+        "cerebral cortex"
+    ],
+    "3436": [
+        "lung"
+    ],
+    "3437": [
+        "line",
+        "patient"
+    ],
+    "3438": [
+        "line",
+        "patient"
+    ],
+    "3439": [
+        "heart"
+    ],
+    "3440": [
+        "pulmonary",
+        "heart"
+    ],
+    "3441": [
+        "left retrocardiac"
+    ],
+    "3442": [
+        "left retrocardiac"
+    ],
+    "3443": [
+        "left retrocardiac"
+    ],
+    "3444": [
+        "left retrocardiac"
+    ],
+    "3445": [
+        "paratracheal"
+    ],
+    "3446": [
+        "paratracheal"
+    ],
+    "3447": [
+        "paratracheal"
+    ],
+    "3448": [
+        "paratracheal"
+    ],
+    "3452": [
+        "lung"
+    ],
+    "3453": [
+        "lung"
+    ],
+    "3454": [
+        "lung"
+    ],
+    "3455": [
+        "fat stranding"
+    ],
+    "3456": [
+        "fat stranding"
+    ],
+    "3457": [
+        "fat stranding present"
+    ],
+    "3458": [
+        "fat stranding"
+    ],
+    "3459": [
+        "lung"
+    ],
+    "3463": [
+        "aortic area",
+        "aortic knob"
+    ],
+    "3464": [
+        "aorta",
+        "aortic knob"
+    ],
+    "3465": [
+        "aorta",
+        "aortic knob"
+    ],
+    "3466": [
+        "aorta",
+        "aortic knob"
+    ],
+    "3467": [
+        "left kidney"
+    ],
+    "3468": [
+        "kidney"
+    ],
+    "3469": [
+        "kidney",
+        "exophytic cyst"
+    ],
+    "3470": [
+        "liver"
+    ],
+    "3471": [
+        "liver"
+    ],
+    "3472": [
+        "liver"
+    ],
+    "3473": [
+        "liver"
+    ],
+    "3474": [
+        "infarct"
+    ],
+    "3476": [
+        "bowel"
+    ],
+    "3477": [
+        "bowel"
+    ],
+    "3478": [
+        "bowel"
+    ],
+    "3479": [
+        "bowel"
+    ],
+    "3480": [
+        "cardiac silhouette enlarged"
+    ],
+    "3481": [
+        "cardiomegaly"
+    ],
+    "3482": [
+        "fat stranding present"
+    ],
+    "3483": [
+        "fat stranding"
+    ],
+    "3484": [
+        "fat stranding"
+    ],
+    "3485": [
+        "fat stranding"
+    ],
+    "3486": [
+        "lobe"
+    ],
+    "3487": [
+        "lobe"
+    ],
+    "3488": [
+        "lobe"
+    ],
+    "3489": [
+        "lobe"
+    ],
+    "3490": [
+        "liver"
+    ],
+    "3491": [
+        "liver"
+    ],
+    "3492": [
+        "liver"
+    ],
+    "3493": [
+        "liver"
+    ],
+    "3494": [
+        "rib",
+        "lung"
+    ],
+    "3495": [
+        "rib"
+    ],
+    "3496": [
+        "rib",
+        "chest radiograph"
+    ],
+    "3497": [
+        "rib"
+    ],
+    "3499": [
+        "midline"
+    ],
+    "3501": [
+        "midline"
+    ],
+    "3502": [
+        "circular",
+        "patient",
+        "patient",
+        "patient"
+    ],
+    "3503": [
+        "circular",
+        "patient"
+    ],
+    "3504": [
+        "patient",
+        "superficial",
+        "patient",
+        "skin",
+        "patient",
+        "skin"
+    ],
+    "3505": [
+        "circular",
+        "patient",
+        "skin"
+    ],
+    "3507": [
+        "apical"
+    ],
+    "3508": [
+        "t2"
+    ],
+    "3510": [
+        "t2"
+    ],
+    "3512": [
+        "pa"
+    ],
+    "3513": [
+        "pa"
+    ],
+    "3514": [
+        "nucleus"
+    ],
+    "3515": [
+        "hypo-dense area",
+        "nucleus"
+    ],
+    "11": [
+        "aortic aneurysm"
+    ],
+    "13": [
+        "airspace",
+        "left"
+    ],
+    "20": [
+        "patient"
+    ],
+    "22": [
+        "vascular"
+    ],
+    "36": [
+        "rib fracture"
+    ],
+    "40": [
+        "intraparenchymal",
+        "lung"
+    ],
+    "42": [
+        "lung parenchyma"
+    ],
+    "46": [
+        "small bowel"
+    ],
+    "47": [
+        "bowel"
+    ],
+    "49": [
+        "patient"
+    ],
+    "86": [
+        "bowel",
+        "gi"
+    ],
+    "87": [
+        "bowel"
+    ],
+    "121": [
+        "aortic wall"
+    ],
+    "123": [
+        "abdominal aorta"
+    ],
+    "158": [
+        "patient"
+    ],
+    "160": [
+        "peritoneal"
+    ],
+    "162": [
+        "cardiac silhouette le"
+    ],
+    "164": [
+        "cardiac silhouette within normal size"
+    ],
+    "178": [
+        "cardiac"
+    ],
+    "180": [
+        "cardiac silhouette small/stretched yes"
+    ],
+    "186": [
+        "pulmonary edema"
+    ],
+    "188": [
+        "pulmonary vasculature"
+    ],
+    "198": [
+        "cardiac contour normal"
+    ],
+    "200": [
+        "cardiac silhouette le",
+        "lateral",
+        "chest wall"
+    ],
+    "222": [
+        "left apical"
+    ],
+    "224": [
+        "visceral pleura",
+        "lung"
+    ],
+    "269": [
+        "midline",
+        "mediastinum"
+    ],
+    "275": [
+        "left lung"
+    ],
+    "277": [
+        "left lung"
+    ],
+    "298": [
+        "liver"
+    ],
+    "300": [
+        "liver"
+    ],
+    "302": [
+        "lung",
+        "pulmonary nodule"
+    ],
+    "304": [
+        "lung",
+        "pulmonary nodule"
+    ],
+    "306": [
+        "free"
+    ],
+    "308": [
+        "free"
+    ],
+    "310": [
+        "posterior anterior"
+    ],
+    "319": [
+        "spleen",
+        "hypodense"
+    ],
+    "321": [
+        "spleen",
+        "hypodense"
+    ],
+    "335": [
+        "gastrointestinal system"
+    ],
+    "393": [
+        "pa"
+    ],
+    "402": [
+        "lesion",
+        "spleen"
+    ],
+    "413": [
+        "pancreas"
+    ],
+    "414": [
+        "pancreas"
+    ],
+    "415": [
+        "lung",
+        "nodular opacity"
+    ],
+    "417": [
+        "lung",
+        "nodular opacity"
+    ],
+    "423": [
+        "lung"
+    ],
+    "427": [
+        "ring-enhancing lesion"
+    ],
+    "429": [
+        "lesion"
+    ],
+    "431": [
+        "lobe"
+    ],
+    "433": [
+        "lobe"
+    ],
+    "458": [
+        "aortopulmonary"
+    ],
+    "460": [
+        "aortopulmonary"
+    ],
+    "462": [
+        "aortopulmonary"
+    ],
+    "470": [
+        "pleural",
+        "lung"
+    ],
+    "472": [
+        "lung",
+        "lung"
+    ],
+    "485": [
+        "liver"
+    ],
+    "487": [
+        "liver"
+    ],
+    "495": [
+        "hemidiaphragm"
+    ],
+    "524": [
+        "fat",
+        "pancreas"
+    ],
+    "531": [
+        "lung",
+        "thoracic"
+    ],
+    "557": [
+        "organ"
+    ],
+    "595": [
+        "left"
+    ],
+    "596": [
+        "lung",
+        "left"
+    ],
+    "598": [
+        "diaphragm"
+    ],
+    "600": [
+        "diaphragm"
+    ],
+    "606": [
+        "heart",
+        "thorax"
+    ],
+    "608": [
+        "heart",
+        "thorax",
+        "thorax"
+    ],
+    "610": [
+        "subdiaphragmatic"
+    ],
+    "612": [
+        "left hemidiaphragm"
+    ],
+    "629": [
+        "gallbladder"
+    ],
+    "630": [
+        "liver",
+        "blood vessel"
+    ],
+    "631": [
+        "clavicle"
+    ],
+    "633": [
+        "supraclavicular fossa"
+    ],
+    "648": [
+        "colon"
+    ],
+    "650": [
+        "posterior",
+        "psoas muscle"
+    ],
+    "663": [
+        "heart"
+    ],
+    "709": [
+        "subcutaneous"
+    ],
+    "718": [
+        "left apex",
+        "bullous"
+    ],
+    "720": [
+        "left apex"
+    ],
+    "722": [
+        "anterior mediastinum"
+    ],
+    "724": [
+        "heart border"
+    ],
+    "726": [
+        "kidney"
+    ],
+    "728": [
+        "kidney"
+    ],
+    "733": [
+        "colon",
+        "patient",
+        "left"
+    ],
+    "734": [
+        "colon",
+        "left"
+    ],
+    "735": [
+        "heart"
+    ],
+    "750": [
+        "liver"
+    ],
+    "754": [
+        "skull",
+        "cartilage",
+        "medulla"
+    ],
+    "759": [
+        "bone"
+    ],
+    "763": [
+        "lung"
+    ],
+    "787": [
+        "brain gyrus"
+    ],
+    "790": [
+        "brain gyrus"
+    ],
+    "795": [
+        "anterior abdominal",
+        "diaphragm"
+    ],
+    "797": [
+        "ap"
+    ],
+    "814": [
+        "blood"
+    ],
+    "830": [
+        "lateral ventricle"
+    ],
+    "832": [
+        "lateral ventricle"
+    ],
+    "840": [
+        "esophagus"
+    ],
+    "842": [
+        "esophagus"
+    ],
+    "906": [
+        "kidney"
+    ],
+    "908": [
+        "kidney"
+    ],
+    "910": [
+        "lateral ventricle"
+    ],
+    "912": [
+        "lateral ventricle"
+    ],
+    "918": [
+        "abdominal wall",
+        "skin",
+        "fat"
+    ],
+    "920": [
+        "skin",
+        "fat"
+    ],
+    "946": [
+        "vertebra"
+    ],
+    "948": [
+        "verterbral fracture"
+    ],
+    "950": [
+        "mediastinum"
+    ],
+    "951": [
+        "mediastinum"
+    ],
+    "977": [
+        "line",
+        "left subclavian vein"
+    ],
+    "978": [
+        "port-a-cath catheter",
+        "left subclavian vein"
+    ],
+    "979": [
+        "hylar lymphadenopathy"
+    ],
+    "981": [
+        "hylar lymphadenopathy"
+    ],
+    "983": [
+        "mediastinum"
+    ],
+    "985": [
+        "mediastinum"
+    ],
+    "989": [
+        "heart"
+    ],
+    "1007": [
+        "lung"
+    ],
+    "1009": [
+        "pleural"
+    ],
+    "1050": [
+        "cardiomegaly",
+        "pulmonary edema"
+    ],
+    "1052": [
+        "cardiomegaly",
+        "pulmonary edema"
+    ],
+    "1078": [
+        "organ"
+    ],
+    "1080": [
+        "brain edema"
+    ],
+    "1082": [
+        "brain swollen"
+    ],
+    "1108": [
+        "cavitary lesion"
+    ],
+    "1110": [
+        "cavitary lesion"
+    ],
+    "1116": [
+        "vascular"
+    ],
+    "1118": [
+        "vascular"
+    ],
+    "1175": [
+        "pancreas"
+    ],
+    "1177": [
+        "pancreas"
+    ],
+    "1185": [
+        "pancreas",
+        "pancreatic head"
+    ],
+    "1187": [
+        "t2"
+    ],
+    "1192": [
+        "cecum"
+    ],
+    "1205": [
+        "brain"
+    ],
+    "1210": [
+        "patient"
+    ],
+    "1236": [
+        "axial plane"
+    ],
+    "1259": [
+        "optic nerve"
+    ],
+    "1264": [
+        "ventricle",
+        "ventricle",
+        "lateral ventricle"
+    ],
+    "1265": [
+        "body",
+        "abdomen"
+    ],
+    "1266": [
+        "patient"
+    ],
+    "1267": [
+        "left",
+        "frontal lobe",
+        "left frontal"
+    ],
+    "1273": [
+        "kidney"
+    ],
+    "1282": [
+        "diaphragm"
+    ],
+    "1284": [
+        "renal vein"
+    ],
+    "1286": [
+        "renal vein drain"
+    ],
+    "1311": [
+        "brain",
+        "left"
+    ],
+    "1312": [
+        "brain",
+        "left"
+    ],
+    "1348": [
+        "pleural"
+    ],
+    "1350": [
+        "pleural"
+    ],
+    "1395": [
+        "trachea midline"
+    ],
+    "1419": [
+        "kidney"
+    ],
+    "1456": [
+        "abdomen"
+    ],
+    "1492": [
+        "patient"
+    ],
+    "1493": [
+        "patient"
+    ],
+    "1500": [
+        "heart"
+    ],
+    "1502": [
+        "heart"
+    ],
+    "1507": [
+        "organ",
+        "brain"
+    ],
+    "1512": [
+        "left thalamus",
+        "basal ganglion"
+    ],
+    "1514": [
+        "left thalamus",
+        "basal ganglion"
+    ],
+    "1529": [
+        "brain",
+        "basilar artery"
+    ],
+    "1531": [
+        "artery",
+        "brain",
+        "basilar artery"
+    ],
+    "1540": [
+        "kidney"
+    ],
+    "1542": [
+        "kidney"
+    ],
+    "1549": [
+        "brain lesion"
+    ],
+    "1551": [
+        "brain"
+    ],
+    "1578": [
+        "brain area"
+    ],
+    "1602": [
+        "tissue",
+        "colon",
+        "tissue",
+        "adipose tissue"
+    ],
+    "1603": [
+        "tissue",
+        "patient",
+        "tissue",
+        "adipose tissue"
+    ],
+    "1614": [
+        "isointense",
+        "brain"
+    ],
+    "1615": [
+        "isointense",
+        "brain"
+    ],
+    "1616": [
+        "heart"
+    ],
+    "1618": [
+        "heart"
+    ],
+    "1622": [
+        "patient",
+        "ventricle"
+    ],
+    "1624": [
+        "ventricle"
+    ],
+    "1626": [
+        "organ",
+        "brain"
+    ],
+    "1630": [
+        "lobe"
+    ],
+    "1632": [
+        "lung"
+    ],
+    "1652": [
+        "posteroinferior cerebellum"
+    ],
+    "1680": [
+        "abdomen"
+    ],
+    "1686": [
+        "ventricle"
+    ],
+    "1688": [
+        "ventricle"
+    ],
+    "1690": [
+        "patient"
+    ],
+    "1701": [
+        "liver"
+    ],
+    "1703": [
+        "hypodense",
+        "liver"
+    ],
+    "1721": [
+        "patient"
+    ],
+    "1722": [
+        "patient"
+    ],
+    "1736": [
+        "trachea normal"
+    ],
+    "1738": [
+        "trachea midline"
+    ],
+    "1755": [
+        "thorax"
+    ],
+    "1758": [
+        "liver"
+    ],
+    "1768": [
+        "pancreatic head cause",
+        "liver"
+    ],
+    "1781": [
+        "liver"
+    ],
+    "1783": [
+        "liver"
+    ],
+    "1810": [
+        "maxillary sinus"
+    ],
+    "1812": [
+        "maxillary sinus"
+    ],
+    "1814": [
+        "patient"
+    ],
+    "1851": [
+        "skeletal joint"
+    ],
+    "1853": [
+        "skeletal joint",
+        "sacroiliac joint"
+    ],
+    "1867": [
+        "patient"
+    ],
+    "1884": [
+        "periphery"
+    ],
+    "1886": [
+        "hyperdense opacity"
+    ],
+    "1888": [
+        "skull fracture"
+    ],
+    "1890": [
+        "skull fractured"
+    ],
+    "1892": [
+        "skull fracture"
+    ],
+    "1894": [
+        "skull fractured"
+    ],
+    "1908": [
+        "pa",
+        "lateral",
+        "left"
+    ],
+    "1930": [
+        "hemidiaphragms"
+    ],
+    "1932": [
+        "diaphragm"
+    ],
+    "1945": [
+        "lesion"
+    ],
+    "1968": [
+        "cardiac border"
+    ],
+    "1996": [
+        "organ",
+        "intestine"
+    ],
+    "2001": [
+        "ventricle",
+        "lateral",
+        "ventricular"
+    ],
+    "2003": [
+        "ventricular",
+        "lateral",
+        "ventricular"
+    ],
+    "2007": [
+        "focal mass"
+    ],
+    "2035": [
+        "body"
+    ],
+    "2043": [
+        "pulmonary"
+    ],
+    "2045": [
+        "lung"
+    ],
+    "2135": [
+        "heart"
+    ],
+    "2137": [
+        "cardiomegaly"
+    ],
+    "2143": [
+        "gallbladder gallstone"
+    ],
+    "2144": [
+        "gallstone"
+    ],
+    "2158": [
+        "bowel"
+    ],
+    "2160": [
+        "bowel"
+    ],
+    "2166": [
+        "blood vessel",
+        "mca"
+    ],
+    "2168": [
+        "blood vessel",
+        "left aca",
+        "mca"
+    ],
+    "2185": [
+        "organ",
+        "brain"
+    ],
+    "2187": [
+        "caudate",
+        "putamen",
+        "left parietal"
+    ],
+    "2223": [
+        "organ",
+        "brain"
+    ],
+    "2224": [
+        "brain"
+    ],
+    "2226": [
+        "kidney cyst"
+    ],
+    "2228": [
+        "kidney cyst"
+    ],
+    "2311": [
+        "liver"
+    ],
+    "2313": [
+        "liver"
+    ],
+    "2318": [
+        "bowel wall"
+    ],
+    "2328": [
+        "organ"
+    ],
+    "2333": [
+        "diaphragm"
+    ],
+    "2349": [
+        "biliary duct"
+    ],
+    "2352": [
+        "ventricle",
+        "ventricle"
+    ],
+    "2369": [
+        "liver"
+    ],
+    "2372": [
+        "patient",
+        "artery",
+        "vein"
+    ],
+    "2381": [
+        "diaphragm"
+    ],
+    "2406": [
+        "aorta"
+    ],
+    "2408": [
+        "aorta"
+    ],
+    "2413": [
+        "lung",
+        "left"
+    ],
+    "2417": [
+        "luminal surface",
+        "mucosal"
+    ],
+    "2420": [
+        "patient"
+    ],
+    "2425": [
+        "lateral",
+        "colon"
+    ],
+    "2430": [
+        "abdominal aorta"
+    ],
+    "2448": [
+        "patient",
+        "encephalon"
+    ],
+    "2452": [
+        "clavicle"
+    ],
+    "2458": [
+        "kidney"
+    ],
+    "2481": [
+        "anterior wall"
+    ],
+    "2509": [
+        "patient",
+        "kidney"
+    ],
+    "2515": [
+        "kidney"
+    ],
+    "2524": [
+        "tube"
+    ],
+    "2546": [
+        "nodule",
+        "lung"
+    ],
+    "2552": [
+        "anterior mediastinum"
+    ],
+    "2554": [
+        "pancreas cystic"
+    ],
+    "2568": [
+        "abdomen"
+    ],
+    "2586": [
+        "patient"
+    ],
+    "2594": [
+        "nodule"
+    ],
+    "2598": [
+        "appendix enlarged"
+    ],
+    "2623": [
+        "frontal"
+    ],
+    "2627": [
+        "basal ganglion",
+        "cerebellum",
+        "cerebral cortex"
+    ],
+    "2632": [
+        "midline structure"
+    ],
+    "2642": [
+        "fat stranding"
+    ],
+    "2650": [
+        "hypointense"
+    ],
+    "2651": [
+        "spleen",
+        "patient",
+        "left"
+    ],
+    "2652": [
+        "left kidney"
+    ],
+    "2662": [
+        "lung",
+        "lung"
+    ],
+    "2682": [
+        "bronchial airway"
+    ],
+    "2710": [
+        "cortical"
+    ],
+    "2714": [
+        "hepatic lesion"
+    ],
+    "2726": [
+        "abdominal aorta"
+    ],
+    "2731": [
+        "hilar"
+    ],
+    "2735": [
+        "gastric",
+        "patient"
+    ],
+    "2741": [
+        "midline"
+    ],
+    "2745": [
+        "rib"
+    ],
+    "2770": [
+        "pleural",
+        "left",
+        "lung"
+    ],
+    "2771": [
+        "pleural opacity"
+    ],
+    "2788": [
+        "appendix non-enlarged"
+    ],
+    "2790": [
+        "appendix normal"
+    ],
+    "2817": [
+        "patient"
+    ],
+    "2818": [
+        "patient"
+    ],
+    "2821": [
+        "circular"
+    ],
+    "2823": [
+        "circular"
+    ],
+    "2834": [
+        "brain"
+    ],
+    "2837": [
+        "liver"
+    ],
+    "2839": [
+        "liver"
+    ],
+    "2902": [
+        "brain"
+    ],
+    "2903": [
+        "brain"
+    ],
+    "2904": [
+        "patient"
+    ],
+    "2905": [
+        "patient"
+    ],
+    "2938": [
+        "t2"
+    ],
+    "2940": [
+        "hyperdense lesion",
+        "aorta"
+    ],
+    "2942": [
+        "aorta"
+    ],
+    "2949": [
+        "lung"
+    ],
+    "2951": [
+        "lung"
+    ],
+    "2952": [
+        "left hemidiaphragm"
+    ],
+    "2954": [
+        "left hemidiaphragm"
+    ],
+    "2958": [
+        "lumen"
+    ],
+    "2987": [
+        "soft tissue",
+        "ileum",
+        "mesenteric"
+    ],
+    "2989": [
+        "patient",
+        "soft tissue",
+        "ileum",
+        "mesenteric"
+    ],
+    "3001": [
+        "sulcus"
+    ],
+    "3003": [
+        "sulcus"
+    ],
+    "3015": [
+        "cavum vergae"
+    ],
+    "3017": [
+        "cavum vergae"
+    ],
+    "3055": [
+        "ventricle"
+    ],
+    "3057": [
+        "ventricle"
+    ],
+    "3059": [
+        "tracheal"
+    ],
+    "3061": [
+        "trachea"
+    ],
+    "3064": [
+        "patient"
+    ],
+    "3132": [
+        "gi tract"
+    ],
+    "3138": [
+        "cardiomegaly"
+    ]
 }

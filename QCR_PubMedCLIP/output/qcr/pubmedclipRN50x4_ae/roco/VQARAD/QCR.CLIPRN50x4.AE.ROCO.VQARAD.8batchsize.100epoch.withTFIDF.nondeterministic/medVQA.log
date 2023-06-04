@@ -1,0 +1,1588 @@
+Sat, 03 Jun 2023 14:00:42 INFO >>>The net is:
+Sat, 03 Jun 2023 14:00:42 INFO BAN_Model(
+  (w_emb): WordEmbedding(
+    (emb): Embedding(1178, 300, padding_idx=1177)
+    (emb_): Embedding(1178, 300, padding_idx=1177)
+    (dropout): Dropout(p=0.0, inplace=False)
+  )
+  (q_emb): QuestionEmbedding(
+    (rnn): GRU(600, 1024, batch_first=True)
+  )
+  (close_att): BiAttention(
+    (logits): BCNet(
+      (v_net): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=704, out_features=3072, bias=True)
+          (2): ReLU()
+        )
+      )
+      (q_net): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=3072, bias=True)
+          (2): ReLU()
+        )
+      )
+      (dropout): Dropout(p=0.5, inplace=False)
+      (p_net): AvgPool1d(kernel_size=(3,), stride=(3,), padding=(0,))
+    )
+  )
+  (close_resnet): BiResNet(
+    (b_net): ModuleList(
+      (0): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (1): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (2): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (3): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (4): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (5): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (6): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (7): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (8): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (9): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+    )
+    (q_prj): ModuleList(
+      (0): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (1): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (2): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (3): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (4): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (5): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (6): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (7): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (8): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (9): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+    )
+    (c_prj): ModuleList()
+  )
+  (close_classifier): SimpleClassifier(
+    (main): Sequential(
+      (0): Linear(in_features=1024, out_features=2048, bias=True)
+      (1): ReLU()
+      (2): Dropout(p=0.5, inplace=False)
+      (3): Linear(in_features=2048, out_features=56, bias=True)
+    )
+  )
+  (open_att): BiAttention(
+    (logits): BCNet(
+      (v_net): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=704, out_features=3072, bias=True)
+          (2): ReLU()
+        )
+      )
+      (q_net): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=3072, bias=True)
+          (2): ReLU()
+        )
+      )
+      (dropout): Dropout(p=0.5, inplace=False)
+      (p_net): AvgPool1d(kernel_size=(3,), stride=(3,), padding=(0,))
+    )
+  )
+  (open_resnet): BiResNet(
+    (b_net): ModuleList(
+      (0): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (1): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (2): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (3): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (4): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (5): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (6): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (7): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (8): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+      (9): BCNet(
+        (v_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=704, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (q_net): FCNet(
+          (main): Sequential(
+            (0): Dropout(p=0.2, inplace=False)
+            (1): Linear(in_features=1024, out_features=1024, bias=True)
+            (2): ReLU()
+          )
+        )
+        (dropout): Dropout(p=0.5, inplace=False)
+      )
+    )
+    (q_prj): ModuleList(
+      (0): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (1): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (2): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (3): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (4): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (5): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (6): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (7): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (8): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+      (9): FCNet(
+        (main): Sequential(
+          (0): Dropout(p=0.2, inplace=False)
+          (1): Linear(in_features=1024, out_features=1024, bias=True)
+        )
+      )
+    )
+    (c_prj): ModuleList()
+  )
+  (open_classifier): SimpleClassifier(
+    (main): Sequential(
+      (0): Linear(in_features=1024, out_features=2048, bias=True)
+      (1): ReLU()
+      (2): Dropout(p=0.5, inplace=False)
+      (3): Linear(in_features=2048, out_features=431, bias=True)
+    )
+  )
+  (bbn_classifier): SimpleClassifier(
+    (main): Sequential(
+      (0): Linear(in_features=2048, out_features=3072, bias=True)
+      (1): ReLU()
+      (2): Dropout(p=0.5, inplace=False)
+      (3): Linear(in_features=3072, out_features=487, bias=True)
+    )
+  )
+  (typeatt): typeAttention(
+    (w_emb): WordEmbedding(
+      (emb): Embedding(1178, 300, padding_idx=1177)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (q_emb): QuestionEmbedding(
+      (rnn): GRU(300, 1024, batch_first=True)
+    )
+    (q_final): QuestionAttention(
+      (tanh_gate): Linear(in_features=1324, out_features=1024, bias=True)
+      (sigmoid_gate): Linear(in_features=1324, out_features=1024, bias=True)
+      (attn): Linear(in_features=1024, out_features=1, bias=True)
+    )
+    (f_fc1): Linear(in_features=1024, out_features=2048, bias=True)
+    (f_fc2): Linear(in_features=2048, out_features=1024, bias=True)
+    (f_fc3): Linear(in_features=1024, out_features=1024, bias=True)
+  )
+  (ae): Auto_Encoder_Model(
+    (conv1): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (max_pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (conv2): Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (max_pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (conv3): Conv2d(32, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (tran_conv1): ConvTranspose2d(16, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (conv4): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (tran_conv2): ConvTranspose2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), output_padding=(1, 1))
+    (conv5): Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (convert): Linear(in_features=16384, out_features=64, bias=True)
+  (clip): CLIP(
+    (visual): ModifiedResNet(
+      (conv1): Conv2d(3, 40, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu1): ReLU(inplace=True)
+      (conv2): Conv2d(40, 40, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu2): ReLU(inplace=True)
+      (conv3): Conv2d(40, 80, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn3): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu3): ReLU(inplace=True)
+      (avgpool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+      (layer1): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(80, 80, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(80, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+          (downsample): Sequential(
+            (-1): AvgPool2d(kernel_size=1, stride=1, padding=0)
+            (0): Conv2d(80, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(320, 80, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(80, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(320, 80, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(80, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(320, 80, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(80, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+      )
+      (layer2): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(320, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(160, 160, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+          (conv3): Conv2d(160, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+          (downsample): Sequential(
+            (-1): AvgPool2d(kernel_size=2, stride=2, padding=0)
+            (0): Conv2d(320, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(640, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(160, 160, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(160, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(640, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(160, 160, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(160, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(640, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(160, 160, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(160, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (4): Bottleneck(
+          (conv1): Conv2d(640, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(160, 160, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(160, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (5): Bottleneck(
+          (conv1): Conv2d(640, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(160, 160, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(160, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+      )
+      (layer3): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(640, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+          (downsample): Sequential(
+            (-1): AvgPool2d(kernel_size=2, stride=2, padding=0)
+            (0): Conv2d(640, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (4): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (5): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (6): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (7): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (8): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (9): Bottleneck(
+          (conv1): Conv2d(1280, 320, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(320, 320, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(320, 1280, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(1280, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+      )
+      (layer4): Sequential(
+        (0): Bottleneck(
+          (conv1): Conv2d(1280, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(640, 640, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): AvgPool2d(kernel_size=2, stride=2, padding=0)
+          (conv3): Conv2d(640, 2560, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2560, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+          (downsample): Sequential(
+            (-1): AvgPool2d(kernel_size=2, stride=2, padding=0)
+            (0): Conv2d(1280, 2560, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(2560, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          )
+        )
+        (1): Bottleneck(
+          (conv1): Conv2d(2560, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(640, 640, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(640, 2560, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2560, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (2): Bottleneck(
+          (conv1): Conv2d(2560, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(640, 640, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(640, 2560, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2560, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (3): Bottleneck(
+          (conv1): Conv2d(2560, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(640, 640, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(640, 2560, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2560, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (4): Bottleneck(
+          (conv1): Conv2d(2560, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(640, 640, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(640, 2560, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2560, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+        (5): Bottleneck(
+          (conv1): Conv2d(2560, 640, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn1): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu1): ReLU(inplace=True)
+          (conv2): Conv2d(640, 640, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (bn2): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu2): ReLU(inplace=True)
+          (avgpool): Identity()
+          (conv3): Conv2d(640, 2560, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn3): BatchNorm2d(2560, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (relu3): ReLU(inplace=True)
+        )
+      )
+      (attnpool): AttentionPool2d(
+        (k_proj): Linear(in_features=2560, out_features=2560, bias=True)
+        (q_proj): Linear(in_features=2560, out_features=2560, bias=True)
+        (v_proj): Linear(in_features=2560, out_features=2560, bias=True)
+        (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+      )
+    )
+    (transformer): Transformer(
+      (resblocks): Sequential(
+        (0): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (3): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (4): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (5): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (6): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (7): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (8): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (9): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (10): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+        (11): ResidualAttentionBlock(
+          (attn): MultiheadAttention(
+            (out_proj): _LinearWithBias(in_features=640, out_features=640, bias=True)
+          )
+          (ln_1): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+          (mlp): Sequential(
+            (c_fc): Linear(in_features=640, out_features=2560, bias=True)
+            (gelu): QuickGELU()
+            (c_proj): Linear(in_features=2560, out_features=640, bias=True)
+          )
+          (ln_2): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+    (token_embedding): Embedding(49408, 640)
+    (ln_final): LayerNorm((640,), eps=1e-05, elementwise_affine=True)
+  )
+)
+Sat, 03 Jun 2023 14:05:02 INFO -------[Epoch]:0-------
+Sat, 03 Jun 2023 14:05:02 INFO [Train] Loss:0.935909 , Train_Acc:31.853786%
+Sat, 03 Jun 2023 14:05:02 INFO [Train] Loss_Open:0.202565 , Loss_Close:0.058572%
+Sat, 03 Jun 2023 14:05:10 INFO [Validate] Val_Acc:31.042128%  |  Open_ACC:2.777778%   |  Close_ACC:49.815498%
+Sat, 03 Jun 2023 14:05:13 INFO [Result] The best acc is 31.042128% at epoch 0
+Sat, 03 Jun 2023 14:11:46 INFO -------[Epoch]:1-------
+Sat, 03 Jun 2023 14:11:46 INFO [Train] Loss:0.043225 , Train_Acc:40.372063%
+Sat, 03 Jun 2023 14:11:46 INFO [Train] Loss_Open:0.005057 , Loss_Close:0.005637%
+Sat, 03 Jun 2023 14:12:03 INFO [Validate] Val_Acc:33.037693%  |  Open_ACC:6.666667%   |  Close_ACC:50.553505%
+Sat, 03 Jun 2023 14:12:06 INFO [Result] The best acc is 33.037693% at epoch 1
+Sat, 03 Jun 2023 14:19:31 INFO -------[Epoch]:2-------
+Sat, 03 Jun 2023 14:19:31 INFO [Train] Loss:0.037975 , Train_Acc:45.691906%
+Sat, 03 Jun 2023 14:19:31 INFO [Train] Loss_Open:0.004992 , Loss_Close:0.004577%
+Sat, 03 Jun 2023 14:19:49 INFO [Validate] Val_Acc:45.011086%  |  Open_ACC:7.222222%   |  Close_ACC:70.110703%
+Sat, 03 Jun 2023 14:19:52 INFO [Result] The best acc is 45.011086% at epoch 2
+Sat, 03 Jun 2023 14:27:28 INFO -------[Epoch]:3-------
+Sat, 03 Jun 2023 14:27:28 INFO [Train] Loss:0.033980 , Train_Acc:50.163185%
+Sat, 03 Jun 2023 14:27:28 INFO [Train] Loss_Open:0.004817 , Loss_Close:0.003856%
+Sat, 03 Jun 2023 14:27:46 INFO [Validate] Val_Acc:46.563194%  |  Open_ACC:8.333334%   |  Close_ACC:71.955719%
+Sat, 03 Jun 2023 14:27:49 INFO [Result] The best acc is 46.563194% at epoch 3
+Sat, 03 Jun 2023 14:35:32 INFO -------[Epoch]:4-------
+Sat, 03 Jun 2023 14:35:32 INFO [Train] Loss:0.031350 , Train_Acc:52.023499%
+Sat, 03 Jun 2023 14:35:32 INFO [Train] Loss_Open:0.004684 , Loss_Close:0.003394%
+Sat, 03 Jun 2023 14:35:51 INFO [Validate] Val_Acc:44.789356%  |  Open_ACC:8.888889%   |  Close_ACC:68.634689%
+Sat, 03 Jun 2023 14:35:51 INFO [Result] The best acc is 46.563194% at epoch 3
+Sat, 03 Jun 2023 14:43:33 INFO -------[Epoch]:5-------
+Sat, 03 Jun 2023 14:43:33 INFO [Train] Loss:0.028428 , Train_Acc:53.818539%
+Sat, 03 Jun 2023 14:43:33 INFO [Train] Loss_Open:0.004534 , Loss_Close:0.002882%
+Sat, 03 Jun 2023 14:43:52 INFO [Validate] Val_Acc:47.450111%  |  Open_ACC:8.888889%   |  Close_ACC:73.062729%
+Sat, 03 Jun 2023 14:43:54 INFO [Result] The best acc is 47.450111% at epoch 5
+Sat, 03 Jun 2023 14:51:38 INFO -------[Epoch]:6-------
+Sat, 03 Jun 2023 14:51:38 INFO [Train] Loss:0.025161 , Train_Acc:55.842037%
+Sat, 03 Jun 2023 14:51:38 INFO [Train] Loss_Open:0.004327 , Loss_Close:0.002336%
+Sat, 03 Jun 2023 14:51:55 INFO [Validate] Val_Acc:45.011086%  |  Open_ACC:8.888889%   |  Close_ACC:69.003693%
+Sat, 03 Jun 2023 14:51:55 INFO [Result] The best acc is 47.450111% at epoch 5
+Sat, 03 Jun 2023 14:59:35 INFO -------[Epoch]:7-------
+Sat, 03 Jun 2023 14:59:35 INFO [Train] Loss:0.022372 , Train_Acc:58.355091%
+Sat, 03 Jun 2023 14:59:35 INFO [Train] Loss_Open:0.004023 , Loss_Close:0.001958%
+Sat, 03 Jun 2023 14:59:53 INFO [Validate] Val_Acc:48.780487%  |  Open_ACC:13.888889%   |  Close_ACC:71.955719%
+Sat, 03 Jun 2023 14:59:56 INFO [Result] The best acc is 48.780487% at epoch 7
+Sat, 03 Jun 2023 15:07:38 INFO -------[Epoch]:8-------
+Sat, 03 Jun 2023 15:07:38 INFO [Train] Loss:0.020091 , Train_Acc:60.704960%
+Sat, 03 Jun 2023 15:07:38 INFO [Train] Loss_Open:0.003789 , Loss_Close:0.001638%
+Sat, 03 Jun 2023 15:07:56 INFO [Validate] Val_Acc:50.997784%  |  Open_ACC:15.469614%   |  Close_ACC:74.814812%
+Sat, 03 Jun 2023 15:07:59 INFO [Result] The best acc is 50.997784% at epoch 8
+Sat, 03 Jun 2023 15:15:37 INFO -------[Epoch]:9-------
+Sat, 03 Jun 2023 15:15:37 INFO [Train] Loss:0.017412 , Train_Acc:64.588776%
+Sat, 03 Jun 2023 15:15:37 INFO [Train] Loss_Open:0.003538 , Loss_Close:0.001246%
+Sat, 03 Jun 2023 15:15:55 INFO [Validate] Val_Acc:53.215076%  |  Open_ACC:14.444445%   |  Close_ACC:78.966789%
+Sat, 03 Jun 2023 15:15:58 INFO [Result] The best acc is 53.215076% at epoch 9
+Sat, 03 Jun 2023 15:23:38 INFO -------[Epoch]:10-------
+Sat, 03 Jun 2023 15:23:38 INFO [Train] Loss:0.017020 , Train_Acc:67.232376%
+Sat, 03 Jun 2023 15:23:38 INFO [Train] Loss_Open:0.003274 , Loss_Close:0.001343%
+Sat, 03 Jun 2023 15:23:56 INFO [Validate] Val_Acc:50.997784%  |  Open_ACC:17.777779%   |  Close_ACC:73.062729%
+Sat, 03 Jun 2023 15:23:56 INFO [Result] The best acc is 53.215076% at epoch 9
+Sat, 03 Jun 2023 15:31:34 INFO -------[Epoch]:11-------
+Sat, 03 Jun 2023 15:31:34 INFO [Train] Loss:0.013054 , Train_Acc:71.507835%
+Sat, 03 Jun 2023 15:31:34 INFO [Train] Loss_Open:0.002926 , Loss_Close:0.000746%
+Sat, 03 Jun 2023 15:31:52 INFO [Validate] Val_Acc:51.219513%  |  Open_ACC:20.994476%   |  Close_ACC:71.481483%
+Sat, 03 Jun 2023 15:31:52 INFO [Result] The best acc is 53.215076% at epoch 9
+Sat, 03 Jun 2023 15:39:26 INFO -------[Epoch]:12-------
+Sat, 03 Jun 2023 15:39:26 INFO [Train] Loss:0.011482 , Train_Acc:75.032639%
+Sat, 03 Jun 2023 15:39:26 INFO [Train] Loss_Open:0.002653 , Loss_Close:0.000602%
+Sat, 03 Jun 2023 15:39:43 INFO [Validate] Val_Acc:52.993347%  |  Open_ACC:22.777779%   |  Close_ACC:73.062729%
+Sat, 03 Jun 2023 15:39:43 INFO [Result] The best acc is 53.215076% at epoch 9
+Sat, 03 Jun 2023 15:47:14 INFO -------[Epoch]:13-------
+Sat, 03 Jun 2023 15:47:14 INFO [Train] Loss:0.010199 , Train_Acc:78.296349%
+Sat, 03 Jun 2023 15:47:14 INFO [Train] Loss_Open:0.002372 , Loss_Close:0.000524%
+Sat, 03 Jun 2023 15:47:33 INFO [Validate] Val_Acc:54.323723%  |  Open_ACC:24.309393%   |  Close_ACC:74.444443%
+Sat, 03 Jun 2023 15:47:35 INFO [Result] The best acc is 54.323723% at epoch 13
+Sat, 03 Jun 2023 15:55:04 INFO -------[Epoch]:14-------
+Sat, 03 Jun 2023 15:55:04 INFO [Train] Loss:0.009857 , Train_Acc:80.972588%
+Sat, 03 Jun 2023 15:55:04 INFO [Train] Loss_Open:0.002130 , Loss_Close:0.000618%
+Sat, 03 Jun 2023 15:55:22 INFO [Validate] Val_Acc:58.093124%  |  Open_ACC:27.624310%   |  Close_ACC:78.518517%
+Sat, 03 Jun 2023 15:55:25 INFO [Result] The best acc is 58.093124% at epoch 14
+Sat, 03 Jun 2023 16:02:53 INFO -------[Epoch]:15-------
+Sat, 03 Jun 2023 16:02:53 INFO [Train] Loss:0.007995 , Train_Acc:83.126633%
+Sat, 03 Jun 2023 16:02:53 INFO [Train] Loss_Open:0.001924 , Loss_Close:0.000367%
+Sat, 03 Jun 2023 16:03:11 INFO [Validate] Val_Acc:60.088692%  |  Open_ACC:35.000000%   |  Close_ACC:76.752769%
+Sat, 03 Jun 2023 16:03:14 INFO [Result] The best acc is 60.088692% at epoch 15
+Sat, 03 Jun 2023 16:10:51 INFO -------[Epoch]:16-------
+Sat, 03 Jun 2023 16:10:51 INFO [Train] Loss:0.006971 , Train_Acc:84.986946%
+Sat, 03 Jun 2023 16:10:51 INFO [Train] Loss_Open:0.001677 , Loss_Close:0.000320%
+Sat, 03 Jun 2023 16:11:08 INFO [Validate] Val_Acc:58.758316%  |  Open_ACC:33.333336%   |  Close_ACC:75.645760%
+Sat, 03 Jun 2023 16:11:08 INFO [Result] The best acc is 60.088692% at epoch 15
+Sat, 03 Jun 2023 16:18:45 INFO -------[Epoch]:17-------
+Sat, 03 Jun 2023 16:18:45 INFO [Train] Loss:0.007130 , Train_Acc:86.781982%
+Sat, 03 Jun 2023 16:18:45 INFO [Train] Loss_Open:0.001535 , Loss_Close:0.000451%
+Sat, 03 Jun 2023 16:19:02 INFO [Validate] Val_Acc:50.332592%  |  Open_ACC:24.444445%   |  Close_ACC:67.527679%
+Sat, 03 Jun 2023 16:19:02 INFO [Result] The best acc is 60.088692% at epoch 15
+Sat, 03 Jun 2023 16:26:37 INFO -------[Epoch]:18-------
+Sat, 03 Jun 2023 16:26:37 INFO [Train] Loss:0.021027 , Train_Acc:87.761101%
+Sat, 03 Jun 2023 16:26:37 INFO [Train] Loss_Open:0.001445 , Loss_Close:0.003435%
+Sat, 03 Jun 2023 16:26:55 INFO [Validate] Val_Acc:61.640797%  |  Open_ACC:38.888889%   |  Close_ACC:76.752769%
+Sat, 03 Jun 2023 16:26:58 INFO [Result] The best acc is 61.640797% at epoch 18
+Sat, 03 Jun 2023 16:34:32 INFO -------[Epoch]:19-------
+Sat, 03 Jun 2023 16:34:32 INFO [Train] Loss:0.007121 , Train_Acc:90.078331%
+Sat, 03 Jun 2023 16:34:32 INFO [Train] Loss_Open:0.001237 , Loss_Close:0.000652%
+Sat, 03 Jun 2023 16:34:50 INFO [Validate] Val_Acc:62.749447%  |  Open_ACC:42.222221%   |  Close_ACC:76.383766%
+Sat, 03 Jun 2023 16:34:53 INFO [Result] The best acc is 62.749447% at epoch 19
+Sat, 03 Jun 2023 16:42:27 INFO -------[Epoch]:20-------
+Sat, 03 Jun 2023 16:42:27 INFO [Train] Loss:0.004495 , Train_Acc:90.828979%
+Sat, 03 Jun 2023 16:42:27 INFO [Train] Loss_Open:0.001163 , Loss_Close:0.000150%
+Sat, 03 Jun 2023 16:42:45 INFO [Validate] Val_Acc:59.423504%  |  Open_ACC:38.333336%   |  Close_ACC:73.431732%
+Sat, 03 Jun 2023 16:42:45 INFO [Result] The best acc is 62.749447% at epoch 19
+Sat, 03 Jun 2023 16:50:26 INFO -------[Epoch]:21-------
+Sat, 03 Jun 2023 16:50:26 INFO [Train] Loss:0.004608 , Train_Acc:91.840729%
+Sat, 03 Jun 2023 16:50:26 INFO [Train] Loss_Open:0.000966 , Loss_Close:0.000309%
+Sat, 03 Jun 2023 16:50:43 INFO [Validate] Val_Acc:61.419067%  |  Open_ACC:36.111111%   |  Close_ACC:78.228783%
+Sat, 03 Jun 2023 16:50:43 INFO [Result] The best acc is 62.749447% at epoch 19
+Sat, 03 Jun 2023 16:58:14 INFO -------[Epoch]:22-------
+Sat, 03 Jun 2023 16:58:14 INFO [Train] Loss:0.004038 , Train_Acc:92.656662%
+Sat, 03 Jun 2023 16:58:14 INFO [Train] Loss_Open:0.000967 , Loss_Close:0.000188%
+Sat, 03 Jun 2023 16:58:33 INFO [Validate] Val_Acc:65.410202%  |  Open_ACC:46.666668%   |  Close_ACC:77.859779%
+Sat, 03 Jun 2023 16:58:35 INFO [Result] The best acc is 65.410202% at epoch 22
+Sat, 03 Jun 2023 17:06:18 INFO -------[Epoch]:23-------
+Sat, 03 Jun 2023 17:06:18 INFO [Train] Loss:0.003661 , Train_Acc:93.603134%
+Sat, 03 Jun 2023 17:06:18 INFO [Train] Loss_Open:0.000900 , Loss_Close:0.000155%
+Sat, 03 Jun 2023 17:06:36 INFO [Validate] Val_Acc:63.414635%  |  Open_ACC:47.222225%   |  Close_ACC:74.169746%
+Sat, 03 Jun 2023 17:06:36 INFO [Result] The best acc is 65.410202% at epoch 22
+Sat, 03 Jun 2023 17:14:47 INFO -------[Epoch]:24-------
+Sat, 03 Jun 2023 17:14:47 INFO [Train] Loss:0.003298 , Train_Acc:93.831596%
+Sat, 03 Jun 2023 17:14:47 INFO [Train] Loss_Open:0.000874 , Loss_Close:0.000096%
+Sat, 03 Jun 2023 17:15:05 INFO [Validate] Val_Acc:60.975609%  |  Open_ACC:38.674034%   |  Close_ACC:75.925926%
+Sat, 03 Jun 2023 17:15:05 INFO [Result] The best acc is 65.410202% at epoch 22
+Sat, 03 Jun 2023 17:23:31 INFO -------[Epoch]:25-------
+Sat, 03 Jun 2023 17:23:31 INFO [Train] Loss:0.003919 , Train_Acc:94.288513%
+Sat, 03 Jun 2023 17:23:31 INFO [Train] Loss_Open:0.000740 , Loss_Close:0.000318%
+Sat, 03 Jun 2023 17:23:50 INFO [Validate] Val_Acc:64.745010%  |  Open_ACC:48.333336%   |  Close_ACC:75.645760%
+Sat, 03 Jun 2023 17:23:50 INFO [Result] The best acc is 65.410202% at epoch 22
+Sat, 03 Jun 2023 17:32:27 INFO -------[Epoch]:26-------
+Sat, 03 Jun 2023 17:32:27 INFO [Train] Loss:0.002683 , Train_Acc:95.398170%
+Sat, 03 Jun 2023 17:32:27 INFO [Train] Loss_Open:0.000670 , Loss_Close:0.000106%
+Sat, 03 Jun 2023 17:32:46 INFO [Validate] Val_Acc:64.966743%  |  Open_ACC:48.044693%   |  Close_ACC:76.102943%
+Sat, 03 Jun 2023 17:32:46 INFO [Result] The best acc is 65.410202% at epoch 22
+Sat, 03 Jun 2023 17:41:37 INFO -------[Epoch]:27-------
+Sat, 03 Jun 2023 17:41:37 INFO [Train] Loss:0.002560 , Train_Acc:95.430809%
+Sat, 03 Jun 2023 17:41:37 INFO [Train] Loss_Open:0.000637 , Loss_Close:0.000103%
+Sat, 03 Jun 2023 17:41:56 INFO [Validate] Val_Acc:65.410202%  |  Open_ACC:50.000000%   |  Close_ACC:75.645760%
+Sat, 03 Jun 2023 17:41:56 INFO [Result] The best acc is 65.410202% at epoch 22
+Sat, 03 Jun 2023 17:50:47 INFO -------[Epoch]:28-------
+Sat, 03 Jun 2023 17:50:47 INFO [Train] Loss:0.002666 , Train_Acc:95.822456%
+Sat, 03 Jun 2023 17:50:47 INFO [Train] Loss_Open:0.000616 , Loss_Close:0.000139%
+Sat, 03 Jun 2023 17:51:05 INFO [Validate] Val_Acc:67.184036%  |  Open_ACC:52.222225%   |  Close_ACC:77.121773%
+Sat, 03 Jun 2023 17:51:08 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 18:00:02 INFO -------[Epoch]:29-------
+Sat, 03 Jun 2023 18:00:02 INFO [Train] Loss:0.002692 , Train_Acc:95.659271%
+Sat, 03 Jun 2023 18:00:02 INFO [Train] Loss_Open:0.000597 , Loss_Close:0.000157%
+Sat, 03 Jun 2023 18:00:22 INFO [Validate] Val_Acc:66.740578%  |  Open_ACC:53.038677%   |  Close_ACC:75.925926%
+Sat, 03 Jun 2023 18:00:22 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 18:09:13 INFO -------[Epoch]:30-------
+Sat, 03 Jun 2023 18:09:13 INFO [Train] Loss:0.002754 , Train_Acc:96.442558%
+Sat, 03 Jun 2023 18:09:13 INFO [Train] Loss_Open:0.000501 , Loss_Close:0.000236%
+Sat, 03 Jun 2023 18:09:32 INFO [Validate] Val_Acc:66.962303%  |  Open_ACC:49.171272%   |  Close_ACC:78.888885%
+Sat, 03 Jun 2023 18:09:32 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 18:18:20 INFO -------[Epoch]:31-------
+Sat, 03 Jun 2023 18:18:20 INFO [Train] Loss:0.002836 , Train_Acc:96.475197%
+Sat, 03 Jun 2023 18:18:20 INFO [Train] Loss_Open:0.000477 , Loss_Close:0.000270%
+Sat, 03 Jun 2023 18:18:39 INFO [Validate] Val_Acc:66.297119%  |  Open_ACC:51.381218%   |  Close_ACC:76.296295%
+Sat, 03 Jun 2023 18:18:39 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 18:27:31 INFO -------[Epoch]:32-------
+Sat, 03 Jun 2023 18:27:31 INFO [Train] Loss:0.003072 , Train_Acc:96.801567%
+Sat, 03 Jun 2023 18:27:31 INFO [Train] Loss_Open:0.000398 , Loss_Close:0.000373%
+Sat, 03 Jun 2023 18:27:51 INFO [Validate] Val_Acc:64.745010%  |  Open_ACC:49.723759%   |  Close_ACC:74.814812%
+Sat, 03 Jun 2023 18:27:51 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 18:36:43 INFO -------[Epoch]:33-------
+Sat, 03 Jun 2023 18:36:43 INFO [Train] Loss:0.002705 , Train_Acc:97.062668%
+Sat, 03 Jun 2023 18:36:43 INFO [Train] Loss_Open:0.000395 , Loss_Close:0.000299%
+Sat, 03 Jun 2023 18:37:02 INFO [Validate] Val_Acc:65.853661%  |  Open_ACC:51.666668%   |  Close_ACC:75.276756%
+Sat, 03 Jun 2023 18:37:02 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 18:45:43 INFO -------[Epoch]:34-------
+Sat, 03 Jun 2023 18:45:43 INFO [Train] Loss:0.001608 , Train_Acc:96.997391%
+Sat, 03 Jun 2023 18:45:43 INFO [Train] Loss_Open:0.000392 , Loss_Close:0.000069%
+Sat, 03 Jun 2023 18:46:02 INFO [Validate] Val_Acc:66.518845%  |  Open_ACC:51.666668%   |  Close_ACC:76.383766%
+Sat, 03 Jun 2023 18:46:02 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 18:54:44 INFO -------[Epoch]:35-------
+Sat, 03 Jun 2023 18:54:44 INFO [Train] Loss:0.002025 , Train_Acc:97.193214%
+Sat, 03 Jun 2023 18:54:44 INFO [Train] Loss_Open:0.000386 , Loss_Close:0.000161%
+Sat, 03 Jun 2023 18:55:01 INFO [Validate] Val_Acc:66.740578%  |  Open_ACC:52.777779%   |  Close_ACC:76.014763%
+Sat, 03 Jun 2023 18:55:01 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 19:03:32 INFO -------[Epoch]:36-------
+Sat, 03 Jun 2023 19:03:32 INFO [Train] Loss:0.001412 , Train_Acc:97.617493%
+Sat, 03 Jun 2023 19:03:32 INFO [Train] Loss_Open:0.000340 , Loss_Close:0.000064%
+Sat, 03 Jun 2023 19:03:50 INFO [Validate] Val_Acc:66.740578%  |  Open_ACC:51.666668%   |  Close_ACC:76.752769%
+Sat, 03 Jun 2023 19:03:50 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 19:12:24 INFO -------[Epoch]:37-------
+Sat, 03 Jun 2023 19:12:24 INFO [Train] Loss:0.001729 , Train_Acc:97.650131%
+Sat, 03 Jun 2023 19:12:24 INFO [Train] Loss_Open:0.000307 , Loss_Close:0.000153%
+Sat, 03 Jun 2023 19:12:42 INFO [Validate] Val_Acc:67.184036%  |  Open_ACC:51.111111%   |  Close_ACC:77.859779%
+Sat, 03 Jun 2023 19:12:42 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 19:21:15 INFO -------[Epoch]:38-------
+Sat, 03 Jun 2023 19:21:15 INFO [Train] Loss:0.001175 , Train_Acc:98.041779%
+Sat, 03 Jun 2023 19:21:15 INFO [Train] Loss_Open:0.000278 , Loss_Close:0.000057%
+Sat, 03 Jun 2023 19:21:34 INFO [Validate] Val_Acc:66.075386%  |  Open_ACC:50.276245%   |  Close_ACC:76.666664%
+Sat, 03 Jun 2023 19:21:34 INFO [Result] The best acc is 67.184036% at epoch 28
+Sat, 03 Jun 2023 19:30:09 INFO -------[Epoch]:39-------
+Sat, 03 Jun 2023 19:30:09 INFO [Train] Loss:0.001396 , Train_Acc:97.813316%
+Sat, 03 Jun 2023 19:30:09 INFO [Train] Loss_Open:0.000330 , Loss_Close:0.000068%
+Sat, 03 Jun 2023 19:30:27 INFO [Validate] Val_Acc:68.514412%  |  Open_ACC:53.888889%   |  Close_ACC:78.228783%
+Sat, 03 Jun 2023 19:30:30 INFO [Result] The best acc is 68.514412% at epoch 39
+Sat, 03 Jun 2023 19:38:58 INFO -------[Epoch]:40-------
+Sat, 03 Jun 2023 19:38:58 INFO [Train] Loss:0.002089 , Train_Acc:97.715408%
+Sat, 03 Jun 2023 19:38:58 INFO [Train] Loss_Open:0.000309 , Loss_Close:0.000227%
+Sat, 03 Jun 2023 19:39:17 INFO [Validate] Val_Acc:67.184036%  |  Open_ACC:52.777779%   |  Close_ACC:76.752769%
+Sat, 03 Jun 2023 19:39:17 INFO [Result] The best acc is 68.514412% at epoch 39
+Sat, 03 Jun 2023 19:47:40 INFO -------[Epoch]:41-------
+Sat, 03 Jun 2023 19:47:40 INFO [Train] Loss:0.001503 , Train_Acc:97.943863%
+Sat, 03 Jun 2023 19:47:40 INFO [Train] Loss_Open:0.000288 , Loss_Close:0.000119%
+Sat, 03 Jun 2023 19:47:59 INFO [Validate] Val_Acc:64.745010%  |  Open_ACC:46.961327%   |  Close_ACC:76.666664%
+Sat, 03 Jun 2023 19:47:59 INFO [Result] The best acc is 68.514412% at epoch 39
+Sat, 03 Jun 2023 19:56:14 INFO -------[Epoch]:42-------
+Sat, 03 Jun 2023 19:56:14 INFO [Train] Loss:0.001155 , Train_Acc:98.400787%
+Sat, 03 Jun 2023 19:56:14 INFO [Train] Loss_Open:0.000247 , Loss_Close:0.000073%
+Sat, 03 Jun 2023 19:56:33 INFO [Validate] Val_Acc:68.292679%  |  Open_ACC:52.222225%   |  Close_ACC:78.966789%
+Sat, 03 Jun 2023 19:56:33 INFO [Result] The best acc is 68.514412% at epoch 39
+Sat, 03 Jun 2023 20:04:55 INFO -------[Epoch]:43-------
+Sat, 03 Jun 2023 20:04:55 INFO [Train] Loss:0.001063 , Train_Acc:98.302872%
+Sat, 03 Jun 2023 20:04:55 INFO [Train] Loss_Open:0.000217 , Loss_Close:0.000074%
+Sat, 03 Jun 2023 20:05:14 INFO [Validate] Val_Acc:68.292679%  |  Open_ACC:53.888889%   |  Close_ACC:77.859779%
+Sat, 03 Jun 2023 20:05:14 INFO [Result] The best acc is 68.514412% at epoch 39
+Sat, 03 Jun 2023 20:13:50 INFO -------[Epoch]:44-------
+Sat, 03 Jun 2023 20:13:50 INFO [Train] Loss:0.001922 , Train_Acc:98.009140%
+Sat, 03 Jun 2023 20:13:50 INFO [Train] Loss_Open:0.000261 , Loss_Close:0.000225%
+Sat, 03 Jun 2023 20:14:09 INFO [Validate] Val_Acc:68.957870%  |  Open_ACC:53.333336%   |  Close_ACC:79.335793%
+Sat, 03 Jun 2023 20:14:12 INFO [Result] The best acc is 68.957870% at epoch 44
+Sat, 03 Jun 2023 20:22:39 INFO -------[Epoch]:45-------
+Sat, 03 Jun 2023 20:22:39 INFO [Train] Loss:0.002172 , Train_Acc:98.270233%
+Sat, 03 Jun 2023 20:22:39 INFO [Train] Loss_Open:0.000222 , Loss_Close:0.000304%
+Sat, 03 Jun 2023 20:22:58 INFO [Validate] Val_Acc:67.627495%  |  Open_ACC:52.486191%   |  Close_ACC:77.777779%
+Sat, 03 Jun 2023 20:22:58 INFO [Result] The best acc is 68.957870% at epoch 44
+Sat, 03 Jun 2023 20:31:31 INFO -------[Epoch]:46-------
+Sat, 03 Jun 2023 20:31:31 INFO [Train] Loss:0.001122 , Train_Acc:98.433418%
+Sat, 03 Jun 2023 20:31:31 INFO [Train] Loss_Open:0.000227 , Loss_Close:0.000080%
+Sat, 03 Jun 2023 20:31:50 INFO [Validate] Val_Acc:66.518845%  |  Open_ACC:50.828732%   |  Close_ACC:77.037033%
+Sat, 03 Jun 2023 20:31:50 INFO [Result] The best acc is 68.957870% at epoch 44
+Sat, 03 Jun 2023 20:40:27 INFO -------[Epoch]:47-------
+Sat, 03 Jun 2023 20:40:27 INFO [Train] Loss:0.000886 , Train_Acc:98.531334%
+Sat, 03 Jun 2023 20:40:27 INFO [Train] Loss_Open:0.000186 , Loss_Close:0.000059%
+Sat, 03 Jun 2023 20:40:45 INFO [Validate] Val_Acc:66.962303%  |  Open_ACC:50.276245%   |  Close_ACC:78.148148%
+Sat, 03 Jun 2023 20:40:45 INFO [Result] The best acc is 68.957870% at epoch 44
+Sat, 03 Jun 2023 20:49:13 INFO -------[Epoch]:48-------
+Sat, 03 Jun 2023 20:49:13 INFO [Train] Loss:0.000834 , Train_Acc:98.498695%
+Sat, 03 Jun 2023 20:49:13 INFO [Train] Loss_Open:0.000166 , Loss_Close:0.000061%
+Sat, 03 Jun 2023 20:49:32 INFO [Validate] Val_Acc:68.514412%  |  Open_ACC:55.000000%   |  Close_ACC:77.490776%
+Sat, 03 Jun 2023 20:49:32 INFO [Result] The best acc is 68.957870% at epoch 44
+Sat, 03 Jun 2023 20:58:03 INFO -------[Epoch]:49-------
+Sat, 03 Jun 2023 20:58:03 INFO [Train] Loss:0.001057 , Train_Acc:98.433418%
+Sat, 03 Jun 2023 20:58:03 INFO [Train] Loss_Open:0.000211 , Loss_Close:0.000077%
+Sat, 03 Jun 2023 20:58:21 INFO [Validate] Val_Acc:69.623062%  |  Open_ACC:56.111111%   |  Close_ACC:78.597786%
+Sat, 03 Jun 2023 20:58:24 INFO [Result] The best acc is 69.623062% at epoch 49
+Sat, 03 Jun 2023 21:06:49 INFO -------[Epoch]:50-------
+Sat, 03 Jun 2023 21:06:49 INFO [Train] Loss:0.000936 , Train_Acc:98.498695%
+Sat, 03 Jun 2023 21:06:49 INFO [Train] Loss_Open:0.000210 , Loss_Close:0.000052%
+Sat, 03 Jun 2023 21:07:07 INFO [Validate] Val_Acc:66.297119%  |  Open_ACC:50.276245%   |  Close_ACC:77.037033%
+Sat, 03 Jun 2023 21:07:07 INFO [Result] The best acc is 69.623062% at epoch 49
+Sat, 03 Jun 2023 21:15:34 INFO -------[Epoch]:51-------
+Sat, 03 Jun 2023 21:15:34 INFO [Train] Loss:0.002583 , Train_Acc:98.759796%
+Sat, 03 Jun 2023 21:15:34 INFO [Train] Loss_Open:0.000158 , Loss_Close:0.000434%
+Sat, 03 Jun 2023 21:15:53 INFO [Validate] Val_Acc:64.966743%  |  Open_ACC:48.618786%   |  Close_ACC:75.925926%
+Sat, 03 Jun 2023 21:15:53 INFO [Result] The best acc is 69.623062% at epoch 49
+Sat, 03 Jun 2023 21:24:25 INFO -------[Epoch]:52-------
+Sat, 03 Jun 2023 21:24:25 INFO [Train] Loss:0.001003 , Train_Acc:99.053528%
+Sat, 03 Jun 2023 21:24:25 INFO [Train] Loss_Open:0.000158 , Loss_Close:0.000102%
+Sat, 03 Jun 2023 21:24:44 INFO [Validate] Val_Acc:69.623062%  |  Open_ACC:57.222225%   |  Close_ACC:77.859779%
+Sat, 03 Jun 2023 21:24:44 INFO [Result] The best acc is 69.623062% at epoch 49
+Sat, 03 Jun 2023 21:33:16 INFO -------[Epoch]:53-------
+Sat, 03 Jun 2023 21:33:16 INFO [Train] Loss:0.001485 , Train_Acc:98.466057%
+Sat, 03 Jun 2023 21:33:16 INFO [Train] Loss_Open:0.000199 , Loss_Close:0.000175%
+Sat, 03 Jun 2023 21:33:35 INFO [Validate] Val_Acc:67.405762%  |  Open_ACC:56.353592%   |  Close_ACC:74.814812%
+Sat, 03 Jun 2023 21:33:35 INFO [Result] The best acc is 69.623062% at epoch 49
+Sat, 03 Jun 2023 21:41:54 INFO -------[Epoch]:54-------
+Sat, 03 Jun 2023 21:41:54 INFO [Train] Loss:0.002812 , Train_Acc:98.727158%
+Sat, 03 Jun 2023 21:41:54 INFO [Train] Loss_Open:0.000142 , Loss_Close:0.000493%
+Sat, 03 Jun 2023 21:42:13 INFO [Validate] Val_Acc:68.957870%  |  Open_ACC:57.458565%   |  Close_ACC:76.666664%
+Sat, 03 Jun 2023 21:42:13 INFO [Result] The best acc is 69.623062% at epoch 49
+Sat, 03 Jun 2023 21:50:30 INFO -------[Epoch]:55-------
+Sat, 03 Jun 2023 21:50:30 INFO [Train] Loss:0.001596 , Train_Acc:98.694519%
+Sat, 03 Jun 2023 21:50:30 INFO [Train] Loss_Open:0.000107 , Loss_Close:0.000262%
+Sat, 03 Jun 2023 21:50:49 INFO [Validate] Val_Acc:70.288246%  |  Open_ACC:58.333336%   |  Close_ACC:78.228783%
+Sat, 03 Jun 2023 21:50:51 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 21:59:24 INFO -------[Epoch]:56-------
+Sat, 03 Jun 2023 21:59:24 INFO [Train] Loss:0.001006 , Train_Acc:98.792427%
+Sat, 03 Jun 2023 21:59:24 INFO [Train] Loss_Open:0.000158 , Loss_Close:0.000103%
+Sat, 03 Jun 2023 21:59:42 INFO [Validate] Val_Acc:69.844788%  |  Open_ACC:55.801105%   |  Close_ACC:79.259254%
+Sat, 03 Jun 2023 21:59:42 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 22:08:11 INFO -------[Epoch]:57-------
+Sat, 03 Jun 2023 22:08:11 INFO [Train] Loss:0.000632 , Train_Acc:98.890343%
+Sat, 03 Jun 2023 22:08:11 INFO [Train] Loss_Open:0.000113 , Loss_Close:0.000055%
+Sat, 03 Jun 2023 22:08:30 INFO [Validate] Val_Acc:67.627495%  |  Open_ACC:54.444447%   |  Close_ACC:76.383766%
+Sat, 03 Jun 2023 22:08:30 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 22:16:58 INFO -------[Epoch]:58-------
+Sat, 03 Jun 2023 22:16:58 INFO [Train] Loss:0.000738 , Train_Acc:98.825066%
+Sat, 03 Jun 2023 22:16:58 INFO [Train] Loss_Open:0.000143 , Loss_Close:0.000057%
+Sat, 03 Jun 2023 22:17:17 INFO [Validate] Val_Acc:69.623062%  |  Open_ACC:57.222225%   |  Close_ACC:77.859779%
+Sat, 03 Jun 2023 22:17:17 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 22:25:42 INFO -------[Epoch]:59-------
+Sat, 03 Jun 2023 22:25:42 INFO [Train] Loss:0.000764 , Train_Acc:98.727158%
+Sat, 03 Jun 2023 22:25:42 INFO [Train] Loss_Open:0.000152 , Loss_Close:0.000056%
+Sat, 03 Jun 2023 22:26:01 INFO [Validate] Val_Acc:62.971176%  |  Open_ACC:47.222225%   |  Close_ACC:73.431732%
+Sat, 03 Jun 2023 22:26:01 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 22:34:29 INFO -------[Epoch]:60-------
+Sat, 03 Jun 2023 22:34:29 INFO [Train] Loss:0.001003 , Train_Acc:98.727158%
+Sat, 03 Jun 2023 22:34:29 INFO [Train] Loss_Open:0.000143 , Loss_Close:0.000113%
+Sat, 03 Jun 2023 22:34:47 INFO [Validate] Val_Acc:67.849220%  |  Open_ACC:57.777779%   |  Close_ACC:74.538750%
+Sat, 03 Jun 2023 22:34:47 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 22:43:08 INFO -------[Epoch]:61-------
+Sat, 03 Jun 2023 22:43:08 INFO [Train] Loss:0.001064 , Train_Acc:98.727158%
+Sat, 03 Jun 2023 22:43:08 INFO [Train] Loss_Open:0.000139 , Loss_Close:0.000128%
+Sat, 03 Jun 2023 22:43:26 INFO [Validate] Val_Acc:69.179604%  |  Open_ACC:57.222225%   |  Close_ACC:77.121773%
+Sat, 03 Jun 2023 22:43:26 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 22:51:48 INFO -------[Epoch]:62-------
+Sat, 03 Jun 2023 22:51:48 INFO [Train] Loss:0.000786 , Train_Acc:98.922981%
+Sat, 03 Jun 2023 22:51:48 INFO [Train] Loss_Open:0.000157 , Loss_Close:0.000057%
+Sat, 03 Jun 2023 22:52:07 INFO [Validate] Val_Acc:69.401329%  |  Open_ACC:55.555557%   |  Close_ACC:78.597786%
+Sat, 03 Jun 2023 22:52:07 INFO [Result] The best acc is 70.288246% at epoch 55
+Sat, 03 Jun 2023 23:00:36 INFO -------[Epoch]:63-------
+Sat, 03 Jun 2023 23:00:36 INFO [Train] Loss:0.001543 , Train_Acc:98.694519%
+Sat, 03 Jun 2023 23:00:36 INFO [Train] Loss_Open:0.000159 , Loss_Close:0.000215%
+Sat, 03 Jun 2023 23:00:55 INFO [Validate] Val_Acc:71.175163%  |  Open_ACC:59.116024%   |  Close_ACC:79.259254%
+Sat, 03 Jun 2023 23:00:58 INFO [Result] The best acc is 71.175163% at epoch 63
+Sat, 03 Jun 2023 23:09:29 INFO -------[Epoch]:64-------
+Sat, 03 Jun 2023 23:09:29 INFO [Train] Loss:0.000655 , Train_Acc:98.792427%
+Sat, 03 Jun 2023 23:09:29 INFO [Train] Loss_Open:0.000116 , Loss_Close:0.000058%
+Sat, 03 Jun 2023 23:09:48 INFO [Validate] Val_Acc:69.401329%  |  Open_ACC:55.555557%   |  Close_ACC:78.597786%
+Sat, 03 Jun 2023 23:09:48 INFO [Result] The best acc is 71.175163% at epoch 63
+Sat, 03 Jun 2023 23:18:06 INFO -------[Epoch]:65-------
+Sat, 03 Jun 2023 23:18:06 INFO [Train] Loss:0.000624 , Train_Acc:98.792427%
+Sat, 03 Jun 2023 23:18:06 INFO [Train] Loss_Open:0.000110 , Loss_Close:0.000055%
+Sat, 03 Jun 2023 23:18:25 INFO [Validate] Val_Acc:68.070953%  |  Open_ACC:54.696136%   |  Close_ACC:77.037033%
+Sat, 03 Jun 2023 23:18:25 INFO [Result] The best acc is 71.175163% at epoch 63
+Sat, 03 Jun 2023 23:26:38 INFO -------[Epoch]:66-------
+Sat, 03 Jun 2023 23:26:38 INFO [Train] Loss:0.003359 , Train_Acc:98.890343%
+Sat, 03 Jun 2023 23:26:38 INFO [Train] Loss_Open:0.000109 , Loss_Close:0.000631%
+Sat, 03 Jun 2023 23:26:56 INFO [Validate] Val_Acc:63.858093%  |  Open_ACC:47.222225%   |  Close_ACC:74.907753%
+Sat, 03 Jun 2023 23:26:56 INFO [Result] The best acc is 71.175163% at epoch 63
+Sat, 03 Jun 2023 23:35:09 INFO -------[Epoch]:67-------
+Sat, 03 Jun 2023 23:35:09 INFO [Train] Loss:0.000677 , Train_Acc:98.988251%
+Sat, 03 Jun 2023 23:35:09 INFO [Train] Loss_Open:0.000102 , Loss_Close:0.000072%
+Sat, 03 Jun 2023 23:35:28 INFO [Validate] Val_Acc:69.844788%  |  Open_ACC:56.111111%   |  Close_ACC:78.966789%
+Sat, 03 Jun 2023 23:35:28 INFO [Result] The best acc is 71.175163% at epoch 63
+Sat, 03 Jun 2023 23:43:55 INFO -------[Epoch]:68-------
+Sat, 03 Jun 2023 23:43:55 INFO [Train] Loss:0.001163 , Train_Acc:98.890343%
+Sat, 03 Jun 2023 23:43:55 INFO [Train] Loss_Open:0.000135 , Loss_Close:0.000151%
+Sat, 03 Jun 2023 23:44:13 INFO [Validate] Val_Acc:70.509979%  |  Open_ACC:57.222225%   |  Close_ACC:79.335793%
+Sat, 03 Jun 2023 23:44:13 INFO [Result] The best acc is 71.175163% at epoch 63
+Sat, 03 Jun 2023 23:52:45 INFO -------[Epoch]:69-------
+Sat, 03 Jun 2023 23:52:45 INFO [Train] Loss:0.000863 , Train_Acc:98.890343%
+Sat, 03 Jun 2023 23:52:45 INFO [Train] Loss_Open:0.000116 , Loss_Close:0.000102%
+Sat, 03 Jun 2023 23:53:04 INFO [Validate] Val_Acc:69.844788%  |  Open_ACC:59.217876%   |  Close_ACC:76.838234%
+Sat, 03 Jun 2023 23:53:04 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 00:01:34 INFO -------[Epoch]:70-------
+Sun, 04 Jun 2023 00:01:34 INFO [Train] Loss:0.000750 , Train_Acc:98.825066%
+Sun, 04 Jun 2023 00:01:34 INFO [Train] Loss_Open:0.000120 , Loss_Close:0.000075%
+Sun, 04 Jun 2023 00:01:53 INFO [Validate] Val_Acc:70.509979%  |  Open_ACC:57.222225%   |  Close_ACC:79.335793%
+Sun, 04 Jun 2023 00:01:53 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 00:10:17 INFO -------[Epoch]:71-------
+Sun, 04 Jun 2023 00:10:17 INFO [Train] Loss:0.002084 , Train_Acc:98.955612%
+Sun, 04 Jun 2023 00:10:17 INFO [Train] Loss_Open:0.000098 , Loss_Close:0.000370%
+Sun, 04 Jun 2023 00:10:36 INFO [Validate] Val_Acc:70.066521%  |  Open_ACC:57.222225%   |  Close_ACC:78.597786%
+Sun, 04 Jun 2023 00:10:36 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 00:18:58 INFO -------[Epoch]:72-------
+Sun, 04 Jun 2023 00:18:58 INFO [Train] Loss:0.001809 , Train_Acc:98.890343%
+Sun, 04 Jun 2023 00:18:58 INFO [Train] Loss_Open:0.000116 , Loss_Close:0.000300%
+Sun, 04 Jun 2023 00:19:17 INFO [Validate] Val_Acc:70.288246%  |  Open_ACC:58.888889%   |  Close_ACC:77.859779%
+Sun, 04 Jun 2023 00:19:17 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 00:27:44 INFO -------[Epoch]:73-------
+Sun, 04 Jun 2023 00:27:44 INFO [Train] Loss:0.000712 , Train_Acc:98.857704%
+Sun, 04 Jun 2023 00:27:44 INFO [Train] Loss_Open:0.000092 , Loss_Close:0.000086%
+Sun, 04 Jun 2023 00:28:03 INFO [Validate] Val_Acc:71.175163%  |  Open_ACC:59.444447%   |  Close_ACC:78.966789%
+Sun, 04 Jun 2023 00:28:03 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 00:36:20 INFO -------[Epoch]:74-------
+Sun, 04 Jun 2023 00:36:20 INFO [Train] Loss:0.000926 , Train_Acc:98.988251%
+Sun, 04 Jun 2023 00:36:20 INFO [Train] Loss_Open:0.000097 , Loss_Close:0.000128%
+Sun, 04 Jun 2023 00:36:38 INFO [Validate] Val_Acc:70.066521%  |  Open_ACC:56.666668%   |  Close_ACC:78.966789%
+Sun, 04 Jun 2023 00:36:38 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 00:44:48 INFO -------[Epoch]:75-------
+Sun, 04 Jun 2023 00:44:48 INFO [Train] Loss:0.000542 , Train_Acc:99.118797%
+Sun, 04 Jun 2023 00:44:48 INFO [Train] Loss_Open:0.000074 , Loss_Close:0.000063%
+Sun, 04 Jun 2023 00:45:07 INFO [Validate] Val_Acc:68.957870%  |  Open_ACC:55.555557%   |  Close_ACC:77.859779%
+Sun, 04 Jun 2023 00:45:07 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 00:53:12 INFO -------[Epoch]:76-------
+Sun, 04 Jun 2023 00:53:12 INFO [Train] Loss:0.000798 , Train_Acc:98.825066%
+Sun, 04 Jun 2023 00:53:12 INFO [Train] Loss_Open:0.000120 , Loss_Close:0.000085%
+Sun, 04 Jun 2023 00:53:31 INFO [Validate] Val_Acc:68.070953%  |  Open_ACC:54.444447%   |  Close_ACC:77.121773%
+Sun, 04 Jun 2023 00:53:31 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 01:01:39 INFO -------[Epoch]:77-------
+Sun, 04 Jun 2023 01:01:39 INFO [Train] Loss:0.000681 , Train_Acc:98.890343%
+Sun, 04 Jun 2023 01:01:39 INFO [Train] Loss_Open:0.000083 , Loss_Close:0.000086%
+Sun, 04 Jun 2023 01:01:58 INFO [Validate] Val_Acc:69.179604%  |  Open_ACC:56.111111%   |  Close_ACC:77.859779%
+Sun, 04 Jun 2023 01:01:58 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 01:10:20 INFO -------[Epoch]:78-------
+Sun, 04 Jun 2023 01:10:20 INFO [Train] Loss:0.000491 , Train_Acc:98.955612%
+Sun, 04 Jun 2023 01:10:20 INFO [Train] Loss_Open:0.000074 , Loss_Close:0.000052%
+Sun, 04 Jun 2023 01:10:39 INFO [Validate] Val_Acc:70.953438%  |  Open_ACC:58.888889%   |  Close_ACC:78.966789%
+Sun, 04 Jun 2023 01:10:39 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 01:19:09 INFO -------[Epoch]:79-------
+Sun, 04 Jun 2023 01:19:09 INFO [Train] Loss:0.000581 , Train_Acc:98.825066%
+Sun, 04 Jun 2023 01:19:09 INFO [Train] Loss_Open:0.000086 , Loss_Close:0.000063%
+Sun, 04 Jun 2023 01:19:28 INFO [Validate] Val_Acc:70.509979%  |  Open_ACC:56.111111%   |  Close_ACC:80.073799%
+Sun, 04 Jun 2023 01:19:28 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 01:28:00 INFO -------[Epoch]:80-------
+Sun, 04 Jun 2023 01:28:00 INFO [Train] Loss:0.001764 , Train_Acc:98.792427%
+Sun, 04 Jun 2023 01:28:00 INFO [Train] Loss_Open:0.000098 , Loss_Close:0.000304%
+Sun, 04 Jun 2023 01:28:18 INFO [Validate] Val_Acc:70.066521%  |  Open_ACC:57.777779%   |  Close_ACC:78.228783%
+Sun, 04 Jun 2023 01:28:18 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 01:36:44 INFO -------[Epoch]:81-------
+Sun, 04 Jun 2023 01:36:44 INFO [Train] Loss:0.000809 , Train_Acc:99.151436%
+Sun, 04 Jun 2023 01:36:44 INFO [Train] Loss_Open:0.000084 , Loss_Close:0.000111%
+Sun, 04 Jun 2023 01:37:03 INFO [Validate] Val_Acc:68.957870%  |  Open_ACC:56.111111%   |  Close_ACC:77.490776%
+Sun, 04 Jun 2023 01:37:03 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 01:45:26 INFO -------[Epoch]:82-------
+Sun, 04 Jun 2023 01:45:26 INFO [Train] Loss:0.000715 , Train_Acc:98.955612%
+Sun, 04 Jun 2023 01:45:26 INFO [Train] Loss_Open:0.000097 , Loss_Close:0.000083%
+Sun, 04 Jun 2023 01:45:45 INFO [Validate] Val_Acc:70.288246%  |  Open_ACC:58.333336%   |  Close_ACC:78.228783%
+Sun, 04 Jun 2023 01:45:45 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 01:54:14 INFO -------[Epoch]:83-------
+Sun, 04 Jun 2023 01:54:14 INFO [Train] Loss:0.001029 , Train_Acc:99.118797%
+Sun, 04 Jun 2023 01:54:14 INFO [Train] Loss_Open:0.000084 , Loss_Close:0.000158%
+Sun, 04 Jun 2023 01:54:33 INFO [Validate] Val_Acc:70.288246%  |  Open_ACC:57.777779%   |  Close_ACC:78.597786%
+Sun, 04 Jun 2023 01:54:33 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 02:02:57 INFO -------[Epoch]:84-------
+Sun, 04 Jun 2023 02:02:57 INFO [Train] Loss:0.000590 , Train_Acc:98.955612%
+Sun, 04 Jun 2023 02:02:57 INFO [Train] Loss_Open:0.000095 , Loss_Close:0.000058%
+Sun, 04 Jun 2023 02:03:15 INFO [Validate] Val_Acc:70.731705%  |  Open_ACC:59.444447%   |  Close_ACC:78.228783%
+Sun, 04 Jun 2023 02:03:15 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 02:11:42 INFO -------[Epoch]:85-------
+Sun, 04 Jun 2023 02:11:42 INFO [Train] Loss:0.000510 , Train_Acc:99.086166%
+Sun, 04 Jun 2023 02:11:42 INFO [Train] Loss_Open:0.000078 , Loss_Close:0.000053%
+Sun, 04 Jun 2023 02:12:01 INFO [Validate] Val_Acc:70.731705%  |  Open_ACC:58.333336%   |  Close_ACC:78.966789%
+Sun, 04 Jun 2023 02:12:01 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 02:20:30 INFO -------[Epoch]:86-------
+Sun, 04 Jun 2023 02:20:30 INFO [Train] Loss:0.000965 , Train_Acc:98.857704%
+Sun, 04 Jun 2023 02:20:30 INFO [Train] Loss_Open:0.000097 , Loss_Close:0.000136%
+Sun, 04 Jun 2023 02:20:48 INFO [Validate] Val_Acc:70.288246%  |  Open_ACC:58.888889%   |  Close_ACC:77.859779%
+Sun, 04 Jun 2023 02:20:48 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 02:29:19 INFO -------[Epoch]:87-------
+Sun, 04 Jun 2023 02:29:19 INFO [Train] Loss:0.000535 , Train_Acc:99.151436%
+Sun, 04 Jun 2023 02:29:19 INFO [Train] Loss_Open:0.000076 , Loss_Close:0.000060%
+Sun, 04 Jun 2023 02:29:37 INFO [Validate] Val_Acc:70.953438%  |  Open_ACC:59.444447%   |  Close_ACC:78.597786%
+Sun, 04 Jun 2023 02:29:37 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 02:38:03 INFO -------[Epoch]:88-------
+Sun, 04 Jun 2023 02:38:03 INFO [Train] Loss:0.000573 , Train_Acc:98.955612%
+Sun, 04 Jun 2023 02:38:03 INFO [Train] Loss_Open:0.000096 , Loss_Close:0.000054%
+Sun, 04 Jun 2023 02:38:21 INFO [Validate] Val_Acc:69.401329%  |  Open_ACC:57.222225%   |  Close_ACC:77.490776%
+Sun, 04 Jun 2023 02:38:21 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 02:46:42 INFO -------[Epoch]:89-------
+Sun, 04 Jun 2023 02:46:42 INFO [Train] Loss:0.000588 , Train_Acc:99.184074%
+Sun, 04 Jun 2023 02:46:42 INFO [Train] Loss_Open:0.000082 , Loss_Close:0.000067%
+Sun, 04 Jun 2023 02:47:01 INFO [Validate] Val_Acc:68.957870%  |  Open_ACC:55.000000%   |  Close_ACC:78.228783%
+Sun, 04 Jun 2023 02:47:01 INFO [Result] The best acc is 71.175163% at epoch 63
+Sun, 04 Jun 2023 02:55:12 INFO -------[Epoch]:90-------
+Sun, 04 Jun 2023 02:55:12 INFO [Train] Loss:0.000495 , Train_Acc:99.118797%
+Sun, 04 Jun 2023 02:55:12 INFO [Train] Loss_Open:0.000077 , Loss_Close:0.000051%
+Sun, 04 Jun 2023 02:55:31 INFO [Validate] Val_Acc:71.840355%  |  Open_ACC:60.000000%   |  Close_ACC:79.704796%
+Sun, 04 Jun 2023 02:55:34 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 03:03:41 INFO -------[Epoch]:91-------
+Sun, 04 Jun 2023 03:03:41 INFO [Train] Loss:0.000574 , Train_Acc:99.053528%
+Sun, 04 Jun 2023 03:03:41 INFO [Train] Loss_Open:0.000075 , Loss_Close:0.000069%
+Sun, 04 Jun 2023 03:03:59 INFO [Validate] Val_Acc:69.401329%  |  Open_ACC:55.248619%   |  Close_ACC:78.888885%
+Sun, 04 Jun 2023 03:03:59 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 03:12:15 INFO -------[Epoch]:92-------
+Sun, 04 Jun 2023 03:12:15 INFO [Train] Loss:0.001047 , Train_Acc:99.053528%
+Sun, 04 Jun 2023 03:12:15 INFO [Train] Loss_Open:0.000048 , Loss_Close:0.000186%
+Sun, 04 Jun 2023 03:12:33 INFO [Validate] Val_Acc:69.401329%  |  Open_ACC:59.116024%   |  Close_ACC:76.296295%
+Sun, 04 Jun 2023 03:12:33 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 03:20:59 INFO -------[Epoch]:93-------
+Sun, 04 Jun 2023 03:20:59 INFO [Train] Loss:0.000514 , Train_Acc:99.118797%
+Sun, 04 Jun 2023 03:20:59 INFO [Train] Loss_Open:0.000071 , Loss_Close:0.000059%
+Sun, 04 Jun 2023 03:21:18 INFO [Validate] Val_Acc:69.844788%  |  Open_ACC:57.458565%   |  Close_ACC:78.148148%
+Sun, 04 Jun 2023 03:21:18 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 03:29:46 INFO -------[Epoch]:94-------
+Sun, 04 Jun 2023 03:29:46 INFO [Train] Loss:0.000813 , Train_Acc:98.890343%
+Sun, 04 Jun 2023 03:29:46 INFO [Train] Loss_Open:0.000083 , Loss_Close:0.000113%
+Sun, 04 Jun 2023 03:30:05 INFO [Validate] Val_Acc:68.514412%  |  Open_ACC:54.444447%   |  Close_ACC:77.859779%
+Sun, 04 Jun 2023 03:30:05 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 03:38:28 INFO -------[Epoch]:95-------
+Sun, 04 Jun 2023 03:38:28 INFO [Train] Loss:0.000420 , Train_Acc:99.086166%
+Sun, 04 Jun 2023 03:38:28 INFO [Train] Loss_Open:0.000059 , Loss_Close:0.000047%
+Sun, 04 Jun 2023 03:38:46 INFO [Validate] Val_Acc:67.849220%  |  Open_ACC:53.333336%   |  Close_ACC:77.490776%
+Sun, 04 Jun 2023 03:38:46 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 03:47:02 INFO -------[Epoch]:96-------
+Sun, 04 Jun 2023 03:47:02 INFO [Train] Loss:0.001038 , Train_Acc:99.053528%
+Sun, 04 Jun 2023 03:47:02 INFO [Train] Loss_Open:0.000058 , Loss_Close:0.000178%
+Sun, 04 Jun 2023 03:47:20 INFO [Validate] Val_Acc:68.957870%  |  Open_ACC:58.011051%   |  Close_ACC:76.296295%
+Sun, 04 Jun 2023 03:47:20 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 03:55:47 INFO -------[Epoch]:97-------
+Sun, 04 Jun 2023 03:55:47 INFO [Train] Loss:0.000528 , Train_Acc:98.955612%
+Sun, 04 Jun 2023 03:55:47 INFO [Train] Loss_Open:0.000062 , Loss_Close:0.000068%
+Sun, 04 Jun 2023 03:56:06 INFO [Validate] Val_Acc:70.509979%  |  Open_ACC:54.444447%   |  Close_ACC:81.180809%
+Sun, 04 Jun 2023 03:56:06 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 04:04:34 INFO -------[Epoch]:98-------
+Sun, 04 Jun 2023 04:04:34 INFO [Train] Loss:0.000635 , Train_Acc:99.118797%
+Sun, 04 Jun 2023 04:04:34 INFO [Train] Loss_Open:0.000103 , Loss_Close:0.000062%
+Sun, 04 Jun 2023 04:04:53 INFO [Validate] Val_Acc:70.066521%  |  Open_ACC:55.248619%   |  Close_ACC:80.000000%
+Sun, 04 Jun 2023 04:04:53 INFO [Result] The best acc is 71.840355% at epoch 90
+Sun, 04 Jun 2023 04:13:10 INFO -------[Epoch]:99-------
+Sun, 04 Jun 2023 04:13:10 INFO [Train] Loss:0.000491 , Train_Acc:99.086166%
+Sun, 04 Jun 2023 04:13:10 INFO [Train] Loss_Open:0.000072 , Loss_Close:0.000054%
+Sun, 04 Jun 2023 04:13:29 INFO [Validate] Val_Acc:71.396896%  |  Open_ACC:57.777779%   |  Close_ACC:80.442802%
+Sun, 04 Jun 2023 04:13:29 INFO [Result] The best acc is 71.840355% at epoch 90
